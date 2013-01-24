@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['occupancyset',['occupancySet',['../classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html#ab922a72fc30f0f0a8552d71f156a8f6e',1,'annis::gui::widgets::grid::Row']]],
+  ['offset',['offset',['../classannis_1_1gui_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a08753c516c891e453529a96f4868aa68',1,'annis.gui.visualizers.iframe.gridtree.GridTreeVisualizer.Span.offset()'],['../classannis_1_1AnnisRunner.html#a6dfec773d97459397066e7771f14dc7c',1,'annis.AnnisRunner.offset()'],['../classannis_1_1sqlgen_1_1LimitOffsetQueryData.html#acfcf8b24d81a28bb1c4770d86755ab3f',1,'annis.sqlgen.LimitOffsetQueryData.offset()']]],
+  ['ok',['ok',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status.html#ad11a2d7ceb32d53b0a3df61db719806c',1,'de::hu_berlin::german::korpling::annis::kickstarter::ImportDialog::Status']]],
+  ['optimizedistinct',['optimizeDistinct',['../classannis_1_1sqlgen_1_1FindSqlGenerator.html#a4b42244a41131af95883c1259f82c153',1,'annis::sqlgen::FindSqlGenerator']]],
+  ['optimizeinclusion',['optimizeInclusion',['../classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#a3be8d7d0091984d37d4bc494efb6fb26',1,'annis::sqlgen::DefaultWhereClauseGenerator']]],
+  ['optimizeindirectprecedence',['optimizeIndirectPrecedence',['../classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#a96fc83838ee5eaac6e4847918c1c84c2',1,'annis::sqlgen::DefaultWhereClauseGenerator']]],
+  ['options',['options',['../classannis_1_1administration_1_1AnnisAdminRunner_1_1OptionBuilder.html#adc8e189e5c7f6248c5d44e45b60334a6',1,'annis::administration::AnnisAdminRunner::OptionBuilder']]],
+  ['orangered',['OrangeRed',['../enumannis_1_1gui_1_1MatchedNodeColors.html#ab86f5f15581eec50390ed40cf235ec6d',1,'annis::gui::MatchedNodeColors']]],
+  ['order',['order',['../classannis_1_1resolver_1_1ResolverEntry.html#a1bffcf7546e8d87c972ed8bb436d4d04',1,'annis::resolver::ResolverEntry']]],
+  ['orderbyclausesqlgenerator',['orderByClauseSqlGenerator',['../classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html#a197391dcfe8842bd5e45eeaba63e37f5',1,'annis::sqlgen::AbstractSqlGenerator&lt; T &gt;']]],
+  ['orientation',['orientation',['../classannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html#a238598c0877bc3515e428974e5c03317',1,'annis.gui.visualizers.iframe.tree.ConstituentLayouter&lt; T extends GraphicsItem &gt;.TreeLayoutData.orientation()'],['../classannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1LayoutOptions.html#a47175f25e7f0c3594462e1a6be191a85',1,'annis.gui.visualizers.iframe.tree.LayoutOptions.orientation()']]],
+  ['origcounter',['origCounter',['../classannis_1_1ql_1_1parser_1_1DnfNodeRelNumberUpdater.html#af519cbe0b1782957617fabd58f67cfb8',1,'annis::ql::parser::DnfNodeRelNumberUpdater']]],
+  ['other',['other',['../enumannis_1_1AnnisRunner_1_1OS.html#add0b49b8163777ede8e3593e56d94fca',1,'annis::AnnisRunner::OS']]],
+  ['out',['out',['../classannis_1_1AnnisBaseRunner.html#a7aaf275d1f07300668d1b77f4e0f0d6e',1,'annis.AnnisBaseRunner.out()'],['../classannis_1_1ql_1_1parser_1_1TreeDumper.html#aecd5530936d8f0c72decba2d9f7ca4f2',1,'annis.ql.parser.TreeDumper.out()']]],
+  ['outerquerytableaccessstrategy',['outerQueryTableAccessStrategy',['../classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html#a72745fe0dd0810ff160e5c85b241d1c6',1,'annis.sqlgen.AnnotateSqlGenerator&lt; T &gt;.outerQueryTableAccessStrategy()'],['../classannis_1_1sqlgen_1_1AomAnnotateExtractor.html#afd91f878954effb7c79cabc00b5a5aa7',1,'annis.sqlgen.AomAnnotateExtractor.outerQueryTableAccessStrategy()'],['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a7d2d2a1ab0b1490085d3351f822b55f1',1,'annis.sqlgen.SaltAnnotateExtractor.outerQueryTableAccessStrategy()']]],
+  ['outgoingedges',['outgoingEdges',['../classannis_1_1model_1_1AnnisNode.html#ae627aa091d327b5acf15546d8b41e98c',1,'annis::model::AnnisNode']]],
+  ['outputcorpuspath',['outputCorpusPath',['../classannis_1_1sqlgen_1_1FindSqlGenerator.html#a11127951ad7872b56c56e7fffb564b87',1,'annis::sqlgen::FindSqlGenerator']]]
+];

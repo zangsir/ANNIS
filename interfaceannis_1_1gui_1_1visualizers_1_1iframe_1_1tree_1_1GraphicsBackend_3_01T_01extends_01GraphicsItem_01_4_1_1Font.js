@@ -1,0 +1,6 @@
+var interfaceannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4_1_1Font =
+[
+    [ "extents", "interfaceannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4_1_1Font.html#a7d505a505d57cfefbdb5cc9575685be8", null ],
+    [ "getAscent", "interfaceannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4_1_1Font.html#a093bca1e94bc6589d39649ba05528043", null ],
+    [ "getLineHeight", "interfaceannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4_1_1Font.html#aa0adb4fb41ecbe38ffe59d6c206cd51c", null ]
+];
