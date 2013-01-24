@@ -43,8 +43,8 @@ var searchData=
   ['outerquerytableaccessstrategy',['outerQueryTableAccessStrategy',['../classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html#a72745fe0dd0810ff160e5c85b241d1c6',1,'annis.sqlgen.AnnotateSqlGenerator&lt; T &gt;.outerQueryTableAccessStrategy()'],['../classannis_1_1sqlgen_1_1AomAnnotateExtractor.html#afd91f878954effb7c79cabc00b5a5aa7',1,'annis.sqlgen.AomAnnotateExtractor.outerQueryTableAccessStrategy()'],['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a7d2d2a1ab0b1490085d3351f822b55f1',1,'annis.sqlgen.SaltAnnotateExtractor.outerQueryTableAccessStrategy()']]],
   ['outgoingedges',['outgoingEdges',['../classannis_1_1model_1_1AnnisNode.html#ae627aa091d327b5acf15546d8b41e98c',1,'annis::model::AnnisNode']]],
   ['outputcorpuspath',['outputCorpusPath',['../classannis_1_1sqlgen_1_1FindSqlGenerator.html#a11127951ad7872b56c56e7fffb564b87',1,'annis::sqlgen::FindSqlGenerator']]],
-  ['overlap',['Overlap',['../classannis_1_1sqlgen_1_1model_1_1Overlap.html',1,'annis::sqlgen::model']]],
   ['overlap',['Overlap',['../classannis_1_1sqlgen_1_1model_1_1Overlap.html#a964cf1e875e530d9d3039decf5a81c6c',1,'annis::sqlgen::model::Overlap']]],
+  ['overlap',['Overlap',['../classannis_1_1sqlgen_1_1model_1_1Overlap.html',1,'annis::sqlgen::model']]],
   ['overlap_2ejava',['Overlap.java',['../Overlap_8java.html',1,'']]],
   ['overlapforonerange',['overlapForOneRange',['../classannis_1_1sqlgen_1_1CommonAnnotateWithClauseGenerator.html#a70ad430c337a15a36febeefe8a55f144',1,'annis::sqlgen::CommonAnnotateWithClauseGenerator']]]
 ];

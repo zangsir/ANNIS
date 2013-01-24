@@ -10,5 +10,6 @@ var searchData=
   ['querynode_2ejava',['QueryNode.java',['../QueryNode_8java.html',1,'']]],
   ['querypanel_2ejava',['QueryPanel.java',['../QueryPanel_8java.html',1,'']]],
   ['queryservice_2ejava',['QueryService.java',['../QueryService_8java.html',1,'']]],
-  ['queryvalidator_2ejava',['QueryValidator.java',['../QueryValidator_8java.html',1,'']]]
+  ['queryvalidator_2ejava',['QueryValidator.java',['../QueryValidator_8java.html',1,'']]],
+  ['unknownexpressionexception_2ejava',['UnknownExpressionException.java',['../ql_2parser_2UnknownExpressionException_8java.html',1,'']]]
 ];

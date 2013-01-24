@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['timehelper_2ejava',['TimeHelper.java',['../visualizers_2iframe_2partitur_2TimeHelper_8java.html',1,'']]],
   ['vakyarthadependencytree',['VakyarthaDependencyTree',['../classannis_1_1gui_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html',1,'annis::gui::visualizers::iframe::dependency']]],
   ['vakyarthadependencytree_2ejava',['VakyarthaDependencyTree.java',['../VakyarthaDependencyTree_8java.html',1,'']]],
   ['validatequery',['validateQuery',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a3e8c08e164a03fbf3975588d708f9da2',1,'annis::gui::controlpanel::QueryPanel']]],
@@ -23,8 +24,8 @@ var searchData=
   ['vedge_5foverlap_5fthreshold',['VEDGE_OVERLAP_THRESHOLD',['../classannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1TigerTreeVisualizer_1_1DefaultStyler.html#a4ad3d737dd8b9f6a192ca02584bce0d3',1,'annis::gui::visualizers::iframe::tree::TigerTreeVisualizer::DefaultStyler']]],
   ['version',['version',['../classannis_1_1resolver_1_1ResolverEntry.html#a7d8d88fae1beb8d1382fce48e651b822',1,'annis::resolver::ResolverEntry']]],
   ['versionproperties',['versionProperties',['../classannis_1_1gui_1_1MainApp.html#a7b851dd84bbdf3746e7650f7387af38a',1,'annis::gui::MainApp']]],
-  ['verticalorientation',['VerticalOrientation',['../enumannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1VerticalOrientation.html#a1c510ec02722a146d1ac2ed0f9cc48fa',1,'annis::gui::visualizers::iframe::tree::VerticalOrientation']]],
   ['verticalorientation',['VerticalOrientation',['../enumannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1VerticalOrientation.html',1,'annis::gui::visualizers::iframe::tree']]],
+  ['verticalorientation',['VerticalOrientation',['../enumannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1VerticalOrientation.html#a1c510ec02722a146d1ac2ed0f9cc48fa',1,'annis::gui::visualizers::iframe::tree::VerticalOrientation']]],
   ['verticalorientation_2ejava',['VerticalOrientation.java',['../VerticalOrientation_8java.html',1,'']]],
   ['vgripdragcomponent',['VGripDragComponent',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1VGripDragComponent.html#a6c58d66cbe8d2a7b909b5924ee2eb9a5',1,'annis::gui::widgets::gwt::client::VGripDragComponent']]],
   ['vgripdragcomponent',['VGripDragComponent',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1VGripDragComponent.html',1,'annis::gui::widgets::gwt::client']]],
@@ -56,8 +57,8 @@ var searchData=
   ['visualizerinput_2ejava',['VisualizerInput.java',['../VisualizerInput_8java.html',1,'']]],
   ['visualizerisvisible',['visualizerIsVisible',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a4529393b851aa469197f845786b01c23',1,'annis.gui.resultview.VisualizerPanel.visualizerIsVisible()'],['../interfaceannis_1_1gui_1_1VisualizationToggle.html#ace8a94a1754bd685a3c7dfaaaf389ff6',1,'annis.gui.VisualizationToggle.visualizerIsVisible()']]],
   ['visualizerloaded',['visualizerLoaded',['../classannis_1_1gui_1_1media_1_1impl_1_1MediaControllerImpl_1_1CallbackImpl.html#a3dfd9a924e29568436bdee2f9aff1203',1,'annis.gui.media.impl.MediaControllerImpl.CallbackImpl.visualizerLoaded()'],['../interfaceannis_1_1visualizers_1_1LoadableVisualizer_1_1Callback.html#a49d9f75f901c65b42cf33d95b7f50a35',1,'annis.visualizers.LoadableVisualizer.Callback.visualizerLoaded()']]],
-  ['visualizerpanel',['VisualizerPanel',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#af6a1794049c409bc09d67361b609c2c2',1,'annis::gui::resultview::VisualizerPanel']]],
   ['visualizerpanel',['VisualizerPanel',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html',1,'annis::gui::resultview']]],
+  ['visualizerpanel',['VisualizerPanel',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#af6a1794049c409bc09d67361b609c2c2',1,'annis::gui::resultview::VisualizerPanel']]],
   ['visualizerpanel_2ejava',['VisualizerPanel.java',['../VisualizerPanel_8java.html',1,'']]],
   ['visualizerplugin_2ejava',['VisualizerPlugin.java',['../VisualizerPlugin_8java.html',1,'']]],
   ['visualizerplugin_3c_20i_20extends_20component_20_3e',['VisualizerPlugin&lt; I extends Component &gt;',['../interfaceannis_1_1gui_1_1visualizers_1_1VisualizerPlugin_3_01I_01extends_01Component_01_4.html',1,'annis::gui::visualizers']]],

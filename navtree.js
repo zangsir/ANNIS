@@ -46,8 +46,8 @@ var NAVTREEINDEX =
 "classannis_1_1sqlgen_1_1ListCorpusSqlHelper.html#a5cfc8d011355b89eff06861a7547b68e",
 "classannis_1_1sqlgen_1_1model_1_1LeftOverlap.html#a7283dbe03ebfe717509aaf68c55710f1",
 "classorg_1_1json_1_1JSONArray.html#a86a8ba6ff68f50faaad5c7070ef91f64",
-"dir_ea9da28df631c58a7da95d6c58cd9660.html",
-"interfaceannis_1_1dao_1_1CorpusSelectionStrategy.html#a8cd8490197eb7a4c06507546f56b619d"
+"enumannis_1_1model_1_1QueryNode_1_1TextMatching.html#a9546b65e632896b8a6dbfa6e44ab3712",
+"interfaceannis_1_1gui_1_1visualizers_1_1iframe_1_1tree_1_1TreeElementStyler.html#a7bd326abd3fa51559e3d3124aadacbcf"
 ];
 
 var navTreeSubIndices = new Array();

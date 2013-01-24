@@ -26,5 +26,6 @@ var searchData=
   ['sqlsessionmodifier_2ejava',['SqlSessionModifier.java',['../SqlSessionModifier_8java.html',1,'']]],
   ['subcorpusconstraintwhereclause_2ejava',['SubcorpusConstraintWhereClause.java',['../SubcorpusConstraintWhereClause_8java.html',1,'']]],
   ['subgraphquery_2ejava',['SubgraphQuery.java',['../SubgraphQuery_8java.html',1,'']]],
-  ['subquerycorpusselectionstrategy_2ejava',['SubQueryCorpusSelectionStrategy.java',['../SubQueryCorpusSelectionStrategy_8java.html',1,'']]]
+  ['subquerycorpusselectionstrategy_2ejava',['SubQueryCorpusSelectionStrategy.java',['../SubQueryCorpusSelectionStrategy_8java.html',1,'']]],
+  ['unknownexpressionexception_2ejava',['UnknownExpressionException.java',['../sqlgen_2UnknownExpressionException_8java.html',1,'']]]
 ];

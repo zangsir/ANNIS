@@ -46,8 +46,6 @@ var searchData=
   ['matchedandcovered',['matchedAndCovered',['../classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html#a7623c5f7e3c7da518ab50eea0742b5d7',1,'annis::gui::resultview::SingleResultPanel::CoveredMatchesCalculator']]],
   ['matchednodecolors',['MatchedNodeColors',['../enumannis_1_1gui_1_1MatchedNodeColors.html#aebd1ffb56a51ecf7c67f52e3d32ae618',1,'annis.gui.MatchedNodeColors.MatchedNodeColors(Color color)'],['../enumannis_1_1gui_1_1MatchedNodeColors.html#aebd1ffb56a51ecf7c67f52e3d32ae618',1,'annis.gui.MatchedNodeColors.MatchedNodeColors(Color color)']]],
   ['matchednodecolors',['MatchedNodeColors',['../enumannis_1_1gui_1_1MatchedNodeColors.html',1,'annis::gui']]],
-  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-gui_2src_2main_2java_2annis_2gui_2MatchedNodeColors_8java.html',1,'']]],
-  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-interfaces_2src_2main_2java_2annis_2gui_2MatchedNodeColors_8java.html',1,'']]],
   ['matchednodeids',['matchedNodeIds',['../classannis_1_1model_1_1AnnotationGraph.html#acf1bfbc6237ea17e94a9089ee64b100b',1,'annis::model::AnnotationGraph']]],
   ['matchednodeinquery',['matchedNodeInQuery',['../classannis_1_1model_1_1AnnisNode.html#a594dc93dae49bf3f8f974280b2b5e845',1,'annis.model.AnnisNode.matchedNodeInQuery()'],['../classannis_1_1model_1_1QueryNode.html#a98f312f9020bd7c07061a42000371411',1,'annis.model.QueryNode.matchedNodeInQuery()']]],
   ['matchednodesviewname',['matchedNodesViewName',['../classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html#a14ac29efc69fc56a3d2e5f6197aa4737',1,'annis.sqlgen.AnnotateSqlGenerator&lt; T &gt;.matchedNodesViewName()'],['../classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#af1a31984617ab5fe7d637f9c7c5c7a98',1,'annis.sqlgen.MatrixSqlGenerator.matchedNodesViewName()']]],
@@ -124,10 +122,11 @@ var searchData=
   ['mode',['mode',['../classorg_1_1json_1_1JSONWriter.html#acabe6b245b148eabfaa3cf975f98073f',1,'org::json::JSONWriter']]],
   ['modifysqlsession',['modifySqlSession',['../classannis_1_1dao_1_1ScriptFileSqlSessionModifier.html#aa839d3ff7b7a43fce0753187d9dc30b1',1,'annis.dao.ScriptFileSqlSessionModifier.modifySqlSession()'],['../classannis_1_1dao_1_1SpringAnnisDao.html#a8a93defef4605d366f3045130657829f',1,'annis.dao.SpringAnnisDao.modifySqlSession()'],['../interfaceannis_1_1dao_1_1SqlSessionModifier.html#ac9b60dbadd6701e07771f6a76cbab7a1',1,'annis.dao.SqlSessionModifier.modifySqlSession()'],['../classannis_1_1dao_1_1TimeOutSqlSessionModifier.html#a13a2732e7874c098d447ef57950569bc',1,'annis.dao.TimeOutSqlSessionModifier.modifySqlSession()']]],
   ['more',['more',['../classorg_1_1json_1_1JSONTokener.html#afb0edb7fd38ed9c55470055d46aedd3a',1,'org::json::JSONTokener']]],
-  ['mouseeventtransferable',['MouseEventTransferable',['../classannis_1_1gui_1_1widgets_1_1GripDragComponent_1_1MouseEventTransferable.html',1,'annis::gui::widgets::GripDragComponent']]],
   ['mouseeventtransferable',['MouseEventTransferable',['../classannis_1_1gui_1_1widgets_1_1GripDragComponent_1_1MouseEventTransferable.html#a8eed7c3fa19177fff8b48bf30ff2b2ea',1,'annis::gui::widgets::GripDragComponent::MouseEventTransferable']]],
+  ['mouseeventtransferable',['MouseEventTransferable',['../classannis_1_1gui_1_1widgets_1_1GripDragComponent_1_1MouseEventTransferable.html',1,'annis::gui::widgets::GripDragComponent']]],
   ['movenodeproperties',['moveNodeProperties',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a647ae172f568089fabec0bdb74e79db7',1,'annis::sqlgen::SaltAnnotateExtractor']]],
   ['multiplecolumnssolutionkey_2ejava',['MultipleColumnsSolutionKey.java',['../MultipleColumnsSolutionKey_8java.html',1,'']]],
   ['multiplecolumnssolutionkey_3c_20basetype_20_3e',['MultipleColumnsSolutionKey&lt; BaseType &gt;',['../classannis_1_1sqlgen_1_1MultipleColumnsSolutionKey_3_01BaseType_01_4.html',1,'annis::sqlgen']]],
-  ['myarraylist',['myArrayList',['../classorg_1_1json_1_1JSONArray.html#a70b80335f5b1fa8ba8c2b2960f7ebf37',1,'org::json::JSONArray']]]
+  ['myarraylist',['myArrayList',['../classorg_1_1json_1_1JSONArray.html#a70b80335f5b1fa8ba8c2b2960f7ebf37',1,'org::json::JSONArray']]],
+  ['timehelper_2ejava',['TimeHelper.java',['../media_2impl_2TimeHelper_8java.html',1,'']]]
 ];

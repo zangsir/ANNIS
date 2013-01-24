@@ -9,8 +9,6 @@ var searchData=
   ['tigerquerybuildercanvas_2ejava',['TigerQueryBuilderCanvas.java',['../TigerQueryBuilderCanvas_8java.html',1,'']]],
   ['tigerquerybuilderplugin_2ejava',['TigerQueryBuilderPlugin.java',['../TigerQueryBuilderPlugin_8java.html',1,'']]],
   ['tigertreevisualizer_2ejava',['TigerTreeVisualizer.java',['../TigerTreeVisualizer_8java.html',1,'']]],
-  ['timehelper_2ejava',['TimeHelper.java',['../visualizers_2iframe_2partitur_2TimeHelper_8java.html',1,'']]],
-  ['timehelper_2ejava',['TimeHelper.java',['../media_2impl_2TimeHelper_8java.html',1,'']]],
   ['timeoutsqlsessionmodifier_2ejava',['TimeOutSqlSessionModifier.java',['../TimeOutSqlSessionModifier_8java.html',1,'']]],
   ['transitiveprecedenceoptimizer_2ejava',['TransitivePrecedenceOptimizer.java',['../TransitivePrecedenceOptimizer_8java.html',1,'']]],
   ['treedumper_2ejava',['TreeDumper.java',['../TreeDumper_8java.html',1,'']]],

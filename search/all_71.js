@@ -33,10 +33,11 @@ var searchData=
   ['queryserverforcorpuslist',['queryServerForCorpusList',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html#a6e27d67515bbdf18e1d0ac1aee8141fc',1,'annis::gui::controlpanel::CorpusListPanel']]],
   ['queryservice',['QueryService',['../classannis_1_1service_1_1internal_1_1QueryService.html',1,'annis::service::internal']]],
   ['queryservice_2ejava',['QueryService.java',['../QueryService_8java.html',1,'']]],
-  ['queryvalidator',['QueryValidator',['../classannis_1_1ql_1_1parser_1_1QueryValidator.html#a70723a21e11ebc0353345fb445f59831',1,'annis::ql::parser::QueryValidator']]],
   ['queryvalidator',['QueryValidator',['../classannis_1_1ql_1_1parser_1_1QueryValidator.html',1,'annis::ql::parser']]],
+  ['queryvalidator',['QueryValidator',['../classannis_1_1ql_1_1parser_1_1QueryValidator.html#a70723a21e11ebc0353345fb445f59831',1,'annis::ql::parser::QueryValidator']]],
   ['queryvalidator_2ejava',['QueryValidator.java',['../QueryValidator_8java.html',1,'']]],
   ['quest',['QUEST',['../classorg_1_1json_1_1XML.html#a6ee91c7c64c44b62b197a69b00ee383f',1,'org::json::XML']]],
   ['quot',['QUOT',['../classorg_1_1json_1_1XML.html#a4a8e56f228505f24fd24b70914d5078c',1,'org::json::XML']]],
-  ['quote',['quote',['../classorg_1_1json_1_1JSONObject.html#abe60222a3919d3f88f104486c1ef13fe',1,'org.json.JSONObject.quote()'],['../enumannis_1_1model_1_1QueryNode_1_1TextMatching.html#a7b4feb308269a0a02206cb9f10844e3a',1,'annis.model.QueryNode.TextMatching.quote()']]]
+  ['quote',['quote',['../classorg_1_1json_1_1JSONObject.html#abe60222a3919d3f88f104486c1ef13fe',1,'org.json.JSONObject.quote()'],['../enumannis_1_1model_1_1QueryNode_1_1TextMatching.html#a7b4feb308269a0a02206cb9f10844e3a',1,'annis.model.QueryNode.TextMatching.quote()']]],
+  ['unknownexpressionexception_2ejava',['UnknownExpressionException.java',['../ql_2parser_2UnknownExpressionException_8java.html',1,'']]]
 ];

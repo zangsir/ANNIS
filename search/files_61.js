@@ -68,5 +68,7 @@ var searchData=
   ['audioplayer_2ejava',['AudioPlayer.java',['../AudioPlayer_8java.html',1,'']]],
   ['audiovisualizer_2ejava',['AudioVisualizer.java',['../AudioVisualizer_8java.html',1,'']]],
   ['authorizationexceptionmapper_2ejava',['AuthorizationExceptionMapper.java',['../AuthorizationExceptionMapper_8java.html',1,'']]],
-  ['autoheightiframe_2ejava',['AutoHeightIFrame.java',['../AutoHeightIFrame_8java.html',1,'']]]
+  ['autoheightiframe_2ejava',['AutoHeightIFrame.java',['../AutoHeightIFrame_8java.html',1,'']]],
+  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-gui_2src_2main_2java_2annis_2gui_2MatchedNodeColors_8java.html',1,'']]],
+  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-interfaces_2src_2main_2java_2annis_2gui_2MatchedNodeColors_8java.html',1,'']]]
 ];

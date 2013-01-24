@@ -5,8 +5,6 @@ var searchData=
   ['mainpage_2emd',['mainpage.md',['../mainpage_8md.html',1,'']]],
   ['match_2ejava',['Match.java',['../Match_8java.html',1,'']]],
   ['matchanddocumentcount_2ejava',['MatchAndDocumentCount.java',['../MatchAndDocumentCount_8java.html',1,'']]],
-  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-gui_2src_2main_2java_2annis_2gui_2MatchedNodeColors_8java.html',1,'']]],
-  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-interfaces_2src_2main_2java_2annis_2gui_2MatchedNodeColors_8java.html',1,'']]],
   ['matrixquerydata_2ejava',['MatrixQueryData.java',['../MatrixQueryData_8java.html',1,'']]],
   ['matrixsqlgenerator_2ejava',['MatrixSqlGenerator.java',['../MatrixSqlGenerator_8java.html',1,'']]],
   ['mediacontroller_2ejava',['MediaController.java',['../MediaController_8java.html',1,'']]],
@@ -23,5 +21,6 @@ var searchData=
   ['metadatafilter_2ejava',['MetaDataFilter.java',['../MetaDataFilter_8java.html',1,'']]],
   ['metadatapanel_2ejava',['MetaDataPanel.java',['../MetaDataPanel_8java.html',1,'']]],
   ['mimetypeerrorlistener_2ejava',['MimeTypeErrorListener.java',['../MimeTypeErrorListener_8java.html',1,'']]],
-  ['multiplecolumnssolutionkey_2ejava',['MultipleColumnsSolutionKey.java',['../MultipleColumnsSolutionKey_8java.html',1,'']]]
+  ['multiplecolumnssolutionkey_2ejava',['MultipleColumnsSolutionKey.java',['../MultipleColumnsSolutionKey_8java.html',1,'']]],
+  ['timehelper_2ejava',['TimeHelper.java',['../media_2impl_2TimeHelper_8java.html',1,'']]]
 ];

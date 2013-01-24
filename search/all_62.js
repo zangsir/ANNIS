@@ -78,8 +78,8 @@ var searchData=
   ['buttonpanellayout',['buttonPanelLayout',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a35025dd1eef8fbeef77c88ddaffc3e94',1,'annis::gui::controlpanel::QueryPanel']]],
   ['bytearrayoutputstreamsource',['ByteArrayOutputStreamSource',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource.html#a0bdaac18afe76b4758dcc7468e8aac03',1,'annis::gui::resultview::VisualizerPanel::ByteArrayOutputStreamSource']]],
   ['bytearrayoutputstreamsource',['ByteArrayOutputStreamSource',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource.html',1,'annis::gui::resultview::VisualizerPanel']]],
-  ['bytehelper',['ByteHelper',['../classannis_1_1sqlgen_1_1ByteHelper.html',1,'annis::sqlgen']]],
   ['bytehelper',['byteHelper',['../classannis_1_1dao_1_1SpringAnnisDao.html#aae8fc753ca539850cc32c49e5dd9291f',1,'annis::dao::SpringAnnisDao']]],
+  ['bytehelper',['ByteHelper',['../classannis_1_1sqlgen_1_1ByteHelper.html',1,'annis::sqlgen']]],
   ['bytehelper_2ejava',['ByteHelper.java',['../ByteHelper_8java.html',1,'']]],
   ['bytes',['bytes',['../classannis_1_1service_1_1objects_1_1AnnisBinary.html#aa4b26d92f84801cdde5f6b6f3b0607fc',1,'annis::service::objects::AnnisBinary']]],
   ['bytestream',['byteStream',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource.html#ad76964f0068e38c1d693e0f75e7707a9',1,'annis::gui::resultview::VisualizerPanel::ByteArrayOutputStreamSource']]]
