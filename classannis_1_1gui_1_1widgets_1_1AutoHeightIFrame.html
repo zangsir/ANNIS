@@ -118,35 +118,36 @@ $(document).ready(function(){initNavTree('classannis_1_1gui_1_1widgets_1_1AutoHe
 <p>Server side component for the VAutoHeightIFrame widget.  
  <a href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#details">More...</a></p>
 
-<p>Inherits AbstractComponent.</p>
+<p>Inherits AbstractComponent, and LegacyComponent.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a651b576a85e414b17c1035fce05e7241"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#a651b576a85e414b17c1035fce05e7241">AutoHeightIFrame</a> (String <a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#a1dd288008313c4bfa43f22509762f828">url</a>)</td></tr>
+<tr class="memitem:af4e6546354f970b10b3a0778401d77a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#af4e6546354f970b10b3a0778401d77a6">AutoHeightIFrame</a> (URI <a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#ab630574bdcf6a87cd04e7dbdc6fa20a1">uri</a>)</td></tr>
 <tr class="memitem:add4ba17984c7f429a6c450a6f679f5f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#add4ba17984c7f429a6c450a6f679f5f7">paintContent</a> (PaintTarget target)  throws PaintException   </td></tr>
 <tr class="memitem:a7b3b23a4fc80d0f0e9e9c889c159b62f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#a7b3b23a4fc80d0f0e9e9c889c159b62f">changeVariables</a> (Object source, Map&lt; String, Object &gt; variables)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ace41936c08f702c524d2659faf3d2ae9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#ace41936c08f702c524d2659faf3d2ae9">ADDITIONAL_HEIGHT</a> = 25</td></tr>
+<tr class="memitem:aa613307875e56c285d3073dd42881d9d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#aa613307875e56c285d3073dd42881d9d">RES_KEY</a> = &quot;iframe-vis-res&quot;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1dd288008313c4bfa43f22509762f828"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#a1dd288008313c4bfa43f22509762f828">url</a></td></tr>
-<tr class="memitem:a086a0cda85f24526d3588ef6e32391b2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#a086a0cda85f24526d3588ef6e32391b2">urlUpdated</a> = false</td></tr>
+<tr class="memitem:ab630574bdcf6a87cd04e7dbdc6fa20a1"><td class="memItemLeft" align="right" valign="top">URI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#ab630574bdcf6a87cd04e7dbdc6fa20a1">uri</a></td></tr>
+<tr class="memitem:ac66b1466c98ce175112e15c49c0549fa"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#ac66b1466c98ce175112e15c49c0549fa">heightWasSet</a> = false</td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Server side component for the VAutoHeightIFrame widget. </p>
 </div><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a651b576a85e414b17c1035fce05e7241"></a>
+<a class="anchor" id="af4e6546354f970b10b3a0778401d77a6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">annis.gui.widgets.AutoHeightIFrame.AutoHeightIFrame </td>
           <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>url</em></td><td>)</td>
+          <td class="paramtype">URI&#160;</td>
+          <td class="paramname"><em>uri</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -218,7 +219,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1dd288008313c4bfa43f22509762f828"></a>
+<a class="anchor" id="ac66b1466c98ce175112e15c49c0549fa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -226,7 +227,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">String annis.gui.widgets.AutoHeightIFrame.url</td>
+          <td class="memname">boolean annis.gui.widgets.AutoHeightIFrame.heightWasSet = false</td>
         </tr>
       </table>
   </td>
@@ -238,7 +239,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a086a0cda85f24526d3588ef6e32391b2"></a>
+<a class="anchor" id="aa613307875e56c285d3073dd42881d9d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -246,7 +247,27 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boolean annis.gui.widgets.AutoHeightIFrame.urlUpdated = false</td>
+          <td class="memname">final String annis.gui.widgets.AutoHeightIFrame.RES_KEY = &quot;iframe-vis-res&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab630574bdcf6a87cd04e7dbdc6fa20a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">URI annis.gui.widgets.AutoHeightIFrame.uri</td>
         </tr>
       </table>
   </td>
@@ -267,7 +288,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1widgets.html">widgets</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html">AutoHeightIFrame</a></li>
-    <li class="footer">Generated on Thu Jan 24 2013 16:12:51 for ANNIS by
+    <li class="footer">Generated on Wed Feb 20 2013 22:01:10 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

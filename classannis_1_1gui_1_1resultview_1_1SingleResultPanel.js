@@ -2,7 +2,6 @@ var classannis_1_1gui_1_1resultview_1_1SingleResultPanel =
 [
     [ "CoveredMatchesCalculator", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator" ],
     [ "SingleResultPanel", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a6a1a6ad3eaaeae00b19fcd28238df946", null ],
-    [ "attach", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a97a9a9215cf0d485db362e2a5537a89a", null ],
     [ "buttonClick", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aeb8ed76864680a34e7e97629266c7dce", null ],
     [ "calculateHelperVariables", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a5882ca87c6d4d797b56c5962ad7dca79", null ],
     [ "calculateMarkedAndCoveredIDs", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a16238f3d6abd224505262b93d3063c8b", null ],
@@ -12,6 +11,7 @@ var classannis_1_1gui_1_1resultview_1_1SingleResultPanel =
     [ "btInfo", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aa69403e44ee2efe514f97af9d71b9aa5", null ],
     [ "HIDE_KWIC", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#ad1a68fe0246178edd5a6f41eb6deaed9", null ],
     [ "ICON_RESOURCE", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a34e3006fa166aca7510feac150e90509", null ],
+    [ "infoBar", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a1ecaa545388948f333f8d58b9d94ddaa", null ],
     [ "INITIAL_OPEN", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#ae7c95cd3b5adc11e45c31e10a70a6a68", null ],
     [ "log", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a46c1f75455feefa2c50ac86300161b8a", null ],
     [ "markedAndCovered", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a05b3128f393b5fd8fd7262f334235af9", null ],
@@ -25,6 +25,5 @@ var classannis_1_1gui_1_1resultview_1_1SingleResultPanel =
     [ "segmentationName", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a41d484fe4f301f69eb1e8cce2220c514", null ],
     [ "token", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a6faccbc5dd2ca24d27fd7d730310c933", null ],
     [ "visibleTokenAnnos", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a64289cfed3fbe64a025bfd459ba387af", null ],
-    [ "visualizers", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aa93862e61eb37b4dde7f07c4b459b67a", null ],
-    [ "wasAttached", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a01c90ed4b8b89ecc81f071f545f015cf", null ]
+    [ "visualizers", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aa93862e61eb37b4dde7f07c4b459b67a", null ]
 ];

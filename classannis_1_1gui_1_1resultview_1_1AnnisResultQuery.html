@@ -115,27 +115,32 @@ $(document).ready(function(){initNavTree('classannis_1_1gui_1_1resultview_1_1Ann
 </div><!--header-->
 <div class="contents">
 
+<p>Allows to query for matches (<a class="el" href="">Match</a>) for a specific range.  
+ <a href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#details">More...</a></p>
+
 <p>Inherits Serializable.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8090a3b6633f18c3d1cc8ec3b4c39961"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#a8090a3b6633f18c3d1cc8ec3b4c39961">AnnisResultQuery</a> (Set&lt; String &gt; <a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#a25810a94c5d4c21b14d1bb73a7d6e855">corpora</a>, String <a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#aec1e986bbf0bed469a2293e5aaedc6b6">aql</a>, Application <a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#a5b74d5b8e03d93966762339d642695b0">app</a>)</td></tr>
-<tr class="memitem:a7798f1c823286db591e7d2b106de63e5"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1service_1_1objects_1_1Match.html">Match</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#a7798f1c823286db591e7d2b106de63e5">loadBeans</a> (int startIndex, int count, <a class="el" href="classannis_1_1security_1_1AnnisUser.html">AnnisUser</a> user)</td></tr>
+<tr class="memitem:afa4cfc80274d3678de30c8c22f5d5bb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#afa4cfc80274d3678de30c8c22f5d5bb2">AnnisResultQuery</a> (Set&lt; String &gt; <a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#a25810a94c5d4c21b14d1bb73a7d6e855">corpora</a>, String <a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#aec1e986bbf0bed469a2293e5aaedc6b6">aql</a>)</td></tr>
+<tr class="memitem:aa0d551bbc2370222f0dd2dc83ed0d877"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1service_1_1objects_1_1Match.html">Match</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#aa0d551bbc2370222f0dd2dc83ed0d877">loadBeans</a> (int offset, int limit, <a class="el" href="classannis_1_1libgui_1_1AnnisUser.html">AnnisUser</a> user)</td></tr>
+<tr class="memdesc:aa0d551bbc2370222f0dd2dc83ed0d877"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query for a list of matches (<a class="el" href="">Match</a>).  <a href="#aa0d551bbc2370222f0dd2dc83ed0d877"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a25810a94c5d4c21b14d1bb73a7d6e855"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#a25810a94c5d4c21b14d1bb73a7d6e855">corpora</a></td></tr>
 <tr class="memitem:aec1e986bbf0bed469a2293e5aaedc6b6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#aec1e986bbf0bed469a2293e5aaedc6b6">aql</a></td></tr>
-<tr class="memitem:a5b74d5b8e03d93966762339d642695b0"><td class="memItemLeft" align="right" valign="top">Application&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#a5b74d5b8e03d93966762339d642695b0">app</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a70448f7d06286dae4e31d26a09333799"><td class="memItemLeft" align="right" valign="top">static final org.slf4j.Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#a70448f7d06286dae4e31d26a09333799">log</a> = LoggerFactory.getLogger(AnnisResultQuery.class)</td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>thomas </dd></dl>
+<div class="textblock"><p>Allows to query for matches (<a class="el" href="">Match</a>) for a specific range. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html#aa0d551bbc2370222f0dd2dc83ed0d877" title="Query for a list of matches (Match).">loadBeans</a>(int, int, annis.security.AnnisUser) </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'tho'+'ma'+'s.k'+'ra'+'use'+'@a'+'lum'+'ni'+'.hu'+'-b'+'erl'+'in'+'.de'; return false;">thoma<span style="display: none;">.nosp@m.</span>s.kr<span style="display: none;">.nosp@m.</span>ause@<span style="display: none;">.nosp@m.</span>alum<span style="display: none;">.nosp@m.</span>ni.hu<span style="display: none;">.nosp@m.</span>-ber<span style="display: none;">.nosp@m.</span>lin.d<span style="display: none;">.nosp@m.</span>e</a> </dd></dl>
 </div><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8090a3b6633f18c3d1cc8ec3b4c39961"></a>
+<a class="anchor" id="afa4cfc80274d3678de30c8c22f5d5bb2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -149,13 +154,7 @@ Static Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>aql</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Application&#160;</td>
-          <td class="paramname"><em>app</em>&#160;</td>
+          <td class="paramname"><em>aql</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -168,7 +167,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2>Member Function Documentation</h2>
-<a class="anchor" id="a7798f1c823286db591e7d2b106de63e5"></a>
+<a class="anchor" id="aa0d551bbc2370222f0dd2dc83ed0d877"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -176,18 +175,18 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">List&lt;<a class="el" href="classannis_1_1service_1_1objects_1_1Match.html">Match</a>&gt; annis.gui.resultview.AnnisResultQuery.loadBeans </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>startIndex</em>, </td>
+          <td class="paramname"><em>offset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>count</em>, </td>
+          <td class="paramname"><em>limit</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classannis_1_1security_1_1AnnisUser.html">AnnisUser</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1libgui_1_1AnnisUser.html">AnnisUser</a>&#160;</td>
           <td class="paramname"><em>user</em>&#160;</td>
         </tr>
         <tr>
@@ -198,29 +197,20 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<h2>Member Data Documentation</h2>
-<a class="anchor" id="a5b74d5b8e03d93966762339d642695b0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Application annis.gui.resultview.AnnisResultQuery.app</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Query for a list of matches (<a class="el" href="">Match</a>). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offset</td><td>where to start </td></tr>
+    <tr><td class="paramname">limit</td><td>how many items to get at maximum </td></tr>
+    <tr><td class="paramname">user</td><td>use this user for authentification with the service </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
+<h2>Member Data Documentation</h2>
 <a class="anchor" id="aec1e986bbf0bed469a2293e5aaedc6b6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -290,7 +280,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1resultview.html">resultview</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1resultview_1_1AnnisResultQuery.html">AnnisResultQuery</a></li>
-    <li class="footer">Generated on Thu Jan 24 2013 16:12:51 for ANNIS by
+    <li class="footer">Generated on Wed Feb 20 2013 22:01:10 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

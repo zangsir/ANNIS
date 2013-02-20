@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['cache_2ejava',['Cache.java',['../Cache_8java.html',1,'']]],
-  ['cacheexception_2ejava',['CacheException.java',['../CacheException_8java.html',1,'']]],
-  ['cacheinitializationexception_2ejava',['CacheInitializationException.java',['../CacheInitializationException_8java.html',1,'']]],
   ['cannotcreatetransactionmapper_2ejava',['CannotCreateTransactionMapper.java',['../CannotCreateTransactionMapper_8java.html',1,'']]],
-  ['cdl_2ejava',['CDL.java',['../CDL_8java.html',1,'']]],
   ['citationlinkgenerator_2ejava',['CitationLinkGenerator.java',['../CitationLinkGenerator_8java.html',1,'']]],
   ['citationprovider_2ejava',['CitationProvider.java',['../CitationProvider_8java.html',1,'']]],
   ['citationredirectionservlet_2ejava',['CitationRedirectionServlet.java',['../CitationRedirectionServlet_8java.html',1,'']]],
@@ -14,10 +10,10 @@ var searchData=
   ['commonannotatewithclausegenerator_2ejava',['CommonAnnotateWithClauseGenerator.java',['../CommonAnnotateWithClauseGenerator_8java.html',1,'']]],
   ['commonhelper_2ejava',['CommonHelper.java',['../CommonHelper_8java.html',1,'']]],
   ['commonlimitoffsetgenerator_2ejava',['CommonLimitOffsetGenerator.java',['../CommonLimitOffsetGenerator_8java.html',1,'']]],
+  ['configure_2dfrontend_2emd',['configure-frontend.md',['../configure-frontend_8md.html',1,'']]],
+  ['configure_2dservice_2emd',['configure-service.md',['../configure-service_8md.html',1,'']]],
   ['constituentlayouter_2ejava',['ConstituentLayouter.java',['../ConstituentLayouter_8java.html',1,'']]],
   ['controlpanel_2ejava',['ControlPanel.java',['../ControlPanel_8java.html',1,'']]],
-  ['cookie_2ejava',['Cookie.java',['../Cookie_8java.html',1,'']]],
-  ['cookielist_2ejava',['CookieList.java',['../CookieList_8java.html',1,'']]],
   ['corefvisualizer_2ejava',['CorefVisualizer.java',['../CorefVisualizer_8java.html',1,'']]],
   ['corpusadministration_2ejava',['CorpusAdministration.java',['../CorpusAdministration_8java.html',1,'']]],
   ['corpusbrowserentry_2ejava',['CorpusBrowserEntry.java',['../CorpusBrowserEntry_8java.html',1,'']]],
@@ -30,5 +26,6 @@ var searchData=
   ['corpusset_2ejava',['CorpusSet.java',['../CorpusSet_8java.html',1,'']]],
   ['countmatchesanddocumentssqlgenerator_2ejava',['CountMatchesAndDocumentsSqlGenerator.java',['../CountMatchesAndDocumentsSqlGenerator_8java.html',1,'']]],
   ['countsqlgenerator_2ejava',['CountSqlGenerator.java',['../CountSqlGenerator_8java.html',1,'']]],
+  ['cssrenderinfo_2ejava',['CssRenderInfo.java',['../CssRenderInfo_8java.html',1,'']]],
   ['csvcorpuspathextractor_2ejava',['CsvCorpusPathExtractor.java',['../CsvCorpusPathExtractor_8java.html',1,'']]]
 ];

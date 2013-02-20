@@ -127,6 +127,7 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab665fdd2f2b24ec106c74dfb2f382e86"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#ab665fdd2f2b24ec106c74dfb2f382e86">ExportPanel</a> (<a class="el" href="classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html">QueryPanel</a> <a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a0e1b9a308f16651c80a08bf17fe1801d">queryPanel</a>, <a class="el" href="classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html">CorpusListPanel</a> <a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#aaf11044455501cbb44a8fb65d8229912">corpusListPanel</a>)</td></tr>
 <tr class="memitem:ab34d8c4d525c754514d8076f4cf37bc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#ab34d8c4d525c754514d8076f4cf37bc8">buttonClick</a> (ClickEvent event)</td></tr>
+<tr class="memitem:a743fc3e7f56d1577b9fae596cc3f261e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a743fc3e7f56d1577b9fae596cc3f261e">detach</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -135,7 +136,6 @@ Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a55a550a137d668ac1438da5bd296a10c"><td class="memItemLeft" align="right" valign="top">final Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a55a550a137d668ac1438da5bd296a10c">help4Exporter</a> = new HashMap&lt;String,String&gt;()</td></tr>
-<tr class="memitem:ad1a66967f8ccea1bf371d45c6800de1a"><td class="memItemLeft" align="right" valign="top">ContextHelp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#ad1a66967f8ccea1bf371d45c6800de1a">help</a></td></tr>
 <tr class="memitem:af4b94144143f5cdf926a98f24f196af6"><td class="memItemLeft" align="right" valign="top">ComboBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#af4b94144143f5cdf926a98f24f196af6">cbExporter</a></td></tr>
 <tr class="memitem:aab3c18052568f59fa3c083d7745d707f"><td class="memItemLeft" align="right" valign="top">ComboBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#aab3c18052568f59fa3c083d7745d707f">cbLeftContext</a></td></tr>
 <tr class="memitem:aa3bb4254e346d628486c995014d34c18"><td class="memItemLeft" align="right" valign="top">ComboBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#aa3bb4254e346d628486c995014d34c18">cbRightContext</a></td></tr>
@@ -144,12 +144,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a25756071a3ec782ddfeeb1bb7869e063"><td class="memItemLeft" align="right" valign="top">Map&lt; String, <a class="el" href="interfaceannis_1_1gui_1_1exporter_1_1Exporter.html">Exporter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a25756071a3ec782ddfeeb1bb7869e063">exporterMap</a></td></tr>
 <tr class="memitem:a0e1b9a308f16651c80a08bf17fe1801d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html">QueryPanel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a0e1b9a308f16651c80a08bf17fe1801d">queryPanel</a></td></tr>
 <tr class="memitem:aaf11044455501cbb44a8fb65d8229912"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html">CorpusListPanel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#aaf11044455501cbb44a8fb65d8229912">corpusListPanel</a></td></tr>
+<tr class="memitem:a47d5e0337b7c456d597a7cdcff1ccfb5"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a47d5e0337b7c456d597a7cdcff1ccfb5">tmpOutputFile</a></td></tr>
+<tr class="memitem:a80bae1f91a7874d26d037c1b0a3cf08c"><td class="memItemLeft" align="right" valign="top">ProgressIndicator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a80bae1f91a7874d26d037c1b0a3cf08c">progressIndicator</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a4e32580b7b7ce16564df34ba176a86a2"><td class="memItemLeft" align="right" valign="top">static final org.slf4j.Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a4e32580b7b7ce16564df34ba176a86a2">log</a> = LoggerFactory.getLogger(ExportPanel.class)</td></tr>
 <tr class="memitem:a22f707c7971263182915f055263045e3"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="interfaceannis_1_1gui_1_1exporter_1_1Exporter.html">Exporter</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a22f707c7971263182915f055263045e3">EXPORTER</a></td></tr>
-<tr class="memitem:ad1e9a45b515f632cb1f5efcd5b5bf4a2"><td class="memItemLeft" align="right" valign="top">static final Random&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#ad1e9a45b515f632cb1f5efcd5b5bf4a2">rand</a> = new Random()</td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>thomas </dd></dl>
@@ -190,6 +191,21 @@ Static Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">ClickEvent&#160;</td>
           <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a743fc3e7f56d1577b9fae596cc3f261e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.controlpanel.ExportPanel.detach </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -367,26 +383,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad1a66967f8ccea1bf371d45c6800de1a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ContextHelp annis.gui.controlpanel.ExportPanel.help</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a55a550a137d668ac1438da5bd296a10c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -427,6 +423,26 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a80bae1f91a7874d26d037c1b0a3cf08c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProgressIndicator annis.gui.controlpanel.ExportPanel.progressIndicator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a0e1b9a308f16651c80a08bf17fe1801d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -447,7 +463,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad1e9a45b515f632cb1f5efcd5b5bf4a2"></a>
+<a class="anchor" id="a47d5e0337b7c456d597a7cdcff1ccfb5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -455,12 +471,12 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final Random annis.gui.controlpanel.ExportPanel.rand = new Random()</td>
+          <td class="memname">File annis.gui.controlpanel.ExportPanel.tmpOutputFile</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -496,7 +512,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1controlpanel.html">controlpanel</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html">ExportPanel</a></li>
-    <li class="footer">Generated on Thu Jan 24 2013 16:12:51 for ANNIS by
+    <li class="footer">Generated on Wed Feb 20 2013 22:01:10 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

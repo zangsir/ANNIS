@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['front_2dend',['Front-end',['../frontend.html',1,'index']]]
+  ['front_2dend',['Front-end',['../dev-frontend.html',1,'dev']]]
 ];

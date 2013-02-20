@@ -1,7 +1,7 @@
 var classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas =
 [
     [ "AbsoluteDropHandler", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AbsoluteDropHandler.html", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AbsoluteDropHandler" ],
-    [ "TigerQueryBuilderCanvas", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#aaa384fd7d434b5e7b9458c0916485f37", null ],
+    [ "TigerQueryBuilderCanvas", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a54b9778c80476a0fbd73bc1be3be7add", null ],
     [ "addEdge", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a7f75e0631a5baf506100ee17c328448a", null ],
     [ "addNode", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a418049bacb838ca87aa09ec76308f977", null ],
     [ "clearAll", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a14b980700d3ebe4a1b9c35166508c1d4", null ],
@@ -15,7 +15,7 @@ var classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas =
     [ "updateQuery", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#ad3c12646ff136b2d11909d123adf01cd", null ],
     [ "area", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a5cffa8cf582a9639d7169f72c36cb691", null ],
     [ "canvas", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a9f91df16b4d051b1fa7f13e33fbb15d3", null ],
-    [ "controlPanel", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a4a4c582c81f9fdcb2a865b3d0e414f01", null ],
+    [ "controller", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a154ad029abf22f07919b9362395658d6", null ],
     [ "edges", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a3e566f36668c2ae2038f2908b40df6ed", null ],
     [ "handler", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a409969712940ddc94b8488f9585a9986", null ],
     [ "log", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a865ca9dedb3bf7f88af3a8a5e8b0f31f", null ],

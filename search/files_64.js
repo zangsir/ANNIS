@@ -7,6 +7,7 @@ var searchData=
   ['defaulttableaccessstrategy_2ejava',['DefaultTableAccessStrategy.java',['../DefaultTableAccessStrategy_8java.html',1,'']]],
   ['defaultwhereclausegenerator_2ejava',['DefaultWhereClauseGenerator.java',['../DefaultWhereClauseGenerator_8java.html',1,'']]],
   ['detectholes_2ejava',['DetectHoles.java',['../DetectHoles_8java.html',1,'']]],
+  ['dev_2emd',['dev.md',['../dev_8md.html',1,'']]],
   ['directdominance_2ejava',['DirectDominance.java',['../DirectDominance_8java.html',1,'']]],
   ['dnfnoderelnumberupdater_2ejava',['DnfNodeRelNumberUpdater.java',['../DnfNodeRelNumberUpdater_8java.html',1,'']]],
   ['dnftransformer_2ejava',['DnfTransformer.java',['../DnfTransformer_8java.html',1,'']]],

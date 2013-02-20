@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['timehelper_2ejava',['TimeHelper.java',['../visualizers_2iframe_2partitur_2TimeHelper_8java.html',1,'']]],
   ['vakyarthadependencytree_2ejava',['VakyarthaDependencyTree.java',['../VakyarthaDependencyTree_8java.html',1,'']]],
   ['vannotationgrid_2ejava',['VAnnotationGrid.java',['../VAnnotationGrid_8java.html',1,'']]],
   ['vaudioplayer_2ejava',['VAudioPlayer.java',['../VAudioPlayer_8java.html',1,'']]],
@@ -9,6 +8,7 @@ var searchData=
   ['verticalorientation_2ejava',['VerticalOrientation.java',['../VerticalOrientation_8java.html',1,'']]],
   ['vgripdragcomponent_2ejava',['VGripDragComponent.java',['../VGripDragComponent_8java.html',1,'']]],
   ['videoplayer_2ejava',['VideoPlayer.java',['../VideoPlayer_8java.html',1,'']]],
+  ['videoplayerconnector_2ejava',['VideoPlayerConnector.java',['../VideoPlayerConnector_8java.html',1,'']]],
   ['videovisualizer_2ejava',['VideoVisualizer.java',['../VideoVisualizer_8java.html',1,'']]],
   ['visualizationtoggle_2ejava',['VisualizationToggle.java',['../VisualizationToggle_8java.html',1,'']]],
   ['visualizerinput_2ejava',['VisualizerInput.java',['../VisualizerInput_8java.html',1,'']]],

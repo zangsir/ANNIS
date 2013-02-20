@@ -7,6 +7,7 @@ var classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel =
     [ "getSegmentationLayer", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a2c851256cc38caedc420baadc4f0f580", null ],
     [ "setLeftContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#aa40fbc498ceb9b494559beb34f37f995", null ],
     [ "setRightContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ab8906f7f9ff7255858a28d6e47e88716", null ],
+    [ "setSegmentationLayer", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#af9f8a6b8d407bd7d66a3b10a12ddec80", null ],
     [ "updateSegmentationList", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#aa5891f59c564f2df400534047b9370de", null ],
     [ "cbLeftContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ab16d11080efbcd922f366175c70f02e4", null ],
     [ "cbResultsPerPage", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#addc2c13d7d651652c056d272768e54a5", null ],

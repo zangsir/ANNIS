@@ -3,7 +3,7 @@ var searchData=
   ['rangedjoin_2ejava',['RangedJoin.java',['../RangedJoin_8java.html',1,'']]],
   ['ranktablejoin_2ejava',['RankTableJoin.java',['../RankTableJoin_8java.html',1,'']]],
   ['rectangleside_2ejava',['RectangleSide.java',['../RectangleSide_8java.html',1,'']]],
-  ['reportbugpanel_2ejava',['ReportBugPanel.java',['../ReportBugPanel_8java.html',1,'']]],
+  ['reportbugwindow_2ejava',['ReportBugWindow.java',['../ReportBugWindow_8java.html',1,'']]],
   ['resolverdaohelper_2ejava',['ResolverDaoHelper.java',['../ResolverDaoHelper_8java.html',1,'']]],
   ['resolverentry_2ejava',['ResolverEntry.java',['../ResolverEntry_8java.html',1,'']]],
   ['resolverprovider_2ejava',['ResolverProvider.java',['../ResolverProvider_8java.html',1,'']]],
@@ -18,5 +18,6 @@ var searchData=
   ['row_2ejava',['Row.java',['../Row_8java.html',1,'']]],
   ['rst_2ejava',['RST.java',['../RST_8java.html',1,'']]],
   ['rstfull_2ejava',['RSTFull.java',['../RSTFull_8java.html',1,'']]],
-  ['rstimpl_2ejava',['RSTImpl.java',['../RSTImpl_8java.html',1,'']]]
+  ['rstimpl_2ejava',['RSTImpl.java',['../RSTImpl_8java.html',1,'']]],
+  ['rstpanel_2ejava',['RSTPanel.java',['../RSTPanel_8java.html',1,'']]]
 ];

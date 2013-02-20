@@ -3,7 +3,6 @@ var classannis_1_1gui_1_1resultview_1_1ResultSetPanel =
     [ "AllResultsFetcher", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher.html", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher" ],
     [ "ResultSetPanel", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a8a2a1e210120cbce54a9aa0067c47cfa", null ],
     [ "addQueryResult", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a07e64b2a0402e86763ee0e1e0b87ee1a", null ],
-    [ "attach", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a6660ba743eed9e4f967d82ef500db084", null ],
     [ "createPanels", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a532a2bf8604f33ccba62d7287c6694fa", null ],
     [ "getResolverEntries", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a406a013a786bddeec89ecc20a2a56d1f", null ],
     [ "setSegmentationLayer", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a416b823a8c135201f5581990fa68e1fa", null ],

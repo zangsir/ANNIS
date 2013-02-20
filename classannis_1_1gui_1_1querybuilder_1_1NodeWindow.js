@@ -23,5 +23,6 @@ var classannis_1_1gui_1_1querybuilder_1_1NodeWindow =
     [ "parent", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html#a40fe11bf364dc5629ef15f77eb83f8ee", null ],
     [ "prepareEdgeDock", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html#a7a5379c6a1ed14b7dae477e33d30bcd9", null ],
     [ "toolbar", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html#a48b86e15afc1620b1a2f01986c853486", null ],
+    [ "vLayout", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html#a17b1044298f9c63579c71e8cbdc3e16f", null ],
     [ "WIDTH", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html#a06476f281b58f69af0fc9c1af921cd3d", null ]
 ];

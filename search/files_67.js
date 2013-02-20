@@ -10,5 +10,6 @@ var searchData=
   ['gridtreevisualizer_2ejava',['GridTreeVisualizer.java',['../GridTreeVisualizer_8java.html',1,'']]],
   ['gridvisualizer_2ejava',['GridVisualizer.java',['../GridVisualizer_8java.html',1,'']]],
   ['gripdragcomponent_2ejava',['GripDragComponent.java',['../GripDragComponent_8java.html',1,'']]],
+  ['gripdragcomponentconnector_2ejava',['GripDragComponentConnector.java',['../GripDragComponentConnector_8java.html',1,'']]],
   ['groupbyclausesqlgenerator_2ejava',['GroupByClauseSqlGenerator.java',['../GroupByClauseSqlGenerator_8java.html',1,'']]]
 ];

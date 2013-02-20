@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['mainapp_2ejava',['MainApp.java',['../MainApp_8java.html',1,'']]],
   ['mainframe_2ejava',['MainFrame.java',['../MainFrame_8java.html',1,'']]],
   ['mainpage_2emd',['mainpage.md',['../mainpage_8md.html',1,'']]],
   ['match_2ejava',['Match.java',['../Match_8java.html',1,'']]],
@@ -8,9 +7,6 @@ var searchData=
   ['matrixquerydata_2ejava',['MatrixQueryData.java',['../MatrixQueryData_8java.html',1,'']]],
   ['matrixsqlgenerator_2ejava',['MatrixSqlGenerator.java',['../MatrixSqlGenerator_8java.html',1,'']]],
   ['mediacontroller_2ejava',['MediaController.java',['../MediaController_8java.html',1,'']]],
-  ['mediacontrollerfactory_2ejava',['MediaControllerFactory.java',['../MediaControllerFactory_8java.html',1,'']]],
-  ['mediacontrollerfactoryimpl_2ejava',['MediaControllerFactoryImpl.java',['../MediaControllerFactoryImpl_8java.html',1,'']]],
-  ['mediacontrollerholder_2ejava',['MediaControllerHolder.java',['../MediaControllerHolder_8java.html',1,'']]],
   ['mediacontrollerimpl_2ejava',['MediaControllerImpl.java',['../MediaControllerImpl_8java.html',1,'']]],
   ['mediaimportpreparedstatementcallbackimpl_2ejava',['MediaImportPreparedStatementCallbackImpl.java',['../MediaImportPreparedStatementCallbackImpl_8java.html',1,'']]],
   ['mediaplayer_2ejava',['MediaPlayer.java',['../MediaPlayer_8java.html',1,'']]],
@@ -21,6 +17,5 @@ var searchData=
   ['metadatafilter_2ejava',['MetaDataFilter.java',['../MetaDataFilter_8java.html',1,'']]],
   ['metadatapanel_2ejava',['MetaDataPanel.java',['../MetaDataPanel_8java.html',1,'']]],
   ['mimetypeerrorlistener_2ejava',['MimeTypeErrorListener.java',['../MimeTypeErrorListener_8java.html',1,'']]],
-  ['multiplecolumnssolutionkey_2ejava',['MultipleColumnsSolutionKey.java',['../MultipleColumnsSolutionKey_8java.html',1,'']]],
-  ['timehelper_2ejava',['TimeHelper.java',['../media_2impl_2TimeHelper_8java.html',1,'']]]
+  ['multiplecolumnssolutionkey_2ejava',['MultipleColumnsSolutionKey.java',['../MultipleColumnsSolutionKey_8java.html',1,'']]]
 ];

@@ -1,11 +1,11 @@
 var namespaceannis =
 [
     [ "administration", "namespaceannis_1_1administration.html", "namespaceannis_1_1administration" ],
-    [ "cache", "namespaceannis_1_1cache.html", "namespaceannis_1_1cache" ],
     [ "corpuspathsearch", "namespaceannis_1_1corpuspathsearch.html", "namespaceannis_1_1corpuspathsearch" ],
     [ "dao", "namespaceannis_1_1dao.html", "namespaceannis_1_1dao" ],
     [ "exceptions", "namespaceannis_1_1exceptions.html", "namespaceannis_1_1exceptions" ],
     [ "gui", "namespaceannis_1_1gui.html", "namespaceannis_1_1gui" ],
+    [ "libgui", "namespaceannis_1_1libgui.html", "namespaceannis_1_1libgui" ],
     [ "model", "namespaceannis_1_1model.html", "namespaceannis_1_1model" ],
     [ "provider", "namespaceannis_1_1provider.html", "namespaceannis_1_1provider" ],
     [ "ql", "namespaceannis_1_1ql.html", "namespaceannis_1_1ql" ],
