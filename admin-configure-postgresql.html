@@ -110,9 +110,9 @@ $(document).ready(function(){initNavTree('admin-configure-postgresql.html','');}
 </div>
 <div class="textblock"><h1><a class="anchor" id="admin-configure-postgresperf"></a>
 Performance tuning </h1>
-<p>The default configuration of PostgreSQL uses system resource very sparingly. To improve the performance of the Annis service it is necessary to change a few settings in the PostgreSQL configuration file <code>postgresql.conf</code> as shown in the excerpt below.</p>
+<p>The default configuration of PostgreSQL uses system resource very sparingly. To improve the performance of the ANNIS service it is necessary to change a few settings in the PostgreSQL configuration file <code>postgresql.conf</code> as shown in the excerpt below.</p>
 <p>Most of the options below are commented out in the <code>postgresql.conf</code> file. This means that PostgreSQL will use the default value, i.e. the value as it appears in the <code>postgresql.conf</code> file, for this option. To make your changes take effect you have to uncomment it.</p>
-<p>The values below are for machine with 2 GB RAM that is exclusively dedicated to running PostgreSQL. If you're running Annis on your local machine and don't have large corpora, you should use lower values as explained in the comments.</p>
+<p>The values below are for machine with 2 GB RAM that is exclusively dedicated to running PostgreSQL. If you're running ANNIS on your local machine and don't have large corpora, you should use lower values as explained in the comments.</p>
 <p>Changes in <code>postgresql.conf</code>:</p>
 <pre class="fragment">max_connections = 100        # expected maximum number of connections (users) at peak load
 
@@ -152,7 +152,7 @@ autovacuum = off        # VACUUM is done automatically during corpus import
 </ul>
 <h1><a class="anchor" id="admin-configure-logging"></a>
 Logging </h1>
-<p>If you want to log the duration of SQL statements you should also set the following options in .conf@:</p>
+<p>If you want to log the duration of SQL statements you should also set the following options in <code>postgresql.conf</code>:</p>
 <pre class="fragment">log_min_duration_statement = 0
 </pre><h1><a class="anchor" id="admin-configure-remote"></a>
 Remote access </h1>
@@ -162,7 +162,7 @@ Remote access </h1>
 </pre><p> Where 192.168.1.1 is the IP address of the machine running PostgreSQL.</p>
 <p>Changes in <code>pg_hba.conf</code>:</p>
 <pre class="fragment">host annis_db annis_user 192.168.1.2/0 md5
-</pre><p> Where 192.168.1.2 is the machine running the Annis service that is connecting to the remote PostgreSQL server.</p>
+</pre><p> Where 192.168.1.2 is the machine running the ANNIS service that is connecting to the remote PostgreSQL server.</p>
 <h1><a class="anchor" id="admin-configure-res"></a>
 Configuration of System Resources </h1>
 <p>PostgreSQL needs to access large areas of continuous RAM which can easily exceed the maximum size allowed by the operating system. PostgreSQL will check the OS resource settings during startup and exit with an error if they are not adequate.</p>
@@ -180,7 +180,7 @@ sysctl -w kern.sysv.shmall=131072           # measured in 4 kB pages
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="admin.html">Administration</a></li>
-    <li class="footer">Generated on Tue Mar 12 2013 12:02:11 for ANNIS by
+    <li class="footer">Generated on Tue Mar 12 2013 12:19:18 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
