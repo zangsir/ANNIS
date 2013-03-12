@@ -1,7 +1,8 @@
 var classannis_1_1gui_1_1controlpanel_1_1QueryPanel =
 [
+    [ "ShowKeyboardClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener" ],
     [ "ShowResultClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener" ],
-    [ "QueryPanel", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a3e999e6e06eecef1b9b912e5da447798", null ],
+    [ "QueryPanel", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#aadb7b912222775ea5357e1cfd282a94c", null ],
     [ "getQuery", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a3a2bab1b5c83de11d1f4227a24f82f0c", null ],
     [ "setCountIndicatorEnabled", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a9fd92316a78d5966e8f3ff65d6a6ec5c", null ],
     [ "setQuery", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a747b1904f19a6b2e6fd5cf7c22dd41cf", null ],

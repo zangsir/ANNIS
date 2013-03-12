@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['range',['Range',['../classannis_1_1model_1_1QueryNode_1_1Range.html',1,'annis::model::QueryNode']]],
   ['range',['Range',['../classannis_1_1model_1_1AnnisNode_1_1Range.html',1,'annis::model::AnnisNode']]],
+  ['range',['Range',['../classannis_1_1model_1_1QueryNode_1_1Range.html',1,'annis::model::QueryNode']]],
   ['rangedjoin',['RangedJoin',['../classannis_1_1sqlgen_1_1model_1_1RangedJoin.html',1,'annis::sqlgen::model']]],
   ['rankid',['RankID',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1RankID.html',1,'annis::sqlgen::SaltAnnotateExtractor']]],
   ['ranktablejoin',['RankTableJoin',['../classannis_1_1sqlgen_1_1model_1_1RankTableJoin.html',1,'annis::sqlgen::model']]],
@@ -13,6 +13,8 @@ var searchData=
   ['reportformlayout',['ReportFormLayout',['../classannis_1_1gui_1_1ReportBugWindow_1_1ReportFormLayout.html',1,'annis::gui::ReportBugWindow']]],
   ['resolverdaohelper',['ResolverDaoHelper',['../classannis_1_1dao_1_1ResolverDaoHelper.html',1,'annis::dao']]],
   ['resolverentry',['ResolverEntry',['../classannis_1_1resolver_1_1ResolverEntry.html',1,'annis::resolver']]],
+  ['resolverentrycomparator',['ResolverEntryComparator',['../classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryComparator.html',1,'annis::gui::resultview::ResultSetPanel']]],
+  ['resolverentrylisttype',['ResolverEntryListType',['../classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType.html',1,'annis::gui::resultview::ResultSetPanel']]],
   ['resolverprovider',['ResolverProvider',['../interfaceannis_1_1gui_1_1resultview_1_1ResolverProvider.html',1,'annis::gui::resultview']]],
   ['resourceplugin',['ResourcePlugin',['../interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin.html',1,'annis::libgui::visualizers']]],
   ['resourceservlet',['ResourceServlet',['../classannis_1_1gui_1_1servlets_1_1ResourceServlet.html',1,'annis::gui::servlets']]],

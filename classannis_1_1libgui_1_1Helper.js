@@ -13,7 +13,7 @@ var classannis_1_1libgui_1_1Helper =
     [ "getUser", "classannis_1_1libgui_1_1Helper.html#af04beee2996e15d347f1c00ce1983075", null ],
     [ "parseFragment", "classannis_1_1libgui_1_1Helper.html#aca8759f416190c4e17df286018d887f7", null ],
     [ "setUser", "classannis_1_1libgui_1_1Helper.html#a4c319908039a958c4e25a4f68f38897c", null ],
-    [ "anonymousClient", "classannis_1_1libgui_1_1Helper.html#afa7a233335141e5b3f576c21eb38590d", null ],
+    [ "anonymousClient", "classannis_1_1libgui_1_1Helper.html#ad7473003454271169f8409dbe54cff22", null ],
     [ "KEY_WEB_SERVICE_URL", "classannis_1_1libgui_1_1Helper.html#a6b951c4a552f802c72c6ad552ad689e6", null ],
     [ "log", "classannis_1_1libgui_1_1Helper.html#afc9c7047475fad58b4708fd1d4965e17", null ]
 ];

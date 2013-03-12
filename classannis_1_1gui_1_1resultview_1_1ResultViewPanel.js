@@ -1,6 +1,6 @@
 var classannis_1_1gui_1_1resultview_1_1ResultViewPanel =
 [
-    [ "ResultViewPanel", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a391f2f0e48b28751c494bc33d3c4ade4", null ],
+    [ "ResultViewPanel", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a24fb967f7b18b8df599826b529aaa4c7", null ],
     [ "getPaging", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ac134a1b1d36f29861045f1729983d973", null ],
     [ "getVisibleTokenAnnos", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ad1c508a32808d6c3c960a04607702231", null ],
     [ "setCount", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7d12fcc8beb26825d1c7ffbb02d54ea3", null ],
@@ -8,6 +8,7 @@ var classannis_1_1gui_1_1resultview_1_1ResultViewPanel =
     [ "updateSegmentationLayer", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6d80108b7cd08bf3c3205bf6affdcaa4", null ],
     [ "updateTokenAnnos", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a991b1dde3f0411ccd7fe4763e19a1158", null ],
     [ "controller", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af8cf11907c36f745c55b7b16d3cd255c", null ],
+    [ "instanceConfig", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#acb9be7cd732823f19d7e6836b96ed31e", null ],
     [ "log", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ab47e39365b90559e3e170bd2405e3db1", null ],
     [ "mainLayout", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a9bad1a6e54beb9fe2629d75b85b10d05", null ],
     [ "miSegmentation", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a308d28ed585fde9a719740799840ff44", null ],

@@ -1,5 +1,6 @@
 var classannis_1_1model_1_1AnnotationGraph =
 [
+    [ "NodeComparator", "classannis_1_1model_1_1AnnotationGraph_1_1NodeComparator.html", "classannis_1_1model_1_1AnnotationGraph_1_1NodeComparator" ],
     [ "AnnotationGraph", "classannis_1_1model_1_1AnnotationGraph.html#a32be385db091fd4f8affad7e4f593bdd", null ],
     [ "AnnotationGraph", "classannis_1_1model_1_1AnnotationGraph.html#a20a37bcace4d3ee3a862787a6a4f14b2", null ],
     [ "addEdge", "classannis_1_1model_1_1AnnotationGraph.html#a59906c991161b16b0c7db172524e68d8", null ],

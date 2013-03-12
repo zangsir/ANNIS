@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['callback',['Callback',['../interfaceannis_1_1gui_1_1components_1_1CssRenderInfo_1_1Callback.html',1,'annis::gui::components::CssRenderInfo']]],
   ['callback',['Callback',['../interfaceannis_1_1visualizers_1_1LoadableVisualizer_1_1Callback.html',1,'annis::visualizers::LoadableVisualizer']]],
+  ['callback',['Callback',['../interfaceannis_1_1gui_1_1components_1_1CssRenderInfo_1_1Callback.html',1,'annis::gui::components::CssRenderInfo']]],
   ['callbackimpl',['CallbackImpl',['../classannis_1_1libgui_1_1media_1_1MediaControllerImpl_1_1CallbackImpl.html',1,'annis::libgui::media::MediaControllerImpl']]],
   ['cannotcreatetransactionmapper',['CannotCreateTransactionMapper',['../classannis_1_1rest_1_1provider_1_1CannotCreateTransactionMapper.html',1,'annis::rest::provider']]],
   ['citationlinkgenerator',['CitationLinkGenerator',['../classannis_1_1gui_1_1CitationLinkGenerator.html',1,'annis::gui']]],
@@ -27,6 +27,7 @@ var searchData=
   ['corpusselectionstrategy',['CorpusSelectionStrategy',['../interfaceannis_1_1dao_1_1CorpusSelectionStrategy.html',1,'annis::dao']]],
   ['corpusset',['CorpusSet',['../classannis_1_1libgui_1_1CorpusSet.html',1,'annis::libgui']]],
   ['corpussorter',['CorpusSorter',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusSorter.html',1,'annis::gui::controlpanel::CorpusListPanel']]],
+  ['corpustablechangedlistener',['CorpusTableChangedListener',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener.html',1,'annis::gui::controlpanel::CorpusListPanel']]],
   ['countmatchesanddocumentssqlgenerator',['CountMatchesAndDocumentsSqlGenerator',['../classannis_1_1sqlgen_1_1CountMatchesAndDocumentsSqlGenerator.html',1,'annis::sqlgen']]],
   ['countsqlgenerator',['CountSqlGenerator',['../classannis_1_1sqlgen_1_1CountSqlGenerator.html',1,'annis::sqlgen']]],
   ['countthread',['CountThread',['../classannis_1_1gui_1_1QueryController_1_1CountThread.html',1,'annis::gui::QueryController']]],

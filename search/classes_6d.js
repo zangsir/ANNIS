@@ -5,6 +5,7 @@ var searchData=
   ['match',['Match',['../classannis_1_1service_1_1objects_1_1Match.html',1,'annis::service::objects']]],
   ['matchanddocumentcount',['MatchAndDocumentCount',['../classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html',1,'annis::service::objects']]],
   ['matchednodecolors',['MatchedNodeColors',['../enumannis_1_1libgui_1_1MatchedNodeColors.html',1,'annis::libgui']]],
+  ['matchlisttype',['MatchListType',['../classannis_1_1gui_1_1resultview_1_1AnnisResultQuery_1_1MatchListType.html',1,'annis::gui::resultview::AnnisResultQuery']]],
   ['matrixquerydata',['MatrixQueryData',['../classannis_1_1sqlgen_1_1MatrixQueryData.html',1,'annis::sqlgen']]],
   ['matrixsqlgenerator',['MatrixSqlGenerator',['../classannis_1_1sqlgen_1_1MatrixSqlGenerator.html',1,'annis::sqlgen']]],
   ['mediacontroller',['MediaController',['../interfaceannis_1_1libgui_1_1media_1_1MediaController.html',1,'annis::libgui::media']]],
@@ -17,6 +18,8 @@ var searchData=
   ['metadataandcorpuswhereclausegenerator',['MetaDataAndCorpusWhereClauseGenerator',['../classannis_1_1sqlgen_1_1MetaDataAndCorpusWhereClauseGenerator.html',1,'annis::sqlgen']]],
   ['metadatafilter',['MetaDataFilter',['../classannis_1_1dao_1_1MetaDataFilter.html',1,'annis::dao']]],
   ['metadatapanel',['MetaDataPanel',['../classannis_1_1gui_1_1MetaDataPanel.html',1,'annis::gui']]],
+  ['metatablenamegenerator',['MetaTableNameGenerator',['../classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableNameGenerator.html',1,'annis::gui::MetaDataPanel']]],
+  ['metatablevaluegenerator',['MetaTableValueGenerator',['../classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableValueGenerator.html',1,'annis::gui::MetaDataPanel']]],
   ['mimetypeerrorlistener',['MimeTypeErrorListener',['../interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener.html',1,'annis::libgui::media']]],
   ['mouseeventtransferable',['MouseEventTransferable',['../classannis_1_1gui_1_1widgets_1_1GripDragComponent_1_1MouseEventTransferable.html',1,'annis::gui::widgets::GripDragComponent']]],
   ['multiplecolumnssolutionkey_3c_20basetype_20_3e',['MultipleColumnsSolutionKey&lt; BaseType &gt;',['../classannis_1_1sqlgen_1_1MultipleColumnsSolutionKey_3_01BaseType_01_4.html',1,'annis::sqlgen']]]

@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1CorpusBrowserPanel =
 [
+    [ "AnnisAttributeListType", "classannis_1_1gui_1_1CorpusBrowserPanel_1_1AnnisAttributeListType.html", "classannis_1_1gui_1_1CorpusBrowserPanel_1_1AnnisAttributeListType" ],
     [ "ExampleListener", "classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleListener.html", "classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleListener" ],
     [ "ExampleSorter", "classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleSorter.html", "classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleSorter" ],
     [ "ExampleTable", "classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleTable.html", "classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleTable" ],

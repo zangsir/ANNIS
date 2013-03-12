@@ -78,7 +78,7 @@ var classannis_1_1administration_1_1DefaultAdministrationDao =
     [ "setTableInsertFrom", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a76d57b3a47fcae328e8fee63545ef2fa", null ],
     [ "setTableInsertSelect", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a7f221dcaf09a47fa0f23037f9006ec5b", null ],
     [ "setTemporaryStagingArea", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a76555e398a01aaa7e119a319da4ef7f8", null ],
-    [ "setupDatabase", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a1f6f37848138e2b1f0904b0c76aa257e", null ],
+    [ "setupDatabase", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a0baca298f1f064282d7d9717d691fae7", null ],
     [ "storeUserConfig", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a588eb63f3ab9b80cacf9d910582e7d8a", null ],
     [ "stringRowMapper", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a009b41400249eeefeec78d346d8213b9", null ],
     [ "tableInStagingArea", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a809c005cf2b38bd8b9b9c1affadbf398", null ],

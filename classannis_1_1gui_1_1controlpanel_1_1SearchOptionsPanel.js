@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel =
 [
+    [ "AnnisAttributeListType", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1AnnisAttributeListType.html", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1AnnisAttributeListType" ],
     [ "SearchOptionsPanel", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a91961cf940f1a26daa8aafbd95e29e90", null ],
     [ "getLeftContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#abb8a9c3d4c15f5de7e2f6dc15c5fb872", null ],
     [ "getResultsPerPage", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ac1886c6413f901a39f8d33c345f7560f", null ],

@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder =
 [
+    [ "HelpClickListener", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder_1_1HelpClickListener.html", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder_1_1HelpClickListener" ],
     [ "TigerQueryBuilder", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder.html#a9c7d2f880c377910af80297b03110094", null ],
     [ "buttonClick", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder.html#a60258a74c7ad86a8575d990761c03965", null ],
     [ "btAddNode", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder.html#abfb499863cc805fa60c86f262ed67181", null ],

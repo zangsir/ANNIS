@@ -124,6 +124,9 @@ Installing an ANNIS public server </h1>
 </div><!-- fragment --></li>
 <li>Next initialize your ANNIS database (only the first time you use the system): <div class="fragment"><div class="line">annis-admin.sh init -u &lt;username&gt; -d &lt;dbname&gt; -p</div>
 <div class="line">-P &lt;postgres password&gt;</div>
+</div><!-- fragment --> You can omit the PostgreSQL administrator password option (<code>-P</code>). Then the database and user must already exists. E.g. you should execute the following as PostgreSQL administrator: <div class="fragment"><div class="line">CREATE LANGUAGE plpgsql; -- ignore the error <span class="keywordflow">if</span> the language is already installed</div>
+<div class="line">CREATE USER myuser PASSWORD <span class="stringliteral">&#39;mypassword&#39;</span>;</div>
+<div class="line">CREATE DATABASE mydb OWNER myuser ENCODING <span class="stringliteral">&#39;UTF8&#39;</span>;</div>
 </div><!-- fragment --></li>
 <li>Now you can import some corpora: <div class="fragment"><div class="line">annis-admin.sh <span class="keyword">import</span> path/to/corpus1 path/to/corpus2 ...</div>
 </div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>The above import-command calls other PostgreSQL database commands. If you abort the import script with Ctrl+C, these SQL processes will not be automatically terminated; instead they might keep hanging and prevent access to the database. The same might happen if you close your shell before the import script terminates, so you will want to prefix it with the "nohup"- command.</dd></dl>
@@ -157,7 +160,7 @@ After installation, PostgreSQL may automatically launch the PostgreSQL Stack Bui
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="admin.html">Administration</a></li>
-    <li class="footer">Generated on Wed Feb 20 2013 22:01:10 for ANNIS by
+    <li class="footer">Generated on Tue Mar 12 2013 11:41:13 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

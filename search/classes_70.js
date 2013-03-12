@@ -1,6 +1,7 @@
 var searchData=
 [
   ['pagedresultquery',['PagedResultQuery',['../classannis_1_1gui_1_1model_1_1PagedResultQuery.html',1,'annis::gui::model']]],
+  ['pagevalidator',['PageValidator',['../classannis_1_1gui_1_1paging_1_1PagingComponent_1_1PageValidator.html',1,'annis::gui::paging::PagingComponent']]],
   ['pagingcallback',['PagingCallback',['../interfaceannis_1_1gui_1_1paging_1_1PagingCallback.html',1,'annis::gui::paging']]],
   ['pagingcomponent',['PagingComponent',['../classannis_1_1gui_1_1paging_1_1PagingComponent.html',1,'annis::gui::paging']]],
   ['partiturparser',['PartiturParser',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser.html',1,'annis::visualizers::iframe::partitur']]],

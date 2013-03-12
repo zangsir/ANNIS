@@ -8,5 +8,6 @@ var searchData=
   ['findhelper',['FindHelper',['../classannis_1_1FindHelper.html',1,'annis']]],
   ['findsqlgenerator',['FindSqlGenerator',['../classannis_1_1sqlgen_1_1FindSqlGenerator.html',1,'annis::sqlgen']]],
   ['font',['Font',['../interfaceannis_1_1visualizers_1_1component_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4_1_1Font.html',1,'annis::visualizers::component::tree::GraphicsBackend&lt; T extends GraphicsItem &gt;']]],
+  ['fontconfig',['FontConfig',['../classannis_1_1gui_1_1FontConfig.html',1,'annis::gui']]],
   ['fromclausesqlgenerator_3c_20t_20_3e',['FromClauseSqlGenerator&lt; T &gt;',['../interfaceannis_1_1sqlgen_1_1FromClauseSqlGenerator_3_01T_01_4.html',1,'annis::sqlgen']]]
 ];

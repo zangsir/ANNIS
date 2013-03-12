@@ -18,6 +18,7 @@ var searchData=
   ['findroot',['findRoot',['../classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a1126234622fc3701abe3d49a5e9a9569',1,'annis::visualizers::component::tree::ConstituentLayouter&lt; T extends GraphicsItem &gt;']]],
   ['fixnodes',['fixNodes',['../classannis_1_1sqlgen_1_1AomAnnotateExtractor.html#afe6200b55e872f4fa3bddf7656488d15',1,'annis::sqlgen::AomAnnotateExtractor']]],
   ['focus',['focus',['../classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html#a6498522b09015b76472279cf5025c63a',1,'annis::gui::components::HelpButton&lt; T &gt;']]],
+  ['fontconfig',['FontConfig',['../classannis_1_1gui_1_1FontConfig.html#a47f13c0d040f0b731ad2061a12c02070',1,'annis::gui::FontConfig']]],
   ['foreachfielddo',['forEachFieldDo',['../classannis_1_1model_1_1DataObject.html#ab1d0e811442a2674c3e7aa9b912c94bd',1,'annis::model::DataObject']]],
   ['formatastable',['formatAsTable',['../classannis_1_1TableFormatter.html#a7caaa9f30936ef56c42a612cf9592dd1',1,'annis::TableFormatter']]],
   ['formwindowopened',['formWindowOpened',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ExceptionDialog.html#a0e299e2b5f9fa8892e909766ef5a5ffa',1,'de::hu_berlin::german::korpling::annis::kickstarter::ExceptionDialog']]],

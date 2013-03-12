@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1querybuilder_1_1EdgeWindow =
 [
+    [ "OperatorValueChangeListener", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow_1_1OperatorValueChangeListener.html", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow_1_1OperatorValueChangeListener" ],
     [ "EdgeWindow", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#a4ee94c0b80b6dc92ebf5101f9463b791", null ],
     [ "buttonClick", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#a4c4ab33069627807ab3290bfddac73e0", null ],
     [ "getOperator", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#a5eef690e6c79a2d26fae945d7051e7fa", null ],

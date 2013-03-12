@@ -8,6 +8,7 @@ var searchData=
   ['legacygraphconverter',['LegacyGraphConverter',['../classannis_1_1utils_1_1LegacyGraphConverter.html',1,'annis::utils']]],
   ['limitoffsetclausesqlgenerator_3c_20t_20_3e',['LimitOffsetClauseSqlGenerator&lt; T &gt;',['../interfaceannis_1_1sqlgen_1_1LimitOffsetClauseSqlGenerator_3_01T_01_4.html',1,'annis::sqlgen']]],
   ['limitoffsetquerydata',['LimitOffsetQueryData',['../classannis_1_1sqlgen_1_1LimitOffsetQueryData.html',1,'annis::sqlgen']]],
+  ['linkclicklistener',['LinkClickListener',['../classannis_1_1gui_1_1CitationLinkGenerator_1_1LinkClickListener.html',1,'annis::gui::CitationLinkGenerator']]],
   ['listannotationssqlhelper',['ListAnnotationsSqlHelper',['../classannis_1_1sqlgen_1_1ListAnnotationsSqlHelper.html',1,'annis::sqlgen']]],
   ['listcorpusannotationssqlhelper',['ListCorpusAnnotationsSqlHelper',['../classannis_1_1sqlgen_1_1ListCorpusAnnotationsSqlHelper.html',1,'annis::sqlgen']]],
   ['listcorpusbynamedaohelper',['ListCorpusByNameDaoHelper',['../classannis_1_1dao_1_1ListCorpusByNameDaoHelper.html',1,'annis::dao']]],

@@ -1,7 +1,7 @@
 var classannis_1_1gui_1_1resultview_1_1SingleResultPanel =
 [
     [ "CoveredMatchesCalculator", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator" ],
-    [ "SingleResultPanel", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a6a1a6ad3eaaeae00b19fcd28238df946", null ],
+    [ "SingleResultPanel", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a398570d30d5fa13062b64922d5790e63", null ],
     [ "buttonClick", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aeb8ed76864680a34e7e97629266c7dce", null ],
     [ "calculateHelperVariables", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a5882ca87c6d4d797b56c5962ad7dca79", null ],
     [ "calculateMarkedAndCoveredIDs", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a16238f3d6abd224505262b93d3063c8b", null ],
@@ -19,11 +19,8 @@ var classannis_1_1gui_1_1resultview_1_1SingleResultPanel =
     [ "markedExactMap", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a98002e9c51e1c4e8e2e2d8983458ed73", null ],
     [ "path", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a7d68320336affeb71e3735c105b141cf", null ],
     [ "ps", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a94444621a1771d872eeec8d8b3cc85fa", null ],
-    [ "resolverProvider", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a100b5d75285a4e8e135a9c3679bfea3f", null ],
     [ "result", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a52bc7e8fac78ff87d76c5625a3faf3af", null ],
-    [ "resultNumber", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a72bd24de2e086c1c57f8012ffdcf9774", null ],
     [ "segmentationName", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a41d484fe4f301f69eb1e8cce2220c514", null ],
     [ "token", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a6faccbc5dd2ca24d27fd7d730310c933", null ],
-    [ "visibleTokenAnnos", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a64289cfed3fbe64a025bfd459ba387af", null ],
     [ "visualizers", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aa93862e61eb37b4dde7f07c4b459b67a", null ]
 ];

@@ -1,6 +1,7 @@
 var classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas =
 [
     [ "AbsoluteDropHandler", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AbsoluteDropHandler.html", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AbsoluteDropHandler" ],
+    [ "AnnisAttributeListType", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AnnisAttributeListType.html", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AnnisAttributeListType" ],
     [ "TigerQueryBuilderCanvas", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a54b9778c80476a0fbd73bc1be3be7add", null ],
     [ "addEdge", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a7f75e0631a5baf506100ee17c328448a", null ],
     [ "addNode", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html#a418049bacb838ca87aa09ec76308f977", null ],

@@ -13,6 +13,7 @@ var searchData=
   ['hasvalue',['hasValue',['../classannis_1_1service_1_1objects_1_1AnnisAttribute.html#a7114f63928c3dfcb28b042720dcd436f',1,'annis::service::objects::AnnisAttribute']]],
   ['hasverticaledgeconflict',['hasVerticalEdgeConflict',['../classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html#ae4b2829f7987824d9801c78115becc36',1,'annis::visualizers::component::tree::NodeStructureData']]],
   ['helpbutton',['HelpButton',['../classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html#a647eed8a47a01e34039dbf5d9a2d8cca',1,'annis::gui::components::HelpButton&lt; T &gt;']]],
+  ['helpclicklistener',['HelpClickListener',['../classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder_1_1HelpClickListener.html#a23d52ab7e64d6d0023f782b9f039d392',1,'annis::gui::querybuilder::TigerQueryBuilderPlugin::TigerQueryBuilder::HelpClickListener']]],
   ['helpuswindow',['HelpUsWindow',['../classannis_1_1gui_1_1HelpUsWindow.html#a96aa2198fba7e9abde835329934e3cbb',1,'annis::gui::HelpUsWindow']]],
   ['historyentry',['HistoryEntry',['../classannis_1_1gui_1_1beans_1_1HistoryEntry.html#a84f83f2485c496c38c7957ae2af45bb7',1,'annis::gui::beans::HistoryEntry']]],
   ['historypanel',['HistoryPanel',['../classannis_1_1gui_1_1HistoryPanel.html#aaff23fd5932945ceb3a68b7ca26228b4',1,'annis::gui::HistoryPanel']]],

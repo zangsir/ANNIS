@@ -2,7 +2,9 @@ var classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel =
 [
     [ "ActionType", "enumannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1ActionType.html", "enumannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1ActionType" ],
     [ "AddRemoveAction", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AddRemoveAction.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AddRemoveAction" ],
+    [ "AnnisCorpusListType", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AnnisCorpusListType.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AnnisCorpusListType" ],
     [ "CorpusSorter", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusSorter.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusSorter" ],
+    [ "CorpusTableChangedListener", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener" ],
     [ "InfoGenerator", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1InfoGenerator.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1InfoGenerator" ],
     [ "CorpusListPanel", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html#a6282f0302c3379f27f36bbe0cb47068c", null ],
     [ "addNewItem", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html#a564f5ea746ff298e2355c46b4076dc36", null ],

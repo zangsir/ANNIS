@@ -1,7 +1,9 @@
 var classannis_1_1gui_1_1resultview_1_1ResultSetPanel =
 [
     [ "AllResultsFetcher", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher.html", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher" ],
-    [ "ResultSetPanel", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a8a2a1e210120cbce54a9aa0067c47cfa", null ],
+    [ "ResolverEntryComparator", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryComparator.html", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryComparator" ],
+    [ "ResolverEntryListType", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType.html", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType" ],
+    [ "ResultSetPanel", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a720685552405bb93c8ff96a54a6c5490", null ],
     [ "addQueryResult", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a07e64b2a0402e86763ee0e1e0b87ee1a", null ],
     [ "createPanels", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a532a2bf8604f33ccba62d7287c6694fa", null ],
     [ "getResolverEntries", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a406a013a786bddeec89ecc20a2a56d1f", null ],
@@ -15,6 +17,7 @@ var classannis_1_1gui_1_1resultview_1_1ResultSetPanel =
     [ "firstMatchOffset", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a2e4a3853a42a2b827667692b07bd5411", null ],
     [ "indicator", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a77f7cbfd9b21621f35cfa18b8e435e14", null ],
     [ "indicatorLayout", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#ab3c05224e710c2ac95c370cfc3768c72", null ],
+    [ "instanceConfig", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#aad8b574394dfca5c3902b72526905e95", null ],
     [ "layout", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#ab1a844da8be981f3f22dfd9709835973", null ],
     [ "log", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#ac36f073d3fe528cf5033275231ebe983", null ],
     [ "matches", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a9cae329b40fc7e29edc80d432d1f5e9e", null ],

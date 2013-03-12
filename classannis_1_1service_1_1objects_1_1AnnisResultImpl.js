@@ -2,7 +2,6 @@ var classannis_1_1service_1_1objects_1_1AnnisResultImpl =
 [
     [ "AnnisResultImpl", "classannis_1_1service_1_1objects_1_1AnnisResultImpl.html#a6d2effd6f2fb2feb9748039bc33aebcb", null ],
     [ "AnnisResultImpl", "classannis_1_1service_1_1objects_1_1AnnisResultImpl.html#acf775af84e38023fd4e891af96715207", null ],
-    [ "addNamespace", "classannis_1_1service_1_1objects_1_1AnnisResultImpl.html#ab603921bf8b24392933e566d925ef815", null ],
     [ "getAnnotationLevelSet", "classannis_1_1service_1_1objects_1_1AnnisResultImpl.html#a10a2390aafa8a9100e6d93ff85d6ee2e", null ],
     [ "getDocumentName", "classannis_1_1service_1_1objects_1_1AnnisResultImpl.html#aa185cf373c11780a1d61ac99d0e7e0a7", null ],
     [ "getEndNodeId", "classannis_1_1service_1_1objects_1_1AnnisResultImpl.html#ad07286df7018e0fa07bec8c394090859", null ],

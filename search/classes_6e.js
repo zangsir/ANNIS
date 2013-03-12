@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['nodecomparator',['NodeComparator',['../classannis_1_1model_1_1AnnotationGraph_1_1NodeComparator.html',1,'annis::model::AnnotationGraph']]],
   ['nodenameandidpostgresqlarraysolutionkey',['NodeNameAndIdPostgreSqlArraySolutionKey',['../classannis_1_1sqlgen_1_1NodeNameAndIdPostgreSqlArraySolutionKey.html',1,'annis::sqlgen']]],
   ['noderelationnormalizer',['NodeRelationNormalizer',['../classannis_1_1ql_1_1parser_1_1NodeRelationNormalizer.html',1,'annis::ql::parser']]],
   ['nodesearchnormalizer',['NodeSearchNormalizer',['../classannis_1_1ql_1_1parser_1_1NodeSearchNormalizer.html',1,'annis::ql::parser']]],

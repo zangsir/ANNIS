@@ -21,5 +21,6 @@ var namespaceannis_1_1gui =
     [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html", "classannis_1_1gui_1_1MetaDataPanel" ],
     [ "QueryController", "classannis_1_1gui_1_1QueryController.html", "classannis_1_1gui_1_1QueryController" ],
     [ "ReportBugWindow", "classannis_1_1gui_1_1ReportBugWindow.html", "classannis_1_1gui_1_1ReportBugWindow" ],
-    [ "SearchUI", "classannis_1_1gui_1_1SearchUI.html", "classannis_1_1gui_1_1SearchUI" ]
+    [ "SearchUI", "classannis_1_1gui_1_1SearchUI.html", "classannis_1_1gui_1_1SearchUI" ],
+    [ "FontConfig", "classannis_1_1gui_1_1FontConfig.html", "classannis_1_1gui_1_1FontConfig" ]
 ];
