@@ -61,8 +61,8 @@ var searchData=
   ['focus',['focus',['../classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html#a6498522b09015b76472279cf5025c63a',1,'annis::gui::components::HelpButton&lt; T &gt;']]],
   ['font',['font',['../classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a8ca35c48b05f9a86b21336a1e5a4c0c7',1,'annis.libgui.visualizers.VisualizerInput.font()'],['../classannis_1_1libgui_1_1InstanceConfig.html#aa97ca8277cf0f9c55955e46cebc288c0',1,'annis.libgui.InstanceConfig.font()']]],
   ['font',['Font',['../interfaceannis_1_1visualizers_1_1component_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4_1_1Font.html',1,'annis::visualizers::component::tree::GraphicsBackend&lt; T extends GraphicsItem &gt;']]],
-  ['fontconfig',['FontConfig',['../classannis_1_1gui_1_1FontConfig.html',1,'annis::gui']]],
   ['fontconfig',['FontConfig',['../classannis_1_1gui_1_1FontConfig.html#a47f13c0d040f0b731ad2061a12c02070',1,'annis::gui::FontConfig']]],
+  ['fontconfig',['FontConfig',['../classannis_1_1gui_1_1FontConfig.html',1,'annis::gui']]],
   ['fontconfig_2ejava',['FontConfig.java',['../FontConfig_8java.html',1,'']]],
   ['foreachfielddo',['forEachFieldDo',['../classannis_1_1model_1_1DataObject.html#ab1d0e811442a2674c3e7aa9b912c94bd',1,'annis::model::DataObject']]],
   ['form',['form',['../classannis_1_1gui_1_1ReportBugWindow.html#ab87d37338f80f09ebc1b1bf00239b122',1,'annis::gui::ReportBugWindow']]],
@@ -78,5 +78,7 @@ var searchData=
   ['fromedgeannotation',['fromEdgeAnnotation',['../classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#a26fc62c9f95d71b42358ea0b0ed626d7',1,'annis::ql::parser::ClauseAnalysis']]],
   ['frontend_2emd',['frontend.md',['../frontend_8md.html',1,'']]],
   ['fullcolumnname',['fullColumnName',['../classannis_1_1WekaHelper.html#a0d9be7f2b8f2a6c8c427aba79a9b8e37',1,'annis::WekaHelper']]],
-  ['functioncall',['functionCall',['../classannis_1_1AnnisRunner_1_1Benchmark.html#a6c63dc049652590bc27cb8d765f0e6bf',1,'annis::AnnisRunner::Benchmark']]]
+  ['functioncall',['functionCall',['../classannis_1_1AnnisRunner_1_1Benchmark.html#a6c63dc049652590bc27cb8d765f0e6bf',1,'annis::AnnisRunner::Benchmark']]],
+  ['futurecount',['futureCount',['../classannis_1_1gui_1_1QueryController.html#aa0fa823aa07d36a1bdbcf9d3c69b9fc1',1,'annis::gui::QueryController']]],
+  ['futurematches',['futureMatches',['../classannis_1_1gui_1_1QueryController.html#ad9c572667790cf4d6d945e96a7877e31',1,'annis::gui::QueryController']]]
 ];

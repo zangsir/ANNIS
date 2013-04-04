@@ -1,7 +1,7 @@
 var searchData=
 [
   ['ui',['ui',['../classannis_1_1gui_1_1QueryController.html#a33d5cb82d6d0fc28719c3335cfd2f5ba',1,'annis::gui::QueryController']]],
-  ['unknown',['UNKNOWN',['../enumannis_1_1model_1_1Edge_1_1EdgeType.html#a80827241984ec3735be8bcf5f821770b',1,'annis.model.Edge.EdgeType.UNKNOWN()'],['../enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html#a7b60f7217cb9bcf7cd543fe703da1fc3',1,'annis.service.objects.AnnisAttribute.Type.unknown()'],['../enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1SubType.html#a5003a6f4124c6bd4c7e028b86545f25b',1,'annis.service.objects.AnnisAttribute.SubType.unknown()']]],
+  ['unknown',['unknown',['../enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html#a7b60f7217cb9bcf7cd543fe703da1fc3',1,'annis.service.objects.AnnisAttribute.Type.unknown()'],['../enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1SubType.html#a5003a6f4124c6bd4c7e028b86545f25b',1,'annis.service.objects.AnnisAttribute.SubType.unknown()'],['../enumannis_1_1model_1_1Edge_1_1EdgeType.html#a80827241984ec3735be8bcf5f821770b',1,'annis.model.Edge.EdgeType.UNKNOWN()']]],
   ['uri',['uri',['../classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#ab630574bdcf6a87cd04e7dbdc6fa20a1',1,'annis::gui::widgets::AutoHeightIFrame']]],
   ['uris',['uris',['../classannis_1_1service_1_1objects_1_1SaltURIGroup.html#a606c7e0e13692f660b09ed64b9570b4a',1,'annis::service::objects::SaltURIGroup']]],
   ['url',['url',['../classannis_1_1gui_1_1FontConfig.html#a0b5febead5108fde7e7108e8dfff536f',1,'annis::gui::FontConfig']]],

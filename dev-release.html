@@ -29,7 +29,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-alpha.3</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -104,14 +104,15 @@ $(document).ready(function(){initNavTree('dev-release.html','');});
 <div class="textblock"><dl class="section warning"><dt>Warning</dt><dd>This is work and progress and neither finished or tested for a real release.</dd></dl>
 <p>Unfurtunally this requires some manual work. We used to invoke the Maven Release plugin in the process, but the only real usefull task was the version update and we still needed to do a lot of manual work. Thus we decided to write down the necessary steps to perform a new ANNIS release instead of relaying to a half-working solution with the Maven Release plugin.</p>
 <ol type="1">
-<li>Make and switch to a new <em>local</em> branch for the release in git. Do not push this branch to a remote location since you may want to throw it away when the testing of the temporary release unveils release critical problems. Normally commit the changes after each major step.</li>
-<li>Update the licenses in the <code>THIRD-PARTY</code> folder <div class="fragment"><div class="line">mvn license:add-third-party</div>
+<li>Update the licenses in the <code>THIRD-PARTY</code> folder and commit/push to master <div class="fragment"><div class="line">mvn license:add-third-party</div>
 <div class="line">mvn license:download-licenses</div>
 </div><!-- fragment --></li>
+<li>Make and switch to a new <em>local</em> branch for the release in git. Do not push this branch to a remote location since you may want to throw it away when the testing of the temporary release unveils release critical problems. Normally commit the changes after each major step.</li>
 <li>Update the version information<ol type="a">
-<li>Internal version information in pom.xml files <div class="fragment"><div class="line">mvn release:update-versions</div>
+<li>Internal version information in pom.xml files <div class="fragment"><div class="line">mvn release:update-versions -DautoVersionSubmodules=<span class="keyword">true</span></div>
 </div><!-- fragment --></li>
 <li>The <code>ANNIS_VERSION</code> variable in the <code>buildbot_scripts/copyService.sh</code> script file.</li>
+<li>The <code>PROJECT_NUMBER</code> variable in the <code>doc/Doxyfile</code> documentation descriptor file.</li>
 </ol>
 </li>
 <li>Regenerate this documentation. <div class="fragment"><div class="line">cd doc/</div>
@@ -140,7 +141,7 @@ $(document).ready(function(){initNavTree('dev-release.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="dev.html">Developing</a></li>
-    <li class="footer">Generated on Tue Mar 12 2013 12:19:18 for ANNIS by
+    <li class="footer">Generated on Thu Apr 4 2013 18:14:13 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

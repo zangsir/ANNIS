@@ -24,6 +24,7 @@ var searchData=
   ['distinctvalues',['distinctValues',['../classannis_1_1service_1_1objects_1_1AnnisAttribute.html#a982f440d5d26ac88e7bdd8f5711747a7',1,'annis::service::objects::AnnisAttribute']]],
   ['dnftransformer',['dnfTransformer',['../classannis_1_1ql_1_1parser_1_1QueryValidator.html#a1a49dff1d05e3c4d217f475d3ab94745',1,'annis::ql::parser::QueryValidator']]],
   ['doc',['doc',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#aab6b7ff0d5c8874f56cc651681b088b1',1,'annis::gui::widgets::gwt::client::ui::VJITWrapper']]],
+  ['docs',['docs',['../classannis_1_1gui_1_1MetaDataPanel.html#afa54f8a8070cb2b2da66a2c0724a7697',1,'annis::gui::MetaDataPanel']]],
   ['document',['document',['../classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#aa613f7beecab61b22cdddc271c530f09',1,'annis::libgui::visualizers::VisualizerInput']]],
   ['documentcount',['documentCount',['../classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html#ab714ae8b7f583eede45525e64420a7cf',1,'annis::service::objects::MatchAndDocumentCount']]],
   ['documentname',['documentName',['../classannis_1_1gui_1_1MetaDataPanel.html#a630347073f4e34a254e4447458994d63',1,'annis.gui.MetaDataPanel.documentName()'],['../classannis_1_1model_1_1AnnotationGraph.html#a098783ed579d842ad7fdbacfc0bc175c',1,'annis.model.AnnotationGraph.documentName()']]],

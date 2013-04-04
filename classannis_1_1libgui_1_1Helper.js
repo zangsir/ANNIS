@@ -6,6 +6,8 @@ var classannis_1_1libgui_1_1Helper =
     [ "encodeBase64URL", "classannis_1_1libgui_1_1Helper.html#a8ac549aa52d16ae425035bd800adb87e", null ],
     [ "generateCitation", "classannis_1_1libgui_1_1Helper.html#a7a365b40fa84e099cb88e9a353de3b26", null ],
     [ "generateClassicCitation", "classannis_1_1libgui_1_1Helper.html#a724365a72b63674ef2dc8b2001f53fcb", null ],
+    [ "getAnnisAsyncWebResource", "classannis_1_1libgui_1_1Helper.html#a6cba8c375de68ae464c5dd0cde0fe3ff", null ],
+    [ "getAnnisAsyncWebResource", "classannis_1_1libgui_1_1Helper.html#ac2dd08095e23ad5f64d4abf4c6502417", null ],
     [ "getAnnisWebResource", "classannis_1_1libgui_1_1Helper.html#a3d9ffa1f95cadea524f6ac53ca1dfcd7", null ],
     [ "getAnnisWebResource", "classannis_1_1libgui_1_1Helper.html#a889cbd436a91ae49fee2c0b2c40ff331", null ],
     [ "getContext", "classannis_1_1libgui_1_1Helper.html#aa88619becfbb60db5e15727f3f7647ac", null ],

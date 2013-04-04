@@ -29,7 +29,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-alpha.3</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -130,7 +130,9 @@ $(document).ready(function(){initNavTree('interfaceannis_1_1dao_1_1AnnisDao.html
   <tr><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a470000416e4b5dd6fd6646fae9c74f60">listAnnotations</a>(List&lt; Long &gt; corpusList, boolean listValues, boolean onlyMostFrequentValues)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a365d3f045d4ceb1e67048fbc0ab82481">listCorpora</a>()</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#aa58d87591995f24172e09f3069681b0f">listCorpusAnnotations</a>(String toplevelCorpusName)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#afaefeeb871cd501c57924da5be0b3815">listCorpusAnnotations</a>(String toplevelCorpusName, String documentName)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a1bb4d180f08a2cc16639fa372b9c8245">listCorpusAnnotations</a>(String toplevelCorpusName, String documentName, boolean exclude)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a6edb90b7d1c15818e10094e2430de307">listDocuments</a>(String toplevelCorpusName)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#aa5fa70f1034d0f4e80dc2f7ab6d58172">listDocumentsAnnotations</a>(String toplevelCorpusName, boolean withRootCorpus)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#aa5be3ed647eff22d8712e544c505c083">mapCorpusIdsToNames</a>(List&lt; Long &gt; ids)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a49913abd6ae4da8410a6d7244bdd80ba">mapCorpusNamesToIds</a>(List&lt; String &gt; corpusNames)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#acf3db9765cf99256aa95ebf971ab9b9b">matrix</a>(QueryData queryData)</td><td class="entry"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">annis.dao.AnnisDao</a></td><td class="entry"></td></tr>
@@ -143,7 +145,7 @@ $(document).ready(function(){initNavTree('interfaceannis_1_1dao_1_1AnnisDao.html
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 12 2013 12:19:18 for ANNIS by
+    <li class="footer">Generated on Thu Apr 4 2013 18:14:14 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

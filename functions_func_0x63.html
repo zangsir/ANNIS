@@ -29,7 +29,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-alpha.3</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -162,8 +162,7 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 : <a class="el" href="classannis_1_1utils_1_1Utils.html#a9af16b8c35f83b2c6903b5f9cad0bea2">annis.utils.Utils</a>
 </li>
 <li>call()
-: <a class="el" href="classannis_1_1gui_1_1QueryController_1_1ResultCallable.html#af7528dd4b66dafa907f32b4735c7e701">annis.gui.QueryController.ResultCallable</a>
-, <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher.html#ab82ecaa15a36aaba641b88e7dec77bc7">annis.gui.resultview.ResultSetPanel.AllResultsFetcher</a>
+: <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher.html#ab82ecaa15a36aaba641b88e7dec77bc7">annis.gui.resultview.ResultSetPanel.AllResultsFetcher</a>
 , <a class="el" href="classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html#a28ee21c50a12461c335c8bb06b072ae4">annis.gui.resultview.VisualizerPanel.LoadComponentTask</a>
 , <a class="el" href="classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction.html#a29e3f4c044ecfdcb15dbec916a896ff6">annis.gui.components.VirtualKeyboard.UpdateLangJSFunction</a>
 </li>
@@ -172,6 +171,9 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 </li>
 <li>calulcateColorsForMarkedAndCoverd()
 : <a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#ae8c31f93aec1d083e14a222f68114e61">annis.gui.resultview.SingleResultPanel</a>
+</li>
+<li>cancelQueries()
+: <a class="el" href="classannis_1_1gui_1_1QueryController.html#a77a38e9c865fc0d84712bfa99e9f1925">annis.gui.QueryController</a>
 </li>
 <li>canHaveVerticalOverlap()
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html#a6811ca6d3ff4836f3ff4cc645f19fd5f">annis.visualizers.component.tree.NodeStructureData</a>
@@ -322,6 +324,7 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 <li>checkConstraint()
 : <a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html#afbb67b666a9d6a17acf559330cf935c4">annis.gui.resultview.SingleResultPanel.CoveredMatchesCalculator</a>
 , <a class="el" href="classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#a56c923ed008da8fd1419889bfe59f9a6">annis.visualizers.component.rst.RSTImpl</a>
+, <a class="el" href="classannis_1_1CoveredTextsCalculator.html#a745d53eeb99b74598eba121ca76a290d">annis.CoveredTextsCalculator</a>
 </li>
 <li>checkCorpusSourcePathExists()
 : <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog.html#a401bc95b502e8858eaafa8abd9a782ff">de.hu_berlin.german.korpling.annis.kickstarter.InitDialog</a>
@@ -337,6 +340,12 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 </li>
 <li>checkForAnnisHome()
 : <a class="el" href="classannis_1_1AnnisBaseRunner.html#aa70e4f2697e09970a6916f7c2dba6989">annis.AnnisBaseRunner</a>
+</li>
+<li>checkFutureCount()
+: <a class="el" href="classannis_1_1gui_1_1QueryController.html#a01490fbe6aac811c567675bfb37e42a3">annis.gui.QueryController</a>
+</li>
+<li>checkFutureMatchesFinished()
+: <a class="el" href="classannis_1_1gui_1_1QueryController.html#a130d3077436c80af5cf04ff33d86dbcb">annis.gui.QueryController</a>
 </li>
 <li>checkIFrameLoaded()
 : <a class="el" href="classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAutoHeightIFrame.html#a3b0226cf1241a3e81b52017fb4eabe0e">annis.gui.widgets.gwt.client.ui.VAutoHeightIFrame</a>
@@ -420,14 +429,17 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 , <a class="el" href="classannis_1_1service_1_1objects_1_1AnnisResultSetImpl_1_1AnnisResultSetComparator.html#a87a4803370cd7d754e81071e4e4a00f7">annis.service.objects.AnnisResultSetImpl.AnnisResultSetComparator</a>
 </li>
 <li>compareProperty()
-: <a class="el" href="classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleSorter.html#a55f40c2a5aebd74b1797da88cec56a1a">annis.gui.CorpusBrowserPanel.ExampleSorter</a>
-, <a class="el" href="classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusSorter.html#af7e1f88f87c14fe63150862428ce28fe">annis.gui.controlpanel.CorpusListPanel.CorpusSorter</a>
+: <a class="el" href="classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusSorter.html#af7e1f88f87c14fe63150862428ce28fe">annis.gui.controlpanel.CorpusListPanel.CorpusSorter</a>
+, <a class="el" href="classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleSorter.html#a55f40c2a5aebd74b1797da88cec56a1a">annis.gui.CorpusBrowserPanel.ExampleSorter</a>
 </li>
 <li>compareTo()
-: <a class="el" href="classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a3d4ed8575fef601a1a373f28a9c2812b">annis.service.objects.AnnisCorpus</a>
-, <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a9f347bb65ea7a1ea2fae141194fbffa9">annis.visualizers.iframe.gridtree.GridTreeVisualizer.Span</a>
+: <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a9f347bb65ea7a1ea2fae141194fbffa9">annis.visualizers.iframe.gridtree.GridTreeVisualizer.Span</a>
 , <a class="el" href="classannis_1_1model_1_1Annotation.html#a3825cccd5dc412e3e9903e0eafd412df">annis.model.Annotation</a>
 , <a class="el" href="classannis_1_1model_1_1QueryAnnotation.html#abe49873b4ae0525199bdb2a7cd907259">annis.model.QueryAnnotation</a>
+, <a class="el" href="classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a3d4ed8575fef601a1a373f28a9c2812b">annis.service.objects.AnnisCorpus</a>
+</li>
+<li>componentNameForRelation()
+: <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a66074b4bf1b596e2dbee40c24c681739">annis.visualizers.iframe.CorefVisualizer</a>
 </li>
 <li>computeCorpusPath()
 : <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ad9829a2e74de612449f682d37370027d">annis.administration.DefaultAdministrationDao</a>
@@ -466,7 +478,7 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a1cf8d03f182319582683ffdd0b2ad68d">annis.visualizers.component.tree.ConstituentLayouter&lt; T extends GraphicsItem &gt;</a>
 </li>
 <li>connectionOf()
-: <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a7156587603861eef42cc7106da2f2973">annis.visualizers.iframe.CorefVisualizer</a>
+: <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#afeb06882fad52a1733220a7792ca413d">annis.visualizers.iframe.CorefVisualizer</a>
 </li>
 <li>ConstituentLayouter()
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#aab8776033344ea1f4e93ea1800fda809">annis.visualizers.component.tree.ConstituentLayouter&lt; T extends GraphicsItem &gt;</a>
@@ -485,11 +497,10 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 </li>
 <li>convertText()
 : <a class="el" href="interfaceannis_1_1gui_1_1exporter_1_1Exporter.html#afeae2ee2b905d77738efe4a3421a886b">annis.gui.exporter.Exporter</a>
-, <a class="el" href="classannis_1_1gui_1_1exporter_1_1GeneralTextExporter.html#a5e09c763ade63ee7cc23d5a7fe5887c8">annis.gui.exporter.GeneralTextExporter</a>
+, <a class="el" href="classannis_1_1gui_1_1exporter_1_1GeneralTextExporter.html#aa67c51067127c5a8040c7323424da05b">annis.gui.exporter.GeneralTextExporter</a>
 , <a class="el" href="classannis_1_1gui_1_1exporter_1_1GridExporter.html#abbc1f7df05316519ae10146d0be4f143">annis.gui.exporter.GridExporter</a>
 , <a class="el" href="classannis_1_1gui_1_1exporter_1_1TextExporter.html#aac4ea582a029c5fa4c40be73d832cd93">annis.gui.exporter.TextExporter</a>
 , <a class="el" href="classannis_1_1gui_1_1exporter_1_1WekaExporter.html#ad3c7e8f3edd0edbb077c4cadf88cd079">annis.gui.exporter.WekaExporter</a>
-, <a class="el" href="classannis_1_1gui_1_1exporter_1_1GeneralTextExporter.html#aa67c51067127c5a8040c7323424da05b">annis.gui.exporter.GeneralTextExporter</a>
 </li>
 <li>convertToAnnotationGraph()
 : <a class="el" href="classannis_1_1utils_1_1LegacyGraphConverter.html#a62195e53502666a40b22282a3013e278">annis.utils.LegacyGraphConverter</a>
@@ -504,7 +515,7 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 : <a class="el" href="classannis_1_1utils_1_1LegacyGraphConverter.html#a1c1111e307646d374f0fda92e89e8973">annis.utils.LegacyGraphConverter</a>
 </li>
 <li>copyAnnisFeature()
-: <a class="el" href="classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#aa266131c39c92ec0be3bb1d40340a820">annis.gui.resultview.VisualizerPanel</a>
+: <a class="el" href="classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ae474f1c8ee9124524b7a38aef82413fc">annis.gui.resultview.VisualizerPanel</a>
 </li>
 <li>copyNode()
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1AnnisGraphTools.html#a4d3b2708f0ea8708e04844c9767d9615">annis.visualizers.component.tree.AnnisGraphTools</a>
@@ -542,6 +553,9 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 <li>CoveredMatchesCalculator()
 : <a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html#a82810c8362895ab0b18981908b9f5c7a">annis.gui.resultview.SingleResultPanel.CoveredMatchesCalculator</a>
 </li>
+<li>CoveredTextsCalculator()
+: <a class="el" href="classannis_1_1CoveredTextsCalculator.html#acacaaed33d73eae729c0d0e5b812e3a4">annis.CoveredTextsCalculator</a>
+</li>
 <li>createAnnotateLogParameters()
 : <a class="el" href="classannis_1_1service_1_1internal_1_1QueryService.html#a56d53ea6b6f757759d80abb90f74d665">annis.service.internal.QueryService</a>
 </li>
@@ -555,32 +569,32 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a7a64f9fd06fd2dd2e18d129481074a9e">annis.visualizers.component.tree.TigerTreeVisualizer</a>
 </li>
 <li>createComponent()
-: <a class="el" href="classannis_1_1visualizers_1_1component_1_1AbstractImageVisualizer.html#acf09222f0bcaefe514b6e7a7d06f65c1">annis.visualizers.component.AbstractImageVisualizer</a>
+: <a class="el" href="classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin.html#abb2566bd45afe675ade6879aa7a6cb08">annis.gui.querybuilder.TigerQueryBuilderPlugin</a>
 , <a class="el" href="interfaceannis_1_1gui_1_1querybuilder_1_1QueryBuilderPlugin_3_01I_01extends_01Component_01_4.html#a4afcc0e046a4884ce8a2e978b5c46790">annis.gui.querybuilder.QueryBuilderPlugin&lt; I extends Component &gt;</a>
-, <a class="el" href="interfaceannis_1_1libgui_1_1visualizers_1_1VisualizerPlugin_3_01I_01extends_01Component_01_4.html#ae42ff54b6178a8cab02f1ecd17a9b80b">annis.libgui.visualizers.VisualizerPlugin&lt; I extends Component &gt;</a>
-, <a class="el" href="classannis_1_1visualizers_1_1component_1_1AbstractDotVisualizer.html#ac70db98d99b11c56955d20ec6c57bf08">annis.visualizers.component.AbstractDotVisualizer</a>
-, <a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html#a5419d19a5df93b25290dc9e54f7d8a9d">annis.visualizers.component.grid.GridVisualizer</a>
-, <a class="el" href="classannis_1_1visualizers_1_1component_1_1VideoVisualizer.html#a1bb4eac89e38ae6688149f431acb0962">annis.visualizers.component.VideoVisualizer</a>
+, <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1AbstractIFrameVisualizer.html#aefc7a82807c61573fb53532fe6802c58">annis.libgui.visualizers.AbstractIFrameVisualizer</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1AudioVisualizer.html#ab8f29fcc26fe0884c5f76f10f99aa6f2">annis.visualizers.component.AudioVisualizer</a>
 , <a class="el" href="classannis_1_1visualizers_1_1component_1_1KWICPanel.html#a804f64bca0f0eb45a94c075f51c3ec1a">annis.visualizers.component.KWICPanel</a>
 , <a class="el" href="classannis_1_1visualizers_1_1component_1_1rst_1_1RSTFull.html#a897339b91305630d298b66b767454996">annis.visualizers.component.rst.RSTFull</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1AbstractImageVisualizer.html#acf09222f0bcaefe514b6e7a7d06f65c1">annis.visualizers.component.AbstractImageVisualizer</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1VideoVisualizer.html#a1bb4eac89e38ae6688149f431acb0962">annis.visualizers.component.VideoVisualizer</a>
 , <a class="el" href="classannis_1_1visualizers_1_1component_1_1rst_1_1RST.html#a07d26b2139b7e3f498060dd86e02b299">annis.visualizers.component.rst.RST</a>
-, <a class="el" href="classannis_1_1visualizers_1_1component_1_1AudioVisualizer.html#ab8f29fcc26fe0884c5f76f10f99aa6f2">annis.visualizers.component.AudioVisualizer</a>
-, <a class="el" href="classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin.html#abb2566bd45afe675ade6879aa7a6cb08">annis.gui.querybuilder.TigerQueryBuilderPlugin</a>
-, <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1AbstractIFrameVisualizer.html#aefc7a82807c61573fb53532fe6802c58">annis.libgui.visualizers.AbstractIFrameVisualizer</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html#a5419d19a5df93b25290dc9e54f7d8a9d">annis.visualizers.component.grid.GridVisualizer</a>
+, <a class="el" href="interfaceannis_1_1libgui_1_1visualizers_1_1VisualizerPlugin_3_01I_01extends_01Component_01_4.html#ae42ff54b6178a8cab02f1ecd17a9b80b">annis.libgui.visualizers.VisualizerPlugin&lt; I extends Component &gt;</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1AbstractDotVisualizer.html#ac70db98d99b11c56955d20ec6c57bf08">annis.visualizers.component.AbstractDotVisualizer</a>
 , <a class="el" href="classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a353807c2e1d20e560361c8a52826f4b4">annis.gui.resultview.VisualizerPanel</a>
 </li>
 <li>createDatabase()
 : <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a5daeda0ab8f2ef98cec7795a4b347c3c">annis.administration.DefaultAdministrationDao</a>
 </li>
 <li>createDataSource()
-: <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a37b1b33c5f1659373c7d92f0e51f0f87">annis.administration.DefaultAdministrationDao</a>
+: <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a25a6a18eccadfe3979091013ff563832">annis.administration.DefaultAdministrationDao</a>
 </li>
 <li>createDotContent()
-: <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielRegularDependencyTree.html#a24749b3c13864e8d1a7a1ef9dd986110">annis.visualizers.component.dependency.ProielRegularDependencyTree</a>
-, <a class="el" href="classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer.html#aec1b868de598c0f625c7e8ca9c175d93">annis.visualizers.component.graph.DotGraphVisualizer</a>
+: <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielDependecyTree.html#af5410247c830ca8bece2a3aa6d1fba69">annis.visualizers.component.dependency.ProielDependecyTree</a>
 , <a class="el" href="classannis_1_1visualizers_1_1component_1_1AbstractDotVisualizer.html#ab87f447b325d2fd466f07bb3ea15c76d">annis.visualizers.component.AbstractDotVisualizer</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielRegularDependencyTree.html#a24749b3c13864e8d1a7a1ef9dd986110">annis.visualizers.component.dependency.ProielRegularDependencyTree</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer.html#aec1b868de598c0f625c7e8ca9c175d93">annis.visualizers.component.graph.DotGraphVisualizer</a>
 , <a class="el" href="classannis_1_1visualizers_1_1component_1_1graph_1_1DebugVisualizer.html#a9c7f26d63c0ee504e265b740a0694822">annis.visualizers.component.graph.DebugVisualizer</a>
-, <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielDependecyTree.html#af5410247c830ca8bece2a3aa6d1fba69">annis.visualizers.component.dependency.ProielDependecyTree</a>
 </li>
 <li>createFacts()
 : <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a324681ee2dcd43e8a34a8ff5ceb75228">annis.administration.DefaultAdministrationDao</a>
@@ -625,7 +639,7 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 : <a class="el" href="classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#ad53886b18e496f13bb8c5ef590686ae9">annis.sqlgen.SaltAnnotateExtractor</a>
 </li>
 <li>createRESTClient()
-: <a class="el" href="classannis_1_1libgui_1_1Helper.html#aec2ad1e4f8b0ca7895a42c8a56d28b00">annis.libgui.Helper</a>
+: <a class="el" href="classannis_1_1libgui_1_1Helper.html#a55f5355af94e29fdd06189f9554dfadf">annis.libgui.Helper</a>
 </li>
 <li>createSchema()
 : <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a62a0797992168cf746fa3e3bde5fe9b0">annis.administration.DefaultAdministrationDao</a>
@@ -638,19 +652,21 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 </li>
 <li>createSolutionKey()
 : <a class="el" href="classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a731929094b4ec6e3d5f31c411dc2be08">annis.sqlgen.SaltAnnotateExtractor</a>
-, <a class="el" href="classannis_1_1sqlgen_1_1CommonAnnotateWithClauseGenerator.html#a823f770a8ae828d7a80dfe41a31f4542">annis.sqlgen.CommonAnnotateWithClauseGenerator</a>
 , <a class="el" href="classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#aa8e4930d85094949530fb6d97bfa8c6a">annis.sqlgen.MatrixSqlGenerator</a>
+, <a class="el" href="classannis_1_1sqlgen_1_1CommonAnnotateWithClauseGenerator.html#a823f770a8ae828d7a80dfe41a31f4542">annis.sqlgen.CommonAnnotateWithClauseGenerator</a>
 , <a class="el" href="classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html#a7a61b63686a3c1ac7dcd56e8cc2a22ec">annis.sqlgen.AnnotateSqlGenerator&lt; T &gt;</a>
 </li>
 <li>createSql()
-: <a class="el" href="classannis_1_1dao_1_1ListCorpusByNameDaoHelper.html#ab405713b7cfbaf6924369aad83c3bfdd">annis.dao.ListCorpusByNameDaoHelper</a>
+: <a class="el" href="classannis_1_1sqlgen_1_1ListDocumentsSqlHelper.html#ae9afed7f2641c1f7f18acc26e208c5c1">annis.sqlgen.ListDocumentsSqlHelper</a>
+, <a class="el" href="classannis_1_1dao_1_1ListCorpusByNameDaoHelper.html#ab405713b7cfbaf6924369aad83c3bfdd">annis.dao.ListCorpusByNameDaoHelper</a>
 </li>
 <li>createSqlForAlternative()
 : <a class="el" href="classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html#a984211fc1cfa758e8dce564e30a10fab">annis.sqlgen.AbstractSqlGenerator&lt; T &gt;</a>
 </li>
 <li>createSqlQuery()
-: <a class="el" href="classannis_1_1sqlgen_1_1ListAnnotationsSqlHelper.html#af7609c2aef915921092f724ca82b9f4e">annis.sqlgen.ListAnnotationsSqlHelper</a>
-, <a class="el" href="classannis_1_1sqlgen_1_1ListCorpusAnnotationsSqlHelper.html#af437c83f318c785aa522014da9e4d2fa">annis.sqlgen.ListCorpusAnnotationsSqlHelper</a>
+: <a class="el" href="classannis_1_1sqlgen_1_1ListDocumentsAnnotationsSqlHelper.html#aa48aa500a69caf606e9453447991f572">annis.sqlgen.ListDocumentsAnnotationsSqlHelper</a>
+, <a class="el" href="classannis_1_1sqlgen_1_1ListCorpusAnnotationsSqlHelper.html#a9d6a0b8a6890cd71ce8db9bf279353aa">annis.sqlgen.ListCorpusAnnotationsSqlHelper</a>
+, <a class="el" href="classannis_1_1sqlgen_1_1ListAnnotationsSqlHelper.html#af7609c2aef915921092f724ca82b9f4e">annis.sqlgen.ListAnnotationsSqlHelper</a>
 , <a class="el" href="classannis_1_1sqlgen_1_1ListCorpusSqlHelper.html#ae1767bc64864b92138db925268ec58e1">annis.sqlgen.ListCorpusSqlHelper</a>
 </li>
 <li>createStagingArea()
@@ -675,8 +691,8 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 : <a class="el" href="classannis_1_1gui_1_1components_1_1CssRenderInfo.html#a1511e6661439decd771c85dfa3fe952e">annis.gui.components.CssRenderInfo</a>
 </li>
 <li>cubicCurve()
-: <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend.html#aec35fcc5dbc384119946dde38e1dfa37">annis.visualizers.component.tree.backends.staticimg.Java2dBackend</a>
-, <a class="el" href="interfaceannis_1_1visualizers_1_1component_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4.html#afb2e181154737865170d4af55a621b87">annis.visualizers.component.tree.GraphicsBackend&lt; T extends GraphicsItem &gt;</a>
+: <a class="el" href="interfaceannis_1_1visualizers_1_1component_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4.html#afb2e181154737865170d4af55a621b87">annis.visualizers.component.tree.GraphicsBackend&lt; T extends GraphicsItem &gt;</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend.html#aec35fcc5dbc384119946dde38e1dfa37">annis.visualizers.component.tree.backends.staticimg.Java2dBackend</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -684,7 +700,7 @@ $(document).ready(function(){initNavTree('functions_func_0x63.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 12 2013 12:19:20 for ANNIS by
+    <li class="footer">Generated on Thu Apr 4 2013 18:14:15 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

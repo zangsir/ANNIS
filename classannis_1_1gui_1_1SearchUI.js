@@ -18,6 +18,7 @@ var classannis_1_1gui_1_1SearchUI =
     [ "notifyMightNotPlayMimeType", "classannis_1_1gui_1_1SearchUI.html#a16491438f0cc93781c49de72d94f2c69", null ],
     [ "onLogin", "classannis_1_1gui_1_1SearchUI.html#a9a9a7779c83dc1efc4442ebe23f18238", null ],
     [ "screenshotReceived", "classannis_1_1gui_1_1SearchUI.html#acd0ac9d370480db7d85a395b5de4b0ca", null ],
+    [ "setRefresherEnabled", "classannis_1_1gui_1_1SearchUI.html#ae0660eee93e932b563620c22b8ecb71e", null ],
     [ "showLoginWindow", "classannis_1_1gui_1_1SearchUI.html#a2978e5976d79e897a667a418dc98713a", null ],
     [ "updateFragment", "classannis_1_1gui_1_1SearchUI.html#a98b156b9d31fc0d64ba3f1d118d3f496", null ],
     [ "updateUserInformation", "classannis_1_1gui_1_1SearchUI.html#a49efcba938a1e073bc9fb56a78c4d64e", null ],
@@ -36,6 +37,7 @@ var classannis_1_1gui_1_1SearchUI =
     [ "mainTab", "classannis_1_1gui_1_1SearchUI.html#a47fe016262333d091b1bf938b512a691", null ],
     [ "queryBuilder", "classannis_1_1gui_1_1SearchUI.html#a63cc732887e6d0192fdf6286f7eec074", null ],
     [ "queryController", "classannis_1_1gui_1_1SearchUI.html#a324d5f35d2e4d5737f5c5cb931c7f0da", null ],
+    [ "refresh", "classannis_1_1gui_1_1SearchUI.html#afe9877af66987aef5db2ebaa769c424d", null ],
     [ "tutorial", "classannis_1_1gui_1_1SearchUI.html#a8da8580d48f3cabf9c3c52c36f92a5d6", null ],
     [ "windowLogin", "classannis_1_1gui_1_1SearchUI.html#a195eeaecb68af2a3abae82819a56ad80", null ]
 ];

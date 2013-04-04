@@ -4,7 +4,7 @@ var classannis_1_1gui_1_1resultview_1_1VisualizerPanel =
     [ "LoadComponentTask", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask" ],
     [ "VisualizerPanel", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a4daf188034e0e83b488eed3e46631f85", null ],
     [ "buttonClick", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#afe47d8908fde03f49426847572675f97", null ],
-    [ "copyAnnisFeature", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#aa266131c39c92ec0be3bb1d40340a820", null ],
+    [ "copyAnnisFeature", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ae474f1c8ee9124524b7a38aef82413fc", null ],
     [ "createComponent", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a353807c2e1d20e560361c8a52826f4b4", null ],
     [ "createInput", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#aabfafc7b5eb3649863142cbea0813f84", null ],
     [ "getDocument", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a9c99565c086e2184ad912cbca0969827", null ],

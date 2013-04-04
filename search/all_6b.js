@@ -7,7 +7,7 @@ var searchData=
   ['keycolumnname',['keyColumnName',['../classannis_1_1sqlgen_1_1MultipleColumnsSolutionKey_3_01BaseType_01_4.html#ac2e25e94f796809cfcf9b21915619f31',1,'annis.sqlgen.MultipleColumnsSolutionKey&lt; BaseType &gt;.keyColumnName()'],['../classannis_1_1sqlgen_1_1PostgreSqlArraySolutionKey_3_01BaseType_01_4.html#ae9a6a4af1897e196365134fd708d37ea',1,'annis.sqlgen.PostgreSqlArraySolutionKey&lt; BaseType &gt;.keyColumnName()']]],
   ['killnamespace',['killNamespace',['../classannis_1_1gui_1_1CorpusBrowserPanel.html#ad704a1e6f18468fc0c8d65e0ffbf3962',1,'annis::gui::CorpusBrowserPanel']]],
   ['knowntiers',['knownTiers',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser.html#a6278e60b8597f0f1cb9a8b4a5213a2df',1,'annis::visualizers::iframe::partitur::PartiturParser']]],
-  ['komponent',['Komponent',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a2787cce702af44b49a118f434fad3284',1,'annis::visualizers::iframe::CorefVisualizer']]],
+  ['komponent',['komponent',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a91c15ee2392ea41ccb16eb3604aae57d',1,'annis::visualizers::iframe::CorefVisualizer']]],
   ['kwicinterface',['KWICInterface',['../interfaceannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICInterface.html',1,'annis::visualizers::component::KWICPanel']]],
   ['kwicmultipletextimpl',['KWICMultipleTextImpl',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICMultipleTextImpl.html',1,'annis::visualizers::component::KWICPanel']]],
   ['kwicmultipletextimpl',['KWICMultipleTextImpl',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICMultipleTextImpl.html#a9357ccd061bf22be30e64215c8824246',1,'annis::visualizers::component::KWICPanel::KWICMultipleTextImpl']]],

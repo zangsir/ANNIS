@@ -36,6 +36,8 @@ var namespaceannis_1_1sqlgen =
     [ "ListAnnotationsSqlHelper", "classannis_1_1sqlgen_1_1ListAnnotationsSqlHelper.html", "classannis_1_1sqlgen_1_1ListAnnotationsSqlHelper" ],
     [ "ListCorpusAnnotationsSqlHelper", "classannis_1_1sqlgen_1_1ListCorpusAnnotationsSqlHelper.html", "classannis_1_1sqlgen_1_1ListCorpusAnnotationsSqlHelper" ],
     [ "ListCorpusSqlHelper", "classannis_1_1sqlgen_1_1ListCorpusSqlHelper.html", "classannis_1_1sqlgen_1_1ListCorpusSqlHelper" ],
+    [ "ListDocumentsAnnotationsSqlHelper", "classannis_1_1sqlgen_1_1ListDocumentsAnnotationsSqlHelper.html", "classannis_1_1sqlgen_1_1ListDocumentsAnnotationsSqlHelper" ],
+    [ "ListDocumentsSqlHelper", "classannis_1_1sqlgen_1_1ListDocumentsSqlHelper.html", "classannis_1_1sqlgen_1_1ListDocumentsSqlHelper" ],
     [ "MatrixQueryData", "classannis_1_1sqlgen_1_1MatrixQueryData.html", "classannis_1_1sqlgen_1_1MatrixQueryData" ],
     [ "MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", "classannis_1_1sqlgen_1_1MatrixSqlGenerator" ],
     [ "MetaByteHelper", "classannis_1_1sqlgen_1_1MetaByteHelper.html", "classannis_1_1sqlgen_1_1MetaByteHelper" ],

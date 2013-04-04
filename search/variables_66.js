@@ -33,5 +33,7 @@ var searchData=
   ['formatter',['formatter',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a3ef7efcfd35f58f066d773c0c4f4be02',1,'annis::gui::widgets::gwt::client::ui::VAnnotationGrid']]],
   ['frc',['FRC',['../classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend.html#a9d9589fb62484b5b8f06f3f7a88b62e3',1,'annis::visualizers::component::tree::backends::staticimg::Java2dBackend']]],
   ['fromclausesqlgenerators',['fromClauseSqlGenerators',['../classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html#ab70aac12cceeb30aa72d5f9bb7014fa9',1,'annis::sqlgen::AbstractSqlGenerator&lt; T &gt;']]],
-  ['functioncall',['functionCall',['../classannis_1_1AnnisRunner_1_1Benchmark.html#a6c63dc049652590bc27cb8d765f0e6bf',1,'annis::AnnisRunner::Benchmark']]]
+  ['functioncall',['functionCall',['../classannis_1_1AnnisRunner_1_1Benchmark.html#a6c63dc049652590bc27cb8d765f0e6bf',1,'annis::AnnisRunner::Benchmark']]],
+  ['futurecount',['futureCount',['../classannis_1_1gui_1_1QueryController.html#aa0fa823aa07d36a1bdbcf9d3c69b9fc1',1,'annis::gui::QueryController']]],
+  ['futurematches',['futureMatches',['../classannis_1_1gui_1_1QueryController.html#ad9c572667790cf4d6d945e96a7877e31',1,'annis::gui::QueryController']]]
 ];

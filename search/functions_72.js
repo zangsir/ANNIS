@@ -9,6 +9,7 @@ var searchData=
   ['rebuildmarkedandconvered',['rebuildMarkedAndConvered',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a5cff13e57dc56636c37cefc88858ef43',1,'annis::gui::resultview::VisualizerPanel']]],
   ['recreatenode',['recreateNode',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a8d1f87e67441c58035ae2b6d31228bf1',1,'annis::sqlgen::SaltAnnotateExtractor']]],
   ['rectangle',['Rectangle',['../classannis_1_1visualizers_1_1component_1_1tree_1_1Shape_1_1Rectangle.html#ae21b20b325fb7fe20bd345c4f12f82cc',1,'annis::visualizers::component::tree::Shape::Rectangle']]],
+  ['refresh',['refresh',['../classannis_1_1gui_1_1QueryController.html#a71990d4e8089e09b8b138810b328853c',1,'annis::gui::QueryController']]],
   ['registermetadataloadedevent',['registerMetadataLoadedEvent',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VMediaPlayerBase.html#a0febb39cbb7270ff06a3b953b9ee3334',1,'annis::gui::widgets::gwt::client::ui::VMediaPlayerBase']]],
   ['registernodeadapter',['registerNodeAdapter',['../interfaceannis_1_1dao_1_1CorpusSelectionStrategy.html#a8cd8490197eb7a4c06507546f56b619d',1,'annis::dao::CorpusSelectionStrategy']]],
   ['reloadgroups',['reloadGroups',['../classannis_1_1security_1_1ANNISRolePermissionResolver.html#afdf8dce11e6bb0d17398e4680aedd6e8',1,'annis::security::ANNISRolePermissionResolver']]],
@@ -35,7 +36,6 @@ var searchData=
   ['resolverentrylisttype',['ResolverEntryListType',['../classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType.html#aac47e3ffa041fe5d51afd1e013b0b7ac',1,'annis::gui::resultview::ResultSetPanel::ResolverEntryListType']]],
   ['responsestatus200',['responseStatus200',['../classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#af6c4ab41d18b7954a2bd0abe13733fbb',1,'annis::gui::servlets::BinaryServlet']]],
   ['responsestatus206',['responseStatus206',['../classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#ad683d5976d5c44e85b4fdb9f5ddbfcfe',1,'annis::gui::servlets::BinaryServlet']]],
-  ['resultcallable',['ResultCallable',['../classannis_1_1gui_1_1QueryController_1_1ResultCallable.html#af73035bec2262b14362c3f3859673317',1,'annis::gui::QueryController::ResultCallable']]],
   ['resultelement',['ResultElement',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1ResultElement.html#aebb00d46cf5e5ebff709678a9eec32bf',1,'annis::visualizers::iframe::partitur::PartiturParser::ResultElement']]],
   ['resultsetpanel',['ResultSetPanel',['../classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html#a720685552405bb93c8ff96a54a6c5490',1,'annis::gui::resultview::ResultSetPanel']]],
   ['resultviewpanel',['ResultViewPanel',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a24fb967f7b18b8df599826b529aaa4c7',1,'annis::gui::resultview::ResultViewPanel']]],
@@ -50,7 +50,7 @@ var searchData=
   ['row',['Row',['../classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html#ab4cd7323940fda286ad462764d6f5bab',1,'annis::gui::widgets::grid::Row']]],
   ['rstimpl',['RSTImpl',['../classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ac18cfa43a2e5ec476d77151bdbbe48d8',1,'annis::visualizers::component::rst::RSTImpl']]],
   ['rstpanel',['RSTPanel',['../classannis_1_1visualizers_1_1component_1_1rst_1_1RSTPanel.html#a8e78a64a80572eab9b312ca3b0697ac9',1,'annis::visualizers::component::rst::RSTPanel']]],
-  ['run',['run',['../classannis_1_1gui_1_1QueryController_1_1CountThread.html#af5143e2a3fcb5e70e0c6ab63d8ae1c9d',1,'annis.gui.QueryController.CountThread.run()'],['../classannis_1_1administration_1_1AnnisAdminRunner.html#a95f1acf828482f0fd1239d318bd12c8e',1,'annis.administration.AnnisAdminRunner.run()'],['../classannis_1_1AnnisBaseRunner.html#afc65e958fabc66d01da3b807f611c7ee',1,'annis.AnnisBaseRunner.run()']]],
+  ['run',['run',['../classannis_1_1administration_1_1AnnisAdminRunner.html#a95f1acf828482f0fd1239d318bd12c8e',1,'annis.administration.AnnisAdminRunner.run()'],['../classannis_1_1AnnisBaseRunner.html#afc65e958fabc66d01da3b807f611c7ee',1,'annis.AnnisBaseRunner.run()']]],
   ['runcommand',['runCommand',['../classannis_1_1AnnisBaseRunner.html#a4278e2fc9e095ba527b39ebbc011c644',1,'annis::AnnisBaseRunner']]],
   ['runinteractive',['runInteractive',['../classannis_1_1AnnisBaseRunner.html#ab029cd0fa0ce3f13fd3a44331f74ca7f',1,'annis::AnnisBaseRunner']]]
 ];

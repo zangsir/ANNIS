@@ -29,7 +29,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-alpha.3</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -139,6 +139,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a112a7c1017ea6b054ee64f5341fbec72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a112a7c1017ea6b054ee64f5341fbec72">setEndTime</a> (Double <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#af85de3837be0a37246bb02c95514d428">endTime</a>)</td></tr>
 <tr class="memitem:af6b48b798d34aa0548c2d252d012dc6a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#af6b48b798d34aa0548c2d252d012dc6a">isGap</a> ()</td></tr>
 <tr class="memitem:a1e5cc52c945d33614e3995b3da2fee15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a1e5cc52c945d33614e3995b3da2fee15">setGap</a> (boolean <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ac849796f0dfc3a044931896011d6d3a0">gap</a>)</td></tr>
+<tr class="memitem:a444cfe2ce5a2e43733aff387d9e56f29"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a444cfe2ce5a2e43733aff387d9e56f29">getTextID</a> ()</td></tr>
+<tr class="memdesc:a444cfe2ce5a2e43733aff387d9e56f29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Salt ID of the text this event belongs to.  <a href="#a444cfe2ce5a2e43733aff387d9e56f29"></a><br/></td></tr>
+<tr class="memitem:ae5530ac4c48451bd420884c001ed4788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ae5530ac4c48451bd420884c001ed4788">setTextID</a> (String <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a60db51bf3e40909fcf5a27abb8794fc0">textID</a>)</td></tr>
 <tr class="memitem:a0c7666b9af559d45d68310a9163e4a08"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a0c7666b9af559d45d68310a9163e4a08">toString</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
@@ -152,6 +155,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a0365b1eb98af2675db4982ca90669485"><td class="memItemLeft" align="right" valign="top">Double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a0365b1eb98af2675db4982ca90669485">startTime</a></td></tr>
 <tr class="memitem:af85de3837be0a37246bb02c95514d428"><td class="memItemLeft" align="right" valign="top">Double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#af85de3837be0a37246bb02c95514d428">endTime</a></td></tr>
 <tr class="memitem:ac849796f0dfc3a044931896011d6d3a0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ac849796f0dfc3a044931896011d6d3a0">gap</a></td></tr>
+<tr class="memitem:a60db51bf3e40909fcf5a27abb8794fc0"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a60db51bf3e40909fcf5a27abb8794fc0">textID</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>An event has a right and left border (but might have holes) </p>
@@ -301,6 +305,24 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a444cfe2ce5a2e43733aff387d9e56f29"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.gui.widgets.grid.GridEvent.getTextID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Salt ID of the text this event belongs to. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a3f9f3b780012cc5c8a04bcb3899b20a9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -436,6 +458,22 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">Double&#160;</td>
           <td class="paramname"><em>startTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae5530ac4c48451bd420884c001ed4788"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.widgets.grid.GridEvent.setTextID </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>textID</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -635,6 +673,26 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a60db51bf3e40909fcf5a27abb8794fc0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.gui.widgets.grid.GridEvent.textID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a58d061e0bdea64a85fcabd80853b711e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -664,7 +722,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1widgets.html">widgets</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1widgets_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html">GridEvent</a></li>
-    <li class="footer">Generated on Tue Mar 12 2013 12:19:19 for ANNIS by
+    <li class="footer">Generated on Thu Apr 4 2013 18:14:14 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

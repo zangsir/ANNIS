@@ -29,7 +29,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-alpha.3</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -128,7 +128,7 @@ Inheritance diagram for annis.administration.AdministrationDao:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e8a399752c6b72d9197d6082a1942f7"><td class="memItemLeft" align="right" valign="top">List&lt; Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a0e8a399752c6b72d9197d6082a1942f7">listToplevelCorpora</a> ()</td></tr>
 <tr class="memitem:ae1a21292c735ef2498e351b858738020"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#ae1a21292c735ef2498e351b858738020">deleteCorpora</a> (List&lt; Long &gt; ids)</td></tr>
-<tr class="memitem:a96a6cd1ee7aa1b8511a71006aef51947"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a96a6cd1ee7aa1b8511a71006aef51947">initializeDatabase</a> (String host, String port, String database, String user, String password, String defaultDatabase, String superUser, String superPassword)</td></tr>
+<tr class="memitem:ac6097eee823270ae864344c372af3f17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#ac6097eee823270ae864344c372af3f17">initializeDatabase</a> (String host, String port, String database, String user, String password, String defaultDatabase, String superUser, String superPassword, boolean useSSL)</td></tr>
 <tr class="memitem:af4461ac0d81909410cbb8204bc06d488"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#af4461ac0d81909410cbb8204bc06d488">importCorpus</a> (String path)</td></tr>
 <tr class="memitem:aecaf8a82e1286e470af6d4b79497d632"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, Object &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#aecaf8a82e1286e470af6d4b79497d632">listCorpusStats</a> ()</td></tr>
 <tr class="memitem:a96336b4412ba14996966c91fb385f048"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a96336b4412ba14996966c91fb385f048">listUsedIndexes</a> ()</td></tr>
@@ -259,7 +259,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a96a6cd1ee7aa1b8511a71006aef51947"></a>
+<a class="anchor" id="ac6097eee823270ae864344c372af3f17"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -309,7 +309,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>superPassword</em>&#160;</td>
+          <td class="paramname"><em>superPassword</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>useSSL</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -319,7 +325,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#aa0618ad5ae5f4d72f12d79b74702ff9f">annis.administration.DefaultAdministrationDao</a>.</p>
+<p>Implemented in <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a4dacf2421a7c1fc72bca0ac04dd5f24f">annis.administration.DefaultAdministrationDao</a>.</p>
 
 </div>
 </div>
@@ -434,7 +440,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1administration.html">administration</a></li><li class="navelem"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html">AdministrationDao</a></li>
-    <li class="footer">Generated on Tue Mar 12 2013 12:19:18 for ANNIS by
+    <li class="footer">Generated on Thu Apr 4 2013 18:14:14 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

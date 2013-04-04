@@ -31,5 +31,6 @@ var searchData=
   ['usesedgeannotationtable',['usesEdgeAnnotationTable',['../classannis_1_1sqlgen_1_1TableAccessStrategy.html#a6678d382a7f60192a633687ffb9c9928',1,'annis::sqlgen::TableAccessStrategy']]],
   ['usesnodeannotationtable',['usesNodeAnnotationTable',['../classannis_1_1sqlgen_1_1TableAccessStrategy.html#a161fb7162da51a5fbd1bb3eee0ebe139',1,'annis::sqlgen::TableAccessStrategy']]],
   ['usesranktable',['usesRankTable',['../classannis_1_1sqlgen_1_1TableAccessStrategy.html#a9a670a0a5c9f1f402d91758e7eaf0723',1,'annis::sqlgen::TableAccessStrategy']]],
+  ['usessl',['useSSL',['../classannis_1_1utils_1_1SSLEnabledDataSource.html#a7909853ee0278273106e905ec817384c',1,'annis::utils::SSLEnabledDataSource']]],
   ['usesviews',['usesViews',['../interfaceannis_1_1dao_1_1CorpusSelectionStrategy.html#ab486fa560014fe0691869a168e0dd53d',1,'annis::dao::CorpusSelectionStrategy']]]
 ];

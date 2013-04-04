@@ -38,7 +38,6 @@ var searchData=
   ['annisqlsyntaxmapper_2ejava',['AnnisQLSyntaxMapper.java',['../AnnisQLSyntaxMapper_8java.html',1,'']]],
   ['annisresult_2ejava',['AnnisResult.java',['../AnnisResult_8java.html',1,'']]],
   ['annisresultimpl_2ejava',['AnnisResultImpl.java',['../AnnisResultImpl_8java.html',1,'']]],
-  ['annisresultquery_2ejava',['AnnisResultQuery.java',['../AnnisResultQuery_8java.html',1,'']]],
   ['annisresultset_2ejava',['AnnisResultSet.java',['../AnnisResultSet_8java.html',1,'']]],
   ['annisresultsetimpl_2ejava',['AnnisResultSetImpl.java',['../AnnisResultSetImpl_8java.html',1,'']]],
   ['annisrolepermissionresolver_2ejava',['ANNISRolePermissionResolver.java',['../ANNISRolePermissionResolver_8java.html',1,'']]],
@@ -76,8 +75,8 @@ var searchData=
   ['authorizationexceptionmapper_2ejava',['AuthorizationExceptionMapper.java',['../AuthorizationExceptionMapper_8java.html',1,'']]],
   ['autoheightiframe_2ejava',['AutoHeightIFrame.java',['../AutoHeightIFrame_8java.html',1,'']]],
   ['autoheightiframeconnector_2ejava',['AutoHeightIFrameConnector.java',['../AutoHeightIFrameConnector_8java.html',1,'']]],
-  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-libgui_2src_2main_2java_2annis_2libgui_2MatchedNodeColors_8java.html',1,'']]],
   ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-interfaces_2src_2main_2java_2annis_2libgui_2MatchedNodeColors_8java.html',1,'']]],
+  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-libgui_2src_2main_2java_2annis_2libgui_2MatchedNodeColors_8java.html',1,'']]],
   ['timehelper_2ejava',['TimeHelper.java',['../annis-interfaces_2src_2main_2java_2annis_2libgui_2media_2TimeHelper_8java.html',1,'']]],
   ['timehelper_2ejava',['TimeHelper.java',['../annis-visualizers_2src_2main_2java_2annis_2visualizers_2iframe_2partitur_2TimeHelper_8java.html',1,'']]]
 ];

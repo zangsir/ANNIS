@@ -30,8 +30,8 @@ var searchData=
   ['corpustablechangedlistener',['CorpusTableChangedListener',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener.html',1,'annis::gui::controlpanel::CorpusListPanel']]],
   ['countmatchesanddocumentssqlgenerator',['CountMatchesAndDocumentsSqlGenerator',['../classannis_1_1sqlgen_1_1CountMatchesAndDocumentsSqlGenerator.html',1,'annis::sqlgen']]],
   ['countsqlgenerator',['CountSqlGenerator',['../classannis_1_1sqlgen_1_1CountSqlGenerator.html',1,'annis::sqlgen']]],
-  ['countthread',['CountThread',['../classannis_1_1gui_1_1QueryController_1_1CountThread.html',1,'annis::gui::QueryController']]],
   ['coveredmatchescalculator',['CoveredMatchesCalculator',['../classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html',1,'annis::gui::resultview::SingleResultPanel']]],
+  ['coveredtextscalculator',['CoveredTextsCalculator',['../classannis_1_1CoveredTextsCalculator.html',1,'annis']]],
   ['cssrenderinfo',['CssRenderInfo',['../classannis_1_1gui_1_1components_1_1CssRenderInfo.html',1,'annis::gui::components']]],
   ['csvcorpuspathextractor',['CsvCorpusPathExtractor',['../classannis_1_1sqlgen_1_1CsvCorpusPathExtractor.html',1,'annis::sqlgen']]]
 ];

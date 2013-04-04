@@ -15,7 +15,7 @@ var searchData=
   ['visibletokenannos',['visibleTokenAnnos',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#aab3f97c2a0d4f086de9c353f99129890',1,'annis::gui::resultview::VisualizerPanel']]],
   ['visid',['visId',['../classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ac1e82cbcb959e438e37b66e44b8a90b1',1,'annis::visualizers::component::rst::RSTImpl']]],
   ['visinput',['visInput',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a44e6f7ef6e0057064af8041db19d6528',1,'annis::visualizers::component::KWICPanel::KWICPanelImpl']]],
-  ['visitednodes',['visitedNodes',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#af8b73593fcb0dc5ba8ee838e1f890476',1,'annis::visualizers::iframe::CorefVisualizer']]],
+  ['visitednodes',['visitedNodes',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#ad036c4f6300e1aeddcfa3e8518e88068',1,'annis::visualizers::iframe::CorefVisualizer']]],
   ['visplugin',['visPlugin',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ac1d994bf45cc3fe17dfefb61ccea5fc0',1,'annis::gui::resultview::VisualizerPanel']]],
   ['vistoggle',['visToggle',['../classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#af6e2c8765e04245089860d3e7391c47a',1,'annis::libgui::media::MediaControllerImpl']]],
   ['vistype',['visType',['../classannis_1_1resolver_1_1ResolverEntry.html#a1f50935439c0201c0d44704a213edb8b',1,'annis::resolver::ResolverEntry']]],

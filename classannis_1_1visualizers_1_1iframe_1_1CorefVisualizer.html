@@ -29,7 +29,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-alpha.3</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('classannis_1_1visualizers_1_1iframe_1_
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pac-attribs">Package Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer-members.html">List of all members</a>  </div>
@@ -157,34 +158,37 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="pac-attribs"></a>
 Package Attributes</h2></td></tr>
 <tr class="memitem:a4e93e5b3070c691ea092941817d4a894"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a4e93e5b3070c691ea092941817d4a894">globalIndex</a></td></tr>
-<tr class="memitem:aca01349fc9f42ca34574a1480a6bd017"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html">TReferent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#aca01349fc9f42ca34574a1480a6bd017">ReferentList</a></td></tr>
-<tr class="memitem:a2787cce702af44b49a118f434fad3284"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponent.html">TComponent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a2787cce702af44b49a118f434fad3284">Komponent</a></td></tr>
-<tr class="memitem:a5d86a77b5c7c77e4e2654181b2704794"><td class="memItemLeft" align="right" valign="top">HashMap&lt; Long, List&lt; Long &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a5d86a77b5c7c77e4e2654181b2704794">ComponentOfToken</a></td></tr>
-<tr class="memitem:a5bf5277e1a4de8762bfbbdbb0180a1a4"><td class="memItemLeft" align="right" valign="top">HashMap&lt; Long, List&lt; Long &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a5bf5277e1a4de8762bfbbdbb0180a1a4">TokensOfNode</a></td></tr>
-<tr class="memitem:a5e8a0174ee303668f66c5adc6bb0da20"><td class="memItemLeft" align="right" valign="top">HashMap&lt; Long, HashMap&lt; Long, <br class="typebreak"/>
-Integer &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a5e8a0174ee303668f66c5adc6bb0da20">ReferentOfToken</a></td></tr>
-<tr class="memitem:af8b73593fcb0dc5ba8ee838e1f890476"><td class="memItemLeft" align="right" valign="top">List&lt; Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#af8b73593fcb0dc5ba8ee838e1f890476">visitedNodes</a></td></tr>
-<tr class="memitem:a038c3d6a5bd622825d261c5eab590a95"><td class="memItemLeft" align="right" valign="top">LinkedList&lt; <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype.html">TComponenttype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a038c3d6a5bd622825d261c5eab590a95">Componenttype</a></td></tr>
+<tr class="memitem:a18323c9740695a8a0cc945976415be90"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html">TReferent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a18323c9740695a8a0cc945976415be90">referentList</a></td></tr>
+<tr class="memitem:a91c15ee2392ea41ccb16eb3604aae57d"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponent.html">TComponent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a91c15ee2392ea41ccb16eb3604aae57d">komponent</a></td></tr>
+<tr class="memitem:aaf294e9f95be507e0f89e7b4ee66bc36"><td class="memItemLeft" align="right" valign="top">HashMap&lt; String, List&lt; Long &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#aaf294e9f95be507e0f89e7b4ee66bc36">componentOfToken</a></td></tr>
+<tr class="memitem:af3919d8e1b877fcff5df7f0a858fb24c"><td class="memItemLeft" align="right" valign="top">HashMap&lt; String, List&lt; String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#af3919d8e1b877fcff5df7f0a858fb24c">tokensOfNode</a></td></tr>
+<tr class="memitem:a4ca476bc7cddf3ea8d5b224daeaa5c42"><td class="memItemLeft" align="right" valign="top">HashMap&lt; String, HashMap&lt; Long, <br class="typebreak"/>
+Integer &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a4ca476bc7cddf3ea8d5b224daeaa5c42">referentOfToken</a></td></tr>
+<tr class="memitem:ad036c4f6300e1aeddcfa3e8518e88068"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#ad036c4f6300e1aeddcfa3e8518e88068">visitedNodes</a></td></tr>
+<tr class="memitem:a15c1ac233acaa3a6dfdf4e78bf7f0341"><td class="memItemLeft" align="right" valign="top">LinkedList&lt; <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype.html">TComponenttype</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a15c1ac233acaa3a6dfdf4e78bf7f0341">componenttype</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aceb8a809537217e062f72778b6d905cc"><td class="memItemLeft" align="right" valign="top">List&lt; Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#aceb8a809537217e062f72778b6d905cc">getAllTokens</a> (<a class="el" href="classannis_1_1model_1_1AnnisNode.html">AnnisNode</a> a, String name, <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype.html">TComponenttype</a> c, long cnr, String namespace)</td></tr>
-<tr class="memdesc:aceb8a809537217e062f72778b6d905cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">collects all Tokens of the Component  <a href="#aceb8a809537217e062f72778b6d905cc"></a><br/></td></tr>
-<tr class="memitem:ad049fbf5008cb3d4df7e5125f080c430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#ad049fbf5008cb3d4df7e5125f080c430">setReferent</a> (<a class="el" href="classannis_1_1model_1_1AnnisNode.html">AnnisNode</a> a, long index, int value)</td></tr>
-<tr class="memdesc:ad049fbf5008cb3d4df7e5125f080c430"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a Referent for all Nodes dominated or covered by outgoing Edges of AnnisNode a  <a href="#ad049fbf5008cb3d4df7e5125f080c430"></a><br/></td></tr>
-<tr class="memitem:ae689c48a450fe56bb647a941d861fbe4"><td class="memItemLeft" align="right" valign="top">List&lt; Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#ae689c48a450fe56bb647a941d861fbe4">searchTokens</a> (<a class="el" href="classannis_1_1model_1_1AnnisNode.html">AnnisNode</a> a, long cnr)</td></tr>
-<tr class="memdesc:ae689c48a450fe56bb647a941d861fbe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects all Token dominated or covered by all outgoing Edges of AnnisNode a.  <a href="#ae689c48a450fe56bb647a941d861fbe4"></a><br/></td></tr>
-<tr class="memitem:a313af115e2c638f2cc961c552fd3e432"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a313af115e2c638f2cc961c552fd3e432">getAnnotations</a> (Long id, long component)</td></tr>
-<tr class="memdesc:a313af115e2c638f2cc961c552fd3e432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects fitting annotations of an Token.  <a href="#a313af115e2c638f2cc961c552fd3e432"></a><br/></td></tr>
-<tr class="memitem:a7156587603861eef42cc7106da2f2973"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a7156587603861eef42cc7106da2f2973">connectionOf</a> (long pre, long now, long currentComponent)</td></tr>
-<tr class="memdesc:a7156587603861eef42cc7106da2f2973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates wheather a line determinded by its Component should be discontinous.  <a href="#a7156587603861eef42cc7106da2f2973"></a><br/></td></tr>
-<tr class="memitem:a74b20e2b663462359349d8e8abf81c3b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a74b20e2b663462359349d8e8abf81c3b">ListToString</a> (List&lt; Long &gt; ll)</td></tr>
-<tr class="memdesc:a74b20e2b663462359349d8e8abf81c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a proper String out of a List&lt;Long&gt;  <a href="#a74b20e2b663462359349d8e8abf81c3b"></a><br/></td></tr>
+<tr class="memitem:a39bdb63f9b4b01c8e169acd9ac0f80a4"><td class="memItemLeft" align="right" valign="top">List&lt; Node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a39bdb63f9b4b01c8e169acd9ac0f80a4">outputSingleText</a> (EList&lt; SToken &gt; token, <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html">VisualizerInput</a> input)  throws IOException   </td></tr>
+<tr class="memitem:a1d34409f11b3acafb49cfef9d0a6ccf9"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a1d34409f11b3acafb49cfef9d0a6ccf9">getAllTokens</a> (SStructuredNode n, String name, <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype.html">TComponenttype</a> c, long cnr, String namespace)</td></tr>
+<tr class="memdesc:a1d34409f11b3acafb49cfef9d0a6ccf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">collects all Tokens of the component  <a href="#a1d34409f11b3acafb49cfef9d0a6ccf9"></a><br/></td></tr>
+<tr class="memitem:a020e4ba14be180a416d4573de4da4b07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a020e4ba14be180a416d4573de4da4b07">setReferent</a> (de.hu_berlin.german.korpling.saltnpepper.salt.graph.Node n, long index, int value)</td></tr>
+<tr class="memdesc:a020e4ba14be180a416d4573de4da4b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a Referent for all Nodes dominated or covered by outgoing Edges of AnnisNode a  <a href="#a020e4ba14be180a416d4573de4da4b07"></a><br/></td></tr>
+<tr class="memitem:afce20fd7889b75283c1f51e3e6b3ecb4"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#afce20fd7889b75283c1f51e3e6b3ecb4">searchTokens</a> (SNode n, long cnr)</td></tr>
+<tr class="memdesc:afce20fd7889b75283c1f51e3e6b3ecb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects all Token dominated or covered by all outgoing Edges of AnnisNode a.  <a href="#afce20fd7889b75283c1f51e3e6b3ecb4"></a><br/></td></tr>
+<tr class="memitem:a45bb4dc63333f1c5808fa2712b6793ad"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a45bb4dc63333f1c5808fa2712b6793ad">getAnnotations</a> (String id, long component)</td></tr>
+<tr class="memdesc:a45bb4dc63333f1c5808fa2712b6793ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects fitting annotations of an Token.  <a href="#a45bb4dc63333f1c5808fa2712b6793ad"></a><br/></td></tr>
+<tr class="memitem:afeb06882fad52a1733220a7792ca413d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#afeb06882fad52a1733220a7792ca413d">connectionOf</a> (String pre, String now, long currentComponent)</td></tr>
+<tr class="memdesc:afeb06882fad52a1733220a7792ca413d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates wheather a line determinded by its component should be discontinous.  <a href="#afeb06882fad52a1733220a7792ca413d"></a><br/></td></tr>
 <tr class="memitem:a4cdea4d8954558871fdf2db4aa80725d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a4cdea4d8954558871fdf2db4aa80725d">getNewColor</a> (int i)</td></tr>
 <tr class="memdesc:a4cdea4d8954558871fdf2db4aa80725d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a unique color-value for a given number.  <a href="#a4cdea4d8954558871fdf2db4aa80725d"></a><br/></td></tr>
-<tr class="memitem:a68a60d9fb6142354ab0698a81aa81812"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a68a60d9fb6142354ab0698a81aa81812">println</a> (String s, Writer writer)  throws IOException   </td></tr>
-<tr class="memitem:a2a343286e26bab5e9c8c5e5321a6dd6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a2a343286e26bab5e9c8c5e5321a6dd6c">println</a> (String s, int indent, Writer writer)  throws IOException   </td></tr>
-<tr class="memitem:aead3a51cf4575f0070be8eab996d2636"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#aead3a51cf4575f0070be8eab996d2636">includeEdge</a> (<a class="el" href="classannis_1_1model_1_1Edge.html">Edge</a> e, String namespace)</td></tr>
+<tr class="memitem:aead3a51cf4575f0070be8eab996d2636"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#aead3a51cf4575f0070be8eab996d2636">includeEdge</a> (Edge e, String namespace)</td></tr>
+<tr class="memitem:ae408acc1ce7840c4ef8069fd6d380e2e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#ae408acc1ce7840c4ef8069fd6d380e2e">prepareID</a> (String orig)</td></tr>
+<tr class="memdesc:ae408acc1ce7840c4ef8069fd6d380e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces all unwanted characters from the ID with "_"  <a href="#ae408acc1ce7840c4ef8069fd6d380e2e"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a66074b4bf1b596e2dbee40c24c681739"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a66074b4bf1b596e2dbee40c24c681739">componentNameForRelation</a> (SRelation rel)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -196,12 +200,43 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A view of the entire text of a document, possibly with interactive coreference links. </p>
-<p>It is possible to use this visualization to view entire texts even if you do not have coreference annotations.</p>
+<p>It is possible to use this visualization to view entire texts even if you do not have coreference annotations. </p>
+<p><b>Mappings</b>:<br/>
+ </p>
+<ul>
+<li>
+hide_empty: if set to "true" only texts that have annotations are shown </li>
+</ul>
+<p><b>Implementation notes</b>: This code relies heavily on HTML-tables and has some logic that is difficult to understand. A GWT-based rewrite would be a good alternative. </p>
 <dl class="section author"><dt>Author</dt><dd>Thomas Krause </dd>
 <dd>
 Christian Schulz-Hanke </dd></dl>
 </div><h2>Member Function Documentation</h2>
-<a class="anchor" id="a7156587603861eef42cc7106da2f2973"></a>
+<a class="anchor" id="a66074b4bf1b596e2dbee40c24c681739"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String annis.visualizers.iframe.CorefVisualizer.componentNameForRelation </td>
+          <td>(</td>
+          <td class="paramtype">SRelation&#160;</td>
+          <td class="paramname"><em>rel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afeb06882fad52a1733220a7792ca413d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -211,13 +246,13 @@ Christian Schulz-Hanke </dd></dl>
         <tr>
           <td class="memname">boolean annis.visualizers.iframe.CorefVisualizer.connectionOf </td>
           <td>(</td>
-          <td class="paramtype">long&#160;</td>
+          <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>pre</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">long&#160;</td>
+          <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>now</em>, </td>
         </tr>
         <tr>
@@ -239,12 +274,12 @@ Christian Schulz-Hanke </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Calculates wheather a line determinded by its Component should be discontinous. </p>
+<p>Calculates wheather a line determinded by its component should be discontinous. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pre</td><td>Id of the left token </td></tr>
     <tr><td class="paramname">now</td><td>Id of the right token </td></tr>
-    <tr><td class="paramname">currentComponent</td><td>Number of the Component, number of variable "Komponent" </td></tr>
+    <tr><td class="paramname">currentComponent</td><td>Number of the component, number of variable "komponent" </td></tr>
   </table>
   </dd>
 </dl>
@@ -252,7 +287,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aceb8a809537217e062f72778b6d905cc"></a>
+<a class="anchor" id="a1d34409f11b3acafb49cfef9d0a6ccf9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -260,10 +295,10 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;Long&gt; annis.visualizers.iframe.CorefVisualizer.getAllTokens </td>
+          <td class="memname">List&lt;String&gt; annis.visualizers.iframe.CorefVisualizer.getAllTokens </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1AnnisNode.html">AnnisNode</a>&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype">SStructuredNode&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -302,13 +337,13 @@ Christian Schulz-Hanke </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>collects all Tokens of the Component </p>
+<p>collects all Tokens of the component </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>AnnisNode to start with </td></tr>
-    <tr><td class="paramname">name</td><td>String that determines which Component we search for </td></tr>
-    <tr><td class="paramname">c</td><td>Componenttype, that will include its Tokens </td></tr>
-    <tr><td class="paramname">cnr</td><td>Number of the Component </td></tr>
+    <tr><td class="paramname">n</td><td>SStructuredNode to start with </td></tr>
+    <tr><td class="paramname">name</td><td>String that determines which component we search for </td></tr>
+    <tr><td class="paramname">c</td><td>componenttype, that will include its Tokens </td></tr>
+    <tr><td class="paramname">cnr</td><td>Number of the component </td></tr>
   </table>
   </dd>
 </dl>
@@ -316,7 +351,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a313af115e2c638f2cc961c552fd3e432"></a>
+<a class="anchor" id="a45bb4dc63333f1c5808fa2712b6793ad"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -326,7 +361,7 @@ Christian Schulz-Hanke </dd></dl>
         <tr>
           <td class="memname">String annis.visualizers.iframe.CorefVisualizer.getAnnotations </td>
           <td>(</td>
-          <td class="paramtype">Long&#160;</td>
+          <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
         <tr>
@@ -356,7 +391,7 @@ Christian Schulz-Hanke </dd></dl>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Annotations as a String </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>annotations as a String </dd></dl>
 
 </div>
 </div>
@@ -423,7 +458,7 @@ Christian Schulz-Hanke </dd></dl>
         <tr>
           <td class="memname">boolean annis.visualizers.iframe.CorefVisualizer.includeEdge </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1Edge.html">Edge</a>&#160;</td>
+          <td class="paramtype">Edge&#160;</td>
           <td class="paramname"><em>e</em>, </td>
         </tr>
         <tr>
@@ -462,7 +497,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a74b20e2b663462359349d8e8abf81c3b"></a>
+<a class="anchor" id="a39bdb63f9b4b01c8e169acd9ac0f80a4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -470,10 +505,44 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">String annis.visualizers.iframe.CorefVisualizer.ListToString </td>
+          <td class="memname">List&lt;Node&gt; annis.visualizers.iframe.CorefVisualizer.outputSingleText </td>
           <td>(</td>
-          <td class="paramtype">List&lt; Long &gt;&#160;</td>
-          <td class="paramname"><em>ll</em></td><td>)</td>
+          <td class="paramtype">EList&lt; SToken &gt;&#160;</td>
+          <td class="paramname"><em>token</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html">VisualizerInput</a>&#160;</td>
+          <td class="paramname"><em>input</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>  throws IOException   </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae408acc1ce7840c4ef8069fd6d380e2e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.visualizers.iframe.CorefVisualizer.prepareID </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>orig</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -484,18 +553,18 @@ Christian Schulz-Hanke </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Creates a proper String out of a List&lt;Long&gt; </p>
+<p>replaces all unwanted characters from the ID with "_" </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ll</td><td>List that should become a String </td></tr>
+    <tr><td class="paramname">orig</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a68a60d9fb6142354ab0698a81aa81812"></a>
+<a class="anchor" id="afce20fd7889b75283c1f51e3e6b3ecb4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -503,84 +572,10 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void annis.visualizers.iframe.CorefVisualizer.println </td>
+          <td class="memname">List&lt;String&gt; annis.visualizers.iframe.CorefVisualizer.searchTokens </td>
           <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Writer&#160;</td>
-          <td class="paramname"><em>writer</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>  throws IOException   </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2a343286e26bab5e9c8c5e5321a6dd6c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void annis.visualizers.iframe.CorefVisualizer.println </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>indent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Writer&#160;</td>
-          <td class="paramname"><em>writer</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>  throws IOException   </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae689c48a450fe56bb647a941d861fbe4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Long&gt; annis.visualizers.iframe.CorefVisualizer.searchTokens </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1AnnisNode.html">AnnisNode</a>&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype">SNode&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -604,7 +599,7 @@ Christian Schulz-Hanke </dd></dl>
 <p>Collects all Token dominated or covered by all outgoing Edges of AnnisNode a. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>AnnisNode a </td></tr>
+    <tr><td class="paramname">n</td><td></td></tr>
     <tr><td class="paramname">cnr</td><td>ComponentNumber this tokens will be added for </td></tr>
   </table>
   </dd>
@@ -613,7 +608,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ad049fbf5008cb3d4df7e5125f080c430"></a>
+<a class="anchor" id="a020e4ba14be180a416d4573de4da4b07"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -623,8 +618,8 @@ Christian Schulz-Hanke </dd></dl>
         <tr>
           <td class="memname">void annis.visualizers.iframe.CorefVisualizer.setReferent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1AnnisNode.html">AnnisNode</a>&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype">de.hu_berlin.german.korpling.saltnpepper.salt.graph.Node&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -654,7 +649,7 @@ Christian Schulz-Hanke </dd></dl>
 <p>adds a Referent for all Nodes dominated or covered by outgoing Edges of AnnisNode a </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>the AnnisNode </td></tr>
+    <tr><td class="paramname">n</td><td>the Node </td></tr>
     <tr><td class="paramname">index</td><td>index of the Referent </td></tr>
     <tr><td class="paramname">value</td><td>determines wheather the refered P-Edge is incoming (1) or outgoing (0) </td></tr>
   </table>
@@ -728,7 +723,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a5d86a77b5c7c77e4e2654181b2704794"></a>
+<a class="anchor" id="aaf294e9f95be507e0f89e7b4ee66bc36"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -736,7 +731,7 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">HashMap&lt;Long, List&lt;Long&gt; &gt; annis.visualizers.iframe.CorefVisualizer.ComponentOfToken</td>
+          <td class="memname">HashMap&lt;String, List&lt;Long&gt; &gt; annis.visualizers.iframe.CorefVisualizer.componentOfToken</td>
         </tr>
       </table>
   </td>
@@ -748,7 +743,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a038c3d6a5bd622825d261c5eab590a95"></a>
+<a class="anchor" id="a15c1ac233acaa3a6dfdf4e78bf7f0341"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -756,7 +751,7 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">LinkedList&lt;<a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype.html">TComponenttype</a>&gt; annis.visualizers.iframe.CorefVisualizer.Componenttype</td>
+          <td class="memname">LinkedList&lt;<a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype.html">TComponenttype</a>&gt; annis.visualizers.iframe.CorefVisualizer.componenttype</td>
         </tr>
       </table>
   </td>
@@ -788,7 +783,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a2787cce702af44b49a118f434fad3284"></a>
+<a class="anchor" id="a91c15ee2392ea41ccb16eb3604aae57d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -796,7 +791,7 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponent.html">TComponent</a>&gt; annis.visualizers.iframe.CorefVisualizer.Komponent</td>
+          <td class="memname">List&lt;<a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponent.html">TComponent</a>&gt; annis.visualizers.iframe.CorefVisualizer.komponent</td>
         </tr>
       </table>
   </td>
@@ -828,7 +823,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aca01349fc9f42ca34574a1480a6bd017"></a>
+<a class="anchor" id="a18323c9740695a8a0cc945976415be90"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -836,7 +831,7 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html">TReferent</a>&gt; annis.visualizers.iframe.CorefVisualizer.ReferentList</td>
+          <td class="memname">List&lt;<a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html">TReferent</a>&gt; annis.visualizers.iframe.CorefVisualizer.referentList</td>
         </tr>
       </table>
   </td>
@@ -848,7 +843,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a5e8a0174ee303668f66c5adc6bb0da20"></a>
+<a class="anchor" id="a4ca476bc7cddf3ea8d5b224daeaa5c42"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -856,7 +851,7 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">HashMap&lt;Long, HashMap&lt;Long, Integer&gt; &gt; annis.visualizers.iframe.CorefVisualizer.ReferentOfToken</td>
+          <td class="memname">HashMap&lt;String, HashMap&lt;Long, Integer&gt; &gt; annis.visualizers.iframe.CorefVisualizer.referentOfToken</td>
         </tr>
       </table>
   </td>
@@ -868,7 +863,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a5bf5277e1a4de8762bfbbdbb0180a1a4"></a>
+<a class="anchor" id="af3919d8e1b877fcff5df7f0a858fb24c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -876,7 +871,7 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">HashMap&lt;Long, List&lt;Long&gt; &gt; annis.visualizers.iframe.CorefVisualizer.TokensOfNode</td>
+          <td class="memname">HashMap&lt;String, List&lt;String&gt; &gt; annis.visualizers.iframe.CorefVisualizer.tokensOfNode</td>
         </tr>
       </table>
   </td>
@@ -888,7 +883,7 @@ Christian Schulz-Hanke </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="af8b73593fcb0dc5ba8ee838e1f890476"></a>
+<a class="anchor" id="ad036c4f6300e1aeddcfa3e8518e88068"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -896,7 +891,7 @@ Christian Schulz-Hanke </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;Long&gt; annis.visualizers.iframe.CorefVisualizer.visitedNodes</td>
+          <td class="memname">List&lt;String&gt; annis.visualizers.iframe.CorefVisualizer.visitedNodes</td>
         </tr>
       </table>
   </td>
@@ -917,7 +912,7 @@ Christian Schulz-Hanke </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers.html">visualizers</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1iframe.html">iframe</a></li><li class="navelem"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html">CorefVisualizer</a></li>
-    <li class="footer">Generated on Tue Mar 12 2013 12:19:20 for ANNIS by
+    <li class="footer">Generated on Thu Apr 4 2013 18:14:15 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

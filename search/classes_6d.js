@@ -5,7 +5,7 @@ var searchData=
   ['match',['Match',['../classannis_1_1service_1_1objects_1_1Match.html',1,'annis::service::objects']]],
   ['matchanddocumentcount',['MatchAndDocumentCount',['../classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html',1,'annis::service::objects']]],
   ['matchednodecolors',['MatchedNodeColors',['../enumannis_1_1libgui_1_1MatchedNodeColors.html',1,'annis::libgui']]],
-  ['matchlisttype',['MatchListType',['../classannis_1_1gui_1_1resultview_1_1AnnisResultQuery_1_1MatchListType.html',1,'annis::gui::resultview::AnnisResultQuery']]],
+  ['matchlisttype',['MatchListType',['../classannis_1_1gui_1_1QueryController_1_1MatchListType.html',1,'annis::gui::QueryController']]],
   ['matrixquerydata',['MatrixQueryData',['../classannis_1_1sqlgen_1_1MatrixQueryData.html',1,'annis::sqlgen']]],
   ['matrixsqlgenerator',['MatrixSqlGenerator',['../classannis_1_1sqlgen_1_1MatrixSqlGenerator.html',1,'annis::sqlgen']]],
   ['mediacontroller',['MediaController',['../interfaceannis_1_1libgui_1_1media_1_1MediaController.html',1,'annis::libgui::media']]],

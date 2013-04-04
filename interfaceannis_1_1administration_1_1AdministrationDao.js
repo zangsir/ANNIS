@@ -6,7 +6,7 @@ var interfaceannis_1_1administration_1_1AdministrationDao =
     [ "executeSqlFromScript", "interfaceannis_1_1administration_1_1AdministrationDao.html#a8237c986e6abf6fb6134b7a932eb8c80", null ],
     [ "getDatabaseSchemaVersion", "interfaceannis_1_1administration_1_1AdministrationDao.html#a7ee9218bb291223dff8eae6b3e2cd2c1", null ],
     [ "importCorpus", "interfaceannis_1_1administration_1_1AdministrationDao.html#af4461ac0d81909410cbb8204bc06d488", null ],
-    [ "initializeDatabase", "interfaceannis_1_1administration_1_1AdministrationDao.html#a96a6cd1ee7aa1b8511a71006aef51947", null ],
+    [ "initializeDatabase", "interfaceannis_1_1administration_1_1AdministrationDao.html#ac6097eee823270ae864344c372af3f17", null ],
     [ "listCorpusStats", "interfaceannis_1_1administration_1_1AdministrationDao.html#aecaf8a82e1286e470af6d4b79497d632", null ],
     [ "listToplevelCorpora", "interfaceannis_1_1administration_1_1AdministrationDao.html#a0e8a399752c6b72d9197d6082a1942f7", null ],
     [ "listUnusedIndexes", "interfaceannis_1_1administration_1_1AdministrationDao.html#a7125d013289abcf48095ab0159d380c6", null ],

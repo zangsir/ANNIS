@@ -18,7 +18,6 @@ var searchData=
   ['resolverprovider',['ResolverProvider',['../interfaceannis_1_1gui_1_1resultview_1_1ResolverProvider.html',1,'annis::gui::resultview']]],
   ['resourceplugin',['ResourcePlugin',['../interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin.html',1,'annis::libgui::visualizers']]],
   ['resourceservlet',['ResourceServlet',['../classannis_1_1gui_1_1servlets_1_1ResourceServlet.html',1,'annis::gui::servlets']]],
-  ['resultcallable',['ResultCallable',['../classannis_1_1gui_1_1QueryController_1_1ResultCallable.html',1,'annis::gui::QueryController']]],
   ['resultelement',['ResultElement',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1ResultElement.html',1,'annis::visualizers::iframe::partitur::PartiturParser']]],
   ['resultsetconverter_3c_20t_20_3e',['ResultSetConverter&lt; T &gt;',['../interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4.html',1,'annis::dao']]],
   ['resultsetpanel',['ResultSetPanel',['../classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html',1,'annis::gui::resultview']]],
