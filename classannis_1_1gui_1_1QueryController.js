@@ -1,0 +1,28 @@
+var classannis_1_1gui_1_1QueryController =
+[
+    [ "MatchListType", "classannis_1_1gui_1_1QueryController_1_1MatchListType.html", "classannis_1_1gui_1_1QueryController_1_1MatchListType" ],
+    [ "QueryController", "classannis_1_1gui_1_1QueryController.html#a9050c05d0cdae96552461eedb5fe85e3", null ],
+    [ "cancelQueries", "classannis_1_1gui_1_1QueryController.html#a77a38e9c865fc0d84712bfa99e9f1925", null ],
+    [ "checkFutureCount", "classannis_1_1gui_1_1QueryController.html#a01490fbe6aac811c567675bfb37e42a3", null ],
+    [ "checkFutureMatchesFinished", "classannis_1_1gui_1_1QueryController.html#a130d3077436c80af5cf04ff33d86dbcb", null ],
+    [ "corpusSelectionChanged", "classannis_1_1gui_1_1QueryController.html#acd0a915453f8ae8d76ad19d54244ceda", null ],
+    [ "executeQuery", "classannis_1_1gui_1_1QueryController.html#ab5c8069f7ba8d3e5843a6b24f3b1c2ca", null ],
+    [ "executeQuery", "classannis_1_1gui_1_1QueryController.html#adb7026148e65466b0a682cdd143e103c", null ],
+    [ "getQuery", "classannis_1_1gui_1_1QueryController.html#a0f5976fad137a93974d931521a840804", null ],
+    [ "getSelectedCorpora", "classannis_1_1gui_1_1QueryController.html#a140dbce88fe4ce8c8f0bf59031ab095f", null ],
+    [ "isQueryRunning", "classannis_1_1gui_1_1QueryController.html#a2229c5ec29cddbf93e20fed5732291bf", null ],
+    [ "refresh", "classannis_1_1gui_1_1QueryController.html#a71990d4e8089e09b8b138810b328853c", null ],
+    [ "setQuery", "classannis_1_1gui_1_1QueryController.html#a6a8bc92048ed1658b4c686f9e29e5137", null ],
+    [ "setQuery", "classannis_1_1gui_1_1QueryController.html#a3cc6d49f76593834c5beb7eb488a54b9", null ],
+    [ "setQuery", "classannis_1_1gui_1_1QueryController.html#abf3ea0a3c6810ecd5367997fa8a50bb2", null ],
+    [ "switchPage", "classannis_1_1gui_1_1QueryController.html#abe0c41db1214cd76eb7913da09d647c9", null ],
+    [ "updateCorpusSetList", "classannis_1_1gui_1_1QueryController.html#a95ba9aa51b7f26c43dce2abd70ff387d", null ],
+    [ "futureCount", "classannis_1_1gui_1_1QueryController.html#aa0fa823aa07d36a1bdbcf9d3c69b9fc1", null ],
+    [ "futureMatches", "classannis_1_1gui_1_1QueryController.html#ad9c572667790cf4d6d945e96a7877e31", null ],
+    [ "history", "classannis_1_1gui_1_1QueryController.html#ad34fe28e46637758f6beedd35c69ffdf", null ],
+    [ "lastCount", "classannis_1_1gui_1_1QueryController.html#a8c53faf9062b6ede6106d8d54cf833e1", null ],
+    [ "lastQuery", "classannis_1_1gui_1_1QueryController.html#ad3ea178b75b8ef217bd59daec37c598c", null ],
+    [ "lastResultView", "classannis_1_1gui_1_1QueryController.html#a1a7fc14b74fedca34bcf3e375b38d2b6", null ],
+    [ "log", "classannis_1_1gui_1_1QueryController.html#aa010de82a6a9e3a154bc1b2a9d619152", null ],
+    [ "ui", "classannis_1_1gui_1_1QueryController.html#a33d5cb82d6d0fc28719c3335cfd2f5ba", null ]
+];
