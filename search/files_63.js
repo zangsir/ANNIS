@@ -19,6 +19,7 @@ var searchData=
   ['corpusbrowserentry_2ejava',['CorpusBrowserEntry.java',['../CorpusBrowserEntry_8java.html',1,'']]],
   ['corpusbrowserpanel_2ejava',['CorpusBrowserPanel.java',['../CorpusBrowserPanel_8java.html',1,'']]],
   ['corpusconfig_2ejava',['CorpusConfig.java',['../CorpusConfig_8java.html',1,'']]],
+  ['corpusconfigmap_2ejava',['CorpusConfigMap.java',['../CorpusConfigMap_8java.html',1,'']]],
   ['corpuslistpanel_2ejava',['CorpusListPanel.java',['../CorpusListPanel_8java.html',1,'']]],
   ['corpuspathextractor_2ejava',['CorpusPathExtractor.java',['../CorpusPathExtractor_8java.html',1,'']]],
   ['corpuspathwhereclausegenerator_2ejava',['CorpusPathWhereClauseGenerator.java',['../CorpusPathWhereClauseGenerator_8java.html',1,'']]],

@@ -14,7 +14,7 @@ var classannis_1_1gui_1_1controlpanel_1_1ExportPanel =
     [ "downloader", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a2f1fbb447aee607523924c48694c0c53", null ],
     [ "EXPORTER", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a22f707c7971263182915f055263045e3", null ],
     [ "exporterMap", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a25756071a3ec782ddfeeb1bb7869e063", null ],
-    [ "help4Exporter", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a55a550a137d668ac1438da5bd296a10c", null ],
+    [ "help4Exporter", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a80f6f975209e55b69e34a328f4728da5", null ],
     [ "log", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a4e32580b7b7ce16564df34ba176a86a2", null ],
     [ "progressIndicator", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a80bae1f91a7874d26d037c1b0a3cf08c", null ],
     [ "queryPanel", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a0e1b9a308f16651c80a08bf17fe1801d", null ],

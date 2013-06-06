@@ -31,7 +31,6 @@ var classannis_1_1gui_1_1SearchUI =
     [ "CONTROL_PANEL_WIDTH", "classannis_1_1gui_1_1SearchUI.html#aec5bd4afa998dfccb191ce6936ee460d", null ],
     [ "controlPanel", "classannis_1_1gui_1_1SearchUI.html#ae89a12db14597ccf02c46811149c9cf2", null ],
     [ "css", "classannis_1_1gui_1_1SearchUI.html#a145da0745fde939a835ddd85c2f50918", null ],
-    [ "generatedQueries", "classannis_1_1gui_1_1SearchUI.html#acfe47890532c5487ee3cbf9c14709ac3", null ],
     [ "instanceConfig", "classannis_1_1gui_1_1SearchUI.html#a88bc0bdcdebfa1112ddeead79889c3ba", null ],
     [ "lastQueriedFragment", "classannis_1_1gui_1_1SearchUI.html#adb3ebebb8514ffc210334566668ae5a4", null ],
     [ "lblUserName", "classannis_1_1gui_1_1SearchUI.html#ab185fb93a2b133fd74216f05ff81537c", null ],

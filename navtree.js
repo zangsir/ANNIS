@@ -1,11 +1,10 @@
 var NAVTREE =
 [
   [ "ANNIS", "index.html", [
-    [ "ANNIS", "index.html", null ],
-    [ "Administration", "admin.html", "admin" ],
-    [ "Developing", "dev.html", "dev" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Packages", null, [
+      [ "Administration", "admin.html", "admin" ],
+      [ "Developing", "dev.html", "dev" ],
       [ "Packages", "namespaces.html", "namespaces" ]
     ] ],
     [ "Classes", null, [
@@ -27,28 +26,31 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ANNISRolePermissionResolver_8java.html",
-"RST_8java.html",
-"classannis_1_1CommonHelper.html",
-"classannis_1_1dao_1_1AnnotatedSpan.html#a9a1e558acce7350538aa4ab84ac75631",
-"classannis_1_1gui_1_1CorpusBrowserPanel.html#a6c8195d5f23c603ef339574d7dc23b60",
-"classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html#addb867d728c82f0e6a33994d75a81c20",
-"classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#a4c4ab33069627807ab3290bfddac73e0",
-"classannis_1_1gui_1_1servlets_1_1CitationRedirectionServlet.html#a30a9c454174e99a41b6bf54daafa5264",
-"classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VideoPlayerConnector.html#a666dba0a4e04613405170bda0d646bef",
-"classannis_1_1model_1_1AnnisNode.html#a534396a86d8ecf5614526080b62ea364",
-"classannis_1_1model_1_1QueryNode_1_1Range.html#a283293a05bae188b47b89433fbe2989f",
-"classannis_1_1resolver_1_1ResolverEntry.html#ab3b60f18df3d0b67cd9b4e0aa912ef0a",
-"classannis_1_1service_1_1objects_1_1AnnisTokenImpl.html#ad65b1f824c80db2fd94149a191e51551",
-"classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#a381eb105101f03e7dc02e8f36d956d9c",
-"classannis_1_1sqlgen_1_1TableAccessStrategy.html#a6d19b5b64f415e6814eebafacba0b7e9",
-"classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielRegularDependencyTree.html#a22f8d21fbe5b1bd91503687d8ce6a1cb",
-"classannis_1_1visualizers_1_1component_1_1tree_1_1OrderedNodeList.html",
-"classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#a4fbd284cdab62cc76ec5cb67065bed6c",
-"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame.html#a793340a4bb5046c65c122e6930378be6",
-"interfaceannis_1_1dao_1_1AnnisDao.html",
-"namespaceannis_1_1service_1_1ifaces.html"
+"QueryController_8java.html",
+"classannis_1_1AnnisRunner.html#aff40642d770719a69a0ff187548c3be8",
+"classannis_1_1administration_1_1FileAccessException.html",
+"classannis_1_1examplequeries_1_1ExampleQuery.html#a148a8b35889627fe0bba6f8be5a9d259",
+"classannis_1_1gui_1_1SearchUI.html#a6cfab0aa36755b6e4273796192499d65",
+"classannis_1_1gui_1_1exporter_1_1GeneralTextExporter_1_1AnnisAttributeListType.html",
+"classannis_1_1gui_1_1querybuilder_1_1EdgeWindow_1_1OperatorValueChangeListener.html#a5821bdfc9ec0aa99145c43eeecf18e1c",
+"classannis_1_1gui_1_1widgets_1_1AudioPlayer.html#ad989a724ab17155d08427d6c635a854a",
+"classannis_1_1libgui_1_1AnnisBaseUI.html#a58cf59b5676221a62f117e118e172b18",
+"classannis_1_1model_1_1AnnisNode.html#a7f84a202ab9c1948d013c6ae54dcf31c",
+"classannis_1_1provider_1_1AnnisQLSyntaxMapper.html#a6227a4f6fb630e0635558ff05ff8554f",
+"classannis_1_1resolver_1_1SingleResolverRequest.html#a1ee1299fc42f84e1122678209515d26b",
+"classannis_1_1service_1_1objects_1_1CorpusConfig.html#a223ea4e3c0b4ab13a67b056516b34715",
+"classannis_1_1sqlgen_1_1DefaultTableAccessStrategy.html#a2209a38d566442f7e727ba0768f59548",
+"classannis_1_1sqlgen_1_1SqlConstraints.html#a7f2a2435d168828b093ca7798611afdb",
+"classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1TokenColumnGenerator.html#afa8874ecc0ce862853ccbfb72a88788b",
+"classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html#a1a56fbad9d4c03059a6ac62941ed82cd",
+"classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#aa57bf4af1004a0db400feebada5d5e48",
+"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1JettyNoLogger.html#aa0ff75a3f519a1678ea506798ddc4d63",
+"functions_vars_0x6a.html",
+"interfaceannis_1_1visualizers_1_1component_1_1tree_1_1TreeElementStyler.html#a478363d933e9ecbdb58d2e0934048127"
 ];
 
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
 
 function getData(varName)
@@ -73,8 +75,14 @@ function stripPath2(uri)
 
 function localStorageSupported()
 {
-  return 'localStorage' in window && window['localStorage'] !== null;
+  try {
+    return 'localStorage' in window && window['localStorage'] !== null && window.localStorage.getItem;
+  }
+  catch(e) {
+    return false;
+  }
 }
+
 
 function storeLink(link)
 {
@@ -108,7 +116,7 @@ function getScript(scriptName,func,show)
   script.onload = func; 
   script.src = scriptName+'.js'; 
   if ($.browser.msie && $.browser.version<=8) { 
-    // script.onload does work with older versions of IE
+    // script.onload does not work with older versions of IE
     script.onreadystatechange = function() {
       if (script.readyState=='complete' || script.readyState=='loaded') { 
         func(); if (show) showRoot(); 
@@ -120,24 +128,22 @@ function getScript(scriptName,func,show)
 
 function createIndent(o,domNode,node,level)
 {
-  if (node.parentNode && node.parentNode.parentNode) {
-    createIndent(o,domNode,node.parentNode,level+1);
-  }
+  var level=-1;
+  var n = node;
+  while (n.parentNode) { level++; n=n.parentNode; }
   var imgNode = document.createElement("img");
-  imgNode.width = 16;
+  imgNode.style.paddingLeft=(16*level).toString()+'px';
+  imgNode.width  = 16;
   imgNode.height = 22;
-  if (level==0 && node.childrenData) {
+  imgNode.border = 0;
+  if (node.childrenData) {
     node.plus_img = imgNode;
     node.expandToggle = document.createElement("a");
     node.expandToggle.href = "javascript:void(0)";
     node.expandToggle.onclick = function() {
       if (node.expanded) {
         $(node.getChildrenUL()).slideUp("fast");
-        if (node.isLast) {
-          node.plus_img.src = node.relpath+"ftv2plastnode.png";
-        } else {
-          node.plus_img.src = node.relpath+"ftv2pnode.png";
-        }
+        node.plus_img.src = node.relpath+"ftv2pnode.png";
         node.expanded = false;
       } else {
         expandNode(o, node, false, false);
@@ -145,33 +151,39 @@ function createIndent(o,domNode,node,level)
     }
     node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
+    imgNode.src = node.relpath+"ftv2pnode.png";
   } else {
+    imgNode.src = node.relpath+"ftv2node.png";
     domNode.appendChild(imgNode);
+  } 
+}
+
+var animationInProgress = false;
+
+function gotoAnchor(anchor,aname,updateLocation)
+{
+  var pos, docContent = $('#doc-content');
+  if (anchor.parent().attr('class')=='memItemLeft' ||
+      anchor.parent().attr('class')=='fieldtype' ||
+      anchor.parent().is(':header')) 
+  {
+    pos = anchor.parent().position().top;
+  } else if (anchor.position()) {
+    pos = anchor.position().top;
   }
-  if (level==0) {
-    if (node.isLast) {
-      if (node.childrenData) {
-        imgNode.src = node.relpath+"ftv2plastnode.png";
-      } else {
-        imgNode.src = node.relpath+"ftv2lastnode.png";
-        domNode.appendChild(imgNode);
-      }
-    } else {
-      if (node.childrenData) {
-        imgNode.src = node.relpath+"ftv2pnode.png";
-      } else {
-        imgNode.src = node.relpath+"ftv2node.png";
-        domNode.appendChild(imgNode);
-      }
-    }
-  } else {
-    if (node.isLast) {
-      imgNode.src = node.relpath+"ftv2blank.png";
-    } else {
-      imgNode.src = node.relpath+"ftv2vertline.png";
-    }
+  if (pos) {
+    var dist = Math.abs(Math.min(
+               pos-docContent.offset().top,
+               docContent[0].scrollHeight-
+               docContent.height()-docContent.scrollTop()));
+    animationInProgress=true;
+    docContent.animate({
+      scrollTop: pos + docContent.scrollTop() - docContent.offset().top
+    },Math.max(50,Math.min(500,dist)),function(){
+      if (updateLocation) window.location.href=aname;
+      animationInProgress=false;
+    });
   }
-  imgNode.border = "0";
 }
 
 function newNode(o, po, text, link, childrenData, lastNode)
@@ -215,7 +227,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
       var aname = '#'+link.split('#')[1];
       var srcPage = stripPath($(location).attr('pathname'));
       var targetPage = stripPath(link.split('#')[0]);
-      a.href = srcPage!=targetPage ? url : '#';
+      a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
         storeLink(link);
         if (!$(a).parent().parent().hasClass('selected'))
@@ -225,23 +237,8 @@ function newNode(o, po, text, link, childrenData, lastNode)
           $(a).parent().parent().addClass('selected');
           $(a).parent().parent().attr('id','selected');
         }
-        var pos, anchor = $(aname), docContent = $('#doc-content');
-        if (anchor.parent().attr('class')=='memItemLeft') {
-          pos = anchor.parent().position().top;
-        } else if (anchor.position()) {
-          pos = anchor.position().top;
-        }
-        if (pos) {
-          var dist = Math.abs(Math.min(
-                     pos-docContent.offset().top,
-                     docContent[0].scrollHeight-
-                     docContent.height()-docContent.scrollTop()));
-          docContent.animate({
-            scrollTop: pos + docContent.scrollTop() - docContent.offset().top
-          },Math.max(50,Math.min(500,dist)),function(){
-            window.location.replace(aname);
-          });
-        }
+        var anchor = $(aname);
+        gotoAnchor(anchor,aname,true);
       };
     } else {
       a.href = url;
@@ -322,7 +319,8 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var anchor = $($(location).attr('hash'));
+  var aname = $(location).attr('hash');
+  var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
     var rows = $('.memberdecls tr[class$="'+
                window.location.hash.substring(1)+'"]');
@@ -336,6 +334,7 @@ function highlightAnchor()
   } else {
     glowEffect(anchor.next(),1000); // normal member
   }
+  gotoAnchor(anchor,aname,false);
 }
 
 function selectAndHighlight(hash,n)
@@ -352,6 +351,11 @@ function selectAndHighlight(hash,n)
   } else if (n) {
     $(n.itemDiv).addClass('selected');
     $(n.itemDiv).attr('id','selected');
+  }
+  if ($('#nav-tree-contents .item:first').hasClass('selected')) {
+    $('#nav-sync').css('top','30px');
+  } else {
+    $('#nav-sync').css('top','5px');
   }
   showRoot();
 }
@@ -389,7 +393,7 @@ function showNode(o, node, index, hash)
           },true);
         } else {
           var rootBase = stripPath(o.toroot.replace(/\..+$/, ''));
-          if (rootBase=="index" || rootBase=="pages") {
+          if (rootBase=="index" || rootBase=="pages" || rootBase=="search") {
             expandNode(o, n, true, true);
           }
           selectAndHighlight(hash,n);
@@ -436,11 +440,6 @@ function navTo(o,root,hash,relpath)
     if (parts.length>1) hash = '#'+parts[1];
     else hash='';
   }
-  if (root==NAVTREE[0][1]) {
-    $('#nav-sync').css('top','30px');
-  } else {
-    $('#nav-sync').css('top','5px');
-  }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
@@ -450,6 +449,7 @@ function navTo(o,root,hash,relpath)
   var url=root+hash;
   var i=-1;
   while (NAVTREEINDEX[i+1]<=url) i++;
+  if (i==-1) { i=0; root=NAVTREE[0][1]; } // fallback: show index
   if (navTreeSubIndices[i]) {
     gotoNode(o,i,root,hash,relpath)
   } else {
@@ -462,16 +462,26 @@ function navTo(o,root,hash,relpath)
   }
 }
 
+function showSyncOff(n,relpath)
+{
+    n.html('<img src="'+relpath+'sync_off.png" title="'+SYNCOFFMSG+'"/>');
+}
+
+function showSyncOn(n,relpath)
+{
+    n.html('<img src="'+relpath+'sync_on.png" title="'+SYNCONMSG+'"/>');
+}
+
 function toggleSyncButton(relpath)
 {
   var navSync = $('#nav-sync');
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
-    navSync.html('<img src="'+relpath+'sync_off.png"/>');
+    showSyncOff(navSync,relpath);
     storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
   } else {
     navSync.addClass('sync');
-    navSync.html('<img src="'+relpath+'sync_on.png"/>');
+    showSyncOn(navSync,relpath);
     deleteLink();
   }
 }
@@ -499,10 +509,10 @@ function initNavTree(toroot,relpath)
   if (localStorageSupported()) {
     var navSync = $('#nav-sync');
     if (cachedLink()) {
-      navSync.html('<img src="'+relpath+'sync_off.png"/>');
+      showSyncOff(navSync,relpath);
       navSync.removeClass('sync');
     } else {
-      navSync.html('<img src="'+relpath+'sync_on.png"/>');
+      showSyncOn(navSync,relpath);
     }
     navSync.click(function(){ toggleSyncButton(relpath); });
   }
@@ -523,6 +533,11 @@ function initNavTree(toroot,relpath)
        }
        var link=stripPath2($(location).attr('pathname'));
        navTo(o,link,$(location).attr('hash'),relpath);
+     } else if (!animationInProgress) {
+       $('#doc-content').scrollTop(0);
+       $('.item').removeClass('selected');
+       $('.item').removeAttr('id');
+       navTo(o,toroot,window.location.hash,relpath);
      }
   })
 

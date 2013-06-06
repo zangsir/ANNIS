@@ -8,6 +8,7 @@ var namespaceannis_1_1service_1_1objects =
     [ "AnnisResultSetImpl", "classannis_1_1service_1_1objects_1_1AnnisResultSetImpl.html", "classannis_1_1service_1_1objects_1_1AnnisResultSetImpl" ],
     [ "AnnisTokenImpl", "classannis_1_1service_1_1objects_1_1AnnisTokenImpl.html", "classannis_1_1service_1_1objects_1_1AnnisTokenImpl" ],
     [ "CorpusConfig", "classannis_1_1service_1_1objects_1_1CorpusConfig.html", "classannis_1_1service_1_1objects_1_1CorpusConfig" ],
+    [ "CorpusConfigMap", "classannis_1_1service_1_1objects_1_1CorpusConfigMap.html", "classannis_1_1service_1_1objects_1_1CorpusConfigMap" ],
     [ "Match", "classannis_1_1service_1_1objects_1_1Match.html", "classannis_1_1service_1_1objects_1_1Match" ],
     [ "MatchAndDocumentCount", "classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html", "classannis_1_1service_1_1objects_1_1MatchAndDocumentCount" ],
     [ "SaltURIGroup", "classannis_1_1service_1_1objects_1_1SaltURIGroup.html", "classannis_1_1service_1_1objects_1_1SaltURIGroup" ],

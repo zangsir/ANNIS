@@ -1,6 +1,7 @@
 var searchData=
 [
   ['edge_2ejava',['Edge.java',['../Edge_8java.html',1,'']]],
+  ['edgebox_2ejava',['EdgeBox.java',['../EdgeBox_8java.html',1,'']]],
   ['edgewindow_2ejava',['EdgeWindow.java',['../EdgeWindow_8java.html',1,'']]],
   ['eventextractor_2ejava',['EventExtractor.java',['../EventExtractor_8java.html',1,'']]],
   ['examplequery_2ejava',['ExampleQuery.java',['../ExampleQuery_8java.html',1,'']]],

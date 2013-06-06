@@ -5,6 +5,7 @@ var searchData=
   ['vaudioplayer',['VAudioPlayer',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAudioPlayer.html',1,'annis::gui::widgets::gwt::client::ui']]],
   ['vautoheightiframe',['VAutoHeightIFrame',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAutoHeightIFrame.html',1,'annis::gui::widgets::gwt::client::ui']]],
   ['vector2',['Vector2',['../classannis_1_1visualizers_1_1iframe_1_1dependency_1_1Vector2.html',1,'annis::visualizers::iframe::dependency']]],
+  ['verticalnode',['VerticalNode',['../classannis_1_1gui_1_1flatquerybuilder_1_1VerticalNode.html',1,'annis::gui::flatquerybuilder']]],
   ['verticalorientation',['VerticalOrientation',['../enumannis_1_1visualizers_1_1component_1_1tree_1_1VerticalOrientation.html',1,'annis::visualizers::component::tree']]],
   ['vgripdragcomponent',['VGripDragComponent',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VGripDragComponent.html',1,'annis::gui::widgets::gwt::client::ui']]],
   ['videoplayer',['VideoPlayer',['../classannis_1_1gui_1_1widgets_1_1VideoPlayer.html',1,'annis::gui::widgets']]],

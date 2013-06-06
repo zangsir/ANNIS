@@ -4,7 +4,7 @@ var searchData=
   ['java2dbackend_2ejava',['Java2dBackend.java',['../Java2dBackend_8java.html',1,'']]],
   ['java2dfont',['Java2dFont',['../classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend_1_1Java2dFont.html',1,'annis::visualizers::component::tree::backends::staticimg::Java2dBackend']]],
   ['java2dfont',['Java2dFont',['../classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend_1_1Java2dFont.html#a36d5715d60cd882e6155de5e1444c5d1',1,'annis::visualizers::component::tree::backends::staticimg::Java2dBackend::Java2dFont']]],
-  ['jdbctemplate',['jdbcTemplate',['../classannis_1_1administration_1_1DefaultAdministrationDao.html#abae89fe6727ddb606d26fcdf364b1adc',1,'annis::administration::DefaultAdministrationDao']]],
+  ['jdbctemplate',['jdbcTemplate',['../classannis_1_1administration_1_1DefaultAdministrationDao.html#abae89fe6727ddb606d26fcdf364b1adc',1,'annis.administration.DefaultAdministrationDao.jdbcTemplate()'],['../classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html#acd26744b78a3b53a041d55ef684b26fe',1,'annis.dao.autogenqueries.QueriesGenerator.jdbcTemplate()']]],
   ['jettynologger',['JettyNoLogger',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1JettyNoLogger.html',1,'de::hu_berlin::german::korpling::annis::kickstarter']]],
   ['jettynologger_2ejava',['JettyNoLogger.java',['../JettyNoLogger_8java.html',1,'']]],
   ['jit',['jit',['../classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ade489948c89a212c2eb2d8e561eb17de',1,'annis::visualizers::component::rst::RSTImpl']]],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['labelitem',['LabelItem',['../classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1LabelItem.html#aed03e418293a857f2669130364db93ad',1,'annis::visualizers::component::tree::backends::staticimg::LabelItem']]],
+  ['launch',['launch',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#ae28aa3a38a1c1848bcb4d0cdce7f9cdc',1,'annis::gui::flatquerybuilder::FlatQueryBuilder']]],
   ['layoutclick',['layoutClick',['../classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1ConstraintLayout.html#af9d898a5595aba0e7e0fd1940685dcb4',1,'annis::gui::querybuilder::NodeWindow::ConstraintLayout']]],
   ['layoutoptions',['LayoutOptions',['../classannis_1_1visualizers_1_1component_1_1tree_1_1LayoutOptions.html#ae020bb7b8dffe31c9b9372155f9c9ad9',1,'annis::visualizers::component::tree::LayoutOptions']]],
   ['leftalignment',['LeftAlignment',['../classannis_1_1sqlgen_1_1model_1_1LeftAlignment.html#af26b8d787e6cc7ed090f42941753feef',1,'annis::sqlgen::model::LeftAlignment']]],

@@ -21,6 +21,7 @@ var searchData=
   ['corpusbrowserentry',['CorpusBrowserEntry',['../classannis_1_1gui_1_1beans_1_1CorpusBrowserEntry.html',1,'annis::gui::beans']]],
   ['corpusbrowserpanel',['CorpusBrowserPanel',['../classannis_1_1gui_1_1CorpusBrowserPanel.html',1,'annis::gui']]],
   ['corpusconfig',['CorpusConfig',['../classannis_1_1service_1_1objects_1_1CorpusConfig.html',1,'annis::service::objects']]],
+  ['corpusconfigmap',['CorpusConfigMap',['../classannis_1_1service_1_1objects_1_1CorpusConfigMap.html',1,'annis::service::objects']]],
   ['corpuslistpanel',['CorpusListPanel',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html',1,'annis::gui::controlpanel']]],
   ['corpuspathextractor',['CorpusPathExtractor',['../interfaceannis_1_1sqlgen_1_1CorpusPathExtractor.html',1,'annis::sqlgen']]],
   ['corpuspathwhereclausegenerator',['CorpusPathWhereClauseGenerator',['../classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html',1,'annis::sqlgen']]],
