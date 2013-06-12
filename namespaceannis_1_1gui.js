@@ -4,6 +4,7 @@ var namespaceannis_1_1gui =
     [ "components", "namespaceannis_1_1gui_1_1components.html", "namespaceannis_1_1gui_1_1components" ],
     [ "controlpanel", "namespaceannis_1_1gui_1_1controlpanel.html", "namespaceannis_1_1gui_1_1controlpanel" ],
     [ "exporter", "namespaceannis_1_1gui_1_1exporter.html", "namespaceannis_1_1gui_1_1exporter" ],
+    [ "flatquerybuilder", "namespaceannis_1_1gui_1_1flatquerybuilder.html", "namespaceannis_1_1gui_1_1flatquerybuilder" ],
     [ "model", "namespaceannis_1_1gui_1_1model.html", "namespaceannis_1_1gui_1_1model" ],
     [ "paging", "namespaceannis_1_1gui_1_1paging.html", "namespaceannis_1_1gui_1_1paging" ],
     [ "querybuilder", "namespaceannis_1_1gui_1_1querybuilder.html", "namespaceannis_1_1gui_1_1querybuilder" ],

@@ -10,7 +10,7 @@ var searchData=
   ['parseaql',['parseAQL',['../interfaceannis_1_1dao_1_1AnnisDao.html#a4475558799e3742c66880315eed7e906',1,'annis.dao.AnnisDao.parseAQL()'],['../classannis_1_1dao_1_1SpringAnnisDao.html#a38b6b9747dbe3993ee863474daee3315',1,'annis.dao.SpringAnnisDao.parseAQL()']]],
   ['parsecorpusconfiguration',['parseCorpusConfiguration',['../classannis_1_1dao_1_1SpringAnnisDao.html#ae138554ee6699c08c42d13b20ce2686a',1,'annis::dao::SpringAnnisDao']]],
   ['parseedgetype',['parseEdgeType',['../enumannis_1_1model_1_1Edge_1_1EdgeType.html#aaf6b056d1a7f900bb79c1ee759d43a05',1,'annis::model::Edge::EdgeType']]],
-  ['parsefragment',['parseFragment',['../classannis_1_1libgui_1_1Helper.html#aca8759f416190c4e17df286018d887f7',1,'annis::libgui::Helper']]],
+  ['parsefragment',['parseFragment',['../classannis_1_1libgui_1_1Helper.html#aa44e6283c4e87a2ec31131b4f50d9f69',1,'annis::libgui::Helper']]],
   ['parsemediarange',['parseMediaRange',['../classcom_1_1google_1_1mimeparse_1_1MIMEParse.html#a4cb9a676a3df724fa25820d408341074',1,'com::google::mimeparse::MIMEParse']]],
   ['parsemimetype',['parseMimeType',['../classcom_1_1google_1_1mimeparse_1_1MIMEParse.html#a77e275cc47e9b5b74a6a91e367f74d9a',1,'com::google::mimeparse::MIMEParse']]],
   ['parsesalt',['parseSalt',['../classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a1abdfd2cfb84b2c59240210b06407655',1,'annis::visualizers::component::grid::EventExtractor']]],
@@ -30,6 +30,7 @@ var searchData=
   ['preparecontext',['prepareContext',['../classannis_1_1AnnisXmlContextHelper.html#ae89a48ad035a6bb35ad4ca693bf336e9',1,'annis::AnnisXmlContextHelper']]],
   ['prepareid',['prepareID',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#ae408acc1ce7840c4ef8069fd6d380e2e',1,'annis::visualizers::iframe::CorefVisualizer']]],
   ['preparequery',['prepareQuery',['../classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher.html#ac3b5010b6f11d2cc57253e6789834f65',1,'annis::gui::resultview::ResultSetPanel::AllResultsFetcher']]],
+  ['preparetransaction',['prepareTransaction',['../classannis_1_1dao_1_1SpringAnnisDao.html#aef63f0c0ec9e33973d9240580e1cd549',1,'annis::dao::SpringAnnisDao']]],
   ['printastable',['printAsTable',['../classannis_1_1AnnisRunner.html#a9f9428ad4e8b3ed0dbf6747f9cee83fd',1,'annis::AnnisRunner']]],
   ['printheader',['printHeader',['../classannis_1_1TableFormatter.html#ab9c66b320907ef7571f02cf968581547',1,'annis::TableFormatter']]],
   ['printhtmloutput',['printHTMLOutput',['../classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#a1f2b6903456518ffa343aa29c72443c3',1,'annis::visualizers::iframe::dependency::VakyarthaDependencyTree']]],
@@ -39,6 +40,6 @@ var searchData=
   ['printtable',['printTable',['../classannis_1_1administration_1_1AnnisAdminRunner.html#a4bcc53edd480d69f434e2ea6f097ba71',1,'annis::administration::AnnisAdminRunner']]],
   ['printvalues',['printValues',['../classannis_1_1TableFormatter.html#abb7025d46df6dace9835e40d38b9f1a4',1,'annis::TableFormatter']]],
   ['propagatenodeprecedence',['propagateNodePrecedence',['../classannis_1_1ql_1_1parser_1_1TransitivePrecedenceOptimizer.html#a3d8e67604ccd003a1b6394f4b48a36fb',1,'annis::ql::parser::TransitivePrecedenceOptimizer']]],
-  ['put',['put',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1FastInverseMap_3_01KeyType_00_01ValueType_01_4.html#ad90649f35d0531d567818aba42524e6e',1,'annis::sqlgen::SaltAnnotateExtractor::FastInverseMap&lt; KeyType, ValueType &gt;']]],
+  ['put',['put',['../classannis_1_1service_1_1objects_1_1CorpusConfigMap.html#a4a6c02b3a775a661c75ec8eb1b29989f',1,'annis.service.objects.CorpusConfigMap.put()'],['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1FastInverseMap_3_01KeyType_00_01ValueType_01_4.html#ad90649f35d0531d567818aba42524e6e',1,'annis.sqlgen.SaltAnnotateExtractor.FastInverseMap&lt; KeyType, ValueType &gt;.put()']]],
   ['putinbeancontainer',['putInBeanContainer',['../classannis_1_1gui_1_1MetaDataPanel.html#a343ff86c4d23c2f1a4860771df3f58bc',1,'annis::gui::MetaDataPanel']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['queriesgenerator_2ejava',['QueriesGenerator.java',['../QueriesGenerator_8java.html',1,'']]],
   ['query_2ejava',['Query.java',['../Query_8java.html',1,'']]],
   ['queryanalysis_2ejava',['QueryAnalysis.java',['../QueryAnalysis_8java.html',1,'']]],
   ['queryannotation_2ejava',['QueryAnnotation.java',['../QueryAnnotation_8java.html',1,'']]],

@@ -21,6 +21,7 @@ var searchData=
   ['corpusbrowserentry',['CorpusBrowserEntry',['../classannis_1_1gui_1_1beans_1_1CorpusBrowserEntry.html',1,'annis::gui::beans']]],
   ['corpusbrowserpanel',['CorpusBrowserPanel',['../classannis_1_1gui_1_1CorpusBrowserPanel.html',1,'annis::gui']]],
   ['corpusconfig',['CorpusConfig',['../classannis_1_1service_1_1objects_1_1CorpusConfig.html',1,'annis::service::objects']]],
+  ['corpusconfigmap',['CorpusConfigMap',['../classannis_1_1service_1_1objects_1_1CorpusConfigMap.html',1,'annis::service::objects']]],
   ['corpuslistpanel',['CorpusListPanel',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html',1,'annis::gui::controlpanel']]],
   ['corpuspathextractor',['CorpusPathExtractor',['../interfaceannis_1_1sqlgen_1_1CorpusPathExtractor.html',1,'annis::sqlgen']]],
   ['corpuspathwhereclausegenerator',['CorpusPathWhereClauseGenerator',['../classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html',1,'annis::sqlgen']]],
@@ -33,5 +34,7 @@ var searchData=
   ['coveredmatchescalculator',['CoveredMatchesCalculator',['../classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html',1,'annis::gui::resultview::SingleResultPanel']]],
   ['coveredtextscalculator',['CoveredTextsCalculator',['../classannis_1_1CoveredTextsCalculator.html',1,'annis']]],
   ['cssrenderinfo',['CssRenderInfo',['../classannis_1_1gui_1_1components_1_1CssRenderInfo.html',1,'annis::gui::components']]],
-  ['csvcorpuspathextractor',['CsvCorpusPathExtractor',['../classannis_1_1sqlgen_1_1CsvCorpusPathExtractor.html',1,'annis::sqlgen']]]
+  ['csvcorpuspathextractor',['CsvCorpusPathExtractor',['../classannis_1_1sqlgen_1_1CsvCorpusPathExtractor.html',1,'annis::sqlgen']]],
+  ['customcontext',['CustomContext',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomContext.html',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
+  ['customresultsize',['CustomResultSize',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomResultSize.html',1,'annis::gui::controlpanel::SearchOptionsPanel']]]
 ];

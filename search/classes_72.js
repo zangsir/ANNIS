@@ -1,12 +1,13 @@
 var searchData=
 [
-  ['range',['Range',['../classannis_1_1model_1_1QueryNode_1_1Range.html',1,'annis::model::QueryNode']]],
   ['range',['Range',['../classannis_1_1model_1_1AnnisNode_1_1Range.html',1,'annis::model::AnnisNode']]],
+  ['range',['Range',['../classannis_1_1model_1_1QueryNode_1_1Range.html',1,'annis::model::QueryNode']]],
   ['rangedjoin',['RangedJoin',['../classannis_1_1sqlgen_1_1model_1_1RangedJoin.html',1,'annis::sqlgen::model']]],
   ['rankid',['RankID',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1RankID.html',1,'annis::sqlgen::SaltAnnotateExtractor']]],
   ['ranktablejoin',['RankTableJoin',['../classannis_1_1sqlgen_1_1model_1_1RankTableJoin.html',1,'annis::sqlgen::model']]],
   ['rectangle',['Rectangle',['../classannis_1_1visualizers_1_1component_1_1tree_1_1Shape_1_1Rectangle.html',1,'annis::visualizers::component::tree::Shape']]],
   ['rectangleside',['RectangleSide',['../enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide.html',1,'annis::visualizers::component::tree']]],
+  ['reducingstringcomparator',['reducingStringComparator',['../classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator.html',1,'annis::gui::flatquerybuilder']]],
   ['relationcollector',['RelationCollector',['../classannis_1_1ql_1_1parser_1_1NodeRelationNormalizer_1_1RelationCollector.html',1,'annis::ql::parser::NodeRelationNormalizer']]],
   ['removeindexelement',['RemoveIndexElement',['../classannis_1_1dao_1_1ResolverDaoHelper_1_1RemoveIndexElement.html',1,'annis::dao::ResolverDaoHelper']]],
   ['reportbugwindow',['ReportBugWindow',['../classannis_1_1gui_1_1ReportBugWindow.html',1,'annis::gui']]],
@@ -21,6 +22,7 @@ var searchData=
   ['resultelement',['ResultElement',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1ResultElement.html',1,'annis::visualizers::iframe::partitur::PartiturParser']]],
   ['resultsetconverter_3c_20t_20_3e',['ResultSetConverter&lt; T &gt;',['../interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4.html',1,'annis::dao']]],
   ['resultsetpanel',['ResultSetPanel',['../classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html',1,'annis::gui::resultview']]],
+  ['resultsettypediterator_3c_20t_20_3e',['ResultSetTypedIterator&lt; T &gt;',['../classannis_1_1sqlgen_1_1ResultSetTypedIterator_3_01T_01_4.html',1,'annis::sqlgen']]],
   ['resultviewpanel',['ResultViewPanel',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html',1,'annis::gui::resultview']]],
   ['rightalignment',['RightAlignment',['../classannis_1_1sqlgen_1_1model_1_1RightAlignment.html',1,'annis::sqlgen::model']]],
   ['rightdominance',['RightDominance',['../classannis_1_1sqlgen_1_1model_1_1RightDominance.html',1,'annis::sqlgen::model']]],

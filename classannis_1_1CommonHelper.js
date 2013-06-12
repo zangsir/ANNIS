@@ -1,5 +1,6 @@
 var classannis_1_1CommonHelper =
 [
+    [ "checkSLayer", "classannis_1_1CommonHelper.html#a5f0ba98f9ecbbffd2a81e28359e06eef", null ],
     [ "containsRTLText", "classannis_1_1CommonHelper.html#a57a5336fc57f46822faf784d0a9fe644", null ],
     [ "getCorpusPath", "classannis_1_1CommonHelper.html#ad69feb705a1581b280b6a746aa0f2d47", null ],
     [ "getCorpusPath", "classannis_1_1CommonHelper.html#a319db82d6875845db877fd5ac001fcb8", null ],

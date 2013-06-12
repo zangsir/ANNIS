@@ -16,7 +16,6 @@ var classannis_1_1examplequeries_1_1ExampleQuery =
     [ "corpusName", "classannis_1_1examplequeries_1_1ExampleQuery.html#a6077eda485af75362713702f79ffa9e9", null ],
     [ "description", "classannis_1_1examplequeries_1_1ExampleQuery.html#a3ec0ddded55ec66fee8f727a69e27f7c", null ],
     [ "exampleQuery", "classannis_1_1examplequeries_1_1ExampleQuery.html#aeb941f75e4449732e061f4c963e4cdc0", null ],
-    [ "log", "classannis_1_1examplequeries_1_1ExampleQuery.html#a148a8b35889627fe0bba6f8be5a9d259", null ],
     [ "nodes", "classannis_1_1examplequeries_1_1ExampleQuery.html#acfa122ac35d08a447c01c1d5907e7a21", null ],
     [ "type", "classannis_1_1examplequeries_1_1ExampleQuery.html#af826a22286589a04da0d1707e4826f26", null ],
     [ "used_operators", "classannis_1_1examplequeries_1_1ExampleQuery.html#a7c9022a9b8ed8a49639fdd3f1e1c5e29", null ]

@@ -1,5 +1,6 @@
 var namespaceannis_1_1dao =
 [
+    [ "autogenqueries", "namespaceannis_1_1dao_1_1autogenqueries.html", "namespaceannis_1_1dao_1_1autogenqueries" ],
     [ "AnnisDao", "interfaceannis_1_1dao_1_1AnnisDao.html", "interfaceannis_1_1dao_1_1AnnisDao" ],
     [ "AnnotatedMatch", "classannis_1_1dao_1_1AnnotatedMatch.html", "classannis_1_1dao_1_1AnnotatedMatch" ],
     [ "AnnotatedSpan", "classannis_1_1dao_1_1AnnotatedSpan.html", "classannis_1_1dao_1_1AnnotatedSpan" ],
