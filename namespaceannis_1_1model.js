@@ -7,5 +7,7 @@ var namespaceannis_1_1model =
     [ "DataObject", "classannis_1_1model_1_1DataObject.html", "classannis_1_1model_1_1DataObject" ],
     [ "Edge", "classannis_1_1model_1_1Edge.html", "classannis_1_1model_1_1Edge" ],
     [ "QueryAnnotation", "classannis_1_1model_1_1QueryAnnotation.html", "classannis_1_1model_1_1QueryAnnotation" ],
-    [ "QueryNode", "classannis_1_1model_1_1QueryNode.html", "classannis_1_1model_1_1QueryNode" ]
+    [ "QueryNode", "classannis_1_1model_1_1QueryNode.html", "classannis_1_1model_1_1QueryNode" ],
+    [ "RelannisEdgeFeature", "classannis_1_1model_1_1RelannisEdgeFeature.html", "classannis_1_1model_1_1RelannisEdgeFeature" ],
+    [ "RelannisNodeFeature", "classannis_1_1model_1_1RelannisNodeFeature.html", "classannis_1_1model_1_1RelannisNodeFeature" ]
 ];

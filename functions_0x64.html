@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-rc.1</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -178,6 +178,9 @@ $(document).ready(function(){initNavTree('functions_0x64.html','');});
 <li>DEFAULT_CONFIG
 : <a class="el" href="classannis_1_1libgui_1_1Helper.html#abfaa12cdb91efafadf6f522f9da056f0">annis.libgui.Helper</a>
 , <a class="el" href="classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#acac0a6887c7aa2fcebf68c4b8e8afe98">annis.gui.controlpanel.SearchOptionsPanel</a>
+</li>
+<li>DEFAULT_PAGE_NUMBER_ANNOTATION_NAME
+: <a class="el" href="classannis_1_1libgui_1_1PDFPageHelper.html#a3316dccd7dccfc338acbbdcfb5b08d25">annis.libgui.PDFPageHelper</a>
 </li>
 <li>DEFAULT_PEN_STYLE
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultStyler.html#af7e02c3c0487bbbbd9654e7cc16c2c89">annis.visualizers.component.tree.TigerTreeVisualizer.DefaultStyler</a>
@@ -332,8 +335,8 @@ $(document).ready(function(){initNavTree('functions_0x64.html','');});
 : <a class="el" href="classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html#ab714ae8b7f583eede45525e64420a7cf">annis.service.objects.MatchAndDocumentCount</a>
 </li>
 <li>documentName
-: <a class="el" href="classannis_1_1gui_1_1MetaDataPanel.html#a630347073f4e34a254e4447458994d63">annis.gui.MetaDataPanel</a>
-, <a class="el" href="classannis_1_1model_1_1AnnotationGraph.html#a098783ed579d842ad7fdbacfc0bc175c">annis.model.AnnotationGraph</a>
+: <a class="el" href="classannis_1_1model_1_1AnnotationGraph.html#a098783ed579d842ad7fdbacfc0bc175c">annis.model.AnnotationGraph</a>
+, <a class="el" href="classannis_1_1gui_1_1MetaDataPanel.html#a630347073f4e34a254e4447458994d63">annis.gui.MetaDataPanel</a>
 </li>
 <li>documents
 : <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a3a1eeeb1ce0caf0fa97ea22ac56af4f9">annis.ql.parser.QueryData</a>
@@ -365,8 +368,8 @@ $(document).ready(function(){initNavTree('functions_0x64.html','');});
 </li>
 <li>doGet()
 : <a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#a2c6267d3852fc9d55e0ef81b6cfef14f">annis.gui.servlets.BinaryServlet</a>
-, <a class="el" href="classannis_1_1gui_1_1servlets_1_1CitationRedirectionServlet.html#a77a66cb72da9d711609c7139d395d76e">annis.gui.servlets.CitationRedirectionServlet</a>
 , <a class="el" href="classannis_1_1gui_1_1servlets_1_1ResourceServlet.html#a6e98c1ffa7e1aeb9e9811dc5777c28b9">annis.gui.servlets.ResourceServlet</a>
+, <a class="el" href="classannis_1_1gui_1_1servlets_1_1CitationRedirectionServlet.html#a77a66cb72da9d711609c7139d395d76e">annis.gui.servlets.CitationRedirectionServlet</a>
 </li>
 <li>doGetAuthenticationInfo()
 : <a class="el" href="classannis_1_1security_1_1ANNISUserRealm.html#a7a31195e4b03e9117a72302225f7cbcb">annis.security.ANNISUserRealm</a>
@@ -378,9 +381,9 @@ $(document).ready(function(){initNavTree('functions_0x64.html','');});
 : <a class="el" href="classannis_1_1administration_1_1AnnisAdminRunner.html#a1f791bb5325d736d747fa8396442f3f1">annis.administration.AnnisAdminRunner</a>
 </li>
 <li>doInBackground()
-: <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog_1_1InitDialogWorker.html#a68ba9e056951d2fd4466d3da6ca055f6">de.hu_berlin.german.korpling.annis.kickstarter.InitDialog.InitDialogWorker</a>
+: <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker.html#a3e0bfaa17e6c77fcf1f97d658730cd78">de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.ImportDialogWorker</a>
+, <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog_1_1InitDialogWorker.html#a68ba9e056951d2fd4466d3da6ca055f6">de.hu_berlin.german.korpling.annis.kickstarter.InitDialog.InitDialogWorker</a>
 , <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame_1_1MainFrameWorker.html#a89f3f95e1a1616acd4809e40060995d7">de.hu_berlin.german.korpling.annis.kickstarter.MainFrame.MainFrameWorker</a>
-, <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker.html#a3e0bfaa17e6c77fcf1f97d658730cd78">de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.ImportDialogWorker</a>
 </li>
 <li>doIndexes()
 : <a class="el" href="classannis_1_1administration_1_1AnnisAdminRunner.html#ad75d3fe4f56cc669be0e8881c0005779">annis.administration.AnnisAdminRunner</a>
@@ -405,15 +408,18 @@ $(document).ready(function(){initNavTree('functions_0x64.html','');});
 : <a class="el" href="classannis_1_1sqlgen_1_1model_1_1Dominance.html#a4f5929b88aba0d730c2454d402964197">annis.sqlgen.model.Dominance</a>
 </li>
 <li>DOMINANCE
-: <a class="el" href="enumannis_1_1model_1_1Edge_1_1EdgeType.html#a8b2738b38ff90b390fb42dc458e04252">annis.model.Edge.EdgeType</a>
+: <a class="el" href="enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType.html#ab6302dadb1ce84b583bca7a4e657e9fd">annis.gui.flatquerybuilder.FlatQueryBuilder.RelationType</a>
 </li>
 <li>Dominance()
-: <a class="el" href="classannis_1_1sqlgen_1_1model_1_1Dominance.html#abdf6c1f0829a477e5633f5505c33fdf9">annis.sqlgen.model.Dominance</a>
+: <a class="el" href="classannis_1_1sqlgen_1_1model_1_1Dominance.html#ab5433c88e4aab8df2825d0e05464b221">annis.sqlgen.model.Dominance</a>
+</li>
+<li>DOMINANCE
+: <a class="el" href="enumannis_1_1model_1_1Edge_1_1EdgeType.html#a8b2738b38ff90b390fb42dc458e04252">annis.model.Edge.EdgeType</a>
 </li>
 <li>done()
-: <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog_1_1InitDialogWorker.html#a5b721f76a9c2490b47125bb7496fe101">de.hu_berlin.german.korpling.annis.kickstarter.InitDialog.InitDialogWorker</a>
-, <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker.html#ac1ceda2c207467910eb196c27a8a7a68">de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.ImportDialogWorker</a>
+: <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker.html#ac1ceda2c207467910eb196c27a8a7a68">de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.ImportDialogWorker</a>
 , <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame_1_1MainFrameWorker.html#af5a92195e08c70c0539b6f96bc6e9bd1">de.hu_berlin.german.korpling.annis.kickstarter.MainFrame.MainFrameWorker</a>
+, <a class="el" href="classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog_1_1InitDialogWorker.html#a5b721f76a9c2490b47125bb7496fe101">de.hu_berlin.german.korpling.annis.kickstarter.InitDialog.InitDialogWorker</a>
 </li>
 <li>doParse()
 : <a class="el" href="classannis_1_1AnnisRunner.html#a1510fa4a4a0817a043f0860e10d627f9">annis.AnnisRunner</a>
@@ -454,9 +460,9 @@ $(document).ready(function(){initNavTree('functions_0x64.html','');});
 : <a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a2f1fbb447aee607523924c48694c0c53">annis.gui.controlpanel.ExportPanel</a>
 </li>
 <li>draw()
-: <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1GraphicsItemGroup.html#a68b68cc36335e805ebbd61cb0a624477">annis.visualizers.component.tree.backends.staticimg.GraphicsItemGroup</a>
+: <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1LabelItem.html#ad8513785f2b481ac1f0f3ec2ddc0cd10">annis.visualizers.component.tree.backends.staticimg.LabelItem</a>
 , <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1AbstractImageGraphicsItem.html#a951810241c1f89631d4972c16448d374">annis.visualizers.component.tree.backends.staticimg.AbstractImageGraphicsItem</a>
-, <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1LabelItem.html#ad8513785f2b481ac1f0f3ec2ddc0cd10">annis.visualizers.component.tree.backends.staticimg.LabelItem</a>
+, <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1GraphicsItemGroup.html#a68b68cc36335e805ebbd61cb0a624477">annis.visualizers.component.tree.backends.staticimg.GraphicsItemGroup</a>
 </li>
 <li>drop()
 : <a class="el" href="classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AbsoluteDropHandler.html#a25f0faeab4f62d91467389b9eb63fb14">annis.gui.querybuilder.TigerQueryBuilderCanvas.AbsoluteDropHandler</a>
@@ -486,7 +492,7 @@ $(document).ready(function(){initNavTree('functions_0x64.html','');});
 : <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryAnalysis.html#a80120409dde032576218f5188acdd9d8">annis.ql.parser.QueryAnalysis</a>
 </li>
 <li>dumpTree()
-: <a class="el" href="classannis_1_1ql_1_1parser_1_1AnnisParser.html#a69763bb0edf1ff82a955be6ac9ad5a48">annis.ql.parser.AnnisParser</a>
+: <a class="el" href="classannis_1_1ql_1_1parser_1_1AnnisParser.html#afe19d10cbe1abcf8d8a31e046ccd86c2">annis.ql.parser.AnnisParser</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -494,7 +500,7 @@ $(document).ready(function(){initNavTree('functions_0x64.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 12 2013 16:29:09 for ANNIS by
+    <li class="footer">Generated on Tue Jun 18 2013 15:44:00 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

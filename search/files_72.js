@@ -4,6 +4,8 @@ var searchData=
   ['ranktablejoin_2ejava',['RankTableJoin.java',['../RankTableJoin_8java.html',1,'']]],
   ['rectangleside_2ejava',['RectangleSide.java',['../RectangleSide_8java.html',1,'']]],
   ['reducingstringcomparator_2ejava',['reducingStringComparator.java',['../reducingStringComparator_8java.html',1,'']]],
+  ['relannisedgefeature_2ejava',['RelannisEdgeFeature.java',['../RelannisEdgeFeature_8java.html',1,'']]],
+  ['relannisnodefeature_2ejava',['RelannisNodeFeature.java',['../RelannisNodeFeature_8java.html',1,'']]],
   ['release_2emd',['release.md',['../release_8md.html',1,'']]],
   ['reportbugwindow_2ejava',['ReportBugWindow.java',['../ReportBugWindow_8java.html',1,'']]],
   ['resolverdaohelper_2ejava',['ResolverDaoHelper.java',['../ResolverDaoHelper_8java.html',1,'']]],

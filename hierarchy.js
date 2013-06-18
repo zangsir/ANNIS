@@ -102,6 +102,7 @@ var hierarchy =
       [ "com.google.mimeparse.MIMEParse.FitnessAndQuality", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1FitnessAndQuality.html", null ]
     ] ],
     [ "annis.visualizers.component.tree.ConstituentLayouter< T extends GraphicsItem >", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html", null ],
+    [ "annis.gui.flatquerybuilder.FlatQueryBuilder.Constraint", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint.html", null ],
     [ "annis.administration.CorpusAdministration", "classannis_1_1administration_1_1CorpusAdministration.html", null ],
     [ "annis.sqlgen.CorpusPathExtractor", "interfaceannis_1_1sqlgen_1_1CorpusPathExtractor.html", [
       [ "annis.sqlgen.ArrayCorpusPathExtractor", "classannis_1_1sqlgen_1_1ArrayCorpusPathExtractor.html", null ],
@@ -110,12 +111,14 @@ var hierarchy =
     [ "annis.dao.CorpusSelectionStrategy", "interfaceannis_1_1dao_1_1CorpusSelectionStrategy.html", null ],
     [ "annis.visualizers.iframe.partitur.DetectHoles", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1DetectHoles.html", null ],
     [ "annis.model.Edge.EdgeType", "enumannis_1_1model_1_1Edge_1_1EdgeType.html", null ],
+    [ "annis.resolver.ResolverEntry.ElementType", "enumannis_1_1resolver_1_1ResolverEntry_1_1ElementType.html", null ],
     [ "annis.visualizers.component.grid.GridVisualizer.GridVisualizerComponent.ElementType", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent_1_1ElementType.html", null ],
     [ "annis.visualizers.iframe.partitur.PartiturVisualizer.ElementType", "enumannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturVisualizer_1_1ElementType.html", null ],
-    [ "annis.resolver.ResolverEntry.ElementType", "enumannis_1_1resolver_1_1ResolverEntry_1_1ElementType.html", null ],
     [ "annis.visualizers.component.grid.EventExtractor", "classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html", null ],
     [ "annis.administration.DefaultAdministrationDao.EXAMPLE_QUERIES_CONFIG", "enumannis_1_1administration_1_1DefaultAdministrationDao_1_1EXAMPLE__QUERIES__CONFIG.html", null ],
     [ "Exception", null, [
+      [ "annis.gui.flatquerybuilder.FlatQueryBuilder.EqualityConstraintException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EqualityConstraintException.html", null ],
+      [ "annis.gui.flatquerybuilder.FlatQueryBuilder.UnknownLevelException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1UnknownLevelException.html", null ],
       [ "annis.visualizers.htmlvis.VisParserException", "classannis_1_1visualizers_1_1htmlvis_1_1VisParserException.html", null ]
     ] ],
     [ "annis.gui.exporter.Exporter", "interfaceannis_1_1gui_1_1exporter_1_1Exporter.html", [
@@ -152,9 +155,6 @@ var hierarchy =
         [ "annis.visualizers.component.tree.backends.staticimg.GraphicsItemGroup", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1GraphicsItemGroup.html", null ],
         [ "annis.visualizers.component.tree.backends.staticimg.LabelItem", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1LabelItem.html", null ]
       ] ]
-    ] ],
-    [ "GridLayout", null, [
-      [ "annis.gui.controlpanel.QueryPanel", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html", null ]
     ] ],
     [ "GroupByClauseSqlGenerator", null, [
       [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ]
@@ -254,9 +254,12 @@ var hierarchy =
     ] ],
     [ "annis.sqlgen.SaltAnnotateExtractor.RankID", "classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1RankID.html", null ],
     [ "annis.visualizers.component.tree.RectangleSide", "enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide.html", null ],
+    [ "annis.gui.flatquerybuilder.reducingStringComparator", "classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator.html", null ],
     [ "RefreshListener", null, [
       [ "annis.gui.QueryController", "classannis_1_1gui_1_1QueryController.html", null ]
     ] ],
+    [ "annis.gui.flatquerybuilder.FlatQueryBuilder.Relation", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation.html", null ],
+    [ "annis.gui.flatquerybuilder.FlatQueryBuilder.RelationType", "enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType.html", null ],
     [ "annis.dao.ResolverDaoHelper.RemoveIndexElement", "classannis_1_1dao_1_1ResolverDaoHelper_1_1RemoveIndexElement.html", null ],
     [ "annis.gui.resultview.ResolverProvider", "interfaceannis_1_1gui_1_1resultview_1_1ResolverProvider.html", [
       [ "annis.gui.resultview.ResultSetPanel", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html", null ]
@@ -359,8 +362,8 @@ var hierarchy =
     ] ],
     [ "annis.visualizers.component.tree.ConstituentLayouter< T extends GraphicsItem >.TreeLayoutData", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html", null ],
     [ "annis.visualizers.iframe.CorefVisualizer.TReferent", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html", null ],
-    [ "annis.visualizers.htmlvis.SpanHTMLOutputter.Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", null ],
     [ "annis.service.objects.AnnisAttribute.Type", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html", null ],
+    [ "annis.visualizers.htmlvis.SpanHTMLOutputter.Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", null ],
     [ "UriFragmentChangedListener", null, [
       [ "annis.gui.SearchUI", "classannis_1_1gui_1_1SearchUI.html", null ]
     ] ],
@@ -447,9 +450,6 @@ var hierarchy =
     [ "ArrayList", null, [
       [ "annis.dao.AnnotatedMatch", "classannis_1_1dao_1_1AnnotatedMatch.html", null ]
     ] ],
-    [ "AttachListener", null, [
-      [ "annis.visualizers.component.pdf.PDFVisualizer.PDFViewerImpl", "classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html", null ]
-    ] ],
     [ "AuthorizingRealm", null, [
       [ "annis.security.ANNISUserRealm", "classannis_1_1security_1_1ANNISUserRealm.html", null ]
     ] ],
@@ -473,7 +473,6 @@ var hierarchy =
       [ "annis.gui.flatquerybuilder.SensitiveComboBox", "classannis_1_1gui_1_1flatquerybuilder_1_1SensitiveComboBox.html", null ]
     ] ],
     [ "Comparator", null, [
-      [ "annis.gui.flatquerybuilder.reducingStringComparator", "classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator.html", null ],
       [ "annis.gui.resultview.ResultSetPanel.ResolverEntryComparator", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryComparator.html", null ],
       [ "annis.model.AnnotationGraph.NodeComparator", "classannis_1_1model_1_1AnnotationGraph_1_1NodeComparator.html", null ],
       [ "annis.service.objects.AnnisResultSetImpl.AnnisResultSetComparator", "classannis_1_1service_1_1objects_1_1AnnisResultSetImpl_1_1AnnisResultSetComparator.html", null ]
@@ -556,6 +555,9 @@ var hierarchy =
     ] ],
     [ "GraphicsBackend", null, [
       [ "annis.visualizers.component.tree.backends.staticimg.Java2dBackend", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend.html", null ]
+    ] ],
+    [ "GridLayout", null, [
+      [ "annis.gui.controlpanel.QueryPanel", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html", null ]
     ] ],
     [ "HashMap", null, [
       [ "annis.libgui.visualizers.IFrameResourceMap", "classannis_1_1libgui_1_1visualizers_1_1IFrameResourceMap.html", null ],
@@ -791,6 +793,8 @@ var hierarchy =
       [ "annis.model.QueryAnnotation", "classannis_1_1model_1_1QueryAnnotation.html", null ],
       [ "annis.model.QueryNode", "classannis_1_1model_1_1QueryNode.html", null ],
       [ "annis.model.QueryNode.Range", "classannis_1_1model_1_1QueryNode_1_1Range.html", null ],
+      [ "annis.model.RelannisEdgeFeature", "classannis_1_1model_1_1RelannisEdgeFeature.html", null ],
+      [ "annis.model.RelannisNodeFeature", "classannis_1_1model_1_1RelannisNodeFeature.html", null ],
       [ "annis.resolver.ResolverEntry", "classannis_1_1resolver_1_1ResolverEntry.html", null ],
       [ "annis.resolver.SingleResolverRequest", "classannis_1_1resolver_1_1SingleResolverRequest.html", null ],
       [ "annis.security.AnnisUserConfig", "classannis_1_1security_1_1AnnisUserConfig.html", null ],

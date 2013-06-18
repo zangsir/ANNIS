@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-rc.1</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -103,12 +103,20 @@ $(document).ready(function(){initNavTree('dev-release.html','');});
 <div class="title">Making a new ANNIS release </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="section warning"><dt>Warning</dt><dd>This is work and progress and neither finished or tested for a real release.</dd></dl>
+<div class="textblock"><dl class="section warning"><dt>Warning</dt><dd>This is work and progress and will be improved as more releases we perform.</dd></dl>
 <p>Unfurtunally this requires some manual work. We used to invoke the Maven Release plugin in the process, but the only real usefull task was the version update and we still needed to do a lot of manual work. Thus we decided to write down the necessary steps to perform a new ANNIS release instead of relaying to a half-working solution with the Maven Release plugin.</p>
 <ol type="1">
 <li>Update the licenses in the <code>THIRD-PARTY</code> folder and commit/push to master <div class="fragment"><div class="line">mvn license:add-third-party</div>
 <div class="line">mvn license:download-licenses</div>
 </div><!-- fragment --></li>
+<li>Add new changelog entry. There is a helper script in the <code>Misc</code> folder to make this easier<ol type="a">
+<li>Get the GitHub Milestone id associated the release (is visible in the URL if you view the issues of the release tracking milestone).</li>
+<li>replace the ID in the <code>Misc/changelog.py</code> script</li>
+<li>execute this script</li>
+<li>check the output, if something is missing create an enhancement issue in GitHub and repeat the script execution</li>
+<li>add the output to the <code>CHANGELOG</code> file</li>
+</ol>
+</li>
 <li>Make and switch to a new <em>local</em> branch for the release in git. Do not push this branch to a remote location since you may want to throw it away when the testing of the temporary release unveils release critical problems. Normally commit the changes after each major step.</li>
 <li>Update the version information<ol type="a">
 <li>Internal version information in pom.xml files <div class="fragment"><div class="line">mvn release:update-versions -DautoVersionSubmodules=<span class="keyword">true</span></div>
@@ -125,14 +133,6 @@ $(document).ready(function(){initNavTree('dev-release.html','');});
 <div class="line">mvn install</div>
 </div><!-- fragment --></li>
 <li>Do manual tests.</li>
-<li>Add new changelog entry. There is a helper script in the <code>Misc</code> folder to make this easier<ol type="a">
-<li>Get the GitHub Milestone id associated the release (is visible in the URL if you view the issues of the release tracking milestone).</li>
-<li>replace the ID in the <code>Misc/changelog.py</code> script</li>
-<li>execute this script</li>
-<li>check the output, if something is missing create an enhancement issue in GitHub and repeat the script execution</li>
-<li>add the output to the <code>CHANGELOG</code> file</li>
-</ol>
-</li>
 <li>Tag the release and merge it with the <code>releases</code> branch, publish the new <code>releases</code> branch</li>
 <li>Deploy release to our Maven server <div class="fragment"><div class="line">mvn deploy</div>
 </div><!-- fragment --> </li>
@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('dev-release.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="dev.html">Developing</a></li>
-    <li class="footer">Generated on Wed Jun 12 2013 16:29:06 for ANNIS by
+    <li class="footer">Generated on Tue Jun 18 2013 15:43:58 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

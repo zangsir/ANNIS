@@ -34,6 +34,7 @@ var searchData=
   ['loadinstancefonts',['loadInstanceFonts',['../classannis_1_1gui_1_1SearchUI.html#ac9c66b69365cbec199486a366818cfa6',1,'annis::gui::SearchUI']]],
   ['loadproperties',['loadProperties',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#ad3a787cc2cd1bda27dbfcd1bf5567066',1,'de::hu_berlin::german::korpling::annis::kickstarter::ImportDialog']]],
   ['loadpropertyfile',['loadPropertyFile',['../classannis_1_1libgui_1_1AnnisBaseUI.html#a12c1ffcef6665bdf9b0baae17adb5305',1,'annis::libgui::AnnisBaseUI']]],
+  ['loadquery',['loadQuery',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a31b56bd7d23bf6c2d7a3340244683dfe',1,'annis::gui::flatquerybuilder::FlatQueryBuilder']]],
   ['loadtable',['loadTable',['../classannis_1_1gui_1_1MetaDataPanel.html#a28ba61a7c4c8ea0da6e974850d955fff',1,'annis::gui::MetaDataPanel']]],
   ['loadvisualizer',['loadVisualizer',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a0e5c48a294f06f275d080f35738a6f5a',1,'annis::gui::resultview::VisualizerPanel']]],
   ['loadxmi',['loadXMI',['../classannis_1_1provider_1_1SaltProjectProvider.html#adf83e06a5f87c2d8398fd65731d21675',1,'annis::provider::SaltProjectProvider']]],

@@ -1,12 +1,14 @@
 var classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox =
 [
     [ "SpanBox", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#a9a57f92bc0b237a9b38291f68ec52381", null ],
+    [ "SpanBox", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#a26bb804968c0f9f08fa8f6c6b4d4ec85", null ],
     [ "buildBoxValues", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#a22b1b5c0da7c872cbb97aa36d5bb5a09", null ],
     [ "buttonClick", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aab4526f80efafc7e40c4e6e19a196434", null ],
     [ "getAttribute", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aa43ec4e7f11f243fded9a2a19bb9658f", null ],
     [ "getValue", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#a197f5f08853eb4e59cda1472e2d01efd", null ],
     [ "isRegEx", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#ad195b45e5da5c92ad1c88156eb24f130", null ],
     [ "removeAccents", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#a99613c3fed7cdc8e3ccddfd65384c5a5", null ],
+    [ "setValue", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#ab1ed4585a7efea1139720ff6a2228850", null ],
     [ "textChange", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#a0ce8d811fdabfb875d804279993ad4c0", null ],
     [ "annonames", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aa26fe7e759455857ab2506e088551a30", null ],
     [ "btClose", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#abb982b2503e67e2e8568f8832c34e6b6", null ],

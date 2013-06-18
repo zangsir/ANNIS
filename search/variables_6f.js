@@ -1,8 +1,11 @@
 var searchData=
 [
+  ['o1',['o1',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation.html#ab925716549ebc287050e015e7ad450ef',1,'annis::gui::flatquerybuilder::FlatQueryBuilder::Relation']]],
+  ['o2',['o2',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation.html#a01c5b960ac6beac0ad5d20dd34681fc0',1,'annis::gui::flatquerybuilder::FlatQueryBuilder::Relation']]],
   ['occupancyset',['occupancySet',['../classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html#ab922a72fc30f0f0a8552d71f156a8f6e',1,'annis::gui::widgets::grid::Row']]],
   ['offset',['offset',['../classannis_1_1gui_1_1model_1_1PagedResultQuery.html#a038eb84d5a8867c31cbce2ddec290032',1,'annis.gui.model.PagedResultQuery.offset()'],['../classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a2df9aedd6977d0efde306d9cfdb9fa10',1,'annis.visualizers.iframe.gridtree.GridTreeVisualizer.Span.offset()'],['../classannis_1_1AnnisRunner.html#a6dfec773d97459397066e7771f14dc7c',1,'annis.AnnisRunner.offset()'],['../classannis_1_1sqlgen_1_1LimitOffsetQueryData.html#acfcf8b24d81a28bb1c4770d86755ab3f',1,'annis.sqlgen.LimitOffsetQueryData.offset()']]],
   ['ok',['ok',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status.html#ad11a2d7ceb32d53b0a3df61db719806c',1,'de::hu_berlin::german::korpling::annis::kickstarter::ImportDialog::Status']]],
+  ['operator',['operator',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation.html#a481de0983e589f9ec679cf2b48a2b8da',1,'annis::gui::flatquerybuilder::FlatQueryBuilder::Relation']]],
   ['optimizedistinct',['optimizeDistinct',['../classannis_1_1sqlgen_1_1FindSqlGenerator.html#a4b42244a41131af95883c1259f82c153',1,'annis::sqlgen::FindSqlGenerator']]],
   ['optimizeinclusion',['optimizeInclusion',['../classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#a3be8d7d0091984d37d4bc494efb6fb26',1,'annis::sqlgen::DefaultWhereClauseGenerator']]],
   ['optimizeindirectprecedence',['optimizeIndirectPrecedence',['../classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#a96fc83838ee5eaac6e4847918c1c84c2',1,'annis::sqlgen::DefaultWhereClauseGenerator']]],

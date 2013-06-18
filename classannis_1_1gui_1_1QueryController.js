@@ -9,6 +9,7 @@ var classannis_1_1gui_1_1QueryController =
     [ "executeQuery", "classannis_1_1gui_1_1QueryController.html#ab5c8069f7ba8d3e5843a6b24f3b1c2ca", null ],
     [ "executeQuery", "classannis_1_1gui_1_1QueryController.html#adb7026148e65466b0a682cdd143e103c", null ],
     [ "getQuery", "classannis_1_1gui_1_1QueryController.html#a0f5976fad137a93974d931521a840804", null ],
+    [ "getQueryDraft", "classannis_1_1gui_1_1QueryController.html#aca167dd0545fa65fe87fed48a9ea096a", null ],
     [ "getSelectedCorpora", "classannis_1_1gui_1_1QueryController.html#a140dbce88fe4ce8c8f0bf59031ab095f", null ],
     [ "isQueryRunning", "classannis_1_1gui_1_1QueryController.html#a2229c5ec29cddbf93e20fed5732291bf", null ],
     [ "refresh", "classannis_1_1gui_1_1QueryController.html#a71990d4e8089e09b8b138810b328853c", null ],

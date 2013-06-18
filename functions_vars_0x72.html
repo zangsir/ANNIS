@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0-rc.1</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -160,12 +160,15 @@ $(document).ready(function(){initNavTree('functions_vars_0x72.html','');});
 <li>rc
 : <a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a386fa1c04ffae1d81d1f95ac2d2ff9bb">annis.service.internal.QueryServiceImpl</a>
 </li>
+<li>READING_ERROR_MESSAGE
+: <a class="el" href="classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator.html#a1ab3d41155b50ee0ed57d0df3e720568">annis.gui.flatquerybuilder.reducingStringComparator</a>
+</li>
 <li>realToken
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielRegularDependencyTree.html#a48a932b30a0ebef0ed539b5917f8e7ce">annis.visualizers.component.dependency.ProielRegularDependencyTree</a>
 </li>
 <li>reBox
-: <a class="el" href="classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aa66b5dfa828037c22c135847538d1d00">annis.gui.flatquerybuilder.SpanBox</a>
-, <a class="el" href="classannis_1_1gui_1_1flatquerybuilder_1_1SearchBox.html#a82eb242ed25756b3120e98de36c36d20">annis.gui.flatquerybuilder.SearchBox</a>
+: <a class="el" href="classannis_1_1gui_1_1flatquerybuilder_1_1SearchBox.html#a82eb242ed25756b3120e98de36c36d20">annis.gui.flatquerybuilder.SearchBox</a>
+, <a class="el" href="classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aa66b5dfa828037c22c135847538d1d00">annis.gui.flatquerybuilder.SpanBox</a>
 </li>
 <li>rect
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1LabelItem.html#a665560e62872473cdba4a0ffe1666682">annis.visualizers.component.tree.backends.staticimg.LabelItem</a>
@@ -184,6 +187,9 @@ $(document).ready(function(){initNavTree('functions_vars_0x72.html','');});
 </li>
 <li>refresh
 : <a class="el" href="classannis_1_1gui_1_1SearchUI.html#afe9877af66987aef5db2ebaa769c424d">annis.gui.SearchUI</a>
+</li>
+<li>regEx
+: <a class="el" href="classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint.html#a63574ea28d7ff51aa2faf4f7a36155b5">annis.gui.flatquerybuilder.FlatQueryBuilder.Constraint</a>
 </li>
 <li>REGEX_CHARACTERS
 : <a class="el" href="classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a055846d1dbc98b2cbda322428c501218">annis.gui.flatquerybuilder.FlatQueryBuilder</a>
@@ -267,18 +273,19 @@ $(document).ready(function(){initNavTree('functions_vars_0x72.html','');});
 </li>
 <li>right
 : <a class="el" href="classannis_1_1sqlgen_1_1AnnotateQueryData.html#ab71baad592c572df137b73ae844582bc">annis.sqlgen.AnnotateQueryData</a>
-, <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#ad43702914df09b251dc06f626b6560dc">annis.visualizers.iframe.gridtree.GridTreeVisualizer.Span</a>
 </li>
 <li>RIGHT
 : <a class="el" href="enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide.html#a9378d575d7f8d6652590097e23daf12a">annis.visualizers.component.tree.RectangleSide</a>
 </li>
 <li>right
-: <a class="el" href="classannis_1_1AnnisRunner.html#a62173ffeed10bbf21c99648cb4533db5">annis.AnnisRunner</a>
-, <a class="el" href="classannis_1_1model_1_1QueryNode.html#a0d5b8aa3ceb962d4d91880f7aa4af085">annis.model.QueryNode</a>
-, <a class="el" href="classannis_1_1service_1_1objects_1_1AnnisTokenImpl.html#ad0bf23354cfd5844b4ba8b108ec0d676">annis.service.objects.AnnisTokenImpl</a>
-, <a class="el" href="classannis_1_1service_1_1objects_1_1SubgraphQuery.html#ad8c2d6f34284f2e1fb5c0f6cdae61d01">annis.service.objects.SubgraphQuery</a>
-, <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a319ada07bdd33f99791da864945f61ba">annis.gui.widgets.grid.GridEvent</a>
+: <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#ad43702914df09b251dc06f626b6560dc">annis.visualizers.iframe.gridtree.GridTreeVisualizer.Span</a>
 , <a class="el" href="classannis_1_1model_1_1AnnisNode.html#a3e7c9d51f5b70ecfb3540370250eaa8f">annis.model.AnnisNode</a>
+, <a class="el" href="classannis_1_1AnnisRunner.html#a62173ffeed10bbf21c99648cb4533db5">annis.AnnisRunner</a>
+, <a class="el" href="classannis_1_1model_1_1QueryNode.html#a0d5b8aa3ceb962d4d91880f7aa4af085">annis.model.QueryNode</a>
+, <a class="el" href="classannis_1_1service_1_1objects_1_1SubgraphQuery.html#ad8c2d6f34284f2e1fb5c0f6cdae61d01">annis.service.objects.SubgraphQuery</a>
+, <a class="el" href="classannis_1_1service_1_1objects_1_1AnnisTokenImpl.html#ad0bf23354cfd5844b4ba8b108ec0d676">annis.service.objects.AnnisTokenImpl</a>
+, <a class="el" href="classannis_1_1model_1_1RelannisNodeFeature.html#a9cbe8d547bcc0a0d6d713329994698a4">annis.model.RelannisNodeFeature</a>
+, <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a319ada07bdd33f99791da864945f61ba">annis.gui.widgets.grid.GridEvent</a>
 </li>
 <li>RIGHT_ARROW
 : <a class="el" href="classannis_1_1gui_1_1paging_1_1PagingComponent.html#a918d0e7fb915c15c887507810bd6c32d">annis.gui.paging.PagingComponent</a>
@@ -295,12 +302,13 @@ $(document).ready(function(){initNavTree('functions_vars_0x72.html','');});
 <li>rightToken
 : <a class="el" href="classannis_1_1model_1_1AnnisNode.html#ae710babe86009ef48972f11dec32d77d">annis.model.AnnisNode</a>
 , <a class="el" href="classannis_1_1model_1_1QueryNode.html#a7cc23136925e79390fb8966c4a757a6e">annis.model.QueryNode</a>
+, <a class="el" href="classannis_1_1model_1_1RelannisNodeFeature.html#a1fa2a2daf47dc05296ac19cad33cadd1">annis.model.RelannisNodeFeature</a>
 </li>
 <li>root
-: <a class="el" href="classannis_1_1model_1_1AnnisNode.html#ad889cfd738f4838fd0a8f6ad4db1cf26">annis.model.AnnisNode</a>
+: <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a6d83deb9afa9818feaa2c2f923ab9dca">annis.visualizers.component.tree.ConstituentLayouter&lt; T extends GraphicsItem &gt;</a>
 , <a class="el" href="classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a7e7635aa4d56ab2962a55850105bd0f4">annis.visualizers.iframe.gridtree.GridTreeVisualizer.Span</a>
+, <a class="el" href="classannis_1_1model_1_1AnnisNode.html#ad889cfd738f4838fd0a8f6ad4db1cf26">annis.model.AnnisNode</a>
 , <a class="el" href="classannis_1_1model_1_1QueryNode.html#a1c71358ef8f76b743497814c2d0b05a5">annis.model.QueryNode</a>
-, <a class="el" href="classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a6d83deb9afa9818feaa2c2f923ab9dca">annis.visualizers.component.tree.ConstituentLayouter&lt; T extends GraphicsItem &gt;</a>
 </li>
 <li>rootPaths
 : <a class="el" href="classannis_1_1corpuspathsearch_1_1Search.html#a59a5669f2c3ab2e9f8cbcdfa44a1b284">annis.corpuspathsearch.Search</a>
@@ -317,6 +325,9 @@ $(document).ready(function(){initNavTree('functions_vars_0x72.html','');});
 <li>rs
 : <a class="el" href="classannis_1_1sqlgen_1_1ResultSetTypedIterator_3_01T_01_4.html#a6610d3e1f654a64b0c0d44c6a549aebc">annis.sqlgen.ResultSetTypedIterator&lt; T &gt;</a>
 </li>
+<li>rsc
+: <a class="el" href="classannis_1_1gui_1_1flatquerybuilder_1_1SearchBox.html#a08617b680a6fdc4cf1f77e15be8178b9">annis.gui.flatquerybuilder.SearchBox</a>
+</li>
 <li>RST_LAYER
 : <a class="el" href="classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ad88a1fd11943caff1c10ee95b6a612d2">annis.visualizers.component.rst.RSTImpl</a>
 </li>
@@ -332,7 +343,7 @@ $(document).ready(function(){initNavTree('functions_vars_0x72.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 12 2013 16:29:09 for ANNIS by
+    <li class="footer">Generated on Tue Jun 18 2013 15:44:00 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

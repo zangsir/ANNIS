@@ -454,7 +454,12 @@ var files =
       [ "FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", "classannis_1_1sqlgen_1_1FindSqlGenerator" ]
     ] ],
     [ "FlatQueryBuilder.java", "FlatQueryBuilder_8java.html", [
-      [ "FlatQueryBuilder", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder" ]
+      [ "FlatQueryBuilder", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder" ],
+      [ "Constraint", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint" ],
+      [ "Relation", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation" ],
+      [ "RelationType", "enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType.html", "enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType" ],
+      [ "UnknownLevelException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1UnknownLevelException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1UnknownLevelException" ],
+      [ "EqualityConstraintException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EqualityConstraintException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EqualityConstraintException" ]
     ] ],
     [ "FlatQueryBuilderPlugin.java", "FlatQueryBuilderPlugin_8java.html", [
       [ "FlatQueryBuilderPlugin", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilderPlugin.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilderPlugin" ]
@@ -878,6 +883,12 @@ var files =
     ] ],
     [ "reducingStringComparator.java", "reducingStringComparator_8java.html", [
       [ "reducingStringComparator", "classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator.html", "classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator" ]
+    ] ],
+    [ "RelannisEdgeFeature.java", "RelannisEdgeFeature_8java.html", [
+      [ "RelannisEdgeFeature", "classannis_1_1model_1_1RelannisEdgeFeature.html", "classannis_1_1model_1_1RelannisEdgeFeature" ]
+    ] ],
+    [ "RelannisNodeFeature.java", "RelannisNodeFeature_8java.html", [
+      [ "RelannisNodeFeature", "classannis_1_1model_1_1RelannisNodeFeature.html", "classannis_1_1model_1_1RelannisNodeFeature" ]
     ] ],
     [ "ReportBugWindow.java", "ReportBugWindow_8java.html", [
       [ "ReportBugWindow", "classannis_1_1gui_1_1ReportBugWindow.html", "classannis_1_1gui_1_1ReportBugWindow" ],

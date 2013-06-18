@@ -3,8 +3,9 @@ var searchData=
   ['key',['key',['../classannis_1_1dao_1_1AnnotatedSpan.html#ac1edfd334f98d3b16db3b1dc7207a4f3',1,'annis::dao::AnnotatedSpan']]],
   ['key2value',['key2value',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1FastInverseMap_3_01KeyType_00_01ValueType_01_4.html#a7059af5ba2bb6a35f1097a813c42292f',1,'annis::sqlgen::SaltAnnotateExtractor::FastInverseMap&lt; KeyType, ValueType &gt;']]],
   ['key_5fcontext_5fsteps',['KEY_CONTEXT_STEPS',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a446d7726fb3d9d476ae4e72c8e86942c',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
+  ['key_5fdefault_5fbase_5ftext_5fsegmentation',['KEY_DEFAULT_BASE_TEXT_SEGMENTATION',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a7b5aedc50b5e77620f7aae8171669f21',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['key_5fdefault_5fcontext',['KEY_DEFAULT_CONTEXT',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a1773fb7ebb8564922fed1370fa33aae0',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
-  ['key_5fdefault_5fsegmentation',['KEY_DEFAULT_SEGMENTATION',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a05357d08121fa5276670fc7a1991b849',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
+  ['key_5fdefault_5fcontext_5fsegmentation',['KEY_DEFAULT_CONTEXT_SEGMENTATION',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a00da0ada92683da93c5d5082cddfdcb7',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['key_5fmax_5fcontext_5fleft',['KEY_MAX_CONTEXT_LEFT',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a8039c11ba15c770f6a678cb480c3acce',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['key_5fmax_5fcontext_5fright',['KEY_MAX_CONTEXT_RIGHT',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a08c6013556c34d6a56d7e35643de0006',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['key_5fresult_5fper_5fpage',['KEY_RESULT_PER_PAGE',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ad923d606b9ea9b7fe867116eaf5d18f4',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
@@ -19,8 +20,8 @@ var searchData=
   ['kwicmultipletextimpl',['KWICMultipleTextImpl',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICMultipleTextImpl.html',1,'annis::visualizers::component::KWICPanel']]],
   ['kwicpanel',['KWICPanel',['../classannis_1_1visualizers_1_1component_1_1KWICPanel.html',1,'annis::visualizers::component']]],
   ['kwicpanel_2ejava',['KWICPanel.java',['../KWICPanel_8java.html',1,'']]],
-  ['kwicpanelimpl',['KWICPanelImpl',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a9f1c33f874b03822404f58cd55a1e144',1,'annis::visualizers::component::KWICPanel::KWICPanelImpl']]],
   ['kwicpanelimpl',['KWICPanelImpl',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html',1,'annis::visualizers::component::KWICPanel']]],
+  ['kwicpanelimpl',['KWICPanelImpl',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a9f1c33f874b03822404f58cd55a1e144',1,'annis::visualizers::component::KWICPanel::KWICPanelImpl']]],
   ['kwicpanels',['kwicPanels',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICMultipleTextImpl.html#a5c6df5f3afce6fea9109fb2ff200adfc',1,'annis::visualizers::component::KWICPanel::KWICMultipleTextImpl']]],
   ['kwicstylegenerator',['KWICStyleGenerator',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1KWICStyleGenerator.html',1,'annis::visualizers::component::KWICPanel::KWICPanelImpl']]]
 ];

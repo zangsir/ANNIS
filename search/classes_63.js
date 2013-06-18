@@ -14,6 +14,7 @@ var searchData=
   ['commonhelper',['CommonHelper',['../classannis_1_1CommonHelper.html',1,'annis']]],
   ['commonlimitoffsetgenerator',['CommonLimitOffsetGenerator',['../classannis_1_1sqlgen_1_1CommonLimitOffsetGenerator.html',1,'annis::sqlgen']]],
   ['constituentlayouter_3c_20t_20extends_20graphicsitem_20_3e',['ConstituentLayouter&lt; T extends GraphicsItem &gt;',['../classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html',1,'annis::visualizers::component::tree']]],
+  ['constraint',['Constraint',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint.html',1,'annis::gui::flatquerybuilder::FlatQueryBuilder']]],
   ['constraintlayout',['ConstraintLayout',['../classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1ConstraintLayout.html',1,'annis::gui::querybuilder::NodeWindow']]],
   ['controlpanel',['ControlPanel',['../classannis_1_1gui_1_1controlpanel_1_1ControlPanel.html',1,'annis::gui::controlpanel']]],
   ['corefvisualizer',['CorefVisualizer',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html',1,'annis::visualizers::iframe']]],
