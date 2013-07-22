@@ -4,7 +4,7 @@ var classannis_1_1administration_1_1CorpusAdministration =
     [ "checkDatabaseSchemaVersion", "classannis_1_1administration_1_1CorpusAdministration.html#a875f51a546795e05a33c94be88c6e194", null ],
     [ "deleteCorpora", "classannis_1_1administration_1_1CorpusAdministration.html#a9dd37c82371542f162efc52b72ea035c", null ],
     [ "getAdministrationDao", "classannis_1_1administration_1_1CorpusAdministration.html#a4184789b73153cd1537def279d48c2cf", null ],
-    [ "importCorpora", "classannis_1_1administration_1_1CorpusAdministration.html#aae4598e54340183e4eca69cf7370e3ff", null ],
+    [ "importCorpora", "classannis_1_1administration_1_1CorpusAdministration.html#ac52b65c24ffbb5df3b1ca9a1c082efd0", null ],
     [ "importCorpora", "classannis_1_1administration_1_1CorpusAdministration.html#a9bbd757bf786903c50929817acccbd07", null ],
     [ "initializeDatabase", "classannis_1_1administration_1_1CorpusAdministration.html#af50250bdcb91cf3dcb256b3f6aa5b919", null ],
     [ "listCorpusStats", "classannis_1_1administration_1_1CorpusAdministration.html#a26b4412ea5fc2778dba438080256b1d7", null ],

@@ -1,6 +1,7 @@
 var classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog =
 [
     [ "ImportDialogWorker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker" ],
+    [ "StatementControllerImpl", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl" ],
     [ "Status", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status" ],
     [ "ImportDialog", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a9c71b7a453a86d13e5064bb0afb91216", null ],
     [ "ImportDialog", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a9d5f1fcf16511eba045ecd4df91c8db7", null ],
@@ -28,6 +29,7 @@ var classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1Impor
     [ "log", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#aeae5f64c396147f7d896e02ff001e4fb", null ],
     [ "pbCorpus", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a4611e4648e4b653fd8018081e1f8f9d2", null ],
     [ "pbImport", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a86f36f1c877bc4539331367505ae2652", null ],
+    [ "statementController", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#af140585853fdd84313d1e55f64d2c59e", null ],
     [ "txtInputDir", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#ac58edad38fd37c8caf9a66e23791a302", null ],
     [ "worker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a30a0375ac47491b75171617576960e20", null ]
 ];

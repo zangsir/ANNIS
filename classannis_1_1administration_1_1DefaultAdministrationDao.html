@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-rc.1</span>
+   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -135,6 +135,11 @@ Inheritance diagram for annis.administration.DefaultAdministrationDao:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao_1_1CancelableStatements.html">CancelableStatements</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a <a class="el" href="">PreparedStatement</a> to the <a class="el" href="">StatementController</a>.  <a href="classannis_1_1administration_1_1DefaultAdministrationDao_1_1CancelableStatements.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException.html">ConflictingCorpusException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enumannis_1_1administration_1_1DefaultAdministrationDao_1_1EXAMPLE__QUERIES__CONFIG.html">EXAMPLE_QUERIES_CONFIG</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -149,8 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae9fb68a8c21b99e41785b1230376069d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dacf2421a7c1fc72bca0ac04dd5f24f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a4dacf2421a7c1fc72bca0ac04dd5f24f">initializeDatabase</a> (String host, String port, String database, String user, String password, String defaultDatabase, String superUser, String superPassword, boolean useSSL)</td></tr>
 <tr class="separator:a4dacf2421a7c1fc72bca0ac04dd5f24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a2f5904d23f194d2ff261390ee25f20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a3a2f5904d23f194d2ff261390ee25f20">importCorpus</a> (String path)</td></tr>
-<tr class="separator:a3a2f5904d23f194d2ff261390ee25f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d3516c79f37bbce4e67cbae09dbc0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ab3d3516c79f37bbce4e67cbae09dbc0a">importCorpus</a> (String path, boolean override)</td></tr>
+<tr class="memdesc:ab3d3516c79f37bbce4e67cbae09dbc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads relAnnis files from several directories.  <a href="#ab3d3516c79f37bbce4e67cbae09dbc0a">More...</a><br/></td></tr>
+<tr class="separator:ab3d3516c79f37bbce4e67cbae09dbc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45c88f0a0f9b0e7389e0573a7d6de3a2"><td class="memItemLeft" align="right" valign="top">List&lt; Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a45c88f0a0f9b0e7389e0573a7d6de3a2">listToplevelCorpora</a> ()</td></tr>
 <tr class="separator:a45c88f0a0f9b0e7389e0573a7d6de3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29cc9d5faed0fc019320a098445b8df9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a29cc9d5faed0fc019320a098445b8df9">deleteCorpora</a> (List&lt; Long &gt; ids)</td></tr>
@@ -165,10 +171,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1981854f29b14fbc961f8af16cf0332d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a588eb63f3ab9b80cacf9d910582e7d8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a588eb63f3ab9b80cacf9d910582e7d8a">storeUserConfig</a> (<a class="el" href="classannis_1_1security_1_1AnnisUserConfig.html">AnnisUserConfig</a> config)</td></tr>
 <tr class="separator:a588eb63f3ab9b80cacf9d910582e7d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63743ac0e828fb51f1ae33b33696547f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a63743ac0e828fb51f1ae33b33696547f">executeSqlFromScript</a> (String script)</td></tr>
-<tr class="separator:a63743ac0e828fb51f1ae33b33696547f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dff71141cd1f8633cb53634d6af4735"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a6dff71141cd1f8633cb53634d6af4735">executeSqlFromScript</a> (String script, MapSqlParameterSource args)</td></tr>
-<tr class="separator:a6dff71141cd1f8633cb53634d6af4735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b575d0398832fcfc41f54916bd47ea"><td class="memItemLeft" align="right" valign="top">PreparedStatement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a15b575d0398832fcfc41f54916bd47ea">executeSqlFromScript</a> (String script)</td></tr>
+<tr class="separator:a15b575d0398832fcfc41f54916bd47ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a78bc82442548545837e2eac3ae6a21"><td class="memItemLeft" align="right" valign="top">PreparedStatement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a0a78bc82442548545837e2eac3ae6a21">executeSqlFromScript</a> (String script, MapSqlParameterSource args)</td></tr>
+<tr class="separator:a0a78bc82442548545837e2eac3ae6a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f6c878568f8d889786b98fb0fe6c1ed"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a7f6c878568f8d889786b98fb0fe6c1ed">listIndexDefinitions</a> (boolean used, List&lt; String &gt; tables)</td></tr>
 <tr class="separator:a7f6c878568f8d889786b98fb0fe6c1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49535c91ea1a8c81baf2aedb145f0abf"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a49535c91ea1a8c81baf2aedb145f0abf">listIndexDefinitions</a> (String...tables)</td></tr>
@@ -227,6 +233,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a06276e00758f5163564c0c20421d3761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a372bc3ed582e99385074a7d112a556b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a372bc3ed582e99385074a7d112a556b2">setQueriesGenerator</a> (<a class="el" href="classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html">QueriesGenerator</a> <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a468543e6b6746751a6b54cf8e0d00a43">queriesGenerator</a>)</td></tr>
 <tr class="separator:a372bc3ed582e99385074a7d112a556b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab346a085a4bfc78ffe9e5069cc8d4d45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ab346a085a4bfc78ffe9e5069cc8d4d45">registerGUICancelThread</a> (<a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html">StatementController</a> statementCon)</td></tr>
+<tr class="separator:ab346a085a4bfc78ffe9e5069cc8d4d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interfaceannis_1_1administration_1_1AdministrationDao"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceannis_1_1administration_1_1AdministrationDao')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html">annis.administration.AdministrationDao</a></td></tr>
 <tr class="memitem:adb3fbc8bc9eb9ca429d5211ac398c920 inherit pub_methods_interfaceannis_1_1administration_1_1AdministrationDao"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1security_1_1AnnisUserConfig.html">AnnisUserConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#adb3fbc8bc9eb9ca429d5211ac398c920">retrieveUserConfig</a> (String userName)</td></tr>
 <tr class="separator:adb3fbc8bc9eb9ca429d5211ac398c920 inherit pub_methods_interfaceannis_1_1administration_1_1AdministrationDao"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -372,6 +380,18 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ae7ee0624040ff25288087f6e464fd7a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ae7ee0624040ff25288087f6e464fd7a0">getOperators</a> (List&lt; <a class="el" href="classannis_1_1examplequeries_1_1ExampleQuery.html">ExampleQuery</a> &gt; exQueries, String regex)</td></tr>
 <tr class="memdesc:ae7ee0624040ff25288087f6e464fd7a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches operators used in the <a class="el" href="classannis_1_1examplequeries_1_1ExampleQuery.html#ae3d4d5ac371b9ee8cf246416100a1fb0">ExampleQuery#getExampleQuery()</a> with a given regex.  <a href="#ae7ee0624040ff25288087f6e464fd7a0">More...</a><br/></td></tr>
 <tr class="separator:ae7ee0624040ff25288087f6e464fd7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab837a1a9ee841e91ce5aaee70664689c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ab837a1a9ee841e91ce5aaee70664689c">getTopLevelCorpusFromTmpArea</a> ()</td></tr>
+<tr class="memdesc:ab837a1a9ee841e91ce5aaee70664689c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the name of the top level corpus in the corpus.tab file.  <a href="#ab837a1a9ee841e91ce5aaee70664689c">More...</a><br/></td></tr>
+<tr class="separator:ab837a1a9ee841e91ce5aaee70664689c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa48e53e8e7be0b6842fe5f804a134f0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#aa48e53e8e7be0b6842fe5f804a134f0c">checkTopLevelCorpus</a> ()  throws ConflictingCorpusException   </td></tr>
+<tr class="memdesc:aa48e53e8e7be0b6842fe5f804a134f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks, if a already exists a corpus with the same name of the top level corpus in the corpus.tab file.  <a href="#aa48e53e8e7be0b6842fe5f804a134f0c">More...</a><br/></td></tr>
+<tr class="separator:aa48e53e8e7be0b6842fe5f804a134f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8545799f945075b9d338b8845dbef51b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a8545799f945075b9d338b8845dbef51b">existConflictingTopLevelCorpus</a> (String topLevelCorpusName)</td></tr>
+<tr class="memdesc:a8545799f945075b9d338b8845dbef51b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks, if there already exists a top level corpus.  <a href="#a8545799f945075b9d338b8845dbef51b">More...</a><br/></td></tr>
+<tr class="separator:a8545799f945075b9d338b8845dbef51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9dcc30c502f94ca5f6e097f048aaece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#aa9dcc30c502f94ca5f6e097f048aaece">checkAndRemoveTopLevelCorpus</a> ()</td></tr>
+<tr class="memdesc:aa9dcc30c502f94ca5f6e097f048aaece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a top level corpus, when it is already exists.  <a href="#aa9dcc30c502f94ca5f6e097f048aaece">More...</a><br/></td></tr>
+<tr class="separator:aa9dcc30c502f94ca5f6e097f048aaece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -386,6 +406,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a188a4719525f3355d8894f925c13d41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5c020ce91fb1faacb010d499821c962"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ac5c020ce91fb1faacb010d499821c962">temporaryStagingArea</a></td></tr>
 <tr class="separator:ac5c020ce91fb1faacb010d499821c962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849f2ea5be13cb2a658e88148dbff106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html">StatementController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a849f2ea5be13cb2a658e88148dbff106">statementController</a></td></tr>
+<tr class="separator:a849f2ea5be13cb2a658e88148dbff106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab988c40cc62f612c1483af878ede612f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumannis_1_1administration_1_1DefaultAdministrationDao_1_1EXAMPLE__QUERIES__CONFIG.html">EXAMPLE_QUERIES_CONFIG</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ab988c40cc62f612c1483af878ede612f">generateExampleQueries</a></td></tr>
 <tr class="memdesc:ab988c40cc62f612c1483af878ede612f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this is true and no example_queries.tab is found, automatic queries are generated.  <a href="#ab988c40cc62f612c1483af878ede612f">More...</a><br/></td></tr>
 <tr class="separator:ab988c40cc62f612c1483af878ede612f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -702,6 +724,31 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa9dcc30c502f94ca5f6e097f048aaece"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.administration.DefaultAdministrationDao.checkAndRemoveTopLevelCorpus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes a top level corpus, when it is already exists. </p>
+
+</div>
+</div>
 <a class="anchor" id="ae9fb68a8c21b99e41785b1230376069d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -716,6 +763,38 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a1cb085242d26fc8aa50da6246334478d">annis.administration.AdministrationDao</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa48e53e8e7be0b6842fe5f804a134f0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.administration.DefaultAdministrationDao.checkTopLevelCorpus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>  throws <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException.html">ConflictingCorpusException</a>   </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks, if a already exists a corpus with the same name of the top level corpus in the corpus.tab file. </p>
+<p>If this is the case an Exception is thrown and the import is aborted.</p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException.html">annis.administration.DefaultAdministrationDao.ConflictingCorpusException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1347,12 +1426,12 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a63743ac0e828fb51f1ae33b33696547f"></a>
+<a class="anchor" id="a15b575d0398832fcfc41f54916bd47ea"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boolean annis.administration.DefaultAdministrationDao.executeSqlFromScript </td>
+          <td class="memname">PreparedStatement annis.administration.DefaultAdministrationDao.executeSqlFromScript </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>script</em></td><td>)</td>
@@ -1361,16 +1440,16 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a8b021eda6f9935b288fb82fd27c428e9">annis.administration.AdministrationDao</a>.</p>
+<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a9e67f16911771bcc096bb850e913acb4">annis.administration.AdministrationDao</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6dff71141cd1f8633cb53634d6af4735"></a>
+<a class="anchor" id="a0a78bc82442548545837e2eac3ae6a21"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">boolean annis.administration.DefaultAdministrationDao.executeSqlFromScript </td>
+          <td class="memname">PreparedStatement annis.administration.DefaultAdministrationDao.executeSqlFromScript </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>script</em>, </td>
@@ -1389,7 +1468,40 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a8237c986e6abf6fb6134b7a932eb8c80">annis.administration.AdministrationDao</a>.</p>
+<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#aa963cd8cdea4786da0829d56ae6febb9">annis.administration.AdministrationDao</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8545799f945075b9d338b8845dbef51b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean annis.administration.DefaultAdministrationDao.existConflictingTopLevelCorpus </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>topLevelCorpusName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks, if there already exists a top level corpus. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">topLevelCorpusName</td><td>The name of the corpus, which is checked. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Is false, if the no top level coprpus exists. </dd></dl>
 
 </div>
 </div>
@@ -1702,6 +1814,33 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab837a1a9ee841e91ce5aaee70664689c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.administration.DefaultAdministrationDao.getTopLevelCorpusFromTmpArea </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the name of the top level corpus in the corpus.tab file. </p>
+<p>At this point, the tab files must be in the staging area.</p>
+<dl class="section return"><dt>Returns</dt><dd>The name of the toplevel corpus or an empty String if no top level corpus is found. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ae228f78926278f6f8d527f711911f161"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1726,7 +1865,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3a2f5904d23f194d2ff261390ee25f20"></a>
+<a class="anchor" id="ab3d3516c79f37bbce4e67cbae09dbc0a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1734,13 +1873,32 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">void annis.administration.DefaultAdministrationDao.importCorpus </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>overwrite</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#af4461ac0d81909410cbb8204bc06d488">annis.administration.AdministrationDao</a>.</p>
+<p>Reads relAnnis files from several directories. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Specifies the path to the corpora, which should be imported. </td></tr>
+    <tr><td class="paramname">overwrite</td><td>If set to true conflicting top level corpora are deleted. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a72fb5f5cc1c395e7b3dd4219b7330abc">annis.administration.AdministrationDao</a>.</p>
 
 </div>
 </div>
@@ -2370,6 +2528,24 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab346a085a4bfc78ffe9e5069cc8d4d45"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.administration.DefaultAdministrationDao.registerGUICancelThread </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html">StatementController</a>&#160;</td>
+          <td class="paramname"><em>statementCon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a252face3e6f13c868de08916f2135f1f">annis.administration.AdministrationDao</a>.</p>
 
 </div>
 </div>
@@ -3149,6 +3325,26 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a849f2ea5be13cb2a658e88148dbff106"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html">StatementController</a> annis.administration.DefaultAdministrationDao.statementController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a1328d05299ec0c59cab253ae4bdeacf7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3247,7 +3443,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1administration.html">administration</a></li><li class="navelem"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html">DefaultAdministrationDao</a></li>
-    <li class="footer">Generated on Tue Jun 18 2013 15:43:58 for ANNIS by
+    <li class="footer">Generated on Mon Jul 22 2013 12:38:17 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

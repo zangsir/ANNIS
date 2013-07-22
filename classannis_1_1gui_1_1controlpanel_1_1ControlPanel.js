@@ -1,6 +1,6 @@
 var classannis_1_1gui_1_1controlpanel_1_1ControlPanel =
 [
-    [ "ControlPanel", "classannis_1_1gui_1_1controlpanel_1_1ControlPanel.html#a9dff5d568d5d76e39b04d988e43552ed", null ],
+    [ "ControlPanel", "classannis_1_1gui_1_1controlpanel_1_1ControlPanel.html#ade7647408f3b032569388721d6131c6e", null ],
     [ "getCorpusList", "classannis_1_1gui_1_1controlpanel_1_1ControlPanel.html#a5d6b61fd2b0e756cdfc898a86a0615b6", null ],
     [ "getQueryPanel", "classannis_1_1gui_1_1controlpanel_1_1ControlPanel.html#ad0bbfec3a022284f3dfacead6f9d52e9", null ],
     [ "getSearchOptions", "classannis_1_1gui_1_1controlpanel_1_1ControlPanel.html#a7309646890a9fa88fa2e423dd63e859f", null ],

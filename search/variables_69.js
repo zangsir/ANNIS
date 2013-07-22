@@ -33,6 +33,7 @@ var searchData=
   ['instancename',['instanceName',['../classannis_1_1libgui_1_1InstanceConfig.html#a89738041cff868cf60ae57c1c5e7ec33',1,'annis::libgui::InstanceConfig']]],
   ['internalid',['internalID',['../classannis_1_1model_1_1RelannisNodeFeature.html#ab16dc406ba4d023ff7050f889246e17b',1,'annis::model::RelannisNodeFeature']]],
   ['internalparser',['internalParser',['../classannis_1_1ql_1_1parser_1_1AnnisParser.html#a232feb1081f03036ec169191516175eb',1,'annis::ql::parser::AnnisParser']]],
+  ['iscancelled',['isCancelled',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl.html#a2034188efe9a05d06f8f6c9feb39cae3',1,'de::hu_berlin::german::korpling::annis::kickstarter::ImportDialog::StatementControllerImpl']]],
   ['iscontinuous',['isContinuous',['../classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html#a3d480fd2dcd6ad11c945738972d84c2f',1,'annis::visualizers::component::tree::NodeStructureData']]],
   ['isimporting',['isImporting',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#ac398595b103b8d6f6dcd4260b7f8f117',1,'de::hu_berlin::german::korpling::annis::kickstarter::ImportDialog']]],
   ['isin',['isIn',['../classannis_1_1ql_1_1parser_1_1NodeRelationNormalizer_1_1RelationCollector.html#adb25fb20b00ab9bcfb569b4292baf915',1,'annis::ql::parser::NodeRelationNormalizer::RelationCollector']]],

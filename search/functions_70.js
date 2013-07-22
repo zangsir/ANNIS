@@ -14,7 +14,7 @@ var searchData=
   ['parsemediarange',['parseMediaRange',['../classcom_1_1google_1_1mimeparse_1_1MIMEParse.html#a4cb9a676a3df724fa25820d408341074',1,'com::google::mimeparse::MIMEParse']]],
   ['parsemetaexpression',['parseMetaExpression',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a76116884aa0bd49c93220de6bcf2f274',1,'annis::gui::flatquerybuilder::FlatQueryBuilder']]],
   ['parsemimetype',['parseMimeType',['../classcom_1_1google_1_1mimeparse_1_1MIMEParse.html#a77e275cc47e9b5b74a6a91e367f74d9a',1,'com::google::mimeparse::MIMEParse']]],
-  ['parsesalt',['parseSalt',['../classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a1abdfd2cfb84b2c59240210b06407655',1,'annis::visualizers::component::grid::EventExtractor']]],
+  ['parsesalt',['parseSalt',['../classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a8053caf53b0d74c5ecbc6b184469465b',1,'annis::visualizers::component::grid::EventExtractor']]],
   ['parsestringtojson',['parseStringToJSON',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#ad7ecc5dc643d8a66d416edb9d3dfb807',1,'annis::gui::widgets::gwt::client::ui::VJITWrapper']]],
   ['partiturparser',['PartiturParser',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser.html#a5173aab6d9b7220b7ff9183617547ab9',1,'annis::visualizers::iframe::partitur::PartiturParser']]],
   ['pause',['pause',['../interfaceannis_1_1libgui_1_1media_1_1MediaPlayer.html#a6a2f6551ca22535101f6a67e314f0837',1,'annis.libgui.media.MediaPlayer.pause()'],['../classannis_1_1gui_1_1widgets_1_1MediaPlayerBase.html#aa554634843e54e6b90aa40b7d157019a',1,'annis.gui.widgets.MediaPlayerBase.pause()']]],
