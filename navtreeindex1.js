@@ -135,7 +135,7 @@ var NAVTREEINDEX1 =
 "admin-configure-webapp.html#admin-configure-vislist":[5,1],
 "admin-install.html":[0,0],
 "admin-install.html#admin-install-kickstarter":[0,0,1],
-"admin-install.html#testtest":[0,0,0],
+"admin-install.html#admin-install-server":[0,0,0],
 "admin.html":[0],
 "annis-interfaces_2src_2main_2java_2annis_2libgui_2MatchedNodeColors_8java.html":[3,0,202],
 "annis-interfaces_2src_2main_2java_2annis_2libgui_2media_2TimeHelper_8java.html":[3,0,332],
