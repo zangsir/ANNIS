@@ -19,6 +19,7 @@ var searchData=
   ['listexamplequerieshelper',['ListExampleQueriesHelper',['../classannis_1_1sqlgen_1_1ListExampleQueriesHelper.html',1,'annis::sqlgen']]],
   ['loadablevisualizer',['LoadableVisualizer',['../interfaceannis_1_1visualizers_1_1LoadableVisualizer.html',1,'annis::visualizers']]],
   ['loadcomponenttask',['LoadComponentTask',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html',1,'annis::gui::resultview::VisualizerPanel']]],
-  ['loginlistener',['LoginListener',['../interfaceannis_1_1gui_1_1LoginWindow_1_1LoginListener.html',1,'annis::gui::LoginWindow']]],
-  ['loginwindow',['LoginWindow',['../classannis_1_1gui_1_1LoginWindow.html',1,'annis::gui']]]
+  ['loginclosecallback',['LoginCloseCallback',['../classannis_1_1gui_1_1SearchUI_1_1LoginCloseCallback.html',1,'annis::gui::SearchUI']]],
+  ['loginlistener',['LoginListener',['../interfaceannis_1_1gui_1_1LoginListener.html',1,'annis::gui']]],
+  ['loginservlet',['LoginServlet',['../classannis_1_1gui_1_1servlets_1_1LoginServlet.html',1,'annis::gui::servlets']]]
 ];

@@ -50,6 +50,7 @@ var searchData=
   ['annisuser_2ejava',['AnnisUser.java',['../AnnisUser_8java.html',1,'']]],
   ['annisuserconfig_2ejava',['AnnisUserConfig.java',['../AnnisUserConfig_8java.html',1,'']]],
   ['annisuserrealm_2ejava',['ANNISUserRealm.java',['../ANNISUserRealm_8java.html',1,'']]],
+  ['annisvaadinservlet_2ejava',['AnnisVaadinServlet.java',['../AnnisVaadinServlet_8java.html',1,'']]],
   ['annisxmlcontexthelper_2ejava',['AnnisXmlContextHelper.java',['../AnnisXmlContextHelper_8java.html',1,'']]],
   ['annotatedmatch_2ejava',['AnnotatedMatch.java',['../AnnotatedMatch_8java.html',1,'']]],
   ['annotatedmatchiterator_2ejava',['AnnotatedMatchIterator.java',['../AnnotatedMatchIterator_8java.html',1,'']]],
@@ -85,6 +86,6 @@ var searchData=
   ['autotokquery_2ejava',['AutoTokQuery.java',['../AutoTokQuery_8java.html',1,'']]],
   ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-libgui_2src_2main_2java_2annis_2libgui_2MatchedNodeColors_8java.html',1,'']]],
   ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../annis-interfaces_2src_2main_2java_2annis_2libgui_2MatchedNodeColors_8java.html',1,'']]],
-  ['timehelper_2ejava',['TimeHelper.java',['../annis-visualizers_2src_2main_2java_2annis_2visualizers_2iframe_2partitur_2TimeHelper_8java.html',1,'']]],
-  ['timehelper_2ejava',['TimeHelper.java',['../annis-interfaces_2src_2main_2java_2annis_2libgui_2media_2TimeHelper_8java.html',1,'']]]
+  ['timehelper_2ejava',['TimeHelper.java',['../annis-interfaces_2src_2main_2java_2annis_2libgui_2media_2TimeHelper_8java.html',1,'']]],
+  ['timehelper_2ejava',['TimeHelper.java',['../annis-visualizers_2src_2main_2java_2annis_2visualizers_2iframe_2partitur_2TimeHelper_8java.html',1,'']]]
 ];

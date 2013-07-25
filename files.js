@@ -157,6 +157,9 @@ var files =
     [ "ANNISUserRealm.java", "ANNISUserRealm_8java.html", [
       [ "ANNISUserRealm", "classannis_1_1security_1_1ANNISUserRealm.html", "classannis_1_1security_1_1ANNISUserRealm" ]
     ] ],
+    [ "AnnisVaadinServlet.java", "AnnisVaadinServlet_8java.html", [
+      [ "AnnisVaadinServlet", "classannis_1_1gui_1_1servlets_1_1AnnisVaadinServlet.html", "classannis_1_1gui_1_1servlets_1_1AnnisVaadinServlet" ]
+    ] ],
     [ "AnnisXmlContextHelper.java", "AnnisXmlContextHelper_8java.html", [
       [ "AnnisXmlContextHelper", "classannis_1_1AnnisXmlContextHelper.html", "classannis_1_1AnnisXmlContextHelper" ]
     ] ],
@@ -658,9 +661,11 @@ var files =
       [ "LoadableVisualizer", "interfaceannis_1_1visualizers_1_1LoadableVisualizer.html", "interfaceannis_1_1visualizers_1_1LoadableVisualizer" ],
       [ "Callback", "interfaceannis_1_1visualizers_1_1LoadableVisualizer_1_1Callback.html", "interfaceannis_1_1visualizers_1_1LoadableVisualizer_1_1Callback" ]
     ] ],
-    [ "LoginWindow.java", "LoginWindow_8java.html", [
-      [ "LoginWindow", "classannis_1_1gui_1_1LoginWindow.html", "classannis_1_1gui_1_1LoginWindow" ],
-      [ "LoginListener", "interfaceannis_1_1gui_1_1LoginWindow_1_1LoginListener.html", "interfaceannis_1_1gui_1_1LoginWindow_1_1LoginListener" ]
+    [ "LoginListener.java", "LoginListener_8java.html", [
+      [ "LoginListener", "interfaceannis_1_1gui_1_1LoginListener.html", "interfaceannis_1_1gui_1_1LoginListener" ]
+    ] ],
+    [ "LoginServlet.java", "LoginServlet_8java.html", [
+      [ "LoginServlet", "classannis_1_1gui_1_1servlets_1_1LoginServlet.html", "classannis_1_1gui_1_1servlets_1_1LoginServlet" ]
     ] ],
     [ "MainFrame.java", "MainFrame_8java.html", [
       [ "MainFrame", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame" ],
@@ -915,6 +920,9 @@ var files =
     [ "ResourcePlugin.java", "ResourcePlugin_8java.html", [
       [ "ResourcePlugin", "interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin.html", "interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin" ]
     ] ],
+    [ "ResourceRequestHandler.java", "ResourceRequestHandler_8java.html", [
+      [ "ResourceRequestHandler", "classannis_1_1gui_1_1ResourceRequestHandler.html", "classannis_1_1gui_1_1ResourceRequestHandler" ]
+    ] ],
     [ "ResourceServlet.java", "ResourceServlet_8java.html", [
       [ "ResourceServlet", "classannis_1_1gui_1_1servlets_1_1ResourceServlet.html", "classannis_1_1gui_1_1servlets_1_1ResourceServlet" ]
     ] ],
@@ -1001,6 +1009,8 @@ var files =
     ] ],
     [ "SearchUI.java", "SearchUI_8java.html", [
       [ "SearchUI", "classannis_1_1gui_1_1SearchUI.html", "classannis_1_1gui_1_1SearchUI" ],
+      [ "CitationRequestHandler", "classannis_1_1gui_1_1SearchUI_1_1CitationRequestHandler.html", "classannis_1_1gui_1_1SearchUI_1_1CitationRequestHandler" ],
+      [ "LoginCloseCallback", "classannis_1_1gui_1_1SearchUI_1_1LoginCloseCallback.html", "classannis_1_1gui_1_1SearchUI_1_1LoginCloseCallback" ],
       [ "AboutClickListener", "classannis_1_1gui_1_1SearchUI_1_1AboutClickListener.html", "classannis_1_1gui_1_1SearchUI_1_1AboutClickListener" ],
       [ "AnnisCorpusListType", "classannis_1_1gui_1_1SearchUI_1_1AnnisCorpusListType.html", "classannis_1_1gui_1_1SearchUI_1_1AnnisCorpusListType" ]
     ] ],

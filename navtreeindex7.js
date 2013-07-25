@@ -1,5 +1,10 @@
 var NAVTREEINDEX7 =
 {
+"classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#a9a57f92bc0b237a9b38291f68ec52381":[2,0,0,5,4,8,0],
+"classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aa26fe7e759455857ab2506e088551a30":[2,0,0,5,4,8,10],
+"classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aa43ec4e7f11f243fded9a2a19bb9658f":[2,0,0,5,4,8,4],
+"classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aa66b5dfa828037c22c135847538d1d00":[2,0,0,5,4,8,15],
+"classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aab4526f80efafc7e40c4e6e19a196434":[2,0,0,5,4,8,3],
 "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#ab1ed4585a7efea1139720ff6a2228850":[2,0,0,5,4,8,8],
 "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#abb982b2503e67e2e8568f8832c34e6b6":[2,0,0,5,4,8,11],
 "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#acc9cff4b35cf96a6af134b9a62af38db":[2,0,0,5,4,8,13],
@@ -244,10 +249,5 @@ var NAVTREEINDEX7 =
 "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryComparator.html#a59034fcc1c893f39cf5ac13e5af2a535":[2,0,0,5,8,1,1,1],
 "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryComparator.html#af81c65278cb23269212a0a4fed285927":[2,0,0,5,8,1,1,0],
 "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType.html":[2,0,0,5,8,1,2],
-"classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType.html#aac47e3ffa041fe5d51afd1e013b0b7ac":[2,0,0,5,8,1,2,0],
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html":[2,0,0,5,8,2],
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a24fb967f7b18b8df599826b529aaa4c7":[2,0,0,5,8,2,0],
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a308d28ed585fde9a719740799840ff44":[2,0,0,5,8,2,11],
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a33d85a443061882832e89669ff024e05":[2,0,0,5,8,2,15],
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4dbc66e3c8c704e78155d8b23da2394e":[2,0,0,5,8,2,16]
+"classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType.html#aac47e3ffa041fe5d51afd1e013b0b7ac":[2,0,0,5,8,1,2,0]
 };

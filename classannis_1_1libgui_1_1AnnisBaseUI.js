@@ -27,6 +27,7 @@ var classannis_1_1libgui_1_1AnnisBaseUI =
     [ "pluginManager", "classannis_1_1libgui_1_1AnnisBaseUI.html#a7f6e2edad285af3ac13ba7308274722b", null ],
     [ "resourceAddedDate", "classannis_1_1libgui_1_1AnnisBaseUI.html#a8223ccd9f13ee4b0ecdddcaa0b7ee4be", null ],
     [ "USER_KEY", "classannis_1_1libgui_1_1AnnisBaseUI.html#a017ef2a9307566f3f2e89c2db5546643", null ],
+    [ "USER_LOGIN_ERROR", "classannis_1_1libgui_1_1AnnisBaseUI.html#af206478b2afb49ffd4922db21de1f458", null ],
     [ "versionProperties", "classannis_1_1libgui_1_1AnnisBaseUI.html#a9a0856e62ab6413b0c7f0ecec19de78f", null ],
     [ "visualizerRegistry", "classannis_1_1libgui_1_1AnnisBaseUI.html#a834760d646ae74c6244d9d29d8e80047", null ],
     [ "WEBSERVICEURL_KEY", "classannis_1_1libgui_1_1AnnisBaseUI.html#a5767613f5418b4bd7e0703cfb8b18685", null ]

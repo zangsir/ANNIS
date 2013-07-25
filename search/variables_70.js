@@ -31,7 +31,7 @@ var searchData=
   ['picount',['piCount',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#afbf2909a5b51702763726e11e093707a',1,'annis::gui::controlpanel::QueryPanel']]],
   ['plan',['plan',['../classannis_1_1AnnisRunner_1_1Benchmark.html#ad3a22ece02ad148653ee2df7b415461f',1,'annis::AnnisRunner::Benchmark']]],
   ['planrowmapper',['planRowMapper',['../classannis_1_1dao_1_1SpringAnnisDao.html#afdf5a6c998d5db657799a4a16a02053d',1,'annis::dao::SpringAnnisDao']]],
-  ['play',['PLAY',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VMediaPlayerBase.html#a5a8ea11b6f4240af32ff83d7336b097c',1,'annis.gui.widgets.gwt.client.ui.VMediaPlayerBase.PLAY()'],['../enumannis_1_1gui_1_1widgets_1_1MediaPlayerBase_1_1PlayerAction.html#abdb745eb4ee24bab693db7590f60f91b',1,'annis.gui.widgets.MediaPlayerBase.PlayerAction.play()']]],
+  ['play',['play',['../enumannis_1_1gui_1_1widgets_1_1MediaPlayerBase_1_1PlayerAction.html#abdb745eb4ee24bab693db7590f60f91b',1,'annis.gui.widgets.MediaPlayerBase.PlayerAction.play()'],['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VMediaPlayerBase.html#a5a8ea11b6f4240af32ff83d7336b097c',1,'annis.gui.widgets.gwt.client.ui.VMediaPlayerBase.PLAY()']]],
   ['player',['player',['../classannis_1_1libgui_1_1media_1_1MediaControllerImpl_1_1CallbackImpl.html#a39455500fc754c35f1f3021c8e2548d2',1,'annis::libgui::media::MediaControllerImpl::CallbackImpl']]],
   ['player_5floaded',['PLAYER_LOADED',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VMediaPlayerBase.html#a95a8276c0da669b56860e9ca20241f1b',1,'annis::gui::widgets::gwt::client::ui::VMediaPlayerBase']]],
   ['pluginmanager',['pluginManager',['../classannis_1_1libgui_1_1AnnisBaseUI.html#a7f6e2edad285af3ac13ba7308274722b',1,'annis::libgui::AnnisBaseUI']]],

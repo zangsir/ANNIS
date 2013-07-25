@@ -1,6 +1,7 @@
 var searchData=
 [
   ['installing',['Installing',['../admin-install.html',1,'admin']]],
+  ['install_20annis_20service_20and_20web_20front_2dend_20on_20different_20servers',['Install ANNIS Service and Web front-end on different servers',['../admin-multiple-servers.html',1,'admin']]],
   ['icon_5fcollapse',['ICON_COLLAPSE',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a0e1eaa5743d43aea6469e595550eb18b',1,'annis::gui::resultview::VisualizerPanel']]],
   ['icon_5fexpand',['ICON_EXPAND',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a652fb83a3a01aebdedab57527cb738fd',1,'annis::gui::resultview::VisualizerPanel']]],
   ['icon_5fresource',['ICON_RESOURCE',['../classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a34e3006fa166aca7510feac150e90509',1,'annis::gui::resultview::SingleResultPanel']]],
@@ -38,7 +39,7 @@ var searchData=
   ['includedocumentnameinannotatequery',['includeDocumentNameInAnnotateQuery',['../classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html#a1c57dac1da53e8a3c00f0158ba57af13',1,'annis::sqlgen::AnnotateSqlGenerator&lt; T &gt;']]],
   ['includeedge',['includeEdge',['../classannis_1_1visualizers_1_1component_1_1tree_1_1AnnisGraphTools.html#a20c4c323a8bee1add17e7ff12a44dccb',1,'annis.visualizers.component.tree.AnnisGraphTools.includeEdge()'],['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#aead3a51cf4575f0070be8eab996d2636',1,'annis.visualizers.iframe.CorefVisualizer.includeEdge()']]],
   ['includeistokencolumn',['includeIsTokenColumn',['../classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html#af4aeeffad2991bc3f4d8b228b718df84',1,'annis::sqlgen::AnnotateSqlGenerator&lt; T &gt;']]],
-  ['inclusion',['Inclusion',['../classannis_1_1sqlgen_1_1model_1_1Inclusion.html#aeef91c22752d44d93f8c338568d9d3ad',1,'annis.sqlgen.model.Inclusion.Inclusion()'],['../enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType.html#acbc57f3e3b84eefdd9d9f74e3256c234',1,'annis.gui.flatquerybuilder.FlatQueryBuilder.RelationType.INCLUSION()']]],
+  ['inclusion',['INCLUSION',['../enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType.html#acbc57f3e3b84eefdd9d9f74e3256c234',1,'annis.gui.flatquerybuilder.FlatQueryBuilder.RelationType.INCLUSION()'],['../classannis_1_1sqlgen_1_1model_1_1Inclusion.html#aeef91c22752d44d93f8c338568d9d3ad',1,'annis.sqlgen.model.Inclusion.Inclusion()']]],
   ['inclusion',['Inclusion',['../classannis_1_1sqlgen_1_1model_1_1Inclusion.html',1,'annis::sqlgen::model']]],
   ['inclusion_2ejava',['Inclusion.java',['../Inclusion_8java.html',1,'']]],
   ['incomingedges',['incomingEdges',['../classannis_1_1model_1_1AnnisNode.html#a4b2a863c1b4f7973e497816b61a5ad49',1,'annis::model::AnnisNode']]],

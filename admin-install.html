@@ -117,8 +117,8 @@ Installing an ANNIS public server </h1>
 <div class="line">\q</div>
 </div><!-- fragment --></dd></dl>
 </li>
-<li>Install a Java Servlet Container ("Java web server") such as <a href="http://tomcat.apache.org/">Tomcat</a> or <a href="http://www.mortbay.org/jetty/">Jetty</a></li>
-<li>Make sure you have installed <a href="http://java.sun.com/javase/downloads/index.jsp">JDK 6 or JDK 7</a> (or install them if you don’t)</li>
+<li>Make sure you have installed <a href="http://java.sun.com/javase/downloads/index.jsp">JDK 6 or JDK 7</a></li>
+<li>Install a Java Servlet Container ("Java web server") such as <a href="http://tomcat.apache.org/">Tomcat</a> or <a href="http://www.mortbay.org/jetty/">Jetty</a> (or install them if you don’t)</li>
 <li>Download the ANNIS service distribution file <code>annis-service-&lt;version&gt;-distribution.tar.gz</code> from our website and then unzip the downloaded file: <div class="fragment"><div class="line">tar xzvf annis-service-&lt;version&gt;-distribution.tar.gz -C &lt;installation directory&gt;</div>
 </div><!-- fragment --></li>
 <li>Set the environment variables (each time when starting up) <div class="fragment"><div class="line">export ANNIS_HOME=&lt;installation directory&gt;</div>
@@ -143,8 +143,10 @@ You can omit the PostgreSQL administrator password option (<code>-P</code>). The
 </div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>The above import-command calls other PostgreSQL database commands. If you abort the import script with Ctrl+C, these SQL processes will not be automatically terminated; instead they might keep hanging and prevent access to the database. The same might happen if you close your shell before the import script terminates, so you will want to prefix it with the "nohup"- command.</dd></dl>
 </li>
 <li>Now you can start the ANNIS service: <div class="fragment"><div class="line">annis-service.sh start</div>
-</div><!-- fragment --></li>
+</div><!-- fragment --> If you don't want to use any authentification and every user should see every corpus without login you can start ANNIS with <div class="fragment"><div class="line">annis-service-no-security.sh start</div>
+</div><!-- fragment --> instead of the default script.</li>
 <li>To get the ANNIS front-end running, first download annis- gui-&lt;version&gt;.war from our website and deploy it to your Java servlet container (this is depending on the servlet container you use).</li>
+<li>Configure users and groups as described <a class="el" href="admin-configure-service.html#admin-configure-user">here</a> and define who is allowed to see which corpus.</li>
 </ol>
 <dl class="section note"><dt>Note</dt><dd>We also <b>strongly recommend</b> reconfiguring the Postgres server’s default settings as described <a class="el" href="admin-configure-postgresql.html">here</a>.</dd></dl>
 <h1><a class="anchor" id="admin-install-kickstarter"></a>
@@ -171,7 +173,7 @@ After installation, PostgreSQL may automatically launch the PostgreSQL Stack Bui
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="admin.html">Administration</a></li>
-    <li class="footer">Generated on Mon Jul 22 2013 12:45:13 for ANNIS by
+    <li class="footer">Generated on Thu Jul 25 2013 10:39:59 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
