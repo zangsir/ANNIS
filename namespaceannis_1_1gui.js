@@ -19,11 +19,10 @@ var namespaceannis_1_1gui =
     [ "ExampleQueriesPanel", "classannis_1_1gui_1_1ExampleQueriesPanel.html", "classannis_1_1gui_1_1ExampleQueriesPanel" ],
     [ "HelpUsWindow", "classannis_1_1gui_1_1HelpUsWindow.html", "classannis_1_1gui_1_1HelpUsWindow" ],
     [ "HistoryPanel", "classannis_1_1gui_1_1HistoryPanel.html", "classannis_1_1gui_1_1HistoryPanel" ],
-    [ "LoginListener", "interfaceannis_1_1gui_1_1LoginListener.html", "interfaceannis_1_1gui_1_1LoginListener" ],
+    [ "LoginWindow", "classannis_1_1gui_1_1LoginWindow.html", "classannis_1_1gui_1_1LoginWindow" ],
     [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html", "classannis_1_1gui_1_1MetaDataPanel" ],
     [ "QueryController", "classannis_1_1gui_1_1QueryController.html", "classannis_1_1gui_1_1QueryController" ],
     [ "ReportBugWindow", "classannis_1_1gui_1_1ReportBugWindow.html", "classannis_1_1gui_1_1ReportBugWindow" ],
-    [ "ResourceRequestHandler", "classannis_1_1gui_1_1ResourceRequestHandler.html", "classannis_1_1gui_1_1ResourceRequestHandler" ],
     [ "SearchUI", "classannis_1_1gui_1_1SearchUI.html", "classannis_1_1gui_1_1SearchUI" ],
     [ "FontConfig", "classannis_1_1gui_1_1FontConfig.html", "classannis_1_1gui_1_1FontConfig" ]
 ];

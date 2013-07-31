@@ -13,7 +13,16 @@ var admin =
       ] ],
       [ "Changing maximal context size ", "admin-configure-service.html#admin-configure-contextsize", null ]
     ] ],
-    [ "Configure front-end web-application", "admin-configure-webapp.html", null ],
-    [ "PostgreSQL Server Configuration", "admin-configure-postgresql.html", null ],
-    [ "Install ANNIS Service and Web front-end on different servers", "admin-multiple-servers.html", null ]
+    [ "Configure front-end web-application", "admin-configure-webapp.html", [
+      [ "Configuring Tomcat or Jetty as application container ", "admin-configure-webapp.html#admin-configure-container", [
+        [ "Tomcat: UTF8 encoding in server.xml", "admin-configure-webapp.html#admin-configure-tomcat-utf8", null ]
+      ] ],
+      [ "General configuration advices ", "admin-configure-webapp.html#admin-configure-general", null ],
+      [ "Create and configure instances ", "admin-configure-webapp.html#admin-configure-instance", null ],
+      [ "Configuring Visualizations ", "admin-configure-webapp.html#admin-configure-vis", [
+        [ "Visibility column", "admin-configure-webapp.html#admin-configure-visibility", null ],
+        [ "Visualizer list", "admin-configure-webapp.html#admin-configure-vislist", null ]
+      ] ]
+    ] ],
+    [ "PostgreSQL Server Configuration", "admin-configure-postgresql.html", null ]
 ];

@@ -4,6 +4,7 @@ var searchData=
   ['mainframeworker',['MainFrameWorker',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame_1_1MainFrameWorker.html',1,'de::hu_berlin::german::korpling::annis::kickstarter::MainFrame']]],
   ['match',['Match',['../classannis_1_1service_1_1objects_1_1Match.html',1,'annis::service::objects']]],
   ['matchanddocumentcount',['MatchAndDocumentCount',['../classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html',1,'annis::service::objects']]],
+  ['matchcorefvisualizer',['MatchCorefVisualizer',['../classannis_1_1visualizers_1_1iframe_1_1MatchCorefVisualizer.html',1,'annis::visualizers::iframe']]],
   ['matchednodecolors',['MatchedNodeColors',['../enumannis_1_1libgui_1_1MatchedNodeColors.html',1,'annis::libgui']]],
   ['matchlisttype',['MatchListType',['../classannis_1_1gui_1_1QueryController_1_1MatchListType.html',1,'annis::gui::QueryController']]],
   ['matrixquerydata',['MatrixQueryData',['../classannis_1_1sqlgen_1_1MatrixQueryData.html',1,'annis::sqlgen']]],

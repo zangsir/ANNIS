@@ -12,7 +12,6 @@ var searchData=
   ['resolverentry_2ejava',['ResolverEntry.java',['../ResolverEntry_8java.html',1,'']]],
   ['resolverprovider_2ejava',['ResolverProvider.java',['../ResolverProvider_8java.html',1,'']]],
   ['resourceplugin_2ejava',['ResourcePlugin.java',['../ResourcePlugin_8java.html',1,'']]],
-  ['resourcerequesthandler_2ejava',['ResourceRequestHandler.java',['../ResourceRequestHandler_8java.html',1,'']]],
   ['resourceservlet_2ejava',['ResourceServlet.java',['../ResourceServlet_8java.html',1,'']]],
   ['resultsetconverter_2ejava',['ResultSetConverter.java',['../ResultSetConverter_8java.html',1,'']]],
   ['resultsetpanel_2ejava',['ResultSetPanel.java',['../ResultSetPanel_8java.html',1,'']]],

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -131,8 +131,8 @@ Inheritance diagram for annis.gui.SearchUI:</div>
   <map id="annis.gui.SearchUI_map" name="annis.gui.SearchUI_map">
 <area href="classannis_1_1libgui_1_1AnnisBaseUI.html" title="Basic UI functionality." alt="annis.libgui.AnnisBaseUI" shape="rect" coords="365,112,720,136"/>
 <area href="interfaceannis_1_1gui_1_1components_1_1ScreenshotMaker_1_1ScreenshotCallback.html" alt="annis.gui.components.ScreenshotMaker.ScreenshotCallback" shape="rect" coords="730,112,1085,136"/>
-<area href="interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener.html" alt="annis.libgui.media.MimeTypeErrorListener" shape="rect" coords="1095,112,1450,136"/>
-<area href="interfaceannis_1_1gui_1_1LoginListener.html" alt="annis.gui.LoginListener" shape="rect" coords="1825,112,2180,136"/>
+<area href="interfaceannis_1_1gui_1_1LoginWindow_1_1LoginListener.html" alt="annis.gui.LoginWindow.LoginListener" shape="rect" coords="1095,112,1450,136"/>
+<area href="interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener.html" alt="annis.libgui.media.MimeTypeErrorListener" shape="rect" coords="1460,112,1815,136"/>
 <area href="interfaceannis_1_1libgui_1_1PluginSystem.html" title="ANNIS plugin system interface for getting plugins or specific visualizers." alt="annis.libgui.PluginSystem" shape="rect" coords="365,56,720,80"/>
 </map>
  </div></div>
@@ -143,15 +143,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI_1_1AnnisCorpusListType.html">AnnisCorpusListType</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI_1_1CitationRequestHandler.html">CitationRequestHandler</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI_1_1LoginCloseCallback.html">LoginCloseCallback</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a97e567338f9b935db8619aef3c22ee21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a97e567338f9b935db8619aef3c22ee21">checkCitation</a> ()</td></tr>
-<tr class="separator:a97e567338f9b935db8619aef3c22ee21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a743c0f9216dbee615faa15adb1cb86e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a743c0f9216dbee615faa15adb1cb86e5">checkCitation</a> (VaadinRequest request)</td></tr>
+<tr class="separator:a743c0f9216dbee615faa15adb1cb86e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab67f8a6b102fd56887644f19663821ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#ab67f8a6b102fd56887644f19663821ac">evaluateCitation</a> (String relativeUri)</td></tr>
 <tr class="separator:ab67f8a6b102fd56887644f19663821ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49efcba938a1e073bc9fb56a78c4d64e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a49efcba938a1e073bc9fb56a78c4d64e">updateUserInformation</a> ()</td></tr>
@@ -213,8 +209,6 @@ Static Public Attributes</h2></td></tr>
 <tr class="inherit_header pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classannis_1_1libgui_1_1AnnisBaseUI.html">annis.libgui.AnnisBaseUI</a></td></tr>
 <tr class="memitem:a017ef2a9307566f3f2e89c2db5546643 inherit pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1AnnisBaseUI.html#a017ef2a9307566f3f2e89c2db5546643">USER_KEY</a> = &quot;annis.gui.AnnisBaseUI:USER_KEY&quot;</td></tr>
 <tr class="separator:a017ef2a9307566f3f2e89c2db5546643 inherit pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af206478b2afb49ffd4922db21de1f458 inherit pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1AnnisBaseUI.html#af206478b2afb49ffd4922db21de1f458">USER_LOGIN_ERROR</a> = &quot;annis.gui.AnnisBaseUI:USER_LOGIN_ERROR&quot;</td></tr>
-<tr class="separator:af206478b2afb49ffd4922db21de1f458 inherit pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58cf59b5676221a62f117e118e172b18 inherit pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1AnnisBaseUI.html#a58cf59b5676221a62f117e118e172b18">CONTEXT_PATH</a> = &quot;annis.gui.AnnisBaseUI:CONTEXT_PATH&quot;</td></tr>
 <tr class="separator:a58cf59b5676221a62f117e118e172b18 inherit pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5767613f5418b4bd7e0703cfb8b18685 inherit pub_static_attribs_classannis_1_1libgui_1_1AnnisBaseUI"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1AnnisBaseUI.html#a5767613f5418b4bd7e0703cfb8b18685">WEBSERVICEURL_KEY</a> = &quot;annis.gui.AnnisBaseUI:WEBSERVICEURL_KEY&quot;</td></tr>
@@ -253,6 +247,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ac9c66b69365cbec199486a366818cfa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47d5b95b544eec9c11379bb8c80e50a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1libgui_1_1InstanceConfig.html">InstanceConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a47d5b95b544eec9c11379bb8c80e50a8">getInstanceConfig</a> (VaadinRequest request)</td></tr>
 <tr class="separator:a47d5b95b544eec9c11379bb8c80e50a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2978e5976d79e897a667a418dc98713a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a2978e5976d79e897a667a418dc98713a">showLoginWindow</a> ()</td></tr>
+<tr class="separator:a2978e5976d79e897a667a418dc98713a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ac98d97937c1cf2e760d0c02dd49af2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a7ac98d97937c1cf2e760d0c02dd49af2">evaluateFragment</a> (String fragment)</td></tr>
 <tr class="separator:a7ac98d97937c1cf2e760d0c02dd49af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -260,14 +256,10 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a94327ad7a73db34917fb896e91e619d6"><td class="memItemLeft" align="right" valign="top">Pattern&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a94327ad7a73db34917fb896e91e619d6">citationPattern</a></td></tr>
 <tr class="separator:a94327ad7a73db34917fb896e91e619d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aedfa4b8bab3f87d37a5f4252cd2058"><td class="memItemLeft" align="right" valign="top">HorizontalLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a6aedfa4b8bab3f87d37a5f4252cd2058">layoutToolbar</a></td></tr>
-<tr class="separator:a6aedfa4b8bab3f87d37a5f4252cd2058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab185fb93a2b133fd74216f05ff81537c"><td class="memItemLeft" align="right" valign="top">Label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#ab185fb93a2b133fd74216f05ff81537c">lblUserName</a></td></tr>
 <tr class="separator:ab185fb93a2b133fd74216f05ff81537c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9db9d491f1fe55d445d2e511ee5bc09"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#ac9db9d491f1fe55d445d2e511ee5bc09">btLogin</a></td></tr>
-<tr class="separator:ac9db9d491f1fe55d445d2e511ee5bc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e15b74cb59d3235b9d39915bab37cfa"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#a4e15b74cb59d3235b9d39915bab37cfa">btLogout</a></td></tr>
-<tr class="separator:a4e15b74cb59d3235b9d39915bab37cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc29102aafd3b7bc6708ea19fa414a2e"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#acc29102aafd3b7bc6708ea19fa414a2e">btLoginLogout</a></td></tr>
+<tr class="separator:acc29102aafd3b7bc6708ea19fa414a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcd4eb495ee22c9bbcf7b665e7d71aa7"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#afcd4eb495ee22c9bbcf7b665e7d71aa7">btBugReport</a></td></tr>
 <tr class="separator:afcd4eb495ee22c9bbcf7b665e7d71aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae89a12db14597ccf02c46811149c9cf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1controlpanel_1_1ControlPanel.html">ControlPanel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1SearchUI.html#ae89a12db14597ccf02c46811149c9cf2">controlPanel</a></td></tr>
@@ -332,14 +324,15 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a97e567338f9b935db8619aef3c22ee21"></a>
+<a class="anchor" id="a743c0f9216dbee615faa15adb1cb86e5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void annis.gui.SearchUI.checkCitation </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">VaadinRequest&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -597,7 +590,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interfaceannis_1_1gui_1_1LoginListener.html#a0a2ad626c5777986ef17e1c375264282">annis.gui.LoginListener</a>.</p>
+<p>Implements <a class="el" href="interfaceannis_1_1gui_1_1LoginWindow_1_1LoginListener.html#a42859cd30de38b2a919ae7d0f598a63f">annis.gui.LoginWindow.LoginListener</a>.</p>
 
 </div>
 </div>
@@ -649,6 +642,29 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2978e5976d79e897a667a418dc98713a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.SearchUI.showLoginWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -721,7 +737,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac9db9d491f1fe55d445d2e511ee5bc09"></a>
+<a class="anchor" id="acc29102aafd3b7bc6708ea19fa414a2e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -729,27 +745,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Button annis.gui.SearchUI.btLogin</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4e15b74cb59d3235b9d39915bab37cfa"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Button annis.gui.SearchUI.btLogout</td>
+          <td class="memname">Button annis.gui.SearchUI.btLoginLogout</td>
         </tr>
       </table>
   </td>
@@ -895,26 +891,6 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">String annis.gui.SearchUI.lastQueriedFragment</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6aedfa4b8bab3f87d37a5f4252cd2058"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">HorizontalLayout annis.gui.SearchUI.layoutToolbar</td>
         </tr>
       </table>
   </td>
@@ -1097,7 +1073,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1SearchUI.html">SearchUI</a></li>
-    <li class="footer">Generated on Thu Jul 25 2013 10:39:59 for ANNIS by
+    <li class="footer">Generated on Wed Jul 31 2013 17:15:12 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

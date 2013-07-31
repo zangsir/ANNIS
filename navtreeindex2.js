@@ -1,8 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"classannis_1_1AnnisRunner.html#ae725b9774d8eb0c887e6b3696072ccd8":[2,0,0,20,28],
-"classannis_1_1AnnisRunner.html#aec9e719f146e18ec5fcd12b08b6601dc":[2,0,0,20,24],
-"classannis_1_1AnnisRunner.html#aee1b1a3cf53de5b21e1e609e8c350688":[2,0,0,20,51],
 "classannis_1_1AnnisRunner.html#aef1770619ef6db09173db062e603c85d":[2,0,0,20,80],
 "classannis_1_1AnnisRunner.html#af1e434b026b91fa571891f4ea8fba221":[2,0,0,20,73],
 "classannis_1_1AnnisRunner.html#af5d80a629941b1e3846913cc7537b79b":[2,0,0,20,34],
@@ -249,5 +246,8 @@ var NAVTREEINDEX2 =
 "classannis_1_1administration_1_1DefaultAdministrationDao.html#acf5e24b5c3233396d7885e27d74ff324":[2,0,0,0,6,20],
 "classannis_1_1administration_1_1DefaultAdministrationDao.html#acfec0f733c9ae539f00dde80abb430ee":[2,0,0,0,6,7],
 "classannis_1_1administration_1_1DefaultAdministrationDao.html#ad4c8e982801e159ce2669f4cb69b977b":[2,0,0,0,6,111],
-"classannis_1_1administration_1_1DefaultAdministrationDao.html#ad5cd98808b4f8a67d8b907aa3f9cac60":[2,0,0,0,6,51]
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#ad5cd98808b4f8a67d8b907aa3f9cac60":[2,0,0,0,6,51],
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#ad6e049263a696c1749b07f62fd7123fa":[2,0,0,0,6,6],
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#ad91eb76314f33f597350d40526403f77":[2,0,0,0,6,105],
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#ad9829a2e74de612449f682d37370027d":[2,0,0,0,6,17]
 };

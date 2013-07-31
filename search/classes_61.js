@@ -64,7 +64,6 @@ var searchData=
   ['annisuser',['AnnisUser',['../classannis_1_1libgui_1_1AnnisUser.html',1,'annis::libgui']]],
   ['annisuserconfig',['AnnisUserConfig',['../classannis_1_1security_1_1AnnisUserConfig.html',1,'annis::security']]],
   ['annisuserrealm',['ANNISUserRealm',['../classannis_1_1security_1_1ANNISUserRealm.html',1,'annis::security']]],
-  ['annisvaadinservlet',['AnnisVaadinServlet',['../classannis_1_1gui_1_1servlets_1_1AnnisVaadinServlet.html',1,'annis::gui::servlets']]],
   ['annisxmlcontexthelper',['AnnisXmlContextHelper',['../classannis_1_1AnnisXmlContextHelper.html',1,'annis']]],
   ['annotatedmatch',['AnnotatedMatch',['../classannis_1_1dao_1_1AnnotatedMatch.html',1,'annis::dao']]],
   ['annotatedmatchiterator',['AnnotatedMatchIterator',['../classannis_1_1sqlgen_1_1AnnotatedMatchIterator.html',1,'annis::sqlgen']]],

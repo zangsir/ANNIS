@@ -6,6 +6,7 @@ var classannis_1_1gui_1_1MetaDataPanel =
     [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html#ac7af1d71e350c1428c4c3eef1508c9e9", null ],
     [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html#a3f632dc82f635d5e355bbc5172095448", null ],
     [ "getAllSubcorpora", "classannis_1_1gui_1_1MetaDataPanel.html#aff378e16ac6b106f9707c30b2fe96b6f", null ],
+    [ "getMetaData", "classannis_1_1gui_1_1MetaDataPanel.html#aaae8382f928df7b6fbc23d00dd9f78c3", null ],
     [ "loadTable", "classannis_1_1gui_1_1MetaDataPanel.html#a28ba61a7c4c8ea0da6e974850d955fff", null ],
     [ "putInBeanContainer", "classannis_1_1gui_1_1MetaDataPanel.html#a343ff86c4d23c2f1a4860771df3f58bc", null ],
     [ "setupTable", "classannis_1_1gui_1_1MetaDataPanel.html#a4b91eb07b2aeed7685529bd707910f25", null ],

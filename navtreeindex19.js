@@ -1,13 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a0bd07e67b1396c790f49db4d823b6251":[2,0,0,16,2,1,0,0,4],
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a26f2503214f7481b9fea9e42e8491834":[2,0,0,16,2,1,0,0,5],
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a2df9aedd6977d0efde306d9cfdb9fa10":[2,0,0,16,2,1,0,0,10],
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a6a766d15768a3e23202a03b821a6a01b":[2,0,0,16,2,1,0,0,2],
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a7e7635aa4d56ab2962a55850105bd0f4":[2,0,0,16,2,1,0,0,12],
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a93c3c98a0c673132583755b4ef2b0c85":[2,0,0,16,2,1,0,0,7],
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a9d50e2e00d38059f29945c82558b14d6":[2,0,0,16,2,1,0,0,0],
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a9edb00b8fcf6f34802a3b5164bc5650f":[2,0,0,16,2,1,0,0,1],
 "classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a9f347bb65ea7a1ea2fae141194fbffa9":[2,0,0,16,2,1,0,0,3],
 "classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#ab5f4dfad5bf09c6eea4e21905dbac2c3":[2,0,0,16,2,1,0,0,8],
 "classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#ad43702914df09b251dc06f626b6560dc":[2,0,0,16,2,1,0,0,11],
@@ -249,5 +241,13 @@ var NAVTREEINDEX19 =
 "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame_1_1MainFrameWorker.html#ab6eacb5468c367d5529cf4653e2f714c":[2,0,2,0,0,0,0,0,5,0,2],
 "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame_1_1MainFrameWorker.html#af5a92195e08c70c0539b6f96bc6e9bd1":[2,0,2,0,0,0,0,0,5,0,1],
 "classes.html":[2,1],
-"deprecated.html":[0]
+"deprecated.html":[0],
+"dev-aql.html":[1,6],
+"dev-aql.html#dev-aql-arity":[4,14],
+"dev-aql.html#dev-aql-commonancestor":[4,13],
+"dev-aql.html#dev-aql-commonparent":[4,12],
+"dev-aql.html#dev-aql-directdom":[4,2],
+"dev-aql.html#dev-aql-directpoint":[4,8],
+"dev-aql.html#dev-aql-directprec":[4,0],
+"dev-aql.html#dev-aql-identcov":[4,3]
 };

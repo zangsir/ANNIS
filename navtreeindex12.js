@@ -1,16 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac247a4a13954f01dff9a1c8bb15ec112":[2,0,0,9,0,1,59],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac41979117ce8f7ce654b27bf7c4a729d":[2,0,0,9,0,1,15],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac808928ad75a8a7adcfdf4f18abc68dd":[2,0,0,9,0,1,18],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#acf2e2c4ff4b9a3e257d85aedbe70c405":[2,0,0,9,0,1,6],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ad33386c0b18d7429f5a5a6ffe2dc2b96":[2,0,0,9,0,1,34],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ad42bbdebf25d0464044a0709bda36af2":[2,0,0,9,0,1,3],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ad966f1c976fe93f3933c1a731a5aa22a":[2,0,0,9,0,1,2],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ae203038114a8ee3aaa923efbeca302f5":[2,0,0,9,0,1,58],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#af19051bd66db43261be79a5937b00a26":[2,0,0,9,0,1,54],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#afedcea133dce6c606778af593dc88351":[2,0,0,9,0,1,44],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#afeebd847eb3c181d73fae00b80581b63":[2,0,0,9,0,1,24],
 "classannis_1_1ql_1_1parser_1_1DnfNodeRelNumberUpdater.html":[2,0,0,9,0,2],
 "classannis_1_1ql_1_1parser_1_1DnfNodeRelNumberUpdater.html#a3b5e52550cd4d576a87abed41aa3505c":[2,0,0,9,0,2,3],
 "classannis_1_1ql_1_1parser_1_1DnfNodeRelNumberUpdater.html#a550f6f8604f8c111c842c06386a79769":[2,0,0,9,0,2,0],
@@ -249,5 +238,16 @@ var NAVTREEINDEX12 =
 "classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a0c70516178a7868f8b57246de19ec4f9":[2,0,0,13,1,1,14],
 "classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a1693c5eb0eb087a41522e084f8fbbd68":[2,0,0,13,1,1,6],
 "classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a21fba1b5705f8733f2e2678604c77af3":[2,0,0,13,1,1,8],
-"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a2623ccbf2eeb8c030bda4ce4bf407ba0":[2,0,0,13,1,1,1]
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a2623ccbf2eeb8c030bda4ce4bf407ba0":[2,0,0,13,1,1,1],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a441e41c0cdce308c1144ca15ac75deeb":[2,0,0,13,1,1,0],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a4c51034db60e777eb58d43b9dc57b44b":[2,0,0,13,1,1,3],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a4f34179b355b90fcfd9bdef4bc1f2404":[2,0,0,13,1,1,10],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a5b6450f6a1f574a950e1ff15076541b0":[2,0,0,13,1,1,11],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a7e665669b91d86558637874fad078868":[2,0,0,13,1,1,13],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#aa2a3f39203765c620d55e001d9875217":[2,0,0,13,1,1,12],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#aa5b4cfcbec7602d8446d1da17533aaf5":[2,0,0,13,1,1,2],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#acc6831ce33f6f579d031cec914802f17":[2,0,0,13,1,1,7],
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#ae46645b1c2cd4f34bb56a8c103deab18":[2,0,0,13,1,1,9],
+"classannis_1_1service_1_1internal_1_1QueryServiceImpl.html":[2,0,0,13,1,2],
+"classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a07c59fbb4aa3b9b1cf7e9ac79953d930":[2,0,0,13,1,2,35]
 };

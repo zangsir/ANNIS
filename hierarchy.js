@@ -72,6 +72,7 @@ var hierarchy =
       [ "annis.gui.flatquerybuilder.SpanBox", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html", null ],
       [ "annis.gui.flatquerybuilder.VerticalNode", "classannis_1_1gui_1_1flatquerybuilder_1_1VerticalNode.html", null ],
       [ "annis.gui.HelpUsWindow.OkClickListener", "classannis_1_1gui_1_1HelpUsWindow_1_1OkClickListener.html", null ],
+      [ "annis.gui.LoginWindow", "classannis_1_1gui_1_1LoginWindow.html", null ],
       [ "annis.gui.paging.PagingComponent", "classannis_1_1gui_1_1paging_1_1PagingComponent.html", null ],
       [ "annis.gui.querybuilder.EdgeWindow", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html", null ],
       [ "annis.gui.querybuilder.NodeWindow", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html", null ],
@@ -199,7 +200,7 @@ var hierarchy =
         [ "annis.gui.widgets.VideoPlayer", "classannis_1_1gui_1_1widgets_1_1VideoPlayer.html", null ]
       ] ]
     ] ],
-    [ "annis.gui.LoginListener", "interfaceannis_1_1gui_1_1LoginListener.html", [
+    [ "annis.gui.LoginWindow.LoginListener", "interfaceannis_1_1gui_1_1LoginWindow_1_1LoginListener.html", [
       [ "annis.gui.SearchUI", "classannis_1_1gui_1_1SearchUI.html", null ]
     ] ],
     [ "annis.libgui.MatchedNodeColors", "enumannis_1_1libgui_1_1MatchedNodeColors.html", null ],
@@ -416,7 +417,9 @@ var hierarchy =
     [ "AbstractVisualizer", null, [
       [ "annis.libgui.visualizers.AbstractIFrameVisualizer", "classannis_1_1libgui_1_1visualizers_1_1AbstractIFrameVisualizer.html", [
         [ "annis.visualizers.iframe.WriterVisualizer", "classannis_1_1visualizers_1_1iframe_1_1WriterVisualizer.html", [
-          [ "annis.visualizers.iframe.CorefVisualizer", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html", null ],
+          [ "annis.visualizers.iframe.CorefVisualizer", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html", [
+            [ "annis.visualizers.iframe.MatchCorefVisualizer", "classannis_1_1visualizers_1_1iframe_1_1MatchCorefVisualizer.html", null ]
+          ] ],
           [ "annis.visualizers.iframe.dependency.VakyarthaDependencyTree", "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html", null ],
           [ "annis.visualizers.iframe.gridtree.GridTreeVisualizer", "classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer.html", null ],
           [ "annis.visualizers.iframe.partitur.PartiturVisualizer", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturVisualizer.html", null ]
@@ -575,7 +578,6 @@ var hierarchy =
     [ "HttpServlet", null, [
       [ "annis.gui.servlets.BinaryServlet", "classannis_1_1gui_1_1servlets_1_1BinaryServlet.html", null ],
       [ "annis.gui.servlets.CitationRedirectionServlet", "classannis_1_1gui_1_1servlets_1_1CitationRedirectionServlet.html", null ],
-      [ "annis.gui.servlets.LoginServlet", "classannis_1_1gui_1_1servlets_1_1LoginServlet.html", null ],
       [ "annis.gui.servlets.ResourceServlet", "classannis_1_1gui_1_1servlets_1_1ResourceServlet.html", null ]
     ] ],
     [ "Iterator", null, [
@@ -589,8 +591,7 @@ var hierarchy =
       [ "annis.gui.components.VirtualKeyboard.VKState", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1VKState.html", null ]
     ] ],
     [ "JavaScriptFunction", null, [
-      [ "annis.gui.components.VirtualKeyboard.UpdateLangJSFunction", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction.html", null ],
-      [ "annis.gui.SearchUI.LoginCloseCallback", "classannis_1_1gui_1_1SearchUI_1_1LoginCloseCallback.html", null ]
+      [ "annis.gui.components.VirtualKeyboard.UpdateLangJSFunction", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction.html", null ]
     ] ],
     [ "JavaScriptObject", null, [
       [ "annis.gui.widgets.gwt.client.ui.JITVisualization", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1JITVisualization.html", null ]
@@ -706,10 +707,6 @@ var hierarchy =
     [ "QueryBuilderPlugin", null, [
       [ "annis.gui.flatquerybuilder.FlatQueryBuilderPlugin", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilderPlugin.html", null ],
       [ "annis.gui.querybuilder.TigerQueryBuilderPlugin", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin.html", null ]
-    ] ],
-    [ "RequestHandler", null, [
-      [ "annis.gui.ResourceRequestHandler", "classannis_1_1gui_1_1ResourceRequestHandler.html", null ],
-      [ "annis.gui.SearchUI.CitationRequestHandler", "classannis_1_1gui_1_1SearchUI_1_1CitationRequestHandler.html", null ]
     ] ],
     [ "ResultSetExtractor", null, [
       [ "annis.dao.ResolverDaoHelper", "classannis_1_1dao_1_1ResolverDaoHelper.html", null ],
@@ -884,9 +881,6 @@ var hierarchy =
     [ "UI", null, [
       [ "annis.libgui.AnnisBaseUI", "classannis_1_1libgui_1_1AnnisBaseUI.html", null ]
     ] ],
-    [ "VaadinServlet", null, [
-      [ "annis.gui.servlets.AnnisVaadinServlet", "classannis_1_1gui_1_1servlets_1_1AnnisVaadinServlet.html", null ]
-    ] ],
     [ "ValueChangeListener", null, [
       [ "annis.gui.controlpanel.CorpusListPanel.CorpusTableChangedListener", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener.html", null ],
       [ "annis.gui.controlpanel.QueryPanel", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html", null ],
@@ -916,6 +910,7 @@ var hierarchy =
       [ "annis.gui.AboutWindow", "classannis_1_1gui_1_1AboutWindow.html", null ],
       [ "annis.gui.CitationWindow", "classannis_1_1gui_1_1CitationWindow.html", null ],
       [ "annis.gui.HelpUsWindow", "classannis_1_1gui_1_1HelpUsWindow.html", null ],
+      [ "annis.gui.LoginWindow", "classannis_1_1gui_1_1LoginWindow.html", null ],
       [ "annis.gui.ReportBugWindow", "classannis_1_1gui_1_1ReportBugWindow.html", null ]
     ] ]
 ];

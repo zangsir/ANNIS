@@ -1,16 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classannis_1_1model_1_1Edge.html#ae518a9494d5c91cc673b4233b428f210":[2,0,0,7,5,14],
-"classannis_1_1model_1_1Edge.html#af3710d58c81a2b4744db4569b43d0933":[2,0,0,7,5,2],
-"classannis_1_1model_1_1Edge.html#af5e90c25b77aa0ee0bf79e37a203299c":[2,0,0,7,5,5],
-"classannis_1_1model_1_1QueryAnnotation.html":[2,0,0,7,6],
-"classannis_1_1model_1_1QueryAnnotation.html#a018f0325b17e3f2cf8e9fb89ee616d7d":[2,0,0,7,6,23],
-"classannis_1_1model_1_1QueryAnnotation.html#a2ab2667344b89d75528dc0f3c8f72440":[2,0,0,7,6,1],
-"classannis_1_1model_1_1QueryAnnotation.html#a311263646cce42de8fb767a613c59936":[2,0,0,7,6,14],
-"classannis_1_1model_1_1QueryAnnotation.html#a3456a30c99197d182aa576f9ba4aa1f3":[2,0,0,7,6,0],
-"classannis_1_1model_1_1QueryAnnotation.html#a389f1de09d1f838af846c8462cb3a255":[2,0,0,7,6,13],
-"classannis_1_1model_1_1QueryAnnotation.html#a3c6ba698c928a74fe9b2345e5da85ae2":[2,0,0,7,6,17],
-"classannis_1_1model_1_1QueryAnnotation.html#a4775bc49d92b9595530508a63e7848fd":[2,0,0,7,6,2],
 "classannis_1_1model_1_1QueryAnnotation.html#a65b2f038deae3dec0edf32610549c05a":[2,0,0,7,6,19],
 "classannis_1_1model_1_1QueryAnnotation.html#a84100ce62a8f9216be9989c7d7470fe3":[2,0,0,7,6,15],
 "classannis_1_1model_1_1QueryAnnotation.html#a8965ea824a3d20b8a9f24ef79d6e4693":[2,0,0,7,6,7],
@@ -249,5 +238,16 @@ var NAVTREEINDEX11 =
 "classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#abfe558a393cd040f203570a69f8f32e3":[2,0,0,9,0,1,21],
 "classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac05fbba24c59fbf9280f46a925fc5d3a":[2,0,0,9,0,1,26],
 "classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac156b6317292832dfcfccb8e123ba22e":[2,0,0,9,0,1,28],
-"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac1fc4c295310e7065823ab774740eb01":[2,0,0,9,0,1,41]
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac1fc4c295310e7065823ab774740eb01":[2,0,0,9,0,1,41],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac247a4a13954f01dff9a1c8bb15ec112":[2,0,0,9,0,1,59],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac41979117ce8f7ce654b27bf7c4a729d":[2,0,0,9,0,1,15],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ac808928ad75a8a7adcfdf4f18abc68dd":[2,0,0,9,0,1,18],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#acf2e2c4ff4b9a3e257d85aedbe70c405":[2,0,0,9,0,1,6],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ad33386c0b18d7429f5a5a6ffe2dc2b96":[2,0,0,9,0,1,34],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ad42bbdebf25d0464044a0709bda36af2":[2,0,0,9,0,1,3],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ad966f1c976fe93f3933c1a731a5aa22a":[2,0,0,9,0,1,2],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#ae203038114a8ee3aaa923efbeca302f5":[2,0,0,9,0,1,58],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#af19051bd66db43261be79a5937b00a26":[2,0,0,9,0,1,54],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#afedcea133dce6c606778af593dc88351":[2,0,0,9,0,1,44],
+"classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html#afeebd847eb3c181d73fae00b80581b63":[2,0,0,9,0,1,24]
 };

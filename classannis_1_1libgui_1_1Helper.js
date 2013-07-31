@@ -15,7 +15,6 @@ var classannis_1_1libgui_1_1Helper =
     [ "getCorpusConfigs", "classannis_1_1libgui_1_1Helper.html#abb39a2b93ed6bea2d9c99d810d71d1ac", null ],
     [ "getCorpusConfigs", "classannis_1_1libgui_1_1Helper.html#a18e4c01ddb060a18454b817ab7d6da72", null ],
     [ "getDefaultCorpusConfig", "classannis_1_1libgui_1_1Helper.html#af106707e7fb61c96f17ed586df194e02", null ],
-    [ "getMetaData", "classannis_1_1libgui_1_1Helper.html#a9d8a5f04616861a98c78e005d99af303", null ],
     [ "getUser", "classannis_1_1libgui_1_1Helper.html#af04beee2996e15d347f1c00ce1983075", null ],
     [ "parseFragment", "classannis_1_1libgui_1_1Helper.html#aa44e6283c4e87a2ec31131b4f50d9f69", null ],
     [ "setUser", "classannis_1_1libgui_1_1Helper.html#a4c319908039a958c4e25a4f68f38897c", null ],

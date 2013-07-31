@@ -8,7 +8,6 @@ var searchData=
   ['citationlinkgenerator',['CitationLinkGenerator',['../classannis_1_1gui_1_1CitationLinkGenerator.html',1,'annis::gui']]],
   ['citationprovider',['CitationProvider',['../interfaceannis_1_1gui_1_1beans_1_1CitationProvider.html',1,'annis::gui::beans']]],
   ['citationredirectionservlet',['CitationRedirectionServlet',['../classannis_1_1gui_1_1servlets_1_1CitationRedirectionServlet.html',1,'annis::gui::servlets']]],
-  ['citationrequesthandler',['CitationRequestHandler',['../classannis_1_1gui_1_1SearchUI_1_1CitationRequestHandler.html',1,'annis::gui::SearchUI']]],
   ['citationwindow',['CitationWindow',['../classannis_1_1gui_1_1CitationWindow.html',1,'annis::gui']]],
   ['clauseanalysis',['ClauseAnalysis',['../classannis_1_1ql_1_1parser_1_1ClauseAnalysis.html',1,'annis::ql::parser']]],
   ['commonancestor',['CommonAncestor',['../classannis_1_1sqlgen_1_1model_1_1CommonAncestor.html',1,'annis::sqlgen::model']]],
