@@ -1,7 +1,6 @@
 var namespaceannis_1_1sqlgen_1_1model =
 [
     [ "CommonAncestor", "classannis_1_1sqlgen_1_1model_1_1CommonAncestor.html", "classannis_1_1sqlgen_1_1model_1_1CommonAncestor" ],
-    [ "DirectDominance", "classannis_1_1sqlgen_1_1model_1_1DirectDominance.html", "classannis_1_1sqlgen_1_1model_1_1DirectDominance" ],
     [ "Dominance", "classannis_1_1sqlgen_1_1model_1_1Dominance.html", "classannis_1_1sqlgen_1_1model_1_1Dominance" ],
     [ "Identical", "classannis_1_1sqlgen_1_1model_1_1Identical.html", "classannis_1_1sqlgen_1_1model_1_1Identical" ],
     [ "Inclusion", "classannis_1_1sqlgen_1_1model_1_1Inclusion.html", "classannis_1_1sqlgen_1_1model_1_1Inclusion" ],

@@ -10,10 +10,10 @@ var searchData=
   ['scriptfilesqlsessionmodifier_2ejava',['ScriptFileSqlSessionModifier.java',['../ScriptFileSqlSessionModifier_8java.html',1,'']]],
   ['search_2ejava',['Search.java',['../Search_8java.html',1,'']]],
   ['searchbox_2ejava',['SearchBox.java',['../SearchBox_8java.html',1,'']]],
-  ['searchexpressioncounter_2ejava',['SearchExpressionCounter.java',['../SearchExpressionCounter_8java.html',1,'']]],
   ['searchoptionspanel_2ejava',['SearchOptionsPanel.java',['../SearchOptionsPanel_8java.html',1,'']]],
   ['searchui_2ejava',['SearchUI.java',['../SearchUI_8java.html',1,'']]],
   ['selectclausesqlgenerator_2ejava',['SelectClauseSqlGenerator.java',['../SelectClauseSqlGenerator_8java.html',1,'']]],
+  ['semanticvalidator_2ejava',['SemanticValidator.java',['../SemanticValidator_8java.html',1,'']]],
   ['sensitivecombobox_2ejava',['SensitiveComboBox.java',['../SensitiveComboBox_8java.html',1,'']]],
   ['sfadministrationdao_2ejava',['SfAdministrationDao.java',['../SfAdministrationDao_8java.html',1,'']]],
   ['shape_2ejava',['Shape.java',['../Shape_8java.html',1,'']]],
@@ -36,6 +36,5 @@ var searchData=
   ['subcorpusconstraintwhereclause_2ejava',['SubcorpusConstraintWhereClause.java',['../SubcorpusConstraintWhereClause_8java.html',1,'']]],
   ['subgraphfilter_2ejava',['SubgraphFilter.java',['../SubgraphFilter_8java.html',1,'']]],
   ['subgraphquery_2ejava',['SubgraphQuery.java',['../SubgraphQuery_8java.html',1,'']]],
-  ['subquerycorpusselectionstrategy_2ejava',['SubQueryCorpusSelectionStrategy.java',['../SubQueryCorpusSelectionStrategy_8java.html',1,'']]],
-  ['unknownexpressionexception_2ejava',['UnknownExpressionException.java',['../sqlgen_2UnknownExpressionException_8java.html',1,'']]]
+  ['subquerycorpusselectionstrategy_2ejava',['SubQueryCorpusSelectionStrategy.java',['../SubQueryCorpusSelectionStrategy_8java.html',1,'']]]
 ];

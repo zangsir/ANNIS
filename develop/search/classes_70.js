@@ -16,7 +16,6 @@ var searchData=
   ['pdfviewer',['PDFViewer',['../interfaceannis_1_1libgui_1_1media_1_1PDFViewer.html',1,'annis::libgui::media']]],
   ['pdfviewerimpl',['PDFViewerImpl',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html',1,'annis::visualizers::component::pdf::PDFVisualizer']]],
   ['pdfvisualizer',['PDFVisualizer',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer.html',1,'annis::visualizers::component::pdf']]],
-  ['playeraction',['PlayerAction',['../enumannis_1_1gui_1_1widgets_1_1MediaPlayerBase_1_1PlayerAction.html',1,'annis::gui::widgets::MediaPlayerBase']]],
   ['pluginsystem',['PluginSystem',['../interfaceannis_1_1libgui_1_1PluginSystem.html',1,'annis::libgui']]],
   ['pointingrelation',['PointingRelation',['../classannis_1_1sqlgen_1_1model_1_1PointingRelation.html',1,'annis::sqlgen::model']]],
   ['position',['Position',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid_1_1Position.html',1,'annis::gui::widgets::gwt::client::ui::VAnnotationGrid']]],

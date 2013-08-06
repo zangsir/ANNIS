@@ -10,6 +10,7 @@ var classannis_1_1sqlgen_1_1model_1_1Precedence =
     [ "getSegmentationName", "classannis_1_1sqlgen_1_1model_1_1Precedence.html#a151e192ec4dfc204ecd0b34352515309", null ],
     [ "hashCode", "classannis_1_1sqlgen_1_1model_1_1Precedence.html#ae4a4862c246a80f4c28bea191fc32e14", null ],
     [ "setSegmentationName", "classannis_1_1sqlgen_1_1model_1_1Precedence.html#a866af45f0b81fb67cfca58698e12fc9c", null ],
+    [ "toAqlOperator", "classannis_1_1sqlgen_1_1model_1_1Precedence.html#a26cf2a31165c3bd3ee3687792003dfcb", null ],
     [ "toString", "classannis_1_1sqlgen_1_1model_1_1Precedence.html#a122f8c4803dd14da98249951eda6a6a9", null ],
     [ "segmentationName", "classannis_1_1sqlgen_1_1model_1_1Precedence.html#a54301e92b735b1c6e2022cac72bc32e2", null ]
 ];

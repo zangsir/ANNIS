@@ -8,9 +8,7 @@ var searchData=
   ['defaultwhereclausegenerator_2ejava',['DefaultWhereClauseGenerator.java',['../DefaultWhereClauseGenerator_8java.html',1,'']]],
   ['detectholes_2ejava',['DetectHoles.java',['../DetectHoles_8java.html',1,'']]],
   ['dev_2emd',['dev.md',['../dev_8md.html',1,'']]],
-  ['directdominance_2ejava',['DirectDominance.java',['../DirectDominance_8java.html',1,'']]],
-  ['dnfnoderelnumberupdater_2ejava',['DnfNodeRelNumberUpdater.java',['../DnfNodeRelNumberUpdater_8java.html',1,'']]],
-  ['dnftransformer_2ejava',['DnfTransformer.java',['../DnfTransformer_8java.html',1,'']]],
+  ['dnftransformer_2ejava',['DNFTransformer.java',['../DNFTransformer_8java.html',1,'']]],
   ['documentnamemaprow_2ejava',['DocumentNameMapRow.java',['../DocumentNameMapRow_8java.html',1,'']]],
   ['dominance_2ejava',['Dominance.java',['../Dominance_8java.html',1,'']]],
   ['dotgraphvisualizer_2ejava',['DotGraphVisualizer.java',['../DotGraphVisualizer_8java.html',1,'']]]

@@ -19,6 +19,8 @@ var classannis_1_1ql_1_1parser_1_1QueryData =
     [ "setDocuments", "classannis_1_1ql_1_1parser_1_1QueryData.html#a41f5c0f866d7d5d59b4dc5302f9e049f", null ],
     [ "setMaxWidth", "classannis_1_1ql_1_1parser_1_1QueryData.html#af13aff06eae2ec588c585054bb3fcc5b", null ],
     [ "setMetaData", "classannis_1_1ql_1_1parser_1_1QueryData.html#a93f7e94077bf131a416fa1d13b385034", null ],
+    [ "toAQL", "classannis_1_1ql_1_1parser_1_1QueryData.html#a7f6f2c997a7dbac77d03ab2ecc5e5d97", null ],
+    [ "toAQL", "classannis_1_1ql_1_1parser_1_1QueryData.html#a32c9ac545ffa4325b66cf363386e9e03", null ],
     [ "toString", "classannis_1_1ql_1_1parser_1_1QueryData.html#adcbbb104cd079ef45d80f75928746b93", null ],
     [ "alternatives", "classannis_1_1ql_1_1parser_1_1QueryData.html#a5481a363e25e779b46472865a54842b7", null ],
     [ "corpusConfiguration", "classannis_1_1ql_1_1parser_1_1QueryData.html#ac534f5a23acf42a861818f285bc280ca", null ],

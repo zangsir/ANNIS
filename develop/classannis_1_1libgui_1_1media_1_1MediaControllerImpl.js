@@ -6,7 +6,6 @@ var classannis_1_1libgui_1_1media_1_1MediaControllerImpl =
     [ "clearMediaPlayers", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#af90307881e9caf41e25e1c35419e6eef", null ],
     [ "closeOtherPlayers", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#af41b0845dad508cc4da3d6acb1f97d0c", null ],
     [ "getPlayerForResult", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#ab7fc115945d0bf6972b30d49f5ee1748", null ],
-    [ "pauseAll", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#a37189137f687a12031038229b49a8a42", null ],
     [ "play", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#a71eb63305772eb0e54c50f11ec204a13", null ],
     [ "play", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#aa14dee72664165cea586b6ca89fe61bb", null ],
     [ "lastUsedPlayer", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#ae8d3085ff21545bb46050551ff57779a", null ],

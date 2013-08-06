@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.1.0-SNAPSHOT</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -132,6 +132,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enumannis_1_1model_1_1QueryNode_1_1TextMatching.html">TextMatching</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enumannis_1_1model_1_1QueryNode_1_1Type.html">Type</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -139,6 +141,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abeb778c90b38fad83547d1d5229a661a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a017f789517c4f32252aac4e8cc41e911"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a017f789517c4f32252aac4e8cc41e911">QueryNode</a> (long <a class="el" href="classannis_1_1model_1_1QueryNode.html#aba9c68b91752cb0d0a6e571281c90c0d">id</a>)</td></tr>
 <tr class="separator:a017f789517c4f32252aac4e8cc41e911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ca7495842aaf10ecfe8b2680d826d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a83ca7495842aaf10ecfe8b2680d826d0">QueryNode</a> (<a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> other)</td></tr>
+<tr class="memdesc:a83ca7495842aaf10ecfe8b2680d826d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a83ca7495842aaf10ecfe8b2680d826d0">More...</a><br/></td></tr>
+<tr class="separator:a83ca7495842aaf10ecfe8b2680d826d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53b55d8c76f2905eb9512c3b621816aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a53b55d8c76f2905eb9512c3b621816aa">QueryNode</a> (long newId, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> other)</td></tr>
+<tr class="memdesc:a53b55d8c76f2905eb9512c3b621816aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor that allows to change the ID.  <a href="#a53b55d8c76f2905eb9512c3b621816aa">More...</a><br/></td></tr>
+<tr class="separator:a53b55d8c76f2905eb9512c3b621816aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a919237156ed5782421b7d7116f0f9251"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a919237156ed5782421b7d7116f0f9251">QueryNode</a> (long <a class="el" href="classannis_1_1model_1_1QueryNode.html#aba9c68b91752cb0d0a6e571281c90c0d">id</a>, long corpusRef, long textRef, long <a class="el" href="classannis_1_1model_1_1QueryNode.html#a61b81da72ae9d84e47bd67ecd0607f45">left</a>, long <a class="el" href="classannis_1_1model_1_1QueryNode.html#a0d5b8aa3ceb962d4d91880f7aa4af085">right</a>, String namespace, String <a class="el" href="classannis_1_1model_1_1QueryNode.html#ac35909575820f51d83212d94895c2b0f">name</a>, long <a class="el" href="classannis_1_1model_1_1QueryNode.html#aea09b7b34fafbd69a7c2417c62c391b5">tokenIndex</a>, String span, long <a class="el" href="classannis_1_1model_1_1QueryNode.html#a61ed8070573822458d0fc1169b20fd9c">leftToken</a>, long <a class="el" href="classannis_1_1model_1_1QueryNode.html#a7cc23136925e79390fb8966c4a757a6e">rightToken</a>)</td></tr>
 <tr class="separator:a919237156ed5782421b7d7116f0f9251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba58de19a4303b9088973f760c05374a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#aba58de19a4303b9088973f760c05374a">setSpannedText</a> (String span)</td></tr>
@@ -149,6 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab8708478c97531849e7ddab77a9921d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d05aed44132364700da75c20ed11ea6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a3d05aed44132364700da75c20ed11ea6">toString</a> ()</td></tr>
 <tr class="separator:a3d05aed44132364700da75c20ed11ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35fd74ac26ebac6c533b1b35b5e6dc07"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a35fd74ac26ebac6c533b1b35b5e6dc07">toAQLNodeFragment</a> ()</td></tr>
+<tr class="separator:a35fd74ac26ebac6c533b1b35b5e6dc07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e091aac1c7081b2a531a7af94d60316"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a0e091aac1c7081b2a531a7af94d60316">toAQLEdgeFragment</a> ()</td></tr>
+<tr class="separator:a0e091aac1c7081b2a531a7af94d60316"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade543eb0036ae8274e642da228d50860"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#ade543eb0036ae8274e642da228d50860">addEdgeAnnotation</a> (<a class="el" href="classannis_1_1model_1_1QueryAnnotation.html">QueryAnnotation</a> annotation)</td></tr>
 <tr class="separator:ade543eb0036ae8274e642da228d50860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9762ee7950c43631e7521ce5b8a0b2a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#ae9762ee7950c43631e7521ce5b8a0b2a">addNodeAnnotation</a> (<a class="el" href="classannis_1_1model_1_1QueryAnnotation.html">QueryAnnotation</a> annotation)</td></tr>
@@ -169,10 +181,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a31ae08e137b2da079e9928f297ed02b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8b14248b748f76a36f78693510489f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#af8b14248b748f76a36f78693510489f9">setRoot</a> (boolean <a class="el" href="classannis_1_1model_1_1QueryNode.html#a1c71358ef8f76b743497814c2d0b05a5">root</a>)</td></tr>
 <tr class="separator:af8b14248b748f76a36f78693510489f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270d96264de8f0dba37f88e56cfa2bcd"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a270d96264de8f0dba37f88e56cfa2bcd">getMarker</a> ()</td></tr>
-<tr class="separator:a270d96264de8f0dba37f88e56cfa2bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8465d54a0ac1650c1fc146c7cd45f2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#ae8465d54a0ac1650c1fc146c7cd45f2a">setMarker</a> (String <a class="el" href="classannis_1_1model_1_1QueryNode.html#a11b78053602dfa8aee610bc22892555f">marker</a>)</td></tr>
-<tr class="separator:ae8465d54a0ac1650c1fc146c7cd45f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed0f6f8f6a0565062794567b41f67d80"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#aed0f6f8f6a0565062794567b41f67d80">getName</a> ()</td></tr>
 <tr class="separator:aed0f6f8f6a0565062794567b41f67d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12fceb51c86764bd0626fa1a7d9325f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a12fceb51c86764bd0626fa1a7d9325f2">setName</a> (String <a class="el" href="classannis_1_1model_1_1QueryNode.html#ac35909575820f51d83212d94895c2b0f">name</a>)</td></tr>
@@ -293,8 +301,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aed3c4cb3cc4f434e053dea5ba43ba2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaff136533fd3bc4456ccdb278d428cd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1model_1_1QueryNode_1_1Range.html">Range</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#aaff136533fd3bc4456ccdb278d428cd5">tokenArity</a></td></tr>
 <tr class="separator:aaff136533fd3bc4456ccdb278d428cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11b78053602dfa8aee610bc22892555f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a11b78053602dfa8aee610bc22892555f">marker</a></td></tr>
-<tr class="separator:a11b78053602dfa8aee610bc22892555f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98f312f9020bd7c07061a42000371411"><td class="memItemLeft" align="right" valign="top">Long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1model_1_1QueryNode.html#a98f312f9020bd7c07061a42000371411">matchedNodeInQuery</a></td></tr>
 <tr class="separator:a98f312f9020bd7c07061a42000371411"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -327,6 +333,65 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a83ca7495842aaf10ecfe8b2680d826d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">annis.model.QueryNode.QueryNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a53b55d8c76f2905eb9512c3b621816aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">annis.model.QueryNode.QueryNode </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>newId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>&#160;</td>
+          <td class="paramname"><em>other</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy constructor that allows to change the ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newId</td><td></td></tr>
+    <tr><td class="paramname">other</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -586,21 +651,6 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">long annis.model.QueryNode.getLeftToken </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a270d96264de8f0dba37f88e56cfa2bcd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String annis.model.QueryNode.getMarker </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -979,22 +1029,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae8465d54a0ac1650c1fc146c7cd45f2a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void annis.model.QueryNode.setMarker </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>marker</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="acfd405f9f99ce8e6719385708fa9a368"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1245,6 +1279,36 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0e091aac1c7081b2a531a7af94d60316"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.model.QueryNode.toAQLEdgeFragment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a35fd74ac26ebac6c533b1b35b5e6dc07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.model.QueryNode.toAQLNodeFragment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a3d05aed44132364700da75c20ed11ea6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1390,26 +1454,6 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">long annis.model.QueryNode.leftToken</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a11b78053602dfa8aee610bc22892555f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">String annis.model.QueryNode.marker</td>
         </tr>
       </table>
   </td>
@@ -1710,7 +1754,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1model.html">model</a></li><li class="navelem"><a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a></li>
-    <li class="footer">Generated on Fri Jul 19 2013 12:48:31 for ANNIS by
+    <li class="footer">Generated on Tue Aug 6 2013 11:37:47 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

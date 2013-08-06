@@ -23,6 +23,6 @@ var classannis_1_1gui_1_1controlpanel_1_1QueryPanel =
     [ "lstHistory", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#ad4758237500fb7e6a25834ed8e110947", null ],
     [ "MAX_HISTORY_MENU_ITEMS", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a33d61eab2fbf78fe8b701188bfda069e", null ],
     [ "NAME", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#aa0de3f0433fa545514ab90a421915b78", null ],
-    [ "piCount", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#afbf2909a5b51702763726e11e093707a", null ],
+    [ "piCount", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#acea8815bc1dd905d39b1dd2632698bd0", null ],
     [ "txtQuery", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#aa41e36e2cff701707f456b635a5745c0", null ]
 ];

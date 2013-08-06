@@ -19,6 +19,7 @@ var searchData=
   ['examplequeryexecuter',['ExampleQueryExecuter',['../classannis_1_1gui_1_1ExampleQueriesPanel_1_1ExampleQueryExecuter.html',1,'annis::gui::ExampleQueriesPanel']]],
   ['examplesorter',['ExampleSorter',['../classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleSorter.html',1,'annis::gui::CorpusBrowserPanel']]],
   ['exampletable',['ExampleTable',['../classannis_1_1gui_1_1CorpusBrowserPanel_1_1ExampleTable.html',1,'annis::gui::CorpusBrowserPanel']]],
+  ['exceptiondialog',['ExceptionDialog',['../classannis_1_1gui_1_1components_1_1ExceptionDialog.html',1,'annis::gui::components']]],
   ['exceptiondialog',['ExceptionDialog',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ExceptionDialog.html',1,'de::hu_berlin::german::korpling::annis::kickstarter']]],
   ['explainsqlgenerator',['ExplainSqlGenerator',['../classannis_1_1dao_1_1SpringAnnisDao_1_1ExplainSqlGenerator.html',1,'annis::dao::SpringAnnisDao']]],
   ['exporter',['Exporter',['../interfaceannis_1_1gui_1_1exporter_1_1Exporter.html',1,'annis::gui::exporter']]],

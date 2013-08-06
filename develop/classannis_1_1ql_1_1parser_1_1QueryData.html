@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.1.0-SNAPSHOT</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('classannis_1_1ql_1_1parser_1_1QueryDat
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pac-methods">Package Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
@@ -132,6 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a09913ee9987a34053978a07f994c93f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcbbb104cd079ef45d80f75928746b93"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#adcbbb104cd079ef45d80f75928746b93">toString</a> ()</td></tr>
 <tr class="separator:adcbbb104cd079ef45d80f75928746b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c9ac545ffa4325b66cf363386e9e03"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a32c9ac545ffa4325b66cf363386e9e03">toAQL</a> ()</td></tr>
+<tr class="memdesc:a32c9ac545ffa4325b66cf363386e9e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs this normalized query data as an equivalent AQL query.  <a href="#a32c9ac545ffa4325b66cf363386e9e03">More...</a><br/></td></tr>
+<tr class="separator:a32c9ac545ffa4325b66cf363386e9e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc26e89ba5a185f161c3c521b53f14bb"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#acc26e89ba5a185f161c3c521b53f14bb">getAlternatives</a> ()</td></tr>
 <tr class="separator:acc26e89ba5a185f161c3c521b53f14bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a363628c87cd1688dd1a14bce040fd531"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a363628c87cd1688dd1a14bce040fd531">setAlternatives</a> (List&lt; List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt;&gt; <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a5481a363e25e779b46472865a54842b7">alternatives</a>)</td></tr>
@@ -167,6 +171,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abbb42616489539f3d6717042789c4ee0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#abbb42616489539f3d6717042789c4ee0">setCorpusConfiguration</a> (HashMap&lt; Long, Properties &gt; <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#ac534f5a23acf42a861818f285bc280ca">corpusConfiguration</a>)</td></tr>
 <tr class="separator:abbb42616489539f3d6717042789c4ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7f6f2c997a7dbac77d03ab2ecc5e5d97"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a7f6f2c997a7dbac77d03ab2ecc5e5d97">toAQL</a> (List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; alternative)</td></tr>
+<tr class="memdesc:a7f6f2c997a7dbac77d03ab2ecc5e5d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs this alternative as an equivalent AQL query.  <a href="#a7f6f2c997a7dbac77d03ab2ecc5e5d97">More...</a><br/></td></tr>
+<tr class="separator:a7f6f2c997a7dbac77d03ab2ecc5e5d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-methods"></a>
 Package Functions</h2></td></tr>
 <tr class="memitem:ac4ffdd3820a9aed941fd10b4bf03d4a4"><td class="memItemLeft" align="right" valign="top">public&lt; T &gt; List&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#ac4ffdd3820a9aed941fd10b4bf03d4a4">getExtensions</a> (Class&lt; T &gt; clazz)</td></tr>
@@ -191,7 +201,7 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a29be44796014bd74f4b9ed922470062e"><td class="memItemLeft" align="right" valign="top">static final org.slf4j.Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a29be44796014bd74f4b9ed922470062e">log</a> = LoggerFactory.getLogger(QueryData.class)</td></tr>
+<tr class="memitem:a29be44796014bd74f4b9ed922470062e"><td class="memItemLeft" align="right" valign="top">static final org.slf4j.Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a29be44796014bd74f4b9ed922470062e">log</a></td></tr>
 <tr class="separator:a29be44796014bd74f4b9ed922470062e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -499,6 +509,57 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a7f6f2c997a7dbac77d03ab2ecc5e5d97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String annis.ql.parser.QueryData.toAQL </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt;&#160;</td>
+          <td class="paramname"><em>alternative</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Outputs this alternative as an equivalent AQL query. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">alternative</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a32c9ac545ffa4325b66cf363386e9e03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.ql.parser.QueryData.toAQL </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Outputs this normalized query data as an equivalent AQL query. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="adcbbb104cd079ef45d80f75928746b93"></a>
 <div class="memitem">
 <div class="memproto">
@@ -623,7 +684,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final org.slf4j.Logger annis.ql.parser.QueryData.log = LoggerFactory.getLogger(QueryData.class)</td>
+          <td class="memname">final org.slf4j.Logger annis.ql.parser.QueryData.log</td>
         </tr>
       </table>
   </td>
@@ -632,7 +693,9 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= LoggerFactory.getLogger(</div>
+<div class="line">    <a class="code" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a09913ee9987a34053978a07f994c93f4">QueryData</a>.class)</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a4ad0bf0afc675716333206c738515232"></a>
@@ -684,7 +747,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1ql.html">ql</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1ql_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a></li>
-    <li class="footer">Generated on Fri Jul 19 2013 12:48:31 for ANNIS by
+    <li class="footer">Generated on Tue Aug 6 2013 11:37:47 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.1.0-SNAPSHOT</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -133,6 +133,10 @@ Inheritance diagram for annis.gui.QueryController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController_1_1CountCallback.html">CountCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController_1_1MatchCallback.html">MatchCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController_1_1MatchListType.html">MatchListType</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -163,8 +167,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2229c5ec29cddbf93e20fed5732291bf"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a2229c5ec29cddbf93e20fed5732291bf">isQueryRunning</a> ()</td></tr>
 <tr class="memdesc:a2229c5ec29cddbf93e20fed5732291bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if any query (count or find) is running.  <a href="#a2229c5ec29cddbf93e20fed5732291bf">More...</a><br/></td></tr>
 <tr class="separator:a2229c5ec29cddbf93e20fed5732291bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71990d4e8089e09b8b138810b328853c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a71990d4e8089e09b8b138810b328853c">refresh</a> (Refresher source)</td></tr>
-<tr class="separator:a71990d4e8089e09b8b138810b328853c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca167dd0545fa65fe87fed48a9ea096a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#aca167dd0545fa65fe87fed48a9ea096a">getQueryDraft</a> ()</td></tr>
 <tr class="separator:aca167dd0545fa65fe87fed48a9ea096a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -173,10 +175,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a77a38e9c865fc0d84712bfa99e9f1925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a77a38e9c865fc0d84712bfa99e9f1925">cancelQueries</a> ()</td></tr>
 <tr class="memdesc:a77a38e9c865fc0d84712bfa99e9f1925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel queries from the client side.  <a href="#a77a38e9c865fc0d84712bfa99e9f1925">More...</a><br/></td></tr>
 <tr class="separator:a77a38e9c865fc0d84712bfa99e9f1925"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a130d3077436c80af5cf04ff33d86dbcb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a130d3077436c80af5cf04ff33d86dbcb">checkFutureMatchesFinished</a> ()</td></tr>
-<tr class="separator:a130d3077436c80af5cf04ff33d86dbcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01490fbe6aac811c567675bfb37e42a3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a01490fbe6aac811c567675bfb37e42a3">checkFutureCount</a> ()</td></tr>
-<tr class="separator:a01490fbe6aac811c567675bfb37e42a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -197,7 +195,7 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:aa010de82a6a9e3a154bc1b2a9d619152"><td class="memItemLeft" align="right" valign="top">static final Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#aa010de82a6a9e3a154bc1b2a9d619152">log</a> = LoggerFactory.getLogger(ResultViewPanel.class)</td></tr>
+<tr class="memitem:aa010de82a6a9e3a154bc1b2a9d619152"><td class="memItemLeft" align="right" valign="top">static final Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#aa010de82a6a9e3a154bc1b2a9d619152">log</a></td></tr>
 <tr class="separator:aa010de82a6a9e3a154bc1b2a9d619152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -245,52 +243,6 @@ Static Private Attributes</h2></td></tr>
 
 <p>Cancel queries from the client side. </p>
 <p>Important: This does not magically cancel the query on the server side, so don't use this to implement a "real" query cancelation. </p>
-
-</div>
-</div>
-<a class="anchor" id="a01490fbe6aac811c567675bfb37e42a3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean annis.gui.QueryController.checkFutureCount </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a130d3077436c80af5cf04ff33d86dbcb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean annis.gui.QueryController.checkFutureMatchesFinished </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -409,22 +361,6 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if any query (count or find) is running. </p>
-
-</div>
-</div>
-<a class="anchor" id="a71990d4e8089e09b8b138810b328853c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void annis.gui.QueryController.refresh </td>
-          <td>(</td>
-          <td class="paramtype">Refresher&#160;</td>
-          <td class="paramname"><em>source</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -648,7 +584,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final Logger annis.gui.QueryController.log = LoggerFactory.getLogger(ResultViewPanel.class)</td>
+          <td class="memname">final Logger annis.gui.QueryController.log</td>
         </tr>
       </table>
   </td>
@@ -657,7 +593,9 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= LoggerFactory.getLogger(</div>
+<div class="line">    ResultViewPanel.class)</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a33d5cb82d6d0fc28719c3335cfd2f5ba"></a>
@@ -689,7 +627,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1QueryController.html">QueryController</a></li>
-    <li class="footer">Generated on Fri Jul 19 2013 12:48:30 for ANNIS by
+    <li class="footer">Generated on Tue Aug 6 2013 11:37:46 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

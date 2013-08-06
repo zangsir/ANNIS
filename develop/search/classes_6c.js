@@ -18,7 +18,9 @@ var searchData=
   ['listdocumentssqlhelper',['ListDocumentsSqlHelper',['../classannis_1_1sqlgen_1_1ListDocumentsSqlHelper.html',1,'annis::sqlgen']]],
   ['listexamplequerieshelper',['ListExampleQueriesHelper',['../classannis_1_1sqlgen_1_1ListExampleQueriesHelper.html',1,'annis::sqlgen']]],
   ['loadablevisualizer',['LoadableVisualizer',['../interfaceannis_1_1visualizers_1_1LoadableVisualizer.html',1,'annis::visualizers']]],
+  ['loadcallback',['LoadCallback',['../interfaceannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1autoheightiframe_1_1AutoHeightIFrameConnector_1_1LoadCallback.html',1,'annis::gui::widgets::gwt::client::ui::autoheightiframe::AutoHeightIFrameConnector']]],
   ['loadcomponenttask',['LoadComponentTask',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html',1,'annis::gui::resultview::VisualizerPanel']]],
+  ['logicclause',['LogicClause',['../classannis_1_1model_1_1LogicClause.html',1,'annis::model']]],
   ['loginclosecallback',['LoginCloseCallback',['../classannis_1_1gui_1_1SearchUI_1_1LoginCloseCallback.html',1,'annis::gui::SearchUI']]],
   ['loginlistener',['LoginListener',['../interfaceannis_1_1gui_1_1LoginListener.html',1,'annis::gui']]],
   ['loginservlet',['LoginServlet',['../classannis_1_1gui_1_1servlets_1_1LoginServlet.html',1,'annis::gui::servlets']]]

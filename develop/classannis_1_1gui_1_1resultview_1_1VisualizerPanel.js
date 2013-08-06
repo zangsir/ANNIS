@@ -29,7 +29,7 @@ var classannis_1_1gui_1_1resultview_1_1VisualizerPanel =
     [ "markersExact", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a43324288fdd4608e5e99f9b98a39c3c0", null ],
     [ "PERMANENT", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a8a89ac110323351fa3773db19d2fede0", null ],
     [ "PRELOADED", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#af333d179cf27a5f9b0539221f3d265b2", null ],
-    [ "progress", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a8cefbc6a087545836305270b12e0b7b2", null ],
+    [ "progress", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ade7ecc02ca2ae5a1d4094aad2da3e1f0", null ],
     [ "ps", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ad1c45ed37c07af67319424f14d2a964d", null ],
     [ "rand", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a2056e16e6f87a906cfbac286ce1928e0", null ],
     [ "result", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a4dbf101d58e4a304838de8c853764d55", null ],

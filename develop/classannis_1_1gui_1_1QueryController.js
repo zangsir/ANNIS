@@ -1,10 +1,10 @@
 var classannis_1_1gui_1_1QueryController =
 [
+    [ "CountCallback", "classannis_1_1gui_1_1QueryController_1_1CountCallback.html", "classannis_1_1gui_1_1QueryController_1_1CountCallback" ],
+    [ "MatchCallback", "classannis_1_1gui_1_1QueryController_1_1MatchCallback.html", "classannis_1_1gui_1_1QueryController_1_1MatchCallback" ],
     [ "MatchListType", "classannis_1_1gui_1_1QueryController_1_1MatchListType.html", "classannis_1_1gui_1_1QueryController_1_1MatchListType" ],
     [ "QueryController", "classannis_1_1gui_1_1QueryController.html#a9050c05d0cdae96552461eedb5fe85e3", null ],
     [ "cancelQueries", "classannis_1_1gui_1_1QueryController.html#a77a38e9c865fc0d84712bfa99e9f1925", null ],
-    [ "checkFutureCount", "classannis_1_1gui_1_1QueryController.html#a01490fbe6aac811c567675bfb37e42a3", null ],
-    [ "checkFutureMatchesFinished", "classannis_1_1gui_1_1QueryController.html#a130d3077436c80af5cf04ff33d86dbcb", null ],
     [ "corpusSelectionChanged", "classannis_1_1gui_1_1QueryController.html#acd0a915453f8ae8d76ad19d54244ceda", null ],
     [ "executeQuery", "classannis_1_1gui_1_1QueryController.html#ab5c8069f7ba8d3e5843a6b24f3b1c2ca", null ],
     [ "executeQuery", "classannis_1_1gui_1_1QueryController.html#adb7026148e65466b0a682cdd143e103c", null ],
@@ -12,7 +12,6 @@ var classannis_1_1gui_1_1QueryController =
     [ "getQueryDraft", "classannis_1_1gui_1_1QueryController.html#aca167dd0545fa65fe87fed48a9ea096a", null ],
     [ "getSelectedCorpora", "classannis_1_1gui_1_1QueryController.html#a140dbce88fe4ce8c8f0bf59031ab095f", null ],
     [ "isQueryRunning", "classannis_1_1gui_1_1QueryController.html#a2229c5ec29cddbf93e20fed5732291bf", null ],
-    [ "refresh", "classannis_1_1gui_1_1QueryController.html#a71990d4e8089e09b8b138810b328853c", null ],
     [ "setQuery", "classannis_1_1gui_1_1QueryController.html#a6a8bc92048ed1658b4c686f9e29e5137", null ],
     [ "setQuery", "classannis_1_1gui_1_1QueryController.html#a3cc6d49f76593834c5beb7eb488a54b9", null ],
     [ "setQuery", "classannis_1_1gui_1_1QueryController.html#abf3ea0a3c6810ecd5367997fa8a50bb2", null ],

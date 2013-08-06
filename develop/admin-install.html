@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.1.0-SNAPSHOT</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -104,28 +104,38 @@ $(document).ready(function(){initNavTree('admin-install.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#admin-install-server">Installing an ANNIS public server </a></li>
-<li class="level2"><a href="#admin-install-kickstarter">Installing a local version (ANNIS Kickstarter) </a></li>
-</ul>
+<ul><li class="level1"><a href="#admin-install-server">Installing an ANNIS public server </a></li>
+<li class="level1"><a href="#admin-install-kickstarter">Installing a local version (ANNIS Kickstarter)     </a></li>
 </ul>
 </div>
-<div class="textblock"><p>The ANNIS server version can be installed on UNIX based server, or else under Windows using Cygwin [<a href="http://www.cygwin.com/">http://www.cygwin.com/</a>], the freely available UNIX emulator. To install the ANNIS server:</p>
+<div class="textblock"><h1><a class="anchor" id="admin-install-server"></a>
+Installing an ANNIS public server </h1>
+<p>The ANNIS server version can be installed on UNIX based server, or else under Windows using Cygwin [<a href="http://www.cygwin.com/">http://www.cygwin.com/</a>], the freely available UNIX emulator. To install the ANNIS server:</p>
 <ol type="1">
 <li>Download and install PostgreSQL 9.2 for your operating system from <a href="http://www.postgresql.org/download/">http://www.postgresql.org/download/</a> and <b>make a note of the administrator password</b> you set during the installation. <dl class="section note"><dt>Note</dt><dd>Under Linux, you might have to set the PostgreSQL password manually. E.g. on Ubuntu you can achieve this with by running the following commands: <div class="fragment"><div class="line">sudo -u postgres psql</div>
 <div class="line">\password</div>
 <div class="line">\q</div>
 </div><!-- fragment --></dd></dl>
 </li>
-<li>Install a Java Servlet Container ("Java web server") such as <a href="http://tomcat.apache.org/">Tomcat</a> or <a href="http://www.mortbay.org/jetty/">Jetty</a></li>
-<li>Make sure you have installed <a href="http://java.sun.com/javase/downloads/index.jsp">JDK 6 or JDK 7</a> (or install them if you don’t)</li>
+<li>Make sure you have installed <a href="http://java.sun.com/javase/downloads/index.jsp">JDK 6 or JDK 7</a></li>
+<li>Install a Java Servlet Container ("Java web server") such as <a href="http://tomcat.apache.org/">Tomcat</a> or <a href="http://www.mortbay.org/jetty/">Jetty</a> (or install them if you don’t)</li>
 <li>Download the ANNIS service distribution file <code>annis-service-&lt;version&gt;-distribution.tar.gz</code> from our website and then unzip the downloaded file: <div class="fragment"><div class="line">tar xzvf annis-service-&lt;version&gt;-distribution.tar.gz -C &lt;installation directory&gt;</div>
 </div><!-- fragment --></li>
 <li>Set the environment variables (each time when starting up) <div class="fragment"><div class="line">export ANNIS_HOME=&lt;installation directory&gt;</div>
 <div class="line">export PATH=$PATH:$ANNIS_HOME/bin</div>
 </div><!-- fragment --></li>
-<li>Next initialize your ANNIS database (only the first time you use the system): <div class="fragment"><div class="line">annis-admin.sh init -u &lt;username&gt; -d &lt;dbname&gt; -p</div>
-<div class="line">-P &lt;postgres password&gt;</div>
-</div><!-- fragment --> You can omit the PostgreSQL administrator password option (<code>-P</code>). Then the database and user must already exists. E.g. you should execute the following as PostgreSQL administrator: <div class="fragment"><div class="line">CREATE LANGUAGE plpgsql; -- ignore the error <span class="keywordflow">if</span> the language is already installed</div>
+<li>Next initialize your ANNIS database (only the first time you use the system). When the ANNIS service is normally installed, it assumes it can get PostgreSQL super user rights for this step. Thus you need the superuser password. <div class="fragment"><div class="line">annis-admin.sh init -u &lt;username&gt; -d &lt;dbname&gt; -p &lt;new user password&gt;</div>
+<div class="line">-P &lt;postgres superuser password&gt;</div>
+</div><!-- fragment --> This call will <ul>
+<li>
+create a new database with the name given by the "-d" parameter </li>
+<li>
+create a new PostgreSQL user with the user name given by the "-u" parameter and the password given by the "-p" parameter </li>
+<li>
+create all necessary tables, PSQL functions and initial data in the database</li>
+</ul>
+<dl class="section warning"><dt>Warning</dt><dd>Do not use "postgres" as database name for ANNIS since it is reserved by PostgresSQL itself.</dd></dl>
+You can omit the PostgreSQL administrator password option (<code>-P</code>). Then the database and user must already exists. E.g. you should execute the following as PostgreSQL administrator: <div class="fragment"><div class="line">CREATE LANGUAGE plpgsql; -- ignore the error <span class="keywordflow">if</span> the language is already installed</div>
 <div class="line">CREATE USER myuser PASSWORD <span class="stringliteral">&#39;mypassword&#39;</span>;</div>
 <div class="line">CREATE DATABASE mydb OWNER myuser ENCODING <span class="stringliteral">&#39;UTF8&#39;</span>;</div>
 </div><!-- fragment --></li>
@@ -133,10 +143,14 @@ $(document).ready(function(){initNavTree('admin-install.html','');});
 </div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>The above import-command calls other PostgreSQL database commands. If you abort the import script with Ctrl+C, these SQL processes will not be automatically terminated; instead they might keep hanging and prevent access to the database. The same might happen if you close your shell before the import script terminates, so you will want to prefix it with the "nohup"- command.</dd></dl>
 </li>
 <li>Now you can start the ANNIS service: <div class="fragment"><div class="line">annis-service.sh start</div>
-</div><!-- fragment --></li>
+</div><!-- fragment --> If you don't want to use any authentification and every user should see every corpus without login you can start ANNIS with <div class="fragment"><div class="line">annis-service-no-security.sh start</div>
+</div><!-- fragment --> instead of the default script.</li>
 <li>To get the ANNIS front-end running, first download annis- gui-&lt;version&gt;.war from our website and deploy it to your Java servlet container (this is depending on the servlet container you use).</li>
+<li>Configure users and groups as described <a class="el" href="admin-configure-service.html#admin-configure-user">here</a> and define who is allowed to see which corpus.</li>
 </ol>
 <dl class="section note"><dt>Note</dt><dd>We also <b>strongly recommend</b> reconfiguring the Postgres server’s default settings as described <a class="el" href="admin-configure-postgresql.html">here</a>.</dd></dl>
+<h1><a class="anchor" id="admin-install-kickstarter"></a>
+Installing a local version (ANNIS Kickstarter)     </h1>
 <p>Local users who do not wish to make their corpora available online can install ANNIS Kickstarter under most versions of Linux, Windows and Mac OS. To install Kickstarter follow these steps:</p>
 <ol type="1">
 <li>Download and install PostgreSQL 9.2 for your operating system from <a href="http://www.postgresql.org/download/">http://www.postgresql.org/download/</a> and <b>make a note of the administrator password</b> you set during the installation. <dl class="section note"><dt>Note</dt><dd>Under Linux, you might have to set the PostgreSQL password manually. E.g. on Ubuntu you can achieve this with by running the following commands: <div class="fragment"><div class="line">sudo -u postgres psql</div>
@@ -159,7 +173,7 @@ After installation, PostgreSQL may automatically launch the PostgreSQL Stack Bui
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="admin.html">Administration</a></li>
-    <li class="footer">Generated on Fri Jul 19 2013 12:48:30 for ANNIS by
+    <li class="footer">Generated on Tue Aug 6 2013 11:37:46 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

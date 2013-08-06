@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.1.0-SNAPSHOT</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -143,10 +143,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ad683d5976d5c44e85b4fdb9f5ddbfcfe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#ad683d5976d5c44e85b4fdb9f5ddbfcfe">responseStatus206</a> (WebResource binaryRes, String mimeType, ServletOutputStream out, HttpServletResponse response, String range)  throws RemoteException, IOException   </td></tr>
-<tr class="separator:ad683d5976d5c44e85b4fdb9f5ddbfcfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6c4ab41d18b7954a2bd0abe13733fbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#af6c4ab41d18b7954a2bd0abe13733fbb">responseStatus200</a> (WebResource binaryRes, String mimeType, ServletOutputStream out, HttpServletResponse response)  throws RemoteException, IOException   </td></tr>
-<tr class="separator:af6c4ab41d18b7954a2bd0abe13733fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed795788f04b5167679c6c1a9b4d52e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#aed795788f04b5167679c6c1a9b4d52e2">responseStatus206</a> (WebResource metaBinaryRes, WebResource binaryRes, String mimeType, ServletOutputStream out, HttpServletResponse response, String range)  throws RemoteException, IOException   </td></tr>
+<tr class="separator:aed795788f04b5167679c6c1a9b4d52e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a244277a578102ac5e45ecde2f32503"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#a7a244277a578102ac5e45ecde2f32503">responseStatus200</a> (WebResource metaBinaryRes, WebResource binaryRes, String mimeType, ServletOutputStream out, HttpServletResponse response)  throws RemoteException, IOException   </td></tr>
+<tr class="separator:a7a244277a578102ac5e45ecde2f32503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea57d96e448a2fdf375cf337a383895d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#aea57d96e448a2fdf375cf337a383895d">getCompleteFile</a> (WebResource binaryRes, String mimeType, ServletOutputStream out)  throws RemoteException, IOException   </td></tr>
 <tr class="separator:aea57d96e448a2fdf375cf337a383895d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7288281c51e326255b336706beab8ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#aa7288281c51e326255b336706beab8ef">writeStepByStep</a> (int offset, int completeLength, WebResource binaryRes, ServletOutputStream out, String mimeType)  throws IOException   </td></tr>
@@ -156,37 +156,12 @@ Private Member Functions</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a69e7a30e529402b89583ecc7804a9f70"><td class="memItemLeft" align="right" valign="top">static final Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#a69e7a30e529402b89583ecc7804a9f70">log</a> = LoggerFactory.getLogger(BinaryServlet.class)</td></tr>
 <tr class="separator:a69e7a30e529402b89583ecc7804a9f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a72cdf7689c0c30e82e0a9f2c8d365d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#a3a72cdf7689c0c30e82e0a9f2c8d365d">MAX_LENGTH</a> = 5*1024</td></tr>
+<tr class="memitem:a3a72cdf7689c0c30e82e0a9f2c8d365d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html#a3a72cdf7689c0c30e82e0a9f2c8d365d">MAX_LENGTH</a> = 1024 * 1024</td></tr>
 <tr class="separator:a3a72cdf7689c0c30e82e0a9f2c8d365d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This Servlet provides binary-files with a stream of partial-content. </p>
 <p>The first GET-request is answered with the status-code 206 Partial Content.</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD </p>
-<h1>TODO: handle more than one byte-range TODO:</h1>
-<p>TODO: handle more than one byte-range</p>
-<blockquote class="doxtable">
-<blockquote class="doxtable">
-<blockquote class="doxtable">
-<blockquote class="doxtable">
-<blockquote class="doxtable">
-<blockquote class="doxtable">
-<blockquote class="doxtable">
-<p>Add basic pdf support based on pdfjs. If you check in a new version of pdfjs,</p>
-<p></p>
-</blockquote>
-<p></p>
-</blockquote>
-<p></p>
-</blockquote>
-<p></p>
-</blockquote>
-<p></p>
-</blockquote>
-<p></p>
-</blockquote>
-<p></p>
-</blockquote>
 <dl class="section author"><dt>Author</dt><dd>benjamin </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a2c6267d3852fc9d55e0ef81b6cfef14f"></a>
@@ -271,7 +246,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af6c4ab41d18b7954a2bd0abe13733fbb"></a>
+<a class="anchor" id="a7a244277a578102ac5e45ecde2f32503"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -281,6 +256,12 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void annis.gui.servlets.BinaryServlet.responseStatus200 </td>
           <td>(</td>
+          <td class="paramtype">WebResource&#160;</td>
+          <td class="paramname"><em>metaBinaryRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">WebResource&#160;</td>
           <td class="paramname"><em>binaryRes</em>, </td>
         </tr>
@@ -317,7 +298,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad683d5976d5c44e85b4fdb9f5ddbfcfe"></a>
+<a class="anchor" id="aed795788f04b5167679c6c1a9b4d52e2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -327,6 +308,12 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void annis.gui.servlets.BinaryServlet.responseStatus206 </td>
           <td>(</td>
+          <td class="paramtype">WebResource&#160;</td>
+          <td class="paramname"><em>metaBinaryRes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">WebResource&#160;</td>
           <td class="paramname"><em>binaryRes</em>, </td>
         </tr>
@@ -450,7 +437,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final int annis.gui.servlets.BinaryServlet.MAX_LENGTH = 5*1024</td>
+          <td class="memname">final int annis.gui.servlets.BinaryServlet.MAX_LENGTH = 1024 * 1024</td>
         </tr>
       </table>
   </td>
@@ -471,7 +458,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1servlets.html">servlets</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1servlets_1_1BinaryServlet.html">BinaryServlet</a></li>
-    <li class="footer">Generated on Fri Jul 19 2013 12:48:31 for ANNIS by
+    <li class="footer">Generated on Tue Aug 6 2013 11:37:47 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

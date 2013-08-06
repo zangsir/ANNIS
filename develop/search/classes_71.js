@@ -3,7 +3,6 @@ var searchData=
   ['qname',['QName',['../classannis_1_1sqlgen_1_1MatrixQueryData_1_1QName.html',1,'annis::sqlgen::MatrixQueryData']]],
   ['queriesgenerator',['QueriesGenerator',['../classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html',1,'annis::dao::autogenqueries']]],
   ['query',['Query',['../classannis_1_1gui_1_1model_1_1Query.html',1,'annis::gui::model']]],
-  ['queryanalysis',['QueryAnalysis',['../classannis_1_1ql_1_1parser_1_1QueryAnalysis.html',1,'annis::ql::parser']]],
   ['queryannotation',['QueryAnnotation',['../classannis_1_1model_1_1QueryAnnotation.html',1,'annis::model']]],
   ['querybuilder',['QueryBuilder',['../interfaceannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator_1_1QueryBuilder.html',1,'annis::dao::autogenqueries::QueriesGenerator']]],
   ['querybuilderchooser',['QueryBuilderChooser',['../classannis_1_1gui_1_1querybuilder_1_1QueryBuilderChooser.html',1,'annis::gui::querybuilder']]],
@@ -14,6 +13,5 @@ var searchData=
   ['querynode',['QueryNode',['../classannis_1_1model_1_1QueryNode.html',1,'annis::model']]],
   ['querypanel',['QueryPanel',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html',1,'annis::gui::controlpanel']]],
   ['queryservice',['QueryService',['../interfaceannis_1_1service_1_1QueryService.html',1,'annis::service']]],
-  ['queryserviceimpl',['QueryServiceImpl',['../classannis_1_1service_1_1internal_1_1QueryServiceImpl.html',1,'annis::service::internal']]],
-  ['queryvalidator',['QueryValidator',['../classannis_1_1ql_1_1parser_1_1QueryValidator.html',1,'annis::ql::parser']]]
+  ['queryserviceimpl',['QueryServiceImpl',['../classannis_1_1service_1_1internal_1_1QueryServiceImpl.html',1,'annis::service::internal']]]
 ];

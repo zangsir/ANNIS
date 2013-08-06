@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['range',['Range',['../classannis_1_1model_1_1AnnisNode_1_1Range.html',1,'annis::model::AnnisNode']]],
   ['range',['Range',['../classannis_1_1model_1_1QueryNode_1_1Range.html',1,'annis::model::QueryNode']]],
+  ['range',['Range',['../classannis_1_1model_1_1AnnisNode_1_1Range.html',1,'annis::model::AnnisNode']]],
   ['rangedjoin',['RangedJoin',['../classannis_1_1sqlgen_1_1model_1_1RangedJoin.html',1,'annis::sqlgen::model']]],
   ['rankid',['RankID',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1RankID.html',1,'annis::sqlgen::SaltAnnotateExtractor']]],
   ['ranktablejoin',['RankTableJoin',['../classannis_1_1sqlgen_1_1model_1_1RankTableJoin.html',1,'annis::sqlgen::model']]],
@@ -11,7 +11,6 @@ var searchData=
   ['relannisedgefeature',['RelannisEdgeFeature',['../classannis_1_1model_1_1RelannisEdgeFeature.html',1,'annis::model']]],
   ['relannisnodefeature',['RelannisNodeFeature',['../classannis_1_1model_1_1RelannisNodeFeature.html',1,'annis::model']]],
   ['relation',['Relation',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation.html',1,'annis::gui::flatquerybuilder::FlatQueryBuilder']]],
-  ['relationcollector',['RelationCollector',['../classannis_1_1ql_1_1parser_1_1NodeRelationNormalizer_1_1RelationCollector.html',1,'annis::ql::parser::NodeRelationNormalizer']]],
   ['relationtype',['RelationType',['../enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType.html',1,'annis::gui::flatquerybuilder::FlatQueryBuilder']]],
   ['removeindexelement',['RemoveIndexElement',['../classannis_1_1dao_1_1ResolverDaoHelper_1_1RemoveIndexElement.html',1,'annis::dao::ResolverDaoHelper']]],
   ['reportbugwindow',['ReportBugWindow',['../classannis_1_1gui_1_1ReportBugWindow.html',1,'annis::gui']]],

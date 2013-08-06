@@ -12,7 +12,6 @@ var searchData=
   ['timeoutsqlsessionmodifier_2ejava',['TimeOutSqlSessionModifier.java',['../TimeOutSqlSessionModifier_8java.html',1,'']]],
   ['tokenmatcher_2ejava',['TokenMatcher.java',['../TokenMatcher_8java.html',1,'']]],
   ['transitiveprecedenceoptimizer_2ejava',['TransitivePrecedenceOptimizer.java',['../TransitivePrecedenceOptimizer_8java.html',1,'']]],
-  ['treedumper_2ejava',['TreeDumper.java',['../TreeDumper_8java.html',1,'']]],
   ['treeelementlabeler_2ejava',['TreeElementLabeler.java',['../TreeElementLabeler_8java.html',1,'']]],
   ['treeelementstyler_2ejava',['TreeElementStyler.java',['../TreeElementStyler_8java.html',1,'']]],
   ['tutorialpanel_2ejava',['TutorialPanel.java',['../TutorialPanel_8java.html',1,'']]]

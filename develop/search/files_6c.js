@@ -17,6 +17,7 @@ var searchData=
   ['listdocumentssqlhelper_2ejava',['ListDocumentsSqlHelper.java',['../ListDocumentsSqlHelper_8java.html',1,'']]],
   ['listexamplequerieshelper_2ejava',['ListExampleQueriesHelper.java',['../ListExampleQueriesHelper_8java.html',1,'']]],
   ['loadablevisualizer_2ejava',['LoadableVisualizer.java',['../LoadableVisualizer_8java.html',1,'']]],
+  ['logicclause_2ejava',['LogicClause.java',['../LogicClause_8java.html',1,'']]],
   ['loginlistener_2ejava',['LoginListener.java',['../LoginListener_8java.html',1,'']]],
   ['loginservlet_2ejava',['LoginServlet.java',['../LoginServlet_8java.html',1,'']]]
 ];

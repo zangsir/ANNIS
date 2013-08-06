@@ -9,9 +9,7 @@ var searchData=
   ['defaulttableaccessstrategy',['DefaultTableAccessStrategy',['../classannis_1_1sqlgen_1_1DefaultTableAccessStrategy.html',1,'annis::sqlgen']]],
   ['defaultwhereclausegenerator',['DefaultWhereClauseGenerator',['../classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html',1,'annis::sqlgen']]],
   ['detectholes',['DetectHoles',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1DetectHoles.html',1,'annis::visualizers::iframe::partitur']]],
-  ['directdominance',['DirectDominance',['../classannis_1_1sqlgen_1_1model_1_1DirectDominance.html',1,'annis::sqlgen::model']]],
-  ['dnfnoderelnumberupdater',['DnfNodeRelNumberUpdater',['../classannis_1_1ql_1_1parser_1_1DnfNodeRelNumberUpdater.html',1,'annis::ql::parser']]],
-  ['dnftransformer',['DnfTransformer',['../classannis_1_1ql_1_1parser_1_1DnfTransformer.html',1,'annis::ql::parser']]],
+  ['dnftransformer',['DNFTransformer',['../classannis_1_1ql_1_1parser_1_1DNFTransformer.html',1,'annis::ql::parser']]],
   ['documentnamemaprow',['DocumentNameMapRow',['../classannis_1_1dao_1_1DocumentNameMapRow.html',1,'annis::dao']]],
   ['dominance',['Dominance',['../classannis_1_1sqlgen_1_1model_1_1Dominance.html',1,'annis::sqlgen::model']]],
   ['dotgraphvisualizer',['DotGraphVisualizer',['../classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer.html',1,'annis::visualizers::component::graph']]]

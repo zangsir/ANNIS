@@ -19,7 +19,7 @@ var classannis_1_1gui_1_1controlpanel_1_1ExportPanel =
     [ "exportTime", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#aeb0e99497bafbd572fb337566c8b6617", null ],
     [ "help4Exporter", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a80f6f975209e55b69e34a328f4728da5", null ],
     [ "log", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a4e32580b7b7ce16564df34ba176a86a2", null ],
-    [ "progressIndicator", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a80bae1f91a7874d26d037c1b0a3cf08c", null ],
+    [ "progressBar", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#ac389895a8b0a1e52a227784321293032", null ],
     [ "progressLabel", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a57dda8eacb2d031abe46cc6614c03dd9", null ],
     [ "queryPanel", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a0e1b9a308f16651c80a08bf17fe1801d", null ],
     [ "tmpOutputFile", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html#a47d5e0337b7c456d597a7cdcff1ccfb5", null ],

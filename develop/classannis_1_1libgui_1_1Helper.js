@@ -1,6 +1,7 @@
 var classannis_1_1libgui_1_1Helper =
 [
     [ "citationFragment", "classannis_1_1libgui_1_1Helper.html#ab184045422749a0aaac3979ebc3dfa7d", null ],
+    [ "convertExceptionToMessage", "classannis_1_1libgui_1_1Helper.html#a2a9c289e168fb5099cf2af1d4eed86b1", null ],
     [ "createRESTClient", "classannis_1_1libgui_1_1Helper.html#a55f5355af94e29fdd06189f9554dfadf", null ],
     [ "createRESTClient", "classannis_1_1libgui_1_1Helper.html#aec2ad1e4f8b0ca7895a42c8a56d28b00", null ],
     [ "encodeBase64URL", "classannis_1_1libgui_1_1Helper.html#a8ac549aa52d16ae425035bd800adb87e", null ],

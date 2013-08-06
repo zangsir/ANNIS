@@ -2,6 +2,7 @@ var searchData=
 [
   ['okclicklistener',['OkClickListener',['../classannis_1_1gui_1_1AboutWindow_1_1OkClickListener.html',1,'annis::gui::AboutWindow']]],
   ['okclicklistener',['OkClickListener',['../classannis_1_1gui_1_1HelpUsWindow_1_1OkClickListener.html',1,'annis::gui::HelpUsWindow']]],
+  ['operator',['Operator',['../enumannis_1_1model_1_1LogicClause_1_1Operator.html',1,'annis::model::LogicClause']]],
   ['operatorvaluechangelistener',['OperatorValueChangeListener',['../classannis_1_1gui_1_1querybuilder_1_1EdgeWindow_1_1OperatorValueChangeListener.html',1,'annis::gui::querybuilder::EdgeWindow']]],
   ['optionbuilder',['OptionBuilder',['../classannis_1_1administration_1_1AnnisAdminRunner_1_1OptionBuilder.html',1,'annis::administration::AnnisAdminRunner']]],
   ['orderbyclausesqlgenerator_3c_20t_20_3e',['OrderByClauseSqlGenerator&lt; T &gt;',['../interfaceannis_1_1sqlgen_1_1OrderByClauseSqlGenerator_3_01T_01_4.html',1,'annis::sqlgen']]],

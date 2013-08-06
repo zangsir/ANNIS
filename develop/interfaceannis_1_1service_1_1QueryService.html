@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.1.0-SNAPSHOT</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -132,9 +132,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a657c994b1be5b568ba072878dd98bc53"><td class="memItemLeft" align="right" valign="top">Response&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a657c994b1be5b568ba072878dd98bc53">binary</a> (String top, String document, String offset, String length, String file)</td></tr>
 <tr class="memdesc:a657c994b1be5b568ba072878dd98bc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the content an ANNIS binary object for a specific document.  <a href="#a657c994b1be5b568ba072878dd98bc53">More...</a><br/></td></tr>
 <tr class="separator:a657c994b1be5b568ba072878dd98bc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12123789966042318d893dd875aea4b0"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1service_1_1objects_1_1AnnisBinaryMetaData.html">AnnisBinaryMetaData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a12123789966042318d893dd875aea4b0">binaryMeta</a> (String toplevelCorpusName, String documentName)</td></tr>
-<tr class="memdesc:a12123789966042318d893dd875aea4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the metadata of all ANNIS binary objects for a specific document.  <a href="#a12123789966042318d893dd875aea4b0">More...</a><br/></td></tr>
-<tr class="separator:a12123789966042318d893dd875aea4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface defining the REST API calls that ANNIS provides for querying the data. </p>
@@ -207,51 +204,9 @@ GET annis/query/corpora/<b>{top}</b>/<b>{document}</b>/binary/<b>{file}</b> </li
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A binary stream that contains the file content. If path variant 1 and 3 is used only a subset of the file is returned. Path variant 2 and 4 always return the complete file.</dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a12123789966042318d893dd875aea4b0" title="Get the metadata of all ANNIS binary objects for a specific document.">binaryMeta</a>(java.lang.String, java.lang.String) </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>#binaryMeta(java.lang.String, java.lang.String) </dd></dl>
 
 <p>Implemented in <a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a3919332fb99f7c684e215b4d083c300e">annis.service.internal.QueryServiceImpl</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a12123789966042318d893dd875aea4b0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="classannis_1_1service_1_1objects_1_1AnnisBinaryMetaData.html">AnnisBinaryMetaData</a>&gt; annis.service.QueryService.binaryMeta </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>toplevelCorpusName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>documentName</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the metadata of all ANNIS binary objects for a specific document. </p>
-<h3>Path(s)</h3>
-<ol>
-<li>
-GET corpora/<b>{top}</b>/<b>{document}</b>/binary/meta </li>
-</ol>
-<h3>MIME</h3>
-<div> Accepts application/xml </div><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">top</td><td>The toplevel corpus name. </td></tr>
-    <tr><td class="paramname">document</td><td>The name of the document that has the file. If you want the files for the toplevel corpus itself, use the name of the toplevel corpus as document name. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A XML representation containing a list of all matching <a class="el" href="classannis_1_1service_1_1objects_1_1AnnisBinaryMetaData.html">annis.service.objects.AnnisBinaryMetaData</a> objects. </dd></dl>
 
 </div>
 </div>
@@ -264,7 +219,7 @@ GET corpora/<b>{top}</b>/<b>{document}</b>/binary/meta </li>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service.html">service</a></li><li class="navelem"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html">QueryService</a></li>
-    <li class="footer">Generated on Fri Jul 19 2013 12:48:31 for ANNIS by
+    <li class="footer">Generated on Tue Aug 6 2013 11:37:47 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

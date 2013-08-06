@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="annis_64.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ANNIS
-   &#160;<span id="projectnumber">3.0.0-SNAPSHOT</span>
+   &#160;<span id="projectnumber">3.1.0-SNAPSHOT</span>
    </div>
    <div id="projectbrief">An open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation.</div>
   </td>
@@ -104,27 +104,34 @@ $(document).ready(function(){initNavTree('admin-configure-service.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#admin-configure-user">User Configuration </a><ul><li class="level3"><a href="#admin-configure-userfileloc">Configuration file location</a></li>
-<li class="level3"><a href="#admin-configure-userformat">User and group files</a></li>
+<ul><li class="level1"><a href="#admin-configure-user">User Configuration </a><ul><li class="level2"><a href="#admin-configure-userfileloc">Configuration file location </a></li>
+<li class="level2"><a href="#admin-configure-userformat">User and group files </a><ul><li class="level3"><a href="#admin-configure-anonymous">anonymous group</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#admin-configure-contextsize">Changing maximal context size </a></li>
 </ul>
+</li>
+<li class="level1"><a href="#admin-configure-contextsize">Changing maximal context size </a></li>
 </ul>
 </div>
-<div class="textblock"><p>ANNIS has an authentication system which allows to handle multiple users which will see different corpora depending on which groups the user is part of. Behind the scenes ANNIS uses the <a href="http://shiro.apache.org/">Apache Shiro</a> security framework. Per default ANNIS uses a file based authentication and authorization approach where some configuration files with an ANNIS specific layout are evaluated. This section will discuss how to manage this configuration. Additionally, the adminstrator can also directly adjust the contents of the conf/ shiro.ini configuration file. This allows a much more individual configuration and the usage of external authorization services like LDAP.</p>
-<p>There is a central location where the user configuration files are stored. Configure the path to this location in the <code>conf/shiro.info</code> configuration file of the ANNIS service. The default path is <code>/etc/annis/user_config_trunk/</code> and must be changed at two locations in the configuration file.</p>
+<div class="textblock"><h1><a class="anchor" id="admin-configure-user"></a>
+User Configuration </h1>
+<p>ANNIS has an authentication system which allows to handle multiple users which will see different corpora depending on which groups the user is part of. Behind the scenes ANNIS uses the <a href="http://shiro.apache.org/">Apache Shiro</a> security framework. Per default ANNIS uses a file based authentication and authorization approach where some configuration files with an ANNIS specific layout are evaluated. This section will discuss how to manage this configuration. Additionally, the adminstrator can also directly adjust the contents of the conf/ shiro.ini configuration file. This allows a much more individual configuration and the usage of external authorization services like LDAP.</p>
+<h2><a class="anchor" id="admin-configure-userfileloc"></a>
+Configuration file location </h2>
+<p>There is a central location where the user configuration files are stored. Configure the path to this location in the <code>conf/shiro.info</code> configuration file of the ANNIS service. The default path is <code>/etc/annis/user_config/</code> and must be changed at two locations in the configuration file.</p>
 <pre class="fragment">[main]
 annisRealm = annis.security.ANNISUserRealm
-annisRealm.resourcePath=/etc/annis/user_config_trunk/
+annisRealm.resourcePath=/etc/annis/user_config/
 annisRealm.authenticationCachingEnabled = true
 globalPermResolver = annis.security.ANNISRolePermissionResolver
-globalPermResolver.resourcePath = /etc/annis/user_config_trunk/
-</pre><ol type="1">
-<li>Create a file "groups" in the user-configuration directory (e.g. <code>/etc/annis/user_config_trunk/groups</code>): <pre class="fragment">group1=pcc3,falko,tiger2
+globalPermResolver.resourcePath = /etc/annis/user_config/
+</pre><h2><a class="anchor" id="admin-configure-userformat"></a>
+User and group files </h2>
+<ol type="1">
+<li>Create a file "groups" in the user-configuration directory (e.g. <code>/etc/annis/user_config/groups</code>): <pre class="fragment">group1=pcc3,falko,tiger2
 group2=pcc3
 group3=tiger1
-demo=pcc2,falko
+anonymous=pcc2,falko
 </pre> This example means that a member of group group1 will have access to corpora with the names pcc3,falko, tiger2 (corpus names can be displayed with the <code>annis-admin.sh list</code> command).</li>
 <li>Create a subdirectory <code>users</code></li>
 <li><p class="startli">You have to create a file for each user inside the users subdirectory where the user's name is <em>exactly</em> the file name (no file endings). </p>
@@ -151,6 +158,11 @@ apidocs/org/apache/shiro/crypto/hash/format/Shiro1CryptFormat.html">Shiro1CryptF
 </ol>
 </li>
 </ol>
+<h3><a class="anchor" id="admin-configure-anonymous"></a>
+anonymous group</h3>
+<p>The special group <code>anonymous</code> is used for non logged-in users. Thus every corpus listed here is available for everyone without (and with) login.</p>
+<h1><a class="anchor" id="admin-configure-contextsize"></a>
+Changing maximal context size </h1>
 <p>The maximal context size of ±n tokens from each search result (for the KWIC view, but also for other visualization) can be set for the ANNIS service in the file <code>&lt;service-home&gt;/conf/annis-service.properties</code> Using the syntax, e.g. for a maximum context of 10 tokens: </p>
 <pre class="fragment">annis.max-context=10
 </pre> </div></div><!-- contents -->
@@ -159,7 +171,7 @@ apidocs/org/apache/shiro/crypto/hash/format/Shiro1CryptFormat.html">Shiro1CryptF
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="admin.html">Administration</a></li>
-    <li class="footer">Generated on Fri Jul 19 2013 12:48:30 for ANNIS by
+    <li class="footer">Generated on Tue Aug 6 2013 11:37:46 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
