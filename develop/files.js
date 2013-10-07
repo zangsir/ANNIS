@@ -47,8 +47,11 @@ var files =
       [ "AdministrationDao", "interfaceannis_1_1administration_1_1AdministrationDao.html", "interfaceannis_1_1administration_1_1AdministrationDao" ],
       [ "StatementController", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController" ]
     ] ],
-    [ "AdminService.java", "AdminService_8java.html", [
-      [ "AdminService", "classannis_1_1service_1_1internal_1_1AdminService.html", "classannis_1_1service_1_1internal_1_1AdminService" ]
+    [ "AdminServiceImpl.java", "AdminServiceImpl_8java.html", [
+      [ "AdminServiceImpl", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html", "classannis_1_1service_1_1internal_1_1AdminServiceImpl" ]
+    ] ],
+    [ "AdminUI.java", "AdminUI_8java.html", [
+      [ "AdminUI", "classannis_1_1gui_1_1AdminUI.html", "classannis_1_1gui_1_1AdminUI" ]
     ] ],
     [ "AnnisAdminRunner.java", "AnnisAdminRunner_8java.html", [
       [ "AnnisAdminRunner", "classannis_1_1administration_1_1AnnisAdminRunner.html", "classannis_1_1administration_1_1AnnisAdminRunner" ],
@@ -156,20 +159,17 @@ var files =
     [ "ANNISUserRealm.java", "ANNISUserRealm_8java.html", [
       [ "ANNISUserRealm", "classannis_1_1security_1_1ANNISUserRealm.html", "classannis_1_1security_1_1ANNISUserRealm" ]
     ] ],
-    [ "AnnisVaadinServlet.java", "AnnisVaadinServlet_8java.html", [
-      [ "AnnisVaadinServlet", "classannis_1_1gui_1_1servlets_1_1AnnisVaadinServlet.html", "classannis_1_1gui_1_1servlets_1_1AnnisVaadinServlet" ]
-    ] ],
     [ "AnnisXmlContextHelper.java", "AnnisXmlContextHelper_8java.html", [
       [ "AnnisXmlContextHelper", "classannis_1_1AnnisXmlContextHelper.html", "classannis_1_1AnnisXmlContextHelper" ]
     ] ],
     [ "AnnotatedMatch.java", "AnnotatedMatch_8java.html", [
-      [ "AnnotatedMatch", "classannis_1_1dao_1_1AnnotatedMatch.html", "classannis_1_1dao_1_1AnnotatedMatch" ]
+      [ "AnnotatedMatch", "classannis_1_1dao_1_1objects_1_1AnnotatedMatch.html", "classannis_1_1dao_1_1objects_1_1AnnotatedMatch" ]
     ] ],
     [ "AnnotatedMatchIterator.java", "AnnotatedMatchIterator_8java.html", [
       [ "AnnotatedMatchIterator", "classannis_1_1sqlgen_1_1AnnotatedMatchIterator.html", "classannis_1_1sqlgen_1_1AnnotatedMatchIterator" ]
     ] ],
     [ "AnnotatedSpan.java", "AnnotatedSpan_8java.html", [
-      [ "AnnotatedSpan", "classannis_1_1dao_1_1AnnotatedSpan.html", "classannis_1_1dao_1_1AnnotatedSpan" ]
+      [ "AnnotatedSpan", "classannis_1_1dao_1_1objects_1_1AnnotatedSpan.html", "classannis_1_1dao_1_1objects_1_1AnnotatedSpan" ]
     ] ],
     [ "AnnotatedSpanExtractor.java", "AnnotatedSpanExtractor_8java.html", [
       [ "AnnotatedSpanExtractor", "classannis_1_1sqlgen_1_1AnnotatedSpanExtractor.html", "classannis_1_1sqlgen_1_1AnnotatedSpanExtractor" ]
@@ -181,7 +181,7 @@ var files =
       [ "AnnotateInnerQuerySqlGenerator", "classannis_1_1sqlgen_1_1AnnotateInnerQuerySqlGenerator.html", "classannis_1_1sqlgen_1_1AnnotateInnerQuerySqlGenerator" ]
     ] ],
     [ "AnnotateQueryData.java", "AnnotateQueryData_8java.html", [
-      [ "AnnotateQueryData", "classannis_1_1sqlgen_1_1AnnotateQueryData.html", "classannis_1_1sqlgen_1_1AnnotateQueryData" ]
+      [ "AnnotateQueryData", "classannis_1_1sqlgen_1_1extensions_1_1AnnotateQueryData.html", "classannis_1_1sqlgen_1_1extensions_1_1AnnotateQueryData" ]
     ] ],
     [ "AnnotateSqlGenerator.java", "AnnotateSqlGenerator_8java.html", [
       [ "AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4" ]
@@ -337,6 +337,7 @@ var files =
       [ "CorpusListPanel", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel" ],
       [ "ActionType", "enumannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1ActionType.html", "enumannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1ActionType" ],
       [ "CorpusSorter", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusSorter.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusSorter" ],
+      [ "DocLinkGenerator", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1DocLinkGenerator.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1DocLinkGenerator" ],
       [ "InfoGenerator", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1InfoGenerator.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1InfoGenerator" ],
       [ "AddRemoveAction", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AddRemoveAction.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AddRemoveAction" ],
       [ "CorpusTableChangedListener", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener" ],
@@ -399,6 +400,20 @@ var files =
     [ "DNFTransformer.java", "DNFTransformer_8java.html", [
       [ "DNFTransformer", "classannis_1_1ql_1_1parser_1_1DNFTransformer.html", "classannis_1_1ql_1_1parser_1_1DNFTransformer" ]
     ] ],
+    [ "DocBrowserController.java", "DocBrowserController_8java.html", [
+      [ "DocBrowserController", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController" ],
+      [ "DocVisualizerFetcher", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher" ]
+    ] ],
+    [ "DocBrowserPanel.java", "DocBrowserPanel_8java.html", [
+      [ "DocBrowserPanel", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel" ],
+      [ "LoadingDocs", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel_1_1LoadingDocs.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel_1_1LoadingDocs" ]
+    ] ],
+    [ "DocBrowserTable.java", "DocBrowserTable_8java.html", [
+      [ "DocBrowserTable", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable" ],
+      [ "OpenVisualizerWindow", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1OpenVisualizerWindow.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1OpenVisualizerWindow" ],
+      [ "MetaColumns", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaColumns.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaColumns" ],
+      [ "MetaDataCol", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaDataCol.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaDataCol" ]
+    ] ],
     [ "DocumentNameMapRow.java", "DocumentNameMapRow_8java.html", [
       [ "DocumentNameMapRow", "classannis_1_1dao_1_1DocumentNameMapRow.html", "classannis_1_1dao_1_1DocumentNameMapRow" ]
     ] ],
@@ -440,9 +455,12 @@ var files =
     [ "Exporter.java", "Exporter_8java.html", [
       [ "Exporter", "interfaceannis_1_1gui_1_1exporter_1_1Exporter.html", "interfaceannis_1_1gui_1_1exporter_1_1Exporter" ]
     ] ],
+    [ "ExportOptionsPanel.java", "ExportOptionsPanel_8java.html", [
+      [ "ExportOptionsPanel", "classannis_1_1gui_1_1controlpanel_1_1ExportOptionsPanel.html", "classannis_1_1gui_1_1controlpanel_1_1ExportOptionsPanel" ]
+    ] ],
     [ "ExportPanel.java", "ExportPanel_8java.html", [
-      [ "ExportPanel", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel.html", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel" ],
-      [ "ExporterSelectionHelpListener", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel_1_1ExporterSelectionHelpListener.html", "classannis_1_1gui_1_1controlpanel_1_1ExportPanel_1_1ExporterSelectionHelpListener" ]
+      [ "ExportPanel", "classannis_1_1gui_1_1ExportPanel.html", "classannis_1_1gui_1_1ExportPanel" ],
+      [ "ExporterSelectionHelpListener", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener.html", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener" ]
     ] ],
     [ "FfAnnotateConditionProvider.java", "FfAnnotateConditionProvider_8java.html", [
       [ "FfAnnotateConditionProvider", "classannis_1_1sqlgen_1_1fullfacts_1_1FfAnnotateConditionProvider.html", "classannis_1_1sqlgen_1_1fullfacts_1_1FfAnnotateConditionProvider" ]
@@ -459,6 +477,9 @@ var files =
     [ "FindSqlGenerator.java", "FindSqlGenerator_8java.html", [
       [ "FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", "classannis_1_1sqlgen_1_1FindSqlGenerator" ]
     ] ],
+    [ "FixPushMimeFilter.java", "FixPushMimeFilter_8java.html", [
+      [ "FixPushMimeFilter", "classannis_1_1gui_1_1FixPushMimeFilter.html", "classannis_1_1gui_1_1FixPushMimeFilter" ]
+    ] ],
     [ "FlatQueryBuilder.java", "FlatQueryBuilder_8java.html", [
       [ "FlatQueryBuilder", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder" ],
       [ "Constraint", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint" ],
@@ -472,6 +493,38 @@ var files =
     ] ],
     [ "FontConfig.java", "FontConfig_8java.html", [
       [ "FontConfig", "classannis_1_1gui_1_1FontConfig.html", "classannis_1_1gui_1_1FontConfig" ]
+    ] ],
+    [ "FrequencyChart.java", "FrequencyChart_8java.html", [
+      [ "FrequencyChart", "classannis_1_1gui_1_1components_1_1FrequencyChart.html", "classannis_1_1gui_1_1components_1_1FrequencyChart" ],
+      [ "InnerPanel", "classannis_1_1gui_1_1components_1_1FrequencyChart_1_1InnerPanel.html", "classannis_1_1gui_1_1components_1_1FrequencyChart_1_1InnerPanel" ]
+    ] ],
+    [ "FrequencyQueryPanel.java", "FrequencyQueryPanel_8java.html", [
+      [ "FrequencyQueryPanel", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel" ]
+    ] ],
+    [ "FrequencyResultPanel.java", "FrequencyResultPanel_8java.html", [
+      [ "FrequencyResultPanel", "classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel.html", "classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel" ],
+      [ "CSVResource", "classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel_1_1CSVResource.html", "classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel_1_1CSVResource" ]
+    ] ],
+    [ "FrequencySqlGenerator.java", "FrequencySqlGenerator_8java.html", [
+      [ "FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", "classannis_1_1sqlgen_1_1FrequencySqlGenerator" ]
+    ] ],
+    [ "FrequencyTable.java", "FrequencyTable_8java.html", [
+      [ "FrequencyTable", "classannis_1_1service_1_1objects_1_1FrequencyTable.html", "classannis_1_1service_1_1objects_1_1FrequencyTable" ],
+      [ "HighestCountComparator", "classannis_1_1service_1_1objects_1_1FrequencyTable_1_1HighestCountComparator.html", "classannis_1_1service_1_1objects_1_1FrequencyTable_1_1HighestCountComparator" ],
+      [ "Entry", "classannis_1_1service_1_1objects_1_1FrequencyTable_1_1Entry.html", "classannis_1_1service_1_1objects_1_1FrequencyTable_1_1Entry" ]
+    ] ],
+    [ "FrequencyTableEntry.java", "FrequencyTableEntry_8java.html", [
+      [ "FrequencyTableEntry", "classannis_1_1service_1_1objects_1_1FrequencyTableEntry.html", "classannis_1_1service_1_1objects_1_1FrequencyTableEntry" ]
+    ] ],
+    [ "FrequencyTableEntryType.java", "FrequencyTableEntryType_8java.html", [
+      [ "FrequencyTableEntryType", "enumannis_1_1service_1_1objects_1_1FrequencyTableEntryType.html", "enumannis_1_1service_1_1objects_1_1FrequencyTableEntryType" ]
+    ] ],
+    [ "FrequencyTableQueryData.java", "FrequencyTableQueryData_8java.html", [
+      [ "FrequencyTableQueryData", "classannis_1_1sqlgen_1_1extensions_1_1FrequencyTableQueryData.html", null ]
+    ] ],
+    [ "FrequencyWhiteboard.java", "FrequencyWhiteboard_8java.html", [
+      [ "FrequencyWhiteboard", "classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html", "classannis_1_1gui_1_1components_1_1FrequencyWhiteboard" ],
+      [ "Scale", "enumannis_1_1gui_1_1components_1_1FrequencyWhiteboard_1_1Scale.html", "enumannis_1_1gui_1_1components_1_1FrequencyWhiteboard_1_1Scale" ]
     ] ],
     [ "FromClauseSqlGenerator.java", "FromClauseSqlGenerator_8java.html", [
       [ "FromClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1FromClauseSqlGenerator_3_01T_01_4.html", "interfaceannis_1_1sqlgen_1_1FromClauseSqlGenerator_3_01T_01_4" ]
@@ -502,8 +555,9 @@ var files =
       [ "Span", "classannis_1_1gui_1_1exporter_1_1GridExporter_1_1Span.html", "classannis_1_1gui_1_1exporter_1_1GridExporter_1_1Span" ]
     ] ],
     [ "GridTreeVisualizer.java", "GridTreeVisualizer_8java.html", [
-      [ "GridTreeVisualizer", "classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer.html", "classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer" ],
-      [ "Span", "classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html", "classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span" ]
+      [ "GridTreeVisualizer", "classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer.html", "classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer" ],
+      [ "GridTreePanel", "classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer_1_1GridTreePanel.html", "classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer_1_1GridTreePanel" ],
+      [ "Traverse", "classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer_1_1Traverse.html", "classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer_1_1Traverse" ]
     ] ],
     [ "GridVisualizer.java", "GridVisualizer_8java.html", [
       [ "GridVisualizer", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer" ],
@@ -524,7 +578,11 @@ var files =
       [ "HelpButton< T >", "classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html", "classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4" ]
     ] ],
     [ "Helper.java", "Helper_8java.html", [
-      [ "Helper", "classannis_1_1libgui_1_1Helper.html", "classannis_1_1libgui_1_1Helper" ]
+      [ "Helper", "classannis_1_1libgui_1_1Helper.html", "classannis_1_1libgui_1_1Helper" ],
+      [ "AnnotationListType", "classannis_1_1libgui_1_1Helper_1_1AnnotationListType.html", "classannis_1_1libgui_1_1Helper_1_1AnnotationListType" ]
+    ] ],
+    [ "HelpPanel.java", "HelpPanel_8java.html", [
+      [ "HelpPanel", "classannis_1_1gui_1_1HelpPanel.html", "classannis_1_1gui_1_1HelpPanel" ]
     ] ],
     [ "HelpUsWindow.java", "HelpUsWindow_8java.html", [
       [ "HelpUsWindow", "classannis_1_1gui_1_1HelpUsWindow.html", "classannis_1_1gui_1_1HelpUsWindow" ],
@@ -563,6 +621,16 @@ var files =
       [ "StatementControllerImpl", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl" ],
       [ "ImportDialogWorker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker" ]
     ] ],
+    [ "ImportJob.java", "ImportJob_8java.html", [
+      [ "ImportJob", "classannis_1_1service_1_1objects_1_1ImportJob.html", "classannis_1_1service_1_1objects_1_1ImportJob" ],
+      [ "Status", "enumannis_1_1service_1_1objects_1_1ImportJob_1_1Status.html", "enumannis_1_1service_1_1objects_1_1ImportJob_1_1Status" ]
+    ] ],
+    [ "ImportPanel.java", "ImportPanel_8java.html", [
+      [ "ImportPanel", "classannis_1_1gui_1_1admin_1_1ImportPanel.html", "classannis_1_1gui_1_1admin_1_1ImportPanel" ]
+    ] ],
+    [ "ImportWorker.java", "ImportWorker_8java.html", [
+      [ "ImportWorker", "classannis_1_1service_1_1internal_1_1ImportWorker.html", "classannis_1_1service_1_1internal_1_1ImportWorker" ]
+    ] ],
     [ "Inclusion.java", "Inclusion_8java.html", [
       [ "Inclusion", "classannis_1_1sqlgen_1_1model_1_1Inclusion.html", "classannis_1_1sqlgen_1_1model_1_1Inclusion" ]
     ] ],
@@ -599,6 +667,9 @@ var files =
     [ "Join.java", "Join_8java.html", [
       [ "Join", "classannis_1_1sqlgen_1_1model_1_1Join.html", "classannis_1_1sqlgen_1_1model_1_1Join" ]
     ] ],
+    [ "JSONSerializable.java", "JSONSerializable_8java.html", [
+      [ "JSONSerializable", "classannis_1_1gui_1_1docbrowser_1_1JSONSerializable.html", "classannis_1_1gui_1_1docbrowser_1_1JSONSerializable" ]
+    ] ],
     [ "KWICPanel.java", "KWICPanel_8java.html", [
       [ "KWICPanel", "classannis_1_1visualizers_1_1component_1_1KWICPanel.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel" ],
       [ "KWICInterface", "interfaceannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICInterface.html", "interfaceannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICInterface" ],
@@ -631,7 +702,7 @@ var files =
       [ "LimitOffsetClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1LimitOffsetClauseSqlGenerator_3_01T_01_4.html", "interfaceannis_1_1sqlgen_1_1LimitOffsetClauseSqlGenerator_3_01T_01_4" ]
     ] ],
     [ "LimitOffsetQueryData.java", "LimitOffsetQueryData_8java.html", [
-      [ "LimitOffsetQueryData", "classannis_1_1sqlgen_1_1LimitOffsetQueryData.html", "classannis_1_1sqlgen_1_1LimitOffsetQueryData" ]
+      [ "LimitOffsetQueryData", "classannis_1_1sqlgen_1_1extensions_1_1LimitOffsetQueryData.html", "classannis_1_1sqlgen_1_1extensions_1_1LimitOffsetQueryData" ]
     ] ],
     [ "ListAnnotationsSqlHelper.java", "ListAnnotationsSqlHelper_8java.html", [
       [ "ListAnnotationsSqlHelper", "classannis_1_1sqlgen_1_1ListAnnotationsSqlHelper.html", "classannis_1_1sqlgen_1_1ListAnnotationsSqlHelper" ]
@@ -733,7 +804,6 @@ var files =
     ] ],
     [ "MetaDataPanel.java", "MetaDataPanel_8java.html", [
       [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html", "classannis_1_1gui_1_1MetaDataPanel" ],
-      [ "AnnotationListType", "classannis_1_1gui_1_1MetaDataPanel_1_1AnnotationListType.html", "classannis_1_1gui_1_1MetaDataPanel_1_1AnnotationListType" ],
       [ "MetaTableNameGenerator", "classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableNameGenerator.html", "classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableNameGenerator" ],
       [ "MetaTableValueGenerator", "classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableValueGenerator.html", "classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableValueGenerator" ]
     ] ],
@@ -767,6 +837,10 @@ var files =
       [ "NodeWindow", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow" ],
       [ "ConstraintLayout", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1ConstraintLayout.html", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1ConstraintLayout" ],
       [ "SimpleNewItemHandler", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1SimpleNewItemHandler.html", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1SimpleNewItemHandler" ]
+    ] ],
+    [ "OnLoadCallbackExtension.java", "OnLoadCallbackExtension_8java.html", [
+      [ "OnLoadCallbackExtension", "classannis_1_1gui_1_1components_1_1OnLoadCallbackExtension.html", "classannis_1_1gui_1_1components_1_1OnLoadCallbackExtension" ],
+      [ "Callback", "interfaceannis_1_1gui_1_1components_1_1OnLoadCallbackExtension_1_1Callback.html", "interfaceannis_1_1gui_1_1components_1_1OnLoadCallbackExtension_1_1Callback" ]
     ] ],
     [ "OrderByClauseSqlGenerator.java", "OrderByClauseSqlGenerator_8java.html", [
       [ "OrderByClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1OrderByClauseSqlGenerator_3_01T_01_4.html", "interfaceannis_1_1sqlgen_1_1OrderByClauseSqlGenerator_3_01T_01_4" ]
@@ -862,9 +936,8 @@ var files =
     ] ],
     [ "QueryController.java", "QueryController_8java.html", [
       [ "QueryController", "classannis_1_1gui_1_1QueryController.html", "classannis_1_1gui_1_1QueryController" ],
-      [ "CountCallback", "classannis_1_1gui_1_1QueryController_1_1CountCallback.html", "classannis_1_1gui_1_1QueryController_1_1CountCallback" ],
-      [ "MatchCallback", "classannis_1_1gui_1_1QueryController_1_1MatchCallback.html", "classannis_1_1gui_1_1QueryController_1_1MatchCallback" ],
-      [ "MatchListType", "classannis_1_1gui_1_1QueryController_1_1MatchListType.html", "classannis_1_1gui_1_1QueryController_1_1MatchListType" ]
+      [ "SpecificPagingCallback", "classannis_1_1gui_1_1QueryController_1_1SpecificPagingCallback.html", "classannis_1_1gui_1_1QueryController_1_1SpecificPagingCallback" ],
+      [ "CountCallback", "classannis_1_1gui_1_1QueryController_1_1CountCallback.html", "classannis_1_1gui_1_1QueryController_1_1CountCallback" ]
     ] ],
     [ "QueryData.java", "QueryData_8java.html", [
       [ "QueryData", "classannis_1_1ql_1_1parser_1_1QueryData.html", "classannis_1_1ql_1_1parser_1_1QueryData" ]
@@ -881,7 +954,10 @@ var files =
     [ "QueryPanel.java", "QueryPanel_8java.html", [
       [ "QueryPanel", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel" ],
       [ "ShowResultClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener" ],
-      [ "ShowKeyboardClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener" ]
+      [ "ShowKeyboardClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener" ],
+      [ "ShowExportClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener" ],
+      [ "ShowFrequencyClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowFrequencyClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowFrequencyClickListener" ],
+      [ "ShowQueryBuilderClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowQueryBuilderClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowQueryBuilderClickListener" ]
     ] ],
     [ "QueryService.java", "QueryService_8java.html", [
       [ "QueryService", "interfaceannis_1_1service_1_1QueryService.html", "interfaceannis_1_1service_1_1QueryService" ]
@@ -904,6 +980,9 @@ var files =
     [ "RelannisEdgeFeature.java", "RelannisEdgeFeature_8java.html", [
       [ "RelannisEdgeFeature", "classannis_1_1model_1_1RelannisEdgeFeature.html", "classannis_1_1model_1_1RelannisEdgeFeature" ]
     ] ],
+    [ "RelANNISHelper.java", "RelANNISHelper_8java.html", [
+      [ "RelANNISHelper", "classannis_1_1utils_1_1RelANNISHelper.html", "classannis_1_1utils_1_1RelANNISHelper" ]
+    ] ],
     [ "RelannisNodeFeature.java", "RelannisNodeFeature_8java.html", [
       [ "RelannisNodeFeature", "classannis_1_1model_1_1RelannisNodeFeature.html", "classannis_1_1model_1_1RelannisNodeFeature" ]
     ] ],
@@ -923,7 +1002,12 @@ var files =
       [ "ElementType", "enumannis_1_1resolver_1_1ResolverEntry_1_1ElementType.html", "enumannis_1_1resolver_1_1ResolverEntry_1_1ElementType" ]
     ] ],
     [ "ResolverProvider.java", "ResolverProvider_8java.html", [
-      [ "ResolverProvider", "interfaceannis_1_1gui_1_1resultview_1_1ResolverProvider.html", "interfaceannis_1_1gui_1_1resultview_1_1ResolverProvider" ]
+      [ "ResolverProvider", "interfaceannis_1_1libgui_1_1ResolverProvider.html", "interfaceannis_1_1libgui_1_1ResolverProvider" ]
+    ] ],
+    [ "ResolverProviderImpl.java", "ResolverProviderImpl_8java.html", [
+      [ "ResolverProviderImpl", "classannis_1_1libgui_1_1ResolverProviderImpl.html", "classannis_1_1libgui_1_1ResolverProviderImpl" ],
+      [ "ResolverEntryListType", "classannis_1_1libgui_1_1ResolverProviderImpl_1_1ResolverEntryListType.html", "classannis_1_1libgui_1_1ResolverProviderImpl_1_1ResolverEntryListType" ],
+      [ "ResolverEntryComparator", "classannis_1_1libgui_1_1ResolverProviderImpl_1_1ResolverEntryComparator.html", "classannis_1_1libgui_1_1ResolverProviderImpl_1_1ResolverEntryComparator" ]
     ] ],
     [ "ResourcePlugin.java", "ResourcePlugin_8java.html", [
       [ "ResourcePlugin", "interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin.html", "interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin" ]
@@ -934,14 +1018,12 @@ var files =
     [ "ResourceServlet.java", "ResourceServlet_8java.html", [
       [ "ResourceServlet", "classannis_1_1gui_1_1servlets_1_1ResourceServlet.html", "classannis_1_1gui_1_1servlets_1_1ResourceServlet" ]
     ] ],
+    [ "ResultFetchThread.java", "ResultFetchThread_8java.html", [
+      [ "ResultFetchThread", "classannis_1_1gui_1_1ResultFetchThread.html", "classannis_1_1gui_1_1ResultFetchThread" ],
+      [ "MatchListType", "classannis_1_1gui_1_1ResultFetchThread_1_1MatchListType.html", "classannis_1_1gui_1_1ResultFetchThread_1_1MatchListType" ]
+    ] ],
     [ "ResultSetConverter.java", "ResultSetConverter_8java.html", [
       [ "ResultSetConverter< T >", "interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4.html", "interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4" ]
-    ] ],
-    [ "ResultSetPanel.java", "ResultSetPanel_8java.html", [
-      [ "ResultSetPanel", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel" ],
-      [ "AllResultsFetcher", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher.html", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1AllResultsFetcher" ],
-      [ "ResolverEntryListType", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType.html", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryListType" ],
-      [ "ResolverEntryComparator", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryComparator.html", "classannis_1_1gui_1_1resultview_1_1ResultSetPanel_1_1ResolverEntryComparator" ]
     ] ],
     [ "ResultSetTypedIterator.java", "ResultSetTypedIterator_8java.html", [
       [ "ResultSetTypedIterator< T >", "classannis_1_1sqlgen_1_1ResultSetTypedIterator_3_01T_01_4.html", "classannis_1_1sqlgen_1_1ResultSetTypedIterator_3_01T_01_4" ]
@@ -1055,7 +1137,8 @@ var files =
     ] ],
     [ "SingleResultPanel.java", "SingleResultPanel_8java.html", [
       [ "SingleResultPanel", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel" ],
-      [ "CoveredMatchesCalculator", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator" ]
+      [ "CoveredMatchesCalculator", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator" ],
+      [ "MinMax", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax" ]
     ] ],
     [ "SolutionKey.java", "SolutionKey_8java.html", [
       [ "SolutionKey< KeyType >", "interfaceannis_1_1sqlgen_1_1SolutionKey_3_01KeyType_01_4.html", "interfaceannis_1_1sqlgen_1_1SolutionKey_3_01KeyType_01_4" ]
@@ -1215,6 +1298,7 @@ var files =
     ] ],
     [ "VisualizerPanel.java", "VisualizerPanel_8java.html", [
       [ "VisualizerPanel", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel" ],
+      [ "BackgroundThread", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundThread.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundThread" ],
       [ "LoadComponentTask", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask" ],
       [ "ByteArrayOutputStreamSource", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource" ]
     ] ],

@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('classannis_1_1administration_1_1Defaul
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pac-methods">Package Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -154,13 +154,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae9fb68a8c21b99e41785b1230376069d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dacf2421a7c1fc72bca0ac04dd5f24f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a4dacf2421a7c1fc72bca0ac04dd5f24f">initializeDatabase</a> (String host, String port, String database, String user, String password, String defaultDatabase, String superUser, String superPassword, boolean useSSL)</td></tr>
 <tr class="separator:a4dacf2421a7c1fc72bca0ac04dd5f24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3d3516c79f37bbce4e67cbae09dbc0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ab3d3516c79f37bbce4e67cbae09dbc0a">importCorpus</a> (String path, boolean override)</td></tr>
-<tr class="memdesc:ab3d3516c79f37bbce4e67cbae09dbc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads relAnnis files from several directories.  <a href="#ab3d3516c79f37bbce4e67cbae09dbc0a">More...</a><br/></td></tr>
-<tr class="separator:ab3d3516c79f37bbce4e67cbae09dbc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b10dbdbc89618120ff1ceb0c860c142"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a0b10dbdbc89618120ff1ceb0c860c142">importCorpus</a> (String path, boolean override, boolean waitForOtherTasks)</td></tr>
+<tr class="memdesc:a0b10dbdbc89618120ff1ceb0c860c142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads relAnnis files from several directories.  <a href="#a0b10dbdbc89618120ff1ceb0c860c142">More...</a><br/></td></tr>
+<tr class="separator:a0b10dbdbc89618120ff1ceb0c860c142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45c88f0a0f9b0e7389e0573a7d6de3a2"><td class="memItemLeft" align="right" valign="top">List&lt; Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a45c88f0a0f9b0e7389e0573a7d6de3a2">listToplevelCorpora</a> ()</td></tr>
 <tr class="separator:a45c88f0a0f9b0e7389e0573a7d6de3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29cc9d5faed0fc019320a098445b8df9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a29cc9d5faed0fc019320a098445b8df9">deleteCorpora</a> (List&lt; Long &gt; ids)</td></tr>
-<tr class="separator:a29cc9d5faed0fc019320a098445b8df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c3d5884c9a3ff63d745cdcb8f771fa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a6c3d5884c9a3ff63d745cdcb8f771fa7">deleteCorpora</a> (List&lt; Long &gt; ids, boolean acquireLock)</td></tr>
+<tr class="separator:a6c3d5884c9a3ff63d745cdcb8f771fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38bc9246fa3dcdbce84509ea855785e1"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, Object &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a38bc9246fa3dcdbce84509ea855785e1">listCorpusStats</a> ()</td></tr>
 <tr class="separator:a38bc9246fa3dcdbce84509ea855785e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73537e499506aba77f688af0d21e36c6"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a73537e499506aba77f688af0d21e36c6">listUsedIndexes</a> ()</td></tr>
@@ -239,9 +239,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb3fbc8bc9eb9ca429d5211ac398c920 inherit pub_methods_interfaceannis_1_1administration_1_1AdministrationDao"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1security_1_1AnnisUserConfig.html">AnnisUserConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#adb3fbc8bc9eb9ca429d5211ac398c920">retrieveUserConfig</a> (String userName)</td></tr>
 <tr class="separator:adb3fbc8bc9eb9ca429d5211ac398c920 inherit pub_methods_interfaceannis_1_1administration_1_1AdministrationDao"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a85274d3cf3cc8f57cd52639a57c7b558"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a85274d3cf3cc8f57cd52639a57c7b558">CORPUS_CONFIG_FILE</a> = &quot;corpus.properties&quot;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a85274d3cf3cc8f57cd52639a57c7b558"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a85274d3cf3cc8f57cd52639a57c7b558">CORPUS_CONFIG_FILE</a> = &quot;corpus.properties&quot;</td></tr>
 <tr class="memdesc:a85274d3cf3cc8f57cd52639a57c7b558"><td class="mdescLeft">&#160;</td><td class="mdescRight">The corpus configuration is saved in the media files table.  <a href="#a85274d3cf3cc8f57cd52639a57c7b558">More...</a><br/></td></tr>
 <tr class="separator:a85274d3cf3cc8f57cd52639a57c7b558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -331,13 +331,12 @@ Package Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a861bf0ae21a33e474462a448f9cce16c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a861bf0ae21a33e474462a448f9cce16c">lockCorpusTable</a> (boolean waitForOtherTasks)</td></tr>
+<tr class="separator:a861bf0ae21a33e474462a448f9cce16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25a6a18eccadfe3979091013ff563832"><td class="memItemLeft" align="right" valign="top">DataSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a25a6a18eccadfe3979091013ff563832">createDataSource</a> (String host, String port, String database, String user, String password, boolean useSSL)</td></tr>
 <tr class="separator:a25a6a18eccadfe3979091013ff563832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a050affd72374a90cebe617e448429aae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a050affd72374a90cebe617e448429aae">bulkImportNode</a> (String path)</td></tr>
 <tr class="separator:a050affd72374a90cebe617e448429aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a051d36426812143816c1b8c541113e85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a051d36426812143816c1b8c541113e85">importSingleFile</a> (File file, long corpusRef)</td></tr>
-<tr class="memdesc:a051d36426812143816c1b8c541113e85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports a single binary file.  <a href="#a051d36426812143816c1b8c541113e85">More...</a><br/></td></tr>
-<tr class="separator:a051d36426812143816c1b8c541113e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a714d8ec1f831141b99570718065e14dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a714d8ec1f831141b99570718065e14dc">importSingleFile</a> (String file, long corpusRef)</td></tr>
 <tr class="memdesc:a714d8ec1f831141b99570718065e14dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports a single binary file.  <a href="#a714d8ec1f831141b99570718065e14dc">More...</a><br/></td></tr>
 <tr class="separator:a714d8ec1f831141b99570718065e14dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -419,11 +418,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a71318747c3d07916cad8f3c0559174c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1328d05299ec0c59cab253ae4bdeacf7"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a1328d05299ec0c59cab253ae4bdeacf7">tableInsertFrom</a></td></tr>
 <tr class="separator:a1328d05299ec0c59cab253ae4bdeacf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bb05d638fd25c23b96e5573f8f12a1e"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a6bb05d638fd25c23b96e5573f8f12a1e">REL_ANNIS_FILE_SUFFIX</a> = &quot;.tab&quot;</td></tr>
-<tr class="separator:a6bb05d638fd25c23b96e5573f8f12a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40a94c489c5a6ade64de7d114eb05c43"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a40a94c489c5a6ade64de7d114eb05c43">EXAMPLE_QUERIES_TAB</a> = &quot;example_queries&quot;</td></tr>
-<tr class="memdesc:a40a94c489c5a6ade64de7d114eb05c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional tab for example queries.  <a href="#a40a94c489c5a6ade64de7d114eb05c43">More...</a><br/></td></tr>
-<tr class="separator:a40a94c489c5a6ade64de7d114eb05c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85b411a3cd51fff247867168afded623"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a85b411a3cd51fff247867168afded623">importedTables</a></td></tr>
 <tr class="separator:a85b411a3cd51fff247867168afded623"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a403222e6626bd77547485d1b317b09d9"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a403222e6626bd77547485d1b317b09d9">tablesToCopyManually</a></td></tr>
@@ -443,6 +437,11 @@ Private Attributes</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:aad28ef2e77816429c10b3f717b0c64c1"><td class="memItemLeft" align="right" valign="top">static final Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#aad28ef2e77816429c10b3f717b0c64c1">log</a></td></tr>
 <tr class="separator:aad28ef2e77816429c10b3f717b0c64c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb05d638fd25c23b96e5573f8f12a1e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a6bb05d638fd25c23b96e5573f8f12a1e">REL_ANNIS_FILE_SUFFIX</a> = &quot;.tab&quot;</td></tr>
+<tr class="separator:a6bb05d638fd25c23b96e5573f8f12a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40a94c489c5a6ade64de7d114eb05c43"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a40a94c489c5a6ade64de7d114eb05c43">EXAMPLE_QUERIES_TAB</a> = &quot;example_queries&quot;</td></tr>
+<tr class="memdesc:a40a94c489c5a6ade64de7d114eb05c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional tab for example queries.  <a href="#a40a94c489c5a6ade64de7d114eb05c43">More...</a><br/></td></tr>
+<tr class="separator:a40a94c489c5a6ade64de7d114eb05c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd663d1345a78eae6dce56f8cfa88434"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#acd663d1345a78eae6dce56f8cfa88434">FILE_RESOLVER_VIS_MAP</a> = &quot;resolver_vis_map&quot;</td></tr>
 <tr class="memdesc:acd663d1345a78eae6dce56f8cfa88434"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the file and the relation containing the resolver information.  <a href="#acd663d1345a78eae6dce56f8cfa88434">More...</a><br/></td></tr>
 <tr class="separator:acd663d1345a78eae6dce56f8cfa88434"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1291,7 +1290,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a29cc9d5faed0fc019320a098445b8df9"></a>
+<a class="anchor" id="a6c3d5884c9a3ff63d745cdcb8f771fa7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1299,13 +1298,23 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">void annis.administration.DefaultAdministrationDao.deleteCorpora </td>
           <td>(</td>
           <td class="paramtype">List&lt; Long &gt;&#160;</td>
-          <td class="paramname"><em>ids</em></td><td>)</td>
+          <td class="paramname"><em>ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>acquireLock</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#ae1a21292c735ef2498e351b858738020">annis.administration.AdministrationDao</a>.</p>
+<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a99c5b5535a840b17be5a7692c18bf356">annis.administration.AdministrationDao</a>.</p>
 
 </div>
 </div>
@@ -1865,12 +1874,12 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab3d3516c79f37bbce4e67cbae09dbc0a"></a>
+<a class="anchor" id="a0b10dbdbc89618120ff1ceb0c860c142"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void annis.administration.DefaultAdministrationDao.importCorpus </td>
+          <td class="memname">boolean annis.administration.DefaultAdministrationDao.importCorpus </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -1879,7 +1888,13 @@ Static Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>overwrite</em>&#160;</td>
+          <td class="paramname"><em>overwrite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>waitForOtherTasks</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1894,11 +1909,13 @@ Static Private Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">path</td><td>Specifies the path to the corpora, which should be imported. </td></tr>
     <tr><td class="paramname">overwrite</td><td>If set to true conflicting top level corpora are deleted. </td></tr>
+    <tr><td class="paramname">waitForOtherTasks</td><td>If true wait for other tasks to finish, if false abort.</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful </dd></dl>
 
-<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a72fb5f5cc1c395e7b3dd4219b7330abc">annis.administration.AdministrationDao</a>.</p>
+<p>Implements <a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a0c9bf19677f7397bc7b4a1e53b8d4afa">annis.administration.AdministrationDao</a>.</p>
 
 </div>
 </div>
@@ -1963,49 +1980,6 @@ Static Private Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">path</td><td>The path to the relAnnis file. </td></tr>
     <tr><td class="paramname">table</td><td>The final table in the database of the resolver_vis_map table. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a051d36426812143816c1b8c541113e85"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void annis.administration.DefaultAdministrationDao.importSingleFile </td>
-          <td>(</td>
-          <td class="paramtype">File&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>corpusRef</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Imports a single binary file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">file</td><td>Specifies the file to be imported. </td></tr>
-    <tr><td class="paramname">corpusRef</td><td>Assigns the file this corpus. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2389,6 +2363,30 @@ Static Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a861bf0ae21a33e474462a448f9cce16c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean annis.administration.DefaultAdministrationDao.lockCorpusTable </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>waitForOtherTasks</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -2971,11 +2969,19 @@ Static Private Attributes</h2></td></tr>
 <a class="anchor" id="a85274d3cf3cc8f57cd52639a57c7b558"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">final String annis.administration.DefaultAdministrationDao.CORPUS_CONFIG_FILE = &quot;corpus.properties&quot;</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>The corpus configuration is saved in the media files table. </p>
@@ -3062,7 +3068,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3278,7 +3284,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3443,7 +3449,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1administration.html">administration</a></li><li class="navelem"><a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html">DefaultAdministrationDao</a></li>
-    <li class="footer">Generated on Tue Aug 6 2013 11:37:46 for ANNIS by
+    <li class="footer">Generated on Mon Oct 7 2013 17:07:02 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

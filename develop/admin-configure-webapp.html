@@ -235,7 +235,7 @@ tree</div></div>
 grid</div></div>
 </td></tr>
 <tr>
-<td><code>grid_tree</code> </td><td>a grid visualizing hierarchical tree annotations as ordered grid layers </td><td><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer.html">GridTreeVisualizer</a> </td><td><div class="image">
+<td><code>grid_tree</code> </td><td>a grid visualizing hierarchical tree annotations as ordered grid layers </td><td>GridTreeVisualizer </td><td><div class="image">
 <img src="grid_tree_vis.png" alt="grid_tree_vis.png"/>
 <div class="caption">
 grid_tree</div></div>
@@ -285,7 +285,7 @@ video</div></div>
 audio</div></div>
 </td></tr>
 <tr>
-<td><code>rst</code> and <code>rst_full</code> </td><td>imitates the RST-diagrams from the <a href="http://www.wagsoft.com/RSTTool/">RST-Tool</a> for a match or complete document</td><td><a class="el" href="classannis_1_1visualizers_1_1component_1_1rst_1_1RST.html">RST</a>/<a class="el" href="classannis_1_1visualizers_1_1component_1_1rst_1_1RSTFull.html">RSTFull</a> </td><td><div class="image">
+<td><code>rst</code> and <code>rstdoc</code> </td><td>imitates the RST-diagrams from the <a href="http://www.wagsoft.com/RSTTool/">RST-Tool</a> for a match or complete document</td><td><a class="el" href="classannis_1_1visualizers_1_1component_1_1rst_1_1RST.html">RST</a>/<a class="el" href="classannis_1_1visualizers_1_1component_1_1rst_1_1RSTFull.html">RSTFull</a> </td><td><div class="image">
 <img src="rst_vis.png" alt="rst_vis.png"/>
 <div class="caption">
 rst</div></div>
@@ -293,14 +293,39 @@ rst</div></div>
 </table>
 <h2><a class="anchor" id="admin-configure-visibility"></a>
 Visibility column</h2>
-<p>Some ANNIS visualizers require additional software, depending on whether or not they render graphics as an image directly in Java or not. At present, three visualizations require an installation of the freely available software GraphViz (<a href="http://www.graphviz.org/">http://www.graphviz.org/</a>): <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielRegularDependencyTree.html">ordered_dependency</a>, <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielDependecyTree.html">hierarchical_dependency</a> and the general <a class="el" href="classannis_1_1visualizers_1_1component_1_1graph_1_1DebugVisualizer.html">dot</a> visualization. To use these, install GraphViz on the server (or your local machine for Kickstarter) and make sure it is available in your system path (check this by calling e.g. the program <code>dot</code> on the command line). </p>
+<p>Some ANNIS visualizers require additional software, depending on whether or not they render graphics as an image directly in Java or not. At present, three visualizations require an installation of the freely available software GraphViz (<a href="http://www.graphviz.org/">http://www.graphviz.org/</a>): <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielRegularDependencyTree.html">ordered_dependency</a>, <a class="el" href="classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielDependecyTree.html">hierarchical_dependency</a> and the general <a class="el" href="classannis_1_1visualizers_1_1component_1_1graph_1_1DebugVisualizer.html">dot</a> visualization. To use these, install GraphViz on the server (or your local machine for Kickstarter) and make sure it is available in your system path (check this by calling e.g. the program <code>dot</code> on the command line).</p>
+<h2>Document Visualizer</h2>
+<p>It is also possible to use a custom visualizer for browsing a whole document. The configuration is in JSON-Syntax and placed in the corpus.properties file, which can be add to the ExtData directory of each corpus.</p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">        vis : [</div>
+<div class="line">                {type : <span class="stringliteral">&#39;htmldoc&#39;</span>, displayName : <span class="stringliteral">&#39;diplomatic view&#39;</span>},</div>
+<div class="line">                {type : <span class="stringliteral">&#39;rstdoc&#39;</span>, displayName : <span class="stringliteral">&#39;rst doc&#39;</span>, <span class="keyword">namespace</span>:<span class="stringliteral">&#39;rst&#39;</span>}</div>
+<div class="line">        ],</div>
+<div class="line">        metaDataColumns : [</div>
+<div class="line">                {<span class="keyword">namespace </span>: &#39;annis&#39;, name : &#39;Genre&#39;} <span class="comment">// optional</span></div>
+<div class="line">        ],</div>
+<div class="line">        orderBy : [</div>
+<div class="line">                { <span class="keyword">namespace </span>: &#39;annis&#39;, name :&#39;Titel&#39;, ascending : &#39;false&#39;}</div>
+<div class="line">        ]</div>
+<div class="line"></div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Explanation in detail:</p>
+<ul>
+<li>vis: All visualizer from the list above with the suffix "doc" in their name are suitable for using as doc visualizer.</li>
+</ul>
+<ul>
+<li>metaDataColumns (optional): For every defined metadata object an additional column is generated with the metadata key as column header and the metadata value as table cell value. The subfield 'namespace' is optional.</li>
+</ul>
+<ul>
+<li>orderBy (optional): In the default state the table is sorted by document name. But it's also possible to define a custom sort by the metadata fields, even if the column is not visible. 'namespace' and 'ascending' is optional. 'ascending' its default setting is 'true'. </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="admin.html">Administration</a></li>
-    <li class="footer">Generated on Tue Aug 6 2013 11:37:46 for ANNIS by
+    <li class="footer">Generated on Mon Oct 7 2013 17:07:02 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

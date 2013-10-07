@@ -9,6 +9,7 @@ var interfaceannis_1_1dao_1_1AnnisDao =
     [ "explain", "interfaceannis_1_1dao_1_1AnnisDao.html#a1c529623cd34e54595c96b0348515b3e", null ],
     [ "find", "interfaceannis_1_1dao_1_1AnnisDao.html#a26e1e6111f0f482f512749ef59ac28dd", null ],
     [ "find", "interfaceannis_1_1dao_1_1AnnisDao.html#a507f1c0fe9b84b0f01d6973b87dae031", null ],
+    [ "frequency", "interfaceannis_1_1dao_1_1AnnisDao.html#ad9112c4a4dc240469e27a5e5b6092c54", null ],
     [ "getBinary", "interfaceannis_1_1dao_1_1AnnisDao.html#ad1b1a7ef3a25893020ecaa0fd550b8ff", null ],
     [ "getBinaryComplete", "interfaceannis_1_1dao_1_1AnnisDao.html#aea3806455cddaa2fcdae10c54ed67d26", null ],
     [ "getBinaryMeta", "interfaceannis_1_1dao_1_1AnnisDao.html#a2e39f9f72d49c77cfeee423348c23e05", null ],

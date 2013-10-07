@@ -8,6 +8,7 @@ var classannis_1_1gui_1_1CorpusBrowserPanel =
     [ "fetchAnnos", "classannis_1_1gui_1_1CorpusBrowserPanel.html#a6c8195d5f23c603ef339574d7dc23b60", null ],
     [ "getFirst", "classannis_1_1gui_1_1CorpusBrowserPanel.html#adaa5e0dd0996b1dad682121e40788ab8", null ],
     [ "killNamespace", "classannis_1_1gui_1_1CorpusBrowserPanel.html#ad704a1e6f18468fc0c8d65e0ffbf3962", null ],
+    [ "placeEmptyLabel", "classannis_1_1gui_1_1CorpusBrowserPanel.html#aaa9d7e2eea15622b56580142bf5e165e", null ],
     [ "citationGenerator", "classannis_1_1gui_1_1CorpusBrowserPanel.html#ac541046484d274dfd237640d13190b28", null ],
     [ "containerEdgeAnno", "classannis_1_1gui_1_1CorpusBrowserPanel.html#a11ea17b4d77f608793b1dc73976c58de", null ],
     [ "containerEdgeType", "classannis_1_1gui_1_1CorpusBrowserPanel.html#adcafa9721d046d6fea9fb9f511f4785a", null ],

@@ -1,5 +1,6 @@
 var classannis_1_1model_1_1QueryAnnotation =
 [
+    [ "QueryAnnotation", "classannis_1_1model_1_1QueryAnnotation.html#a6d7149f4cb3d222b1e44a6b2ff02806c", null ],
     [ "QueryAnnotation", "classannis_1_1model_1_1QueryAnnotation.html#a3456a30c99197d182aa576f9ba4aa1f3", null ],
     [ "QueryAnnotation", "classannis_1_1model_1_1QueryAnnotation.html#a2ab2667344b89d75528dc0f3c8f72440", null ],
     [ "QueryAnnotation", "classannis_1_1model_1_1QueryAnnotation.html#a4775bc49d92b9595530508a63e7848fd", null ],

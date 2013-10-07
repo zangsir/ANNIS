@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('classannis_1_1visualizers_1_1component
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent-members.html">List of all members</a>  </div>
@@ -147,6 +148,12 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a137be661456646987be126a59fd44b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81ef37e526c8755610e25b48699a50e0"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#a81ef37e526c8755610e25b48699a50e0">MAPPING_TOK_ANNOS_KEY</a> = &quot;tok_anno&quot;</td></tr>
 <tr class="separator:a81ef37e526c8755610e25b48699a50e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2c75fbaf3c99c1378725c98b25ca3f6b"><td class="memItemLeft" align="right" valign="top">Long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#a2c75fbaf3c99c1378725c98b25ca3f6b">markCoveredTokens</a> (Map&lt; SNode, Long &gt; markedAndCovered, SToken tok)</td></tr>
+<tr class="memdesc:a2c75fbaf3c99c1378725c98b25ca3f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a token is covered by a matched node but not a match by it self.  <a href="#a2c75fbaf3c99c1378725c98b25ca3f6b">More...</a><br/></td></tr>
+<tr class="separator:a2c75fbaf3c99c1378725c98b25ca3f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -192,6 +199,51 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a2c75fbaf3c99c1378725c98b25ca3f6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Long annis.visualizers.component.grid.GridVisualizer.GridVisualizerComponent.markCoveredTokens </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; SNode, Long &gt;&#160;</td>
+          <td class="paramname"><em>markedAndCovered</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SToken&#160;</td>
+          <td class="paramname"><em>tok</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if a token is covered by a matched node but not a match by it self. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">markedAndCovered</td><td>A mapping from node to a matched number. The node must not matched directly, but covered by a matched node. </td></tr>
+    <tr><td class="paramname">tok</td><td>the checked token. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns null, if token is not covered neither marked. </dd></dl>
 
 </div>
 </div>
@@ -274,7 +326,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= LoggerFactory.getLogger(</div>
-<div class="line">            <a class="code" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#acef415fac1ad6b7046bfbb1002912a67">GridVisualizerComponent</a>.class)</div>
+<div class="line">                <a class="code" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#acef415fac1ad6b7046bfbb1002912a67">GridVisualizerComponent</a>.class)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -367,7 +419,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers.html">visualizers</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1component.html">component</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1component_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html">GridVisualizer</a></li><li class="navelem"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html">GridVisualizerComponent</a></li>
-    <li class="footer">Generated on Tue Aug 6 2013 11:37:48 for ANNIS by
+    <li class="footer">Generated on Mon Oct 7 2013 17:07:04 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

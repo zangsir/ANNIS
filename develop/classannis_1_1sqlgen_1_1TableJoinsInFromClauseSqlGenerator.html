@@ -139,8 +139,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a1af056f72dbca07f6fb40bfe7a201153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7fc798c2d974090fdcc22e5697a6f2b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1sqlgen_1_1TableJoinsInFromClauseSqlGenerator.html#ac7fc798c2d974090fdcc22e5697a6f2b">joinDefinition</a> (<a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> node, String table, String column, String joinedTable, String joinedColumn, boolean leftJoin)</td></tr>
 <tr class="separator:ac7fc798c2d974090fdcc22e5697a6f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18bdf52e63524ad1f50a37b26e7fdb1f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1sqlgen_1_1TableJoinsInFromClauseSqlGenerator.html#a18bdf52e63524ad1f50a37b26e7fdb1f">joinDefinition</a> (<a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> node, String table, String column, String joinedTable, String joinedColumn, int count)</td></tr>
-<tr class="separator:a18bdf52e63524ad1f50a37b26e7fdb1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99dcedca678ddbb08e9fb0b28a4e1a3b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1sqlgen_1_1TableJoinsInFromClauseSqlGenerator.html#a99dcedca678ddbb08e9fb0b28a4e1a3b">joinDefinition</a> (<a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> node, String table, String column, String joinedTable, String joinedColumn, int count, boolean leftJoin)</td></tr>
 <tr class="separator:a99dcedca678ddbb08e9fb0b28a4e1a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classannis_1_1sqlgen_1_1AbstractFromClauseGenerator"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classannis_1_1sqlgen_1_1AbstractFromClauseGenerator')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classannis_1_1sqlgen_1_1AbstractFromClauseGenerator.html">annis.sqlgen.AbstractFromClauseGenerator</a></td></tr>
@@ -149,6 +147,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="inherit_header pro_methods_classannis_1_1sqlgen_1_1TableAccessStrategyFactory"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classannis_1_1sqlgen_1_1TableAccessStrategyFactory')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classannis_1_1sqlgen_1_1TableAccessStrategyFactory.html">annis.sqlgen.TableAccessStrategyFactory</a></td></tr>
 <tr class="memitem:a733c7530bf8f370d263b47479c37ebd2 inherit pro_methods_classannis_1_1sqlgen_1_1TableAccessStrategyFactory"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1sqlgen_1_1TableAccessStrategy.html">TableAccessStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1sqlgen_1_1TableAccessStrategyFactory.html#a733c7530bf8f370d263b47479c37ebd2">createTableAccessStrategy</a> ()</td></tr>
 <tr class="separator:a733c7530bf8f370d263b47479c37ebd2 inherit pro_methods_classannis_1_1sqlgen_1_1TableAccessStrategyFactory"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classannis_1_1sqlgen_1_1AbstractFromClauseGenerator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classannis_1_1sqlgen_1_1AbstractFromClauseGenerator')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classannis_1_1sqlgen_1_1AbstractFromClauseGenerator.html">annis.sqlgen.AbstractFromClauseGenerator</a></td></tr>
+<tr class="memitem:a59bfbd032dcb57608c9789a293ab8e6a inherit pub_static_methods_classannis_1_1sqlgen_1_1AbstractFromClauseGenerator"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1sqlgen_1_1AbstractFromClauseGenerator.html#a59bfbd032dcb57608c9789a293ab8e6a">tableAliasDefinition</a> (Map&lt; String, String &gt; tableAliases, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> node, String table, int count)</td></tr>
+<tr class="separator:a59bfbd032dcb57608c9789a293ab8e6a inherit pub_static_methods_classannis_1_1sqlgen_1_1AbstractFromClauseGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a5b0be1a115eda17771f40817388d44af"></a>
@@ -319,64 +323,6 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a18bdf52e63524ad1f50a37b26e7fdb1f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">String annis.sqlgen.TableJoinsInFromClauseSqlGenerator.joinDefinition </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>&#160;</td>
-          <td class="paramname"><em>node</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>column</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>joinedTable</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>joinedColumn</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a99dcedca678ddbb08e9fb0b28a4e1a3b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -450,7 +396,7 @@ Protected Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1sqlgen.html">sqlgen</a></li><li class="navelem"><a class="el" href="classannis_1_1sqlgen_1_1TableJoinsInFromClauseSqlGenerator.html">TableJoinsInFromClauseSqlGenerator</a></li>
-    <li class="footer">Generated on Tue Aug 6 2013 11:37:48 for ANNIS by
+    <li class="footer">Generated on Mon Oct 7 2013 17:07:04 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

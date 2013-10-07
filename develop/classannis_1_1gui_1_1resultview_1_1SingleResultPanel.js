@@ -1,11 +1,13 @@
 var classannis_1_1gui_1_1resultview_1_1SingleResultPanel =
 [
     [ "CoveredMatchesCalculator", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator" ],
+    [ "MinMax", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax" ],
     [ "SingleResultPanel", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a398570d30d5fa13062b64922d5790e63", null ],
     [ "buttonClick", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aeb8ed76864680a34e7e97629266c7dce", null ],
     [ "calculateHelperVariables", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a5882ca87c6d4d797b56c5962ad7dca79", null ],
     [ "calculateMarkedAndCoveredIDs", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a16238f3d6abd224505262b93d3063c8b", null ],
     [ "calulcateColorsForMarkedAndCoverd", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#ae8c31f93aec1d083e14a222f68114e61", null ],
+    [ "getIds", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a3e6a5969c20ffc9ec2e32d7b2638bd2f", null ],
     [ "setSegmentationLayer", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#ad8bc78aa204a3fca676307e478c066d8", null ],
     [ "setVisibleTokenAnnosVisible", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#ae907330f003e5c9706cc12739028a491", null ],
     [ "btInfo", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aa69403e44ee2efe514f97af9d71b9aa5", null ],

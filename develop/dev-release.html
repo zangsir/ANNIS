@@ -103,39 +103,71 @@ $(document).ready(function(){initNavTree('dev-release.html','');});
 <div class="title">Making a new ANNIS release </div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#dev-release-general">General techniques </a><ul><li class="level2"><a href="#dev-release-version-update">Updating the version </a></li>
+<li class="level2"><a href="#dev-release-changelog">Creating a changelog entry </a></li>
+</ul>
+</li>
+<li class="level1"><a href="#dev-release-cycle">Release Cycle </a><ul><li class="level2"><a href="#dev-release-init">Initialization phase </a></li>
+<li class="level2"><a href="#dev-release-test">Testing cycle </a></li>
+<li class="level2"><a href="#dev-release-finish">Finish phase </a></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="textblock"><dl class="section warning"><dt>Warning</dt><dd>This is work and progress and will be improved as more releases we perform.</dd></dl>
 <p>Unfurtunally this requires some manual work. We used to invoke the Maven Release plugin in the process, but the only real usefull task was the version update and we still needed to do a lot of manual work. Thus we decided to write down the necessary steps to perform a new ANNIS release instead of relaying to a half-working solution with the Maven Release plugin.</p>
+<p>The release process might take several days and includes fixing bugs that are only discovered in the release testing process. <b>Never ever add new features in this release process</b>, there is the separate "develop" branch which you can use for this purposes.</p>
+<h1><a class="anchor" id="dev-release-general"></a>
+General techniques </h1>
+<h2><a class="anchor" id="dev-release-version-update"></a>
+Updating the version </h2>
 <ol type="1">
-<li>Update the licenses in the <code>THIRD-PARTY</code> folder and commit/push to master <div class="fragment"><div class="line">mvn license:add-third-party</div>
-<div class="line">mvn license:download-licenses</div>
+<li>Update the parent pom.xml and set the version there</li>
+<li>execute <div class="fragment"><div class="line">mvn -N versions:update-child-modules</div>
 </div><!-- fragment --></li>
-<li>Add new changelog entry. There is a helper script in the <code>Misc</code> folder to make this easier<ol type="a">
+<li>Set the <code>ANNIS_VERSION</code> variable in the <code>buildbot_scripts/copyService.sh</code> script file.</li>
+<li>Set the <code>PROJECT_NUMBER</code> variable in the <code>doc/Doxyfile</code> documentation descriptor file.</li>
+</ol>
+<h2><a class="anchor" id="dev-release-changelog"></a>
+Creating a changelog entry </h2>
+<ol type="1">
 <li>Get the GitHub Milestone id associated the release (is visible in the URL if you view the issues of the release tracking milestone).</li>
 <li>replace the ID in the <code>Misc/changelog.py</code> script</li>
 <li>execute this script</li>
-<li>check the output, if something is missing create an enhancement issue in GitHub and repeat the script execution</li>
 <li>add the output to the <code>CHANGELOG</code> file</li>
 </ol>
-</li>
-<li>Make and switch to a new <em>local</em> branch for the release in git. Do not push this branch to a remote location since you may want to throw it away when the testing of the temporary release unveils release critical problems. Normally commit the changes after each major step.</li>
-<li>Update the version information<ol type="a">
-<li>Internal version information in pom.xml files <div class="fragment"><div class="line">mvn release:update-versions -DautoVersionSubmodules=<span class="keyword">true</span></div>
+<h1><a class="anchor" id="dev-release-cycle"></a>
+Release Cycle </h1>
+<h2><a class="anchor" id="dev-release-init"></a>
+Initialization phase </h2>
+<ol type="1">
+<li>Make a new branch for the release in the GitHub main repository named with the complete release number Normally commit and push the changes after each major step.</li>
+<li>Update the version as described in the <a class="el" href="dev-release.html#dev-release-version-update">general techniques section</a></li>
+<li>Update the licenses in the <code>THIRD-PARTY</code> folder and commit/push to release branch <div class="fragment"><div class="line">mvn license:add-third-party</div>
+<div class="line">mvn license:download-licenses</div>
 </div><!-- fragment --></li>
-<li>The <code>ANNIS_VERSION</code> variable in the <code>buildbot_scripts/copyService.sh</code> script file.</li>
-<li>The <code>PROJECT_NUMBER</code> variable in the <code>doc/Doxyfile</code> documentation descriptor file.</li>
+<li>Add new changelog entry as described in the <a class="el" href="dev-release.html#dev-release-changelog">general techniques section</a>, if some important information is missing create an enhancement issue in GitHub and repeat</li>
 </ol>
-</li>
-<li>Regenerate this documentation. <div class="fragment"><div class="line">cd doc/</div>
-<div class="line">doxygen</div>
-<div class="line">cd ..</div>
-</div><!-- fragment --></li>
+<h2><a class="anchor" id="dev-release-test"></a>
+Testing cycle </h2>
+<ol type="1">
 <li>Build the complete project <em>with</em> tests. <div class="fragment"><div class="line">mvn clean</div>
 <div class="line">mvn install</div>
 </div><!-- fragment --></li>
-<li>Do manual tests.</li>
+<li>Do manual tests. If you have to fix any bug document it in the issue tracker, <a class="el" href="dev-release.html#dev-release-changelog">update the changelog</a> and start over at step 1. If no bugs are left to fix go to the next section.</li>
+</ol>
+<h2><a class="anchor" id="dev-release-finish"></a>
+Finish phase </h2>
+<ol type="1">
 <li>Tag the release and merge it into the <code>master</code> branch, publish the new <code>master</code> branch</li>
 <li>Deploy release to our Maven server <div class="fragment"><div class="line">mvn deploy</div>
-</div><!-- fragment --> </li>
+</div><!-- fragment --></li>
+<li>Regenerate this documentation and copy it to the github page (via the gh-page repository) <div class="fragment"><div class="line">cd doc/</div>
+<div class="line">doxygen</div>
+<div class="line">cd ..</div>
+</div><!-- fragment --></li>
+<li>Reintegrate the "master" branch into the "develop" branch and set the "develop" branch to the <a class="el" href="dev-release.html#dev-release-version-update">next SNAPSHOT version</a> </li>
 </ol>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -143,7 +175,7 @@ $(document).ready(function(){initNavTree('dev-release.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ANNIS</a></li><li class="navelem"><a class="el" href="dev.html">Developing</a></li>
-    <li class="footer">Generated on Tue Aug 6 2013 11:37:46 for ANNIS by
+    <li class="footer">Generated on Mon Oct 7 2013 17:07:02 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

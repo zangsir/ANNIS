@@ -146,6 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a07c59fbb4aa3b9b1cf7e9ac79953d930"><td class="memItemLeft" align="right" valign="top">StreamingOutput&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a07c59fbb4aa3b9b1cf7e9ac79953d930">matrix</a> (final @QueryParam(&quot;q&quot;) String query, final @QueryParam(&quot;corpora&quot;) String rawCorpusNames,@QueryParam(&quot;metakeys&quot;) String rawMetaKeys)</td></tr>
 <tr class="memdesc:a07c59fbb4aa3b9b1cf7e9ac79953d930"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get result as matrix in WEKA (ARFF) format.  <a href="#a07c59fbb4aa3b9b1cf7e9ac79953d930">More...</a><br/></td></tr>
 <tr class="separator:a07c59fbb4aa3b9b1cf7e9ac79953d930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b6d820042260dd26d826823870e2b68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1service_1_1objects_1_1FrequencyTable.html">FrequencyTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a9b6d820042260dd26d826823870e2b68">frequency</a> (@QueryParam(&quot;q&quot;) String query,@QueryParam(&quot;corpora&quot;) String rawCorpusNames,@QueryParam(&quot;fields&quot;) String rawFields)</td></tr>
+<tr class="memdesc:a9b6d820042260dd26d826823870e2b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency analysis.  <a href="#a9b6d820042260dd26d826823870e2b68">More...</a><br/></td></tr>
+<tr class="separator:a9b6d820042260dd26d826823870e2b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecb83d3017f9d618faa99006aff5b920"><td class="memItemLeft" align="right" valign="top">SaltProject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#aecb83d3017f9d618faa99006aff5b920">subgraph</a> (final <a class="el" href="classannis_1_1service_1_1objects_1_1SubgraphQuery.html">SubgraphQuery</a> query)</td></tr>
 <tr class="memdesc:aecb83d3017f9d618faa99006aff5b920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a graph as <a class="el" href="">SaltProject</a> of a set of Salt IDs.  <a href="#aecb83d3017f9d618faa99006aff5b920">More...</a><br/></td></tr>
 <tr class="separator:aecb83d3017f9d618faa99006aff5b920"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,6 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b43eb6a17582c2a522c5fefb9627b75"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a9b43eb6a17582c2a522c5fefb9627b75">check</a> (@QueryParam(&quot;q&quot;) String query)</td></tr>
 <tr class="memdesc:a9b43eb6a17582c2a522c5fefb9627b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if this is a valid query or throw exception when invalid.  <a href="#a9b43eb6a17582c2a522c5fefb9627b75">More...</a><br/></td></tr>
 <tr class="separator:a9b43eb6a17582c2a522c5fefb9627b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3988905777e7f59da54390c0b327830"><td class="memItemLeft" align="right" valign="top">Response&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#aa3988905777e7f59da54390c0b327830">parseNodes</a> (@QueryParam(&quot;q&quot;) String query)</td></tr>
+<tr class="memdesc:aa3988905777e7f59da54390c0b327830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the list of the query nodes if this is a valid query or throw exception when invalid.  <a href="#aa3988905777e7f59da54390c0b327830">More...</a><br/></td></tr>
+<tr class="separator:aa3988905777e7f59da54390c0b327830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa678e7c174638df8aaf57da873116c36"><td class="memItemLeft" align="right" valign="top">Response&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#aa678e7c174638df8aaf57da873116c36">binary1</a> (@PathParam(&quot;top&quot;) String toplevelCorpusName,@PathParam(&quot;document&quot;) String corpusName,@PathParam(&quot;offset&quot;) String rawOffset,@PathParam(&quot;length&quot;) String rawLength)</td></tr>
 <tr class="separator:aa678e7c174638df8aaf57da873116c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f6aed90a2e7e36565ac987828271d0"><td class="memItemLeft" align="right" valign="top">Response&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a88f6aed90a2e7e36565ac987828271d0">binary2</a> (@PathParam(&quot;top&quot;) String toplevelCorpusName,@PathParam(&quot;document&quot;) String corpusName)</td></tr>
@@ -778,6 +784,46 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 
 </div>
 </div>
+<a class="anchor" id="a9b6d820042260dd26d826823870e2b68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classannis_1_1service_1_1objects_1_1FrequencyTable.html">FrequencyTable</a> annis.service.internal.QueryServiceImpl.frequency </td>
+          <td>(</td>
+          <td class="paramtype">@QueryParam(&quot;q&quot;) String&#160;</td>
+          <td class="paramname"><em>query</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@QueryParam(&quot;corpora&quot;) String&#160;</td>
+          <td class="paramname"><em>rawCorpusNames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@QueryParam(&quot;fields&quot;) String&#160;</td>
+          <td class="paramname"><em>rawFields</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Frequency analysis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rawFields</td><td>Comma seperated list of result vector elements. Each element has the form &lt;node-nr&gt;:&lt;anno-name&gt;. The annotation name can be set to "tok" to indicate that the span should be used instead of an annotation. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="adc4db446b6fbf438644963143f42290c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1151,6 +1197,31 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 </div><div class="memdoc">
 
 <p>Get result as matrix in WEKA (ARFF) format. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa3988905777e7f59da54390c0b327830"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Response annis.service.internal.QueryServiceImpl.parseNodes </td>
+          <td>(</td>
+          <td class="paramtype">@QueryParam(&quot;q&quot;) String&#160;</td>
+          <td class="paramname"><em>query</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the list of the query nodes if this is a valid query or throw exception when invalid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">query</td><td>Query to get the query nodes for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -1641,7 +1712,7 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service.html">service</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service_1_1internal.html">internal</a></li><li class="navelem"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html">QueryServiceImpl</a></li>
-    <li class="footer">Generated on Tue Aug 6 2013 11:37:47 for ANNIS by
+    <li class="footer">Generated on Mon Oct 7 2013 17:07:03 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -3,6 +3,7 @@ var namespaceannis_1_1visualizers_1_1component =
     [ "dependency", "namespaceannis_1_1visualizers_1_1component_1_1dependency.html", "namespaceannis_1_1visualizers_1_1component_1_1dependency" ],
     [ "graph", "namespaceannis_1_1visualizers_1_1component_1_1graph.html", "namespaceannis_1_1visualizers_1_1component_1_1graph" ],
     [ "grid", "namespaceannis_1_1visualizers_1_1component_1_1grid.html", "namespaceannis_1_1visualizers_1_1component_1_1grid" ],
+    [ "gridtree", "namespaceannis_1_1visualizers_1_1component_1_1gridtree.html", "namespaceannis_1_1visualizers_1_1component_1_1gridtree" ],
     [ "pdf", "namespaceannis_1_1visualizers_1_1component_1_1pdf.html", "namespaceannis_1_1visualizers_1_1component_1_1pdf" ],
     [ "rst", "namespaceannis_1_1visualizers_1_1component_1_1rst.html", "namespaceannis_1_1visualizers_1_1component_1_1rst" ],
     [ "tree", "namespaceannis_1_1visualizers_1_1component_1_1tree.html", "namespaceannis_1_1visualizers_1_1component_1_1tree" ],

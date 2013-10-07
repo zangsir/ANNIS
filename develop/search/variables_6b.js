@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['key',['key',['../classannis_1_1dao_1_1AnnotatedSpan.html#ac1edfd334f98d3b16db3b1dc7207a4f3',1,'annis::dao::AnnotatedSpan']]],
+  ['key',['key',['../classannis_1_1service_1_1objects_1_1FrequencyTableEntry.html#a7f587669f305a51006834f6851d53c05',1,'annis.service.objects.FrequencyTableEntry.key()'],['../classannis_1_1dao_1_1objects_1_1AnnotatedSpan.html#a7b37bdeddbfc3813513edc04a03bfb9d',1,'annis.dao.objects.AnnotatedSpan.key()']]],
   ['key2value',['key2value',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1FastInverseMap_3_01KeyType_00_01ValueType_01_4.html#a7059af5ba2bb6a35f1097a813c42292f',1,'annis::sqlgen::SaltAnnotateExtractor::FastInverseMap&lt; KeyType, ValueType &gt;']]],
   ['key_5fcontext_5fsteps',['KEY_CONTEXT_STEPS',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a446d7726fb3d9d476ae4e72c8e86942c',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['key_5fdefault_5fbase_5ftext_5fsegmentation',['KEY_DEFAULT_BASE_TEXT_SEGMENTATION',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a7b5aedc50b5e77620f7aae8171669f21',1,'annis::gui::controlpanel::SearchOptionsPanel']]],

@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid =
 [
+    [ "AnnotationGrid", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a2d54dc7cbfd74751d872be3d541de0a6", null ],
+    [ "AnnotationGrid", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a1647bf21614b36922f8ea466a918e41c", null ],
     [ "AnnotationGrid", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a817169f6254992a5de2c411809a22776", null ],
     [ "changeVariables", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#ab0e41cfa45e34c45f9b43e05e5a7e78f", null ],
     [ "getRowsByAnnotation", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a37218000f9c3e29614baaad07bf13b8a", null ],
@@ -12,5 +14,6 @@ var classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid =
     [ "pdfController", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a97cd447d7de81e40ed05fa3241289f4a", null ],
     [ "resultID", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#aa28859e0d51320b97311de226d408d51", null ],
     [ "rowsByAnnotation", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a4a1c11277c86d4ac4132b6c96f1965e2", null ],
-    [ "tokenIndexOffset", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a8a19f54e464772a8750e99a35caba659", null ]
+    [ "tokenIndexOffset", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a8a19f54e464772a8750e99a35caba659", null ],
+    [ "tokRowKey", "classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#ae25fb688cf4f423ed2d31caa3fd5de0a", null ]
 ];

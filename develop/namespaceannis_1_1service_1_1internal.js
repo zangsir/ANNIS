@@ -1,7 +1,8 @@
 var namespaceannis_1_1service_1_1internal =
 [
-    [ "AdminService", "classannis_1_1service_1_1internal_1_1AdminService.html", "classannis_1_1service_1_1internal_1_1AdminService" ],
+    [ "AdminServiceImpl", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html", "classannis_1_1service_1_1internal_1_1AdminServiceImpl" ],
     [ "AnnisServiceRunner", "classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html", "classannis_1_1service_1_1internal_1_1AnnisServiceRunner" ],
+    [ "ImportWorker", "classannis_1_1service_1_1internal_1_1ImportWorker.html", "classannis_1_1service_1_1internal_1_1ImportWorker" ],
     [ "MetadataServiceImpl", "classannis_1_1service_1_1internal_1_1MetadataServiceImpl.html", "classannis_1_1service_1_1internal_1_1MetadataServiceImpl" ],
     [ "QueryServiceImpl", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html", "classannis_1_1service_1_1internal_1_1QueryServiceImpl" ]
 ];

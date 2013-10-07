@@ -126,12 +126,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9dd37c82371542f162efc52b72ea035c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af50250bdcb91cf3dcb256b3f6aa5b919"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#af50250bdcb91cf3dcb256b3f6aa5b919">initializeDatabase</a> (String host, String port, String database, String user, String password, String defaultDatabase, String superUser, String superPassword, boolean useSSL)</td></tr>
 <tr class="separator:af50250bdcb91cf3dcb256b3f6aa5b919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac52b65c24ffbb5df3b1ca9a1c082efd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#ac52b65c24ffbb5df3b1ca9a1c082efd0">importCorpora</a> (List&lt; String &gt; paths, boolean overwrite)</td></tr>
-<tr class="separator:ac52b65c24ffbb5df3b1ca9a1c082efd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e531b98e311425cfe0a041909671bf"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#aa4e531b98e311425cfe0a041909671bf">importCorporaSave</a> (boolean overwrite, String statusEmailAdress, boolean waitForOtherTasks, List&lt; String &gt; paths)</td></tr>
+<tr class="memdesc:aa4e531b98e311425cfe0a041909671bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports several corpora and catches a possible thrown <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException.html">DefaultAdministrationDao.ConflictingCorpusException</a> when the overwrite flag is set to false.  <a href="#aa4e531b98e311425cfe0a041909671bf">More...</a><br/></td></tr>
+<tr class="separator:aa4e531b98e311425cfe0a041909671bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b5291caed36c1ebadadf50f19b21af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#ab5b5291caed36c1ebadadf50f19b21af">sendStatusMail</a> (String adress, String corpusPath, ImportJob.Status status, String additionalInfo)</td></tr>
+<tr class="separator:ab5b5291caed36c1ebadadf50f19b21af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875f51a546795e05a33c94be88c6e194"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a875f51a546795e05a33c94be88c6e194">checkDatabaseSchemaVersion</a> ()</td></tr>
 <tr class="separator:a875f51a546795e05a33c94be88c6e194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bbd757bf786903c50929817acccbd07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a9bbd757bf786903c50929817acccbd07">importCorpora</a> (String...paths)</td></tr>
-<tr class="separator:a9bbd757bf786903c50929817acccbd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeccc4f632d1ee7a3384a035a0b8e73be"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#aeccc4f632d1ee7a3384a035a0b8e73be">importCorporaSave</a> (boolean overwrite, String statusEmailAdress, boolean waitForOtherTasks, String...paths)</td></tr>
+<tr class="memdesc:aeccc4f632d1ee7a3384a035a0b8e73be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports several corpora.  <a href="#aeccc4f632d1ee7a3384a035a0b8e73be">More...</a><br/></td></tr>
+<tr class="separator:aeccc4f632d1ee7a3384a035a0b8e73be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b4412ea5fc2778dba438080256b1d7"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, Object &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a26b4412ea5fc2778dba438080256b1d7">listCorpusStats</a> ()</td></tr>
 <tr class="separator:a26b4412ea5fc2778dba438080256b1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a441b7c5e42f6370afbbaa2cb7359a361"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a441b7c5e42f6370afbbaa2cb7359a361">listUsedIndexes</a> ()</td></tr>
@@ -142,6 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4184789b73153cd1537def279d48c2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70415d30cefd42fa21ac03e50e5a1e28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a70415d30cefd42fa21ac03e50e5a1e28">setAdministrationDao</a> (<a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html">AdministrationDao</a> <a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a2e7a06d639aa81871e85b733142dd022">administrationDao</a>)</td></tr>
 <tr class="separator:a70415d30cefd42fa21ac03e50e5a1e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8edca0b3cf6ebdd2cb0cc20f880dae"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a3d8edca0b3cf6ebdd2cb0cc20f880dae">getStatusMailSender</a> ()</td></tr>
+<tr class="separator:a3d8edca0b3cf6ebdd2cb0cc20f880dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd25f5f0c39e6127ca232a16cf41c70a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#acd25f5f0c39e6127ca232a16cf41c70a">setStatusMailSender</a> (String <a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a0bc7da586c63d1599ad2d99dfaf52b99">statusMailSender</a>)</td></tr>
+<tr class="separator:acd25f5f0c39e6127ca232a16cf41c70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -152,10 +160,12 @@ Protected Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a2e7a06d639aa81871e85b733142dd022"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html">AdministrationDao</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a2e7a06d639aa81871e85b733142dd022">administrationDao</a></td></tr>
 <tr class="separator:a2e7a06d639aa81871e85b733142dd022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc7da586c63d1599ad2d99dfaf52b99"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a0bc7da586c63d1599ad2d99dfaf52b99">statusMailSender</a></td></tr>
+<tr class="separator:a0bc7da586c63d1599ad2d99dfaf52b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a049908332cfb85ad48b4aba838890de3"><td class="memItemLeft" align="right" valign="top">static final Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a049908332cfb85ad48b4aba838890de3">log</a> = LoggerFactory.getLogger(CorpusAdministration.class)</td></tr>
+<tr class="memitem:a049908332cfb85ad48b4aba838890de3"><td class="memItemLeft" align="right" valign="top">static final Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a049908332cfb85ad48b4aba838890de3">log</a></td></tr>
 <tr class="separator:a049908332cfb85ad48b4aba838890de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -223,21 +233,48 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac52b65c24ffbb5df3b1ca9a1c082efd0"></a>
+<a class="anchor" id="a3d8edca0b3cf6ebdd2cb0cc20f880dae"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void annis.administration.CorpusAdministration.importCorpora </td>
+          <td class="memname">String annis.administration.CorpusAdministration.getStatusMailSender </td>
           <td>(</td>
-          <td class="paramtype">List&lt; String &gt;&#160;</td>
-          <td class="paramname"><em>paths</em>, </td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa4e531b98e311425cfe0a041909671bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean annis.administration.CorpusAdministration.importCorporaSave </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>overwrite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>statusEmailAdress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>overwrite</em>&#160;</td>
+          <td class="paramname"><em>waitForOtherTasks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; String &gt;&#160;</td>
+          <td class="paramname"><em>paths</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -247,21 +284,66 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Imports several corpora and catches a possible thrown <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException.html">DefaultAdministrationDao.ConflictingCorpusException</a> when the overwrite flag is set to false. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">paths</td><td>Valid pathes to corpora. </td></tr>
+    <tr><td class="paramname">overwrite</td><td>If set to false, a conflicting corpus is not silently reimported. </td></tr>
+    <tr><td class="paramname">waitForOtherTasks</td><td>If true wait for other imports to finish, if false abort the import. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if all corpora where imported successfully. </dd></dl>
+
 </div>
 </div>
-<a class="anchor" id="a9bbd757bf786903c50929817acccbd07"></a>
+<a class="anchor" id="aeccc4f632d1ee7a3384a035a0b8e73be"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void annis.administration.CorpusAdministration.importCorpora </td>
+          <td class="memname">boolean annis.administration.CorpusAdministration.importCorporaSave </td>
           <td>(</td>
-          <td class="paramtype">String...&#160;</td>
-          <td class="paramname"><em>paths</em></td><td>)</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>overwrite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>statusEmailAdress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>waitForOtherTasks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String...&#160;</td>
+          <td class="paramname"><em>paths</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Imports several corpora. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">overwrite</td><td>if false, a conflicting top level corpus is silently skipped. </td></tr>
+    <tr><td class="paramname">statusEmailAdress</td><td>If not null the email adress of the user who started the import. </td></tr>
+    <tr><td class="paramname">waitForOtherTasks</td><td>If true wait for other imports to finish, if false abort the import. </td></tr>
+    <tr><td class="paramname">paths</td><td>the paths to the corpora </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if all corpora where imported successfully. </dd></dl>
 
 </div>
 </div>
@@ -378,6 +460,44 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab5b5291caed36c1ebadadf50f19b21af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.administration.CorpusAdministration.sendStatusMail </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>adress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>corpusPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImportJob.Status&#160;</td>
+          <td class="paramname"><em>status</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>additionalInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a70415d30cefd42fa21ac03e50e5a1e28"></a>
 <div class="memitem">
 <div class="memproto">
@@ -387,6 +507,22 @@ Static Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html">AdministrationDao</a>&#160;</td>
           <td class="paramname"><em>administrationDao</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acd25f5f0c39e6127ca232a16cf41c70a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.administration.CorpusAdministration.setStatusMailSender </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>statusMailSender</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -481,12 +617,34 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final Logger annis.administration.CorpusAdministration.log = LoggerFactory.getLogger(CorpusAdministration.class)</td>
+          <td class="memname">final Logger annis.administration.CorpusAdministration.log</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= LoggerFactory.getLogger(</div>
+<div class="line">    <a class="code" href="classannis_1_1administration_1_1CorpusAdministration.html#a37de7e281c2b0aea2a28b8b1f7ccdede">CorpusAdministration</a>.class)</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0bc7da586c63d1599ad2d99dfaf52b99"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.administration.CorpusAdministration.statusMailSender</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -502,7 +660,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1administration.html">administration</a></li><li class="navelem"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html">CorpusAdministration</a></li>
-    <li class="footer">Generated on Tue Aug 6 2013 11:37:46 for ANNIS by
+    <li class="footer">Generated on Mon Oct 7 2013 17:07:02 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

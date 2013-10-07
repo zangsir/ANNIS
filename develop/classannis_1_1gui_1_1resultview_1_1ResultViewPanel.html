@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('classannis_1_1gui_1_1resultview_1_1Res
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel-members.html">List of all members</a>  </div>
@@ -123,6 +124,7 @@ Inheritance diagram for annis.gui.resultview.ResultViewPanel:</div>
  <div class="center">
   <img src="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.png" usemap="#annis.gui.resultview.ResultViewPanel_map" alt=""/>
   <map id="annis.gui.resultview.ResultViewPanel_map" name="annis.gui.resultview.ResultViewPanel_map">
+<area href="interfaceannis_1_1gui_1_1components_1_1OnLoadCallbackExtension_1_1Callback.html" title="A callback for OnLoadCallbackExtension." alt="annis.gui.components.OnLoadCallbackExtension.Callback" shape="rect" coords="349,0,688,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -130,16 +132,23 @@ Inheritance diagram for annis.gui.resultview.ResultViewPanel:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a24fb967f7b18b8df599826b529aaa4c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a24fb967f7b18b8df599826b529aaa4c7">ResultViewPanel</a> (<a class="el" href="classannis_1_1gui_1_1QueryController.html">QueryController</a> <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af8cf11907c36f745c55b7b16d3cd255c">controller</a>, <a class="el" href="interfaceannis_1_1libgui_1_1PluginSystem.html">PluginSystem</a> <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4dbc66e3c8c704e78155d8b23da2394e">ps</a>, <a class="el" href="classannis_1_1libgui_1_1InstanceConfig.html">InstanceConfig</a> <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#acb9be7cd732823f19d7e6836b96ed31e">instanceConfig</a>)</td></tr>
 <tr class="separator:a24fb967f7b18b8df599826b529aaa4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae595104cf4310d86567ed78acde05256"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae595104cf4310d86567ed78acde05256">setResult</a> (List&lt; <a class="el" href="classannis_1_1service_1_1objects_1_1Match.html">Match</a> &gt; result, int contextLeft, int contextRight, String segmentationLayer, int offset)</td></tr>
-<tr class="separator:ae595104cf4310d86567ed78acde05256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d70fcbf142de6b4040084ba44c9ce71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a0d70fcbf142de6b4040084ba44c9ce71">showMatchSearchInProgress</a> (<a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a> q)</td></tr>
+<tr class="separator:a0d70fcbf142de6b4040084ba44c9ce71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1f81d5d252f856ce38ac42c6f1bd08d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ab1f81d5d252f856ce38ac42c6f1bd08d">showNoResult</a> ()</td></tr>
+<tr class="separator:ab1f81d5d252f856ce38ac42c6f1bd08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb78791c89deb1635e1fc5a2e5661643"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#acb78791c89deb1635e1fc5a2e5661643">showSubgraphSearchInProgress</a> (<a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a> q, float percent)</td></tr>
+<tr class="separator:acb78791c89deb1635e1fc5a2e5661643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c265335dc8682bba8ea72c28a6fb8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a39c265335dc8682bba8ea72c28a6fb8e">setQueryResultQueue</a> (BlockingQueue&lt; SaltProject &gt; queue, <a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a> q, int <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a1be72cb3c2aeb2e1ed7e077dc2b9ea64">numberOfResults</a>)</td></tr>
+<tr class="separator:a39c265335dc8682bba8ea72c28a6fb8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb89d2b27a361a341d93b2572fb40770"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#abb89d2b27a361a341d93b2572fb40770">showFinishedSubgraphSearch</a> ()</td></tr>
+<tr class="separator:abb89d2b27a361a341d93b2572fb40770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d12fcc8beb26825d1c7ffbb02d54ea3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7d12fcc8beb26825d1c7ffbb02d54ea3">setCount</a> (int count)</td></tr>
 <tr class="separator:a7d12fcc8beb26825d1c7ffbb02d54ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c508a32808d6c3c960a04607702231"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ad1c508a32808d6c3c960a04607702231">getVisibleTokenAnnos</a> ()</td></tr>
 <tr class="separator:ad1c508a32808d6c3c960a04607702231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d80108b7cd08bf3c3205bf6affdcaa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6d80108b7cd08bf3c3205bf6affdcaa4">updateSegmentationLayer</a> (Set&lt; String &gt; segLayers)</td></tr>
-<tr class="separator:a6d80108b7cd08bf3c3205bf6affdcaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a991b1dde3f0411ccd7fe4763e19a1158"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a991b1dde3f0411ccd7fe4763e19a1158">updateTokenAnnos</a> (Set&lt; String &gt; tokenAnnotationLevelSet)</td></tr>
-<tr class="separator:a991b1dde3f0411ccd7fe4763e19a1158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c241562636c33880de83b0c7b050b54"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6c241562636c33880de83b0c7b050b54">onCompononentLoaded</a> (AbstractClientConnector source)</td></tr>
+<tr class="memdesc:a6c241562636c33880de83b0c7b050b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called whenever the extended component was rendered.  <a href="#a6c241562636c33880de83b0c7b050b54">More...</a><br/></td></tr>
+<tr class="separator:a6c241562636c33880de83b0c7b050b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac134a1b1d36f29861045f1729983d973"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1paging_1_1PagingComponent.html">PagingComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ac134a1b1d36f29861045f1729983d973">getPaging</a> ()</td></tr>
 <tr class="separator:ac134a1b1d36f29861045f1729983d973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -147,13 +156,36 @@ Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:addb005ffe4b21696e5c19c4611e6b603"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#addb005ffe4b21696e5c19c4611e6b603">NULL_SEGMENTATION_VALUE</a> = &quot;tokens (default)&quot;</td></tr>
 <tr class="separator:addb005ffe4b21696e5c19c4611e6b603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad094c48051019c764660119f5f2793"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a3ad094c48051019c764660119f5f2793">FILESYSTEM_CACHE_RESULT</a></td></tr>
+<tr class="separator:a3ad094c48051019c764660119f5f2793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af434bce97155fe4984248b62c0369f15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af434bce97155fe4984248b62c0369f15">resetQueryResultQueue</a> ()</td></tr>
+<tr class="separator:af434bce97155fe4984248b62c0369f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae516670fe777a0c9147f5f8da3f79984"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae516670fe777a0c9147f5f8da3f79984">addQueryResult</a> (<a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a> q, SaltProject p)</td></tr>
+<tr class="separator:ae516670fe777a0c9147f5f8da3f79984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ae0550f5cd8e5913e8ca3a977501480"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html">SingleResultPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a8ae0550f5cd8e5913e8ca3a977501480">createPanels</a> (SaltProject p, int offset)</td></tr>
+<tr class="separator:a8ae0550f5cd8e5913e8ca3a977501480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce3037c13a8dddc669932d3a70d018e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4ce3037c13a8dddc669932d3a70d018e">updateVariables</a> (SaltProject p)</td></tr>
+<tr class="separator:a4ce3037c13a8dddc669932d3a70d018e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d80108b7cd08bf3c3205bf6affdcaa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6d80108b7cd08bf3c3205bf6affdcaa4">updateSegmentationLayer</a> (Set&lt; String &gt; segLayers)</td></tr>
+<tr class="separator:a6d80108b7cd08bf3c3205bf6affdcaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991b1dde3f0411ccd7fe4763e19a1158"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a991b1dde3f0411ccd7fe4763e19a1158">updateTokenAnnos</a> (Set&lt; String &gt; <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a21dbd7eb5a75e05c72610441b295053a">tokenAnnotationLevelSet</a>)</td></tr>
+<tr class="separator:a991b1dde3f0411ccd7fe4763e19a1158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad27c960927221af29b120ed504858c89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ad27c960927221af29b120ed504858c89">setVisibleTokenAnnosVisible</a> (Set&lt; String &gt; annos)</td></tr>
+<tr class="separator:ad27c960927221af29b120ed504858c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e835508524e70feb3391d30498d5674"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a3e835508524e70feb3391d30498d5674">setSegmentationLayer</a> (String segmentationLayer)</td></tr>
+<tr class="separator:a3e835508524e70feb3391d30498d5674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a5f2b34cc3345d6a263862366a0ba7e03"><td class="memItemLeft" align="right" valign="top">Map&lt; HashSet<br class="typebreak"/>
+&lt; <a class="el" href="classannis_1_1resolver_1_1SingleResolverRequest.html">SingleResolverRequest</a> &gt;<br class="typebreak"/>
+, List&lt; <a class="el" href="classannis_1_1resolver_1_1ResolverEntry.html">ResolverEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a5f2b34cc3345d6a263862366a0ba7e03">cacheResolver</a></td></tr>
+<tr class="separator:a5f2b34cc3345d6a263862366a0ba7e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8d4b1fee6f7c8cd5ae4e6ceae31f328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1paging_1_1PagingComponent.html">PagingComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae8d4b1fee6f7c8cd5ae4e6ceae31f328">paging</a></td></tr>
 <tr class="separator:ae8d4b1fee6f7c8cd5ae4e6ceae31f328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fe98f84c8f51582c57036e4af0bc8cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html">ResultSetPanel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a9fe98f84c8f51582c57036e4af0bc8cf">resultPanel</a></td></tr>
-<tr class="separator:a9fe98f84c8f51582c57036e4af0bc8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e62279f429e1258397d92eefc95df39"><td class="memItemLeft" align="right" valign="top">ProgressBar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7e62279f429e1258397d92eefc95df39">progressResult</a></td></tr>
 <tr class="separator:a7e62279f429e1258397d92eefc95df39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dbc66e3c8c704e78155d8b23da2394e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceannis_1_1libgui_1_1PluginSystem.html">PluginSystem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4dbc66e3c8c704e78155d8b23da2394e">ps</a></td></tr>
@@ -168,12 +200,31 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af8cf11907c36f745c55b7b16d3cd255c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82995aa59b59a521df7e1fdac5286dcf"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a82995aa59b59a521df7e1fdac5286dcf">selectedSegmentationLayer</a></td></tr>
 <tr class="separator:a82995aa59b59a521df7e1fdac5286dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb6bbecbd304ac38ef55f04edd73bb1"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a8cb6bbecbd304ac38ef55f04edd73bb1">segmentationLayerSet</a></td></tr>
+<tr class="separator:a8cb6bbecbd304ac38ef55f04edd73bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21dbd7eb5a75e05c72610441b295053a"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a21dbd7eb5a75e05c72610441b295053a">tokenAnnotationLevelSet</a></td></tr>
+<tr class="separator:a21dbd7eb5a75e05c72610441b295053a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb9be7cd732823f19d7e6836b96ed31e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1libgui_1_1InstanceConfig.html">InstanceConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#acb9be7cd732823f19d7e6836b96ed31e">instanceConfig</a></td></tr>
 <tr class="separator:acb9be7cd732823f19d7e6836b96ed31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f7f7393661f3a1a227fdfe8c2af3e3"><td class="memItemLeft" align="right" valign="top">CssLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a30f7f7393661f3a1a227fdfe8c2af3e3">resultLayout</a></td></tr>
+<tr class="separator:a30f7f7393661f3a1a227fdfe8c2af3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af157d9c63d2c62a825baed59b84c8d55"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html">SingleResultPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af157d9c63d2c62a825baed59b84c8d55">resultPanelList</a></td></tr>
+<tr class="separator:af157d9c63d2c62a825baed59b84c8d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af98d73226e8052a050acd84f76363286"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af98d73226e8052a050acd84f76363286">segmentationName</a></td></tr>
+<tr class="separator:af98d73226e8052a050acd84f76363286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6930579e852e500699be77f57c0da68a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6930579e852e500699be77f57c0da68a">currentResults</a></td></tr>
+<tr class="separator:a6930579e852e500699be77f57c0da68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be72cb3c2aeb2e1ed7e077dc2b9ea64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a1be72cb3c2aeb2e1ed7e077dc2b9ea64">numberOfResults</a></td></tr>
+<tr class="separator:a1be72cb3c2aeb2e1ed7e077dc2b9ea64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e08f1545d58e44bd530512128adf009"><td class="memItemLeft" align="right" valign="top">transient BlockingQueue<br class="typebreak"/>
+&lt; SaltProject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a0e08f1545d58e44bd530512128adf009">projectQueue</a></td></tr>
+<tr class="separator:a0e08f1545d58e44bd530512128adf009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f33f606432574cdb512d62ac633e400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a0f33f606432574cdb512d62ac633e400">currentQuery</a></td></tr>
+<tr class="separator:a0f33f606432574cdb512d62ac633e400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:ab47e39365b90559e3e170bd2405e3db1"><td class="memItemLeft" align="right" valign="top">static final org.slf4j.Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ab47e39365b90559e3e170bd2405e3db1">log</a> = LoggerFactory.getLogger(ResultViewPanel.class)</td></tr>
+<tr class="memitem:ab47e39365b90559e3e170bd2405e3db1"><td class="memItemLeft" align="right" valign="top">static final org.slf4j.Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ab47e39365b90559e3e170bd2405e3db1">log</a></td></tr>
 <tr class="separator:ab47e39365b90559e3e170bd2405e3db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -212,6 +263,74 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae516670fe777a0c9147f5f8da3f79984"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.addQueryResult </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SaltProject&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8ae0550f5cd8e5913e8ca3a977501480"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html">SingleResultPanel</a>&gt; annis.gui.resultview.ResultViewPanel.createPanels </td>
+          <td>(</td>
+          <td class="paramtype">SaltProject&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac134a1b1d36f29861045f1729983d973"></a>
 <div class="memitem">
 <div class="memproto">
@@ -242,6 +361,57 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6c241562636c33880de83b0c7b050b54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean annis.gui.resultview.ResultViewPanel.onCompononentLoaded </td>
+          <td>(</td>
+          <td class="paramtype">AbstractClientConnector&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called whenever the extended component was rendered. </p>
+<p>If you want to get a repeated callback (e.g. because you are waiting for a longer process to complete it's calculation) you can return "false".</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if handled, if false the callback will be called again after a certain time span. </dd></dl>
+
+<p>Implements <a class="el" href="interfaceannis_1_1gui_1_1components_1_1OnLoadCallbackExtension_1_1Callback.html#a2844ef77996c93251ff13bcba4316eb1">annis.gui.components.OnLoadCallbackExtension.Callback</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af434bce97155fe4984248b62c0369f15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.resetQueryResultQueue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a7d12fcc8beb26825d1c7ffbb02d54ea3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -258,39 +428,147 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae595104cf4310d86567ed78acde05256"></a>
+<a class="anchor" id="a39c265335dc8682bba8ea72c28a6fb8e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void annis.gui.resultview.ResultViewPanel.setResult </td>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.setQueryResultQueue </td>
           <td>(</td>
-          <td class="paramtype">List&lt; <a class="el" href="classannis_1_1service_1_1objects_1_1Match.html">Match</a> &gt;&#160;</td>
-          <td class="paramname"><em>result</em>, </td>
+          <td class="paramtype">BlockingQueue&lt; SaltProject &gt;&#160;</td>
+          <td class="paramname"><em>queue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>contextLeft</em>, </td>
+          <td class="paramname"><em>numberOfResults</em>&#160;</td>
         </tr>
         <tr>
-          <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>contextRight</em>, </td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3e835508524e70feb3391d30498d5674"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
-          <td></td>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.setSegmentationLayer </td>
+          <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>segmentationLayer</em>, </td>
+          <td class="paramname"><em>segmentationLayer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad27c960927221af29b120ed504858c89"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.setVisibleTokenAnnosVisible </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; String &gt;&#160;</td>
+          <td class="paramname"><em>annos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abb89d2b27a361a341d93b2572fb40770"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.showFinishedSubgraphSearch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0d70fcbf142de6b4040084ba44c9ce71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.showMatchSearchInProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab1f81d5d252f856ce38ac42c6f1bd08d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.showNoResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb78791c89deb1635e1fc5a2e5661643"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.showSubgraphSearchInProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offset</em>&#160;</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>percent</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -305,6 +583,9 @@ Static Private Attributes</h2></td></tr>
 <a class="anchor" id="a6d80108b7cd08bf3c3205bf6affdcaa4"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void annis.gui.resultview.ResultViewPanel.updateSegmentationLayer </td>
@@ -314,6 +595,11 @@ Static Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -321,6 +607,9 @@ Static Private Attributes</h2></td></tr>
 <a class="anchor" id="a991b1dde3f0411ccd7fe4763e19a1158"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void annis.gui.resultview.ResultViewPanel.updateTokenAnnos </td>
@@ -330,11 +619,60 @@ Static Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4ce3037c13a8dddc669932d3a70d018e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.resultview.ResultViewPanel.updateVariables </td>
+          <td>(</td>
+          <td class="paramtype">SaltProject&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a5f2b34cc3345d6a263862366a0ba7e03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;HashSet&lt;<a class="el" href="classannis_1_1resolver_1_1SingleResolverRequest.html">SingleResolverRequest</a>&gt;, List&lt;<a class="el" href="classannis_1_1resolver_1_1ResolverEntry.html">ResolverEntry</a>&gt; &gt; annis.gui.resultview.ResultViewPanel.cacheResolver</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af8cf11907c36f745c55b7b16d3cd255c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -353,6 +691,68 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a class="anchor" id="a0f33f606432574cdb512d62ac633e400"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a> annis.gui.resultview.ResultViewPanel.currentQuery</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6930579e852e500699be77f57c0da68a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int annis.gui.resultview.ResultViewPanel.currentResults</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ad094c48051019c764660119f5f2793"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String annis.gui.resultview.ResultViewPanel.FILESYSTEM_CACHE_RESULT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    <span class="stringliteral">&quot;ResultSetPanel_FILESYSTEM_CACHE_RESULT&quot;</span></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="acb9be7cd732823f19d7e6836b96ed31e"></a>
@@ -383,7 +783,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final org.slf4j.Logger annis.gui.resultview.ResultViewPanel.log = LoggerFactory.getLogger(ResultViewPanel.class)</td>
+          <td class="memname">final org.slf4j.Logger annis.gui.resultview.ResultViewPanel.log</td>
         </tr>
       </table>
   </td>
@@ -392,7 +792,9 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= LoggerFactory.getLogger(</div>
+<div class="line">    <a class="code" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a24fb967f7b18b8df599826b529aaa4c7">ResultViewPanel</a>.class)</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a308d28ed585fde9a719740799840ff44"></a>
@@ -455,6 +857,26 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1be72cb3c2aeb2e1ed7e077dc2b9ea64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int annis.gui.resultview.ResultViewPanel.numberOfResults</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ae8d4b1fee6f7c8cd5ae4e6ceae31f328"></a>
 <div class="memitem">
 <div class="memproto">
@@ -495,6 +917,26 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0e08f1545d58e44bd530512128adf009"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">transient BlockingQueue&lt;SaltProject&gt; annis.gui.resultview.ResultViewPanel.projectQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a4dbc66e3c8c704e78155d8b23da2394e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -515,7 +957,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9fe98f84c8f51582c57036e4af0bc8cf"></a>
+<a class="anchor" id="a30f7f7393661f3a1a227fdfe8c2af3e3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -523,7 +965,69 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultSetPanel.html">ResultSetPanel</a> annis.gui.resultview.ResultViewPanel.resultPanel</td>
+          <td class="memname">CssLayout annis.gui.resultview.ResultViewPanel.resultLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af157d9c63d2c62a825baed59b84c8d55"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html">SingleResultPanel</a>&gt; annis.gui.resultview.ResultViewPanel.resultPanelList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8cb6bbecbd304ac38ef55f04edd73bb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; annis.gui.resultview.ResultViewPanel.segmentationLayerSet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    Collections.synchronizedSet(<span class="keyword">new</span> TreeSet&lt;String&gt;())</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af98d73226e8052a050acd84f76363286"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String annis.gui.resultview.ResultViewPanel.segmentationName</td>
         </tr>
       </table>
   </td>
@@ -555,6 +1059,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a21dbd7eb5a75e05c72610441b295053a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; annis.gui.resultview.ResultViewPanel.tokenAnnotationLevelSet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    Collections.synchronizedSet(<span class="keyword">new</span> TreeSet&lt;String&gt;())</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="ac461a06402ae007c2757ee1d9f87b772"></a>
 <div class="memitem">
 <div class="memproto">
@@ -584,7 +1110,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1resultview.html">resultview</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html">ResultViewPanel</a></li>
-    <li class="footer">Generated on Tue Aug 6 2013 11:37:47 for ANNIS by
+    <li class="footer">Generated on Mon Oct 7 2013 17:07:03 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

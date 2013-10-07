@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1resultview_1_1VisualizerPanel =
 [
+    [ "BackgroundThread", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundThread.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundThread" ],
     [ "ByteArrayOutputStreamSource", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource" ],
     [ "LoadComponentTask", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask" ],
     [ "VisualizerPanel", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a4daf188034e0e83b488eed3e46631f85", null ],
@@ -14,6 +15,7 @@ var classannis_1_1gui_1_1resultview_1_1VisualizerPanel =
     [ "setSegmentationLayer", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a1fe7db57a42e8ebcf8d541c25480f9cd", null ],
     [ "setVisibleTokenAnnosVisible", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a5a68c26190e87245b16dced813a6953f", null ],
     [ "toggleVisualizer", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a26e1a4b79c8031c80767d68131e84a5b", null ],
+    [ "updateGUIAfterLoadingVisualizer", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a1fd0a2d7fb996cbb63fb9734369217dc", null ],
     [ "visualizerIsVisible", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a4529393b851aa469197f845786b01c23", null ],
     [ "btEntry", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a35138b7287185f3dd10826760892f5f2", null ],
     [ "entry", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#af59c88a2f8bf18c8384b87fdb1191018", null ],
@@ -31,7 +33,6 @@ var classannis_1_1gui_1_1resultview_1_1VisualizerPanel =
     [ "PRELOADED", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#af333d179cf27a5f9b0539221f3d265b2", null ],
     [ "progress", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ade7ecc02ca2ae5a1d4094aad2da3e1f0", null ],
     [ "ps", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ad1c45ed37c07af67319424f14d2a964d", null ],
-    [ "rand", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a2056e16e6f87a906cfbac286ce1928e0", null ],
     [ "result", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a4dbf101d58e4a304838de8c853764d55", null ],
     [ "resultID", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a2e89062d9a54c78304e2d70a2d6f0e13", null ],
     [ "segmentationName", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#aa153e451b30c0e9f8b8d211cd3745e24", null ],

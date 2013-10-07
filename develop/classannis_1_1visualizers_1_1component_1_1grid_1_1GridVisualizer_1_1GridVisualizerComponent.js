@@ -2,6 +2,7 @@ var classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisu
 [
     [ "ElementType", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent_1_1ElementType.html", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent_1_1ElementType" ],
     [ "GridVisualizerComponent", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#acef415fac1ad6b7046bfbb1002912a67", null ],
+    [ "markCoveredTokens", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#a2c75fbaf3c99c1378725c98b25ca3f6b", null ],
     [ "grid", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#a571c0bd8e9422a6640f4f95a65946355", null ],
     [ "input", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#ab638afc2fe7c834cffca2c8aa7aa1724", null ],
     [ "layout", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#a366ce128c72a16e8dec4912161644adf", null ],

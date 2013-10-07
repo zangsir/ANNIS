@@ -7,5 +7,6 @@ var searchData=
   ['examplequeriespanel_2ejava',['ExampleQueriesPanel.java',['../ExampleQueriesPanel_8java.html',1,'']]],
   ['examplequery_2ejava',['ExampleQuery.java',['../ExampleQuery_8java.html',1,'']]],
   ['exporter_2ejava',['Exporter.java',['../Exporter_8java.html',1,'']]],
+  ['exportoptionspanel_2ejava',['ExportOptionsPanel.java',['../ExportOptionsPanel_8java.html',1,'']]],
   ['exportpanel_2ejava',['ExportPanel.java',['../ExportPanel_8java.html',1,'']]]
 ];

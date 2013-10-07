@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['callback',['Callback',['../interfaceannis_1_1gui_1_1components_1_1OnLoadCallbackExtension_1_1Callback.html',1,'annis::gui::components::OnLoadCallbackExtension']]],
   ['callback',['Callback',['../interfaceannis_1_1visualizers_1_1LoadableVisualizer_1_1Callback.html',1,'annis::visualizers::LoadableVisualizer']]],
   ['callback',['Callback',['../interfaceannis_1_1gui_1_1components_1_1CssRenderInfo_1_1Callback.html',1,'annis::gui::components::CssRenderInfo']]],
   ['callbackimpl',['CallbackImpl',['../classannis_1_1libgui_1_1media_1_1MediaControllerImpl_1_1CallbackImpl.html',1,'annis::libgui::media::MediaControllerImpl']]],
@@ -40,6 +41,7 @@ var searchData=
   ['coveredtextscalculator',['CoveredTextsCalculator',['../classannis_1_1CoveredTextsCalculator.html',1,'annis']]],
   ['cssrenderinfo',['CssRenderInfo',['../classannis_1_1gui_1_1components_1_1CssRenderInfo.html',1,'annis::gui::components']]],
   ['csvcorpuspathextractor',['CsvCorpusPathExtractor',['../classannis_1_1sqlgen_1_1CsvCorpusPathExtractor.html',1,'annis::sqlgen']]],
+  ['csvresource',['CSVResource',['../classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel_1_1CSVResource.html',1,'annis::gui::frequency::FrequencyResultPanel']]],
   ['customcontext',['CustomContext',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomContext.html',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['customresultsize',['CustomResultSize',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomResultSize.html',1,'annis::gui::controlpanel::SearchOptionsPanel']]]
 ];
