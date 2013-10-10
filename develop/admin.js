@@ -22,7 +22,9 @@ var admin =
       [ "Configuring Visualizations ", "admin-configure-webapp.html#admin-configure-vis", [
         [ "Visibility column", "admin-configure-webapp.html#admin-configure-visibility", null ],
         [ "Visualizer list", "admin-configure-webapp.html#admin-configure-vislist", null ]
-      ] ]
+      ] ],
+      [ "Document Browsing", "admin-configure-webapp.html#document-visualizer", null ],
+      [ "Web fonts", "admin-configure-webapp.html#web-fonts", null ]
     ] ],
     [ "PostgreSQL Server Configuration", "admin-configure-postgresql.html", null ],
     [ "Install ANNIS Service and Web front-end on different servers", "admin-multiple-servers.html", null ]

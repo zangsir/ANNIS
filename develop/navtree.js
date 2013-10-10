@@ -1,10 +1,10 @@
 var NAVTREE =
 [
   [ "ANNIS", "index.html", [
+    [ "Administration", "admin.html", "admin" ],
+    [ "Developing", "dev.html", "dev" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Packages", null, [
-      [ "Administration", "admin.html", "admin" ],
-      [ "Developing", "dev.html", "dev" ],
       [ "Packages", "namespaces.html", "namespaces" ]
     ] ],
     [ "Classes", null, [
@@ -27,31 +27,33 @@ var NAVTREEINDEX =
 [
 "ANNISRolePermissionResolver_8java.html",
 "PDFControllerImpl_8java.html",
-"classannis_1_1AnnisRunner.html#ab40c1ee3ecae3e01626d32dd13d57a95",
-"classannis_1_1administration_1_1DefaultAdministrationDao.html#ab837a1a9ee841e91ce5aaee70664689c",
-"classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html#a1ceffda4e6f4f93db532d12006de46ed",
-"classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableValueGenerator.html#adbd3e9a8dbb426bbcb8a72f66cede22c",
-"classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html#a925bea0df010993c68b4d29056bd8397",
-"classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#ae9593963d16d1232b802dd380720b51b",
-"classannis_1_1gui_1_1flatquerybuilder_1_1SensitiveComboBox.html#ad853695a57fec55f273cd76025179fc8",
-"classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AbsoluteDropHandler.html#a3c6da434f97f736326789686a36f9c38",
-"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ac849796f0dfc3a044931896011d6d3a0",
-"classannis_1_1libgui_1_1ResolverProviderImpl.html",
-"classannis_1_1model_1_1DataObject.html#ae1018d52500f63a47f0c2ceb8f4a56af",
-"classannis_1_1ql_1_1parser_1_1AqlListener.html#a0141f9618f43fe5b8535a6d437db2a6d",
-"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#ae46645b1c2cd4f34bb56a8c103deab18",
-"classannis_1_1service_1_1objects_1_1ImportJob.html#a3e3ef007d964c68b1ae23963053b7f44",
-"classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#a19ebcb9982d26ef0646f443eb216a5c4",
-"classannis_1_1sqlgen_1_1SqlConstraints.html#a95f45f22faeb8b817fc17fa18618ac51",
-"classannis_1_1visualizers_1_1component_1_1AudioVisualizer.html#a3bd7af5a00aa89f46f00876113463ce2",
-"classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a05183d02d16c5b62297875621af1694a",
-"classannis_1_1visualizers_1_1htmlvis_1_1OutputItem.html#a995f3df7194265ad239ddd8d574d3c3a",
-"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a9c71b7a453a86d13e5064bb0afb91216",
-"enumannis_1_1sqlgen_1_1IslandsPolicy_1_1IslandPolicies.html#ae959ab26f9ebc9adb73a91e4a822eb60",
-"interfaceannis_1_1model_1_1DataObject_1_1Transient.html",
-"namespaceannis_1_1visualizers_1_1iframe_1_1dependency.html"
+"classannis_1_1AnnisRunner.html#aae2c7322cec86ca31267dc8b6ea08ead",
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#ab5f463601c1a85fbb4700858429a0f3c",
+"classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html",
+"classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableValueGenerator.html#a0a8bb6c31f42c8dc1878058f227647e1",
+"classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html#a7f12c6d97d73c45b438edf92dc2ebb2f",
+"classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#ab5e3f833d73fe3698eb647d644b0f94d",
+"classannis_1_1gui_1_1flatquerybuilder_1_1SensitiveComboBox.html",
+"classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AbsoluteDropHandler.html#a0b1e41410ca9d1f188415bdba676c6dc",
+"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a9d39c3f8a5693ff2079577f152214fdf",
+"classannis_1_1libgui_1_1PDFPageHelper.html#ad66b959139ca31656ce4fc53baa6a25c",
+"classannis_1_1model_1_1DataObject.html#a4bab3e11fc1e1a92cd811ce959902241",
+"classannis_1_1ql_1_1parser_1_1AnnisParserAntlr.html#ae670d3f1b886ba545152ad0e7d2b369c",
+"classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#aa2a3f39203765c620d55e001d9875217",
+"classannis_1_1service_1_1objects_1_1ImportJob.html#a2f560ba032f06d86a48b6c88c40ce790",
+"classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#a05c3a39027328d4752d83507075015dc",
+"classannis_1_1sqlgen_1_1SqlConstraints.html#a7f2a2435d168828b093ca7798611afdb",
+"classannis_1_1visualizers_1_1component_1_1AbstractImageVisualizer.html#aeb2f3b1efc1ed725a8f635b047be18c8",
+"classannis_1_1visualizers_1_1component_1_1tree_1_1AnnisGraphTools.html#aa63ffea3b0228f715fe3bc9dbdf7f738",
+"classannis_1_1visualizers_1_1htmlvis_1_1OutputItem.html#a660a8b747993619b5b7a1cc0ca7d23e9",
+"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a95142dac8dd42090951c24d3710bc4b7",
+"enumannis_1_1service_1_1objects_1_1SubgraphFilter.html#aba495fea1ec40331e0880cb9445537e6",
+"interfaceannis_1_1libgui_1_1visualizers_1_1VisualizerPlugin_3_01I_01extends_01Component_01_4.html#af82c48aef74769bdeeeded2f8b49d8ae",
+"namespaceannis_1_1visualizers_1_1iframe.html"
 ];
 
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
@@ -134,12 +136,12 @@ function createIndent(o,domNode,node,level)
   var level=-1;
   var n = node;
   while (n.parentNode) { level++; n=n.parentNode; }
-  var imgNode = document.createElement("img");
-  imgNode.style.paddingLeft=(16*level).toString()+'px';
-  imgNode.width  = 16;
-  imgNode.height = 22;
-  imgNode.border = 0;
   if (node.childrenData) {
+    var imgNode = document.createElement("img");
+    imgNode.style.paddingLeft=(16*level).toString()+'px';
+    imgNode.width  = 16;
+    imgNode.height = 22;
+    imgNode.border = 0;
     node.plus_img = imgNode;
     node.expandToggle = document.createElement("a");
     node.expandToggle.href = "javascript:void(0)";
@@ -156,8 +158,12 @@ function createIndent(o,domNode,node,level)
     domNode.appendChild(node.expandToggle);
     imgNode.src = node.relpath+"ftv2pnode.png";
   } else {
-    imgNode.src = node.relpath+"ftv2node.png";
-    domNode.appendChild(imgNode);
+    var span = document.createElement("span");
+    span.style.display = 'inline-block';
+    span.style.width   = 16*(level+1)+'px';
+    span.style.height  = '22px';
+    span.innerHTML = '&nbsp;';
+    domNode.appendChild(span);
   } 
 }
 
@@ -376,7 +382,7 @@ function showNode(o, node, index, hash)
       if (!node.childrenVisited) {
         getNode(o, node);
       }
-      $(node.getChildrenUL()).show();
+      $(node.getChildrenUL()).css({'display':'block'});
       if (node.isLast) {
         node.plus_img.src = node.relpath+"ftv2mlastnode.png";
       } else {
@@ -408,8 +414,22 @@ function showNode(o, node, index, hash)
   }
 }
 
+function removeToInsertLater(element) {
+  var parentNode = element.parentNode;
+  var nextSibling = element.nextSibling;
+  parentNode.removeChild(element);
+  return function() {
+    if (nextSibling) {
+      parentNode.insertBefore(element, nextSibling);
+    } else {
+      parentNode.appendChild(element);
+    }
+  };
+}
+
 function getNode(o, po)
 {
+  var insertFunction = removeToInsertLater(po.li);
   po.childrenVisited = true;
   var l = po.childrenData.length-1;
   for (var i in po.childrenData) {
@@ -417,6 +437,7 @@ function getNode(o, po)
     po.children[i] = newNode(o, po, nodeData[0], nodeData[1], nodeData[2],
       i==l);
   }
+  insertFunction();
 }
 
 function gotoNode(o,subIndex,root,hash,relpath)
@@ -520,7 +541,10 @@ function initNavTree(toroot,relpath)
     navSync.click(function(){ toggleSyncButton(relpath); });
   }
 
-  navTo(o,toroot,window.location.hash,relpath);
+  $(window).load(function(){
+    navTo(o,toroot,window.location.hash,relpath);
+    showRoot();
+  });
 
   $(window).bind('hashchange', function(){
      if (window.location.hash && window.location.hash.length>1){
@@ -543,7 +567,5 @@ function initNavTree(toroot,relpath)
        navTo(o,toroot,window.location.hash,relpath);
      }
   })
-
-  $(window).load(showRoot);
 }
 

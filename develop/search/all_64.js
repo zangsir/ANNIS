@@ -54,7 +54,7 @@ var searchData=
   ['detectholes',['DetectHoles',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1DetectHoles.html',1,'annis::visualizers::iframe::partitur']]],
   ['detectholes_2ejava',['DetectHoles.java',['../DetectHoles_8java.html',1,'']]],
   ['detectlayoutdirection',['detectLayoutDirection',['../classannis_1_1visualizers_1_1component_1_1tree_1_1AnnisGraphTools.html#a6526e32f5c2c23413b5ce72f76262294',1,'annis::visualizers::component::tree::AnnisGraphTools']]],
-  ['developing',['Developing',['../dev.html',1,'index']]],
+  ['developing',['Developing',['../dev.html',1,'']]],
   ['dev_2emd',['dev.md',['../dev_8md.html',1,'']]],
   ['directionmodifier',['directionModifier',['../enumannis_1_1visualizers_1_1component_1_1tree_1_1HorizontalOrientation.html#a10fb2bbb73a472411ee4eb0d851a37c4',1,'annis::visualizers::component::tree::HorizontalOrientation']]],
   ['disablebetweenpredicate',['disableBetweenPredicate',['../classannis_1_1sqlgen_1_1SqlConstraints.html#a7f2a2435d168828b093ca7798611afdb',1,'annis::sqlgen::SqlConstraints']]],

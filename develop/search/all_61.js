@@ -136,7 +136,7 @@ var searchData=
   ['adjustrankprepost',['adjustRankPrePost',['../classannis_1_1administration_1_1DefaultAdministrationDao.html#a73dfbb204c15ed85f7e9caa3a8c38bd3',1,'annis::administration::DefaultAdministrationDao']]],
   ['adjusttextid',['adjustTextId',['../classannis_1_1administration_1_1DefaultAdministrationDao.html#ac56953f0b4fde9f58f41ed2f7d403d8d',1,'annis::administration::DefaultAdministrationDao']]],
   ['admin',['admin',['../namespaceannis_1_1gui_1_1admin.html',1,'annis::gui']]],
-  ['administration',['Administration',['../admin.html',1,'index']]],
+  ['administration',['Administration',['../admin.html',1,'']]],
   ['admin_2emd',['admin.md',['../admin_8md.html',1,'']]],
   ['admindao',['adminDao',['../classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#a5253c24be1178c1310d1e6eb1cf56619',1,'annis::service::internal::AdminServiceImpl']]],
   ['administration',['administration',['../namespaceannis_1_1administration.html',1,'annis']]],

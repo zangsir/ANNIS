@@ -69,7 +69,7 @@ var searchData=
   ['pdfpagehelper',['PDFPageHelper',['../classannis_1_1libgui_1_1PDFPageHelper.html#a0daf7384f779420b0fe7b3c771995130',1,'annis::libgui::PDFPageHelper']]],
   ['pdfpagehelper_2ejava',['PDFPageHelper.java',['../PDFPageHelper_8java.html',1,'']]],
   ['pdfpagenumbers',['pdfPageNumbers',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a42bf5e3cbb286dc2e379fc865463d3c4',1,'annis::gui::widgets::gwt::client::ui::VAnnotationGrid']]],
-  ['pdfpanel',['pdfPanel',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html#a21e395f559cc1058f01ba3c36ffe20de',1,'annis.visualizers.component.pdf.PDFVisualizer.PDFViewerImpl.pdfPanel()'],['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFPanel.html#a3d0af0f205193acba61b8a58d8242e39',1,'annis.visualizers.component.pdf.PDFPanel.PDFPanel()']]],
+  ['pdfpanel',['PDFPanel',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFPanel.html#a3d0af0f205193acba61b8a58d8242e39',1,'annis.visualizers.component.pdf.PDFPanel.PDFPanel()'],['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html#a21e395f559cc1058f01ba3c36ffe20de',1,'annis.visualizers.component.pdf.PDFVisualizer.PDFViewerImpl.pdfPanel()']]],
   ['pdfpanel',['PDFPanel',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFPanel.html',1,'annis::visualizers::component::pdf']]],
   ['pdfpanel_2ejava',['PDFPanel.java',['../PDFPanel_8java.html',1,'']]],
   ['pdfstate',['PDFState',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFState.html',1,'annis::visualizers::component::pdf']]],
