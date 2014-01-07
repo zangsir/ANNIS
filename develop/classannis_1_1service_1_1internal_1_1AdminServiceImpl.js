@@ -7,7 +7,7 @@ var classannis_1_1service_1_1internal_1_1AdminServiceImpl =
     [ "getCorpusAdmin", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#ac5250f55bd51f7b38d92f04380f32493", null ],
     [ "getImportWorker", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#ab584501c29e365fe44194b3c90ba7ec8", null ],
     [ "getUserConfig", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#ad0ce51c69133f44bcce07ff2ee45190a", null ],
-    [ "importCorpus", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#a0ce9e1aa24e0401c3b22747b10b2eb4b", null ],
+    [ "importCorpus", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#a32c54972e351f479354ec9a73ccd4818", null ],
     [ "init", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#ac07e530cbc7324ce1495c98466f8ed16", null ],
     [ "isAuthenticated", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#a09a05bdc867e0656baf7182a87b75f1b", null ],
     [ "setAdminDao", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#a76b3dcc6d41aa9c31a1d6791eda08deb", null ],
@@ -19,5 +19,6 @@ var classannis_1_1service_1_1internal_1_1AdminServiceImpl =
     [ "annisDao", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#aadebf76fb102e3dcd49b12d66e0c13b3", null ],
     [ "corpusAdmin", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#aea69f881b6f69c43c7e8cdb743ce5cd2", null ],
     [ "importWorker", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#a7a2bfb9f43f26a9c4aa1bd46a102d681", null ],
-    [ "log", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#a2bed65c7d9d8a182bf0cea298128f587", null ]
+    [ "log", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#a2bed65c7d9d8a182bf0cea298128f587", null ],
+    [ "request", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html#aaf6ff60ed20079e99d9b7bbcb39d89d1", null ]
 ];

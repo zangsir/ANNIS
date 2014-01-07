@@ -15,6 +15,7 @@ var namespaceannis_1_1service_1_1objects =
     [ "ImportJob", "classannis_1_1service_1_1objects_1_1ImportJob.html", "classannis_1_1service_1_1objects_1_1ImportJob" ],
     [ "Match", "classannis_1_1service_1_1objects_1_1Match.html", "classannis_1_1service_1_1objects_1_1Match" ],
     [ "MatchAndDocumentCount", "classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html", "classannis_1_1service_1_1objects_1_1MatchAndDocumentCount" ],
+    [ "RawTextWrapper", "classannis_1_1service_1_1objects_1_1RawTextWrapper.html", "classannis_1_1service_1_1objects_1_1RawTextWrapper" ],
     [ "SaltURIGroup", "classannis_1_1service_1_1objects_1_1SaltURIGroup.html", "classannis_1_1service_1_1objects_1_1SaltURIGroup" ],
     [ "SaltURIGroupSet", "classannis_1_1service_1_1objects_1_1SaltURIGroupSet.html", "classannis_1_1service_1_1objects_1_1SaltURIGroupSet" ],
     [ "SubgraphFilter", "enumannis_1_1service_1_1objects_1_1SubgraphFilter.html", "enumannis_1_1service_1_1objects_1_1SubgraphFilter" ],

@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['ffannotateconditionprovider_2ejava',['FfAnnotateConditionProvider.java',['../FfAnnotateConditionProvider_8java.html',1,'']]],
-  ['ffannotatesqlgenerator_2ejava',['FfAnnotateSqlGenerator.java',['../FfAnnotateSqlGenerator_8java.html',1,'']]],
   ['fileaccessexception_2ejava',['FileAccessException.java',['../FileAccessException_8java.html',1,'']]],
   ['findhelper_2ejava',['FindHelper.java',['../FindHelper_8java.html',1,'']]],
   ['findsqlgenerator_2ejava',['FindSqlGenerator.java',['../FindSqlGenerator_8java.html',1,'']]],
-  ['fixpushmimefilter_2ejava',['FixPushMimeFilter.java',['../FixPushMimeFilter_8java.html',1,'']]],
   ['flatquerybuilder_2ejava',['FlatQueryBuilder.java',['../FlatQueryBuilder_8java.html',1,'']]],
   ['flatquerybuilderplugin_2ejava',['FlatQueryBuilderPlugin.java',['../FlatQueryBuilderPlugin_8java.html',1,'']]],
   ['fontconfig_2ejava',['FontConfig.java',['../FontConfig_8java.html',1,'']]],

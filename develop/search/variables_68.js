@@ -9,9 +9,11 @@ var searchData=
   ['hellomessage',['helloMessage',['../classannis_1_1AnnisBaseRunner.html#a3e7c659734f1003ffc317872effad453',1,'annis::AnnisBaseRunner']]],
   ['help4exporter',['help4Exporter',['../classannis_1_1gui_1_1ExportPanel.html#a2bee1770af75502791fe4a916d94f4fb',1,'annis::gui::ExportPanel']]],
   ['hidden',['HIDDEN',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a9a3f93f25da5914430cd29510915aabf',1,'annis::gui::resultview::VisualizerPanel']]],
+  ['hidden_5fann0s',['HIDDEN_ANN0S',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a2a3738904285db5b5768eb88b2789c18',1,'annis::visualizers::component::KWICPanel::KWICPanelImpl']]],
+  ['hiddentokenannos',['hiddenTokenAnnos',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a046bea3dbdc6c6eb58f86b51a55c82cc',1,'annis::visualizers::component::KWICPanel::KWICPanelImpl']]],
   ['hide_5fkwic',['HIDE_KWIC',['../classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#ad1a68fe0246178edd5a6f41eb6deaed9',1,'annis::gui::resultview::SingleResultPanel']]],
   ['highlighted',['highlighted',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a0da0d90e371e4dcf1ea030b8befdcbaf',1,'annis::gui::widgets::gwt::client::ui::VAnnotationGrid']]],
-  ['history',['history',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a1ec83778e6acab71c4880c46104d2472',1,'annis.gui.controlpanel.QueryPanel.history()'],['../classannis_1_1gui_1_1QueryController.html#ad34fe28e46637758f6beedd35c69ffdf',1,'annis.gui.QueryController.history()'],['../classannis_1_1AnnisBaseRunner.html#a1535e40cf2c8f8b8a1d3e3cad0da1d8c',1,'annis.AnnisBaseRunner.history()']]],
+  ['history',['history',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a1ec83778e6acab71c4880c46104d2472',1,'annis.gui.controlpanel.QueryPanel.history()'],['../classannis_1_1gui_1_1QueryController.html#a10c484b415cd5f45cfed3115614f6c02',1,'annis.gui.QueryController.history()'],['../classannis_1_1AnnisBaseRunner.html#a1535e40cf2c8f8b8a1d3e3cad0da1d8c',1,'annis.AnnisBaseRunner.history()']]],
   ['historywindow',['historyWindow',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a930bf0f970edff397291a5503cd86a16',1,'annis::gui::controlpanel::QueryPanel']]],
   ['htmlid',['htmlID',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a8ca4055be16394f5a587a4ead5b15aee',1,'annis::gui::resultview::VisualizerPanel']]]
 ];

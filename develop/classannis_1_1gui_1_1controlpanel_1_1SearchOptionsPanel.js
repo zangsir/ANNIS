@@ -20,10 +20,10 @@ var classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel =
     [ "updateResultsPerPage", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a89ab9164ae355854a32a384869867054", null ],
     [ "updateSearchPanelConfigurationInBackground", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a81a2fbfff64c983b7ac00d9f607b9ae3", null ],
     [ "updateSegmentations", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a5ba1c75ae9fe7f1357ffda8721b91cb0", null ],
-    [ "cbLeftContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ab16d11080efbcd922f366175c70f02e4", null ],
-    [ "cbResultsPerPage", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#addc2c13d7d651652c056d272768e54a5", null ],
-    [ "cbRightContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ae29692143c77d38a966aed4120cdaf77", null ],
-    [ "cbSegmentation", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#aabfc79f4b3ed91cb800be2d53ced57c5", null ],
+    [ "cbLeftContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a71336ffa3687edda9a4efd6950e7ae36", null ],
+    [ "cbResultsPerPage", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a90bc398f3f89f83cb7eff896d1c947bf", null ],
+    [ "cbRightContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a07b63e79e638a9c76d5a4b229e06332c", null ],
+    [ "cbSegmentation", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ad7113316ebbab88afb3b93f56c883169", null ],
     [ "corpusConfigurations", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ad1cb7686de98f9dd1f75879c88332b73", null ],
     [ "DEFAULT_CONFIG", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#acac0a6887c7aa2fcebf68c4b8e8afe98", null ],
     [ "KEY_CONTEXT_STEPS", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a446d7726fb3d9d476ae4e72c8e86942c", null ],
@@ -36,6 +36,6 @@ var classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel =
     [ "lastSelection", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a4f98d79bec3b7a5200c78c1b0d3f927f", null ],
     [ "log", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a32ad307cbe57ec06dfbc20aabd6d5aae", null ],
     [ "NULL_SEGMENTATION_VALUE", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a8d5964a8bb767601caa26da7bcbea9a9", null ],
-    [ "PREDEFINED_CONTEXTS", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ae45d57fead147cec57dfba9ee8808c45", null ],
-    [ "PREDEFINED_PAGE_SIZES", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a23d199f2168d798c4bbb6f6487494044", null ]
+    [ "PREDEFINED_CONTEXTS", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#aa4cc59dde5bb83f37517b6ab0b04555f", null ],
+    [ "PREDEFINED_PAGE_SIZES", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ac0c9bb939a58ee0ac44b9897a88e1287", null ]
 ];

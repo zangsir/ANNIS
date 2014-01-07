@@ -26,6 +26,11 @@ var admin =
       [ "Document Browsing", "admin-configure-webapp.html#document-visualizer", null ],
       [ "Web fonts", "admin-configure-webapp.html#web-fonts", null ]
     ] ],
-    [ "PostgreSQL Server Configuration", "admin-configure-postgresql.html", null ],
+    [ "PostgreSQL Server Configuration", "admin-configure-postgresql.html", [
+      [ "Performance tuning ", "admin-configure-postgresql.html#admin-configure-postgresperf", null ],
+      [ "Logging ", "admin-configure-postgresql.html#admin-configure-logging", null ],
+      [ "Remote access ", "admin-configure-postgresql.html#admin-configure-remote", null ],
+      [ "Configuration of System Resources ", "admin-configure-postgresql.html#admin-configure-res", null ]
+    ] ],
     [ "Install ANNIS Service and Web front-end on different servers", "admin-multiple-servers.html", null ]
 ];

@@ -4,7 +4,6 @@ var searchData=
   ['dataobject_2ejava',['DataObject.java',['../DataObject_8java.html',1,'']]],
   ['debugvisualizer_2ejava',['DebugVisualizer.java',['../DebugVisualizer_8java.html',1,'']]],
   ['defaultadministrationdao_2ejava',['DefaultAdministrationDao.java',['../DefaultAdministrationDao_8java.html',1,'']]],
-  ['defaulttableaccessstrategy_2ejava',['DefaultTableAccessStrategy.java',['../DefaultTableAccessStrategy_8java.html',1,'']]],
   ['defaultwhereclausegenerator_2ejava',['DefaultWhereClauseGenerator.java',['../DefaultWhereClauseGenerator_8java.html',1,'']]],
   ['detectholes_2ejava',['DetectHoles.java',['../DetectHoles_8java.html',1,'']]],
   ['dev_2emd',['dev.md',['../dev_8md.html',1,'']]],

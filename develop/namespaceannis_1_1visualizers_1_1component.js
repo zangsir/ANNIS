@@ -11,5 +11,6 @@ var namespaceannis_1_1visualizers_1_1component =
     [ "AbstractImageVisualizer", "classannis_1_1visualizers_1_1component_1_1AbstractImageVisualizer.html", "classannis_1_1visualizers_1_1component_1_1AbstractImageVisualizer" ],
     [ "AudioVisualizer", "classannis_1_1visualizers_1_1component_1_1AudioVisualizer.html", "classannis_1_1visualizers_1_1component_1_1AudioVisualizer" ],
     [ "KWICPanel", "classannis_1_1visualizers_1_1component_1_1KWICPanel.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel" ],
+    [ "RawTextVisualizer", "classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html", "classannis_1_1visualizers_1_1component_1_1RawTextVisualizer" ],
     [ "VideoVisualizer", "classannis_1_1visualizers_1_1component_1_1VideoVisualizer.html", "classannis_1_1visualizers_1_1component_1_1VideoVisualizer" ]
 ];

@@ -10,7 +10,7 @@ var classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer =
     [ "renderTree", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a92fc0c37829c7dde56e81fb373a98f9b", null ],
     [ "writeOutput", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a2cf24ed46743110af0ea138e21a8f83d", null ],
     [ "backend", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a5729c0e3db173ae4190f6b0a93716e12", null ],
-    [ "graphtools", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#addcfdbd143684c6be19f666a1de21f16", null ],
+    [ "graphtools", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a001fbf2559758ba51c2c799ff24d10b9", null ],
     [ "labeler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a41c6964b638bf46773f43a13cb7c835d", null ],
     [ "SIDE_MARGIN", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a45dfa2ef0144c4f1a00661f232b7c9a2", null ],
     [ "styler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#af8a6d366925ad6e8037621e58391a03a", null ],

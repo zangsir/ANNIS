@@ -8,5 +8,6 @@ var searchData=
   ['jitwrapper',['JITWrapper',['../classannis_1_1gui_1_1widgets_1_1JITWrapper.html',1,'annis::gui::widgets']]],
   ['jitwrapperconnector',['JITWrapperConnector',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1JITWrapperConnector.html',1,'annis::gui::widgets::gwt::client::ui']]],
   ['join',['Join',['../classannis_1_1sqlgen_1_1model_1_1Join.html',1,'annis::sqlgen::model']]],
+  ['joinlistener',['JoinListener',['../classannis_1_1ql_1_1parser_1_1JoinListener.html',1,'annis::ql::parser']]],
   ['jsonserializable',['JSONSerializable',['../classannis_1_1gui_1_1docbrowser_1_1JSONSerializable.html',1,'annis::gui::docbrowser']]]
 ];

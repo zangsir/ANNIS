@@ -45,7 +45,11 @@ var files =
     ] ],
     [ "AdministrationDao.java", "AdministrationDao_8java.html", [
       [ "AdministrationDao", "interfaceannis_1_1administration_1_1AdministrationDao.html", "interfaceannis_1_1administration_1_1AdministrationDao" ],
-      [ "StatementController", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController" ]
+      [ "StatementController", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController" ],
+      [ "ImportStats", "interfaceannis_1_1administration_1_1AdministrationDao_1_1ImportStats.html", "interfaceannis_1_1administration_1_1AdministrationDao_1_1ImportStats" ]
+    ] ],
+    [ "AdminService.java", "AdminService_8java.html", [
+      [ "AdminService", "interfaceannis_1_1service_1_1AdminService.html", "interfaceannis_1_1service_1_1AdminService" ]
     ] ],
     [ "AdminServiceImpl.java", "AdminServiceImpl_8java.html", [
       [ "AdminServiceImpl", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html", "classannis_1_1service_1_1internal_1_1AdminServiceImpl" ]
@@ -63,10 +67,13 @@ var files =
       [ "SubType", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1SubType.html", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1SubType" ]
     ] ],
     [ "AnnisBaseRunner.java", "AnnisBaseRunner_8java.html", [
-      [ "AnnisBaseRunner", "classannis_1_1AnnisBaseRunner.html", "classannis_1_1AnnisBaseRunner" ]
+      [ "AnnisBaseRunner", "classannis_1_1AnnisBaseRunner.html", "classannis_1_1AnnisBaseRunner" ],
+      [ "ConsoleLayout", "classannis_1_1AnnisBaseRunner_1_1ConsoleLayout.html", "classannis_1_1AnnisBaseRunner_1_1ConsoleLayout" ],
+      [ "ConsoleFilter", "classannis_1_1AnnisBaseRunner_1_1ConsoleFilter.html", "classannis_1_1AnnisBaseRunner_1_1ConsoleFilter" ]
     ] ],
     [ "AnnisBaseUI.java", "AnnisBaseUI_8java.html", [
-      [ "AnnisBaseUI", "classannis_1_1libgui_1_1AnnisBaseUI.html", "classannis_1_1libgui_1_1AnnisBaseUI" ]
+      [ "AnnisBaseUI", "classannis_1_1libgui_1_1AnnisBaseUI.html", "classannis_1_1libgui_1_1AnnisBaseUI" ],
+      [ "RemoteUserRequestHandler", "classannis_1_1libgui_1_1AnnisBaseUI_1_1RemoteUserRequestHandler.html", "classannis_1_1libgui_1_1AnnisBaseUI_1_1RemoteUserRequestHandler" ]
     ] ],
     [ "AnnisBinaryMetaData.java", "AnnisBinaryMetaData_8java.html", [
       [ "AnnisBinaryMetaData", "classannis_1_1service_1_1objects_1_1AnnisBinaryMetaData.html", "classannis_1_1service_1_1objects_1_1AnnisBinaryMetaData" ]
@@ -103,7 +110,8 @@ var files =
       [ "Range", "classannis_1_1model_1_1AnnisNode_1_1Range.html", "classannis_1_1model_1_1AnnisNode_1_1Range" ]
     ] ],
     [ "AnnisParserAntlr.java", "AnnisParserAntlr_8java.html", [
-      [ "AnnisParserAntlr", "classannis_1_1ql_1_1parser_1_1AnnisParserAntlr.html", "classannis_1_1ql_1_1parser_1_1AnnisParserAntlr" ]
+      [ "AnnisParserAntlr", "classannis_1_1ql_1_1parser_1_1AnnisParserAntlr.html", "classannis_1_1ql_1_1parser_1_1AnnisParserAntlr" ],
+      [ "StringListErrorListener", "classannis_1_1ql_1_1parser_1_1AnnisParserAntlr_1_1StringListErrorListener.html", "classannis_1_1ql_1_1parser_1_1AnnisParserAntlr_1_1StringListErrorListener" ]
     ] ],
     [ "AnnisQLSemanticsException.java", "AnnisQLSemanticsException_8java.html", [
       [ "AnnisQLSemanticsException", "classannis_1_1exceptions_1_1AnnisQLSemanticsException.html", "classannis_1_1exceptions_1_1AnnisQLSemanticsException" ]
@@ -226,9 +234,6 @@ var files =
     [ "ApMatrixSqlGenerator.java", "ApMatrixSqlGenerator_8java.html", [
       [ "ApMatrixSqlGenerator", "classannis_1_1sqlgen_1_1annopool_1_1ApMatrixSqlGenerator.html", "classannis_1_1sqlgen_1_1annopool_1_1ApMatrixSqlGenerator" ]
     ] ],
-    [ "AqlListener.java", "AqlListener_8java.html", [
-      [ "AqlListener", "classannis_1_1ql_1_1parser_1_1AqlListener.html", "classannis_1_1ql_1_1parser_1_1AqlListener" ]
-    ] ],
     [ "ArrayCorpusPathExtractor.java", "ArrayCorpusPathExtractor_8java.html", [
       [ "ArrayCorpusPathExtractor", "classannis_1_1sqlgen_1_1ArrayCorpusPathExtractor.html", "classannis_1_1sqlgen_1_1ArrayCorpusPathExtractor" ]
     ] ],
@@ -263,9 +268,9 @@ var files =
     [ "BinaryImportHelper.java", "BinaryImportHelper_8java.html", [
       [ "BinaryImportHelper", "classannis_1_1administration_1_1BinaryImportHelper.html", "classannis_1_1administration_1_1BinaryImportHelper" ]
     ] ],
-    [ "BinaryServlet.java", "BinaryServlet_8java.html", [
-      [ "BinaryServlet", "classannis_1_1gui_1_1servlets_1_1BinaryServlet.html", "classannis_1_1gui_1_1servlets_1_1BinaryServlet" ],
-      [ "AnnisBinaryMetaDataListType", "classannis_1_1gui_1_1servlets_1_1BinaryServlet_1_1AnnisBinaryMetaDataListType.html", "classannis_1_1gui_1_1servlets_1_1BinaryServlet_1_1AnnisBinaryMetaDataListType" ]
+    [ "BinaryRequestHandler.java", "BinaryRequestHandler_8java.html", [
+      [ "BinaryRequestHandler", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler.html", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler" ],
+      [ "AnnisBinaryMetaDataListType", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler_1_1AnnisBinaryMetaDataListType.html", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler_1_1AnnisBinaryMetaDataListType" ]
     ] ],
     [ "ByteHelper.java", "ByteHelper_8java.html", [
       [ "ByteHelper", "classannis_1_1sqlgen_1_1ByteHelper.html", "classannis_1_1sqlgen_1_1ByteHelper" ]
@@ -305,6 +310,10 @@ var files =
       [ "ConstituentLayouter< T extends GraphicsItem >", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4" ],
       [ "TreeLayoutData", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData" ]
     ] ],
+    [ "ContentRange.java", "ContentRange_8java.html", [
+      [ "ContentRange", "classannis_1_1gui_1_1requesthandler_1_1ContentRange.html", "classannis_1_1gui_1_1requesthandler_1_1ContentRange" ],
+      [ "InvalidRangeException", "classannis_1_1gui_1_1requesthandler_1_1ContentRange_1_1InvalidRangeException.html", "classannis_1_1gui_1_1requesthandler_1_1ContentRange_1_1InvalidRangeException" ]
+    ] ],
     [ "ControlPanel.java", "ControlPanel_8java.html", [
       [ "ControlPanel", "classannis_1_1gui_1_1controlpanel_1_1ControlPanel.html", "classannis_1_1gui_1_1controlpanel_1_1ControlPanel" ]
     ] ],
@@ -315,7 +324,8 @@ var files =
       [ "TReferent", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent" ]
     ] ],
     [ "CorpusAdministration.java", "CorpusAdministration_8java.html", [
-      [ "CorpusAdministration", "classannis_1_1administration_1_1CorpusAdministration.html", "classannis_1_1administration_1_1CorpusAdministration" ]
+      [ "CorpusAdministration", "classannis_1_1administration_1_1CorpusAdministration.html", "classannis_1_1administration_1_1CorpusAdministration" ],
+      [ "ImportStatsImpl", "classannis_1_1administration_1_1CorpusAdministration_1_1ImportStatsImpl.html", "classannis_1_1administration_1_1CorpusAdministration_1_1ImportStatsImpl" ]
     ] ],
     [ "CorpusBrowserEntry.java", "CorpusBrowserEntry_8java.html", [
       [ "CorpusBrowserEntry", "classannis_1_1gui_1_1beans_1_1CorpusBrowserEntry.html", "classannis_1_1gui_1_1beans_1_1CorpusBrowserEntry" ]
@@ -341,7 +351,8 @@ var files =
       [ "InfoGenerator", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1InfoGenerator.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1InfoGenerator" ],
       [ "AddRemoveAction", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AddRemoveAction.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AddRemoveAction" ],
       [ "CorpusTableChangedListener", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1CorpusTableChangedListener" ],
-      [ "AnnisCorpusListType", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AnnisCorpusListType.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AnnisCorpusListType" ]
+      [ "AnnisCorpusListType", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AnnisCorpusListType.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AnnisCorpusListType" ],
+      [ "TooltipGenerator", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1TooltipGenerator.html", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1TooltipGenerator" ]
     ] ],
     [ "CorpusPathExtractor.java", "CorpusPathExtractor_8java.html", [
       [ "CorpusPathExtractor", "interfaceannis_1_1sqlgen_1_1CorpusPathExtractor.html", "interfaceannis_1_1sqlgen_1_1CorpusPathExtractor" ]
@@ -349,8 +360,8 @@ var files =
     [ "CorpusPathWhereClauseGenerator.java", "CorpusPathWhereClauseGenerator_8java.html", [
       [ "CorpusPathWhereClauseGenerator", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator" ]
     ] ],
-    [ "CorpusSelectionStrategy.java", "CorpusSelectionStrategy_8java.html", [
-      [ "CorpusSelectionStrategy", "interfaceannis_1_1dao_1_1CorpusSelectionStrategy.html", "interfaceannis_1_1dao_1_1CorpusSelectionStrategy" ]
+    [ "CorpusSelectionChangeListener.java", "CorpusSelectionChangeListener_8java.html", [
+      [ "CorpusSelectionChangeListener", "interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html", "interfaceannis_1_1gui_1_1CorpusSelectionChangeListener" ]
     ] ],
     [ "CorpusSet.java", "CorpusSet_8java.html", [
       [ "CorpusSet", "classannis_1_1libgui_1_1CorpusSet.html", "classannis_1_1libgui_1_1CorpusSet" ]
@@ -368,9 +379,6 @@ var files =
       [ "CssRenderInfo", "classannis_1_1gui_1_1components_1_1CssRenderInfo.html", "classannis_1_1gui_1_1components_1_1CssRenderInfo" ],
       [ "Callback", "interfaceannis_1_1gui_1_1components_1_1CssRenderInfo_1_1Callback.html", "interfaceannis_1_1gui_1_1components_1_1CssRenderInfo_1_1Callback" ]
     ] ],
-    [ "CsvCorpusPathExtractor.java", "CsvCorpusPathExtractor_8java.html", [
-      [ "CsvCorpusPathExtractor", "classannis_1_1sqlgen_1_1CsvCorpusPathExtractor.html", "classannis_1_1sqlgen_1_1CsvCorpusPathExtractor" ]
-    ] ],
     [ "DatabaseAccessException.java", "DatabaseAccessException_8java.html", [
       [ "DatabaseAccessException", "classannis_1_1administration_1_1DatabaseAccessException.html", "classannis_1_1administration_1_1DatabaseAccessException" ]
     ] ],
@@ -387,9 +395,6 @@ var files =
       [ "EXAMPLE_QUERIES_CONFIG", "enumannis_1_1administration_1_1DefaultAdministrationDao_1_1EXAMPLE__QUERIES__CONFIG.html", "enumannis_1_1administration_1_1DefaultAdministrationDao_1_1EXAMPLE__QUERIES__CONFIG" ],
       [ "CancelableStatements", "classannis_1_1administration_1_1DefaultAdministrationDao_1_1CancelableStatements.html", "classannis_1_1administration_1_1DefaultAdministrationDao_1_1CancelableStatements" ],
       [ "ConflictingCorpusException", "classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException.html", "classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException" ]
-    ] ],
-    [ "DefaultTableAccessStrategy.java", "DefaultTableAccessStrategy_8java.html", [
-      [ "DefaultTableAccessStrategy", "classannis_1_1sqlgen_1_1DefaultTableAccessStrategy.html", "classannis_1_1sqlgen_1_1DefaultTableAccessStrategy" ]
     ] ],
     [ "DefaultWhereClauseGenerator.java", "DefaultWhereClauseGenerator_8java.html", [
       [ "DefaultWhereClauseGenerator", "classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html", "classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator" ]
@@ -460,13 +465,8 @@ var files =
     ] ],
     [ "ExportPanel.java", "ExportPanel_8java.html", [
       [ "ExportPanel", "classannis_1_1gui_1_1ExportPanel.html", "classannis_1_1gui_1_1ExportPanel" ],
-      [ "ExporterSelectionHelpListener", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener.html", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener" ]
-    ] ],
-    [ "FfAnnotateConditionProvider.java", "FfAnnotateConditionProvider_8java.html", [
-      [ "FfAnnotateConditionProvider", "classannis_1_1sqlgen_1_1fullfacts_1_1FfAnnotateConditionProvider.html", "classannis_1_1sqlgen_1_1fullfacts_1_1FfAnnotateConditionProvider" ]
-    ] ],
-    [ "FfAnnotateSqlGenerator.java", "FfAnnotateSqlGenerator_8java.html", [
-      [ "FfAnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1fullfacts_1_1FfAnnotateSqlGenerator_3_01T_01_4.html", "classannis_1_1sqlgen_1_1fullfacts_1_1FfAnnotateSqlGenerator_3_01T_01_4" ]
+      [ "ExporterSelectionHelpListener", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener.html", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener" ],
+      [ "BackgroundJob", "classannis_1_1gui_1_1ExportPanel_1_1BackgroundJob.html", "classannis_1_1gui_1_1ExportPanel_1_1BackgroundJob" ]
     ] ],
     [ "FileAccessException.java", "FileAccessException_8java.html", [
       [ "FileAccessException", "classannis_1_1administration_1_1FileAccessException.html", "classannis_1_1administration_1_1FileAccessException" ]
@@ -477,16 +477,17 @@ var files =
     [ "FindSqlGenerator.java", "FindSqlGenerator_8java.html", [
       [ "FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", "classannis_1_1sqlgen_1_1FindSqlGenerator" ]
     ] ],
-    [ "FixPushMimeFilter.java", "FixPushMimeFilter_8java.html", [
-      [ "FixPushMimeFilter", "classannis_1_1gui_1_1FixPushMimeFilter.html", "classannis_1_1gui_1_1FixPushMimeFilter" ]
-    ] ],
     [ "FlatQueryBuilder.java", "FlatQueryBuilder_8java.html", [
       [ "FlatQueryBuilder", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder" ],
       [ "Constraint", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint" ],
       [ "Relation", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Relation" ],
       [ "RelationType", "enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType.html", "enumannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1RelationType" ],
+      [ "LoadQueryException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1LoadQueryException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1LoadQueryException" ],
       [ "UnknownLevelException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1UnknownLevelException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1UnknownLevelException" ],
-      [ "EqualityConstraintException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EqualityConstraintException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EqualityConstraintException" ]
+      [ "MultipleAssignmentException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1MultipleAssignmentException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1MultipleAssignmentException" ],
+      [ "EqualityConstraintException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EqualityConstraintException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EqualityConstraintException" ],
+      [ "InvalidCharacterSequenceException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1InvalidCharacterSequenceException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1InvalidCharacterSequenceException" ],
+      [ "EmptyReferenceException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EmptyReferenceException.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1EmptyReferenceException" ]
     ] ],
     [ "FlatQueryBuilderPlugin.java", "FlatQueryBuilderPlugin_8java.html", [
       [ "FlatQueryBuilderPlugin", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilderPlugin.html", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilderPlugin" ]
@@ -667,6 +668,9 @@ var files =
     [ "Join.java", "Join_8java.html", [
       [ "Join", "classannis_1_1sqlgen_1_1model_1_1Join.html", "classannis_1_1sqlgen_1_1model_1_1Join" ]
     ] ],
+    [ "JoinListener.java", "JoinListener_8java.html", [
+      [ "JoinListener", "classannis_1_1ql_1_1parser_1_1JoinListener.html", "classannis_1_1ql_1_1parser_1_1JoinListener" ]
+    ] ],
     [ "JSONSerializable.java", "JSONSerializable_8java.html", [
       [ "JSONSerializable", "classannis_1_1gui_1_1docbrowser_1_1JSONSerializable.html", "classannis_1_1gui_1_1docbrowser_1_1JSONSerializable" ]
     ] ],
@@ -728,19 +732,22 @@ var files =
     [ "ListExampleQueriesHelper.java", "ListExampleQueriesHelper_8java.html", [
       [ "ListExampleQueriesHelper", "classannis_1_1sqlgen_1_1ListExampleQueriesHelper.html", "classannis_1_1sqlgen_1_1ListExampleQueriesHelper" ]
     ] ],
+    [ "ListTokenSource.java", "ListTokenSource_8java.html", [
+      [ "ListTokenSource", "classannis_1_1ql_1_1parser_1_1ListTokenSource.html", "classannis_1_1ql_1_1parser_1_1ListTokenSource" ]
+    ] ],
     [ "LoadableVisualizer.java", "LoadableVisualizer_8java.html", [
       [ "LoadableVisualizer", "interfaceannis_1_1visualizers_1_1LoadableVisualizer.html", "interfaceannis_1_1visualizers_1_1LoadableVisualizer" ],
       [ "Callback", "interfaceannis_1_1visualizers_1_1LoadableVisualizer_1_1Callback.html", "interfaceannis_1_1visualizers_1_1LoadableVisualizer_1_1Callback" ]
     ] ],
     [ "LogicClause.java", "LogicClause_8java.html", [
-      [ "LogicClause", "classannis_1_1model_1_1LogicClause.html", "classannis_1_1model_1_1LogicClause" ],
-      [ "Operator", "enumannis_1_1model_1_1LogicClause_1_1Operator.html", "enumannis_1_1model_1_1LogicClause_1_1Operator" ]
+      [ "LogicClause", "classannis_1_1ql_1_1parser_1_1LogicClause.html", "classannis_1_1ql_1_1parser_1_1LogicClause" ],
+      [ "Operator", "enumannis_1_1ql_1_1parser_1_1LogicClause_1_1Operator.html", "enumannis_1_1ql_1_1parser_1_1LogicClause_1_1Operator" ]
     ] ],
     [ "LoginListener.java", "LoginListener_8java.html", [
       [ "LoginListener", "interfaceannis_1_1gui_1_1LoginListener.html", "interfaceannis_1_1gui_1_1LoginListener" ]
     ] ],
-    [ "LoginServlet.java", "LoginServlet_8java.html", [
-      [ "LoginServlet", "classannis_1_1gui_1_1servlets_1_1LoginServlet.html", "classannis_1_1gui_1_1servlets_1_1LoginServlet" ]
+    [ "LoginServletRequestHandler.java", "LoginServletRequestHandler_8java.html", [
+      [ "LoginServletRequestHandler", "classannis_1_1gui_1_1requesthandler_1_1LoginServletRequestHandler.html", "classannis_1_1gui_1_1requesthandler_1_1LoginServletRequestHandler" ]
     ] ],
     [ "MainFrame.java", "MainFrame_8java.html", [
       [ "MainFrame", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame" ],
@@ -787,9 +794,6 @@ var files =
     [ "MediaState.java", "MediaState_8java.html", [
       [ "MediaState", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaState.html", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaState" ]
     ] ],
-    [ "MemoryUsage.java", "MemoryUsage_8java.html", [
-      [ "MemoryUsage", "classannis_1_1MemoryUsage.html", "classannis_1_1MemoryUsage" ]
-    ] ],
     [ "MetaBox.java", "MetaBox_8java.html", [
       [ "MetaBox", "classannis_1_1gui_1_1flatquerybuilder_1_1MetaBox.html", "classannis_1_1gui_1_1flatquerybuilder_1_1MetaBox" ]
     ] ],
@@ -820,15 +824,6 @@ var files =
     ] ],
     [ "MimeTypeErrorListener.java", "MimeTypeErrorListener_8java.html", [
       [ "MimeTypeErrorListener", "interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener.html", "interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener" ]
-    ] ],
-    [ "MultipleColumnsSolutionKey.java", "MultipleColumnsSolutionKey_8java.html", [
-      [ "MultipleColumnsSolutionKey< BaseType >", "classannis_1_1sqlgen_1_1MultipleColumnsSolutionKey_3_01BaseType_01_4.html", "classannis_1_1sqlgen_1_1MultipleColumnsSolutionKey_3_01BaseType_01_4" ]
-    ] ],
-    [ "NodeNameAndIdPostgreSqlArraySolutionKey.java", "NodeNameAndIdPostgreSqlArraySolutionKey_8java.html", [
-      [ "NodeNameAndIdPostgreSqlArraySolutionKey", "classannis_1_1sqlgen_1_1NodeNameAndIdPostgreSqlArraySolutionKey.html", "classannis_1_1sqlgen_1_1NodeNameAndIdPostgreSqlArraySolutionKey" ]
-    ] ],
-    [ "NodeSqlAdapter.java", "NodeSqlAdapter_8java.html", [
-      [ "NodeSqlAdapter", "interfaceannis_1_1sqlgen_1_1NodeSqlAdapter.html", "interfaceannis_1_1sqlgen_1_1NodeSqlAdapter" ]
     ] ],
     [ "NodeStructureData.java", "NodeStructureData_8java.html", [
       [ "NodeStructureData", "classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html", "classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData" ]
@@ -862,7 +857,7 @@ var files =
     ] ],
     [ "PagingComponent.java", "PagingComponent_8java.html", [
       [ "PagingComponent", "classannis_1_1gui_1_1paging_1_1PagingComponent.html", "classannis_1_1gui_1_1paging_1_1PagingComponent" ],
-      [ "EnterListener", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterListener.html", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterListener" ],
+      [ "EnterHandler", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterHandler.html", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterHandler" ],
       [ "PageValidator", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1PageValidator.html", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1PageValidator" ]
     ] ],
     [ "PartiturParser.java", "PartiturParser_8java.html", [
@@ -905,6 +900,10 @@ var files =
     ] ],
     [ "PointingRelation.java", "PointingRelation_8java.html", [
       [ "PointingRelation", "classannis_1_1sqlgen_1_1model_1_1PointingRelation.html", "classannis_1_1sqlgen_1_1model_1_1PointingRelation" ]
+    ] ],
+    [ "PollControl.java", "PollControl_8java.html", [
+      [ "PollControl", "classannis_1_1libgui_1_1PollControl.html", "classannis_1_1libgui_1_1PollControl" ],
+      [ "TimeMap", "classannis_1_1libgui_1_1PollControl_1_1TimeMap.html", null ]
     ] ],
     [ "PostgreSqlArraySolutionKey.java", "PostgreSqlArraySolutionKey_8java.html", [
       [ "PostgreSqlArraySolutionKey< BaseType >", "classannis_1_1sqlgen_1_1PostgreSqlArraySolutionKey_3_01BaseType_01_4.html", "classannis_1_1sqlgen_1_1PostgreSqlArraySolutionKey_3_01BaseType_01_4" ]
@@ -951,6 +950,9 @@ var files =
       [ "TextMatching", "enumannis_1_1model_1_1QueryNode_1_1TextMatching.html", "enumannis_1_1model_1_1QueryNode_1_1TextMatching" ],
       [ "Range", "classannis_1_1model_1_1QueryNode_1_1Range.html", "classannis_1_1model_1_1QueryNode_1_1Range" ]
     ] ],
+    [ "QueryNodeListener.java", "QueryNodeListener_8java.html", [
+      [ "QueryNodeListener", "classannis_1_1ql_1_1parser_1_1QueryNodeListener.html", "classannis_1_1ql_1_1parser_1_1QueryNodeListener" ]
+    ] ],
     [ "QueryPanel.java", "QueryPanel_8java.html", [
       [ "QueryPanel", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel" ],
       [ "ShowResultClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener" ],
@@ -970,6 +972,18 @@ var files =
     ] ],
     [ "RankTableJoin.java", "RankTableJoin_8java.html", [
       [ "RankTableJoin", "classannis_1_1sqlgen_1_1model_1_1RankTableJoin.html", "classannis_1_1sqlgen_1_1model_1_1RankTableJoin" ]
+    ] ],
+    [ "RawAqlListener.java", "RawAqlListener_8java.html", [
+      [ "RawAqlListener", "classannis_1_1ql_1_1parser_1_1RawAqlListener.html", "classannis_1_1ql_1_1parser_1_1RawAqlListener" ]
+    ] ],
+    [ "RawTextSqlHelper.java", "RawTextSqlHelper_8java.html", [
+      [ "RawTextSqlHelper", "classannis_1_1sqlgen_1_1RawTextSqlHelper.html", "classannis_1_1sqlgen_1_1RawTextSqlHelper" ]
+    ] ],
+    [ "RawTextVisualizer.java", "RawTextVisualizer_8java.html", [
+      [ "RawTextVisualizer", "classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html", "classannis_1_1visualizers_1_1component_1_1RawTextVisualizer" ]
+    ] ],
+    [ "RawTextWrapper.java", "RawTextWrapper_8java.html", [
+      [ "RawTextWrapper", "classannis_1_1service_1_1objects_1_1RawTextWrapper.html", "classannis_1_1service_1_1objects_1_1RawTextWrapper" ]
     ] ],
     [ "RectangleSide.java", "RectangleSide_8java.html", [
       [ "RectangleSide", "enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide.html", "enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide" ]
@@ -1013,14 +1027,14 @@ var files =
       [ "ResourcePlugin", "interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin.html", "interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin" ]
     ] ],
     [ "ResourceRequestHandler.java", "ResourceRequestHandler_8java.html", [
-      [ "ResourceRequestHandler", "classannis_1_1gui_1_1ResourceRequestHandler.html", "classannis_1_1gui_1_1ResourceRequestHandler" ]
+      [ "ResourceRequestHandler", "classannis_1_1gui_1_1requesthandler_1_1ResourceRequestHandler.html", "classannis_1_1gui_1_1requesthandler_1_1ResourceRequestHandler" ]
     ] ],
     [ "ResourceServlet.java", "ResourceServlet_8java.html", [
       [ "ResourceServlet", "classannis_1_1gui_1_1servlets_1_1ResourceServlet.html", "classannis_1_1gui_1_1servlets_1_1ResourceServlet" ]
     ] ],
-    [ "ResultFetchThread.java", "ResultFetchThread_8java.html", [
-      [ "ResultFetchThread", "classannis_1_1gui_1_1ResultFetchThread.html", "classannis_1_1gui_1_1ResultFetchThread" ],
-      [ "MatchListType", "classannis_1_1gui_1_1ResultFetchThread_1_1MatchListType.html", "classannis_1_1gui_1_1ResultFetchThread_1_1MatchListType" ]
+    [ "ResultFetchJob.java", "ResultFetchJob_8java.html", [
+      [ "ResultFetchJob", "classannis_1_1gui_1_1ResultFetchJob.html", "classannis_1_1gui_1_1ResultFetchJob" ],
+      [ "MatchListType", "classannis_1_1gui_1_1ResultFetchJob_1_1MatchListType.html", "classannis_1_1gui_1_1ResultFetchJob_1_1MatchListType" ]
     ] ],
     [ "ResultSetConverter.java", "ResultSetConverter_8java.html", [
       [ "ResultSetConverter< T >", "interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4.html", "interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4" ]
@@ -1029,7 +1043,8 @@ var files =
       [ "ResultSetTypedIterator< T >", "classannis_1_1sqlgen_1_1ResultSetTypedIterator_3_01T_01_4.html", "classannis_1_1sqlgen_1_1ResultSetTypedIterator_3_01T_01_4" ]
     ] ],
     [ "ResultViewPanel.java", "ResultViewPanel_8java.html", [
-      [ "ResultViewPanel", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel" ]
+      [ "ResultViewPanel", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel" ],
+      [ "MenuBaseTextCommand", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand.html", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand" ]
     ] ],
     [ "RightAlignment.java", "RightAlignment_8java.html", [
       [ "RightAlignment", "classannis_1_1sqlgen_1_1model_1_1RightAlignment.html", "classannis_1_1sqlgen_1_1model_1_1RightAlignment" ]
@@ -1075,6 +1090,9 @@ var files =
     [ "SampleWhereClause.java", "SampleWhereClause_8java.html", [
       [ "SampleWhereClause", "classannis_1_1sqlgen_1_1SampleWhereClause.html", "classannis_1_1sqlgen_1_1SampleWhereClause" ]
     ] ],
+    [ "SchemeFixer.java", "SchemeFixer_8java.html", [
+      [ "SchemeFixer", "classannis_1_1administration_1_1SchemeFixer.html", "classannis_1_1administration_1_1SchemeFixer" ]
+    ] ],
     [ "ScreenshotMaker.java", "ScreenshotMaker_8java.html", [
       [ "ScreenshotMaker", "classannis_1_1gui_1_1components_1_1ScreenshotMaker.html", "classannis_1_1gui_1_1components_1_1ScreenshotMaker" ],
       [ "ScreenshotCallback", "interfaceannis_1_1gui_1_1components_1_1ScreenshotMaker_1_1ScreenshotCallback.html", "interfaceannis_1_1gui_1_1components_1_1ScreenshotMaker_1_1ScreenshotCallback" ]
@@ -1109,9 +1127,6 @@ var files =
     ] ],
     [ "SensitiveComboBox.java", "SensitiveComboBox_8java.html", [
       [ "SensitiveComboBox", "classannis_1_1gui_1_1flatquerybuilder_1_1SensitiveComboBox.html", "classannis_1_1gui_1_1flatquerybuilder_1_1SensitiveComboBox" ]
-    ] ],
-    [ "SfAdministrationDao.java", "SfAdministrationDao_8java.html", [
-      [ "SfAdministrationDao", "classannis_1_1administration_1_1SfAdministrationDao.html", "classannis_1_1administration_1_1SfAdministrationDao" ]
     ] ],
     [ "Shape.java", "Shape_8java.html", [
       [ "Shape", "interfaceannis_1_1visualizers_1_1component_1_1tree_1_1Shape.html", "interfaceannis_1_1visualizers_1_1component_1_1tree_1_1Shape" ],
@@ -1193,9 +1208,6 @@ var files =
     [ "TableFormatter.java", "TableFormatter_8java.html", [
       [ "TableFormatter", "classannis_1_1TableFormatter.html", "classannis_1_1TableFormatter" ]
     ] ],
-    [ "TableJoinsInFromClauseSqlGenerator.java", "TableJoinsInFromClauseSqlGenerator_8java.html", [
-      [ "TableJoinsInFromClauseSqlGenerator", "classannis_1_1sqlgen_1_1TableJoinsInFromClauseSqlGenerator.html", "classannis_1_1sqlgen_1_1TableJoinsInFromClauseSqlGenerator" ]
-    ] ],
     [ "TableJoinsInWhereClauseGenerator.java", "TableJoinsInWhereClauseGenerator_8java.html", [
       [ "TableJoinsInWhereClauseGenerator", "classannis_1_1sqlgen_1_1TableJoinsInWhereClauseGenerator.html", "classannis_1_1sqlgen_1_1TableJoinsInWhereClauseGenerator" ]
     ] ],
@@ -1223,9 +1235,6 @@ var files =
     [ "annis-interfaces/src/main/java/annis/libgui/media/TimeHelper.java", "annis-interfaces_2src_2main_2java_2annis_2libgui_2media_2TimeHelper_8java.html", [
       [ "TimeHelper", "classannis_1_1libgui_1_1media_1_1TimeHelper.html", "classannis_1_1libgui_1_1media_1_1TimeHelper" ]
     ] ],
-    [ "TimeOutSqlSessionModifier.java", "TimeOutSqlSessionModifier_8java.html", [
-      [ "TimeOutSqlSessionModifier", "classannis_1_1dao_1_1TimeOutSqlSessionModifier.html", "classannis_1_1dao_1_1TimeOutSqlSessionModifier" ]
-    ] ],
     [ "TokenMatcher.java", "TokenMatcher_8java.html", [
       [ "TokenMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1TokenMatcher.html", "classannis_1_1visualizers_1_1htmlvis_1_1TokenMatcher" ]
     ] ],
@@ -1241,9 +1250,6 @@ var files =
     [ "TutorialPanel.java", "TutorialPanel_8java.html", [
       [ "TutorialPanel", "classannis_1_1gui_1_1tutorial_1_1TutorialPanel.html", "classannis_1_1gui_1_1tutorial_1_1TutorialPanel" ]
     ] ],
-    [ "UnknownExpressionException.java", "UnknownExpressionException_8java.html", [
-      [ "UnknownExpressionException", "classannis_1_1sqlgen_1_1UnknownExpressionException.html", "classannis_1_1sqlgen_1_1UnknownExpressionException" ]
-    ] ],
     [ "UsageException.java", "UsageException_8java.html", [
       [ "UsageException", "classannis_1_1UsageException.html", "classannis_1_1UsageException" ]
     ] ],
@@ -1252,6 +1258,10 @@ var files =
     ] ],
     [ "VakyarthaDependencyTree.java", "VakyarthaDependencyTree_8java.html", [
       [ "VakyarthaDependencyTree", "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html", "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree" ]
+    ] ],
+    [ "ValueField.java", "ValueField_8java.html", [
+      [ "ValueField", "classannis_1_1gui_1_1flatquerybuilder_1_1ValueField.html", "classannis_1_1gui_1_1flatquerybuilder_1_1ValueField" ],
+      [ "ValueMode", "enumannis_1_1gui_1_1flatquerybuilder_1_1ValueField_1_1ValueMode.html", "enumannis_1_1gui_1_1flatquerybuilder_1_1ValueField_1_1ValueMode" ]
     ] ],
     [ "VAnnotationGrid.java", "VAnnotationGrid_8java.html", [
       [ "VAnnotationGrid", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid" ],
@@ -1281,6 +1291,9 @@ var files =
       [ "VKState", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1VKState.html", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1VKState" ],
       [ "UpdateLangJSFunction", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction.html", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction" ]
     ] ],
+    [ "VisibleTokenAnnoChanger.java", "VisibleTokenAnnoChanger_8java.html", [
+      [ "VisibleTokenAnnoChanger", "interfaceannis_1_1libgui_1_1VisibleTokenAnnoChanger.html", "interfaceannis_1_1libgui_1_1VisibleTokenAnnoChanger" ]
+    ] ],
     [ "VisParser.java", "VisParser_8java.html", [
       [ "VisParser", "classannis_1_1visualizers_1_1htmlvis_1_1VisParser.html", "classannis_1_1visualizers_1_1htmlvis_1_1VisParser" ]
     ] ],
@@ -1298,7 +1311,7 @@ var files =
     ] ],
     [ "VisualizerPanel.java", "VisualizerPanel_8java.html", [
       [ "VisualizerPanel", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel" ],
-      [ "BackgroundThread", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundThread.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundThread" ],
+      [ "BackgroundJob", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob" ],
       [ "LoadComponentTask", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask" ],
       [ "ByteArrayOutputStreamSource", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource" ]
     ] ],

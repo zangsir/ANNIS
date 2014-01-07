@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1resultview_1_1ResultViewPanel =
 [
+    [ "MenuBaseTextCommand", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand.html", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand" ],
     [ "ResultViewPanel", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a24fb967f7b18b8df599826b529aaa4c7", null ],
     [ "addQueryResult", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae516670fe777a0c9147f5f8da3f79984", null ],
     [ "createPanels", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a8ae0550f5cd8e5913e8ca3a977501480", null ],
@@ -12,12 +13,12 @@ var classannis_1_1gui_1_1resultview_1_1ResultViewPanel =
     [ "setSegmentationLayer", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a3e835508524e70feb3391d30498d5674", null ],
     [ "setVisibleTokenAnnosVisible", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ad27c960927221af29b120ed504858c89", null ],
     [ "showFinishedSubgraphSearch", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#abb89d2b27a361a341d93b2572fb40770", null ],
-    [ "showMatchSearchInProgress", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a0d70fcbf142de6b4040084ba44c9ce71", null ],
+    [ "showMatchSearchInProgress", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#aa70586e3e3bef069ee1545c35eb71117", null ],
     [ "showNoResult", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ab1f81d5d252f856ce38ac42c6f1bd08d", null ],
     [ "showSubgraphSearchInProgress", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#acb78791c89deb1635e1fc5a2e5661643", null ],
     [ "updateSegmentationLayer", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6d80108b7cd08bf3c3205bf6affdcaa4", null ],
-    [ "updateTokenAnnos", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a991b1dde3f0411ccd7fe4763e19a1158", null ],
     [ "updateVariables", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4ce3037c13a8dddc669932d3a70d018e", null ],
+    [ "updateVisibleToken", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ac977fcfa44b7c1a0d6e11daf2ac8889b", null ],
     [ "cacheResolver", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a5f2b34cc3345d6a263862366a0ba7e03", null ],
     [ "controller", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af8cf11907c36f745c55b7b16d3cd255c", null ],
     [ "currentQuery", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a0f33f606432574cdb512d62ac633e400", null ],

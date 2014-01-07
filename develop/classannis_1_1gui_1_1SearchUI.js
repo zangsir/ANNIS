@@ -16,6 +16,7 @@ var classannis_1_1gui_1_1SearchUI =
     [ "getInstanceConfig", "classannis_1_1gui_1_1SearchUI.html#a47d5b95b544eec9c11379bb8c80e50a8", null ],
     [ "getInstanceConfig", "classannis_1_1gui_1_1SearchUI.html#aef48334761cad430416027bb75e54027", null ],
     [ "getMainTab", "classannis_1_1gui_1_1SearchUI.html#a6cfab0aa36755b6e4273796192499d65", null ],
+    [ "getMappedCorpora", "classannis_1_1gui_1_1SearchUI.html#a0c5be70095824a1cfb7ed48675f0341b", null ],
     [ "getQueryController", "classannis_1_1gui_1_1SearchUI.html#aecf1d9ee0f0c08b6e4c08b0d8130a196", null ],
     [ "getTabSheet", "classannis_1_1gui_1_1SearchUI.html#a3ae255c9833e7cb010d07523fb6b532d", null ],
     [ "init", "classannis_1_1gui_1_1SearchUI.html#a36755da2c3c19b2145b39a209473d3ba", null ],

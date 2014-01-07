@@ -6,7 +6,6 @@ var searchData=
   ['defaultadministrationdao',['DefaultAdministrationDao',['../classannis_1_1administration_1_1DefaultAdministrationDao.html',1,'annis::administration']]],
   ['defaultlabeler',['DefaultLabeler',['../classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultLabeler.html',1,'annis::visualizers::component::tree::TigerTreeVisualizer']]],
   ['defaultstyler',['DefaultStyler',['../classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultStyler.html',1,'annis::visualizers::component::tree::TigerTreeVisualizer']]],
-  ['defaulttableaccessstrategy',['DefaultTableAccessStrategy',['../classannis_1_1sqlgen_1_1DefaultTableAccessStrategy.html',1,'annis::sqlgen']]],
   ['defaultwhereclausegenerator',['DefaultWhereClauseGenerator',['../classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html',1,'annis::sqlgen']]],
   ['detectholes',['DetectHoles',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1DetectHoles.html',1,'annis::visualizers::iframe::partitur']]],
   ['dnftransformer',['DNFTransformer',['../classannis_1_1ql_1_1parser_1_1DNFTransformer.html',1,'annis::ql::parser']]],

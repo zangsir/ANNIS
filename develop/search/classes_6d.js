@@ -6,7 +6,7 @@ var searchData=
   ['matchanddocumentcount',['MatchAndDocumentCount',['../classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html',1,'annis::service::objects']]],
   ['matchcorefvisualizer',['MatchCorefVisualizer',['../classannis_1_1visualizers_1_1iframe_1_1MatchCorefVisualizer.html',1,'annis::visualizers::iframe']]],
   ['matchednodecolors',['MatchedNodeColors',['../enumannis_1_1libgui_1_1MatchedNodeColors.html',1,'annis::libgui']]],
-  ['matchlisttype',['MatchListType',['../classannis_1_1gui_1_1ResultFetchThread_1_1MatchListType.html',1,'annis::gui::ResultFetchThread']]],
+  ['matchlisttype',['MatchListType',['../classannis_1_1gui_1_1ResultFetchJob_1_1MatchListType.html',1,'annis::gui::ResultFetchJob']]],
   ['matrixquerydata',['MatrixQueryData',['../classannis_1_1sqlgen_1_1MatrixQueryData.html',1,'annis::sqlgen']]],
   ['matrixsqlgenerator',['MatrixSqlGenerator',['../classannis_1_1sqlgen_1_1MatrixSqlGenerator.html',1,'annis::sqlgen']]],
   ['mediacontroller',['MediaController',['../interfaceannis_1_1libgui_1_1media_1_1MediaController.html',1,'annis::libgui::media']]],
@@ -15,7 +15,7 @@ var searchData=
   ['mediaelementplayer',['MediaElementPlayer',['../classannis_1_1gui_1_1components_1_1medialement_1_1MediaElementPlayer.html',1,'annis::gui::components::medialement']]],
   ['mediaplayer',['MediaPlayer',['../interfaceannis_1_1libgui_1_1media_1_1MediaPlayer.html',1,'annis::libgui::media']]],
   ['mediastate',['MediaState',['../classannis_1_1gui_1_1components_1_1medialement_1_1MediaState.html',1,'annis::gui::components::medialement']]],
-  ['memoryusage',['MemoryUsage',['../classannis_1_1MemoryUsage.html',1,'annis']]],
+  ['menubasetextcommand',['MenuBaseTextCommand',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand.html',1,'annis::gui::resultview::ResultViewPanel']]],
   ['metabox',['MetaBox',['../classannis_1_1gui_1_1flatquerybuilder_1_1MetaBox.html',1,'annis::gui::flatquerybuilder']]],
   ['metabytehelper',['MetaByteHelper',['../classannis_1_1sqlgen_1_1MetaByteHelper.html',1,'annis::sqlgen']]],
   ['metacolumns',['MetaColumns',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaColumns.html',1,'annis::gui::docbrowser::DocBrowserTable']]],
@@ -31,5 +31,5 @@ var searchData=
   ['mimetypeerrorlistener',['MimeTypeErrorListener',['../interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener.html',1,'annis::libgui::media']]],
   ['minmax',['MinMax',['../classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax.html',1,'annis::gui::resultview::SingleResultPanel']]],
   ['mouseeventtransferable',['MouseEventTransferable',['../classannis_1_1gui_1_1widgets_1_1GripDragComponent_1_1MouseEventTransferable.html',1,'annis::gui::widgets::GripDragComponent']]],
-  ['multiplecolumnssolutionkey_3c_20basetype_20_3e',['MultipleColumnsSolutionKey&lt; BaseType &gt;',['../classannis_1_1sqlgen_1_1MultipleColumnsSolutionKey_3_01BaseType_01_4.html',1,'annis::sqlgen']]]
+  ['multipleassignmentexception',['MultipleAssignmentException',['../classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1MultipleAssignmentException.html',1,'annis::gui::flatquerybuilder::FlatQueryBuilder']]]
 ];

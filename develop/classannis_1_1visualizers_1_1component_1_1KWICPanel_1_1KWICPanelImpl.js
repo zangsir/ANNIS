@@ -14,7 +14,10 @@ var classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl =
     [ "baseAnnoSet", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a213c835e20bf5632bfe6821521dd5646", null ],
     [ "containerAnnos", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a59bc941f3d7794acf17b542049da9874", null ],
     [ "DUMMY_COLUMN", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#aa40c46111cd0543c2f9e0b2852a509a9", null ],
+    [ "escapeHTML", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#aadf40d4bd83eee1a2b833ffdbd80ab6f", null ],
     [ "generatedColumns", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a0d513722720f29543deb8c2d95b3e3be", null ],
+    [ "HIDDEN_ANN0S", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a2a3738904285db5b5768eb88b2789c18", null ],
+    [ "hiddenTokenAnnos", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a046bea3dbdc6c6eb58f86b51a55c82cc", null ],
     [ "log", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a12013a2b3cf5acf5264aca40612d701e", null ],
     [ "markedAndCovered", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a0271b5749401df8d0972b6eee6c6e811", null ],
     [ "media_annotations", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a0b697eadbb85a5d77dff23492ed51bd7", null ],
@@ -22,5 +25,6 @@ var classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl =
     [ "pdfController", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a47f2ddb0c288601ea702c8a60293c5ad", null ],
     [ "result", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a6637298e73c94ecb2a20335e8610e1b7", null ],
     [ "text", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#ace80b676ddcbb0c3501ff7c13c1156d2", null ],
+    [ "visibleTokenAnnos", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a478f8f419b3e7538b8c6011cbb22144a", null ],
     [ "visInput", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a44e6f7ef6e0057064af8041db19d6528", null ]
 ];

@@ -11,6 +11,7 @@ var namespaceannis_1_1gui =
     [ "model", "namespaceannis_1_1gui_1_1model.html", "namespaceannis_1_1gui_1_1model" ],
     [ "paging", "namespaceannis_1_1gui_1_1paging.html", "namespaceannis_1_1gui_1_1paging" ],
     [ "querybuilder", "namespaceannis_1_1gui_1_1querybuilder.html", "namespaceannis_1_1gui_1_1querybuilder" ],
+    [ "requesthandler", "namespaceannis_1_1gui_1_1requesthandler.html", "namespaceannis_1_1gui_1_1requesthandler" ],
     [ "resultview", "namespaceannis_1_1gui_1_1resultview.html", "namespaceannis_1_1gui_1_1resultview" ],
     [ "servlets", "namespaceannis_1_1gui_1_1servlets.html", "namespaceannis_1_1gui_1_1servlets" ],
     [ "tutorial", "namespaceannis_1_1gui_1_1tutorial.html", "namespaceannis_1_1gui_1_1tutorial" ],
@@ -20,9 +21,9 @@ var namespaceannis_1_1gui =
     [ "CitationLinkGenerator", "classannis_1_1gui_1_1CitationLinkGenerator.html", "classannis_1_1gui_1_1CitationLinkGenerator" ],
     [ "CitationWindow", "classannis_1_1gui_1_1CitationWindow.html", "classannis_1_1gui_1_1CitationWindow" ],
     [ "CorpusBrowserPanel", "classannis_1_1gui_1_1CorpusBrowserPanel.html", "classannis_1_1gui_1_1CorpusBrowserPanel" ],
+    [ "CorpusSelectionChangeListener", "interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html", "interfaceannis_1_1gui_1_1CorpusSelectionChangeListener" ],
     [ "ExampleQueriesPanel", "classannis_1_1gui_1_1ExampleQueriesPanel.html", "classannis_1_1gui_1_1ExampleQueriesPanel" ],
     [ "ExportPanel", "classannis_1_1gui_1_1ExportPanel.html", "classannis_1_1gui_1_1ExportPanel" ],
-    [ "FixPushMimeFilter", "classannis_1_1gui_1_1FixPushMimeFilter.html", "classannis_1_1gui_1_1FixPushMimeFilter" ],
     [ "HelpPanel", "classannis_1_1gui_1_1HelpPanel.html", "classannis_1_1gui_1_1HelpPanel" ],
     [ "HelpUsWindow", "classannis_1_1gui_1_1HelpUsWindow.html", "classannis_1_1gui_1_1HelpUsWindow" ],
     [ "HistoryPanel", "classannis_1_1gui_1_1HistoryPanel.html", "classannis_1_1gui_1_1HistoryPanel" ],
@@ -30,8 +31,7 @@ var namespaceannis_1_1gui =
     [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html", "classannis_1_1gui_1_1MetaDataPanel" ],
     [ "QueryController", "classannis_1_1gui_1_1QueryController.html", "classannis_1_1gui_1_1QueryController" ],
     [ "ReportBugWindow", "classannis_1_1gui_1_1ReportBugWindow.html", "classannis_1_1gui_1_1ReportBugWindow" ],
-    [ "ResourceRequestHandler", "classannis_1_1gui_1_1ResourceRequestHandler.html", "classannis_1_1gui_1_1ResourceRequestHandler" ],
-    [ "ResultFetchThread", "classannis_1_1gui_1_1ResultFetchThread.html", "classannis_1_1gui_1_1ResultFetchThread" ],
+    [ "ResultFetchJob", "classannis_1_1gui_1_1ResultFetchJob.html", "classannis_1_1gui_1_1ResultFetchJob" ],
     [ "SearchUI", "classannis_1_1gui_1_1SearchUI.html", "classannis_1_1gui_1_1SearchUI" ],
     [ "FontConfig", "classannis_1_1gui_1_1FontConfig.html", "classannis_1_1gui_1_1FontConfig" ]
 ];

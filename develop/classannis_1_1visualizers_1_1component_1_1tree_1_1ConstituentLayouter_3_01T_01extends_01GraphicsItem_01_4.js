@@ -1,7 +1,7 @@
 var classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4 =
 [
     [ "TreeLayoutData", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData" ],
-    [ "ConstituentLayouter", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#aab8776033344ea1f4e93ea1800fda809", null ],
+    [ "ConstituentLayouter", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#ac8a11b3a810b65eaca2cd145f728e3a1", null ],
     [ "[static initializer]", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a023f67fdb0b033516dbbc7d1310fa614", null ],
     [ "adaptNodeHeights", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a5c26386301b35bfda8cce558daa028e9", null ],
     [ "addSecEdges", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#adb28f814902d712b520f79d51425e981", null ],
@@ -23,6 +23,7 @@ var classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_
     [ "backend", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a29fcfd139b5e2388e182eade4d5a9280", null ],
     [ "dataMap", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a16bf518022967cc65ded9a425881aefd", null ],
     [ "graph", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a8ece8b535e3fbaa8dad463151d7d66d1", null ],
+    [ "GRAPH_TOOLS", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a8f4dbc149c947ce8949bf435d9192556", null ],
     [ "input", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a24313c346a143eb9111415cc66a9a39b", null ],
     [ "labeler", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a8d436c6e6181b9fc01025abebc9415d2", null ],
     [ "root", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html#a6d83deb9afa9818feaa2c2f923ab9dca", null ],

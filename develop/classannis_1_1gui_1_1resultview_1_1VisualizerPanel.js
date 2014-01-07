@@ -1,9 +1,9 @@
 var classannis_1_1gui_1_1resultview_1_1VisualizerPanel =
 [
-    [ "BackgroundThread", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundThread.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundThread" ],
+    [ "BackgroundJob", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob" ],
     [ "ByteArrayOutputStreamSource", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource" ],
     [ "LoadComponentTask", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask" ],
-    [ "VisualizerPanel", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a4daf188034e0e83b488eed3e46631f85", null ],
+    [ "VisualizerPanel", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a728811888e75a231a87f6cbf0ed90272", null ],
     [ "buttonClick", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#afe47d8908fde03f49426847572675f97", null ],
     [ "copyAnnisFeature", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ae474f1c8ee9124524b7a38aef82413fc", null ],
     [ "createComponent", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a353807c2e1d20e560361c8a52826f4b4", null ],
@@ -18,6 +18,8 @@ var classannis_1_1gui_1_1resultview_1_1VisualizerPanel =
     [ "updateGUIAfterLoadingVisualizer", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a1fd0a2d7fb996cbb63fb9734369217dc", null ],
     [ "visualizerIsVisible", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a4529393b851aa469197f845786b01c23", null ],
     [ "btEntry", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a35138b7287185f3dd10826760892f5f2", null ],
+    [ "corpusName", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a09374e2e36c9628796c4d4a47e1df3fa", null ],
+    [ "documentName", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#af626b4539032be217542a2ed8b022ec7", null ],
     [ "entry", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#af59c88a2f8bf18c8384b87fdb1191018", null ],
     [ "HIDDEN", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a9a3f93f25da5914430cd29510915aabf", null ],
     [ "htmlID", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a8ca4055be16394f5a587a4ead5b15aee", null ],

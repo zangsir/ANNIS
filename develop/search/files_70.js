@@ -15,6 +15,7 @@ var searchData=
   ['pdfvisualizer_2ejava',['PDFVisualizer.java',['../PDFVisualizer_8java.html',1,'']]],
   ['pluginsystem_2ejava',['PluginSystem.java',['../PluginSystem_8java.html',1,'']]],
   ['pointingrelation_2ejava',['PointingRelation.java',['../PointingRelation_8java.html',1,'']]],
+  ['pollcontrol_2ejava',['PollControl.java',['../PollControl_8java.html',1,'']]],
   ['postgresql_2emd',['postgresql.md',['../postgresql_8md.html',1,'']]],
   ['postgresqlarraysolutionkey_2ejava',['PostgreSqlArraySolutionKey.java',['../PostgreSqlArraySolutionKey_8java.html',1,'']]],
   ['precedence_2ejava',['Precedence.java',['../Precedence_8java.html',1,'']]],

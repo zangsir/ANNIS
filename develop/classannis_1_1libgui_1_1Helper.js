@@ -19,11 +19,16 @@ var classannis_1_1libgui_1_1Helper =
     [ "getDefaultCorpusConfig", "classannis_1_1libgui_1_1Helper.html#af106707e7fb61c96f17ed586df194e02", null ],
     [ "getMetaData", "classannis_1_1libgui_1_1Helper.html#a9d8a5f04616861a98c78e005d99af303", null ],
     [ "getMetaDataDoc", "classannis_1_1libgui_1_1Helper.html#ae3d4164666435a6e56c80cb86fbca643", null ],
+    [ "getRawText", "classannis_1_1libgui_1_1Helper.html#a79b0cfa644467385240cf776bb1e618b", null ],
     [ "getUser", "classannis_1_1libgui_1_1Helper.html#af04beee2996e15d347f1c00ce1983075", null ],
     [ "parseFragment", "classannis_1_1libgui_1_1Helper.html#aa44e6283c4e87a2ec31131b4f50d9f69", null ],
     [ "setUser", "classannis_1_1libgui_1_1Helper.html#a4c319908039a958c4e25a4f68f38897c", null ],
     [ "anonymousClient", "classannis_1_1libgui_1_1Helper.html#ad7473003454271169f8409dbe54cff22", null ],
+    [ "CORPUS_FONT", "classannis_1_1libgui_1_1Helper.html#a09cfd0cdad42e3b6b65c05af390e7ab9", null ],
+    [ "CORPUS_FONT_FORCE", "classannis_1_1libgui_1_1Helper.html#a5960dcec7daa2699e3dd27d1235f76d8", null ],
     [ "DEFAULT_CONFIG", "classannis_1_1libgui_1_1Helper.html#abfaa12cdb91efafadf6f522f9da056f0", null ],
+    [ "ERROR_MESSAGE_CORPUS_PROPS", "classannis_1_1libgui_1_1Helper.html#a3f1d9919aab4b88dde329601d0328807", null ],
+    [ "ERROR_MESSAGE_CORPUS_PROPS_HEADER", "classannis_1_1libgui_1_1Helper.html#ae7e718f25482b868c2a2d8a8b768ec40", null ],
     [ "KEY_WEB_SERVICE_URL", "classannis_1_1libgui_1_1Helper.html#a6b951c4a552f802c72c6ad552ad689e6", null ],
     [ "log", "classannis_1_1libgui_1_1Helper.html#afc9c7047475fad58b4708fd1d4965e17", null ]
 ];

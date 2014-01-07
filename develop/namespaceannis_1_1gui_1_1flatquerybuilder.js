@@ -9,5 +9,6 @@ var namespaceannis_1_1gui_1_1flatquerybuilder =
     [ "SearchBox", "classannis_1_1gui_1_1flatquerybuilder_1_1SearchBox.html", "classannis_1_1gui_1_1flatquerybuilder_1_1SearchBox" ],
     [ "SensitiveComboBox", "classannis_1_1gui_1_1flatquerybuilder_1_1SensitiveComboBox.html", "classannis_1_1gui_1_1flatquerybuilder_1_1SensitiveComboBox" ],
     [ "SpanBox", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html", "classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox" ],
+    [ "ValueField", "classannis_1_1gui_1_1flatquerybuilder_1_1ValueField.html", "classannis_1_1gui_1_1flatquerybuilder_1_1ValueField" ],
     [ "VerticalNode", "classannis_1_1gui_1_1flatquerybuilder_1_1VerticalNode.html", "classannis_1_1gui_1_1flatquerybuilder_1_1VerticalNode" ]
 ];
