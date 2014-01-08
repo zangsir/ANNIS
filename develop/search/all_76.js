@@ -41,7 +41,7 @@ var searchData=
   ['video',['video',['../enumannis_1_1gui_1_1components_1_1medialement_1_1MediaElement.html#af5fea7df103c35dfd6e044bb42c14197',1,'annis::gui::components::medialement::MediaElement']]],
   ['videovisualizer',['VideoVisualizer',['../classannis_1_1visualizers_1_1component_1_1VideoVisualizer.html',1,'annis::visualizers::component']]],
   ['videovisualizer_2ejava',['VideoVisualizer.java',['../VideoVisualizer_8java.html',1,'']]],
-  ['virtualkeyboard',['virtualKeyboard',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener.html#ae187ff2c88086ec77c9367a6c7be59e9',1,'annis.gui.controlpanel.QueryPanel.ShowKeyboardClickListener.virtualKeyboard()'],['../classannis_1_1gui_1_1components_1_1VirtualKeyboard.html#a91afea1fe2a796b6e182ab66194e4b7a',1,'annis.gui.components.VirtualKeyboard.VirtualKeyboard()']]],
+  ['virtualkeyboard',['VirtualKeyboard',['../classannis_1_1gui_1_1components_1_1VirtualKeyboard.html#a91afea1fe2a796b6e182ab66194e4b7a',1,'annis.gui.components.VirtualKeyboard.VirtualKeyboard()'],['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener.html#ae187ff2c88086ec77c9367a6c7be59e9',1,'annis.gui.controlpanel.QueryPanel.ShowKeyboardClickListener.virtualKeyboard()']]],
   ['virtualkeyboard',['VirtualKeyboard',['../classannis_1_1gui_1_1components_1_1VirtualKeyboard.html',1,'annis::gui::components']]],
   ['virtualkeyboard_2ejava',['VirtualKeyboard.java',['../VirtualKeyboard_8java.html',1,'']]],
   ['vis',['vis',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a161f8324cf827c6b6bd3bdacb16b65d4',1,'annis::gui::resultview::VisualizerPanel']]],

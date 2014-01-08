@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classannis_1_1service_1_1objects_1_1SubgraphQuery.html#a62fbc2734ff3e784a74f8df957b0b8a4":[4,0,0,13,2,19,12],
 "classannis_1_1service_1_1objects_1_1SubgraphQuery.html#a660e8aae27be1c48b311ab7b81ca0d2a":[4,0,0,13,2,19,1],
 "classannis_1_1service_1_1objects_1_1SubgraphQuery.html#a7b05a74f9021e2b4660cee4ffd9cb097":[4,0,0,13,2,19,6],
 "classannis_1_1service_1_1objects_1_1SubgraphQuery.html#aaa1773ab295504020a63eaa96cf44144":[4,0,0,13,2,19,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#ae68f3ec88e70177e659ad6ebcf876d73":[4,0,0,14,24,54],
 "classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#aea9c664002af454405ca04517cec8471":[4,0,0,14,24,19],
 "classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#aeff740c61ee24159d910408b59702c02":[4,0,0,14,24,12],
-"classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#af23ca588e1e5e794432834effa921f68":[4,0,0,14,24,52],
-"classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#af2a50a015963cd928097a433afbc5ab4":[4,0,0,14,24,31]
+"classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#af23ca588e1e5e794432834effa921f68":[4,0,0,14,24,52]
 };

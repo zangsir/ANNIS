@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"functions_0x62.html":[4,3,0,2],
 "functions_0x63.html":[4,3,0,3],
 "functions_0x64.html":[4,3,0,4],
 "functions_0x65.html":[4,3,0,5],
@@ -25,8 +26,8 @@ var NAVTREEINDEX23 =
 "functions_0x79.html":[4,3,0,25],
 "functions_0x7a.html":[4,3,0,26],
 "functions_eval.html":[4,3,3],
-"functions_func.html":[4,3,1,0],
 "functions_func.html":[4,3,1],
+"functions_func.html":[4,3,1,0],
 "functions_func_0x61.html":[4,3,1,1],
 "functions_func_0x62.html":[4,3,1,2],
 "functions_func_0x63.html":[4,3,1,3],
@@ -241,13 +242,12 @@ var NAVTREEINDEX23 =
 "interfaceannis_1_1service_1_1MetadataService.html#abac19e9e2c9a06697c5de90998c6d5f3":[4,0,0,13,4,3],
 "interfaceannis_1_1service_1_1QueryService.html":[4,0,0,13,5],
 "interfaceannis_1_1service_1_1QueryService.html#a657c994b1be5b568ba072878dd98bc53":[4,0,0,13,5,0],
+"interfaceannis_1_1service_1_1QueryService.html#a92308b95fc2b3f74371a4c2da5b4809b":[4,0,0,13,5,2],
+"interfaceannis_1_1service_1_1QueryService.html#af3a82ae09a56dc476fe04b1025f700ec":[4,0,0,13,5,1],
 "interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html":[4,0,0,13,0,0],
 "interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#a02b027117e471e75c4c895b58f3ad2dd":[4,0,0,13,0,0,8],
 "interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#a064f56d7a59cfb031ebab9b6fe63b79b":[4,0,0,13,0,0,9],
 "interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#a1ac3903fa5bb53e4b72546d8cb3f2684":[4,0,0,13,0,0,5],
 "interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#a4dc38f6e7a0ac38793b64c1d662f4c27":[4,0,0,13,0,0,3],
-"interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#a4f463d6ca0bf975ff12dbe8ec7f66adf":[4,0,0,13,0,0,7],
-"interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#aa44ab1b82bea6a307388a6cbe6d4a918":[4,0,0,13,0,0,1],
-"interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#ac08f0c4fbda03c2e4cc468f3ad067a5f":[4,0,0,13,0,0,6],
-"interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#ac0a5db4dc93de81661d7844e582a75d2":[4,0,0,13,0,0,4]
+"interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#a4f463d6ca0bf975ff12dbe8ec7f66adf":[4,0,0,13,0,0,7]
 };

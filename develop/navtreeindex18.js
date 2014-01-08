@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classannis_1_1sqlgen_1_1TableAccessStrategy.html#ac76cb50faa553ced7e465a13bad8aad4":[4,0,0,14,54,40],
 "classannis_1_1sqlgen_1_1TableAccessStrategy.html#ac87b751255364a6b99ddaf7c1bc6176f":[4,0,0,14,54,30],
 "classannis_1_1sqlgen_1_1TableAccessStrategy.html#ac9d3358359f34780015fdcd51c9790e7":[4,0,0,14,54,13],
 "classannis_1_1sqlgen_1_1TableAccessStrategy.html#acb62677950aefd76cba219f6fa943fa0":[4,0,0,14,54,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#a4b686e1e7cb6e450c0726fa56b949723":[4,0,0,16,0,11,6],
 "classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#a60394de39e61be09f46d25ba9b2f6561":[4,0,0,16,0,11,2],
 "classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#a6bb673900721c27921c8e4fed9a19c57":[4,0,0,16,0,11,0],
-"classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#a6eba91d7bc5cc6531ceeba91a9a66e1c":[4,0,0,16,0,11,4],
-"classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#ac0dbff3483aef26c533d68c46802bd88":[4,0,0,16,0,11,5]
+"classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#a6eba91d7bc5cc6531ceeba91a9a66e1c":[4,0,0,16,0,11,4]
 };
