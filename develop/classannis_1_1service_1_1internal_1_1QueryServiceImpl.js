@@ -44,7 +44,7 @@ var classannis_1_1service_1_1internal_1_1QueryServiceImpl =
     [ "singleCorpus", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a20b5c3320401c79305e3cfd2bb143240", null ],
     [ "splitCorpusNamesFromRaw", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a9cddfc7bbb47a12dd621182512f74eab", null ],
     [ "splitMatrixKeysFromRaw", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a47c1112adef573ead9174af1ec7f76bd", null ],
-    [ "subgraph", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#aecb83d3017f9d618faa99006aff5b920", null ],
+    [ "subgraph", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a7d58c37fee6c45d08240dd460021b11c", null ],
     [ "annisDao", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a41ac844141c534105dc734cbebe6b244", null ],
     [ "defaultCorpusConfig", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#ac8056ce1fb7c58c664af8e923db28509", null ],
     [ "log", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a5b84a950f2c970d4758b7a3637e7edae", null ],

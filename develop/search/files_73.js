@@ -2,8 +2,6 @@ var searchData=
 [
   ['saltannotateextractor_2ejava',['SaltAnnotateExtractor.java',['../SaltAnnotateExtractor_8java.html',1,'']]],
   ['saltprojectprovider_2ejava',['SaltProjectProvider.java',['../SaltProjectProvider_8java.html',1,'']]],
-  ['salturigroup_2ejava',['SaltURIGroup.java',['../SaltURIGroup_8java.html',1,'']]],
-  ['salturigroupset_2ejava',['SaltURIGroupSet.java',['../SaltURIGroupSet_8java.html',1,'']]],
   ['samespan_2ejava',['SameSpan.java',['../SameSpan_8java.html',1,'']]],
   ['samplewhereclause_2ejava',['SampleWhereClause.java',['../SampleWhereClause_8java.html',1,'']]],
   ['schemefixer_2ejava',['SchemeFixer.java',['../SchemeFixer_8java.html',1,'']]],
@@ -35,6 +33,5 @@ var searchData=
   ['sslenableddatasource_2ejava',['SSLEnabledDataSource.java',['../SSLEnabledDataSource_8java.html',1,'']]],
   ['subcorpusconstraintwhereclause_2ejava',['SubcorpusConstraintWhereClause.java',['../SubcorpusConstraintWhereClause_8java.html',1,'']]],
   ['subgraphfilter_2ejava',['SubgraphFilter.java',['../SubgraphFilter_8java.html',1,'']]],
-  ['subgraphquery_2ejava',['SubgraphQuery.java',['../SubgraphQuery_8java.html',1,'']]],
   ['subquerycorpusselectionstrategy_2ejava',['SubQueryCorpusSelectionStrategy.java',['../SubQueryCorpusSelectionStrategy_8java.html',1,'']]]
 ];

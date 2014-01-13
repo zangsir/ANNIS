@@ -135,6 +135,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a92308b95fc2b3f74371a4c2da5b4809b"><td class="memItemLeft" align="right" valign="top">Response&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a92308b95fc2b3f74371a4c2da5b4809b">find</a> (String q, String corpora, String offset, String limit)  throws IOException</td></tr>
 <tr class="memdesc:a92308b95fc2b3f74371a4c2da5b4809b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find matches for a given AQL query.  <a href="#a92308b95fc2b3f74371a4c2da5b4809b">More...</a><br/></td></tr>
 <tr class="separator:a92308b95fc2b3f74371a4c2da5b4809b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aecc4f056f9b7df21c85851027ae831"><td class="memItemLeft" align="right" valign="top">SaltProject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a7aecc4f056f9b7df21c85851027ae831">subgraph</a> (<a class="el" href="classannis_1_1service_1_1objects_1_1MatchGroup.html">MatchGroup</a> requestBody, String segmentation, String left, String right, String filter)</td></tr>
+<tr class="memdesc:a7aecc4f056f9b7df21c85851027ae831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a graph as <a class="el" href="">SaltProject</a> from a set of (matched) Salt IDs.  <a href="#a7aecc4f056f9b7df21c85851027ae831">More...</a><br/></td></tr>
+<tr class="separator:a7aecc4f056f9b7df21c85851027ae831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6060e152e2a6a53e7617838ee7824d86"><td class="memItemLeft" align="right" valign="top">SaltProject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a6060e152e2a6a53e7617838ee7824d86">graph</a> (String top, String doc)</td></tr>
+<tr class="memdesc:a6060e152e2a6a53e7617838ee7824d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the annotation graph of a complete document.  <a href="#a6060e152e2a6a53e7617838ee7824d86">More...</a><br/></td></tr>
+<tr class="separator:a6060e152e2a6a53e7617838ee7824d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a657c994b1be5b568ba072878dd98bc53"><td class="memItemLeft" align="right" valign="top">Response&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a657c994b1be5b568ba072878dd98bc53">binary</a> (String top, String document, String offset, String length, String file)</td></tr>
 <tr class="memdesc:a657c994b1be5b568ba072878dd98bc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the content an ANNIS binary object for a specific document.  <a href="#a657c994b1be5b568ba072878dd98bc53">More...</a><br/></td></tr>
 <tr class="separator:a657c994b1be5b568ba072878dd98bc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -312,34 +318,29 @@ GET annis/query/search/find </li>
 <p>produces: <code>application/xml</code>:<br/>
  </p>
 <div class="fragment"><div class="line">&lt;?xml version=<span class="stringliteral">&quot;1.0&quot;</span> encoding=<span class="stringliteral">&quot;UTF-8&quot;</span> standalone=<span class="stringliteral">&quot;yes&quot;</span>?&gt;</div>
-<div class="line">&lt;matches&gt;</div>
+<div class="line">&lt;match-group&gt;</div>
 <div class="line">  &lt;!-- each match in enclosed in an match tag --&gt;</div>
 <div class="line">  &lt;match&gt;</div>
-<div class="line">   &lt;!-- list of IDs <span class="keywordflow">for each</span> matched node of the single match --&gt;</div>
-<div class="line">   &lt;salt-ids&gt;</div>
-<div class="line">     &lt;!-- ID of first matched node of match 1 --&gt;</div>
-<div class="line">     &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_1&lt;/<span class="keywordtype">id</span>&gt;</div>
-<div class="line">     &lt;!-- ID of second matched noded  of match 1 --&gt;</div>
-<div class="line">     &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_2&lt;/<span class="keywordtype">id</span>&gt;</div>
-<div class="line">     &lt;!-- more IDs <span class="keywordflow">if</span> necessary --&gt;</div>
-<div class="line">    &lt;/salt-ids&gt;</div>
+<div class="line">    &lt;!-- ID of first matched node of match 1 --&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_1&lt;/<span class="keywordtype">id</span>&gt;</div>
+<div class="line">    &lt;!-- ID of second matched noded  of match 1 --&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_2&lt;/<span class="keywordtype">id</span>&gt;</div>
+<div class="line">    &lt;!-- more IDs <span class="keywordflow">if</span> necessary --&gt;</div>
 <div class="line">  &lt;/match&gt;</div>
 <div class="line">  &lt;match&gt;</div>
-<div class="line">  &lt;salt-ids&gt;</div>
 <div class="line">    &lt;!-- ID of first matched noded of match 2 --&gt;</div>
 <div class="line">    &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_3&lt;/<span class="keywordtype">id</span>&gt;</div>
 <div class="line">    &lt;!-- ID of second matched noded of match 2--&gt;</div>
 <div class="line">    &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_4&lt;/<span class="keywordtype">id</span>&gt;</div>
-<div class="line">  &lt;/salt-ids&gt;</div>
 <div class="line">  &lt;/match&gt;</div>
 <div class="line">  &lt;!-- and so on --&gt;</div>
-<div class="line">&lt;/matches&gt;</div>
+<div class="line">&lt;/match-group&gt;</div>
 </div><!-- fragment --><p><em>or</em> produces: <code>plain/text</code>:<br/>
  </p>
-<div class="fragment"><div class="line">salt:/pcc2/11299/#tok_1,salt:/pcc2/11299/#tok_2</div>
-<div class="line">salt:/pcc2/11299/#tok_2,salt:/pcc2/11299/#tok_3</div>
-<div class="line">salt:/pcc2/11299/#tok_3,salt:/pcc2/11299/#tok_4</div>
-</div><!-- fragment --><p> One line per match, each ID is separated by comma.</p>
+<div class="fragment"><div class="line">salt:/pcc2/11299/#tok_1 salt:/pcc2/11299/#tok_2</div>
+<div class="line">salt:/pcc2/11299/#tok_2 salt:/pcc2/11299/#tok_3</div>
+<div class="line">salt:/pcc2/11299/#tok_3 salt:/pcc2/11299/#tok_4</div>
+</div><!-- fragment --><p> One line per match, each ID is separated by space.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">q</td><td>The AQL query </td></tr>
@@ -359,6 +360,145 @@ GET annis/query/search/find </li>
 
 </div>
 </div>
+<a class="anchor" id="a6060e152e2a6a53e7617838ee7824d86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SaltProject annis.service.QueryService.graph </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>doc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the annotation graph of a complete document. </p>
+<h3>Path(s)</h3>
+<ol>
+<li>
+GET annis/query/search/graph/<b>{top}</b>/<b>{doc}</b> </li>
+</ol>
+<h3>MIME</h3>
+<p>produces:<br/>
+ <code>application/xml</code> or <code>application/xmi+xml</code>:<br/>
+ A representation of the Salt graph in the EMF XMI format.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">top</td><td>The toplevel corpus </td></tr>
+    <tr><td class="paramname">doc</td><td>The document. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7aecc4f056f9b7df21c85851027ae831"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SaltProject annis.service.QueryService.subgraph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1service_1_1objects_1_1MatchGroup.html">MatchGroup</a>&#160;</td>
+          <td class="paramname"><em>requestBody</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>segmentation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>filter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a graph as <a class="el" href="">SaltProject</a> from a set of (matched) Salt IDs. </p>
+<h3>Path(s)</h3>
+<ol>
+<li>
+POST annis/query/search/subgraph </li>
+</ol>
+<h3>MIME</h3>
+<p>accepts:<br/>
+ <code>application/xml</code>:<br/>
+ </p>
+<div class="fragment"><div class="line">&lt;?xml version=<span class="stringliteral">&quot;1.0&quot;</span> encoding=<span class="stringliteral">&quot;UTF-8&quot;</span> standalone=<span class="stringliteral">&quot;yes&quot;</span>?&gt;</div>
+<div class="line">&lt;match-group&gt;</div>
+<div class="line">  &lt;!-- each match in enclosed in an match tag --&gt;</div>
+<div class="line">  &lt;match&gt;</div>
+<div class="line">    &lt;!-- ID of first matched node of match 1 --&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_1&lt;/<span class="keywordtype">id</span>&gt;</div>
+<div class="line">    &lt;!-- ID of second matched noded  of match 1 --&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_2&lt;/<span class="keywordtype">id</span>&gt;</div>
+<div class="line">    &lt;!-- more IDs <span class="keywordflow">if</span> necessary --&gt;</div>
+<div class="line">  &lt;/match&gt;</div>
+<div class="line">  &lt;match&gt;</div>
+<div class="line">    &lt;!-- ID of first matched noded of match 2 --&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_3&lt;/<span class="keywordtype">id</span>&gt;</div>
+<div class="line">    &lt;!-- ID of second matched noded of match 2--&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">id</span>&gt;salt:/pcc2/11299/#tok_4&lt;/<span class="keywordtype">id</span>&gt;</div>
+<div class="line">  &lt;/match&gt;</div>
+<div class="line">  &lt;!-- and so on --&gt;</div>
+<div class="line">&lt;/match-group&gt;</div>
+</div><!-- fragment --><p><em>or</em> accepts: <code>plain/text</code>:<br/>
+ </p>
+<div class="fragment"><div class="line">salt:/pcc2/11299/#tok_1 salt:/pcc2/11299/#tok_2</div>
+<div class="line">salt:/pcc2/11299/#tok_2 salt:/pcc2/11299/#tok_3</div>
+<div class="line">salt:/pcc2/11299/#tok_3 salt:/pcc2/11299/#tok_4</div>
+</div><!-- fragment --><p> One line per match, each ID is separated by space.</p>
+<p>produces:<br/>
+ <code>application/xml</code> or <code>application/xmi+xml</code>:<br/>
+ A representation of the Salt graph in the EMF XMI format.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a92308b95fc2b3f74371a4c2da5b4809b" title="Find matches for a given AQL query. ">find</a>(java.lang.String, java.lang.String, java.lang.String, java.lang.String) The output of <a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a92308b95fc2b3f74371a4c2da5b4809b" title="Find matches for a given AQL query. ">find</a> can be directly used by this function.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">requestBody</td><td></td></tr>
+    <tr><td class="paramname">segmentation</td><td>Optional parameter for segmentation layer on which the context is applied. Leave empty for token layer (which is default). </td></tr>
+    <tr><td class="paramname">left</td><td>Optional parameter for the left context size, default is 0. </td></tr>
+    <tr><td class="paramname">right</td><td>Optional parameter for the right context size, default is 0. </td></tr>
+    <tr><td class="paramname">filter</td><td>Optional parameter with value "all" or "token". If "token" only token will be fetched. Default is "all". </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the graph of this hit. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this interface was generated from the following file:<ul>
 <li><a class="el" href="QueryService_8java.html">QueryService.java</a></li>
 </ul>
@@ -368,7 +508,7 @@ GET annis/query/search/find </li>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service.html">service</a></li><li class="navelem"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html">QueryService</a></li>
-    <li class="footer">Generated on Wed Jan 8 2014 10:16:05 for ANNIS by
+    <li class="footer">Generated on Mon Jan 13 2014 09:44:32 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

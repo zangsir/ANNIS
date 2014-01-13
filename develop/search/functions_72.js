@@ -5,7 +5,7 @@ var searchData=
   ['rankid',['RankID',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1RankID.html#a313af2e29fc417f555507de7d1dffd90',1,'annis::sqlgen::SaltAnnotateExtractor::RankID']]],
   ['ranktablejoin',['RankTableJoin',['../classannis_1_1sqlgen_1_1model_1_1RankTableJoin.html#a6641bc3d91ebda6be8cc4a8ad22fe542',1,'annis::sqlgen::model::RankTableJoin']]],
   ['reactivateitem',['reActivateItem',['../classannis_1_1gui_1_1flatquerybuilder_1_1AddMenu.html#a17a69dc47ea2cb3bf263040d18ca8952',1,'annis::gui::flatquerybuilder::AddMenu']]],
-  ['readfrom',['readFrom',['../classannis_1_1provider_1_1SaltProjectProvider.html#a069bda78e05c10714756c2e3454e31b9',1,'annis::provider::SaltProjectProvider']]],
+  ['readfrom',['readFrom',['../classannis_1_1provider_1_1PlainTextMatchGroupProvider.html#a3d7b5f261a2e427dbb62ab0c57140afd',1,'annis.provider.PlainTextMatchGroupProvider.readFrom()'],['../classannis_1_1provider_1_1SaltProjectProvider.html#a069bda78e05c10714756c2e3454e31b9',1,'annis.provider.SaltProjectProvider.readFrom()']]],
   ['readmappings',['readMappings',['../classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator.html#a98b0fe17e40c1b2dbb20a3eabd660367',1,'annis::gui::flatquerybuilder::reducingStringComparator']]],
   ['readoldresolvervismapformat',['readOldResolverVisMapFormat',['../classannis_1_1administration_1_1DefaultAdministrationDao.html#a61ab6d5b4127eea970a83e11e56770e3',1,'annis::administration::DefaultAdministrationDao']]],
   ['readsqlfromresource',['readSqlFromResource',['../classannis_1_1administration_1_1DefaultAdministrationDao.html#a94f4bbab6f3eb225ea563d829fd5ea8c',1,'annis::administration::DefaultAdministrationDao']]],

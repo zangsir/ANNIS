@@ -14,6 +14,6 @@ var searchData=
   ['graphtools',['graphtools',['../classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a001fbf2559758ba51c2c799ff24d10b9',1,'annis::visualizers::component::tree::TigerTreeVisualizer']]],
   ['grid',['grid',['../classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#a571c0bd8e9422a6640f4f95a65946355',1,'annis::visualizers::component::grid::GridVisualizer::GridVisualizerComponent']]],
   ['groupbyclausesqlgenerator',['groupByClauseSqlGenerator',['../classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html#aef46735cd060a29ca93ddb81b409d9b6',1,'annis::sqlgen::AbstractSqlGenerator&lt; T &gt;']]],
-  ['groups',['groups',['../classannis_1_1service_1_1objects_1_1SaltURIGroupSet.html#a791df4ffaa5f02342baec5c68e5a5531',1,'annis.service.objects.SaltURIGroupSet.groups()'],['../classannis_1_1security_1_1ANNISRolePermissionResolver.html#acde22da9bbfe1d27acf482ed19730ec8',1,'annis.security.ANNISRolePermissionResolver.groups()']]],
+  ['groups',['groups',['../classannis_1_1security_1_1ANNISRolePermissionResolver.html#acde22da9bbfe1d27acf482ed19730ec8',1,'annis::security::ANNISRolePermissionResolver']]],
   ['groupsfile',['groupsFile',['../classannis_1_1security_1_1ANNISRolePermissionResolver.html#a10a15e0804c558d806248b572b71567a',1,'annis::security::ANNISRolePermissionResolver']]]
 ];

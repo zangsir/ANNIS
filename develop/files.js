@@ -768,6 +768,9 @@ var files =
     [ "annis-interfaces/src/main/java/annis/libgui/MatchedNodeColors.java", "annis-interfaces_2src_2main_2java_2annis_2libgui_2MatchedNodeColors_8java.html", [
       [ "MatchedNodeColors", "enumannis_1_1libgui_1_1MatchedNodeColors.html", "enumannis_1_1libgui_1_1MatchedNodeColors" ]
     ] ],
+    [ "MatchGroup.java", "MatchGroup_8java.html", [
+      [ "MatchGroup", "classannis_1_1service_1_1objects_1_1MatchGroup.html", "classannis_1_1service_1_1objects_1_1MatchGroup" ]
+    ] ],
     [ "MatrixQueryData.java", "MatrixQueryData_8java.html", [
       [ "MatrixQueryData", "classannis_1_1sqlgen_1_1MatrixQueryData.html", "classannis_1_1sqlgen_1_1MatrixQueryData" ],
       [ "QName", "classannis_1_1sqlgen_1_1MatrixQueryData_1_1QName.html", "classannis_1_1sqlgen_1_1MatrixQueryData_1_1QName" ]
@@ -894,6 +897,9 @@ var files =
     [ "PDFVisualizer.java", "PDFVisualizer_8java.html", [
       [ "PDFVisualizer", "classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer.html", "classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer" ],
       [ "PDFViewerImpl", "classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html", "classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl" ]
+    ] ],
+    [ "PlainTextMatchGroupProvider.java", "PlainTextMatchGroupProvider_8java.html", [
+      [ "PlainTextMatchGroupProvider", "classannis_1_1provider_1_1PlainTextMatchGroupProvider.html", "classannis_1_1provider_1_1PlainTextMatchGroupProvider" ]
     ] ],
     [ "PluginSystem.java", "PluginSystem_8java.html", [
       [ "PluginSystem", "interfaceannis_1_1libgui_1_1PluginSystem.html", "interfaceannis_1_1libgui_1_1PluginSystem" ]
@@ -1033,8 +1039,7 @@ var files =
       [ "ResourceServlet", "classannis_1_1gui_1_1servlets_1_1ResourceServlet.html", "classannis_1_1gui_1_1servlets_1_1ResourceServlet" ]
     ] ],
     [ "ResultFetchJob.java", "ResultFetchJob_8java.html", [
-      [ "ResultFetchJob", "classannis_1_1gui_1_1ResultFetchJob.html", "classannis_1_1gui_1_1ResultFetchJob" ],
-      [ "MatchListType", "classannis_1_1gui_1_1ResultFetchJob_1_1MatchListType.html", "classannis_1_1gui_1_1ResultFetchJob_1_1MatchListType" ]
+      [ "ResultFetchJob", "classannis_1_1gui_1_1ResultFetchJob.html", "classannis_1_1gui_1_1ResultFetchJob" ]
     ] ],
     [ "ResultSetConverter.java", "ResultSetConverter_8java.html", [
       [ "ResultSetConverter< T >", "interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4.html", "interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4" ]
@@ -1077,12 +1082,6 @@ var files =
     ] ],
     [ "SaltProjectProvider.java", "SaltProjectProvider_8java.html", [
       [ "SaltProjectProvider", "classannis_1_1provider_1_1SaltProjectProvider.html", "classannis_1_1provider_1_1SaltProjectProvider" ]
-    ] ],
-    [ "SaltURIGroup.java", "SaltURIGroup_8java.html", [
-      [ "SaltURIGroup", "classannis_1_1service_1_1objects_1_1SaltURIGroup.html", "classannis_1_1service_1_1objects_1_1SaltURIGroup" ]
-    ] ],
-    [ "SaltURIGroupSet.java", "SaltURIGroupSet_8java.html", [
-      [ "SaltURIGroupSet", "classannis_1_1service_1_1objects_1_1SaltURIGroupSet.html", "classannis_1_1service_1_1objects_1_1SaltURIGroupSet" ]
     ] ],
     [ "SameSpan.java", "SameSpan_8java.html", [
       [ "SameSpan", "classannis_1_1sqlgen_1_1model_1_1SameSpan.html", "classannis_1_1sqlgen_1_1model_1_1SameSpan" ]
@@ -1192,9 +1191,6 @@ var files =
     ] ],
     [ "SubgraphFilter.java", "SubgraphFilter_8java.html", [
       [ "SubgraphFilter", "enumannis_1_1service_1_1objects_1_1SubgraphFilter.html", "enumannis_1_1service_1_1objects_1_1SubgraphFilter" ]
-    ] ],
-    [ "SubgraphQuery.java", "SubgraphQuery_8java.html", [
-      [ "SubgraphQuery", "classannis_1_1service_1_1objects_1_1SubgraphQuery.html", "classannis_1_1service_1_1objects_1_1SubgraphQuery" ]
     ] ],
     [ "SubQueryCorpusSelectionStrategy.java", "SubQueryCorpusSelectionStrategy_8java.html", [
       [ "SubQueryCorpusSelectionStrategy", "classannis_1_1sqlgen_1_1SubQueryCorpusSelectionStrategy.html", "classannis_1_1sqlgen_1_1SubQueryCorpusSelectionStrategy" ]

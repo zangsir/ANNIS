@@ -13,6 +13,7 @@ var searchData=
   ['pdfstate_2ejava',['PDFState.java',['../PDFState_8java.html',1,'']]],
   ['pdfviewer_2ejava',['PDFViewer.java',['../PDFViewer_8java.html',1,'']]],
   ['pdfvisualizer_2ejava',['PDFVisualizer.java',['../PDFVisualizer_8java.html',1,'']]],
+  ['plaintextmatchgroupprovider_2ejava',['PlainTextMatchGroupProvider.java',['../PlainTextMatchGroupProvider_8java.html',1,'']]],
   ['pluginsystem_2ejava',['PluginSystem.java',['../PluginSystem_8java.html',1,'']]],
   ['pointingrelation_2ejava',['PointingRelation.java',['../PointingRelation_8java.html',1,'']]],
   ['pollcontrol_2ejava',['PollControl.java',['../PollControl_8java.html',1,'']]],

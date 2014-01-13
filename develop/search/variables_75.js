@@ -6,7 +6,6 @@ var searchData=
   ['upload',['upload',['../classannis_1_1gui_1_1admin_1_1ImportPanel.html#a3a0c043de29dab841a75474c53e8ad95',1,'annis::gui::admin::ImportPanel']]],
   ['uri',['uri',['../classannis_1_1gui_1_1widgets_1_1AutoHeightIFrame.html#ab630574bdcf6a87cd04e7dbdc6fa20a1',1,'annis::gui::widgets::AutoHeightIFrame']]],
   ['uriinfo',['uriInfo',['../classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a7b2363becfabe8f4d9f51358990cf88e',1,'annis::service::internal::QueryServiceImpl']]],
-  ['uris',['uris',['../classannis_1_1service_1_1objects_1_1SaltURIGroup.html#a606c7e0e13692f660b09ed64b9570b4a',1,'annis::service::objects::SaltURIGroup']]],
   ['url',['url',['../classannis_1_1gui_1_1FontConfig.html#a0b5febead5108fde7e7108e8dfff536f',1,'annis.gui.FontConfig.url()'],['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1autoheightiframe_1_1AutoHeightIFrameState.html#a09b61fe22c8f7257fcaaadd2d43198d7',1,'annis.gui.widgets.gwt.client.ui.autoheightiframe.AutoHeightIFrameState.url()']]],
   ['useauthentification',['useAuthentification',['../classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a0c70516178a7868f8b57246de19ec4f9',1,'annis::service::internal::AnnisServiceRunner']]],
   ['usecomponentrefpredicateincommonancestorsubquery',['useComponentRefPredicateInCommonAncestorSubquery',['../classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#af23ca588e1e5e794432834effa921f68',1,'annis::sqlgen::DefaultWhereClauseGenerator']]],

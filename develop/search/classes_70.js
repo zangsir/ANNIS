@@ -16,6 +16,7 @@ var searchData=
   ['pdfviewer',['PDFViewer',['../interfaceannis_1_1libgui_1_1media_1_1PDFViewer.html',1,'annis::libgui::media']]],
   ['pdfviewerimpl',['PDFViewerImpl',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html',1,'annis::visualizers::component::pdf::PDFVisualizer']]],
   ['pdfvisualizer',['PDFVisualizer',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer.html',1,'annis::visualizers::component::pdf']]],
+  ['plaintextmatchgroupprovider',['PlainTextMatchGroupProvider',['../classannis_1_1provider_1_1PlainTextMatchGroupProvider.html',1,'annis::provider']]],
   ['pluginsystem',['PluginSystem',['../interfaceannis_1_1libgui_1_1PluginSystem.html',1,'annis::libgui']]],
   ['pointingrelation',['PointingRelation',['../classannis_1_1sqlgen_1_1model_1_1PointingRelation.html',1,'annis::sqlgen::model']]],
   ['pollcontrol',['PollControl',['../classannis_1_1libgui_1_1PollControl.html',1,'annis::libgui']]],

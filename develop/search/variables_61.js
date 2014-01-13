@@ -18,7 +18,7 @@ var searchData=
   ['after',['after',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1Token.html#abdb6c4bbd0b02e597448798ca4d4b5e2',1,'annis::visualizers::iframe::partitur::PartiturParser::Token']]],
   ['alias',['alias',['../classannis_1_1service_1_1objects_1_1ImportJob.html#ab3803634aa6562635cf53e8826afca78',1,'annis::service::objects::ImportJob']]],
   ['aliascount',['aliasCount',['../classannis_1_1ql_1_1parser_1_1QueryNodeListener.html#ac97cb99eeca61a4af974354b11061b92',1,'annis::ql::parser::QueryNodeListener']]],
-  ['all',['All',['../enumannis_1_1service_1_1objects_1_1SubgraphFilter.html#aba495fea1ec40331e0880cb9445537e6',1,'annis::service::objects::SubgraphFilter']]],
+  ['all',['all',['../enumannis_1_1service_1_1objects_1_1SubgraphFilter.html#ad912e26a55f378112cbe2a9ce409d8fa',1,'annis::service::objects::SubgraphFilter']]],
   ['all_5fcorpora',['ALL_CORPORA',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html#a1ecf48db734f58eb8fa215739dfe3efc',1,'annis::gui::controlpanel::CorpusListPanel']]],
   ['allcorpora',['allCorpora',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html#a281644dda198f0f6e3d4995ac4aac811',1,'annis::gui::controlpanel::CorpusListPanel']]],
   ['allographs',['ALLOGRAPHS',['../classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator.html#ac687b32ecc1e80f58473dd1e1115eb3a',1,'annis::gui::flatquerybuilder::reducingStringComparator']]],

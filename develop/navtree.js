@@ -2,6 +2,10 @@ var NAVTREE =
 [
   [ "ANNIS", "index.html", [
     [ "Administration", "admin.html", "admin" ],
+    [ "Public REST API", "api.html", [
+      [ "Authentification ", "api.html#api-authentification", null ],
+      [ "Available APIs ", "api.html#api-available-list", null ]
+    ] ],
     [ "Developing", "dev.html", "dev" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Packages", null, [
@@ -27,31 +31,30 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ANNISRolePermissionResolver_8java.html",
-"PDFViewer_8java.html",
-"classannis_1_1AnnisRunner.html#aaaa6a84b03bb2744f63dc34d23d9f184",
-"classannis_1_1administration_1_1DefaultAdministrationDao.html#a8d3200c8ec1804352da322817f4d98dc",
-"classannis_1_1dao_1_1SpringAnnisDao_1_1ExplainSqlGenerator.html#a79f0ef0d47531706926eb77f0cfcadf3",
-"classannis_1_1gui_1_1HistoryPanel.html#ac40a42f6ffbf5b7aa55d94f076f8dbe9",
-"classannis_1_1gui_1_1components_1_1FrequencyChart_1_1InnerPanel.html#a3c0ec872eff63bf8de0422e31a5f3fc8",
-"classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomContext.html",
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1LoadQueryException.html#aba58931f04aae9d19436b69cb661f0be",
-"classannis_1_1gui_1_1paging_1_1PagingComponent_1_1PageValidator.html#ab88ab3f8e546b2137cb8892ba5dfec7d",
-"classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a728811888e75a231a87f6cbf0ed90272",
-"classannis_1_1libgui_1_1AnnisBaseUI.html#a14e77d4f4985129054c41c8f84aa0912",
-"classannis_1_1model_1_1AnnisConstants.html#a4de39c2a4abce544f1254d8d0071e68d",
-"classannis_1_1model_1_1QueryNode.html#aa138a9d9e56750a57290f4f1aa8db742",
-"classannis_1_1ql_1_1parser_1_1QueryData.html#af9267b7b737f50b82e0ea9a05d78e582",
-"classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a74c289e5bf227722f364b2cd1727a6ec",
-"classannis_1_1service_1_1objects_1_1SubgraphQuery.html#a62fbc2734ff3e784a74f8df957b0b8a4",
-"classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#af2a50a015963cd928097a433afbc5ab4",
-"classannis_1_1sqlgen_1_1TableAccessStrategy.html#ac76cb50faa553ced7e465a13bad8aad4",
-"classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#ac0dbff3483aef26c533d68c46802bd88",
-"classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html#ab52b0fb37e82e5930bc8df32cd3a1d06",
-"classannis_1_1visualizers_1_1htmlvis_1_1VisParser.html#ae58811c51af0757d348043221be7983d",
-"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog.html#aa1427e5d762fd1a2edde693a9c3e87e3",
-"functions_0x62.html",
-"interfaceannis_1_1service_1_1ifaces_1_1AnnisResult.html#aa44ab1b82bea6a307388a6cbe6d4a918",
-"namespaces.html"
+"PDFState_8java.html",
+"classannis_1_1AnnisRunner.html#aa4d981afb610f0c63f7f72b51dff1d2a",
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#a8b70c0376bc9ad1eb48e4447c832be90",
+"classannis_1_1dao_1_1SpringAnnisDao_1_1ExplainSqlGenerator.html#a2b221928c9de19cbdb16c4ae8f64cedf",
+"classannis_1_1gui_1_1HistoryPanel.html#aaff23fd5932945ceb3a68b7ca26228b4",
+"classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html",
+"classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomContext.html#a4b51f806d87624d26522994520c71ae6",
+"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1MultipleAssignmentException.html",
+"classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html",
+"classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a8a89ac110323351fa3773db19d2fede0",
+"classannis_1_1libgui_1_1AnnisBaseUI.html#a2f8e9b91176327c2522a01e384a563c2",
+"classannis_1_1model_1_1AnnisConstants.html#ad50e7122975d5e1696724e6436f87952",
+"classannis_1_1model_1_1QueryNode.html#aaec01dd9bd5bf8282f2936d0e5c9d443",
+"classannis_1_1ql_1_1parser_1_1QueryData.html#adcbbb104cd079ef45d80f75928746b93",
+"classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a637aa5bf79236af338e0faf34a68a6ee",
+"classannis_1_1service_1_1objects_1_1RawTextWrapper.html#abacd02794de32b700eba2b1bdf82fe73",
+"classannis_1_1sqlgen_1_1FindSqlGenerator.html#a00608e1b721e4eba6f43426a10b25cf7",
+"classannis_1_1sqlgen_1_1TableAccessStrategy.html#ad222fcce5808e5f4e81bd9a5b320cc7c",
+"classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielDependecyTree.html#a03308bd177d58cfc3a6b2245b4478806",
+"classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html#afce8554bafebe496ececa420435521a4",
+"classannis_1_1visualizers_1_1htmlvis_1_1VisParserException.html#acae6e454ff9d4b781aa1f3c5e0df87b1",
+"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog_1_1InitDialogWorker.html",
+"functions_0x69.html",
+"interfaceannis_1_1service_1_1ifaces_1_1AnnisResultSet.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

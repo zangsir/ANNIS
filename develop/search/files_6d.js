@@ -5,6 +5,7 @@ var searchData=
   ['match_2ejava',['Match.java',['../Match_8java.html',1,'']]],
   ['matchanddocumentcount_2ejava',['MatchAndDocumentCount.java',['../MatchAndDocumentCount_8java.html',1,'']]],
   ['matchcorefvisualizer_2ejava',['MatchCorefVisualizer.java',['../MatchCorefVisualizer_8java.html',1,'']]],
+  ['matchgroup_2ejava',['MatchGroup.java',['../MatchGroup_8java.html',1,'']]],
   ['matrixquerydata_2ejava',['MatrixQueryData.java',['../MatrixQueryData_8java.html',1,'']]],
   ['matrixsqlgenerator_2ejava',['MatrixSqlGenerator.java',['../MatrixSqlGenerator_8java.html',1,'']]],
   ['mediacontroller_2ejava',['MediaController.java',['../MediaController_8java.html',1,'']]],

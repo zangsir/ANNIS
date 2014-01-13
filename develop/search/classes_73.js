@@ -2,8 +2,6 @@ var searchData=
 [
   ['saltannotateextractor',['SaltAnnotateExtractor',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html',1,'annis::sqlgen']]],
   ['saltprojectprovider',['SaltProjectProvider',['../classannis_1_1provider_1_1SaltProjectProvider.html',1,'annis::provider']]],
-  ['salturigroup',['SaltURIGroup',['../classannis_1_1service_1_1objects_1_1SaltURIGroup.html',1,'annis::service::objects']]],
-  ['salturigroupset',['SaltURIGroupSet',['../classannis_1_1service_1_1objects_1_1SaltURIGroupSet.html',1,'annis::service::objects']]],
   ['samespan',['SameSpan',['../classannis_1_1sqlgen_1_1model_1_1SameSpan.html',1,'annis::sqlgen::model']]],
   ['samplewhereclause',['SampleWhereClause',['../classannis_1_1sqlgen_1_1SampleWhereClause.html',1,'annis::sqlgen']]],
   ['scale',['Scale',['../enumannis_1_1gui_1_1components_1_1FrequencyWhiteboard_1_1Scale.html',1,'annis::gui::components::FrequencyWhiteboard']]],
@@ -54,7 +52,6 @@ var searchData=
   ['stringlisterrorlistener',['StringListErrorListener',['../classannis_1_1ql_1_1parser_1_1AnnisParserAntlr_1_1StringListErrorListener.html',1,'annis::ql::parser::AnnisParserAntlr']]],
   ['subcorpusconstraintwhereclause',['SubcorpusConstraintWhereClause',['../classannis_1_1sqlgen_1_1SubcorpusConstraintWhereClause.html',1,'annis::sqlgen']]],
   ['subgraphfilter',['SubgraphFilter',['../enumannis_1_1service_1_1objects_1_1SubgraphFilter.html',1,'annis::service::objects']]],
-  ['subgraphquery',['SubgraphQuery',['../classannis_1_1service_1_1objects_1_1SubgraphQuery.html',1,'annis::service::objects']]],
   ['subquerycorpusselectionstrategy',['SubQueryCorpusSelectionStrategy',['../classannis_1_1sqlgen_1_1SubQueryCorpusSelectionStrategy.html',1,'annis::sqlgen']]],
   ['subtype',['SubType',['../enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1SubType.html',1,'annis::service::objects::AnnisAttribute']]]
 ];

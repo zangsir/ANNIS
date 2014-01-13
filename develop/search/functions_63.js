@@ -136,7 +136,7 @@ var searchData=
   ['createnewrelation',['createNewRelation',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a21aa9426476d6691fea86be34a0ab40c',1,'annis::sqlgen::SaltAnnotateExtractor']]],
   ['createnewtablerow',['createNewTableRow',['../classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html#ae2bb351ea0f7cadaaf3e95d5642acf7e',1,'annis::gui::frequency::FrequencyQueryPanel']]],
   ['createoptions',['createOptions',['../classannis_1_1administration_1_1AnnisAdminRunner_1_1OptionBuilder.html#a2dc8d38417959e48f0abc9e888f56916',1,'annis::administration::AnnisAdminRunner::OptionBuilder']]],
-  ['createorfindnewnode',['createOrFindNewNode',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#acbde74d7e6a4a2d08476cc137e8ba73e',1,'annis::sqlgen::SaltAnnotateExtractor']]],
+  ['createorfindnewnode',['createOrFindNewNode',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a2984dc14ae3e4710e1d3ecc373c13c1a',1,'annis::sqlgen::SaltAnnotateExtractor']]],
   ['createothersnode',['createOtherSNode',['../classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a25f1722c0d2d30541684dce737c9bcbe',1,'annis::sqlgen::SaltAnnotateExtractor']]],
   ['createpanels',['createPanels',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a8ae0550f5cd8e5913e8ca3a977501480',1,'annis::gui::resultview::ResultViewPanel']]],
   ['createpreparedstatement',['createPreparedStatement',['../classannis_1_1administration_1_1DefaultAdministrationDao_1_1CancelableStatements.html#a6b618fa53b6f0711d65a5f2cf15ae212',1,'annis.administration.DefaultAdministrationDao.CancelableStatements.createPreparedStatement()'],['../classannis_1_1dao_1_1ResolverDaoHelper.html#aa1a012947a0761cecb6b2089c79a56d9',1,'annis.dao.ResolverDaoHelper.createPreparedStatement()']]],

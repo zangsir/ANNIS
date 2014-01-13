@@ -412,8 +412,8 @@ var hierarchy =
     [ "Thread", null, [
       [ "annis.service.internal.ImportWorker", "classannis_1_1service_1_1internal_1_1ImportWorker.html", null ]
     ] ],
-    [ "annis.libgui.media.TimeHelper", "classannis_1_1libgui_1_1media_1_1TimeHelper.html", null ],
     [ "annis.visualizers.iframe.partitur.TimeHelper", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1TimeHelper.html", null ],
+    [ "annis.libgui.media.TimeHelper", "classannis_1_1libgui_1_1media_1_1TimeHelper.html", null ],
     [ "annis.model.DataObject.Transient", "interfaceannis_1_1model_1_1DataObject_1_1Transient.html", null ],
     [ "annis.visualizers.component.tree.TreeElementLabeler", "interfaceannis_1_1visualizers_1_1component_1_1tree_1_1TreeElementLabeler.html", [
       [ "annis.visualizers.component.tree.TigerTreeVisualizer.DefaultLabeler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultLabeler.html", null ]
@@ -637,7 +637,6 @@ var hierarchy =
       [ "annis.gui.exporter.GeneralTextExporter.AnnisAttributeListType", "classannis_1_1gui_1_1exporter_1_1GeneralTextExporter_1_1AnnisAttributeListType.html", null ],
       [ "annis.gui.querybuilder.TigerQueryBuilderCanvas.AnnisAttributeListType", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AnnisAttributeListType.html", null ],
       [ "annis.gui.requesthandler.BinaryRequestHandler.AnnisBinaryMetaDataListType", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler_1_1AnnisBinaryMetaDataListType.html", null ],
-      [ "annis.gui.ResultFetchJob.MatchListType", "classannis_1_1gui_1_1ResultFetchJob_1_1MatchListType.html", null ],
       [ "annis.gui.SearchUI.AnnisCorpusListType", "classannis_1_1gui_1_1SearchUI_1_1AnnisCorpusListType.html", null ],
       [ "annis.libgui.Helper.AnnotationListType", "classannis_1_1libgui_1_1Helper_1_1AnnotationListType.html", null ],
       [ "annis.libgui.ResolverProviderImpl.ResolverEntryListType", "classannis_1_1libgui_1_1ResolverProviderImpl_1_1ResolverEntryListType.html", null ]
@@ -715,9 +714,11 @@ var hierarchy =
       ] ]
     ] ],
     [ "MessageBodyReader", null, [
+      [ "annis.provider.PlainTextMatchGroupProvider", "classannis_1_1provider_1_1PlainTextMatchGroupProvider.html", null ],
       [ "annis.provider.SaltProjectProvider", "classannis_1_1provider_1_1SaltProjectProvider.html", null ]
     ] ],
     [ "MessageBodyWriter", null, [
+      [ "annis.provider.PlainTextMatchGroupProvider", "classannis_1_1provider_1_1PlainTextMatchGroupProvider.html", null ],
       [ "annis.provider.SaltProjectProvider", "classannis_1_1provider_1_1SaltProjectProvider.html", null ]
     ] ],
     [ "NewItemHandler", null, [
@@ -926,9 +927,7 @@ var hierarchy =
       [ "annis.service.objects.FrequencyTableEntry", "classannis_1_1service_1_1objects_1_1FrequencyTableEntry.html", null ],
       [ "annis.service.objects.Match", "classannis_1_1service_1_1objects_1_1Match.html", null ],
       [ "annis.service.objects.MatchAndDocumentCount", "classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html", null ],
-      [ "annis.service.objects.SaltURIGroup", "classannis_1_1service_1_1objects_1_1SaltURIGroup.html", null ],
-      [ "annis.service.objects.SaltURIGroupSet", "classannis_1_1service_1_1objects_1_1SaltURIGroupSet.html", null ],
-      [ "annis.service.objects.SubgraphQuery", "classannis_1_1service_1_1objects_1_1SubgraphQuery.html", null ],
+      [ "annis.service.objects.MatchGroup", "classannis_1_1service_1_1objects_1_1MatchGroup.html", null ],
       [ "annis.visualizers.component.graph.DebugVisualizer", "classannis_1_1visualizers_1_1component_1_1graph_1_1DebugVisualizer.html", null ],
       [ "annis.visualizers.iframe.partitur.PartiturParser", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser.html", null ],
       [ "annis.visualizers.iframe.partitur.PartiturParser.Event", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1Event.html", null ],
