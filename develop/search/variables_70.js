@@ -7,7 +7,7 @@ var searchData=
   ['pagenumber',['pageNumber',['../classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a59e825864432e4309421d57e56a26016',1,'annis::gui::widgets::grid::GridEvent']]],
   ['pagesize',['pageSize',['../classannis_1_1gui_1_1paging_1_1PagingComponent.html#aa73c0ce26246b8c95d7fe16b6f01eac8',1,'annis::gui::paging::PagingComponent']]],
   ['paging',['paging',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae8d4b1fee6f7c8cd5ae4e6ceae31f328',1,'annis::gui::resultview::ResultViewPanel']]],
-  ['paintableid',['paintableId',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a97f8133ac2433a0ab218f62f7cbd928d',1,'annis.gui.widgets.gwt.client.ui.VAnnotationGrid.paintableId()'],['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VSimpleCanvas.html#a7694e371a86b9610961f40a296664e19',1,'annis.gui.widgets.gwt.client.ui.VSimpleCanvas.paintableId()']]],
+  ['paintableid',['paintableId',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a97f8133ac2433a0ab218f62f7cbd928d',1,'annis::gui::widgets::gwt::client::ui::VAnnotationGrid']]],
   ['panel',['panel',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html#a1e1dcb11f873332d8249c1bdf833c3c2',1,'annis::gui::controlpanel::QueryPanel::ShowExportClickListener']]],
   ['panel_5fclass',['PANEL_CLASS',['../classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#a4b686e1e7cb6e450c0726fa56b949723',1,'annis::visualizers::component::RawTextVisualizer']]],
   ['params',['params',['../classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1ParseResults.html#a1de31fb73789241c8f44d5686e08ac08',1,'com::google::mimeparse::MIMEParse::ParseResults']]],
@@ -26,7 +26,7 @@ var searchData=
   ['pbquery',['pbQuery',['../classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel.html#acefd63964d02c1ae6785c84d15c83767',1,'annis::gui::frequency::FrequencyResultPanel']]],
   ['pbstart',['pbStart',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame.html#a6d9f4657db8eb2e41924212c24a14a51',1,'de::hu_berlin::german::korpling::annis::kickstarter::MainFrame']]],
   ['pdf_5fid',['PDF_ID',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFPanel.html#a384831dd3cd628353ce91e247626f07a',1,'annis::visualizers::component::pdf::PDFPanel']]],
-  ['pdfcontroller',['pdfController',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a47f2ddb0c288601ea702c8a60293c5ad',1,'annis.visualizers.component.KWICPanel.KWICPanelImpl.pdfController()'],['../classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a97cd447d7de81e40ed05fa3241289f4a',1,'annis.gui.widgets.grid.AnnotationGrid.pdfController()']]],
+  ['pdfcontroller',['pdfController',['../classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a154aeb92e83f4a9304347d7739ecf19a',1,'annis.visualizers.component.grid.GridComponent.pdfController()'],['../classannis_1_1gui_1_1widgets_1_1grid_1_1AnnotationGrid.html#a97cd447d7de81e40ed05fa3241289f4a',1,'annis.gui.widgets.grid.AnnotationGrid.pdfController()']]],
   ['pdfid',['pdfID',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFState.html#a5aeeec64bee8a97d3336363c856de267',1,'annis::visualizers::component::pdf::PDFState']]],
   ['pdfpagenumbers',['pdfPageNumbers',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a42bf5e3cbb286dc2e379fc865463d3c4',1,'annis::gui::widgets::gwt::client::ui::VAnnotationGrid']]],
   ['pdfpanel',['pdfPanel',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html#a21e395f559cc1058f01ba3c36ffe20de',1,'annis::visualizers::component::pdf::PDFVisualizer::PDFViewerImpl']]],
@@ -41,6 +41,7 @@ var searchData=
   ['pluginmanager',['pluginManager',['../classannis_1_1libgui_1_1AnnisBaseUI.html#a7f6e2edad285af3ac13ba7308274722b',1,'annis::libgui::AnnisBaseUI']]],
   ['pluginregistry',['pluginRegistry',['../classannis_1_1gui_1_1querybuilder_1_1QueryBuilderChooser.html#ac5984aff8b5ca8d5f3ddec0f65d5958e',1,'annis::gui::querybuilder::QueryBuilderChooser']]],
   ['pluginsystem',['pluginSystem',['../classannis_1_1gui_1_1querybuilder_1_1QueryBuilderChooser.html#a30340cbb39822afd00333463fe9ac929',1,'annis::gui::querybuilder::QueryBuilderChooser']]],
+  ['pointing',['POINTING',['../enumannis_1_1gui_1_1querybuilder_1_1AQLOperator.html#af40bfd0aa24d580f8c0b0fe89b53a6e6',1,'annis::gui::querybuilder::AQLOperator']]],
   ['pointing_5frelation',['POINTING_RELATION',['../enumannis_1_1model_1_1Edge_1_1EdgeType.html#ae9aca4784f3b43ad9d2b8fca182cdb2d',1,'annis::model::Edge::EdgeType']]],
   ['points',['points',['../classannis_1_1visualizers_1_1component_1_1tree_1_1OrderedNodeList.html#a72b1ae1fd1973d04a4ff518b12491f38',1,'annis::visualizers::component::tree::OrderedNodeList']]],
   ['port',['port',['../classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a988881d737f8dc1911556cab12276616',1,'annis::service::internal::QueryServiceImpl']]],
@@ -64,6 +65,6 @@ var searchData=
   ['progressresult',['progressResult',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7e62279f429e1258397d92eefc95df39',1,'annis::gui::resultview::ResultViewPanel']]],
   ['projectqueue',['projectQueue',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a0e08f1545d58e44bd530512128adf009',1,'annis::gui::resultview::ResultViewPanel']]],
   ['prompt',['prompt',['../classannis_1_1AnnisBaseRunner.html#aa38035a658c1e08cb7ff57960584f109',1,'annis::AnnisBaseRunner']]],
-  ['ps',['ps',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4dbc66e3c8c704e78155d8b23da2394e',1,'annis.gui.resultview.ResultViewPanel.ps()'],['../classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a94444621a1771d872eeec8d8b3cc85fa',1,'annis.gui.resultview.SingleResultPanel.ps()'],['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ad1c45ed37c07af67319424f14d2a964d',1,'annis.gui.resultview.VisualizerPanel.ps()']]],
+  ['ps',['ps',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4dbc66e3c8c704e78155d8b23da2394e',1,'annis.gui.resultview.ResultViewPanel.ps()'],['../classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a1720c61944802463030460a04d0c957d',1,'annis.gui.resultview.SingleResultPanel.ps()'],['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#abc9dff62f2d455a0ff2201c2db30e303',1,'annis.gui.resultview.VisualizerPanel.ps()']]],
   ['pseudotoken',['pseudoToken',['../classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielRegularDependencyTree.html#a397988fa2536d691d23ea9a3367b8266',1,'annis::visualizers::component::dependency::ProielRegularDependencyTree']]]
 ];

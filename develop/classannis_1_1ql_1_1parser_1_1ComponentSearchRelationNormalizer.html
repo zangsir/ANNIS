@@ -138,11 +138,11 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ae3ffe89d99eedca9359758f1979074b9"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#ae3ffe89d99eedca9359758f1979074b9">checkForViolation</a> (List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; nodes, AtomicLong maxID)</td></tr>
 <tr class="separator:ae3ffe89d99eedca9359758f1979074b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08fe9b987ef54620e70234c992ac9012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#a08fe9b987ef54620e70234c992ac9012">replicateFromJoinTarget</a> (<a class="el" href="classannis_1_1sqlgen_1_1model_1_1Join.html">Join</a> join, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> node, List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; nodes, AtomicLong maxID)</td></tr>
-<tr class="separator:a08fe9b987ef54620e70234c992ac9012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab19127b16679c697984308f45d107659"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#ab19127b16679c697984308f45d107659">replicateFromJoinSource</a> (<a class="el" href="classannis_1_1sqlgen_1_1model_1_1Join.html">Join</a> join, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> node, List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; nodes, AtomicLong maxID)</td></tr>
-<tr class="separator:ab19127b16679c697984308f45d107659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ee68838f67b2227add036c8bf48c716"><td class="memItemLeft" align="right" valign="top">Multimap&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>, <a class="el" href="classannis_1_1sqlgen_1_1model_1_1Join.html">Join</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#a3ee68838f67b2227add036c8bf48c716">createJoinMap</a> (List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; nodes)</td></tr>
+<tr class="memitem:aabe3d56426f3f40b32ec1859a3be5baf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#aabe3d56426f3f40b32ec1859a3be5baf">replicateFromJoinTarget</a> (<a class="el" href="classannis_1_1model_1_1Join.html">Join</a> join, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> targetNode, List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; nodes, AtomicLong maxID)</td></tr>
+<tr class="separator:aabe3d56426f3f40b32ec1859a3be5baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4a0cfa2ace9401c4c93cd33630905b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#a0c4a0cfa2ace9401c4c93cd33630905b">replicateFromJoinSource</a> (<a class="el" href="classannis_1_1model_1_1Join.html">Join</a> join, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> sourceNode, List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; nodes, AtomicLong maxID)</td></tr>
+<tr class="separator:a0c4a0cfa2ace9401c4c93cd33630905b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ee68838f67b2227add036c8bf48c716"><td class="memItemLeft" align="right" valign="top">Multimap&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>, <a class="el" href="classannis_1_1model_1_1Join.html">Join</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#a3ee68838f67b2227add036c8bf48c716">createJoinMap</a> (List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; nodes)</td></tr>
 <tr class="separator:a3ee68838f67b2227add036c8bf48c716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -200,7 +200,7 @@ node &amp; node &amp; node &amp; node
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Multimap&lt;<a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>, <a class="el" href="classannis_1_1sqlgen_1_1model_1_1Join.html">Join</a>&gt; annis.ql.parser.ComponentSearchRelationNormalizer.createJoinMap </td>
+          <td class="memname">Multimap&lt;<a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>, <a class="el" href="classannis_1_1model_1_1Join.html">Join</a>&gt; annis.ql.parser.ComponentSearchRelationNormalizer.createJoinMap </td>
           <td>(</td>
           <td class="paramtype">List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt;&#160;</td>
           <td class="paramname"><em>nodes</em>)</td><td></td>
@@ -216,7 +216,7 @@ node &amp; node &amp; node &amp; node
 
 </div>
 </div>
-<a class="anchor" id="ab19127b16679c697984308f45d107659"></a>
+<a class="anchor" id="a0c4a0cfa2ace9401c4c93cd33630905b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -226,14 +226,14 @@ node &amp; node &amp; node &amp; node
         <tr>
           <td class="memname">void annis.ql.parser.ComponentSearchRelationNormalizer.replicateFromJoinSource </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classannis_1_1sqlgen_1_1model_1_1Join.html">Join</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1Join.html">Join</a>&#160;</td>
           <td class="paramname"><em>join</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>&#160;</td>
-          <td class="paramname"><em>node</em>, </td>
+          <td class="paramname"><em>sourceNode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -262,7 +262,7 @@ node &amp; node &amp; node &amp; node
 
 </div>
 </div>
-<a class="anchor" id="a08fe9b987ef54620e70234c992ac9012"></a>
+<a class="anchor" id="aabe3d56426f3f40b32ec1859a3be5baf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -272,14 +272,14 @@ node &amp; node &amp; node &amp; node
         <tr>
           <td class="memname">void annis.ql.parser.ComponentSearchRelationNormalizer.replicateFromJoinTarget </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classannis_1_1sqlgen_1_1model_1_1Join.html">Join</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1Join.html">Join</a>&#160;</td>
           <td class="paramname"><em>join</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>&#160;</td>
-          <td class="paramname"><em>node</em>, </td>
+          <td class="paramname"><em>targetNode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -345,7 +345,7 @@ node &amp; node &amp; node &amp; node
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1ql.html">ql</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1ql_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html">ComponentSearchRelationNormalizer</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:32 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

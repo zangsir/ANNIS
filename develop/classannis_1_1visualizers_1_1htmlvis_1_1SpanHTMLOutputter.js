@@ -18,6 +18,7 @@ var classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter =
     [ "attribute", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#a3fb500c6beae045b71824f93a4b6dd1a", null ],
     [ "constant", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#a7a3cc252ff2828c837900406bb630f6b", null ],
     [ "element", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#a8710a6401ca7ea73f2a424f4d7aef52d", null ],
+    [ "NULL_VAL", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#a2b37a02b72089a6622d7d6bb897e1daa", null ],
     [ "style", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#a77e126169338bbc8e1f342456755b09e", null ],
     [ "type", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#acdeee27ba9cff011be541e1d57a2ee93", null ]
 ];

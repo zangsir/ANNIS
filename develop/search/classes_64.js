@@ -16,5 +16,6 @@ var searchData=
   ['documentnamemaprow',['DocumentNameMapRow',['../classannis_1_1dao_1_1DocumentNameMapRow.html',1,'annis::dao']]],
   ['docvisualizerfetcher',['DocVisualizerFetcher',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html',1,'annis::gui::docbrowser::DocBrowserController']]],
   ['dominance',['Dominance',['../classannis_1_1sqlgen_1_1model_1_1Dominance.html',1,'annis::sqlgen::model']]],
-  ['dotgraphvisualizer',['DotGraphVisualizer',['../classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer.html',1,'annis::visualizers::component::graph']]]
+  ['dotgraphvisualizer',['DotGraphVisualizer',['../classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer.html',1,'annis::visualizers::component::graph']]],
+  ['dynamicdatasource',['DynamicDataSource',['../classannis_1_1utils_1_1DynamicDataSource.html',1,'annis::utils']]]
 ];

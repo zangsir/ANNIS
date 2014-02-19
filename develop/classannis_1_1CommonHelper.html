@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('classannis_1_1CommonHelper.html','');}
 </div><!--header-->
 <div class="contents">
 
-<p>Utilities class for non-gui operations on Salt.  
+<p>Utilities class for non-gui operations.  
  <a href="classannis_1_1CommonHelper.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -143,6 +143,22 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ad69feb705a1581b280b6a746aa0f2d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a319db82d6875845db877fd5ac001fcb8"><td class="memItemLeft" align="right" valign="top">static List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1CommonHelper.html#a319db82d6875845db877fd5ac001fcb8">getCorpusPath</a> (URI uri)</td></tr>
 <tr class="separator:a319db82d6875845db877fd5ac001fcb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ce9bde0604941c6db52b118adadcdfb"><td class="memItemLeft" align="right" valign="top">static STextualDS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1CommonHelper.html#a6ce9bde0604941c6db52b118adadcdfb">getTextualDSForNode</a> (SNode node, SDocumentGraph graph)</td></tr>
+<tr class="memdesc:a6ce9bde0604941c6db52b118adadcdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the <a class="el" href="">STextualDS</a> for a given node.  <a href="#a6ce9bde0604941c6db52b118adadcdfb">More...</a><br/></td></tr>
+<tr class="separator:a6ce9bde0604941c6db52b118adadcdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95e8accc8ae1fa1adc6e591991ae1b90"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1CommonHelper.html#a95e8accc8ae1fa1adc6e591991ae1b90">getSafeFileName</a> (String orig)</td></tr>
+<tr class="memdesc:a95e8accc8ae1fa1adc6e591991ae1b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a file name that is safe to use and does not have any invalid characters.  <a href="#a95e8accc8ae1fa1adc6e591991ae1b90">More...</a><br/></td></tr>
+<tr class="separator:a95e8accc8ae1fa1adc6e591991ae1b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51bf9bb55aa49c71456fc0ecf2e3f0e"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1CommonHelper.html#af51bf9bb55aa49c71456fc0ecf2e3f0e">getCorpusNames</a> (SaltProject p)</td></tr>
+<tr class="memdesc:af51bf9bb55aa49c71456fc0ecf2e3f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all names of a corpus from a salt project.  <a href="#af51bf9bb55aa49c71456fc0ecf2e3f0e">More...</a><br/></td></tr>
+<tr class="separator:af51bf9bb55aa49c71456fc0ecf2e3f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039756452bcd9260141bd80af46c3fc9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1CommonHelper.html#a039756452bcd9260141bd80af46c3fc9">writeSDocument</a> (SDocument doc, ObjectOutputStream out)  throws IOException   </td></tr>
+<tr class="separator:a039756452bcd9260141bd80af46c3fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a71a705ee38fd4a1e5d5507e471fc67"><td class="memItemLeft" align="right" valign="top">static SDocument&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1CommonHelper.html#a6a71a705ee38fd4a1e5d5507e471fc67">readSDocument</a> (ObjectInputStream in)  throws IOException   </td></tr>
+<tr class="separator:a6a71a705ee38fd4a1e5d5507e471fc67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b63b25cb4300c7990e578f276f4b50"><td class="memItemLeft" align="right" valign="top">static&lt; V &gt; Map&lt; SNode, V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1CommonHelper.html#ad1b63b25cb4300c7990e578f276f4b50">createSNodeMapFromIDs</a> (Map&lt; String, V &gt; map, SDocumentGraph graph)</td></tr>
+<tr class="memdesc:ad1b63b25cb4300c7990e578f276f4b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a map of salt node IDs to a value and return a new map that uses the SNodes as keys instead of the IDs.  <a href="#ad1b63b25cb4300c7990e578f276f4b50">More...</a><br/></td></tr>
+<tr class="separator:ad1b63b25cb4300c7990e578f276f4b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -150,7 +166,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a549943db02d701e6b56965b28d0e1824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Utilities class for non-gui operations on Salt. </p>
+<div class="textblock"><p>Utilities class for non-gui operations. </p>
 <dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'eto'+'@h'+'u-b'+'er'+'lin'+'.d'+'e'; return false;">kraus<span style="display: none;">.nosp@m.</span>eto@<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd>
 <dd>
 Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+'eld'+'ra'+'ma@'+'gm'+'ail'+'.c'+'om'; return false;">b.pix<span style="display: none;">.nosp@m.</span>eldr<span style="display: none;">.nosp@m.</span>ama@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a> </dd></dl>
@@ -230,6 +246,84 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>returns true, if arabic characters are detected. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad1b63b25cb4300c7990e578f276f4b50"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static &lt;V&gt; Map&lt;SNode, V&gt; annis.CommonHelper.createSNodeMapFromIDs </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, V &gt;&#160;</td>
+          <td class="paramname"><em>map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDocumentGraph&#160;</td>
+          <td class="paramname"><em>graph</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Takes a map of salt node IDs to a value and return a new map that uses the SNodes as keys instead of the IDs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&lt;V&gt;</td><td></td></tr>
+    <tr><td class="paramname">map</td><td></td></tr>
+    <tr><td class="paramname">graph</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af51bf9bb55aa49c71456fc0ecf2e3f0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Set&lt;String&gt; annis.CommonHelper.getCorpusNames </td>
+          <td>(</td>
+          <td class="paramtype">SaltProject&#160;</td>
+          <td class="paramname"><em>p</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets all names of a corpus from a salt project. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>returns an empty list if project is empty or null. </dd></dl>
 
 </div>
 </div>
@@ -315,6 +409,39 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 
 </div>
 </div>
+<a class="anchor" id="a95e8accc8ae1fa1adc6e591991ae1b90"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String annis.CommonHelper.getSafeFileName </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>orig</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a file name that is safe to use and does not have any invalid characters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">orig</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a88372a8e8af24eaecbd7104fe7034d8f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -394,6 +521,50 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 
 </div>
 </div>
+<a class="anchor" id="a6ce9bde0604941c6db52b118adadcdfb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static STextualDS annis.CommonHelper.getTextualDSForNode </td>
+          <td>(</td>
+          <td class="paramtype">SNode&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDocumentGraph&#160;</td>
+          <td class="paramname"><em>graph</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the <a class="el" href="">STextualDS</a> for a given node. </p>
+<p>The node must dominate a token of this text.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a6db057cb3a0e3809303f7df6dacec90b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -442,6 +613,64 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 
 </div>
 </div>
+<a class="anchor" id="a6a71a705ee38fd4a1e5d5507e471fc67"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static SDocument annis.CommonHelper.readSDocument </td>
+          <td>(</td>
+          <td class="paramtype">ObjectInputStream&#160;</td>
+          <td class="paramname"><em>in</em>)</td><td></td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a039756452bcd9260141bd80af46c3fc9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void annis.CommonHelper.writeSDocument </td>
+          <td>(</td>
+          <td class="paramtype">SDocument&#160;</td>
+          <td class="paramname"><em>doc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ObjectOutputStream&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a549943db02d701e6b56965b28d0e1824"></a>
 <div class="memitem">
@@ -472,7 +701,7 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="classannis_1_1CommonHelper.html">CommonHelper</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:31 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:38 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

@@ -12,6 +12,7 @@ var namespaceannis_1_1gui =
     [ "paging", "namespaceannis_1_1gui_1_1paging.html", "namespaceannis_1_1gui_1_1paging" ],
     [ "querybuilder", "namespaceannis_1_1gui_1_1querybuilder.html", "namespaceannis_1_1gui_1_1querybuilder" ],
     [ "requesthandler", "namespaceannis_1_1gui_1_1requesthandler.html", "namespaceannis_1_1gui_1_1requesthandler" ],
+    [ "resultfetch", "namespaceannis_1_1gui_1_1resultfetch.html", "namespaceannis_1_1gui_1_1resultfetch" ],
     [ "resultview", "namespaceannis_1_1gui_1_1resultview.html", "namespaceannis_1_1gui_1_1resultview" ],
     [ "servlets", "namespaceannis_1_1gui_1_1servlets.html", "namespaceannis_1_1gui_1_1servlets" ],
     [ "tutorial", "namespaceannis_1_1gui_1_1tutorial.html", "namespaceannis_1_1gui_1_1tutorial" ],
@@ -31,7 +32,7 @@ var namespaceannis_1_1gui =
     [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html", "classannis_1_1gui_1_1MetaDataPanel" ],
     [ "QueryController", "classannis_1_1gui_1_1QueryController.html", "classannis_1_1gui_1_1QueryController" ],
     [ "ReportBugWindow", "classannis_1_1gui_1_1ReportBugWindow.html", "classannis_1_1gui_1_1ReportBugWindow" ],
-    [ "ResultFetchJob", "classannis_1_1gui_1_1ResultFetchJob.html", "classannis_1_1gui_1_1ResultFetchJob" ],
     [ "SearchUI", "classannis_1_1gui_1_1SearchUI.html", "classannis_1_1gui_1_1SearchUI" ],
+    [ "SidebarState", "enumannis_1_1gui_1_1SidebarState.html", "enumannis_1_1gui_1_1SidebarState" ],
     [ "FontConfig", "classannis_1_1gui_1_1FontConfig.html", "classannis_1_1gui_1_1FontConfig" ]
 ];

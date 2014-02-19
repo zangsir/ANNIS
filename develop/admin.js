@@ -23,7 +23,9 @@ var admin =
         [ "Visibility column", "admin-configure-webapp.html#admin-configure-visibility", null ],
         [ "Visualizer list", "admin-configure-webapp.html#admin-configure-vislist", null ]
       ] ],
-      [ "Document Browsing", "admin-configure-webapp.html#document-visualizer", null ],
+      [ "Document Browser", "admin-configure-webapp.html#document-visualizer", [
+        [ "custom visualizer and sorting", "admin-configure-webapp.html#custom-visualizer-and-sorting", null ]
+      ] ],
       [ "Web fonts", "admin-configure-webapp.html#web-fonts", null ]
     ] ],
     [ "PostgreSQL Server Configuration", "admin-configure-postgresql.html", [

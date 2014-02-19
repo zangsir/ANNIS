@@ -17,6 +17,7 @@ var classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel =
     [ "counter", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html#aeb819ec94b55f8ed7c7b489db8b7a736", null ],
     [ "lblAQL", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html#af0310a8d27b444595caf346e02c7d0b0", null ],
     [ "lblCorpusList", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html#a15a415ad840c0eea9aff6fc2062ee7c8", null ],
+    [ "lblErrorOrMsg", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html#a9f023b929813fa72d0c302fdc139130a", null ],
     [ "manuallyChanged", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html#aa5ebbabff6cf701c5f3d4fc6a5f33591", null ],
     [ "queryLayout", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html#af1559f3af8adc4912f3601dc23e4d3d2", null ],
     [ "resultPanel", "classannis_1_1gui_1_1frequency_1_1FrequencyQueryPanel.html#a2da15a97c2b654708a00e532f31f6a9a", null ],

@@ -132,6 +132,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f1d5a47c3a12d3807adecd3adc6808d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1sqlgen_1_1AnnotationConditionProvider.html#a0f1d5a47c3a12d3807adecd3adc6808d">addAnnotationConditions</a> (List&lt; String &gt; conditions, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> node, int index, <a class="el" href="classannis_1_1model_1_1QueryAnnotation.html">QueryAnnotation</a> annotation, String table, <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a> queryData, <a class="el" href="classannis_1_1sqlgen_1_1TableAccessStrategy.html">TableAccessStrategy</a> tas)</td></tr>
 <tr class="memdesc:a0f1d5a47c3a12d3807adecd3adc6808d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds annotation conditions for a single node.  <a href="#a0f1d5a47c3a12d3807adecd3adc6808d">More...</a><br/></td></tr>
 <tr class="separator:a0f1d5a47c3a12d3807adecd3adc6808d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58845262f20a92637e92df47b7bf2840"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1sqlgen_1_1AnnotationConditionProvider.html#a58845262f20a92637e92df47b7bf2840">addEqualValueConditions</a> (List&lt; String &gt; conditions, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> node, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> target, <a class="el" href="classannis_1_1sqlgen_1_1TableAccessStrategy.html">TableAccessStrategy</a> tasNode, <a class="el" href="classannis_1_1sqlgen_1_1TableAccessStrategy.html">TableAccessStrategy</a> tasTarget, boolean equal)</td></tr>
+<tr class="separator:a58845262f20a92637e92df47b7bf2840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implements method to allow different modes to have different behavior how to add annotation constraints to the generated SQL. </p>
@@ -209,6 +211,58 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a58845262f20a92637e92df47b7bf2840"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.sqlgen.AnnotationConditionProvider.addEqualValueConditions </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; String &gt;&#160;</td>
+          <td class="paramname"><em>conditions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classannis_1_1sqlgen_1_1TableAccessStrategy.html">TableAccessStrategy</a>&#160;</td>
+          <td class="paramname"><em>tasNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classannis_1_1sqlgen_1_1TableAccessStrategy.html">TableAccessStrategy</a>&#160;</td>
+          <td class="paramname"><em>tasTarget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>equal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classannis_1_1sqlgen_1_1annopool_1_1ApAnnotationConditionProvider.html#a18631af055fb8d4c81ca83fbbee04d37">annis.sqlgen.annopool.ApAnnotationConditionProvider</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this interface was generated from the following file:<ul>
 <li><a class="el" href="AnnotationConditionProvider_8java.html">AnnotationConditionProvider.java</a></li>
 </ul>
@@ -218,7 +272,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1sqlgen.html">sqlgen</a></li><li class="navelem"><a class="el" href="interfaceannis_1_1sqlgen_1_1AnnotationConditionProvider.html">AnnotationConditionProvider</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:33 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

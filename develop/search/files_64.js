@@ -13,5 +13,6 @@ var searchData=
   ['docbrowsertable_2ejava',['DocBrowserTable.java',['../DocBrowserTable_8java.html',1,'']]],
   ['documentnamemaprow_2ejava',['DocumentNameMapRow.java',['../DocumentNameMapRow_8java.html',1,'']]],
   ['dominance_2ejava',['Dominance.java',['../Dominance_8java.html',1,'']]],
-  ['dotgraphvisualizer_2ejava',['DotGraphVisualizer.java',['../DotGraphVisualizer_8java.html',1,'']]]
+  ['dotgraphvisualizer_2ejava',['DotGraphVisualizer.java',['../DotGraphVisualizer_8java.html',1,'']]],
+  ['dynamicdatasource_2ejava',['DynamicDataSource.java',['../DynamicDataSource_8java.html',1,'']]]
 ];

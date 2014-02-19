@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('classannis_1_1gui_1_1querybuilder_1_1E
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow-members.html">List of all members</a>  </div>
@@ -144,6 +145,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5eef690e6c79a2d26fae945d7051e7fa"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#a5eef690e6c79a2d26fae945d7051e7fa">getOperator</a> ()</td></tr>
 <tr class="separator:a5eef690e6c79a2d26fae945d7051e7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aef1fb56d92941cbb0fc233ac3b8cac71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumannis_1_1gui_1_1querybuilder_1_1AQLOperator.html">AQLOperator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#aef1fb56d92941cbb0fc233ac3b8cac71">findAQLOperatorForText</a> (String txt)</td></tr>
+<tr class="separator:aef1fb56d92941cbb0fc233ac3b8cac71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a5174d177ac4e096232a93376c0bfe672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas.html">TigerQueryBuilderCanvas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#a5174d177ac4e096232a93376c0bfe672">parent</a></td></tr>
@@ -156,11 +162,13 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a6dfaf511b0dc67f15cf382c3ba054698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa758cc291122a1aab659497a62f0ea61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html">NodeWindow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#aa758cc291122a1aab659497a62f0ea61">target</a></td></tr>
 <tr class="separator:aa758cc291122a1aab659497a62f0ea61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b387ababee71b3478cc9d9016fdb4f0"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#a6b387ababee71b3478cc9d9016fdb4f0">txtOperator</a></td></tr>
+<tr class="separator:a6b387ababee71b3478cc9d9016fdb4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:ab3225f865601eeb1ae114b350be15a06"><td class="memItemLeft" align="right" valign="top">static final String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#ab3225f865601eeb1ae114b350be15a06">EDGE_OPERATORS</a></td></tr>
-<tr class="separator:ab3225f865601eeb1ae114b350be15a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1194eaabba0479127845edd8d3126609"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html#a1194eaabba0479127845edd8d3126609">CUSTOM</a> = &quot;custom&quot;</td></tr>
+<tr class="separator:a1194eaabba0479127845edd8d3126609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>thomas </dd></dl>
@@ -210,6 +218,30 @@ Static Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aef1fb56d92941cbb0fc233ac3b8cac71"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumannis_1_1gui_1_1querybuilder_1_1AQLOperator.html">AQLOperator</a> annis.gui.querybuilder.EdgeWindow.findAQLOperatorForText </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>txt</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -300,7 +332,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab3225f865601eeb1ae114b350be15a06"></a>
+<a class="anchor" id="a1194eaabba0479127845edd8d3126609"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -308,7 +340,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String [] annis.gui.querybuilder.EdgeWindow.EDGE_OPERATORS</td>
+          <td class="memname">final String annis.gui.querybuilder.EdgeWindow.CUSTOM = &quot;custom&quot;</td>
         </tr>
       </table>
   </td>
@@ -317,12 +349,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> String[]</div>
-<div class="line">  {</div>
-<div class="line">    <span class="stringliteral">&quot;.&quot;</span>,<span class="stringliteral">&quot;.*&quot;</span>, <span class="stringliteral">&quot;.*&quot;</span>,<span class="stringliteral">&quot;&gt;&quot;</span>,<span class="stringliteral">&quot;&gt;*&quot;</span>, <span class="stringliteral">&quot;&gt;@l&quot;</span>, <span class="stringliteral">&quot;&gt;@r&quot;</span>, <span class="stringliteral">&quot;$&quot;</span>, <span class="stringliteral">&quot;$*&quot;</span>, <span class="stringliteral">&quot;-&gt;&quot;</span>, <span class="stringliteral">&quot;_=_&quot;</span>, <span class="stringliteral">&quot;_i_&quot;</span>,</div>
-<div class="line">    <span class="stringliteral">&quot;_l_&quot;</span>, <span class="stringliteral">&quot;_r_&quot;</span>, <span class="stringliteral">&quot;_o_&quot;</span>, <span class="stringliteral">&quot;_ol_&quot;</span>, <span class="stringliteral">&quot;_or_&quot;</span></div>
-<div class="line">  }</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a class="anchor" id="a5174d177ac4e096232a93376c0bfe672"></a>
@@ -385,6 +412,26 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6b387ababee71b3478cc9d9016fdb4f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField annis.gui.querybuilder.EdgeWindow.txtOperator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="EdgeWindow_8java.html">EdgeWindow.java</a></li>
 </ul>
@@ -394,7 +441,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1querybuilder.html">querybuilder</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html">EdgeWindow</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:32 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:39 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

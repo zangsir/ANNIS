@@ -21,6 +21,7 @@ var classannis_1_1libgui_1_1AnnisBaseUI =
     [ "loadInstanceConfig", "classannis_1_1libgui_1_1AnnisBaseUI.html#af506f488092dc69257b602a9beeff135", null ],
     [ "loadPropertyFile", "classannis_1_1libgui_1_1AnnisBaseUI.html#a12c1ffcef6665bdf9b0baae17adb5305", null ],
     [ "alreadyAddedCSS", "classannis_1_1libgui_1_1AnnisBaseUI.html#abea69cc79566f54c630832e9feb61268", null ],
+    [ "alreadyAddedCSSResources", "classannis_1_1libgui_1_1AnnisBaseUI.html#a7d41d492ec69c54d5985941ba85cf331", null ],
     [ "CITATION_KEY", "classannis_1_1libgui_1_1AnnisBaseUI.html#a309bafae2b66df809e3135443537123b", null ],
     [ "CONTEXT_PATH", "classannis_1_1libgui_1_1AnnisBaseUI.html#a58cf59b5676221a62f117e118e172b18", null ],
     [ "jsonMapper", "classannis_1_1libgui_1_1AnnisBaseUI.html#a7a304bbc73ee7878268225272df189c5", null ],

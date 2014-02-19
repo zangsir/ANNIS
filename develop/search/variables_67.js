@@ -1,8 +1,7 @@
 var searchData=
 [
   ['gap',['gap',['../classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ac849796f0dfc3a044931896011d6d3a0',1,'annis::gui::widgets::grid::GridEvent']]],
-  ['gclient',['gClient',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#ac10aa9a7c0287a0dd01b0748d0fef81b',1,'annis.gui.widgets.gwt.client.ui.VAnnotationGrid.gClient()'],['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VSimpleCanvas.html#a08e3e6ed371e22e1084ed3b79d76c36b',1,'annis.gui.widgets.gwt.client.ui.VSimpleCanvas.gClient()']]],
-  ['generatedcolumns',['generatedColumns',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html#a0d513722720f29543deb8c2d95b3e3be',1,'annis::visualizers::component::KWICPanel::KWICPanelImpl']]],
+  ['gclient',['gClient',['../classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#ac10aa9a7c0287a0dd01b0748d0fef81b',1,'annis::gui::widgets::gwt::client::ui::VAnnotationGrid']]],
   ['generateexamplequeries',['generateExampleQueries',['../classannis_1_1administration_1_1DefaultAdministrationDao.html#ab988c40cc62f612c1483af878ede612f',1,'annis::administration::DefaultAdministrationDao']]],
   ['generator',['generator',['../classannis_1_1dao_1_1SpringAnnisDao_1_1ExplainSqlGenerator.html#a881f134a2d96724724e8fc3645913b31',1,'annis::dao::SpringAnnisDao::ExplainSqlGenerator']]],
   ['globalindex',['globalIndex',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a4e93e5b3070c691ea092941817d4a894',1,'annis::visualizers::iframe::CorefVisualizer']]],
@@ -12,7 +11,7 @@ var searchData=
   ['graphextractor',['graphExtractor',['../classannis_1_1dao_1_1SpringAnnisDao.html#a8d12ea058f0b5944e79cafa83fedb156',1,'annis::dao::SpringAnnisDao']]],
   ['graphsqlgenerator',['graphSqlGenerator',['../classannis_1_1AnnisRunner.html#abb9bfd6537198ad1ab5cadb9b4ebfdfe',1,'annis.AnnisRunner.graphSqlGenerator()'],['../classannis_1_1dao_1_1SpringAnnisDao.html#aedf6aed5d82b6d453add7f0c5d72017d',1,'annis.dao.SpringAnnisDao.graphSqlGenerator()']]],
   ['graphtools',['graphtools',['../classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a001fbf2559758ba51c2c799ff24d10b9',1,'annis::visualizers::component::tree::TigerTreeVisualizer']]],
-  ['grid',['grid',['../classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html#a571c0bd8e9422a6640f4f95a65946355',1,'annis::visualizers::component::grid::GridVisualizer::GridVisualizerComponent']]],
+  ['grid',['grid',['../classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a3895fb159a7b2526b665660cc88bfba0',1,'annis::visualizers::component::grid::GridComponent']]],
   ['groupbyclausesqlgenerator',['groupByClauseSqlGenerator',['../classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html#aef46735cd060a29ca93ddb81b409d9b6',1,'annis::sqlgen::AbstractSqlGenerator&lt; T &gt;']]],
   ['groups',['groups',['../classannis_1_1security_1_1ANNISRolePermissionResolver.html#acde22da9bbfe1d27acf482ed19730ec8',1,'annis::security::ANNISRolePermissionResolver']]],
   ['groupsfile',['groupsFile',['../classannis_1_1security_1_1ANNISRolePermissionResolver.html#a10a15e0804c558d806248b572b71567a',1,'annis::security::ANNISRolePermissionResolver']]]

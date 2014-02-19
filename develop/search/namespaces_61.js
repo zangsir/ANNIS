@@ -33,6 +33,7 @@ var searchData=
   ['ifaces',['ifaces',['../namespaceannis_1_1service_1_1ifaces.html',1,'annis::service']]],
   ['iframe',['iframe',['../namespaceannis_1_1visualizers_1_1iframe.html',1,'annis::visualizers']]],
   ['internal',['internal',['../namespaceannis_1_1service_1_1internal.html',1,'annis::service']]],
+  ['kwic',['kwic',['../namespaceannis_1_1visualizers_1_1component_1_1kwic.html',1,'annis::visualizers::component']]],
   ['libgui',['libgui',['../namespaceannis_1_1libgui.html',1,'annis']]],
   ['media',['media',['../namespaceannis_1_1libgui_1_1media.html',1,'annis::libgui']]],
   ['medialement',['medialement',['../namespaceannis_1_1gui_1_1components_1_1medialement.html',1,'annis::gui::components']]],
@@ -52,6 +53,7 @@ var searchData=
   ['requesthandler',['requesthandler',['../namespaceannis_1_1gui_1_1requesthandler.html',1,'annis::gui']]],
   ['resolver',['resolver',['../namespaceannis_1_1resolver.html',1,'annis']]],
   ['rest',['rest',['../namespaceannis_1_1rest.html',1,'annis']]],
+  ['resultfetch',['resultfetch',['../namespaceannis_1_1gui_1_1resultfetch.html',1,'annis::gui']]],
   ['resultview',['resultview',['../namespaceannis_1_1gui_1_1resultview.html',1,'annis::gui']]],
   ['rst',['rst',['../namespaceannis_1_1visualizers_1_1component_1_1rst.html',1,'annis::visualizers::component']]],
   ['security',['security',['../namespaceannis_1_1security.html',1,'annis']]],
@@ -63,7 +65,7 @@ var searchData=
   ['tutorial',['tutorial',['../namespaceannis_1_1gui_1_1tutorial.html',1,'annis::gui']]],
   ['ui',['ui',['../namespaceannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui.html',1,'annis::gui::widgets::gwt::client']]],
   ['utils',['utils',['../namespaceannis_1_1utils.html',1,'annis']]],
-  ['visualizers',['visualizers',['../namespaceannis_1_1libgui_1_1visualizers.html',1,'annis::libgui']]],
   ['visualizers',['visualizers',['../namespaceannis_1_1visualizers.html',1,'annis']]],
+  ['visualizers',['visualizers',['../namespaceannis_1_1libgui_1_1visualizers.html',1,'annis::libgui']]],
   ['widgets',['widgets',['../namespaceannis_1_1gui_1_1widgets.html',1,'annis::gui']]]
 ];

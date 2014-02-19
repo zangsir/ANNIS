@@ -174,8 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1c529623cd34e54595c96b0348515b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9112c4a4dc240469e27a5e5b6092c54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1service_1_1objects_1_1FrequencyTable.html">FrequencyTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#ad9112c4a4dc240469e27a5e5b6092c54">frequency</a> (<a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a> queryData)</td></tr>
 <tr class="separator:ad9112c4a4dc240469e27a5e5b6092c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c1d4268ba641b0507001666ba28af0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a3c1d4268ba641b0507001666ba28af0a">matrix</a> (final <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a> queryData, final OutputStream out)</td></tr>
-<tr class="separator:a3c1d4268ba641b0507001666ba28af0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a064a97b99c988639a3d16799884e7635"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a064a97b99c988639a3d16799884e7635">matrix</a> (final <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a> queryData, boolean outputCSV, final OutputStream out)</td></tr>
+<tr class="separator:a064a97b99c988639a3d16799884e7635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4cadf79783f2f48aa967b1ef9f56c1f"><td class="memItemLeft" align="right" valign="top">public&lt; T &gt; T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#aa4cadf79783f2f48aa967b1ef9f56c1f">executeQueryFunction</a> (<a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a> queryData, final SqlGenerator&lt; <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a>, T &gt; generator)</td></tr>
 <tr class="separator:aa4cadf79783f2f48aa967b1ef9f56c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada74027fcadf8a4f90cda82e91bb66ea"><td class="memItemLeft" align="right" valign="top">public&lt; T &gt; T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#ada74027fcadf8a4f90cda82e91bb66ea">executeQueryFunction</a> (<a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a> queryData, final SqlGenerator&lt; <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a>, T &gt; generator, final ResultSetExtractor&lt; T &gt; extractor)</td></tr>
@@ -197,9 +197,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a49913abd6ae4da8410a6d7244bdd80ba"><td class="memItemLeft" align="right" valign="top">List&lt; Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a49913abd6ae4da8410a6d7244bdd80ba">mapCorpusNamesToIds</a> (List&lt; String &gt; corpusNames)</td></tr>
 <tr class="memdesc:a49913abd6ae4da8410a6d7244bdd80ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of internal IDs for a list of top-level corpus names.  <a href="#a49913abd6ae4da8410a6d7244bdd80ba">More...</a><br/></td></tr>
 <tr class="separator:a49913abd6ae4da8410a6d7244bdd80ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64e7bab91606de6ee9ee901d5ac7c81a"><td class="memItemLeft" align="right" valign="top">Properties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a64e7bab91606de6ee9ee901d5ac7c81a">getCorpusConfiguration</a> (String corpusName)</td></tr>
-<tr class="memdesc:a64e7bab91606de6ee9ee901d5ac7c81a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a specific configuration of a corpus from directory.  <a href="#a64e7bab91606de6ee9ee901d5ac7c81a">More...</a><br/></td></tr>
-<tr class="separator:a64e7bab91606de6ee9ee901d5ac7c81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172eef6fb2e78fda6011d319151bfe05"><td class="memItemLeft" align="right" valign="top">Properties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a172eef6fb2e78fda6011d319151bfe05">getCorpusConfiguration</a> (String topLevelCorpus)</td></tr>
+<tr class="memdesc:a172eef6fb2e78fda6011d319151bfe05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a specific configuration of a corpus from directory.  <a href="#a172eef6fb2e78fda6011d319151bfe05">More...</a><br/></td></tr>
+<tr class="separator:a172eef6fb2e78fda6011d319151bfe05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1342ed279fa20c842797971535f0bb3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#ab1342ed279fa20c842797971535f0bb3">checkDatabaseVersion</a> ()  throws AnnisException</td></tr>
 <tr class="memdesc:ab1342ed279fa20c842797971535f0bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to check if the database management program has the right version.  <a href="#ab1342ed279fa20c842797971535f0bb3">More...</a><br/></td></tr>
 <tr class="separator:ab1342ed279fa20c842797971535f0bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,9 +224,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a514e05978fd024e63c3dd6c6773276d2"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a514e05978fd024e63c3dd6c6773276d2">mapCorpusIdToName</a> (long corpusId)</td></tr>
 <tr class="memdesc:a514e05978fd024e63c3dd6c6773276d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the corpus name for a given corpus id.  <a href="#a514e05978fd024e63c3dd6c6773276d2">More...</a><br/></td></tr>
 <tr class="separator:a514e05978fd024e63c3dd6c6773276d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeecf6078bfa775af672deab256e37c2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#aeecf6078bfa775af672deab256e37c2f">setCorpusConfiguration</a> (long corpusID, Properties props)</td></tr>
-<tr class="memdesc:aeecf6078bfa775af672deab256e37c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores a corpus configuration.  <a href="#aeecf6078bfa775af672deab256e37c2f">More...</a><br/></td></tr>
-<tr class="separator:aeecf6078bfa775af672deab256e37c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dac6381caadb11184e50c85fd4eff7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#a5dac6381caadb11184e50c85fd4eff7c">setCorpusConfiguration</a> (String topLevelCorpus, Properties props)</td></tr>
+<tr class="memdesc:a5dac6381caadb11184e50c85fd4eff7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores a corpus configuration.  <a href="#a5dac6381caadb11184e50c85fd4eff7c">More...</a><br/></td></tr>
+<tr class="separator:a5dac6381caadb11184e50c85fd4eff7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a5b0869bd443d7807042722f718ba0675"></a>
@@ -655,13 +655,13 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the corpus configuration from all imported corpora. </p>
 <dl class="section return"><dt>Returns</dt><dd>The return value is the Key of corpus table entry. </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>Use <a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#ab5edac27fa62a7f602039123252e22cb">getCorpusConfigurations()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Use <a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html#ab5edac27fa62a7f602039123252e22cb">getCorpusConfigurations()</a> instead. </dd></dl>
 
 <p>Implemented in <a class="el" href="classannis_1_1dao_1_1SpringAnnisDao.html#a741e82461731d8c37cbc82e62fbe3caa">annis.dao.SpringAnnisDao</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a64e7bab91606de6ee9ee901d5ac7c81a"></a>
+<a class="anchor" id="a172eef6fb2e78fda6011d319151bfe05"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -669,7 +669,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">Properties annis.dao.AnnisDao.getCorpusConfiguration </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>corpusName</em>)</td><td></td>
+          <td class="paramname"><em>topLevelCorpus</em>)</td><td></td>
           <td></td>
         </tr>
       </table>
@@ -679,6 +679,12 @@ Public Member Functions</h2></td></tr>
 <p>The corpus config files are actually stored in the </p>
 <div class="fragment"><div class="line">&lt;user&gt;/.annis/data/corpus </div>
 </div><!-- fragment --><p> directory, decorated with a <a class="el" href="">UUID</a>. The actual name of a specific corpus property file is stored in the media_file table.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">topLevelCorpus</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>The corpus configuration is represented as Key-Value-Pairs.</dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>BinaryImportHelper </dd></dl>
 
@@ -1175,7 +1181,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3c1d4268ba641b0507001666ba28af0a"></a>
+<a class="anchor" id="a064a97b99c988639a3d16799884e7635"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1184,6 +1190,12 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">final <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a>&#160;</td>
           <td class="paramname"><em>queryData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>outputCSV</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1198,8 +1210,6 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classannis_1_1dao_1_1SpringAnnisDao.html#a9a5ea50ece5562e6d8b568a42eb73bcc">annis.dao.SpringAnnisDao</a>.</p>
 
 </div>
 </div>
@@ -1277,15 +1287,15 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeecf6078bfa775af672deab256e37c2f"></a>
+<a class="anchor" id="a5dac6381caadb11184e50c85fd4eff7c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void annis.dao.AnnisDao.setCorpusConfiguration </td>
           <td>(</td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>corpusID</em>, </td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>topLevelCorpus</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1302,15 +1312,18 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Stores a corpus configuration. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>If the properties object is empty, an empty file is written in the annis data directory.</p>
+<p>The name of the corpus properties file follows the schema:<br/>
+ </p>
+<pre>corpus_&lt;toplevelCorpusName&gt;_&lt;UUID&gt;.properties</pre> <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">corpusID</td><td>The id of the corpus, for which the properties are written. </td></tr>
+    <tr><td class="paramname">topLevelCorpus</td><td>The name of the corpus, for which the properties are written. </td></tr>
     <tr><td class="paramname">props</td><td>The properties </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classannis_1_1dao_1_1SpringAnnisDao.html#aca6c9403d3f112764b931810e93bfca2">annis.dao.SpringAnnisDao</a>.</p>
+<p>Implemented in <a class="el" href="classannis_1_1dao_1_1SpringAnnisDao.html#aa08b3bcb940a057d8964ce30ca24815f">annis.dao.SpringAnnisDao</a>.</p>
 
 </div>
 </div>
@@ -1341,7 +1354,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1dao.html">dao</a></li><li class="navelem"><a class="el" href="interfaceannis_1_1dao_1_1AnnisDao.html">AnnisDao</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:31 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:39 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

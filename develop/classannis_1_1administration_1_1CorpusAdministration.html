@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('classannis_1_1administration_1_1Corpus
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classannis_1_1administration_1_1CorpusAdministration-members.html">List of all members</a>  </div>
@@ -135,6 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a10dae171905aabcf33d8a24435ca12a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao_1_1ImportStats.html">ImportStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a10dae171905aabcf33d8a24435ca12a4">importCorporaSave</a> (boolean overwrite, String aliasName, String statusEmailAdress, boolean waitForOtherTasks, List&lt; String &gt; paths)</td></tr>
 <tr class="memdesc:a10dae171905aabcf33d8a24435ca12a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports several corpora and catches a possible thrown <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException.html">DefaultAdministrationDao.ConflictingCorpusException</a> when the overwrite flag is set to false.  <a href="#a10dae171905aabcf33d8a24435ca12a4">More...</a><br/></td></tr>
 <tr class="separator:a10dae171905aabcf33d8a24435ca12a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97d5ebbbbea5b98a2e471711268239dc"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a97d5ebbbbea5b98a2e471711268239dc">createZIPOutputDir</a> (String corpusName)</td></tr>
+<tr class="separator:a97d5ebbbbea5b98a2e471711268239dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5b5291caed36c1ebadadf50f19b21af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#ab5b5291caed36c1ebadadf50f19b21af">sendStatusMail</a> (String adress, String corpusPath, ImportJob.Status status, String additionalInfo)</td></tr>
 <tr class="separator:ab5b5291caed36c1ebadadf50f19b21af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875f51a546795e05a33c94be88c6e194"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a875f51a546795e05a33c94be88c6e194">checkDatabaseSchemaVersion</a> ()</td></tr>
@@ -165,6 +168,12 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a07336e65d783e312cc3ff51b558cc925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a07336e65d783e312cc3ff51b558cc925">writeDatabasePropertiesFile</a> (String host, String port, String database, String user, String password, boolean useSSL)</td></tr>
 <tr class="separator:a07336e65d783e312cc3ff51b558cc925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a7ce0999011a01f23a6ea145e457fe9d7"><td class="memItemLeft" align="right" valign="top">List&lt; File &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html#a7ce0999011a01f23a6ea145e457fe9d7">unzipCorpus</a> (File outDir, ZipFile zip)</td></tr>
+<tr class="memdesc:a7ce0999011a01f23a6ea145e457fe9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the zipped relANNIS corpus files to an output directory.  <a href="#a7ce0999011a01f23a6ea145e457fe9d7">More...</a><br/></td></tr>
+<tr class="separator:a7ce0999011a01f23a6ea145e457fe9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -207,6 +216,22 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">boolean annis.administration.CorpusAdministration.checkDatabaseSchemaVersion </td>
           <td>(</td>
           <td class="paramname">)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a97d5ebbbbea5b98a2e471711268239dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File annis.administration.CorpusAdministration.createZIPOutputDir </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>corpusName</em>)</td><td></td>
           <td></td>
         </tr>
       </table>
@@ -588,6 +613,50 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a7ce0999011a01f23a6ea145e457fe9d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;File&gt; annis.administration.CorpusAdministration.unzipCorpus </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>outDir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ZipFile&#160;</td>
+          <td class="paramname"><em>zip</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extract the zipped relANNIS corpus files to an output directory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outDir</td><td>The ouput directory. </td></tr>
+    <tr><td class="paramname">zip</td><td>ZIP-file to extract. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of root directories where the tab-files are located if found, null otherwise. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a07336e65d783e312cc3ff51b558cc925"></a>
 <div class="memitem">
 <div class="memproto">
@@ -738,7 +807,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1administration.html">administration</a></li><li class="navelem"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html">CorpusAdministration</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:31 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:38 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

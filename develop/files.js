@@ -22,6 +22,9 @@ var files =
     [ "AbstractImageVisualizer.java", "AbstractImageVisualizer_8java.html", [
       [ "AbstractImageVisualizer", "classannis_1_1visualizers_1_1component_1_1AbstractImageVisualizer.html", "classannis_1_1visualizers_1_1component_1_1AbstractImageVisualizer" ]
     ] ],
+    [ "AbstractResultFetchJob.java", "AbstractResultFetchJob_8java.html", [
+      [ "AbstractResultFetchJob", "classannis_1_1gui_1_1resultfetch_1_1AbstractResultFetchJob.html", "classannis_1_1gui_1_1resultfetch_1_1AbstractResultFetchJob" ]
+    ] ],
     [ "AbstractSolutionKey.java", "AbstractSolutionKey_8java.html", [
       [ "AbstractSolutionKey< BaseType >", "classannis_1_1sqlgen_1_1AbstractSolutionKey_3_01BaseType_01_4.html", "classannis_1_1sqlgen_1_1AbstractSolutionKey_3_01BaseType_01_4" ]
     ] ],
@@ -234,6 +237,9 @@ var files =
     [ "ApMatrixSqlGenerator.java", "ApMatrixSqlGenerator_8java.html", [
       [ "ApMatrixSqlGenerator", "classannis_1_1sqlgen_1_1annopool_1_1ApMatrixSqlGenerator.html", "classannis_1_1sqlgen_1_1annopool_1_1ApMatrixSqlGenerator" ]
     ] ],
+    [ "AQLOperator.java", "AQLOperator_8java.html", [
+      [ "AQLOperator", "enumannis_1_1gui_1_1querybuilder_1_1AQLOperator.html", "enumannis_1_1gui_1_1querybuilder_1_1AQLOperator" ]
+    ] ],
     [ "ArrayCorpusPathExtractor.java", "ArrayCorpusPathExtractor_8java.html", [
       [ "ArrayCorpusPathExtractor", "classannis_1_1sqlgen_1_1ArrayCorpusPathExtractor.html", "classannis_1_1sqlgen_1_1ArrayCorpusPathExtractor" ]
     ] ],
@@ -321,6 +327,7 @@ var files =
       [ "CorefVisualizer", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer" ],
       [ "TComponenttype", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype" ],
       [ "TComponent", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponent.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponent" ],
+      [ "SerializableAnnotation", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1SerializableAnnotation.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1SerializableAnnotation" ],
       [ "TReferent", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent" ]
     ] ],
     [ "CorpusAdministration.java", "CorpusAdministration_8java.html", [
@@ -379,13 +386,21 @@ var files =
       [ "CssRenderInfo", "classannis_1_1gui_1_1components_1_1CssRenderInfo.html", "classannis_1_1gui_1_1components_1_1CssRenderInfo" ],
       [ "Callback", "interfaceannis_1_1gui_1_1components_1_1CssRenderInfo_1_1Callback.html", "interfaceannis_1_1gui_1_1components_1_1CssRenderInfo_1_1Callback" ]
     ] ],
+    [ "CSVExporter.java", "CSVExporter_8java.html", [
+      [ "CSVExporter", "classannis_1_1gui_1_1exporter_1_1CSVExporter.html", "classannis_1_1gui_1_1exporter_1_1CSVExporter" ]
+    ] ],
+    [ "CSVHelper.java", "CSVHelper_8java.html", [
+      [ "CSVHelper", "classannis_1_1CSVHelper.html", "classannis_1_1CSVHelper" ]
+    ] ],
     [ "DatabaseAccessException.java", "DatabaseAccessException_8java.html", [
       [ "DatabaseAccessException", "classannis_1_1administration_1_1DatabaseAccessException.html", "classannis_1_1administration_1_1DatabaseAccessException" ]
     ] ],
     [ "DataObject.java", "DataObject_8java.html", [
       [ "DataObject", "classannis_1_1model_1_1DataObject.html", "classannis_1_1model_1_1DataObject" ],
       [ "Transient", "interfaceannis_1_1model_1_1DataObject_1_1Transient.html", null ],
-      [ "FieldCallBack", "interfaceannis_1_1model_1_1DataObject_1_1FieldCallBack.html", "interfaceannis_1_1model_1_1DataObject_1_1FieldCallBack" ]
+      [ "FieldCallBack", "interfaceannis_1_1model_1_1DataObject_1_1FieldCallBack.html", "interfaceannis_1_1model_1_1DataObject_1_1FieldCallBack" ],
+      [ "FieldCallBackEqualsImpl", "classannis_1_1model_1_1DataObject_1_1FieldCallBackEqualsImpl.html", "classannis_1_1model_1_1DataObject_1_1FieldCallBackEqualsImpl" ],
+      [ "FieldCallBackHashImpl", "classannis_1_1model_1_1DataObject_1_1FieldCallBackHashImpl.html", "classannis_1_1model_1_1DataObject_1_1FieldCallBackHashImpl" ]
     ] ],
     [ "DebugVisualizer.java", "DebugVisualizer_8java.html", [
       [ "DebugVisualizer", "classannis_1_1visualizers_1_1component_1_1graph_1_1DebugVisualizer.html", "classannis_1_1visualizers_1_1component_1_1graph_1_1DebugVisualizer" ]
@@ -428,6 +443,9 @@ var files =
     [ "DotGraphVisualizer.java", "DotGraphVisualizer_8java.html", [
       [ "DotGraphVisualizer", "classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer.html", "classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer" ]
     ] ],
+    [ "DynamicDataSource.java", "DynamicDataSource_8java.html", [
+      [ "DynamicDataSource", "classannis_1_1utils_1_1DynamicDataSource.html", "classannis_1_1utils_1_1DynamicDataSource" ]
+    ] ],
     [ "Edge.java", "Edge_8java.html", [
       [ "Edge", "classannis_1_1model_1_1Edge.html", "classannis_1_1model_1_1Edge" ],
       [ "EdgeType", "enumannis_1_1model_1_1Edge_1_1EdgeType.html", "enumannis_1_1model_1_1Edge_1_1EdgeType" ]
@@ -438,6 +456,9 @@ var files =
     [ "EdgeWindow.java", "EdgeWindow_8java.html", [
       [ "EdgeWindow", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow.html", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow" ],
       [ "OperatorValueChangeListener", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow_1_1OperatorValueChangeListener.html", "classannis_1_1gui_1_1querybuilder_1_1EdgeWindow_1_1OperatorValueChangeListener" ]
+    ] ],
+    [ "EqualValue.java", "EqualValue_8java.html", [
+      [ "EqualValue", "classannis_1_1sqlgen_1_1model_1_1EqualValue.html", "classannis_1_1sqlgen_1_1model_1_1EqualValue" ]
     ] ],
     [ "EventExtractor.java", "EventExtractor_8java.html", [
       [ "EventExtractor", "classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html", "classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor" ]
@@ -466,6 +487,8 @@ var files =
     [ "ExportPanel.java", "ExportPanel_8java.html", [
       [ "ExportPanel", "classannis_1_1gui_1_1ExportPanel.html", "classannis_1_1gui_1_1ExportPanel" ],
       [ "ExporterSelectionHelpListener", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener.html", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener" ],
+      [ "ExportButtonListener", "classannis_1_1gui_1_1ExportPanel_1_1ExportButtonListener.html", "classannis_1_1gui_1_1ExportPanel_1_1ExportButtonListener" ],
+      [ "CancelButtonListener", "classannis_1_1gui_1_1ExportPanel_1_1CancelButtonListener.html", "classannis_1_1gui_1_1ExportPanel_1_1CancelButtonListener" ],
       [ "BackgroundJob", "classannis_1_1gui_1_1ExportPanel_1_1BackgroundJob.html", "classannis_1_1gui_1_1ExportPanel_1_1BackgroundJob" ]
     ] ],
     [ "FileAccessException.java", "FileAccessException_8java.html", [
@@ -548,6 +571,10 @@ var files =
     [ "GraphWithClauseGenerator.java", "GraphWithClauseGenerator_8java.html", [
       [ "GraphWithClauseGenerator", "classannis_1_1sqlgen_1_1GraphWithClauseGenerator.html", "classannis_1_1sqlgen_1_1GraphWithClauseGenerator" ]
     ] ],
+    [ "GridComponent.java", "GridComponent_8java.html", [
+      [ "GridComponent", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent" ],
+      [ "ElementType", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent_1_1ElementType.html", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent_1_1ElementType" ]
+    ] ],
     [ "GridEvent.java", "GridEvent_8java.html", [
       [ "GridEvent", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent" ]
     ] ],
@@ -561,9 +588,7 @@ var files =
       [ "Traverse", "classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer_1_1Traverse.html", "classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer_1_1Traverse" ]
     ] ],
     [ "GridVisualizer.java", "GridVisualizer_8java.html", [
-      [ "GridVisualizer", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer" ],
-      [ "GridVisualizerComponent", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent.html", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent" ],
-      [ "ElementType", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent_1_1ElementType.html", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer_1_1GridVisualizerComponent_1_1ElementType" ]
+      [ "GridVisualizer", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer" ]
     ] ],
     [ "GripDragComponent.java", "GripDragComponent_8java.html", [
       [ "GripDragComponent", "classannis_1_1gui_1_1widgets_1_1GripDragComponent.html", "classannis_1_1gui_1_1widgets_1_1GripDragComponent" ],
@@ -665,7 +690,10 @@ var files =
     [ "JITWrapperConnector.java", "JITWrapperConnector_8java.html", [
       [ "JITWrapperConnector", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1JITWrapperConnector.html", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1JITWrapperConnector" ]
     ] ],
-    [ "Join.java", "Join_8java.html", [
+    [ "model/Join.java", "model_2Join_8java.html", [
+      [ "Join", "classannis_1_1model_1_1Join.html", "classannis_1_1model_1_1Join" ]
+    ] ],
+    [ "sqlgen/model/Join.java", "sqlgen_2model_2Join_8java.html", [
       [ "Join", "classannis_1_1sqlgen_1_1model_1_1Join.html", "classannis_1_1sqlgen_1_1model_1_1Join" ]
     ] ],
     [ "JoinListener.java", "JoinListener_8java.html", [
@@ -674,15 +702,17 @@ var files =
     [ "JSONSerializable.java", "JSONSerializable_8java.html", [
       [ "JSONSerializable", "classannis_1_1gui_1_1docbrowser_1_1JSONSerializable.html", "classannis_1_1gui_1_1docbrowser_1_1JSONSerializable" ]
     ] ],
-    [ "KWICPanel.java", "KWICPanel_8java.html", [
-      [ "KWICPanel", "classannis_1_1visualizers_1_1component_1_1KWICPanel.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel" ],
-      [ "KWICInterface", "interfaceannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICInterface.html", "interfaceannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICInterface" ],
-      [ "KWICMultipleTextImpl", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICMultipleTextImpl.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICMultipleTextImpl" ],
-      [ "KWICPanelImpl", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl" ],
-      [ "TooltipGenerator", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1TooltipGenerator.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1TooltipGenerator" ],
-      [ "KWICStyleGenerator", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1KWICStyleGenerator.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1KWICStyleGenerator" ],
-      [ "GapColumnGenerator", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1GapColumnGenerator.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1GapColumnGenerator" ],
-      [ "TokenColumnGenerator", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1TokenColumnGenerator.html", "classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICPanelImpl_1_1TokenColumnGenerator" ]
+    [ "KWICComponent.java", "KWICComponent_8java.html", [
+      [ "KWICComponent", "classannis_1_1visualizers_1_1component_1_1kwic_1_1KWICComponent.html", "classannis_1_1visualizers_1_1component_1_1kwic_1_1KWICComponent" ]
+    ] ],
+    [ "KWICInterface.java", "KWICInterface_8java.html", [
+      [ "KWICInterface", "interfaceannis_1_1visualizers_1_1component_1_1kwic_1_1KWICInterface.html", "interfaceannis_1_1visualizers_1_1component_1_1kwic_1_1KWICInterface" ]
+    ] ],
+    [ "KWICMultipleTextComponent.java", "KWICMultipleTextComponent_8java.html", [
+      [ "KWICMultipleTextComponent", "classannis_1_1visualizers_1_1component_1_1kwic_1_1KWICMultipleTextComponent.html", "classannis_1_1visualizers_1_1component_1_1kwic_1_1KWICMultipleTextComponent" ]
+    ] ],
+    [ "KWICVisualizer.java", "KWICVisualizer_8java.html", [
+      [ "KWICVisualizer", "classannis_1_1visualizers_1_1component_1_1kwic_1_1KWICVisualizer.html", "classannis_1_1visualizers_1_1component_1_1kwic_1_1KWICVisualizer" ]
     ] ],
     [ "LabelItem.java", "LabelItem_8java.html", [
       [ "LabelItem", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1LabelItem.html", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1LabelItem" ]
@@ -789,7 +819,8 @@ var files =
       [ "MediaElement", "enumannis_1_1gui_1_1components_1_1medialement_1_1MediaElement.html", "enumannis_1_1gui_1_1components_1_1medialement_1_1MediaElement" ]
     ] ],
     [ "MediaElementPlayer.java", "MediaElementPlayer_8java.html", [
-      [ "MediaElementPlayer", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaElementPlayer.html", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaElementPlayer" ]
+      [ "MediaElementPlayer", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaElementPlayer.html", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaElementPlayer" ],
+      [ "CannotPlayFunction", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaElementPlayer_1_1CannotPlayFunction.html", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaElementPlayer_1_1CannotPlayFunction" ]
     ] ],
     [ "MediaPlayer.java", "MediaPlayer_8java.html", [
       [ "MediaPlayer", "interfaceannis_1_1libgui_1_1media_1_1MediaPlayer.html", "interfaceannis_1_1libgui_1_1media_1_1MediaPlayer" ]
@@ -835,6 +866,12 @@ var files =
       [ "NodeWindow", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow" ],
       [ "ConstraintLayout", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1ConstraintLayout.html", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1ConstraintLayout" ],
       [ "SimpleNewItemHandler", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1SimpleNewItemHandler.html", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1SimpleNewItemHandler" ]
+    ] ],
+    [ "NonBindingJoin.java", "NonBindingJoin_8java.html", [
+      [ "NonBindingJoin", "classannis_1_1sqlgen_1_1model_1_1NonBindingJoin.html", "classannis_1_1sqlgen_1_1model_1_1NonBindingJoin" ]
+    ] ],
+    [ "NotEqualValue.java", "NotEqualValue_8java.html", [
+      [ "NotEqualValue", "classannis_1_1sqlgen_1_1model_1_1NotEqualValue.html", "classannis_1_1sqlgen_1_1model_1_1NotEqualValue" ]
     ] ],
     [ "OnLoadCallbackExtension.java", "OnLoadCallbackExtension_8java.html", [
       [ "OnLoadCallbackExtension", "classannis_1_1gui_1_1components_1_1OnLoadCallbackExtension.html", "classannis_1_1gui_1_1components_1_1OnLoadCallbackExtension" ],
@@ -994,8 +1031,8 @@ var files =
     [ "RectangleSide.java", "RectangleSide_8java.html", [
       [ "RectangleSide", "enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide.html", "enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide" ]
     ] ],
-    [ "reducingStringComparator.java", "reducingStringComparator_8java.html", [
-      [ "reducingStringComparator", "classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator.html", "classannis_1_1gui_1_1flatquerybuilder_1_1reducingStringComparator" ]
+    [ "ReducingStringComparator.java", "ReducingStringComparator_8java.html", [
+      [ "ReducingStringComparator", "classannis_1_1gui_1_1flatquerybuilder_1_1ReducingStringComparator.html", "classannis_1_1gui_1_1flatquerybuilder_1_1ReducingStringComparator" ]
     ] ],
     [ "RelannisEdgeFeature.java", "RelannisEdgeFeature_8java.html", [
       [ "RelannisEdgeFeature", "classannis_1_1model_1_1RelannisEdgeFeature.html", "classannis_1_1model_1_1RelannisEdgeFeature" ]
@@ -1039,7 +1076,7 @@ var files =
       [ "ResourceServlet", "classannis_1_1gui_1_1servlets_1_1ResourceServlet.html", "classannis_1_1gui_1_1servlets_1_1ResourceServlet" ]
     ] ],
     [ "ResultFetchJob.java", "ResultFetchJob_8java.html", [
-      [ "ResultFetchJob", "classannis_1_1gui_1_1ResultFetchJob.html", "classannis_1_1gui_1_1ResultFetchJob" ]
+      [ "ResultFetchJob", "classannis_1_1gui_1_1resultfetch_1_1ResultFetchJob.html", "classannis_1_1gui_1_1resultfetch_1_1ResultFetchJob" ]
     ] ],
     [ "ResultSetConverter.java", "ResultSetConverter_8java.html", [
       [ "ResultSetConverter< T >", "interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4.html", "interfaceannis_1_1dao_1_1ResultSetConverter_3_01T_01_4" ]
@@ -1137,6 +1174,9 @@ var files =
     [ "Sibling.java", "Sibling_8java.html", [
       [ "Sibling", "classannis_1_1sqlgen_1_1model_1_1Sibling.html", "classannis_1_1sqlgen_1_1model_1_1Sibling" ]
     ] ],
+    [ "SidebarState.java", "SidebarState_8java.html", [
+      [ "SidebarState", "enumannis_1_1gui_1_1SidebarState.html", "enumannis_1_1gui_1_1SidebarState" ]
+    ] ],
     [ "SimpleCanvas.java", "SimpleCanvas_8java.html", [
       [ "SimpleCanvas", "classannis_1_1gui_1_1widgets_1_1SimpleCanvas.html", "classannis_1_1gui_1_1widgets_1_1SimpleCanvas" ]
     ] ],
@@ -1149,8 +1189,13 @@ var files =
     [ "SingleResolverRequest.java", "SingleResolverRequest_8java.html", [
       [ "SingleResolverRequest", "classannis_1_1resolver_1_1SingleResolverRequest.html", "classannis_1_1resolver_1_1SingleResolverRequest" ]
     ] ],
+    [ "SingleResultFetchJob.java", "SingleResultFetchJob_8java.html", [
+      [ "SingleResultFetchJob", "classannis_1_1gui_1_1resultfetch_1_1SingleResultFetchJob.html", "classannis_1_1gui_1_1resultfetch_1_1SingleResultFetchJob" ]
+    ] ],
     [ "SingleResultPanel.java", "SingleResultPanel_8java.html", [
       [ "SingleResultPanel", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel" ],
+      [ "AddNewItemHandler", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1AddNewItemHandler.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1AddNewItemHandler" ],
+      [ "ContextChangeListener", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1ContextChangeListener.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1ContextChangeListener" ],
       [ "CoveredMatchesCalculator", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator" ],
       [ "MinMax", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax" ]
     ] ],
@@ -1287,9 +1332,6 @@ var files =
       [ "VKState", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1VKState.html", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1VKState" ],
       [ "UpdateLangJSFunction", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction.html", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction" ]
     ] ],
-    [ "VisibleTokenAnnoChanger.java", "VisibleTokenAnnoChanger_8java.html", [
-      [ "VisibleTokenAnnoChanger", "interfaceannis_1_1libgui_1_1VisibleTokenAnnoChanger.html", "interfaceannis_1_1libgui_1_1VisibleTokenAnnoChanger" ]
-    ] ],
     [ "VisParser.java", "VisParser_8java.html", [
       [ "VisParser", "classannis_1_1visualizers_1_1htmlvis_1_1VisParser.html", "classannis_1_1visualizers_1_1htmlvis_1_1VisParser" ]
     ] ],
@@ -1301,6 +1343,9 @@ var files =
     ] ],
     [ "VisualizationToggle.java", "VisualizationToggle_8java.html", [
       [ "VisualizationToggle", "interfaceannis_1_1libgui_1_1VisualizationToggle.html", "interfaceannis_1_1libgui_1_1VisualizationToggle" ]
+    ] ],
+    [ "VisualizerContextChanger.java", "VisualizerContextChanger_8java.html", [
+      [ "VisualizerContextChanger", "interfaceannis_1_1gui_1_1resultview_1_1VisualizerContextChanger.html", "interfaceannis_1_1gui_1_1resultview_1_1VisualizerContextChanger" ]
     ] ],
     [ "VisualizerInput.java", "VisualizerInput_8java.html", [
       [ "VisualizerInput", "classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html", "classannis_1_1libgui_1_1visualizers_1_1VisualizerInput" ]

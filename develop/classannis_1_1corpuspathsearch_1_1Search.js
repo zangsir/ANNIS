@@ -7,8 +7,8 @@ var classannis_1_1corpuspathsearch_1_1Search =
     [ "setWasSearched", "classannis_1_1corpuspathsearch_1_1Search.html#acc885af65f6df69dc0626253f13f9495", null ],
     [ "startSearch", "classannis_1_1corpuspathsearch_1_1Search.html#a732fcc3a29d2cae35e8ba30661b7df3a", null ],
     [ "toString", "classannis_1_1corpuspathsearch_1_1Search.html#ab02e2e4b3c5c93daa33783ff63905784", null ],
-    [ "corpusPaths", "classannis_1_1corpuspathsearch_1_1Search.html#ac7a5e6d9b767e1cf0cebcaeb5270ee5f", null ],
+    [ "corpusPaths", "classannis_1_1corpuspathsearch_1_1Search.html#a56c9e06b46fa5e5dd78b68cb2304cd5d", null ],
     [ "log", "classannis_1_1corpuspathsearch_1_1Search.html#a8a09a595230906ce225d8c01bb04ce7d", null ],
-    [ "rootPaths", "classannis_1_1corpuspathsearch_1_1Search.html#a59a5669f2c3ab2e9f8cbcdfa44a1b284", null ],
+    [ "rootPaths", "classannis_1_1corpuspathsearch_1_1Search.html#a3983cb977f2fef1395bc47e877a77ad9", null ],
     [ "wasSearched", "classannis_1_1corpuspathsearch_1_1Search.html#a9d71dc51f9ffb1f61d415264698eef4e", null ]
 ];

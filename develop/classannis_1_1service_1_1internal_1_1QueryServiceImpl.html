@@ -141,9 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adbc499fcd9144a4afe2e55482af9fb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74c289e5bf227722f364b2cd1727a6ec"><td class="memItemLeft" align="right" valign="top">Response&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a74c289e5bf227722f364b2cd1727a6ec">find</a> (@QueryParam(&quot;q&quot;) String query,@QueryParam(&quot;corpora&quot;) String rawCorpusNames,@DefaultValue(&quot;0&quot;)@QueryParam(&quot;offset&quot;) String offsetRaw,@DefaultValue(&quot;-1&quot;)@QueryParam(&quot;limit&quot;) String limitRaw)  throws IOException   </td></tr>
 <tr class="separator:a74c289e5bf227722f364b2cd1727a6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07c59fbb4aa3b9b1cf7e9ac79953d930"><td class="memItemLeft" align="right" valign="top">StreamingOutput&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a07c59fbb4aa3b9b1cf7e9ac79953d930">matrix</a> (final @QueryParam(&quot;q&quot;) String query, final @QueryParam(&quot;corpora&quot;) String rawCorpusNames,@QueryParam(&quot;metakeys&quot;) String rawMetaKeys)</td></tr>
-<tr class="memdesc:a07c59fbb4aa3b9b1cf7e9ac79953d930"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get result as matrix in WEKA (ARFF) format.  <a href="#a07c59fbb4aa3b9b1cf7e9ac79953d930">More...</a><br/></td></tr>
-<tr class="separator:a07c59fbb4aa3b9b1cf7e9ac79953d930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a383835a98f37ecccadffef94b25c1a15"><td class="memItemLeft" align="right" valign="top">StreamingOutput&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a383835a98f37ecccadffef94b25c1a15">matrix</a> (final @QueryParam(&quot;q&quot;) String query, final @QueryParam(&quot;corpora&quot;) String rawCorpusNames,@QueryParam(&quot;metakeys&quot;) String rawMetaKeys,@DefaultValue(&quot;false&quot;)@QueryParam(&quot;csv&quot;) String rawCsv)</td></tr>
+<tr class="memdesc:a383835a98f37ecccadffef94b25c1a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get result as matrix in WEKA (ARFF) format.  <a href="#a383835a98f37ecccadffef94b25c1a15">More...</a><br/></td></tr>
+<tr class="separator:a383835a98f37ecccadffef94b25c1a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6d820042260dd26d826823870e2b68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1service_1_1objects_1_1FrequencyTable.html">FrequencyTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a9b6d820042260dd26d826823870e2b68">frequency</a> (@QueryParam(&quot;q&quot;) String query,@QueryParam(&quot;corpora&quot;) String rawCorpusNames,@QueryParam(&quot;fields&quot;) String rawFields)</td></tr>
 <tr class="memdesc:a9b6d820042260dd26d826823870e2b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency analysis.  <a href="#a9b6d820042260dd26d826823870e2b68">More...</a><br/></td></tr>
 <tr class="separator:a9b6d820042260dd26d826823870e2b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1263,7 +1263,7 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 
 </div>
 </div>
-<a class="anchor" id="a07c59fbb4aa3b9b1cf7e9ac79953d930"></a>
+<a class="anchor" id="a383835a98f37ecccadffef94b25c1a15"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1283,7 +1283,13 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">@QueryParam(&quot;metakeys&quot;) String&#160;</td>
-          <td class="paramname"><em>rawMetaKeys</em>&#160;</td>
+          <td class="paramname"><em>rawMetaKeys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@DefaultValue(&quot;false&quot;)@QueryParam(&quot;csv&quot;) String&#160;</td>
+          <td class="paramname"><em>rawCsv</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1294,6 +1300,16 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 </div><div class="memdoc">
 
 <p>Get result as matrix in WEKA (ARFF) format. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">query</td><td></td></tr>
+    <tr><td class="paramname">rawCorpusNames</td><td></td></tr>
+    <tr><td class="paramname">rawMetaKeys</td><td></td></tr>
+    <tr><td class="paramname">rawCsv</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -1842,7 +1858,7 @@ Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service.html">service</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service_1_1internal.html">internal</a></li><li class="navelem"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html">QueryServiceImpl</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:33 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

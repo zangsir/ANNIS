@@ -29,5 +29,7 @@ var searchData=
   ['countmatchesanddocumentssqlgenerator_2ejava',['CountMatchesAndDocumentsSqlGenerator.java',['../CountMatchesAndDocumentsSqlGenerator_8java.html',1,'']]],
   ['countsqlgenerator_2ejava',['CountSqlGenerator.java',['../CountSqlGenerator_8java.html',1,'']]],
   ['coveredtextscalculator_2ejava',['CoveredTextsCalculator.java',['../CoveredTextsCalculator_8java.html',1,'']]],
-  ['cssrenderinfo_2ejava',['CssRenderInfo.java',['../CssRenderInfo_8java.html',1,'']]]
+  ['cssrenderinfo_2ejava',['CssRenderInfo.java',['../CssRenderInfo_8java.html',1,'']]],
+  ['csvexporter_2ejava',['CSVExporter.java',['../CSVExporter_8java.html',1,'']]],
+  ['csvhelper_2ejava',['CSVHelper.java',['../CSVHelper_8java.html',1,'']]]
 ];

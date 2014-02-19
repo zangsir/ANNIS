@@ -147,25 +147,19 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:aaec9231f6f367b03085f695ed321ab0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#aaec9231f6f367b03085f695ed321ab0f">addAppender</a> ()</td></tr>
 <tr class="separator:aaec9231f6f367b03085f695ed321ab0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fdcaac529de3c543d33a74d17d9c2e0"><td class="memItemLeft" align="right" valign="top">List&lt; File &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#a4fdcaac529de3c543d33a74d17d9c2e0">unzipCorpus</a> (File outDir, ZipFile zip)</td></tr>
-<tr class="memdesc:a4fdcaac529de3c543d33a74d17d9c2e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the zipped relANNIS corpus files to an output directory.  <a href="#a4fdcaac529de3c543d33a74d17d9c2e0">More...</a><br/></td></tr>
-<tr class="separator:a4fdcaac529de3c543d33a74d17d9c2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2a56a229f6d0b07c332d1325afb6b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#abb2a56a229f6d0b07c332d1325afb6b0">importSingleCorpusFile</a> (<a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a> job)</td></tr>
 <tr class="separator:abb2a56a229f6d0b07c332d1325afb6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d3b083b228c8c70710b20ff699ce88f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#a5d3b083b228c8c70710b20ff699ce88f">getSafeDirName</a> (String jobName)</td></tr>
-<tr class="memdesc:a5d3b083b228c8c70710b20ff699ce88f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a directory name for an import job that is safe to use as a file name.  <a href="#a5d3b083b228c8c70710b20ff699ce88f">More...</a><br/></td></tr>
-<tr class="separator:a5d3b083b228c8c70710b20ff699ce88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad914f1447d32eb1b7a7189e2953a683e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1administration_1_1CorpusAdministration.html">CorpusAdministration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#ad914f1447d32eb1b7a7189e2953a683e">corpusAdmin</a></td></tr>
 <tr class="separator:ad914f1447d32eb1b7a7189e2953a683e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d6b0459802f70f444d78f4866f71de"><td class="memItemLeft" align="right" valign="top">BlockingQueue&lt; <a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#a55d6b0459802f70f444d78f4866f71de">importQueue</a> = Queues.newLinkedBlockingDeque()</td></tr>
-<tr class="separator:a55d6b0459802f70f444d78f4866f71de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf655b2ae5d614eb7bbfff9bd13ea8d4"><td class="memItemLeft" align="right" valign="top">final BlockingQueue&lt; <a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#abf655b2ae5d614eb7bbfff9bd13ea8d4">importQueue</a> = Queues.newLinkedBlockingDeque()</td></tr>
+<tr class="separator:abf655b2ae5d614eb7bbfff9bd13ea8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0990d8c3d49dde5dd37b7e26d2daf3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#ac0990d8c3d49dde5dd37b7e26d2daf3f">currentJob</a></td></tr>
 <tr class="separator:ac0990d8c3d49dde5dd37b7e26d2daf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1ef9514e8ea7c7f20dc23d6ea8a02bd"><td class="memItemLeft" align="right" valign="top">Cache&lt; String, <a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#aa1ef9514e8ea7c7f20dc23d6ea8a02bd">finishedJobs</a></td></tr>
-<tr class="separator:aa1ef9514e8ea7c7f20dc23d6ea8a02bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3188e7cbdb94da7d112da28fdfbd44"><td class="memItemLeft" align="right" valign="top">final Cache&lt; String, <a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html#a6f3188e7cbdb94da7d112da28fdfbd44">finishedJobs</a></td></tr>
+<tr class="separator:a6f3188e7cbdb94da7d112da28fdfbd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -275,39 +269,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5d3b083b228c8c70710b20ff699ce88f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">String annis.service.internal.ImportWorker.getSafeDirName </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>jobName</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a directory name for an import job that is safe to use as a file name. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">job</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="abb2a56a229f6d0b07c332d1325afb6b0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -363,50 +324,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4fdcaac529de3c543d33a74d17d9c2e0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;File&gt; annis.service.internal.ImportWorker.unzipCorpus </td>
-          <td>(</td>
-          <td class="paramtype">File&#160;</td>
-          <td class="paramname"><em>outDir</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ZipFile&#160;</td>
-          <td class="paramname"><em>zip</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Extract the zipped relANNIS corpus files to an output directory. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">outDir</td><td>The ouput directory. </td></tr>
-    <tr><td class="paramname">zip</td><td>ZIP-file to extract. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A list of root directories where the tab-files are located if found, null otherwise. </dd></dl>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="ad914f1447d32eb1b7a7189e2953a683e"></a>
 <div class="memitem">
@@ -448,7 +365,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa1ef9514e8ea7c7f20dc23d6ea8a02bd"></a>
+<a class="anchor" id="a6f3188e7cbdb94da7d112da28fdfbd44"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -456,7 +373,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Cache&lt;String, <a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a>&gt; annis.service.internal.ImportWorker.finishedJobs</td>
+          <td class="memname">final Cache&lt;String, <a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a>&gt; annis.service.internal.ImportWorker.finishedJobs</td>
         </tr>
       </table>
   </td>
@@ -470,7 +387,7 @@ Static Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a55d6b0459802f70f444d78f4866f71de"></a>
+<a class="anchor" id="abf655b2ae5d614eb7bbfff9bd13ea8d4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -478,7 +395,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">BlockingQueue&lt;<a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a>&gt; annis.service.internal.ImportWorker.importQueue = Queues.newLinkedBlockingDeque()</td>
+          <td class="memname">final BlockingQueue&lt;<a class="el" href="classannis_1_1service_1_1objects_1_1ImportJob.html">ImportJob</a>&gt; annis.service.internal.ImportWorker.importQueue = Queues.newLinkedBlockingDeque()</td>
         </tr>
       </table>
   </td>
@@ -519,7 +436,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service.html">service</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service_1_1internal.html">internal</a></li><li class="navelem"><a class="el" href="classannis_1_1service_1_1internal_1_1ImportWorker.html">ImportWorker</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:32 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

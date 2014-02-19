@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('classannis_1_1libgui_1_1visualizers_1_
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -159,7 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2f51b3d435527b6956bf9f00103e9c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the mappings for a visualizers.  <a href="#a2f51b3d435527b6956bf9f00103e9c63">More...</a><br/></td></tr>
 <tr class="separator:a2f51b3d435527b6956bf9f00103e9c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a386ceacb6cfaefe12528ee0e2a58011a"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a386ceacb6cfaefe12528ee0e2a58011a">getMarkableExactMap</a> ()</td></tr>
-<tr class="memdesc:a386ceacb6cfaefe12528ee0e2a58011a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ae8112c8d53492a8c70140843a2e1c7b1">getMarkableMap()</a> except that this only includes the really matched nodes and not covered token.  <a href="#a386ceacb6cfaefe12528ee0e2a58011a">More...</a><br/></td></tr>
+<tr class="memdesc:a386ceacb6cfaefe12528ee0e2a58011a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><pre class="fragment">Same as {@link #getMarkableMap() } except that this only includes the
+</pre><p> really matched nodes and not covered cachedToken.  <a href="#a386ceacb6cfaefe12528ee0e2a58011a">More...</a><br/></td></tr>
 <tr class="separator:a386ceacb6cfaefe12528ee0e2a58011a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ed32d544e534d852b80f9aa6c70f0e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a4ed32d544e534d852b80f9aa6c70f0e6">setMarkableExactMap</a> (Map&lt; String, String &gt; <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a7fef149a6603f892152f7e8f4390cfd5">markableExactMap</a>)</td></tr>
 <tr class="separator:a4ed32d544e534d852b80f9aa6c70f0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,9 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf4e525dab5247ca0f912a8e39a6e5c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#acf4e525dab5247ca0f912a8e39a6e5c8">setMarkableMap</a> (Map&lt; String, String &gt; <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a6d71eed7954f0cb97cd43354e52cf163">markableMap</a>)</td></tr>
 <tr class="memdesc:acf4e525dab5247ca0f912a8e39a6e5c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the map of markables used by <a class="el" href="">writeOutput(Writer)</a>.  <a href="#acf4e525dab5247ca0f912a8e39a6e5c8">More...</a><br/></td></tr>
 <tr class="separator:acf4e525dab5247ca0f912a8e39a6e5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdda38d6eb86b3644a124933d65087bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#afdda38d6eb86b3644a124933d65087bc">setMarkedAndCovered</a> (Map&lt; SNode, Long &gt; <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a3606039a3d5e01ccee790e614bcdc5a0">markedAndCovered</a>)</td></tr>
-<tr class="memdesc:afdda38d6eb86b3644a124933d65087bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This map is used for calculating the colors of a matching node.  <a href="#afdda38d6eb86b3644a124933d65087bc">More...</a><br/></td></tr>
-<tr class="separator:afdda38d6eb86b3644a124933d65087bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633c92db457e0d6f855ecbacf5e767d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a633c92db457e0d6f855ecbacf5e767d0">setMarkedAndCovered</a> (Map&lt; String, Long &gt; <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a4fff27ae59dadc6a659b346c3331ea85">markedAndCovered</a>)</td></tr>
+<tr class="memdesc:a633c92db457e0d6f855ecbacf5e767d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This map is used for calculating the colors of a matching node.  <a href="#a633c92db457e0d6f855ecbacf5e767d0">More...</a><br/></td></tr>
+<tr class="separator:a633c92db457e0d6f855ecbacf5e767d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f904878deff408cd3e63e5843aad945"><td class="memItemLeft" align="right" valign="top">Map&lt; SNode, Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a1f904878deff408cd3e63e5843aad945">getMarkedAndCovered</a> ()</td></tr>
 <tr class="memdesc:a1f904878deff408cd3e63e5843aad945"><td class="mdescLeft">&#160;</td><td class="mdescRight">This map is used for calculating the colors of a matching node.  <a href="#a1f904878deff408cd3e63e5843aad945">More...</a><br/></td></tr>
 <tr class="separator:a1f904878deff408cd3e63e5843aad945"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,17 +202,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2106bcf33c06b53e08acff4148a8137b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a2106bcf33c06b53e08acff4148a8137b">getResourcePath</a> (String resource)</td></tr>
 <tr class="memdesc:a2106bcf33c06b53e08acff4148a8137b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a valid URL/path for which a relative (from the class package) resource can be accessed.  <a href="#a2106bcf33c06b53e08acff4148a8137b">More...</a><br/></td></tr>
 <tr class="separator:a2106bcf33c06b53e08acff4148a8137b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46247b486220f1dfe7b58cfa3f0a4a69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a46247b486220f1dfe7b58cfa3f0a4a69">setToken</a> (List&lt; SToken &gt; <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a1e24b4cbf9c0dcca32a6dcb6ca7924f0">token</a>)</td></tr>
-<tr class="memdesc:a46247b486220f1dfe7b58cfa3f0a4a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">should contains a list of all token of a the which is available with <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a55b40dd75515ce5bd45a5af225244982">VisualizerInput#getSResult()</a>.  <a href="#a46247b486220f1dfe7b58cfa3f0a4a69">More...</a><br/></td></tr>
-<tr class="separator:a46247b486220f1dfe7b58cfa3f0a4a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01431f43dae01aacab91e1da51290f0c"><td class="memItemLeft" align="right" valign="top">List&lt; SToken &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a01431f43dae01aacab91e1da51290f0c">getToken</a> ()</td></tr>
-<tr class="memdesc:a01431f43dae01aacab91e1da51290f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">should contains a list of all token of a the which is available with <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a55b40dd75515ce5bd45a5af225244982">VisualizerInput#getSResult()</a>.  <a href="#a01431f43dae01aacab91e1da51290f0c">More...</a><br/></td></tr>
+<tr class="memdesc:a01431f43dae01aacab91e1da51290f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><pre class="fragment">should contains a list of all cachedToken of a the which is available with
+</pre><p> <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a55b40dd75515ce5bd45a5af225244982">VisualizerInput#getSResult()</a>.  <a href="#a01431f43dae01aacab91e1da51290f0c">More...</a><br/></td></tr>
 <tr class="separator:a01431f43dae01aacab91e1da51290f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1bfc0442626207b1e7a19547e9e8a49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ab1bfc0442626207b1e7a19547e9e8a49">setVisibleTokenAnnos</a> (Set&lt; String &gt; <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ac5714fa8d0c4e6e1fdac006ceedaaace">tokenAnnos</a>)</td></tr>
-<tr class="memdesc:ab1bfc0442626207b1e7a19547e9e8a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all token annotations which should be displayed by the visualizer and correspondands to the annos choosen by the user in the annis gui.  <a href="#ab1bfc0442626207b1e7a19547e9e8a49">More...</a><br/></td></tr>
+<tr class="memdesc:ab1bfc0442626207b1e7a19547e9e8a49"><td class="mdescLeft">&#160;</td><td class="mdescRight"><pre class="fragment">Set all cachedToken annotations which should be displayed by the visualizer and
+</pre><p> correspondands to the annos choosen by the user in the annis gui.  <a href="#ab1bfc0442626207b1e7a19547e9e8a49">More...</a><br/></td></tr>
 <tr class="separator:ab1bfc0442626207b1e7a19547e9e8a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae54216d414b5e9f84cc8efa32c0c194a"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ae54216d414b5e9f84cc8efa32c0c194a">getVisibleTokenAnnos</a> ()</td></tr>
-<tr class="memdesc:ae54216d414b5e9f84cc8efa32c0c194a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This token annotation should displayed by the visualizer and is selected by the user in the annis gui.  <a href="#ae54216d414b5e9f84cc8efa32c0c194a">More...</a><br/></td></tr>
+<tr class="memdesc:ae54216d414b5e9f84cc8efa32c0c194a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><pre class="fragment">This cachedToken annotation should displayed by the visualizer and is selected by
+</pre><p> the user in the annis gui.  <a href="#ae54216d414b5e9f84cc8efa32c0c194a">More...</a><br/></td></tr>
 <tr class="separator:ae54216d414b5e9f84cc8efa32c0c194a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a451c31432c7638dbf9b9cbc3d19d7ef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a451c31432c7638dbf9b9cbc3d19d7ef5">setSegmentationName</a> (String <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a0949ead823e815160ed79effdda6425a">segmentationName</a>)</td></tr>
 <tr class="separator:a451c31432c7638dbf9b9cbc3d19d7ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,12 +230,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae9f2c215cbfd1ae8e21c625d70285d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the raw text.  <a href="#ae9f2c215cbfd1ae8e21c625d70285d88">More...</a><br/></td></tr>
 <tr class="separator:ae9f2c215cbfd1ae8e21c625d70285d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2cbe5daf4d322abe1455965102640887"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a2cbe5daf4d322abe1455965102640887">writeObject</a> (ObjectOutputStream out)  throws IOException   </td></tr>
+<tr class="separator:a2cbe5daf4d322abe1455965102640887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbcb9066c1a3a68ec2de006f181b428"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a2cbcb9066c1a3a68ec2de006f181b428">readObject</a> (ObjectInputStream in)  throws IOException, ClassNotFoundException   </td></tr>
+<tr class="separator:a2cbcb9066c1a3a68ec2de006f181b428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aa613f7beecab61b22cdddc271c530f09"><td class="memItemLeft" align="right" valign="top">transient SDocument&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#aa613f7beecab61b22cdddc271c530f09">document</a> = SaltFactory.eINSTANCE.createSDocument()</td></tr>
 <tr class="separator:aa613f7beecab61b22cdddc271c530f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3606039a3d5e01ccee790e614bcdc5a0"><td class="memItemLeft" align="right" valign="top">transient Map&lt; SNode, Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a3606039a3d5e01ccee790e614bcdc5a0">markedAndCovered</a> = new HashMap&lt;SNode, Long&gt;()</td></tr>
-<tr class="separator:a3606039a3d5e01ccee790e614bcdc5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fff27ae59dadc6a659b346c3331ea85"><td class="memItemLeft" align="right" valign="top">Map&lt; String, Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a4fff27ae59dadc6a659b346c3331ea85">markedAndCovered</a> = new HashMap&lt;String, Long&gt;()</td></tr>
+<tr class="separator:a4fff27ae59dadc6a659b346c3331ea85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac2e8f85b8ce46e82c3e27443d52bba"><td class="memItemLeft" align="right" valign="top">transient Map&lt; SNode, Long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#aeac2e8f85b8ce46e82c3e27443d52bba">cachedMarkedAndCoveredNodes</a></td></tr>
+<tr class="separator:aeac2e8f85b8ce46e82c3e27443d52bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d71eed7954f0cb97cd43354e52cf163"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a6d71eed7954f0cb97cd43354e52cf163">markableMap</a> = new HashMap&lt;String, String&gt;()</td></tr>
 <tr class="separator:a6d71eed7954f0cb97cd43354e52cf163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fef149a6603f892152f7e8f4390cfd5"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a7fef149a6603f892152f7e8f4390cfd5">markableExactMap</a> = new HashMap&lt;String, String&gt;()</td></tr>
@@ -252,8 +263,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a047f49224ad71d35280771de1fe2e39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac239c68c9b46ad759c7d12bb2e13f24d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ac239c68c9b46ad759c7d12bb2e13f24d">resourcePathTemplate</a> = &quot;%s&quot;</td></tr>
 <tr class="separator:ac239c68c9b46ad759c7d12bb2e13f24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e24b4cbf9c0dcca32a6dcb6ca7924f0"><td class="memItemLeft" align="right" valign="top">List&lt; SToken &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a1e24b4cbf9c0dcca32a6dcb6ca7924f0">token</a></td></tr>
-<tr class="separator:a1e24b4cbf9c0dcca32a6dcb6ca7924f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaad3534fb73349dfd26818ef30a1802"><td class="memItemLeft" align="right" valign="top">transient List&lt; SToken &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#aeaad3534fb73349dfd26818ef30a1802">cachedToken</a></td></tr>
+<tr class="separator:aeaad3534fb73349dfd26818ef30a1802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5714fa8d0c4e6e1fdac006ceedaaace"><td class="memItemLeft" align="right" valign="top">Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ac5714fa8d0c4e6e1fdac006ceedaaace">tokenAnnos</a></td></tr>
 <tr class="separator:ac5714fa8d0c4e6e1fdac006ceedaaace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0949ead823e815160ed79effdda6425a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a0949ead823e815160ed79effdda6425a">segmentationName</a></td></tr>
@@ -402,7 +413,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Same as <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ae8112c8d53492a8c70140843a2e1c7b1">getMarkableMap()</a> except that this only includes the really matched nodes and not covered token. </p>
+<p><pre class="fragment">Same as {@link #getMarkableMap() } except that this only includes the
+</pre><p> really matched nodes and not covered cachedToken. </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
@@ -421,7 +433,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the map of markables used by <a class="el" href="">writeOutput(Writer)</a>. </p>
-<p>The key of this map must be the corresponding node id of annotations or tokens. The values must be HTML compatible color definitions like #000000 or red. For detailed information on HTML color definition refer to <a class="el" href="">http://www.w3schools.com/HTML/html_colornames.asp</a></p>
+<p>The key of this map must be the corresponding node id of annotations or cachedTokens. The values must be HTML compatible color definitions like #000000 or red. For detailed information on HTML color definition refer to <a class="el" href="">http://www.w3schools.com/HTML/html_colornames.asp</a></p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
@@ -440,7 +452,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This map is used for calculating the colors of a matching node. </p>
-<p>All Nodes, which are not included, should not be colorized. For getting HEX-values according to html or css standards, it is possible to use <a class="el" href="enumannis_1_1libgui_1_1MatchedNodeColors.html">MatchedNodeColors</a>. </p>
+<p>All Nodes, which are not included, should not be colorized. For getting HEX-values according to html or css standards, it is possible to use <a class="el" href="enumannis_1_1libgui_1_1MatchedNodeColors.html">MatchedNodeColors</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -476,14 +489,17 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the original text from the relAnnis text.tab file represented as a String. </p>
-<p>This is a convenient and very fast method for extracting the whole text of a document, since this method simply reads database tupel and does not map anything to salt.</p>
-<dl class="section return"><dt>Returns</dt><dd><ul>
+<pre class="fragment">&lt;p&gt;
+This is a convenient and very fast method for extracting the whole text of
+a document, since this method simply reads database tupel and does not map
+anything to salt.&lt;/p&gt;
+</pre><dl class="section return"><dt>Returns</dt><dd><ul>
 <li>
 <p class="startli">null - if the <a class="el" href="">VisualizerPlugin#isUsingRawText()</a> method false for this visualizer.</p>
 <p class="endli"></p>
 </li>
 <li>
-empty list - if there are only segmentations and the token layer is empty </li>
+empty list - if there are only segmentations and the cachedToken layer is empty </li>
 </ul>
 </dd></dl>
 
@@ -590,8 +606,9 @@ empty list - if there are only segmentations and the token layer is empty </li>
       </table>
 </div><div class="memdoc">
 
-<p>should contains a list of all token of a the which is available with <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a55b40dd75515ce5bd45a5af225244982">VisualizerInput#getSResult()</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>TODO at the moment it's not certain, that token are nodes of the <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a55b40dd75515ce5bd45a5af225244982">VisualizerInput#getSResult()</a>. </dd></dl>
+<p><pre class="fragment">should contains a list of all cachedToken of a the which is available with
+</pre><p> <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a55b40dd75515ce5bd45a5af225244982">VisualizerInput#getSResult()</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>TODO at the moment it's not certain, that cachedToken are nodes of the <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a55b40dd75515ce5bd45a5af225244982">VisualizerInput#getSResult()</a>. </dd></dl>
 
 </div>
 </div>
@@ -608,7 +625,32 @@ empty list - if there are only segmentations and the token layer is empty </li>
       </table>
 </div><div class="memdoc">
 
-<p>This token annotation should displayed by the visualizer and is selected by the user in the annis gui. </p>
+<p><pre class="fragment">This cachedToken annotation should displayed by the visualizer and is selected by
+</pre><p> the user in the annis gui. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2cbcb9066c1a3a68ec2de006f181b428"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.libgui.visualizers.VisualizerInput.readObject </td>
+          <td>(</td>
+          <td class="paramtype">ObjectInputStream&#160;</td>
+          <td class="paramname"><em>in</em>)</td><td></td>
+          <td> throws IOException, ClassNotFoundException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -797,7 +839,7 @@ empty list - if there are only segmentations and the token layer is empty </li>
 </div><div class="memdoc">
 
 <p>Sets the map of markables used by <a class="el" href="">writeOutput(Writer)</a>. </p>
-<p>The key of this map must be the corresponding node id of annotations or tokens. The values must be HTML compatible color definitions like #000000 or red. For detailed information on HTML color definition refer to <a class="el" href="">http://www.w3schools.com/HTML/html_colornames.asp</a></p>
+<p>The key of this map must be the corresponding node id of annotations or cachedTokens. The values must be HTML compatible color definitions like #000000 or red. For detailed information on HTML color definition refer to <a class="el" href="">http://www.w3schools.com/HTML/html_colornames.asp</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">markableMap</td><td></td></tr>
@@ -807,14 +849,14 @@ empty list - if there are only segmentations and the token layer is empty </li>
 
 </div>
 </div>
-<a class="anchor" id="afdda38d6eb86b3644a124933d65087bc"></a>
+<a class="anchor" id="a633c92db457e0d6f855ecbacf5e767d0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void annis.libgui.visualizers.VisualizerInput.setMarkedAndCovered </td>
           <td>(</td>
-          <td class="paramtype">Map&lt; SNode, Long &gt;&#160;</td>
+          <td class="paramtype">Map&lt; String, Long &gt;&#160;</td>
           <td class="paramname"><em>markedAndCovered</em>)</td><td></td>
           <td></td>
         </tr>
@@ -925,24 +967,6 @@ empty list - if there are only segmentations and the token layer is empty </li>
 
 </div>
 </div>
-<a class="anchor" id="a46247b486220f1dfe7b58cfa3f0a4a69"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void annis.libgui.visualizers.VisualizerInput.setToken </td>
-          <td>(</td>
-          <td class="paramtype">List&lt; SToken &gt;&#160;</td>
-          <td class="paramname"><em>token</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>should contains a list of all token of a the which is available with <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a55b40dd75515ce5bd45a5af225244982">VisualizerInput#getSResult()</a>. </p>
-
-</div>
-</div>
 <a class="anchor" id="ab1bfc0442626207b1e7a19547e9e8a49"></a>
 <div class="memitem">
 <div class="memproto">
@@ -957,7 +981,32 @@ empty list - if there are only segmentations and the token layer is empty </li>
       </table>
 </div><div class="memdoc">
 
-<p>Set all token annotations which should be displayed by the visualizer and correspondands to the annos choosen by the user in the annis gui. </p>
+<p><pre class="fragment">Set all cachedToken annotations which should be displayed by the visualizer and
+</pre><p> correspondands to the annos choosen by the user in the annis gui. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2cbe5daf4d322abe1455965102640887"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.libgui.visualizers.VisualizerInput.writeObject </td>
+          <td>(</td>
+          <td class="paramtype">ObjectOutputStream&#160;</td>
+          <td class="paramname"><em>out</em>)</td><td></td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -971,6 +1020,46 @@ empty list - if there are only segmentations and the token layer is empty </li>
       <table class="memname">
         <tr>
           <td class="memname">String annis.libgui.visualizers.VisualizerInput.annisWebServiceURL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeac2e8f85b8ce46e82c3e27443d52bba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">transient Map&lt;SNode, Long&gt; annis.libgui.visualizers.VisualizerInput.cachedMarkedAndCoveredNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeaad3534fb73349dfd26818ef30a1802"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">transient List&lt;SToken&gt; annis.libgui.visualizers.VisualizerInput.cachedToken</td>
         </tr>
       </table>
   </td>
@@ -1142,7 +1231,7 @@ empty list - if there are only segmentations and the token layer is empty </li>
 
 </div>
 </div>
-<a class="anchor" id="a3606039a3d5e01ccee790e614bcdc5a0"></a>
+<a class="anchor" id="a4fff27ae59dadc6a659b346c3331ea85"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1150,7 +1239,7 @@ empty list - if there are only segmentations and the token layer is empty </li>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">transient Map&lt;SNode, Long&gt; annis.libgui.visualizers.VisualizerInput.markedAndCovered = new HashMap&lt;SNode, Long&gt;()</td>
+          <td class="memname">Map&lt;String, Long&gt; annis.libgui.visualizers.VisualizerInput.markedAndCovered = new HashMap&lt;String, Long&gt;()</td>
         </tr>
       </table>
   </td>
@@ -1242,26 +1331,6 @@ empty list - if there are only segmentations and the token layer is empty </li>
 
 </div>
 </div>
-<a class="anchor" id="a1e24b4cbf9c0dcca32a6dcb6ca7924f0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;SToken&gt; annis.libgui.visualizers.VisualizerInput.token</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ac5714fa8d0c4e6e1fdac006ceedaaace"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1291,7 +1360,7 @@ empty list - if there are only segmentations and the token layer is empty </li>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1libgui.html">libgui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1libgui_1_1visualizers.html">visualizers</a></li><li class="navelem"><a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html">VisualizerInput</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:32 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

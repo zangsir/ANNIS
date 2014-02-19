@@ -11,6 +11,7 @@ var classannis_1_1libgui_1_1PDFPageHelper =
     [ "DEFAULT_PAGE_NUMBER_ANNOTATION_NAME", "classannis_1_1libgui_1_1PDFPageHelper.html#a3316dccd7dccfc338acbbdcfb5b08d25", null ],
     [ "input", "classannis_1_1libgui_1_1PDFPageHelper.html#a7a1e7c16ed06366a243ec865dfc837df", null ],
     [ "log", "classannis_1_1libgui_1_1PDFPageHelper.html#acc05321c0f52976c3fdc5fd126b97308", null ],
+    [ "MAPPING_PAGE_KEY", "classannis_1_1libgui_1_1PDFPageHelper.html#ae4f53747354af1b86f7cb8522cce2c16", null ],
     [ "PAGE_NO_VALID_NUMBER", "classannis_1_1libgui_1_1PDFPageHelper.html#aee90edd93d737e2cc5e0631ad5552ed2", null ],
     [ "PAGE_NUMBER_SEPERATOR", "classannis_1_1libgui_1_1PDFPageHelper.html#ab33f6fd1efec7e87b9d30df0c9650319", null ],
     [ "sspans", "classannis_1_1libgui_1_1PDFPageHelper.html#a6a80f6f8d9bdfd76dd9b5980df5c35fa", null ]

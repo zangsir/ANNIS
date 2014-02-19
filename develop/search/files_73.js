@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['join_2ejava',['Join.java',['../sqlgen_2model_2Join_8java.html',1,'']]],
   ['saltannotateextractor_2ejava',['SaltAnnotateExtractor.java',['../SaltAnnotateExtractor_8java.html',1,'']]],
   ['saltprojectprovider_2ejava',['SaltProjectProvider.java',['../SaltProjectProvider_8java.html',1,'']]],
   ['samespan_2ejava',['SameSpan.java',['../SameSpan_8java.html',1,'']]],
@@ -16,10 +17,12 @@ var searchData=
   ['sensitivecombobox_2ejava',['SensitiveComboBox.java',['../SensitiveComboBox_8java.html',1,'']]],
   ['shape_2ejava',['Shape.java',['../Shape_8java.html',1,'']]],
   ['sibling_2ejava',['Sibling.java',['../Sibling_8java.html',1,'']]],
+  ['sidebarstate_2ejava',['SidebarState.java',['../SidebarState_8java.html',1,'']]],
   ['simplecanvas_2ejava',['SimpleCanvas.java',['../SimpleCanvas_8java.html',1,'']]],
   ['simplecanvasconnector_2ejava',['SimpleCanvasConnector.java',['../SimpleCanvasConnector_8java.html',1,'']]],
   ['simpletextexporter_2ejava',['SimpleTextExporter.java',['../SimpleTextExporter_8java.html',1,'']]],
   ['singleresolverrequest_2ejava',['SingleResolverRequest.java',['../SingleResolverRequest_8java.html',1,'']]],
+  ['singleresultfetchjob_2ejava',['SingleResultFetchJob.java',['../SingleResultFetchJob_8java.html',1,'']]],
   ['singleresultpanel_2ejava',['SingleResultPanel.java',['../SingleResultPanel_8java.html',1,'']]],
   ['solutionkey_2ejava',['SolutionKey.java',['../SolutionKey_8java.html',1,'']]],
   ['spanbox_2ejava',['SpanBox.java',['../SpanBox_8java.html',1,'']]],

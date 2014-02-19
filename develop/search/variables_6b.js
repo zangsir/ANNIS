@@ -14,5 +14,5 @@ var searchData=
   ['keycolumnname',['keyColumnName',['../classannis_1_1sqlgen_1_1PostgreSqlArraySolutionKey_3_01BaseType_01_4.html#ae9a6a4af1897e196365134fd708d37ea',1,'annis::sqlgen::PostgreSqlArraySolutionKey&lt; BaseType &gt;']]],
   ['knowntiers',['knownTiers',['../classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser.html#a6278e60b8597f0f1cb9a8b4a5213a2df',1,'annis::visualizers::iframe::partitur::PartiturParser']]],
   ['komponent',['komponent',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a91c15ee2392ea41ccb16eb3604aae57d',1,'annis::visualizers::iframe::CorefVisualizer']]],
-  ['kwicpanels',['kwicPanels',['../classannis_1_1visualizers_1_1component_1_1KWICPanel_1_1KWICMultipleTextImpl.html#a5c6df5f3afce6fea9109fb2ff200adfc',1,'annis::visualizers::component::KWICPanel::KWICMultipleTextImpl']]]
+  ['kwicpanels',['kwicPanels',['../classannis_1_1visualizers_1_1component_1_1kwic_1_1KWICMultipleTextComponent.html#a1eae3674c8d32389b5c2c85a064cfec0',1,'annis::visualizers::component::kwic::KWICMultipleTextComponent']]]
 ];

@@ -175,6 +175,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa601daccb7c5f8b939a107609f610866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca167dd0545fa65fe87fed48a9ea096a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#aca167dd0545fa65fe87fed48a9ea096a">getQueryDraft</a> ()</td></tr>
 <tr class="separator:aca167dd0545fa65fe87fed48a9ea096a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad13448b0a0ef18c729476c9073aa1aa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#ad13448b0a0ef18c729476c9073aa1aa8">changeCtx</a> (UUID queryID, int offset, int context, <a class="el" href="interfaceannis_1_1gui_1_1resultview_1_1VisualizerContextChanger.html">VisualizerContextChanger</a> visCtxChange, boolean left)</td></tr>
+<tr class="separator:ad13448b0a0ef18c729476c9073aa1aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56353415e276ad5c8c3f85c8d73a9c62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a56353415e276ad5c8c3f85c8d73a9c62">setMatches</a> (<a class="el" href="classannis_1_1service_1_1objects_1_1MatchGroup.html">MatchGroup</a> <a class="el" href="classannis_1_1gui_1_1QueryController.html#a28c5b3140aaacdbcc36294ac29fd7db1">matches</a>)</td></tr>
+<tr class="separator:a56353415e276ad5c8c3f85c8d73a9c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -211,20 +215,24 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a561ea7021107dc777cc0cd71cc4b1cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6daf05519676bbd24c56632326a43f3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a6daf05519676bbd24c56632326a43f3c">preparedQuery</a></td></tr>
 <tr class="separator:a6daf05519676bbd24c56632326a43f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bbee43389d5399df024f38c07d2629b"><td class="memItemLeft" align="right" valign="top">transient Map&lt; UUID, <br class="typebreak"/>
-<a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a7bbee43389d5399df024f38c07d2629b">queries</a></td></tr>
-<tr class="separator:a7bbee43389d5399df024f38c07d2629b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b98cb1d5a9358707acbb1868241be08"><td class="memItemLeft" align="right" valign="top">transient BiMap&lt; UUID, <br class="typebreak"/>
-<a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html">ResultViewPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a5b98cb1d5a9358707acbb1868241be08">queryPanels</a></td></tr>
-<tr class="separator:a5b98cb1d5a9358707acbb1868241be08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accedcb77f32b412209b5439191959dc1"><td class="memItemLeft" align="right" valign="top">transient Map&lt; UUID, <br class="typebreak"/>
-<a class="el" href="classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html">MatchAndDocumentCount</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#accedcb77f32b412209b5439191959dc1">counts</a></td></tr>
-<tr class="separator:accedcb77f32b412209b5439191959dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8a9e4bb99cbe5ba505a863a2102c29"><td class="memItemLeft" align="right" valign="top">Map&lt; UUID, <a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#add8a9e4bb99cbe5ba505a863a2102c29">queries</a></td></tr>
+<tr class="separator:add8a9e4bb99cbe5ba505a863a2102c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206c2818356d43d9cdf5286acd7cf161"><td class="memItemLeft" align="right" valign="top">BiMap&lt; UUID, <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html">ResultViewPanel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a206c2818356d43d9cdf5286acd7cf161">queryPanels</a></td></tr>
+<tr class="separator:a206c2818356d43d9cdf5286acd7cf161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b4b2525a8d85cf12f064157e2c6b72"><td class="memItemLeft" align="right" valign="top">Map&lt; UUID, <a class="el" href="classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html">MatchAndDocumentCount</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a38b4b2525a8d85cf12f064157e2c6b72">counts</a></td></tr>
+<tr class="separator:a38b4b2525a8d85cf12f064157e2c6b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c8b8c1ddf237d29c198e24517f3b00a"><td class="memItemLeft" align="right" valign="top">Map&lt; UUID, Map&lt; Integer, <br class="typebreak"/>
+<a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a1c8b8c1ddf237d29c198e24517f3b00a">updatedQueries</a></td></tr>
+<tr class="memdesc:a1c8b8c1ddf237d29c198e24517f3b00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores updated queries.  <a href="#a1c8b8c1ddf237d29c198e24517f3b00a">More...</a><br/></td></tr>
+<tr class="separator:a1c8b8c1ddf237d29c198e24517f3b00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c5b3140aaacdbcc36294ac29fd7db1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1service_1_1objects_1_1MatchGroup.html">MatchGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a28c5b3140aaacdbcc36294ac29fd7db1">matches</a></td></tr>
+<tr class="memdesc:a28c5b3140aaacdbcc36294ac29fd7db1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the matches from the last query.  <a href="#a28c5b3140aaacdbcc36294ac29fd7db1">More...</a><br/></td></tr>
+<tr class="separator:a28c5b3140aaacdbcc36294ac29fd7db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d9ce466a3a61b4e511ae7a0118144e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a0d9ce466a3a61b4e511ae7a0118144e0">maxShortID</a></td></tr>
 <tr class="separator:a0d9ce466a3a61b4e511ae7a0118144e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a743647c5a174cbcc863b8cde733b6d2b"><td class="memItemLeft" align="right" valign="top">transient List<br class="typebreak"/>
-&lt; <a class="el" href="interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html">CorpusSelectionChangeListener</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a743647c5a174cbcc863b8cde733b6d2b">corpusSelChangeListeners</a> = new LinkedList&lt;<a class="el" href="interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html">CorpusSelectionChangeListener</a>&gt;()</td></tr>
-<tr class="separator:a743647c5a174cbcc863b8cde733b6d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8522de14a2b03b67255a5485e8feeba9"><td class="memItemLeft" align="right" valign="top">List<br class="typebreak"/>
+&lt; <a class="el" href="interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html">CorpusSelectionChangeListener</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1QueryController.html#a8522de14a2b03b67255a5485e8feeba9">corpusSelChangeListeners</a> = new LinkedList&lt;<a class="el" href="interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html">CorpusSelectionChangeListener</a>&gt;()</td></tr>
+<tr class="separator:a8522de14a2b03b67255a5485e8feeba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -317,6 +325,50 @@ Static Private Attributes</h2></td></tr>
 
 <p>Cancel queries from the client side. </p>
 <p>Important: This does not magically cancel the query on the server side, so don't use this to implement a "real" query cancelation. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad13448b0a0ef18c729476c9073aa1aa8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.QueryController.changeCtx </td>
+          <td>(</td>
+          <td class="paramtype">UUID&#160;</td>
+          <td class="paramname"><em>queryID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceannis_1_1gui_1_1resultview_1_1VisualizerContextChanger.html">VisualizerContextChanger</a>&#160;</td>
+          <td class="paramname"><em>visCtxChange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>left</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -589,6 +641,22 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a56353415e276ad5c8c3f85c8d73a9c62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.gui.QueryController.setMatches </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1service_1_1objects_1_1MatchGroup.html">MatchGroup</a>&#160;</td>
+          <td class="paramname"><em>matches</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a6a8bc92048ed1658b4c686f9e29e5137"></a>
 <div class="memitem">
 <div class="memproto">
@@ -702,7 +770,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a743647c5a174cbcc863b8cde733b6d2b"></a>
+<a class="anchor" id="a8522de14a2b03b67255a5485e8feeba9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -710,7 +778,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">transient List&lt;<a class="el" href="interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html">CorpusSelectionChangeListener</a>&gt; annis.gui.QueryController.corpusSelChangeListeners = new LinkedList&lt;<a class="el" href="interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html">CorpusSelectionChangeListener</a>&gt;()</td>
+          <td class="memname">List&lt;<a class="el" href="interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html">CorpusSelectionChangeListener</a>&gt; annis.gui.QueryController.corpusSelChangeListeners = new LinkedList&lt;<a class="el" href="interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html">CorpusSelectionChangeListener</a>&gt;()</td>
         </tr>
       </table>
   </td>
@@ -722,7 +790,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="accedcb77f32b412209b5439191959dc1"></a>
+<a class="anchor" id="a38b4b2525a8d85cf12f064157e2c6b72"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -730,7 +798,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">transient Map&lt;UUID, <a class="el" href="classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html">MatchAndDocumentCount</a>&gt; annis.gui.QueryController.counts</td>
+          <td class="memname">Map&lt;UUID, <a class="el" href="classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html">MatchAndDocumentCount</a>&gt; annis.gui.QueryController.counts</td>
         </tr>
       </table>
   </td>
@@ -844,6 +912,29 @@ Static Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<a class="anchor" id="a28c5b3140aaacdbcc36294ac29fd7db1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classannis_1_1service_1_1objects_1_1MatchGroup.html">MatchGroup</a> annis.gui.QueryController.matches</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Holds the matches from the last query. </p>
+<p>Useful for repeated queries in order to change the context. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0d9ce466a3a61b4e511ae7a0118144e0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -884,7 +975,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7bbee43389d5399df024f38c07d2629b"></a>
+<a class="anchor" id="add8a9e4bb99cbe5ba505a863a2102c29"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -892,7 +983,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">transient Map&lt;UUID, <a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&gt; annis.gui.QueryController.queries</td>
+          <td class="memname">Map&lt;UUID, <a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&gt; annis.gui.QueryController.queries</td>
         </tr>
       </table>
   </td>
@@ -904,7 +995,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5b98cb1d5a9358707acbb1868241be08"></a>
+<a class="anchor" id="a206c2818356d43d9cdf5286acd7cf161"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -912,7 +1003,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">transient BiMap&lt;UUID, <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html">ResultViewPanel</a>&gt; annis.gui.QueryController.queryPanels</td>
+          <td class="memname">BiMap&lt;UUID, <a class="el" href="classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html">ResultViewPanel</a>&gt; annis.gui.QueryController.queryPanels</td>
         </tr>
       </table>
   </td>
@@ -944,6 +1035,29 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1c8b8c1ddf237d29c198e24517f3b00a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;UUID, Map&lt;Integer, <a class="el" href="classannis_1_1gui_1_1model_1_1PagedResultQuery.html">PagedResultQuery</a>&gt; &gt; annis.gui.QueryController.updatedQueries</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores updated queries. </p>
+<p>They are created when single results are queried again with a different context. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="QueryController_8java.html">QueryController.java</a></li>
 </ul>
@@ -953,7 +1067,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1QueryController.html">QueryController</a></li>
-    <li class="footer">Generated on Mon Jan 13 2014 09:44:31 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 08:57:39 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

@@ -18,6 +18,7 @@ var searchData=
   ['hastexts',['hasTexts',['../classannis_1_1service_1_1objects_1_1RawTextWrapper.html#abacd02794de32b700eba2b1bdf82fe73',1,'annis::service::objects::RawTextWrapper']]],
   ['hasvalue',['hasValue',['../classannis_1_1service_1_1objects_1_1AnnisAttribute.html#a7114f63928c3dfcb28b042720dcd436f',1,'annis::service::objects::AnnisAttribute']]],
   ['hasverticaledgeconflict',['hasVerticalEdgeConflict',['../classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html#ae4b2829f7987824d9801c78115becc36',1,'annis::visualizers::component::tree::NodeStructureData']]],
+  ['havesamenodeannotationdefinitions',['haveSameNodeAnnotationDefinitions',['../classannis_1_1sqlgen_1_1annopool_1_1ApAnnotationConditionProvider.html#a3b8278c262cfd0a4004a94eba83a6806',1,'annis::sqlgen::annopool::ApAnnotationConditionProvider']]],
   ['helpbutton',['HelpButton',['../classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html#a647eed8a47a01e34039dbf5d9a2d8cca',1,'annis::gui::components::HelpButton&lt; T &gt;']]],
   ['helpclicklistener',['HelpClickListener',['../classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder_1_1HelpClickListener.html#a23d52ab7e64d6d0023f782b9f039d392',1,'annis::gui::querybuilder::TigerQueryBuilderPlugin::TigerQueryBuilder::HelpClickListener']]],
   ['helppanel',['HelpPanel',['../classannis_1_1gui_1_1HelpPanel.html#a3c73c1d7b9727bb7510e7616dfa41ceb',1,'annis::gui::HelpPanel']]],

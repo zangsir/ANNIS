@@ -19,7 +19,6 @@ var classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl =
     [ "sortChildren", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#aeee9190eaabe6cbb328f4383dce43ea1", null ],
     [ "transformSaltToJSON", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#a58098db32059375dae8bd9b817433a74", null ],
     [ "ANNOTATION_KEY", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#a22215b5579eafa08b6a96091c5d62f45", null ],
-    [ "count", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ade7f1342a9456ea6f265b14374e6df52", null ],
     [ "graph", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#a058e4d247dcedc3270312ebe8a94ac4a", null ],
     [ "jit", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ade489948c89a212c2eb2d8e561eb17de", null ],
     [ "log", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#a5f07c848f4ef3e75caa10964c7a6614b", null ],
@@ -33,5 +32,6 @@ var classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl =
     [ "SENTENCE_RIGHT", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ad61a09a485c157ed1c3e20a890f99144", null ],
     [ "sentences", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#a6a4e5fe25847677c49a30a984320a74e", null ],
     [ "st", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#a2e297504f2f269c2208b7df56bbcce9d", null ],
+    [ "uniqueID", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#aabf6a5f1da17a0e326ab5716676ef3ae", null ],
     [ "visId", "classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ac1e82cbcb959e438e37b66e44b8a90b1", null ]
 ];

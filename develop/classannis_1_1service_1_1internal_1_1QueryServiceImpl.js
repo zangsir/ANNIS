@@ -32,7 +32,7 @@ var classannis_1_1service_1_1internal_1_1QueryServiceImpl =
     [ "logQuery", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a354d5ab12b5466b8821c49e216c7805b", null ],
     [ "logQuery", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a31a11046f9ee3b46316e76a2cc250f78", null ],
     [ "logQuery", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a44129337bc993c364c8bd26f991d5464", null ],
-    [ "matrix", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a07c59fbb4aa3b9b1cf7e9ac79953d930", null ],
+    [ "matrix", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a383835a98f37ecccadffef94b25c1a15", null ],
     [ "parseNodes", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#aa3988905777e7f59da54390c0b327830", null ],
     [ "queryDataFromParameters", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#aab07545cdc01b46ba06916ca12012459", null ],
     [ "requiredParameter", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a97251fc8306610b73cca95929f0355e4", null ],

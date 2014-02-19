@@ -1,5 +1,6 @@
 var classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer =
 [
+    [ "SerializableAnnotation", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1SerializableAnnotation.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1SerializableAnnotation" ],
     [ "TComponent", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponent.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponent" ],
     [ "TComponenttype", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TComponenttype" ],
     [ "TReferent", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html", "classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent" ],

@@ -7,7 +7,7 @@ var searchData=
   ['rawtextvisualizer_2ejava',['RawTextVisualizer.java',['../RawTextVisualizer_8java.html',1,'']]],
   ['rawtextwrapper_2ejava',['RawTextWrapper.java',['../RawTextWrapper_8java.html',1,'']]],
   ['rectangleside_2ejava',['RectangleSide.java',['../RectangleSide_8java.html',1,'']]],
-  ['reducingstringcomparator_2ejava',['reducingStringComparator.java',['../reducingStringComparator_8java.html',1,'']]],
+  ['reducingstringcomparator_2ejava',['ReducingStringComparator.java',['../ReducingStringComparator_8java.html',1,'']]],
   ['relannisedgefeature_2ejava',['RelannisEdgeFeature.java',['../RelannisEdgeFeature_8java.html',1,'']]],
   ['relannishelper_2ejava',['RelANNISHelper.java',['../RelANNISHelper_8java.html',1,'']]],
   ['relannisnodefeature_2ejava',['RelannisNodeFeature.java',['../RelannisNodeFeature_8java.html',1,'']]],
