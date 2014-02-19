@@ -115,10 +115,14 @@ $(document).ready(function(){initNavTree('classannis_1_1gui_1_1resultview_1_1Sin
 <div class="title">annis.gui.resultview.SingleResultPanel.CoveredMatchesCalculator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Marks all nodes which are dominated by already marked nodes.  
- <a href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Marks all nodes which are dominated by already marked nodes. </p>
+<ol type="1">
+<li>Sort ascending all initial marked nodes by the size of the intervall between left and right token index.</li>
+<li>Traverse the salt document graph with the sorted list of step 1. as root nodes and mark all children with the same match position. Already marked nodes are omitted.</li>
+</ol>
+<p>Note: The algorithm prevents nested marked nodes to be overwritten. Nested nodes must have a smaller intervall from left to right by default, so this should always work. </p>
+</div><div class="dynheader">
 Inheritance diagram for annis.gui.resultview.SingleResultPanel.CoveredMatchesCalculator:</div>
 <div class="dyncontent">
  <div class="center">
@@ -147,14 +151,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a09dbdc828ef0357839dcfcc05dc3bd66"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html#a09dbdc828ef0357839dcfcc05dc3bd66">currentMatchPos</a></td></tr>
 <tr class="separator:a09dbdc828ef0357839dcfcc05dc3bd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Marks all nodes which are dominated by already marked nodes. </p>
-<ol type="1">
-<li>Sort ascending all initial marked nodes by the size of the intervall between left and right token index.</li>
-<li>Traverse the salt document graph with the sorted list of step 1. as root nodes and mark all children with the same match position. Already marked nodes are omitted.</li>
-</ol>
-<p>Note: The algorithm prevents nested marked nodes to be overwritten. Nested nodes must have a smaller intervall from left to right by default, so this should always work. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a142d6986f52a9af296242a432c4b527b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -391,7 +388,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1gui_1_1resultview.html">resultview</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html">SingleResultPanel</a></li><li class="navelem"><a class="el" href="classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html">CoveredMatchesCalculator</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 09:30:07 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

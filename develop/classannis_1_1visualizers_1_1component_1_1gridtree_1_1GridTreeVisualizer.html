@@ -115,10 +115,20 @@ $(document).ready(function(){initNavTree('classannis_1_1visualizers_1_1component
 <div class="title">annis.visualizers.component.gridtree.GridTreeVisualizer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A grid visualizing hierarchical tree annotations as ordered grid layers.  
- <a href="classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer.html#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A grid visualizing hierarchical tree annotations as ordered grid layers. </p>
+<p>Note that all layers represent the same annotation name at different hierarchical depths, marked level:0,1,2,... etc. on the left</p>
+<p>Known Bug: the visualizer does not handle crossing edges. Equal annotation names which cover the same range or a subset of nodes and have the same hierarchical depths are not rendered correctly by grid_tree. <a href="https://github.com/korpling/ANNIS/issues/14">https://github.com/korpling/ANNIS/issues/14</a></p>
+<h2>Mappings:</h2>
+<ul>
+<li>
+Specify the name of the annotation to be visualized in the grid with <b>node_key:name</b>. Note that all grid levels visualize the same annotation name at different hierarchical depths. </li>
+<li>
+<p class="startli">Specify the name of the base row with the <b>tok_key:name</b>. This is useful, if you want to use a specific annotation layer for instead of the always existing tok layer. E.g. the falko corpora often contain the ZH (Zielhypothesen)-layers.</p>
+<dl class="section author"><dt>Author</dt><dd>Benjamin Weißenfels &lt;b.pixeldrama&gt; </dd></dl>
+</li>
+</ul>
+</div><div class="dynheader">
 Inheritance diagram for annis.visualizers.component.gridtree.GridTreeVisualizer:</div>
 <div class="dyncontent">
  <div class="center">
@@ -141,20 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeebb2985f5eed7fd5ba7181b6aac7a8a"><td class="memItemLeft" align="right" valign="top">Panel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer.html#aeebb2985f5eed7fd5ba7181b6aac7a8a">createComponent</a> (<a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html">VisualizerInput</a> visInput, <a class="el" href="interfaceannis_1_1libgui_1_1VisualizationToggle.html">VisualizationToggle</a> visToggle)</td></tr>
 <tr class="separator:aeebb2985f5eed7fd5ba7181b6aac7a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A grid visualizing hierarchical tree annotations as ordered grid layers. </p>
-<p>Note that all layers represent the same annotation name at different hierarchical depths, marked level:0,1,2,... etc. on the left</p>
-<p>Known Bug: the visualizer does not handle crossing edges. Equal annotation names which cover the same range or a subset of nodes and have the same hierarchical depths are not rendered correctly by grid_tree. <a href="https://github.com/korpling/ANNIS/issues/14">https://github.com/korpling/ANNIS/issues/14</a></p>
-<h2>Mappings:</h2>
-<ul>
-<li>
-Specify the name of the annotation to be visualized in the grid with <b>node_key:name</b>. Note that all grid levels visualize the same annotation name at different hierarchical depths. </li>
-<li>
-<p class="startli">Specify the name of the base row with the <b>tok_key:name</b>. This is useful, if you want to use a specific annotation layer for instead of the always existing tok layer. E.g. the falko corpora often contain the ZH (Zielhypothesen)-layers.</p>
-<dl class="section author"><dt>Author</dt><dd>Benjamin Weißenfels &lt;b.pixeldrama&gt; </dd></dl>
-</li>
-</ul>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aeebb2985f5eed7fd5ba7181b6aac7a8a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +202,7 @@ Specify the name of the annotation to be visualized in the grid with <b>node_key
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers.html">visualizers</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1component.html">component</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1component_1_1gridtree.html">gridtree</a></li><li class="navelem"><a class="el" href="classannis_1_1visualizers_1_1component_1_1gridtree_1_1GridTreeVisualizer.html">GridTreeVisualizer</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 08:57:41 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 09:30:09 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

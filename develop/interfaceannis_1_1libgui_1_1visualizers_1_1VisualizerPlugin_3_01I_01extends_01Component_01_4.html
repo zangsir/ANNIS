@@ -114,10 +114,13 @@ $(document).ready(function(){initNavTree('interfaceannis_1_1libgui_1_1visualizer
 <div class="title">annis.libgui.visualizers.VisualizerPlugin&lt; I extends Component &gt; Interface Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Every visualizer must implement this interface.  
- <a href="interfaceannis_1_1libgui_1_1visualizers_1_1VisualizerPlugin_3_01I_01extends_01Component_01_4.html#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Every visualizer must implement this interface. </p>
+<p>It' s also necessary to to load this plugin by hand in <a class="el" href="classannis_1_1libgui_1_1AnnisBaseUI.html#a715eb17adee89fa9e6c33a8ceb990997">annis.gui.AnnisBaseUI#initPlugins()</a></p>
+<p>If you wish to implement an iframe visualizer you should extend the <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1AbstractIFrameVisualizer.html">AbstractIFrameVisualizer</a> class, because this class already has implemented the <a class="el" href="">VisualizerPlugin#createComponent(annis.gui.visualizers.VisualizerInput)</a> method.</p>
+<p>For the case of using Vaadin Component directly its recommended to extend the <a class="el" href="">AbstractVisualizer</a> class. There you will have to implement the <a class="el" href="">VisualizerPlugin#createComponent(annis.gui.visualizers.VisualizerInput)</a> method. Normally you need a inner or additional class which extends a vaadin implementation of the <a class="el" href="">Component</a> interface. The <a class="el" href="">annis.gui.visualizers.component.KWICPanel</a> is an example for that.</p>
+<dl class="section author"><dt>Author</dt><dd>Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+'eld'+'ra'+'ma@'+'gm'+'ail'+'.c'+'om'; return false;">b.pix<span style="display: none;">.nosp@m.</span>eldr<span style="display: none;">.nosp@m.</span>ama@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a> </dd></dl>
+</div><div class="dynheader">
 Inheritance diagram for annis.libgui.visualizers.VisualizerPlugin&lt; I extends Component &gt;:</div>
 <div class="dyncontent">
  <div class="center">
@@ -147,13 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2b801a7c32a4cd1ac34e5cae7503d735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if this visaulizer wants to use the original text.  <a href="#a2b801a7c32a4cd1ac34e5cae7503d735">More...</a><br/></td></tr>
 <tr class="separator:a2b801a7c32a4cd1ac34e5cae7503d735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Every visualizer must implement this interface. </p>
-<p>It' s also necessary to to load this plugin by hand in <a class="el" href="classannis_1_1libgui_1_1AnnisBaseUI.html#a715eb17adee89fa9e6c33a8ceb990997">annis.gui.AnnisBaseUI#initPlugins()</a></p>
-<p>If you wish to implement an iframe visualizer you should extend the <a class="el" href="classannis_1_1libgui_1_1visualizers_1_1AbstractIFrameVisualizer.html">AbstractIFrameVisualizer</a> class, because this class already has implemented the <a class="el" href="">VisualizerPlugin#createComponent(annis.gui.visualizers.VisualizerInput)</a> method.</p>
-<p>For the case of using Vaadin Component directly its recommended to extend the <a class="el" href="">AbstractVisualizer</a> class. There you will have to implement the <a class="el" href="">VisualizerPlugin#createComponent(annis.gui.visualizers.VisualizerInput)</a> method. Normally you need a inner or additional class which extends a vaadin implementation of the <a class="el" href="">Component</a> interface. The <a class="el" href="">annis.gui.visualizers.component.KWICPanel</a> is an example for that.</p>
-<dl class="section author"><dt>Author</dt><dd>Benjamin Weißenfels <a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+'eld'+'ra'+'ma@'+'gm'+'ail'+'.c'+'om'; return false;">b.pix<span style="display: none;">.nosp@m.</span>eldr<span style="display: none;">.nosp@m.</span>ama@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a> </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ae42ff54b6178a8cab02f1ecd17a9b80b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +316,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1libgui.html">libgui</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1libgui_1_1visualizers.html">visualizers</a></li><li class="navelem"><a class="el" href="interfaceannis_1_1libgui_1_1visualizers_1_1VisualizerPlugin_3_01I_01extends_01Component_01_4.html">VisualizerPlugin< I extends Component ></a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 09:30:08 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

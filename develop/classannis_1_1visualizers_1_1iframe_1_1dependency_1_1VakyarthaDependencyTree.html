@@ -117,10 +117,20 @@ $(document).ready(function(){initNavTree('classannis_1_1visualizers_1_1iframe_1_
 <div class="title">annis.visualizers.iframe.dependency.VakyarthaDependencyTree Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Provides a dependence visualization based on vakyartha visualization, which was developed by Kim Gerdes.  
- <a href="classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Provides a dependence visualization based on vakyartha visualization, which was developed by Kim Gerdes. </p>
+<p>Requires SVG enabled browser. <br/>
+</p>
+<p>Originally this visualization was token based. Now Vakyartha extended to visualize dependence between any nodes. This must be configured in the resolver_vis_map table. <br/>
+</p>
+<p>Mappings: <br/>
+ If a annotation key is specified with <b>node_key:key</b>, all nodes which carry this annotation are searched for pointing relations and instead token the annotation value is used.</p>
+<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'e@i'+'nf'+'orm'+'at'+'ik.'+'hu'+'-be'+'rl'+'in.'+'de'; return false;">kraus<span style="display: none;">.nosp@m.</span>e@in<span style="display: none;">.nosp@m.</span>forma<span style="display: none;">.nosp@m.</span>tik.<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd>
+<dd>
+Benjamin Weißenfels<a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+'eld'+'ra'+'ma@'+'gm'+'ail'+'.c'+'om'; return false;">b.pix<span style="display: none;">.nosp@m.</span>eldr<span style="display: none;">.nosp@m.</span>ama@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a> </dd>
+<dd>
+Kim Gerdes </dd></dl>
+</div><div class="dynheader">
 Inheritance diagram for annis.visualizers.iframe.dependency.VakyarthaDependencyTree:</div>
 <div class="dyncontent">
  <div class="center">
@@ -187,20 +197,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:a1678bab0164e406cbb77683df84fc08e"><td class="memItemLeft" align="right" valign="top">static final org.slf4j.Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#a1678bab0164e406cbb77683df84fc08e">log</a></td></tr>
 <tr class="separator:a1678bab0164e406cbb77683df84fc08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides a dependence visualization based on vakyartha visualization, which was developed by Kim Gerdes. </p>
-<p>Requires SVG enabled browser. <br/>
-</p>
-<p>Originally this visualization was token based. Now Vakyartha extended to visualize dependence between any nodes. This must be configured in the resolver_vis_map table. <br/>
-</p>
-<p>Mappings: <br/>
- If a annotation key is specified with <b>node_key:key</b>, all nodes which carry this annotation are searched for pointing relations and instead token the annotation value is used.</p>
-<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'e@i'+'nf'+'orm'+'at'+'ik.'+'hu'+'-be'+'rl'+'in.'+'de'; return false;">kraus<span style="display: none;">.nosp@m.</span>e@in<span style="display: none;">.nosp@m.</span>forma<span style="display: none;">.nosp@m.</span>tik.<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd>
-<dd>
-Benjamin Weißenfels<a href="#" onclick="location.href='mai'+'lto:'+'b.p'+'ix'+'eld'+'ra'+'ma@'+'gm'+'ail'+'.c'+'om'; return false;">b.pix<span style="display: none;">.nosp@m.</span>eldr<span style="display: none;">.nosp@m.</span>ama@g<span style="display: none;">.nosp@m.</span>mail<span style="display: none;">.nosp@m.</span>.com</a> </dd>
-<dd>
-Kim Gerdes </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a9743312364a3c6bb0e923accac2671bd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -555,7 +552,7 @@ Kim Gerdes </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers.html">visualizers</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1iframe.html">iframe</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1iframe_1_1dependency.html">dependency</a></li><li class="navelem"><a class="el" href="classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html">VakyarthaDependencyTree</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 08:57:41 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 09:30:09 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

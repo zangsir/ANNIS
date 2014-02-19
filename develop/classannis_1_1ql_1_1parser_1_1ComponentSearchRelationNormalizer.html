@@ -115,10 +115,19 @@ $(document).ready(function(){initNavTree('classannis_1_1ql_1_1parser_1_1Componen
 <div class="title">annis.ql.parser.ComponentSearchRelationNormalizer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Fix queries where a node is contained in two linguistic relations that could query different components.  
- <a href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Fix queries where a node is contained in two linguistic relations that could query different components. </p>
+<p>The normalization is needed since our SQL generation does not work well on database tuples from different components which represent the same node. E.g. a query like </p>
+<pre>
+node &amp; node &amp; #1 &gt; #2 &amp; #1 -&gt;dep #2
+</pre><p> must be normalized to </p>
+<pre>
+node &amp; node &amp; node &amp; node
+&amp; #1 &gt; #2 &amp; #3 -&gt;dep #4
+&amp; #1 = #3 &amp; #2 = #4
+</pre><p> in order to actually get the results the user expects.</p>
+<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'eto'+'@h'+'u-b'+'er'+'lin'+'.d'+'e'; return false;">kraus<span style="display: none;">.nosp@m.</span>eto@<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd></dl>
+</div><div class="dynheader">
 Inheritance diagram for annis.ql.parser.ComponentSearchRelationNormalizer:</div>
 <div class="dyncontent">
  <div class="center">
@@ -145,19 +154,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a3ee68838f67b2227add036c8bf48c716"><td class="memItemLeft" align="right" valign="top">Multimap&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a>, <a class="el" href="classannis_1_1model_1_1Join.html">Join</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html#a3ee68838f67b2227add036c8bf48c716">createJoinMap</a> (List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; nodes)</td></tr>
 <tr class="separator:a3ee68838f67b2227add036c8bf48c716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Fix queries where a node is contained in two linguistic relations that could query different components. </p>
-<p>The normalization is needed since our SQL generation does not work well on database tuples from different components which represent the same node. E.g. a query like </p>
-<pre>
-node &amp; node &amp; #1 &gt; #2 &amp; #1 -&gt;dep #2
-</pre><p> must be normalized to </p>
-<pre>
-node &amp; node &amp; node &amp; node
-&amp; #1 &gt; #2 &amp; #3 -&gt;dep #4
-&amp; #1 = #3 &amp; #2 = #4
-</pre><p> in order to actually get the results the user expects.</p>
-<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'eto'+'@h'+'u-b'+'er'+'lin'+'.d'+'e'; return false;">kraus<span style="display: none;">.nosp@m.</span>eto@<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ae3ffe89d99eedca9359758f1979074b9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +342,7 @@ node &amp; node &amp; node &amp; node
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1ql.html">ql</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1ql_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="classannis_1_1ql_1_1parser_1_1ComponentSearchRelationNormalizer.html">ComponentSearchRelationNormalizer</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 09:30:08 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

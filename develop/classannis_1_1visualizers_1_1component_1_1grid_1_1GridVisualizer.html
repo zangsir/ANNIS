@@ -115,10 +115,22 @@ $(document).ready(function(){initNavTree('classannis_1_1visualizers_1_1component
 <div class="title">annis.visualizers.component.grid.GridVisualizer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Visualizes annotations of a spans.  
- <a href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Visualizes annotations of a spans. </p>
+<p>Mappings: <br/>
+ </p>
+<ul>
+<li>
+It is possible to specify the order of annotation layers in each grid. Use <b>annos: anno_name1, anno_name2, anno_name3</b> to specify the order or annotation layers. If <b>anno:</b> is used, additional annotation layers not present in the list will not be visualized. If mappings is left empty, layers will be ordered alphabetically.  </li>
+<li>
+<b>tok_anno:true</b> can be used to also display the annotations of the token.  </li>
+<li>
+<b>hide_tok:true</b> switches the line with the token value off.  </li>
+<li>
+<code>pdf_page_key: name of the annotation that contains the pdf page number</code>  </li>
+</ul>
+<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'eto'+'@h'+'u-b'+'er'+'lin'+'.d'+'e'; return false;">kraus<span style="display: none;">.nosp@m.</span>eto@<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd></dl>
+</div><div class="dynheader">
 Inheritance diagram for annis.visualizers.component.grid.GridVisualizer:</div>
 <div class="dyncontent">
  <div class="center">
@@ -139,22 +151,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:a7a4313153f22b29e1e06b2ec9aff7bfd"><td class="memItemLeft" align="right" valign="top">static final Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html#a7a4313153f22b29e1e06b2ec9aff7bfd">log</a></td></tr>
 <tr class="separator:a7a4313153f22b29e1e06b2ec9aff7bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Visualizes annotations of a spans. </p>
-<p>Mappings: <br/>
- </p>
-<ul>
-<li>
-It is possible to specify the order of annotation layers in each grid. Use <b>annos: anno_name1, anno_name2, anno_name3</b> to specify the order or annotation layers. If <b>anno:</b> is used, additional annotation layers not present in the list will not be visualized. If mappings is left empty, layers will be ordered alphabetically.  </li>
-<li>
-<b>tok_anno:true</b> can be used to also display the annotations of the token.  </li>
-<li>
-<b>hide_tok:true</b> switches the line with the token value off.  </li>
-<li>
-<code>pdf_page_key: name of the annotation that contains the pdf page number</code>  </li>
-</ul>
-<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'eto'+'@h'+'u-b'+'er'+'lin'+'.d'+'e'; return false;">kraus<span style="display: none;">.nosp@m.</span>eto@<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a5f1b44a7093b84091759c8b9f90a7811"></a>
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +225,7 @@ It is possible to specify the order of annotation layers in each grid. Use <b>an
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers.html">visualizers</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1component.html">component</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1component_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1GridVisualizer.html">GridVisualizer</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 08:57:41 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 09:30:09 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

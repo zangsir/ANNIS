@@ -114,10 +114,18 @@ $(document).ready(function(){initNavTree('classannis_1_1sqlgen_1_1AbstractUnionS
 <div class="title">annis.sqlgen.AbstractUnionSqlGenerator&lt; T &gt; Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Abstract base class for a SQL statement which coalesces multiple alternatives using UNION.  
- <a href="classannis_1_1sqlgen_1_1AbstractUnionSqlGenerator_3_01T_01_4.html#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Abstract base class for a SQL statement which coalesces multiple alternatives using UNION. </p>
+<p>Only the SELECT, FROM, WHERE and GROUP BY clauses are used for each alternative. The ORDER BY and LIMIT/OFFSET clauses are applied to the entire query.</p>
+<p>It is the responsibility of the calling code to correctly set <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a4ad0bf0afc675716333206c738515232">QueryData.maxWidth</a> and the responsibility of the <a class="el" href="">SelectClauseSqlGenrator</a> to pad the SELECT clause if necessary.</p>
+<dl class="section author"><dt>Author</dt><dd>Viktor Rosenfeld <a href="#" onclick="location.href='mai'+'lto:'+'ros'+'en'+'fel'+'@i'+'nfo'+'rm'+'ati'+'k.'+'hu-'+'be'+'rli'+'n.'+'de'; return false;">rosen<span style="display: none;">.nosp@m.</span>fel@<span style="display: none;">.nosp@m.</span>infor<span style="display: none;">.nosp@m.</span>mati<span style="display: none;">.nosp@m.</span>k.hu-<span style="display: none;">.nosp@m.</span>berl<span style="display: none;">.nosp@m.</span>in.de</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&lt;T&gt;</td><td>Type into which the JDBC result set is transformed. </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><div class="dynheader">
 Inheritance diagram for annis.sqlgen.AbstractUnionSqlGenerator&lt; T &gt;:</div>
 <div class="dyncontent">
  <div class="center">
@@ -190,18 +198,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a7cd031a139319c75bc6770b7b97c258f inherit pro_methods_classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html#a7cd031a139319c75bc6770b7b97c258f">appendLimitOffsetClause</a> (StringBuffer sb, <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html">QueryData</a> queryData, List&lt; <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; alternative, String indent)</td></tr>
 <tr class="separator:a7cd031a139319c75bc6770b7b97c258f inherit pro_methods_classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract base class for a SQL statement which coalesces multiple alternatives using UNION. </p>
-<p>Only the SELECT, FROM, WHERE and GROUP BY clauses are used for each alternative. The ORDER BY and LIMIT/OFFSET clauses are applied to the entire query.</p>
-<p>It is the responsibility of the calling code to correctly set <a class="el" href="classannis_1_1ql_1_1parser_1_1QueryData.html#a4ad0bf0afc675716333206c738515232">QueryData.maxWidth</a> and the responsibility of the <a class="el" href="">SelectClauseSqlGenrator</a> to pad the SELECT clause if necessary.</p>
-<dl class="section author"><dt>Author</dt><dd>Viktor Rosenfeld <a href="#" onclick="location.href='mai'+'lto:'+'ros'+'en'+'fel'+'@i'+'nfo'+'rm'+'ati'+'k.'+'hu-'+'be'+'rli'+'n.'+'de'; return false;">rosen<span style="display: none;">.nosp@m.</span>fel@<span style="display: none;">.nosp@m.</span>infor<span style="display: none;">.nosp@m.</span>mati<span style="display: none;">.nosp@m.</span>k.hu-<span style="display: none;">.nosp@m.</span>berl<span style="display: none;">.nosp@m.</span>in.de</a></dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">&lt;T&gt;</td><td>Type into which the JDBC result set is transformed. </td></tr>
-  </table>
-  </dd>
-</dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a15d201ff5bce25ad046aecdc01a80534"></a>
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +234,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1sqlgen.html">sqlgen</a></li><li class="navelem"><a class="el" href="classannis_1_1sqlgen_1_1AbstractUnionSqlGenerator_3_01T_01_4.html">AbstractUnionSqlGenerator< T ></a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 09:30:08 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

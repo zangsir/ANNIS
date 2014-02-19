@@ -115,10 +115,20 @@ $(document).ready(function(){initNavTree('classannis_1_1ql_1_1parser_1_1Semantic
 <div class="title">annis.ql.parser.SemanticValidator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Performs semantic checks on the parsed query.  
- <a href="classannis_1_1ql_1_1parser_1_1SemanticValidator.html#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Performs semantic checks on the parsed query. </p>
+<ul>
+<li>
+checks if there is no search expression at all </li>
+<li>
+no binary linguistic relations are allowed if there is only one node </li>
+<li>
+checks if all nodes of an alternative are connected </li>
+<li>
+every node variable name should be given only once in an alternative </li>
+</ul>
+<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'eto'+'@h'+'u-b'+'er'+'lin'+'.d'+'e'; return false;">kraus<span style="display: none;">.nosp@m.</span>eto@<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd></dl>
+</div><div class="dynheader">
 Inheritance diagram for annis.ql.parser.SemanticValidator:</div>
 <div class="dyncontent">
  <div class="center">
@@ -143,20 +153,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ac046825816d7b1d3ff0467f2b815792a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1ql_1_1parser_1_1SemanticValidator.html#ac046825816d7b1d3ff0467f2b815792a">createTransitiveHull</a> (<a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> n, final Multimap&lt; Long, <a class="el" href="classannis_1_1model_1_1QueryNode.html">QueryNode</a> &gt; connected, Set&lt; Long &gt; transitiveHull)</td></tr>
 <tr class="separator:ac046825816d7b1d3ff0467f2b815792a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Performs semantic checks on the parsed query. </p>
-<ul>
-<li>
-checks if there is no search expression at all </li>
-<li>
-no binary linguistic relations are allowed if there is only one node </li>
-<li>
-checks if all nodes of an alternative are connected </li>
-<li>
-every node variable name should be given only once in an alternative </li>
-</ul>
-<dl class="section author"><dt>Author</dt><dd>Thomas Krause <a href="#" onclick="location.href='mai'+'lto:'+'kra'+'us'+'eto'+'@h'+'u-b'+'er'+'lin'+'.d'+'e'; return false;">kraus<span style="display: none;">.nosp@m.</span>eto@<span style="display: none;">.nosp@m.</span>hu-be<span style="display: none;">.nosp@m.</span>rlin<span style="display: none;">.nosp@m.</span>.de</a> </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aaa6b9ad7c38dd3e7dff1a7c4ad01d61a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -290,7 +287,7 @@ every node variable name should be given only once in an alternative </li>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1ql.html">ql</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1ql_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="classannis_1_1ql_1_1parser_1_1SemanticValidator.html">SemanticValidator</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 08:57:40 for ANNIS by
+    <li class="footer">Generated on Wed Feb 19 2014 09:30:08 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>
