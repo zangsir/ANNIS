@@ -1,6 +1,7 @@
 var classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent =
 [
     [ "GridEvent", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#af5c2ec5f36b8b8fa2e6accf11a3d3ced", null ],
+    [ "GridEvent", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ad488ae151e5827f39796e01033e4abfa", null ],
     [ "getCoveredIDs", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a024136a9b7746c4fef1dfc3f57f829cb", null ],
     [ "getEndTime", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a03673ec36df818f3c116bbe321aa3d56", null ],
     [ "getId", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a00d12233a82febb232c869be975e2446", null ],

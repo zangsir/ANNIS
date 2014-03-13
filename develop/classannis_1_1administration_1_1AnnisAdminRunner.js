@@ -1,6 +1,7 @@
 var classannis_1_1administration_1_1AnnisAdminRunner =
 [
     [ "OptionBuilder", "classannis_1_1administration_1_1AnnisAdminRunner_1_1OptionBuilder.html", "classannis_1_1administration_1_1AnnisAdminRunner_1_1OptionBuilder" ],
+    [ "doCleanupData", "classannis_1_1administration_1_1AnnisAdminRunner.html#a50e58e18b8e7d04af5e41da59b0f31da", null ],
     [ "doDelete", "classannis_1_1administration_1_1AnnisAdminRunner.html#a9a62c74694897586d4bfbb8662c3fede", null ],
     [ "doDeleteExampleQueries", "classannis_1_1administration_1_1AnnisAdminRunner.html#a638c9bcb66a52db1eb4df9bb6b89d800", null ],
     [ "doGenerateExampleQueries", "classannis_1_1administration_1_1AnnisAdminRunner.html#ac03b5cbf1de1a21a2b27bd5d071d0ef8", null ],

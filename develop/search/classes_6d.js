@@ -21,6 +21,7 @@ var searchData=
   ['metacolumns',['MetaColumns',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaColumns.html',1,'annis::gui::docbrowser::DocBrowserTable']]],
   ['metadataandcorpuswhereclausegenerator',['MetaDataAndCorpusWhereClauseGenerator',['../classannis_1_1sqlgen_1_1MetaDataAndCorpusWhereClauseGenerator.html',1,'annis::sqlgen']]],
   ['metadatacol',['MetaDataCol',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaDataCol.html',1,'annis::gui::docbrowser::DocBrowserTable']]],
+  ['metadatacolumn',['MetaDataColumn',['../classannis_1_1service_1_1objects_1_1MetaDataColumn.html',1,'annis::service::objects']]],
   ['metadatafilter',['MetaDataFilter',['../classannis_1_1dao_1_1MetaDataFilter.html',1,'annis::dao']]],
   ['metadatapanel',['MetaDataPanel',['../classannis_1_1gui_1_1MetaDataPanel.html',1,'annis::gui']]],
   ['metadataservice',['MetadataService',['../interfaceannis_1_1service_1_1MetadataService.html',1,'annis::service']]],

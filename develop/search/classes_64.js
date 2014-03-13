@@ -13,6 +13,7 @@ var searchData=
   ['docbrowserpanel',['DocBrowserPanel',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel.html',1,'annis::gui::docbrowser']]],
   ['docbrowsertable',['DocBrowserTable',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html',1,'annis::gui::docbrowser']]],
   ['doclinkgenerator',['DocLinkGenerator',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1DocLinkGenerator.html',1,'annis::gui::controlpanel::CorpusListPanel']]],
+  ['documentbrowserconfig',['DocumentBrowserConfig',['../classannis_1_1service_1_1objects_1_1DocumentBrowserConfig.html',1,'annis::service::objects']]],
   ['documentnamemaprow',['DocumentNameMapRow',['../classannis_1_1dao_1_1DocumentNameMapRow.html',1,'annis::dao']]],
   ['docvisualizerfetcher',['DocVisualizerFetcher',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html',1,'annis::gui::docbrowser::DocBrowserController']]],
   ['dominance',['Dominance',['../classannis_1_1sqlgen_1_1model_1_1Dominance.html',1,'annis::sqlgen::model']]],

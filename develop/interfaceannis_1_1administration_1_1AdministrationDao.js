@@ -4,6 +4,7 @@ var interfaceannis_1_1administration_1_1AdministrationDao =
     [ "StatementController", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController" ],
     [ "addCorpusAlias", "interfaceannis_1_1administration_1_1AdministrationDao.html#aab51c06df8cc70691c648c50671d4194", null ],
     [ "checkDatabaseSchemaVersion", "interfaceannis_1_1administration_1_1AdministrationDao.html#a1cb085242d26fc8aa50da6246334478d", null ],
+    [ "cleanupData", "interfaceannis_1_1administration_1_1AdministrationDao.html#a0c53c9c78d0c1ad9d82733cd3752695d", null ],
     [ "deleteCorpora", "interfaceannis_1_1administration_1_1AdministrationDao.html#a99c5b5535a840b17be5a7692c18bf356", null ],
     [ "executeSqlFromScript", "interfaceannis_1_1administration_1_1AdministrationDao.html#a9e67f16911771bcc096bb850e913acb4", null ],
     [ "executeSqlFromScript", "interfaceannis_1_1administration_1_1AdministrationDao.html#aa963cd8cdea4786da0829d56ae6febb9", null ],

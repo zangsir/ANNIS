@@ -30,7 +30,7 @@ var searchData=
   ['updateresultsperpage',['updateResultsPerPage',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a89ab9164ae355854a32a384869867054',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['updatesearchpanelconfigurationinbackground',['updateSearchPanelConfigurationInBackground',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a81a2fbfff64c983b7ac00d9f607b9ae3',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['updatesegmentationlayer',['updateSegmentationLayer',['../classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6d80108b7cd08bf3c3205bf6affdcaa4',1,'annis::gui::resultview::ResultViewPanel']]],
-  ['updatesegmentations',['updateSegmentations',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a5ba1c75ae9fe7f1357ffda8721b91cb0',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
+  ['updatesegmentations',['updateSegmentations',['../classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a32e20706640f10c3f174ebdc4679d6e3',1,'annis::gui::controlpanel::SearchOptionsPanel']]],
   ['updateshorthistory',['updateShortHistory',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a8063dc0f41f31a8bd28aa2b3d795b452',1,'annis::gui::controlpanel::QueryPanel']]],
   ['updatetable',['updateTable',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ListDialog.html#aa198f2049224c10bc3660ba3a6f455d4',1,'de::hu_berlin::german::korpling::annis::kickstarter::ListDialog']]],
   ['updateuserinformation',['updateUserInformation',['../classannis_1_1gui_1_1SearchUI.html#a49efcba938a1e073bc9fb56a78c4d64e',1,'annis::gui::SearchUI']]],

@@ -12,6 +12,7 @@ var searchData=
   ['searchbox_2ejava',['SearchBox.java',['../SearchBox_8java.html',1,'']]],
   ['searchoptionspanel_2ejava',['SearchOptionsPanel.java',['../SearchOptionsPanel_8java.html',1,'']]],
   ['searchui_2ejava',['SearchUI.java',['../SearchUI_8java.html',1,'']]],
+  ['segmentationlist_2ejava',['SegmentationList.java',['../SegmentationList_8java.html',1,'']]],
   ['selectclausesqlgenerator_2ejava',['SelectClauseSqlGenerator.java',['../SelectClauseSqlGenerator_8java.html',1,'']]],
   ['semanticvalidator_2ejava',['SemanticValidator.java',['../SemanticValidator_8java.html',1,'']]],
   ['sensitivecombobox_2ejava',['SensitiveComboBox.java',['../SensitiveComboBox_8java.html',1,'']]],

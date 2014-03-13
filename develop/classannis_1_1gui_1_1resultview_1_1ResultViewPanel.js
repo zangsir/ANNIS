@@ -5,6 +5,7 @@ var classannis_1_1gui_1_1resultview_1_1ResultViewPanel =
     [ "addQueryResult", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae516670fe777a0c9147f5f8da3f79984", null ],
     [ "createPanels", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a8ae0550f5cd8e5913e8ca3a977501480", null ],
     [ "getPaging", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ac134a1b1d36f29861045f1729983d973", null ],
+    [ "getSegmentationNames", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a0eb318a6f8e0e13bdb01b90a58186525", null ],
     [ "getVisibleTokenAnnos", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#afded96fc19165b48b294f74fd462ff44", null ],
     [ "onCompononentLoaded", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6c241562636c33880de83b0c7b050b54", null ],
     [ "resetQueryResultQueue", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af434bce97155fe4984248b62c0369f15", null ],

@@ -145,6 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0e8a399752c6b72d9197d6082a1942f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99c5b5535a840b17be5a7692c18bf356"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a99c5b5535a840b17be5a7692c18bf356">deleteCorpora</a> (List&lt; Long &gt; ids, boolean acquireLock)</td></tr>
 <tr class="separator:a99c5b5535a840b17be5a7692c18bf356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c53c9c78d0c1ad9d82733cd3752695d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a0c53c9c78d0c1ad9d82733cd3752695d">cleanupData</a> ()</td></tr>
+<tr class="memdesc:a0c53c9c78d0c1ad9d82733cd3752695d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete files not used by this instance in the data directory.  <a href="#a0c53c9c78d0c1ad9d82733cd3752695d">More...</a><br/></td></tr>
+<tr class="separator:a0c53c9c78d0c1ad9d82733cd3752695d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6097eee823270ae864344c372af3f17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#ac6097eee823270ae864344c372af3f17">initializeDatabase</a> (String host, String port, String database, String user, String password, String defaultDatabase, String superUser, String superPassword, boolean useSSL)</td></tr>
 <tr class="separator:ac6097eee823270ae864344c372af3f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a356825bb971e4c38a867c4c98d437a54"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html#a356825bb971e4c38a867c4c98d437a54">importCorpus</a> (String path, String aliasName, boolean overwrite, boolean waitForOtherTasks)</td></tr>
@@ -216,6 +219,25 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#ae9fb68a8c21b99e41785b1230376069d">annis.administration.DefaultAdministrationDao</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0c53c9c78d0c1ad9d82733cd3752695d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void annis.administration.AdministrationDao.cleanupData </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete files not used by this instance in the data directory. </p>
+
+<p>Implemented in <a class="el" href="classannis_1_1administration_1_1DefaultAdministrationDao.html#a405f05f9747b72498ddad8ed53c78f93">annis.administration.DefaultAdministrationDao</a>.</p>
 
 </div>
 </div>
@@ -561,7 +583,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1administration.html">administration</a></li><li class="navelem"><a class="el" href="interfaceannis_1_1administration_1_1AdministrationDao.html">AdministrationDao</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 16:06:35 for ANNIS by
+    <li class="footer">Generated on Thu Mar 13 2014 14:56:37 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

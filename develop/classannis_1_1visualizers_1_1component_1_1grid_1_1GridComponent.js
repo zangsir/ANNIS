@@ -3,7 +3,7 @@ var classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent =
     [ "ElementType", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent_1_1ElementType.html", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent_1_1ElementType" ],
     [ "GridComponent", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a8436c00b659cc8749f2a786b40c1463c", null ],
     [ "computeAnnotationRows", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a78ed7bbd09b56b10705443fba43c0ffa", null ],
-    [ "computeTokenRow", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#ab1247588cde06c2dae0acf63b83e7eae", null ],
+    [ "computeTokenRow", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a471aa6f1c898ae0c9d7761857003a2bc", null ],
     [ "createAnnotationGrid", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#ad5a0af09bb5ea5290f89d0a09b944857", null ],
     [ "extractTextForToken", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#abe42ebbef59ad949c59570f351285534", null ],
     [ "getGrid", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a0def17a32067756c3d2c4fdb5b5a62e7", null ],

@@ -125,8 +125,8 @@ Static Public Member Functions</h2></td></tr>
 ArrayList&lt; <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a2b001f713698969ba0023bfa8a63ea76">parseSalt</a> (<a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html">VisualizerInput</a> input, boolean showSpanAnnos, boolean showTokenAnnos, List&lt; String &gt; annotationNames, Set&lt; String &gt; mediaLayer, boolean unsetValueForMedia, long startTokenIndex, long endTokenIndex, <a class="el" href="interfaceannis_1_1libgui_1_1media_1_1PDFController.html">PDFController</a> pdfController, STextualDS text)</td></tr>
 <tr class="memdesc:a2b001f713698969ba0023bfa8a63ea76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Salt document graph to rows.  <a href="#a2b001f713698969ba0023bfa8a63ea76">More...</a><br/></td></tr>
 <tr class="separator:a2b001f713698969ba0023bfa8a63ea76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb6c876988553981dd5bb8a9001cbce0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#aeb6c876988553981dd5bb8a9001cbce0">removeEmptySpace</a> (LinkedHashMap&lt; String, ArrayList&lt; <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a> &gt;&gt; rowsByAnnotation)</td></tr>
-<tr class="separator:aeb6c876988553981dd5bb8a9001cbce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b64d019ea254ed0bd606ad40b75f5c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a79b64d019ea254ed0bd606ad40b75f5c">removeEmptySpace</a> (LinkedHashMap&lt; String, ArrayList&lt; <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a> &gt;&gt; rowsByAnnotation, <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a> tokenRow)</td></tr>
+<tr class="separator:a79b64d019ea254ed0bd606ad40b75f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b6de82f51a271e004ed970fdc9b2429"><td class="memItemLeft" align="right" valign="top">static List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a7b6de82f51a271e004ed970fdc9b2429">computeDisplayAnnotations</a> (<a class="el" href="classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html">VisualizerInput</a> input, Class&lt;?extends SNode &gt; type)</td></tr>
 <tr class="memdesc:a7b6de82f51a271e004ed970fdc9b2429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the annotations to display according to the mappings configuration.  <a href="#a7b6de82f51a271e004ed970fdc9b2429">More...</a><br/></td></tr>
 <tr class="separator:a7b6de82f51a271e004ed970fdc9b2429"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +146,9 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a3bf618856af99e1d6dcafd3f5ad620a2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a3bf618856af99e1d6dcafd3f5ad620a2">sortEventsByTokenIndex</a> (<a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a> row)</td></tr>
 <tr class="memdesc:a3bf618856af99e1d6dcafd3f5ad620a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort events of a row.  <a href="#a3bf618856af99e1d6dcafd3f5ad620a2">More...</a><br/></td></tr>
 <tr class="separator:a3bf618856af99e1d6dcafd3f5ad620a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3086ae87d6e98fa1496f6df6ac6dd2a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#ad3086ae87d6e98fa1496f6df6ac6dd2a">splitRowsOnIslands</a> (<a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a> row, final SDocumentGraph graph, STextualDS text, long startTokenIndex, long endTokenIndex)</td></tr>
+<tr class="memdesc:ad3086ae87d6e98fa1496f6df6ac6dd2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits events of a row if they overlap an island.  <a href="#ad3086ae87d6e98fa1496f6df6ac6dd2a">More...</a><br/></td></tr>
+<tr class="separator:ad3086ae87d6e98fa1496f6df6ac6dd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726c5cfa0726aa707769963ac8742727"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a726c5cfa0726aa707769963ac8742727">splitRowsOnGaps</a> (<a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a> row, final SDocumentGraph graph, long startTokenIndex, long endTokenIndex)</td></tr>
 <tr class="memdesc:a726c5cfa0726aa707769963ac8742727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits events of a row if they contain a gap.  <a href="#a726c5cfa0726aa707769963ac8742727">More...</a><br/></td></tr>
 <tr class="separator:a726c5cfa0726aa707769963ac8742727"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -549,7 +552,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeb6c876988553981dd5bb8a9001cbce0"></a>
+<a class="anchor" id="a79b64d019ea254ed0bd606ad40b75f5c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -560,8 +563,18 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">static void annis.visualizers.component.grid.EventExtractor.removeEmptySpace </td>
           <td>(</td>
           <td class="paramtype">LinkedHashMap&lt; String, ArrayList&lt; <a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>rowsByAnnotation</em>)</td><td></td>
+          <td class="paramname"><em>rowsByAnnotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a>&#160;</td>
+          <td class="paramname"><em>tokenRow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -664,6 +677,71 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad3086ae87d6e98fa1496f6df6ac6dd2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void annis.visualizers.component.grid.EventExtractor.splitRowsOnIslands </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classannis_1_1gui_1_1widgets_1_1grid_1_1Row.html">Row</a>&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final SDocumentGraph&#160;</td>
+          <td class="paramname"><em>graph</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">STextualDS&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>startTokenIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>endTokenIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Splits events of a row if they overlap an island. </p>
+<p>Islands are areas between the token which are included in the result.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">row</td><td></td></tr>
+    <tr><td class="paramname">graph</td><td></td></tr>
+    <tr><td class="paramname">text</td><td></td></tr>
+    <tr><td class="paramname">startTokenIndex</td><td>token index of the first token in the match </td></tr>
+    <tr><td class="paramname">endTokenIndex</td><td>token index of the last token in the match </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a970576db26984a27e9f5dd1bf678536f"></a>
 <div class="memitem">
@@ -694,7 +772,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers.html">visualizers</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1component.html">component</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1visualizers_1_1component_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html">EventExtractor</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 16:06:38 for ANNIS by
+    <li class="footer">Generated on Thu Mar 13 2014 14:56:39 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

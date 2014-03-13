@@ -3,6 +3,7 @@ var searchData=
   ['factory',['factory',['../classannis_1_1ql_1_1parser_1_1ListTokenSource.html#a01374d8fe1f3fec721286d696aeaa5f9',1,'annis::ql::parser::ListTokenSource']]],
   ['facts_5ftable',['FACTS_TABLE',['../classannis_1_1sqlgen_1_1TableAccessStrategy.html#ad59ea3927e7645b8146912ea46e7f5ca',1,'annis::sqlgen::TableAccessStrategy']]],
   ['false',['FALSE',['../enumannis_1_1administration_1_1DefaultAdministrationDao_1_1EXAMPLE__QUERIES__CONFIG.html#ae85d3a133de8b9b13d68aa055fd95010',1,'annis::administration::DefaultAdministrationDao::EXAMPLE_QUERIES_CONFIG']]],
+  ['feat_5ffirst_5fnode_5fsegmentation_5fchain',['FEAT_FIRST_NODE_SEGMENTATION_CHAIN',['../classannis_1_1model_1_1AnnisConstants.html#ac2310ed1f069aa9ca47b2d18759aa52d',1,'annis::model::AnnisConstants']]],
   ['feat_5fmatchedids',['FEAT_MATCHEDIDS',['../classannis_1_1model_1_1AnnisConstants.html#ad50e7122975d5e1696724e6436f87952',1,'annis::model::AnnisConstants']]],
   ['feat_5fmatchednode',['FEAT_MATCHEDNODE',['../classannis_1_1model_1_1AnnisConstants.html#a339eab973c2a8640e0a9de3d068d1373',1,'annis::model::AnnisConstants']]],
   ['feat_5frelannis_5fedge',['FEAT_RELANNIS_EDGE',['../classannis_1_1model_1_1AnnisConstants.html#ade1b46ead43a0898ec7b6b6fbfd3c281',1,'annis::model::AnnisConstants']]],

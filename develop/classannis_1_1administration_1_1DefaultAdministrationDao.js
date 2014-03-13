@@ -18,6 +18,7 @@ var classannis_1_1administration_1_1DefaultAdministrationDao =
     [ "checkAndRemoveTopLevelCorpus", "classannis_1_1administration_1_1DefaultAdministrationDao.html#aa9dcc30c502f94ca5f6e097f048aaece", null ],
     [ "checkDatabaseSchemaVersion", "classannis_1_1administration_1_1DefaultAdministrationDao.html#ae9fb68a8c21b99e41785b1230376069d", null ],
     [ "checkTopLevelCorpus", "classannis_1_1administration_1_1DefaultAdministrationDao.html#aa48e53e8e7be0b6842fe5f804a134f0c", null ],
+    [ "cleanupData", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a405f05f9747b72498ddad8ed53c78f93", null ],
     [ "clusterFacts", "classannis_1_1administration_1_1DefaultAdministrationDao.html#ae91d64fd008d621c1753e53436ece205", null ],
     [ "computeCorpusPath", "classannis_1_1administration_1_1DefaultAdministrationDao.html#ad9829a2e74de612449f682d37370027d", null ],
     [ "computeCorpusStatistics", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a745178137401764af5607e8594ee6f2d", null ],

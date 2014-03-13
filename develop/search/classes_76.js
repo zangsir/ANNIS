@@ -15,6 +15,7 @@ var searchData=
   ['visparserexception',['VisParserException',['../classannis_1_1visualizers_1_1htmlvis_1_1VisParserException.html',1,'annis::visualizers::htmlvis']]],
   ['visualizationdefinition',['VisualizationDefinition',['../classannis_1_1visualizers_1_1htmlvis_1_1VisualizationDefinition.html',1,'annis::visualizers::htmlvis']]],
   ['visualizationtoggle',['VisualizationToggle',['../interfaceannis_1_1libgui_1_1VisualizationToggle.html',1,'annis::libgui']]],
+  ['visualizer',['Visualizer',['../classannis_1_1service_1_1objects_1_1Visualizer.html',1,'annis::service::objects']]],
   ['visualizercontextchanger',['VisualizerContextChanger',['../interfaceannis_1_1gui_1_1resultview_1_1VisualizerContextChanger.html',1,'annis::gui::resultview']]],
   ['visualizerinput',['VisualizerInput',['../classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html',1,'annis::libgui::visualizers']]],
   ['visualizerpanel',['VisualizerPanel',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html',1,'annis::gui::resultview']]],

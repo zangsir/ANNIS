@@ -14,6 +14,7 @@ var searchData=
   ['visparserexception_2ejava',['VisParserException.java',['../VisParserException_8java.html',1,'']]],
   ['visualizationdefinition_2ejava',['VisualizationDefinition.java',['../VisualizationDefinition_8java.html',1,'']]],
   ['visualizationtoggle_2ejava',['VisualizationToggle.java',['../VisualizationToggle_8java.html',1,'']]],
+  ['visualizer_2ejava',['Visualizer.java',['../Visualizer_8java.html',1,'']]],
   ['visualizercontextchanger_2ejava',['VisualizerContextChanger.java',['../VisualizerContextChanger_8java.html',1,'']]],
   ['visualizerinput_2ejava',['VisualizerInput.java',['../VisualizerInput_8java.html',1,'']]],
   ['visualizerpanel_2ejava',['VisualizerPanel.java',['../VisualizerPanel_8java.html',1,'']]],

@@ -30,6 +30,7 @@ var searchData=
   ['withclausesqlgenerator_3c_20t_20_3e',['WithClauseSqlGenerator&lt; T &gt;',['../interfaceannis_1_1sqlgen_1_1WithClauseSqlGenerator_3_01T_01_4.html',1,'annis::sqlgen']]],
   ['worker',['worker',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a4140062f935f48ae23d46f13aea146b7',1,'de::hu_berlin::german::korpling::annis::kickstarter::ImportDialog']]],
   ['worsttimeinmilliseconds',['worstTimeInMilliseconds',['../classannis_1_1AnnisRunner_1_1Benchmark.html#ab374f3982bb3a1669f22e07735e369e5',1,'annis::AnnisRunner::Benchmark']]],
+  ['wrapcss',['wrapCSS',['../classannis_1_1libgui_1_1AnnisBaseUI.html#ae1b0017a8adffa1033142cdebb85df6c',1,'annis::libgui::AnnisBaseUI']]],
   ['writealldepedges',['writeAllDepEdges',['../classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielRegularDependencyTree.html#ada172f6f3af2d95a838d66a628937917',1,'annis::visualizers::component::dependency::ProielRegularDependencyTree']]],
   ['writealledges',['writeAllEdges',['../classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielDependecyTree.html#a1aff2a2c94a3a925069e7596bb1593ac',1,'annis::visualizers::component::dependency::ProielDependecyTree']]],
   ['writeallnodes',['writeAllNodes',['../classannis_1_1visualizers_1_1component_1_1dependency_1_1ProielDependecyTree.html#ad510212ebda0d6ffd6fbe7830ef9065e',1,'annis::visualizers::component::dependency::ProielDependecyTree']]],

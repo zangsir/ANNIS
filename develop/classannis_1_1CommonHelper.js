@@ -6,7 +6,6 @@ var classannis_1_1CommonHelper =
     [ "getCorpusNames", "classannis_1_1CommonHelper.html#af51bf9bb55aa49c71456fc0ecf2e3f0e", null ],
     [ "getCorpusPath", "classannis_1_1CommonHelper.html#ad69feb705a1581b280b6a746aa0f2d47", null ],
     [ "getCorpusPath", "classannis_1_1CommonHelper.html#a319db82d6875845db877fd5ac001fcb8", null ],
-    [ "getOrderingTypes", "classannis_1_1CommonHelper.html#a1528df212172ccc634f3f4dfaca47f1a", null ],
     [ "getSafeFileName", "classannis_1_1CommonHelper.html#a95e8accc8ae1fa1adc6e591991ae1b90", null ],
     [ "getSortedSegmentationNodes", "classannis_1_1CommonHelper.html#a88372a8e8af24eaecbd7104fe7034d8f", null ],
     [ "getSpannedText", "classannis_1_1CommonHelper.html#ad36e2cccb5ce2d5f7b1f7502ba19b6b6", null ],

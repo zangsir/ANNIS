@@ -2,6 +2,7 @@ var classannis_1_1dao_1_1objects_1_1AnnotatedSpan =
 [
     [ "AnnotatedSpan", "classannis_1_1dao_1_1objects_1_1AnnotatedSpan.html#aebdec440154ffb6ecd23f4a88e6d7888", null ],
     [ "AnnotatedSpan", "classannis_1_1dao_1_1objects_1_1AnnotatedSpan.html#a6a4a2f746778f57dc03947c6ad9edeeb", null ],
+    [ "AnnotatedSpan", "classannis_1_1dao_1_1objects_1_1AnnotatedSpan.html#af51574d647c95041c2c917f14238901a", null ],
     [ "getAnnotations", "classannis_1_1dao_1_1objects_1_1AnnotatedSpan.html#a1c0ebdf404f5afe7d80ee59a4979b1ca", null ],
     [ "getCoveredText", "classannis_1_1dao_1_1objects_1_1AnnotatedSpan.html#a05d8b4e2bc00ea41432799fce2e38fba", null ],
     [ "getId", "classannis_1_1dao_1_1objects_1_1AnnotatedSpan.html#ae757af88b8ae111b6b2574ee77ae47e1", null ],

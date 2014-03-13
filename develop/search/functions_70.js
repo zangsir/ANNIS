@@ -13,7 +13,7 @@ var searchData=
   ['parsefragment',['parseFragment',['../classannis_1_1libgui_1_1Helper.html#aa44e6283c4e87a2ec31131b4f50d9f69',1,'annis::libgui::Helper']]],
   ['parsefromheader',['parseFromHeader',['../classannis_1_1gui_1_1requesthandler_1_1ContentRange.html#a6dde280f34c3e5dcfe47755ad26a4556',1,'annis::gui::requesthandler::ContentRange']]],
   ['parsefromstring',['parseFromString',['../classannis_1_1service_1_1objects_1_1Match.html#a0369fa5c774709354a378e767756dc32',1,'annis::service::objects::Match']]],
-  ['parsemappings',['parseMappings',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserController.html#aaf4499441cbcf03cabe4fd9a4a012f5a',1,'annis::gui::docbrowser::DocBrowserController']]],
+  ['parsemappings',['parseMappings',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserController.html#a3f1b3426c223df35ed0f02465cf19e60',1,'annis::gui::docbrowser::DocBrowserController']]],
   ['parsemediarange',['parseMediaRange',['../classcom_1_1google_1_1mimeparse_1_1MIMEParse.html#a4cb9a676a3df724fa25820d408341074',1,'com::google::mimeparse::MIMEParse']]],
   ['parsemimetype',['parseMimeType',['../classcom_1_1google_1_1mimeparse_1_1MIMEParse.html#a77e275cc47e9b5b74a6a91e367f74d9a',1,'com::google::mimeparse::MIMEParse']]],
   ['parsenodes',['parseNodes',['../classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#aa3988905777e7f59da54390c0b327830',1,'annis::service::internal::QueryServiceImpl']]],

@@ -11,6 +11,7 @@ var searchData=
   ['docbrowsercontroller_2ejava',['DocBrowserController.java',['../DocBrowserController_8java.html',1,'']]],
   ['docbrowserpanel_2ejava',['DocBrowserPanel.java',['../DocBrowserPanel_8java.html',1,'']]],
   ['docbrowsertable_2ejava',['DocBrowserTable.java',['../DocBrowserTable_8java.html',1,'']]],
+  ['documentbrowserconfig_2ejava',['DocumentBrowserConfig.java',['../DocumentBrowserConfig_8java.html',1,'']]],
   ['documentnamemaprow_2ejava',['DocumentNameMapRow.java',['../DocumentNameMapRow_8java.html',1,'']]],
   ['dominance_2ejava',['Dominance.java',['../Dominance_8java.html',1,'']]],
   ['dotgraphvisualizer_2ejava',['DotGraphVisualizer.java',['../DotGraphVisualizer_8java.html',1,'']]],

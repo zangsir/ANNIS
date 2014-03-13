@@ -167,6 +167,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa694a605bcb4a19db0d037490262ebdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8aa5835058f6bb8906dd11d3ab77da8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classannis_1_1service_1_1objects_1_1AnnisAttribute.html">AnnisAttribute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#ad8aa5835058f6bb8906dd11d3ab77da8">annotations</a> (@PathParam(&quot;top&quot;) String toplevelCorpus,@DefaultValue(&quot;false&quot;)@QueryParam(&quot;fetchvalues&quot;) String fetchValues,@DefaultValue(&quot;false&quot;)@QueryParam(&quot;onlymostfrequentvalues&quot;) String onlyMostFrequentValues)  throws WebApplicationException   </td></tr>
 <tr class="separator:ad8aa5835058f6bb8906dd11d3ab77da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16bc31c5afa446b5631a9c04be85f079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1service_1_1objects_1_1SegmentationList.html">SegmentationList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a16bc31c5afa446b5631a9c04be85f079">segmentationNames</a> (@PathParam(&quot;top&quot;) String toplevelCorpus)  throws WebApplicationException   </td></tr>
+<tr class="separator:a16bc31c5afa446b5631a9c04be85f079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b43eb6a17582c2a522c5fefb9627b75"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a9b43eb6a17582c2a522c5fefb9627b75">check</a> (@QueryParam(&quot;q&quot;) String query)</td></tr>
 <tr class="memdesc:a9b43eb6a17582c2a522c5fefb9627b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if this is a valid query or throw exception when invalid.  <a href="#a9b43eb6a17582c2a522c5fefb9627b75">More...</a><br/></td></tr>
 <tr class="separator:a9b43eb6a17582c2a522c5fefb9627b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +214,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adcc27e462cd020ea7f602ebbcdf6e942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1service_1_1objects_1_1RawTextWrapper.html">RawTextWrapper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#adcc27e462cd020ea7f602ebbcdf6e942">getRawText</a> (@PathParam(&quot;top&quot;) String top,@PathParam(&quot;docname&quot;) String docname)</td></tr>
 <tr class="memdesc:adcc27e462cd020ea7f602ebbcdf6e942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches the raw text from the text.tab file.  <a href="#adcc27e462cd020ea7f602ebbcdf6e942">More...</a><br/></td></tr>
 <tr class="separator:adcc27e462cd020ea7f602ebbcdf6e942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade17f982b27af8dad82690021b5b5fb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classannis_1_1service_1_1objects_1_1DocumentBrowserConfig.html">DocumentBrowserConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#ade17f982b27af8dad82690021b5b5fb0">getDocumentBrowserConfig</a> (@PathParam(&quot;corpus&quot;) String corpus)</td></tr>
+<tr class="separator:ade17f982b27af8dad82690021b5b5fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interfaceannis_1_1service_1_1QueryService"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceannis_1_1service_1_1QueryService')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interfaceannis_1_1service_1_1QueryService.html">annis.service.QueryService</a></td></tr>
 <tr class="memitem:af3a82ae09a56dc476fe04b1025f700ec inherit pub_methods_interfaceannis_1_1service_1_1QueryService"><td class="memItemLeft" align="right" valign="top">Response&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceannis_1_1service_1_1QueryService.html#af3a82ae09a56dc476fe04b1025f700ec">count</a> (String q, String corpora)</td></tr>
 <tr class="memdesc:af3a82ae09a56dc476fe04b1025f700ec inherit pub_methods_interfaceannis_1_1service_1_1QueryService"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count matches of an AQL query.  <a href="#af3a82ae09a56dc476fe04b1025f700ec">More...</a><br/></td></tr>
@@ -982,6 +986,22 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ade17f982b27af8dad82690021b5b5fb0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classannis_1_1service_1_1objects_1_1DocumentBrowserConfig.html">DocumentBrowserConfig</a> annis.service.internal.QueryServiceImpl.getDocumentBrowserConfig </td>
+          <td>(</td>
+          <td class="paramtype">@PathParam(&quot;corpus&quot;) String&#160;</td>
+          <td class="paramname"><em>corpus</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aa7eec41b735a4ac2c04a561e353417a3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1467,6 +1487,22 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a16bc31c5afa446b5631a9c04be85f079"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classannis_1_1service_1_1objects_1_1SegmentationList.html">SegmentationList</a> annis.service.internal.QueryServiceImpl.segmentationNames </td>
+          <td>(</td>
+          <td class="paramtype">@PathParam(&quot;top&quot;) String&#160;</td>
+          <td class="paramname"><em>toplevelCorpus</em>)</td><td></td>
+          <td> throws WebApplicationException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a7315a52416ce8e9bf08460cb62299ac6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1855,7 +1891,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceannis.html">annis</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service.html">service</a></li><li class="navelem"><a class="el" href="namespaceannis_1_1service_1_1internal.html">internal</a></li><li class="navelem"><a class="el" href="classannis_1_1service_1_1internal_1_1QueryServiceImpl.html">QueryServiceImpl</a></li>
-    <li class="footer">Generated on Wed Feb 19 2014 16:06:37 for ANNIS by
+    <li class="footer">Generated on Thu Mar 13 2014 14:56:39 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

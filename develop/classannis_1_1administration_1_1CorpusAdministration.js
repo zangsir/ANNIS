@@ -3,6 +3,7 @@ var classannis_1_1administration_1_1CorpusAdministration =
     [ "ImportStatsImpl", "classannis_1_1administration_1_1CorpusAdministration_1_1ImportStatsImpl.html", "classannis_1_1administration_1_1CorpusAdministration_1_1ImportStatsImpl" ],
     [ "CorpusAdministration", "classannis_1_1administration_1_1CorpusAdministration.html#a37de7e281c2b0aea2a28b8b1f7ccdede", null ],
     [ "checkDatabaseSchemaVersion", "classannis_1_1administration_1_1CorpusAdministration.html#a875f51a546795e05a33c94be88c6e194", null ],
+    [ "cleanupData", "classannis_1_1administration_1_1CorpusAdministration.html#a12b0e2baf4f7f85e7f8965f317a0db47", null ],
     [ "createZIPOutputDir", "classannis_1_1administration_1_1CorpusAdministration.html#a97d5ebbbbea5b98a2e471711268239dc", null ],
     [ "deleteCorpora", "classannis_1_1administration_1_1CorpusAdministration.html#a9dd37c82371542f162efc52b72ea035c", null ],
     [ "getAdministrationDao", "classannis_1_1administration_1_1CorpusAdministration.html#a4184789b73153cd1537def279d48c2cf", null ],
