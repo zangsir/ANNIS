@@ -5,6 +5,7 @@ var classannis_1_1gui_1_1ExportPanel =
     [ "ExportButtonListener", "classannis_1_1gui_1_1ExportPanel_1_1ExportButtonListener.html", "classannis_1_1gui_1_1ExportPanel_1_1ExportButtonListener" ],
     [ "ExporterSelectionHelpListener", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener.html", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener" ],
     [ "ExportPanel", "classannis_1_1gui_1_1ExportPanel.html#afbbea6037e698aa72636963aeeca177a", null ],
+    [ "attach", "classannis_1_1gui_1_1ExportPanel.html#a752d416fa4a491302226db728822f96e", null ],
     [ "detach", "classannis_1_1gui_1_1ExportPanel.html#adc10de534db1b475aebf0c9d45af2f0c", null ],
     [ "handleExportProgress", "classannis_1_1gui_1_1ExportPanel.html#a4808699eeb02bbfd4d24fe10474b69d4", null ],
     [ "initHelpMessages", "classannis_1_1gui_1_1ExportPanel.html#aaaaf2670b2c9184fb2acdb482b03836a", null ],
@@ -29,5 +30,6 @@ var classannis_1_1gui_1_1ExportPanel =
     [ "queryPanel", "classannis_1_1gui_1_1ExportPanel.html#ae48d46328cb8a3da3674c37e64725353", null ],
     [ "tmpOutputFile", "classannis_1_1gui_1_1ExportPanel.html#ae54ef487f2437deb876f57340260834c", null ],
     [ "txtAnnotationKeys", "classannis_1_1gui_1_1ExportPanel.html#a950ae36ad9728fc260c47cd25e54ece3", null ],
-    [ "txtParameters", "classannis_1_1gui_1_1ExportPanel.html#a120804a0936b6994d805b10295edc9c6", null ]
+    [ "txtParameters", "classannis_1_1gui_1_1ExportPanel.html#a120804a0936b6994d805b10295edc9c6", null ],
+    [ "ui", "classannis_1_1gui_1_1ExportPanel.html#a976290090b06e398a7a7023268f5cbd2", null ]
 ];

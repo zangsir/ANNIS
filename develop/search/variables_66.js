@@ -32,11 +32,13 @@ var searchData=
   ['frame',['frame',['../classannis_1_1gui_1_1flatquerybuilder_1_1ValueField.html#a61fb071dc9c9ff277b7860c05638b246',1,'annis::gui::flatquerybuilder::ValueField']]],
   ['frc',['FRC',['../classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend.html#a9d9589fb62484b5b8f06f3f7a88b62e3',1,'annis::visualizers::component::tree::backends::staticimg::Java2dBackend']]],
   ['freqdefinition',['freqDefinition',['../classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel.html#a8e22b80b0a67d6c4d9ade5db924d1347',1,'annis.gui.frequency.FrequencyResultPanel.freqDefinition()'],['../classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel_1_1CSVResource.html#a93347eae5a283bcd8f6cf6277adef4ae',1,'annis.gui.frequency.FrequencyResultPanel.CSVResource.freqDefinition()']]],
+  ['frequencyfont',['frequencyFont',['../classannis_1_1libgui_1_1InstanceConfig.html#abcd27d7f4662abe0858d92624887e6d0',1,'annis::libgui::InstanceConfig']]],
   ['frequencypanel',['frequencyPanel',['../classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a4caee13b0d2bbc440c57ed2bc25166b3',1,'annis::gui::controlpanel::QueryPanel']]],
   ['frequencysqlgenerator',['frequencySqlGenerator',['../classannis_1_1AnnisRunner.html#a21c1720bbb3949eb799973f08bf23c76',1,'annis.AnnisRunner.frequencySqlGenerator()'],['../classannis_1_1dao_1_1SpringAnnisDao.html#a99dab332cfa6ffd992f20f1fb2a00fb8',1,'annis.dao.SpringAnnisDao.frequencySqlGenerator()']]],
   ['fromclausesqlgenerators',['fromClauseSqlGenerators',['../classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html#ab70aac12cceeb30aa72d5f9bb7014fa9',1,'annis::sqlgen::AbstractSqlGenerator&lt; T &gt;']]],
   ['fullpattern',['fullPattern',['../classannis_1_1gui_1_1requesthandler_1_1ContentRange.html#a5a9081a7f30d2c9271e0e07414c203ea',1,'annis::gui::requesthandler::ContentRange']]],
   ['functioncall',['functionCall',['../classannis_1_1AnnisRunner_1_1Benchmark.html#a6c63dc049652590bc27cb8d765f0e6bf',1,'annis::AnnisRunner::Benchmark']]],
+  ['future',['future',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob.html#a4c5cb8d95efba35d0490b4897a2e0af7',1,'annis::gui::resultview::VisualizerPanel::BackgroundJob']]],
   ['futurecount',['futureCount',['../classannis_1_1gui_1_1QueryController.html#aa0fa823aa07d36a1bdbcf9d3c69b9fc1',1,'annis::gui::QueryController']]],
   ['futurematches',['futureMatches',['../classannis_1_1gui_1_1resultfetch_1_1ResultFetchJob.html#a5d6e5d79325ba8e4ec4d00fa4b56b580',1,'annis::gui::resultfetch::ResultFetchJob']]]
 ];

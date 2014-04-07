@@ -76,7 +76,7 @@ var searchData=
   ['outputtoken',['outputToken',['../classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#ad229beef8d1514ed3f8b733b7cc5af28',1,'annis::visualizers::htmlvis::SpanHTMLOutputter']]],
   ['outputtoplevelcorpus',['outputToplevelCorpus',['../classannis_1_1sqlgen_1_1FindSqlGenerator.html#a4caad4947e23d5eeadc09fe1e9ca47f5',1,'annis::sqlgen::FindSqlGenerator']]],
   ['overlap',['Overlap',['../classannis_1_1sqlgen_1_1model_1_1Overlap.html',1,'annis::sqlgen::model']]],
-  ['overlap',['OVERLAP',['../enumannis_1_1gui_1_1querybuilder_1_1AQLOperator.html#a896379bae9e76691004de1e44cf35e89',1,'annis.gui.querybuilder.AQLOperator.OVERLAP()'],['../classannis_1_1sqlgen_1_1model_1_1Overlap.html#a964cf1e875e530d9d3039decf5a81c6c',1,'annis.sqlgen.model.Overlap.Overlap()']]],
+  ['overlap',['Overlap',['../classannis_1_1sqlgen_1_1model_1_1Overlap.html#a964cf1e875e530d9d3039decf5a81c6c',1,'annis.sqlgen.model.Overlap.Overlap()'],['../enumannis_1_1gui_1_1querybuilder_1_1AQLOperator.html#a896379bae9e76691004de1e44cf35e89',1,'annis.gui.querybuilder.AQLOperator.OVERLAP()']]],
   ['overlap_2ejava',['Overlap.java',['../Overlap_8java.html',1,'']]],
   ['overlapforonerange',['overlapForOneRange',['../classannis_1_1sqlgen_1_1CommonAnnotateWithClauseGenerator.html#a70ad430c337a15a36febeefe8a55f144',1,'annis::sqlgen::CommonAnnotateWithClauseGenerator']]],
   ['overwrite',['overwrite',['../classannis_1_1service_1_1objects_1_1ImportJob.html#a2f4cf464bc0f42f842577d7e75259776',1,'annis::service::objects::ImportJob']]]

@@ -53,5 +53,6 @@ var classannis_1_1libgui_1_1visualizers_1_1VisualizerInput =
     [ "resourcePathTemplate", "classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ac239c68c9b46ad759c7d12bb2e13f24d", null ],
     [ "result", "classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a74d341e89359e29c275fb07809d1323f", null ],
     [ "segmentationName", "classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a0949ead823e815160ed79effdda6425a", null ],
+    [ "serialVersionUID", "classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#a10ab826f6b81e636b4b05f05ad665e21", null ],
     [ "tokenAnnos", "classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#ac5714fa8d0c4e6e1fdac006ceedaaace", null ]
 ];

@@ -42,6 +42,7 @@ var classannis_1_1gui_1_1resultview_1_1SingleResultPanel =
     [ "resultNumber", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a72bd24de2e086c1c57f8012ffdcf9774", null ],
     [ "rghtCtxCombo", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#afb96f39823642ddf9e6fc6cea4eecb66", null ],
     [ "segmentationName", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a41d484fe4f301f69eb1e8cce2220c514", null ],
+    [ "serialVersionUID", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aeea026ce2fd030b2b9f43964460d9443", null ],
     [ "visibleTokenAnnos", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a64289cfed3fbe64a025bfd459ba387af", null ],
     [ "visualizers", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aa93862e61eb37b4dde7f07c4b459b67a", null ],
     [ "visualizerState", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a4cceedaabe52d74a732e4cddd9dd8816", null ]

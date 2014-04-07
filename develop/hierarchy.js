@@ -238,7 +238,6 @@ var hierarchy =
     [ "annis.gui.components.medialement.MediaElement", "enumannis_1_1gui_1_1components_1_1medialement_1_1MediaElement.html", null ],
     [ "annis.gui.docbrowser.DocBrowserTable.MetaColumns", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaColumns.html", null ],
     [ "annis.gui.docbrowser.DocBrowserTable.MetaDataCol", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaDataCol.html", null ],
-    [ "annis.service.objects.MetaDataColumn", "classannis_1_1service_1_1objects_1_1MetaDataColumn.html", null ],
     [ "annis.service.MetadataService", "interfaceannis_1_1service_1_1MetadataService.html", [
       [ "annis.service.internal.MetadataServiceImpl", "classannis_1_1service_1_1internal_1_1MetadataServiceImpl.html", null ]
     ] ],
@@ -256,7 +255,6 @@ var hierarchy =
     [ "annis.visualizers.component.tree.NodeStructureData", "classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html", null ],
     [ "annis.ql.parser.LogicClause.Operator", "enumannis_1_1ql_1_1parser_1_1LogicClause_1_1Operator.html", null ],
     [ "annis.administration.AnnisAdminRunner.OptionBuilder", "classannis_1_1administration_1_1AnnisAdminRunner_1_1OptionBuilder.html", null ],
-    [ "annis.service.objects.OrderBy", "classannis_1_1service_1_1objects_1_1OrderBy.html", null ],
     [ "OrderByClauseSqlGenerator", null, [
       [ "annis.sqlgen.AnnotateInnerQuerySqlGenerator", "classannis_1_1sqlgen_1_1AnnotateInnerQuerySqlGenerator.html", null ],
       [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ],
@@ -413,8 +411,8 @@ var hierarchy =
     [ "Thread", null, [
       [ "annis.service.internal.ImportWorker", "classannis_1_1service_1_1internal_1_1ImportWorker.html", null ]
     ] ],
-    [ "annis.visualizers.iframe.partitur.TimeHelper", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1TimeHelper.html", null ],
     [ "annis.libgui.media.TimeHelper", "classannis_1_1libgui_1_1media_1_1TimeHelper.html", null ],
+    [ "annis.visualizers.iframe.partitur.TimeHelper", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1TimeHelper.html", null ],
     [ "annis.model.DataObject.Transient", "interfaceannis_1_1model_1_1DataObject_1_1Transient.html", null ],
     [ "annis.visualizers.component.tree.TreeElementLabeler", "interfaceannis_1_1visualizers_1_1component_1_1tree_1_1TreeElementLabeler.html", [
       [ "annis.visualizers.component.tree.TigerTreeVisualizer.DefaultLabeler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultLabeler.html", null ]
@@ -440,7 +438,6 @@ var hierarchy =
     [ "annis.visualizers.iframe.dependency.Vector2", "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1Vector2.html", null ],
     [ "annis.visualizers.component.tree.VerticalOrientation", "enumannis_1_1visualizers_1_1component_1_1tree_1_1VerticalOrientation.html", null ],
     [ "annis.visualizers.htmlvis.VisualizationDefinition", "classannis_1_1visualizers_1_1htmlvis_1_1VisualizationDefinition.html", null ],
-    [ "annis.service.objects.Visualizer", "classannis_1_1service_1_1objects_1_1Visualizer.html", null ],
     [ "annis.WekaHelper", "classannis_1_1WekaHelper.html", null ],
     [ "WhereClauseSqlGenerator", null, [
       [ "annis.sqlgen.AbstractWhereClauseGenerator", "classannis_1_1sqlgen_1_1AbstractWhereClauseGenerator.html", null ],
@@ -950,7 +947,10 @@ var hierarchy =
       [ "annis.service.objects.Match", "classannis_1_1service_1_1objects_1_1Match.html", null ],
       [ "annis.service.objects.MatchAndDocumentCount", "classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html", null ],
       [ "annis.service.objects.MatchGroup", "classannis_1_1service_1_1objects_1_1MatchGroup.html", null ],
+      [ "annis.service.objects.MetaDataColumn", "classannis_1_1service_1_1objects_1_1MetaDataColumn.html", null ],
+      [ "annis.service.objects.OrderBy", "classannis_1_1service_1_1objects_1_1OrderBy.html", null ],
       [ "annis.service.objects.RawTextWrapper", "classannis_1_1service_1_1objects_1_1RawTextWrapper.html", null ],
+      [ "annis.service.objects.Visualizer", "classannis_1_1service_1_1objects_1_1Visualizer.html", null ],
       [ "annis.visualizers.component.graph.DebugVisualizer", "classannis_1_1visualizers_1_1component_1_1graph_1_1DebugVisualizer.html", null ],
       [ "annis.visualizers.component.tree.AnnisGraphTools", "classannis_1_1visualizers_1_1component_1_1tree_1_1AnnisGraphTools.html", null ],
       [ "annis.visualizers.component.tree.TigerTreeVisualizer.DefaultLabeler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultLabeler.html", null ],

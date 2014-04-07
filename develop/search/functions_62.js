@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['backgroundjob',['BackgroundJob',['../classannis_1_1gui_1_1ExportPanel_1_1BackgroundJob.html#a719db0becd6e9c5b95f148d8c5ee851a',1,'annis.gui.ExportPanel.BackgroundJob.BackgroundJob()'],['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob.html#ad8539899cffc2a2fa1de79e8b3ef1b7c',1,'annis.gui.resultview.VisualizerPanel.BackgroundJob.BackgroundJob()']]],
+  ['backgroundjob',['BackgroundJob',['../classannis_1_1gui_1_1ExportPanel_1_1BackgroundJob.html#a0145132231806ca70f7329c57b17496b',1,'annis.gui.ExportPanel.BackgroundJob.BackgroundJob()'],['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob.html#a9f2c607668f67d28f2ff2bd317d9a50e',1,'annis.gui.resultview.VisualizerPanel.BackgroundJob.BackgroundJob()']]],
   ['beforeclientresponse',['beforeClientResponse',['../classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html#ac5d4d756a8aeb14fdff6726a40d56ee3',1,'annis::gui::components::FrequencyWhiteboard']]],
   ['benchmark',['Benchmark',['../classannis_1_1AnnisRunner_1_1Benchmark.html#aa2132cae8093b7070a743da1a9ab487f',1,'annis::AnnisRunner::Benchmark']]],
   ['benchmarkoptions',['benchmarkOptions',['../classannis_1_1AnnisRunner.html#a53bd90fc6fca57f69da626ecd0635f59',1,'annis::AnnisRunner']]],

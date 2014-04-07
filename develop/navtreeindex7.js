@@ -1,5 +1,10 @@
 var NAVTREEINDEX7 =
 {
+"classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html":[5,0,0,5,3,3,0],
+"classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html#a1e1dcb11f873332d8249c1bdf833c3c2":[5,0,0,5,3,3,0,2],
+"classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html#a2f739c4125798b9fe5a8693c20fb0848":[5,0,0,5,3,3,0,1],
+"classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html#a876c22944ec056f99ecb5026025cb17e":[5,0,0,5,3,3,0,0],
+"classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html#ae1c7114a6a8d5a08f7776b3a7762f2bc":[5,0,0,5,3,3,0,3],
 "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowFrequencyClickListener.html":[5,0,0,5,3,3,1],
 "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowFrequencyClickListener.html#a4fb6ee137770cd43fa29a9b9fc737060":[5,0,0,5,3,3,1,0],
 "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowFrequencyClickListener.html#a880a8e665dd207775c30ef3a8deb459a":[5,0,0,5,3,3,1,2],
@@ -33,9 +38,9 @@ var NAVTREEINDEX7 =
 "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a71336ffa3687edda9a4efd6950e7ae36":[5,0,0,5,3,4,21],
 "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a75d719f4d66e99e0b40f950a5234a47e":[5,0,0,5,3,4,37],
 "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a7b5aedc50b5e77620f7aae8171669f21":[5,0,0,5,3,4,28],
+"classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a7c525375aca3502cedcfb58d4de9b432":[5,0,0,5,3,4,19],
 "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a8039c11ba15c770f6a678cb480c3acce":[5,0,0,5,3,4,31],
 "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a805f1b09879157867f08042084aa8b18":[5,0,0,5,3,4,10],
-"classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a81a2fbfff64c983b7ac00d9f607b9ae3":[5,0,0,5,3,4,19],
 "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a89ab9164ae355854a32a384869867054":[5,0,0,5,3,4,18],
 "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a8d5964a8bb767601caa26da7bcbea9a9":[5,0,0,5,3,4,36],
 "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a90bc398f3f89f83cb7eff896d1c947bf":[5,0,0,5,3,4,22],
@@ -244,10 +249,5 @@ var NAVTREEINDEX7 =
 "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a962e03a8e49f63484112c36a83d85222":[5,0,0,5,6,2,15],
 "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a9b68e89c1a2df7587ce25dd7a2a51634":[5,0,0,5,6,2,66],
 "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa2af8127fe3e9132d1e9d3abe18139c1":[5,0,0,5,6,2,27],
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa4fd174586557f77d97d8ba3c7de310a":[5,0,0,5,6,2,12],
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa6b321e5602aa85f7c2c6eeb7df9e5ed":[5,0,0,5,6,2,50],
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa6f37d73ade1830435f29ac0448a833b":[5,0,0,5,6,2,55],
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aad25545f43c660f9dc00e4f188f076ab":[5,0,0,5,6,2,82],
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aaddb161c25ea072f5a8d892ebc27eed7":[5,0,0,5,6,2,83],
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aae060762f572f6e7dcc4951142d2ae68":[5,0,0,5,6,2,72]
+"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa4fd174586557f77d97d8ba3c7de310a":[5,0,0,5,6,2,12]
 };

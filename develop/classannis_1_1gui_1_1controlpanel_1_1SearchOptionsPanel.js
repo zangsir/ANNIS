@@ -19,7 +19,7 @@ var classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel =
     [ "theGreatestCommonDenominator", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a00daf372537d6f07fb16d8b4e69123fb", null ],
     [ "updateContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#ae993a24a7a310c2ebf51a534af1abaf2", null ],
     [ "updateResultsPerPage", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a89ab9164ae355854a32a384869867054", null ],
-    [ "updateSearchPanelConfigurationInBackground", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a81a2fbfff64c983b7ac00d9f607b9ae3", null ],
+    [ "updateSearchPanelConfigurationInBackground", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a7c525375aca3502cedcfb58d4de9b432", null ],
     [ "updateSegmentations", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a32e20706640f10c3f174ebdc4679d6e3", null ],
     [ "cbLeftContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a71336ffa3687edda9a4efd6950e7ae36", null ],
     [ "cbResultsPerPage", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a90bc398f3f89f83cb7eff896d1c947bf", null ],

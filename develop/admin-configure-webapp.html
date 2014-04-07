@@ -167,9 +167,10 @@ Create and configure instances </h1>
 <div class="line">                <span class="stringliteral">&quot;falko-summary-l2&quot;</span></div>
 <div class="line">                ]</div>
 <div class="line">        }</div>
-<div class="line">        ]</div>
+<div class="line">        ],</div>
+<div class="line">        <span class="stringliteral">&quot;keyboard-layout&quot;</span> : <span class="stringliteral">&quot;de&quot;</span></div>
 <div class="line">}</div>
-</div><!-- fragment --><p>Each instance configuration can have a verbose display-name which is displayed in the title of the browser window. <code>default-querybuilder</code> defines the short name of the query builder you want to use. Currently only "tigersearch" is available, see <a class="el" href="dev-querybuilder.html">here</a> if you want to add your own query builder.</p>
+</div><!-- fragment --><p>Each instance configuration can have a verbose display-name which is displayed in the title of the browser window. <code>default-querybuilder</code> defines the short name of the query builder you want to use. Currently only "tigersearch" and "flatquerybuilder" are available, see <a class="el" href="dev-querybuilder.html">here</a> if you want to add your own query builder. The <code>keyboard-layout</code> variable is used as the default value for the virtual keyboard of the AQL query box.</p>
 <p>While any user can group corpora into corpus sets for their own, you can define corpus sets for the whole instance. Each corpus set is an JSON-object with a name and a list of corpora that belong to the corpus set.</p>
 <p>Any defined instance is assigned a special URL at which it can be accessed: <code><a href="http://">http://</a>&lt;server&gt;/annis-gui/&lt;instance-name&gt;</code>. The default instance is additionally accessible by not specifying any instance name in the URL. You can configure your web server (e.g. Apache) to rewrite the URLs if you need a more project specific and less "technical" URL (e.g. <code><a href="http://">http://</a>&lt;server&gt;/falko</code>).</p>
 <h1><a class="anchor" id="admin-configure-vis"></a>
@@ -317,7 +318,7 @@ Document Browser</h1>
 <p>The ANNIS importer tries to detect an artificial token segmentation. If the text.tab contains only artificial token (which means there are only white spaces) the document browser is disabled. In the case there exists a <code>document_browser.json</code> file which configures the document browser it will never be disabled by ANNIS. Also if in the <code>corpus.properties</code> the <code>browse-documents</code> properties is set to true, the document browser will stay active.</p>
 <h2><a class="anchor" id="custom-visualizer-and-sorting"></a>
 custom visualizer and sorting</h2>
-<p>It is also possible to use a custom visualizer for browsing a whole document. The configuration is in JSON-Syntax and placed in the corpus.properties file, which can be add to the ExtData directory of each corpus.</p>
+<p>It is also possible to use a custom visualizer for browsing a whole document. The configuration is in JSON-Syntax file named document_browser.json, which can be add to the ExtData directory of each corpus.</p>
 <div class="fragment"><div class="line">{</div>
 <div class="line">    <span class="stringliteral">&quot;visualizers&quot;</span>: [</div>
 <div class="line">        {</div>
@@ -370,14 +371,15 @@ Web fonts</h1>
 <div class="line">        local(<span class="stringliteral">&#39;bar&#39;</span>),</div>
 <div class="line">        url(bar.woff) format(&#39;woff&#39;);</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>Further explantation about the <code>@font-face</code> rule is availabe on the <a href="http://www.w3.org/TR/css-fonts-3/#font-face-rule">W3C websites</a>. </p>
+</div><!-- fragment --><p>Further explantation about the <code>@font-face</code> rule is availabe on the <a href="http://www.w3.org/TR/css-fonts-3/#font-face-rule">W3C websites</a>.</p>
+<p>If you need to have a different font configuration for the frequency chart just add a <code>frequency-font</code> entry. It has the same structure as <code>font</code>. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="admin.html">Administration</a></li>
-    <li class="footer">Generated on Thu Mar 13 2014 14:56:37 for ANNIS by
+    <li class="footer">Generated on Mon Apr 7 2014 19:31:18 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

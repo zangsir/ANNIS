@@ -12,6 +12,8 @@ var searchData=
   ['last',['LAST',['../classannis_1_1gui_1_1paging_1_1PagingComponent.html#aac43bcd7c16ad43c4cd3fcde3cddd7ea',1,'annis::gui::paging::PagingComponent']]],
   ['lastbugreportcause',['lastBugReportCause',['../classannis_1_1gui_1_1SearchUI.html#a20be309ec3c9c8423c40dd915227b2aa',1,'annis::gui::SearchUI']]],
   ['lastcomponent',['lastComponent',['../classannis_1_1gui_1_1querybuilder_1_1QueryBuilderChooser.html#ad952bbf5be0c6cd01c2cd95dfb292acb',1,'annis::gui::querybuilder::QueryBuilderChooser']]],
+  ['lastfont',['lastFont',['../classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html#aae30a303acf3c31580ce5e14ec111359',1,'annis::gui::components::FrequencyWhiteboard']]],
+  ['lastfontsize',['lastFontSize',['../classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html#a5aa7b836f39bf38cfaf75fd4be385521',1,'annis::gui::components::FrequencyWhiteboard']]],
   ['lastkey',['lastKey',['../classannis_1_1sqlgen_1_1AbstractSolutionKey_3_01BaseType_01_4.html#afc1d9f164fc1cc226478372f87fe65d0',1,'annis::sqlgen::AbstractSolutionKey&lt; BaseType &gt;']]],
   ['lastmatchfuture',['lastMatchFuture',['../classannis_1_1gui_1_1QueryController.html#abdd7c00e079e0827f10bf8dce1836490',1,'annis::gui::QueryController']]],
   ['lastpage',['lastPage',['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFPanel.html#a984b3874b57e12d91b3fb19f3d026e7c',1,'annis.visualizers.component.pdf.PDFPanel.lastPage()'],['../classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFState.html#ade59ef651576a72c8cd8926c424b53b4',1,'annis.visualizers.component.pdf.PDFState.lastPage()']]],
