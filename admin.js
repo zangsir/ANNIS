@@ -22,7 +22,17 @@ var admin =
       [ "Configuring Visualizations ", "admin-configure-webapp.html#admin-configure-vis", [
         [ "Visibility column", "admin-configure-webapp.html#admin-configure-visibility", null ],
         [ "Visualizer list", "admin-configure-webapp.html#admin-configure-vislist", null ]
-      ] ]
+      ] ],
+      [ "Document Browser", "admin-configure-webapp.html#document-visualizer", [
+        [ "custom visualizer and sorting", "admin-configure-webapp.html#custom-visualizer-and-sorting", null ]
+      ] ],
+      [ "Web fonts", "admin-configure-webapp.html#web-fonts", null ]
     ] ],
-    [ "PostgreSQL Server Configuration", "admin-configure-postgresql.html", null ]
+    [ "PostgreSQL Server Configuration", "admin-configure-postgresql.html", [
+      [ "Performance tuning ", "admin-configure-postgresql.html#admin-configure-postgresperf", null ],
+      [ "Logging ", "admin-configure-postgresql.html#admin-configure-logging", null ],
+      [ "Remote access ", "admin-configure-postgresql.html#admin-configure-remote", null ],
+      [ "Configuration of System Resources ", "admin-configure-postgresql.html#admin-configure-res", null ]
+    ] ],
+    [ "Install ANNIS Service and Web front-end on different servers", "admin-multiple-servers.html", null ]
 ];

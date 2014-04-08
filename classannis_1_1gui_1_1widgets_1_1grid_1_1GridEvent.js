@@ -1,6 +1,7 @@
 var classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent =
 [
-    [ "GridEvent", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a72fcd7ab0a3a5bf0f28bcdf22d8775f5", null ],
+    [ "GridEvent", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#af5c2ec5f36b8b8fa2e6accf11a3d3ced", null ],
+    [ "GridEvent", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ad488ae151e5827f39796e01033e4abfa", null ],
     [ "getCoveredIDs", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a024136a9b7746c4fef1dfc3f57f829cb", null ],
     [ "getEndTime", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a03673ec36df818f3c116bbe321aa3d56", null ],
     [ "getId", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a00d12233a82febb232c869be975e2446", null ],
@@ -10,8 +11,10 @@ var classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent =
     [ "getRight", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a9d39c3f8a5693ff2079577f152214fdf", null ],
     [ "getStartTime", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a135745eaadeabfea732b208373ba6f21", null ],
     [ "getTextID", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a444cfe2ce5a2e43733aff387d9e56f29", null ],
+    [ "getTooltip", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a7388f92c75641e4dcc41fd7674552d27", null ],
     [ "getValue", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a3f9f3b780012cc5c8a04bcb3899b20a9", null ],
     [ "isGap", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#af6b48b798d34aa0548c2d252d012dc6a", null ],
+    [ "isSpace", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a930b62c2566e6c337f3070497ea778ec", null ],
     [ "setEndTime", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a112a7c1017ea6b054ee64f5341fbec72", null ],
     [ "setGap", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a1e5cc52c945d33614e3995b3da2fee15", null ],
     [ "setId", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a7cf89cdfa04a1576da29477aabd64ffd", null ],
@@ -19,8 +22,10 @@ var classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent =
     [ "setMatch", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#acd6fe82a47d334f89641e7b9bc829bfa", null ],
     [ "setPage", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a21025a7afe49ced1574bad9aeb4f0d59", null ],
     [ "setRight", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a7882d098a75814c7e2905442568d8429", null ],
+    [ "setSpace", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#abbe365053b3e1c5bb6419ec5f1801ed4", null ],
     [ "setStartTime", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a7fc1847ea3b95f22f20b55773ee90d53", null ],
     [ "setTextID", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ae5530ac4c48451bd420884c001ed4788", null ],
+    [ "setTooltip", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#abbe9e932694ce83c6c16c1327ed38dce", null ],
     [ "setValue", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a71336d054900ebfc020903d353cfb210", null ],
     [ "toString", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a0c7666b9af559d45d68310a9163e4a08", null ],
     [ "coveredIDs", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a1a3c0e9e553a7a79c7683662e7dc5423", null ],
@@ -31,7 +36,9 @@ var classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent =
     [ "match", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a838bd947599a4034df53a38ee2f0a8b0", null ],
     [ "pageNumber", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a59e825864432e4309421d57e56a26016", null ],
     [ "right", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a319ada07bdd33f99791da864945f61ba", null ],
+    [ "space", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#aa13156d6083132a2dbece8d781117a2c", null ],
     [ "startTime", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a0365b1eb98af2675db4982ca90669485", null ],
     [ "textID", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a60db51bf3e40909fcf5a27abb8794fc0", null ],
+    [ "tooltip", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ab2a256a969a8f719e51898590701b531", null ],
     [ "value", "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a58d061e0bdea64a85fcabd80853b711e", null ]
 ];

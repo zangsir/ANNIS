@@ -1,0 +1,4 @@
+var classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1InvalidCharacterSequenceException =
+[
+    [ "InvalidCharacterSequenceException", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1InvalidCharacterSequenceException.html#a0b17f6dabf30b60242d7a713405c12de", null ]
+];

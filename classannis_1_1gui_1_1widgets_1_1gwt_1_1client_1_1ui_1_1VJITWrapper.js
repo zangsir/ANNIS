@@ -8,7 +8,6 @@ var classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper =
     [ "visualizationInit", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#a30d91688a81e8bc3439e73b34874e914", null ],
     [ "background", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#aa18208d67939880b3ee0c054d7305f35", null ],
     [ "config", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#a7d5025104104c308bbc649bf6c3002ca", null ],
-    [ "count", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#a886acb8d7b580385b33a3994d5f0a987", null ],
     [ "doc", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#aab6b7ff0d5c8874f56cc651681b088b1", null ],
     [ "elementID", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#af8e03be7163aa012bd1fd4afadf62eab", null ],
     [ "height", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VJITWrapper.html#a5b53de17b023967aa146a5977f87667e", null ],

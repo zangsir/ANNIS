@@ -1,10 +1,14 @@
 var NAVTREE =
 [
   [ "ANNIS", "index.html", [
+    [ "Administration", "admin.html", "admin" ],
+    [ "Public REST API", "api.html", [
+      [ "Authentification ", "api.html#api-authentification", null ],
+      [ "Available APIs ", "api.html#api-available-list", null ]
+    ] ],
+    [ "Developing", "dev.html", "dev" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Packages", null, [
-      [ "Administration", "admin.html", "admin" ],
-      [ "Developing", "dev.html", "dev" ],
       [ "Packages", "namespaces.html", "namespaces" ]
     ] ],
     [ "Classes", null, [
@@ -14,7 +18,8 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ]
+        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -26,28 +31,32 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ANNISRolePermissionResolver_8java.html",
-"QueryBuilderPlugin_8java.html",
-"classannis_1_1AnnisRunner.html#aef1770619ef6db09173db062e603c85d",
-"classannis_1_1administration_1_1DefaultAdministrationDao.html#adcf2163c14bea73c3eef74788259eda1",
-"classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html#a1ddd9fc3b2f02a3c5b65831e8673e222",
-"classannis_1_1gui_1_1ReportBugWindow_1_1ShowScreenshotClickListener.html",
-"classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener.html#a7b4fe211fdbbad5444652c3087714a56",
-"classannis_1_1gui_1_1flatquerybuilder_1_1SpanBox.html#aa66b5dfa828037c22c135847538d1d00",
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a33d85a443061882832e89669ff024e05",
-"classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1JITVisualization.html#a7fdd0edb4354ba77db0eef6c262b1307",
-"classannis_1_1libgui_1_1visualizers_1_1AbstractIFrameVisualizer.html#a2b1a464500bd1a24736bdf4cdac8eeea",
-"classannis_1_1model_1_1QueryAnnotation.html#a65b2f038deae3dec0edf32610549c05a",
-"classannis_1_1ql_1_1parser_1_1DnfNodeRelNumberUpdater.html",
-"classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a0be8d2311897d20b6784ef417fc173e1",
-"classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html#a61214aa02ffdb4999188246264347e08",
-"classannis_1_1sqlgen_1_1FindSqlGenerator.html#ae47da710e9ad3a945a735da7db597c69",
-"classannis_1_1sqlgen_1_1UnknownExpressionException.html#a888ffb91b5f3bf0cadba141ae225b840",
-"classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a3f50390eeaa148c7330e7d0fe6a38958",
-"classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#abaca637941950907064eccde0137af32",
-"classannis_1_1visualizers_1_1iframe_1_1gridtree_1_1GridTreeVisualizer_1_1Span.html#a9f347bb65ea7a1ea2fae141194fbffa9",
-"dev-aql.html#dev-aql-inclusion",
-"interfaceannis_1_1dao_1_1AnnisDao.html#a507f1c0fe9b84b0f01d6973b87dae031",
-"namespaceannis_1_1gui_1_1tutorial.html"
+"NonBindingJoin_8java.html",
+"classannis_1_1AnnisRunner.html#a616378d61c4172ec649ff30d78b75023",
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#a49e6402e78bb74db8f184c9b5418f6c9",
+"classannis_1_1dao_1_1SpringAnnisDao.html#ab38d8a1033ce5bcabe72d165f9c4074b",
+"classannis_1_1gui_1_1ExportPanel.html#aa3df1d0f3fb89e369c074c5c982a448f",
+"classannis_1_1gui_1_1beans_1_1CorpusBrowserEntry.html#a11ceafc72cd28d8db650343059081cbd",
+"classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#af8d97ea1cc7c8951485d20b8efc98ca9",
+"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa2af8127fe3e9132d1e9d3abe18139c1",
+"classannis_1_1gui_1_1model_1_1PagedResultQuery.html#a5ab172aa589d9f03feec2a16800774ff",
+"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7a24744769ad3c4e7218c9e0faed0c02",
+"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ac849796f0dfc3a044931896011d6d3a0",
+"classannis_1_1libgui_1_1InstanceConfig.html#af5c2fecf1ecc727fb68b5850730e6300",
+"classannis_1_1model_1_1Annotation.html#aac12bdf248bfd85015c88f822ae22d5c",
+"classannis_1_1model_1_1RelannisNodeFeature.html#a8af493fe22fda6e7c96d944a5c387b02",
+"classannis_1_1resolver_1_1ResolverEntry.html#a51d59d3aa4005b03805c195c66cc73f7",
+"classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a285f19db63bff18c226a564656162a00",
+"classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html#aa8a6870d7f937e0ea1a5673c3db0bbce",
+"classannis_1_1sqlgen_1_1FrequencySqlGenerator.html#a19ea7c5109d29b01ce6070d75bf5b074",
+"classannis_1_1sqlgen_1_1annopool_1_1ApAnnotateSqlGenerator_3_01T_01_4.html#a00b1f0a3c888b4674d63d85c98fcf6ce",
+"classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer.html#aec1b868de598c0f625c7e8ca9c175d93",
+"classannis_1_1visualizers_1_1component_1_1tree_1_1LayoutOptions.html#a5a0dd33d49e58bafa0d9a65c8f353fa1",
+"classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a020e4ba14be180a416d4573de4da4b07",
+"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog.html#af8cb743723bc36f189015ea43a26f05d",
+"enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide.html",
+"interfaceannis_1_1libgui_1_1media_1_1PDFViewer.html",
+"namespaceannis_1_1visualizers_1_1component_1_1graph.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

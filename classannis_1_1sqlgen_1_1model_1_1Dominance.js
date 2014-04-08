@@ -6,5 +6,6 @@ var classannis_1_1sqlgen_1_1model_1_1Dominance =
     [ "Dominance", "classannis_1_1sqlgen_1_1model_1_1Dominance.html#a69e1ecc019d196e80191f36b04480a08", null ],
     [ "Dominance", "classannis_1_1sqlgen_1_1model_1_1Dominance.html#ad8d3290efaecb65a19463f87f4c1f3c2", null ],
     [ "Dominance", "classannis_1_1sqlgen_1_1model_1_1Dominance.html#a4f5929b88aba0d730c2454d402964197", null ],
+    [ "toAqlOperator", "classannis_1_1sqlgen_1_1model_1_1Dominance.html#a96c36da34c6019c4e4c6bdb57b4c87dc", null ],
     [ "toString", "classannis_1_1sqlgen_1_1model_1_1Dominance.html#a65d76a1142576d6a36c2e10506270c76", null ]
 ];

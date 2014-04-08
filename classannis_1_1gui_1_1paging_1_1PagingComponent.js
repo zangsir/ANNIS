@@ -1,7 +1,8 @@
 var classannis_1_1gui_1_1paging_1_1PagingComponent =
 [
-    [ "EnterListener", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterListener.html", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterListener" ],
+    [ "EnterHandler", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterHandler.html", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterHandler" ],
     [ "PageValidator", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1PageValidator.html", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1PageValidator" ],
+    [ "PagingComponent", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a62d4f7bbfd65a578ee9330471b611974", null ],
     [ "PagingComponent", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#ad8d341012a10f7b25e300e396d6638f7", null ],
     [ "addCallback", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#af969b1bc0b020cadced2d061673cfbdb", null ],
     [ "buttonClick", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a1fd85f308d7f0dd86d102aa2a799d345", null ],
@@ -13,7 +14,7 @@ var classannis_1_1gui_1_1paging_1_1PagingComponent =
     [ "sanitizePage", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a2f8e51d3c7ca2a2511d66953b91b5ffc", null ],
     [ "setCount", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a232d1f26c01a0eb7d1b5b8b675fb66f2", null ],
     [ "setInfo", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#aee0619d6df839ee3eaaf13cf29220c55", null ],
-    [ "setPageSize", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a81e6df6902f09d90bc03c10030047b41", null ],
+    [ "setPageSize", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a4a8c82aa97505e6463aba143b4f65948", null ],
     [ "setStartNumber", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#ad58ee7dce25989dd747e2fbaafac05f9", null ],
     [ "update", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a886fb921c5294c01db8cf8192eb20bf2", null ],
     [ "btFirst", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a6c70cc6a594c5e2bab817a0f86cb8737", null ],

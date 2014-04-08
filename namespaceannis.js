@@ -23,8 +23,8 @@ var namespaceannis =
     [ "AnnisRunner", "classannis_1_1AnnisRunner.html", "classannis_1_1AnnisRunner" ],
     [ "AnnisRunnerException", "classannis_1_1AnnisRunnerException.html", "classannis_1_1AnnisRunnerException" ],
     [ "AnnisXmlContextHelper", "classannis_1_1AnnisXmlContextHelper.html", "classannis_1_1AnnisXmlContextHelper" ],
+    [ "CSVHelper", "classannis_1_1CSVHelper.html", "classannis_1_1CSVHelper" ],
     [ "FindHelper", "classannis_1_1FindHelper.html", null ],
-    [ "MemoryUsage", "classannis_1_1MemoryUsage.html", "classannis_1_1MemoryUsage" ],
     [ "TableFormatter", "classannis_1_1TableFormatter.html", "classannis_1_1TableFormatter" ],
     [ "UsageException", "classannis_1_1UsageException.html", "classannis_1_1UsageException" ],
     [ "WekaHelper", "classannis_1_1WekaHelper.html", "classannis_1_1WekaHelper" ]

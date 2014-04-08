@@ -10,6 +10,7 @@ var classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid =
     [ "updateFromUIDL", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a85b3e1802562ac470c983e8ca8a53a62", null ],
     [ "CLASSNAME", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a9c4048b64d0ace90574382bcb3cf2ced", null ],
     [ "endTimes", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a4da19ecd9c013de9db46468dda32605d", null ],
+    [ "escapeHTML", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#afd399222407483529266ec1e52ef454c", null ],
     [ "formatter", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a3ef7efcfd35f58f066d773c0c4f4be02", null ],
     [ "gClient", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#ac10aa9a7c0287a0dd01b0748d0fef81b", null ],
     [ "highlighted", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a0da0d90e371e4dcf1ea030b8befdcbaf", null ],

@@ -5,6 +5,7 @@ var searchData=
   ['graphicsitem_2ejava',['GraphicsItem.java',['../GraphicsItem_8java.html',1,'']]],
   ['graphicsitemgroup_2ejava',['GraphicsItemGroup.java',['../GraphicsItemGroup_8java.html',1,'']]],
   ['graphwithclausegenerator_2ejava',['GraphWithClauseGenerator.java',['../GraphWithClauseGenerator_8java.html',1,'']]],
+  ['gridcomponent_2ejava',['GridComponent.java',['../GridComponent_8java.html',1,'']]],
   ['gridevent_2ejava',['GridEvent.java',['../GridEvent_8java.html',1,'']]],
   ['gridexporter_2ejava',['GridExporter.java',['../GridExporter_8java.html',1,'']]],
   ['gridtreevisualizer_2ejava',['GridTreeVisualizer.java',['../GridTreeVisualizer_8java.html',1,'']]],

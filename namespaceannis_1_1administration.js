@@ -8,5 +8,5 @@ var namespaceannis_1_1administration =
     [ "DatabaseAccessException", "classannis_1_1administration_1_1DatabaseAccessException.html", "classannis_1_1administration_1_1DatabaseAccessException" ],
     [ "DefaultAdministrationDao", "classannis_1_1administration_1_1DefaultAdministrationDao.html", "classannis_1_1administration_1_1DefaultAdministrationDao" ],
     [ "FileAccessException", "classannis_1_1administration_1_1FileAccessException.html", "classannis_1_1administration_1_1FileAccessException" ],
-    [ "SfAdministrationDao", "classannis_1_1administration_1_1SfAdministrationDao.html", "classannis_1_1administration_1_1SfAdministrationDao" ]
+    [ "SchemeFixer", "classannis_1_1administration_1_1SchemeFixer.html", "classannis_1_1administration_1_1SchemeFixer" ]
 ];

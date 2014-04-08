@@ -9,7 +9,6 @@ var classannis_1_1sqlgen_1_1MatrixSqlGenerator =
     [ "getMatchedNodesViewName", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a28f77a669edf5b83a2ba2aa79a765786", null ],
     [ "getSelectFields", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a5eb05bd77a6e11a0159d004cc299c419", null ],
     [ "getSpanExtractor", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a4403e516ea27cd89346b5bea786d79e5", null ],
-    [ "getTableJoinsInFromClauseGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#aaa1e378f4c2990a3528a5285c8c084b3", null ],
     [ "groupByAttributes", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a30c0ac806ccd2f575a2653cb964f250c", null ],
     [ "orderByClause", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a429b0734a49ae6c65720a54aa9fce6f9", null ],
     [ "selectAnnotationsString", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a33dc3019e17d608ee0d6a883c6796913", null ],
@@ -20,11 +19,9 @@ var classannis_1_1sqlgen_1_1MatrixSqlGenerator =
     [ "setInnerQuerySqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#ae626371c55fd9f46f92e7dec324ee5a8", null ],
     [ "setMatchedNodesViewName", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a19e46f12844bd2eccf397737e4e7373d", null ],
     [ "setSpanExtractor", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a0b18db37f98e90c886b3252bc1995eed", null ],
-    [ "setTableJoinsInFromClauseGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#aba56b2919a1a6e1c5956e64e940dd666", null ],
     [ "whereConditions", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a67354bc7961d6f777b6565527afa9409", null ],
     [ "innerQuerySqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a6910ba3b2da19383e984957bebc0803e", null ],
     [ "log", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#ae01045f11b8376c6f37904506c66accc", null ],
     [ "matchedNodesViewName", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#af1a31984617ab5fe7d637f9c7c5c7a98", null ],
-    [ "spanExtractor", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a9f1e3e0e38fbc2a8346178c3de60b138", null ],
-    [ "tableJoinsInFromClauseGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#ab831d5ed4a21eceb0f7a566d58231788", null ]
+    [ "spanExtractor", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html#a9f1e3e0e38fbc2a8346178c3de60b138", null ]
 ];

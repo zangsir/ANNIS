@@ -1,6 +1,6 @@
 var classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameAndValueMatcher =
 [
-    [ "AnnotationNameAndValueMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameAndValueMatcher.html#aec58b8553fcdf5820b533b1167fc440a", null ],
+    [ "AnnotationNameAndValueMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameAndValueMatcher.html#a4a7b6d59b5b0d3446da4a3d7703a8adf", null ],
     [ "getAnnotationValue", "classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameAndValueMatcher.html#abf0efd841cd207d69327814445426e7c", null ],
     [ "getNameMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameAndValueMatcher.html#a7e55673a7cb1d5b5d685d00bec445906", null ],
     [ "matchedAnnotation", "classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameAndValueMatcher.html#abae2f6a71b4c2c6b1117281bd6d50a67", null ],
