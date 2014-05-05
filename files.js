@@ -364,9 +364,6 @@ var files =
     [ "CorpusPathExtractor.java", "CorpusPathExtractor_8java.html", [
       [ "CorpusPathExtractor", "interfaceannis_1_1sqlgen_1_1CorpusPathExtractor.html", "interfaceannis_1_1sqlgen_1_1CorpusPathExtractor" ]
     ] ],
-    [ "CorpusPathWhereClauseGenerator.java", "CorpusPathWhereClauseGenerator_8java.html", [
-      [ "CorpusPathWhereClauseGenerator", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator" ]
-    ] ],
     [ "CorpusSelectionChangeListener.java", "CorpusSelectionChangeListener_8java.html", [
       [ "CorpusSelectionChangeListener", "interfaceannis_1_1gui_1_1CorpusSelectionChangeListener.html", "interfaceannis_1_1gui_1_1CorpusSelectionChangeListener" ]
     ] ],
@@ -855,11 +852,7 @@ var files =
     [ "MetadataServiceImpl.java", "MetadataServiceImpl_8java.html", [
       [ "MetadataServiceImpl", "classannis_1_1service_1_1internal_1_1MetadataServiceImpl.html", "classannis_1_1service_1_1internal_1_1MetadataServiceImpl" ]
     ] ],
-    [ "MIMEParse.java", "MIMEParse_8java.html", [
-      [ "MIMEParse", "classcom_1_1google_1_1mimeparse_1_1MIMEParse.html", "classcom_1_1google_1_1mimeparse_1_1MIMEParse" ],
-      [ "ParseResults", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1ParseResults.html", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1ParseResults" ],
-      [ "FitnessAndQuality", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1FitnessAndQuality.html", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1FitnessAndQuality" ]
-    ] ],
+    [ "MIMEParse.java", "MIMEParse_8java.html", null ],
     [ "MimeTypeErrorListener.java", "MimeTypeErrorListener_8java.html", [
       [ "MimeTypeErrorListener", "interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener.html", "interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener" ]
     ] ],

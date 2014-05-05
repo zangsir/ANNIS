@@ -21,7 +21,6 @@ var namespaceannis_1_1sqlgen =
     [ "CommonAnnotateWithClauseGenerator", "classannis_1_1sqlgen_1_1CommonAnnotateWithClauseGenerator.html", "classannis_1_1sqlgen_1_1CommonAnnotateWithClauseGenerator" ],
     [ "CommonLimitOffsetGenerator", "classannis_1_1sqlgen_1_1CommonLimitOffsetGenerator.html", "classannis_1_1sqlgen_1_1CommonLimitOffsetGenerator" ],
     [ "CorpusPathExtractor", "interfaceannis_1_1sqlgen_1_1CorpusPathExtractor.html", "interfaceannis_1_1sqlgen_1_1CorpusPathExtractor" ],
-    [ "CorpusPathWhereClauseGenerator", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator" ],
     [ "CountMatchesAndDocumentsSqlGenerator", "classannis_1_1sqlgen_1_1CountMatchesAndDocumentsSqlGenerator.html", "classannis_1_1sqlgen_1_1CountMatchesAndDocumentsSqlGenerator" ],
     [ "CountSqlGenerator", "classannis_1_1sqlgen_1_1CountSqlGenerator.html", "classannis_1_1sqlgen_1_1CountSqlGenerator" ],
     [ "DefaultWhereClauseGenerator", "classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html", "classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator" ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"classannis_1_1model_1_1RelannisNodeFeature.html#a8af493fe22fda6e7c96d944a5c387b02":[5,0,0,7,10,35],
 "classannis_1_1model_1_1RelannisNodeFeature.html#a8f307b0603b6e1a05a492b8bdfe35fba":[5,0,0,7,10,21],
 "classannis_1_1model_1_1RelannisNodeFeature.html#a9cbe8d547bcc0a0d6d713329994698a4":[5,0,0,7,10,29],
 "classannis_1_1model_1_1RelannisNodeFeature.html#a9f7fa4d88e5e4e8166222f9d69409cdc":[5,0,0,7,10,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX14 =
 "classannis_1_1resolver_1_1ResolverEntry.html#a46b266d2c7075db88d2446858838e041":[5,0,0,10,0,24],
 "classannis_1_1resolver_1_1ResolverEntry.html#a48aff4e99c191537846e52ac5f25ab70":[5,0,0,10,0,12],
 "classannis_1_1resolver_1_1ResolverEntry.html#a4a79cb2100105eb0d9cf0dd1e386bca6":[5,0,0,10,0,28],
-"classannis_1_1resolver_1_1ResolverEntry.html#a4e680deb9f241c38f12aa327f0e3fabb":[5,0,0,10,0,9]
+"classannis_1_1resolver_1_1ResolverEntry.html#a4e680deb9f241c38f12aa327f0e3fabb":[5,0,0,10,0,9],
+"classannis_1_1resolver_1_1ResolverEntry.html#a51d59d3aa4005b03805c195c66cc73f7":[5,0,0,10,0,8]
 };

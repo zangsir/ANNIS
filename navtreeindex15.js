@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"classannis_1_1resolver_1_1ResolverEntry.html#a51d59d3aa4005b03805c195c66cc73f7":[5,0,0,10,0,8],
 "classannis_1_1resolver_1_1ResolverEntry.html#a55d280db934228e3f1d0e03c592f9a8a":[5,0,0,10,0,15],
 "classannis_1_1resolver_1_1ResolverEntry.html#a587fc885ada877dff4b2a0f7b8f97981":[5,0,0,10,0,3],
 "classannis_1_1resolver_1_1ResolverEntry.html#a5b8e7fa2b3963ed290fe1e9edbccc388":[5,0,0,10,0,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "classannis_1_1service_1_1objects_1_1AnnisBinaryMetaData.html#acd007abdc5d741df0f3988534770cc47":[5,0,0,13,2,1,7],
 "classannis_1_1service_1_1objects_1_1AnnisCorpus.html":[5,0,0,13,2,2],
 "classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a0e170a09e80995981575fc6c89300344":[5,0,0,13,2,2,14],
-"classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a0f33ff3c0eb35c6ec28f7b653b4550f8":[5,0,0,13,2,2,9]
+"classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a0f33ff3c0eb35c6ec28f7b653b4550f8":[5,0,0,13,2,2,9],
+"classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a285f19db63bff18c226a564656162a00":[5,0,0,13,2,2,4]
 };

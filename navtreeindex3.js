@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classannis_1_1administration_1_1DefaultAdministrationDao.html#a49e6402e78bb74db8f184c9b5418f6c9":[5,0,0,0,6,30],
 "classannis_1_1administration_1_1DefaultAdministrationDao.html#a4bd3c68471626e0199945f98e4d928e0":[5,0,0,0,6,93],
 "classannis_1_1administration_1_1DefaultAdministrationDao.html#a4dacf2421a7c1fc72bca0ac04dd5f24f":[5,0,0,0,6,72],
 "classannis_1_1administration_1_1DefaultAdministrationDao.html#a4e7b2afa2a28f1aa97266d93cc9e8758":[5,0,0,0,6,83],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "classannis_1_1dao_1_1SpringAnnisDao.html#aa5bde9e51bd54c25d9895b2d915ce247":[5,0,0,2,9,37],
 "classannis_1_1dao_1_1SpringAnnisDao.html#aaae0e1023917b776d8f0ebfc48c2254d":[5,0,0,2,9,128],
 "classannis_1_1dao_1_1SpringAnnisDao.html#aae8fc753ca539850cc32c49e5dd9291f":[5,0,0,2,9,104],
-"classannis_1_1dao_1_1SpringAnnisDao.html#ab1e959f2844f5ffdc0bb96b5250c8aa7":[5,0,0,2,9,33]
+"classannis_1_1dao_1_1SpringAnnisDao.html#ab1e959f2844f5ffdc0bb96b5250c8aa7":[5,0,0,2,9,33],
+"classannis_1_1dao_1_1SpringAnnisDao.html#ab38d8a1033ce5bcabe72d165f9c4074b":[5,0,0,2,9,86]
 };

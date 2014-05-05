@@ -31,34 +31,36 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ANNISRolePermissionResolver_8java.html",
-"NonBindingJoin_8java.html",
-"classannis_1_1AnnisRunner.html#a616378d61c4172ec649ff30d78b75023",
-"classannis_1_1administration_1_1DefaultAdministrationDao.html#a49e6402e78bb74db8f184c9b5418f6c9",
-"classannis_1_1dao_1_1SpringAnnisDao.html#ab38d8a1033ce5bcabe72d165f9c4074b",
-"classannis_1_1gui_1_1ExportPanel.html#aa3df1d0f3fb89e369c074c5c982a448f",
-"classannis_1_1gui_1_1beans_1_1CorpusBrowserEntry.html#a11ceafc72cd28d8db650343059081cbd",
-"classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#af8d97ea1cc7c8951485d20b8efc98ca9",
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa2af8127fe3e9132d1e9d3abe18139c1",
-"classannis_1_1gui_1_1model_1_1PagedResultQuery.html#a5ab172aa589d9f03feec2a16800774ff",
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7a24744769ad3c4e7218c9e0faed0c02",
-"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ac849796f0dfc3a044931896011d6d3a0",
-"classannis_1_1libgui_1_1InstanceConfig.html#af5c2fecf1ecc727fb68b5850730e6300",
-"classannis_1_1model_1_1Annotation.html#aac12bdf248bfd85015c88f822ae22d5c",
-"classannis_1_1model_1_1RelannisNodeFeature.html#a8af493fe22fda6e7c96d944a5c387b02",
-"classannis_1_1resolver_1_1ResolverEntry.html#a51d59d3aa4005b03805c195c66cc73f7",
-"classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a285f19db63bff18c226a564656162a00",
-"classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html#aa8a6870d7f937e0ea1a5673c3db0bbce",
-"classannis_1_1sqlgen_1_1FrequencySqlGenerator.html#a19ea7c5109d29b01ce6070d75bf5b074",
-"classannis_1_1sqlgen_1_1annopool_1_1ApAnnotateSqlGenerator_3_01T_01_4.html#a00b1f0a3c888b4674d63d85c98fcf6ce",
-"classannis_1_1visualizers_1_1component_1_1graph_1_1DotGraphVisualizer.html#aec1b868de598c0f625c7e8ca9c175d93",
-"classannis_1_1visualizers_1_1component_1_1tree_1_1LayoutOptions.html#a5a0dd33d49e58bafa0d9a65c8f353fa1",
-"classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a020e4ba14be180a416d4573de4da4b07",
-"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog.html#af8cb743723bc36f189015ea43a26f05d",
-"enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide.html",
-"interfaceannis_1_1libgui_1_1media_1_1PDFViewer.html",
-"namespaceannis_1_1visualizers_1_1component_1_1graph.html"
+"NotEqualValue_8java.html",
+"classannis_1_1AnnisRunner.html#a62173ffeed10bbf21c99648cb4533db5",
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#a4bd3c68471626e0199945f98e4d928e0",
+"classannis_1_1dao_1_1SpringAnnisDao.html#ab6cca98c4e6eb6d07aefc55e33f886f6",
+"classannis_1_1gui_1_1ExportPanel.html#aaaaf2670b2c9184fb2acdb482b03836a",
+"classannis_1_1gui_1_1beans_1_1CorpusBrowserEntry.html#a3eff4683cea3fa1774aecf8af1654cb8",
+"classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#afa4396e3c1d23a702e6ec00b74617e2c",
+"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa4fd174586557f77d97d8ba3c7de310a",
+"classannis_1_1gui_1_1model_1_1PagedResultQuery.html#a71fa450addaf862615edd129d7d38d4d",
+"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7d12fcc8beb26825d1c7ffbb02d54ea3",
+"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#acd6fe82a47d334f89641e7b9bc829bfa",
+"classannis_1_1libgui_1_1PDFPageHelper.html",
+"classannis_1_1model_1_1Annotation.html#aaeda97d4b62ec5fa04f8daa156cdfc5c",
+"classannis_1_1model_1_1RelannisNodeFeature.html#a8f307b0603b6e1a05a492b8bdfe35fba",
+"classannis_1_1resolver_1_1ResolverEntry.html#a55d280db934228e3f1d0e03c592f9a8a",
+"classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a2e17b80ce6e8f1fdbc5b5015f7bd077f",
+"classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html#af7dfc38bbd607135a18f6bb24df6a478",
+"classannis_1_1sqlgen_1_1FrequencySqlGenerator.html#a9bf33baf6eaf13db88af57b69a159d2c",
+"classannis_1_1sqlgen_1_1annopool_1_1ApAnnotationConditionProvider.html",
+"classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html#a2b001f713698969ba0023bfa8a63ea76",
+"classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html",
+"classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a18323c9740695a8a0cc945976415be90",
+"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ListDialog.html#a03aef2aa993e7cd00dd8ad8c09985811",
+"functions.html",
+"interfaceannis_1_1service_1_1MetadataService.html#a4f54b79012abe88f36e879e4e1ed0826",
+"namespaceannis_1_1visualizers_1_1iframe_1_1partitur.html"
 ];
 
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
@@ -141,12 +143,12 @@ function createIndent(o,domNode,node,level)
   var level=-1;
   var n = node;
   while (n.parentNode) { level++; n=n.parentNode; }
-  var imgNode = document.createElement("img");
-  imgNode.style.paddingLeft=(16*level).toString()+'px';
-  imgNode.width  = 16;
-  imgNode.height = 22;
-  imgNode.border = 0;
   if (node.childrenData) {
+    var imgNode = document.createElement("img");
+    imgNode.style.paddingLeft=(16*level).toString()+'px';
+    imgNode.width  = 16;
+    imgNode.height = 22;
+    imgNode.border = 0;
     node.plus_img = imgNode;
     node.expandToggle = document.createElement("a");
     node.expandToggle.href = "javascript:void(0)";
@@ -163,8 +165,12 @@ function createIndent(o,domNode,node,level)
     domNode.appendChild(node.expandToggle);
     imgNode.src = node.relpath+"ftv2pnode.png";
   } else {
-    imgNode.src = node.relpath+"ftv2node.png";
-    domNode.appendChild(imgNode);
+    var span = document.createElement("span");
+    span.style.display = 'inline-block';
+    span.style.width   = 16*(level+1)+'px';
+    span.style.height  = '22px';
+    span.innerHTML = '&#160;';
+    domNode.appendChild(span);
   } 
 }
 
@@ -383,7 +389,7 @@ function showNode(o, node, index, hash)
       if (!node.childrenVisited) {
         getNode(o, node);
       }
-      $(node.getChildrenUL()).show();
+      $(node.getChildrenUL()).css({'display':'block'});
       if (node.isLast) {
         node.plus_img.src = node.relpath+"ftv2mlastnode.png";
       } else {
@@ -415,8 +421,22 @@ function showNode(o, node, index, hash)
   }
 }
 
+function removeToInsertLater(element) {
+  var parentNode = element.parentNode;
+  var nextSibling = element.nextSibling;
+  parentNode.removeChild(element);
+  return function() {
+    if (nextSibling) {
+      parentNode.insertBefore(element, nextSibling);
+    } else {
+      parentNode.appendChild(element);
+    }
+  };
+}
+
 function getNode(o, po)
 {
+  var insertFunction = removeToInsertLater(po.li);
   po.childrenVisited = true;
   var l = po.childrenData.length-1;
   for (var i in po.childrenData) {
@@ -424,6 +444,7 @@ function getNode(o, po)
     po.children[i] = newNode(o, po, nodeData[0], nodeData[1], nodeData[2],
       i==l);
   }
+  insertFunction();
 }
 
 function gotoNode(o,subIndex,root,hash,relpath)
@@ -527,7 +548,10 @@ function initNavTree(toroot,relpath)
     navSync.click(function(){ toggleSyncButton(relpath); });
   }
 
-  navTo(o,toroot,window.location.hash,relpath);
+  $(window).load(function(){
+    navTo(o,toroot,window.location.hash,relpath);
+    showRoot();
+  });
 
   $(window).bind('hashchange', function(){
      if (window.location.hash && window.location.hash.length>1){
@@ -550,7 +574,5 @@ function initNavTree(toroot,relpath)
        navTo(o,toroot,window.location.hash,relpath);
      }
   })
-
-  $(window).load(showRoot);
 }
 

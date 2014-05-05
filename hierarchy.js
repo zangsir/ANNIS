@@ -111,8 +111,7 @@ var hierarchy =
       [ "annis.model.Annotation", "classannis_1_1model_1_1Annotation.html", null ],
       [ "annis.model.QueryAnnotation", "classannis_1_1model_1_1QueryAnnotation.html", null ],
       [ "annis.service.objects.AnnisCorpus", "classannis_1_1service_1_1objects_1_1AnnisCorpus.html", null ],
-      [ "annis.visualizers.htmlvis.OutputItem", "classannis_1_1visualizers_1_1htmlvis_1_1OutputItem.html", null ],
-      [ "com.google.mimeparse.MIMEParse.FitnessAndQuality", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1FitnessAndQuality.html", null ]
+      [ "annis.visualizers.htmlvis.OutputItem", "classannis_1_1visualizers_1_1htmlvis_1_1OutputItem.html", null ]
     ] ],
     [ "annis.visualizers.component.tree.ConstituentLayouter< T extends GraphicsItem >", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html", null ],
     [ "annis.gui.flatquerybuilder.FlatQueryBuilder.Constraint", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint.html", null ],
@@ -166,7 +165,6 @@ var hierarchy =
     [ "annis.service.objects.FrequencyTableEntryType", "enumannis_1_1service_1_1objects_1_1FrequencyTableEntryType.html", null ],
     [ "FromClauseSqlGenerator", null, [
       [ "annis.sqlgen.AbstractFromClauseGenerator", "classannis_1_1sqlgen_1_1AbstractFromClauseGenerator.html", [
-        [ "annis.sqlgen.CorpusPathWhereClauseGenerator", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html", null ],
         [ "annis.sqlgen.TableJoinsInWhereClauseGenerator", "classannis_1_1sqlgen_1_1TableJoinsInWhereClauseGenerator.html", null ]
       ] ],
       [ "annis.sqlgen.AbstractSolutionMatchInFromClauseSqlGenerator< T >", "classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html", null ],
@@ -242,7 +240,6 @@ var hierarchy =
     [ "annis.service.MetadataService", "interfaceannis_1_1service_1_1MetadataService.html", [
       [ "annis.service.internal.MetadataServiceImpl", "classannis_1_1service_1_1internal_1_1MetadataServiceImpl.html", null ]
     ] ],
-    [ "com.google.mimeparse.MIMEParse", "classcom_1_1google_1_1mimeparse_1_1MIMEParse.html", null ],
     [ "annis.libgui.media.MimeTypeErrorListener", "interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener.html", [
       [ "annis.gui.SearchUI", "classannis_1_1gui_1_1SearchUI.html", null ]
     ] ],
@@ -265,7 +262,6 @@ var hierarchy =
     [ "annis.sqlgen.OrderByClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1OrderByClauseSqlGenerator_3_01T_01_4.html", null ],
     [ "annis.visualizers.component.tree.OrderedNodeList", "classannis_1_1visualizers_1_1component_1_1tree_1_1OrderedNodeList.html", null ],
     [ "annis.AnnisRunner.OS", "enumannis_1_1AnnisRunner_1_1OS.html", null ],
-    [ "com.google.mimeparse.MIMEParse.ParseResults", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1ParseResults.html", null ],
     [ "annis.libgui.PDFPageHelper", "classannis_1_1libgui_1_1PDFPageHelper.html", null ],
     [ "annis.libgui.media.PDFViewer", "interfaceannis_1_1libgui_1_1media_1_1PDFViewer.html", [
       [ "annis.visualizers.component.pdf.PDFVisualizer.PDFViewerImpl", "classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html", null ]
@@ -375,8 +371,8 @@ var hierarchy =
     [ "annis.administration.AdministrationDao.StatementController", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html", [
       [ "de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.StatementControllerImpl", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl.html", null ]
     ] ],
-    [ "de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.Status", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status.html", null ],
     [ "annis.service.objects.ImportJob.Status", "enumannis_1_1service_1_1objects_1_1ImportJob_1_1Status.html", null ],
+    [ "de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.Status", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status.html", null ],
     [ "StreamSource", null, [
       [ "annis.gui.frequency.FrequencyResultPanel.CSVResource", "classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel_1_1CSVResource.html", null ],
       [ "annis.gui.ReportBugWindow.ScreenDumpStreamSource", "classannis_1_1gui_1_1ReportBugWindow_1_1ScreenDumpStreamSource.html", null ],
@@ -412,8 +408,8 @@ var hierarchy =
     [ "Thread", null, [
       [ "annis.service.internal.ImportWorker", "classannis_1_1service_1_1internal_1_1ImportWorker.html", null ]
     ] ],
-    [ "annis.libgui.media.TimeHelper", "classannis_1_1libgui_1_1media_1_1TimeHelper.html", null ],
     [ "annis.visualizers.iframe.partitur.TimeHelper", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1TimeHelper.html", null ],
+    [ "annis.libgui.media.TimeHelper", "classannis_1_1libgui_1_1media_1_1TimeHelper.html", null ],
     [ "annis.model.DataObject.Transient", "interfaceannis_1_1model_1_1DataObject_1_1Transient.html", null ],
     [ "annis.visualizers.component.tree.TreeElementLabeler", "interfaceannis_1_1visualizers_1_1component_1_1tree_1_1TreeElementLabeler.html", [
       [ "annis.visualizers.component.tree.TigerTreeVisualizer.DefaultLabeler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultLabeler.html", null ]
@@ -422,8 +418,8 @@ var hierarchy =
       [ "annis.visualizers.component.tree.TigerTreeVisualizer.DefaultStyler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultStyler.html", null ]
     ] ],
     [ "annis.visualizers.component.tree.ConstituentLayouter< T extends GraphicsItem >.TreeLayoutData", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html", null ],
-    [ "annis.visualizers.htmlvis.SpanHTMLOutputter.Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", null ],
     [ "annis.model.QueryNode.Type", "enumannis_1_1model_1_1QueryNode_1_1Type.html", null ],
+    [ "annis.visualizers.htmlvis.SpanHTMLOutputter.Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", null ],
     [ "annis.service.objects.AnnisAttribute.Type", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html", null ],
     [ "UriFragmentChangedListener", null, [
       [ "annis.gui.SearchUI", "classannis_1_1gui_1_1SearchUI.html", null ]
@@ -443,7 +439,6 @@ var hierarchy =
     [ "WhereClauseSqlGenerator", null, [
       [ "annis.sqlgen.AbstractWhereClauseGenerator", "classannis_1_1sqlgen_1_1AbstractWhereClauseGenerator.html", null ],
       [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ],
-      [ "annis.sqlgen.CorpusPathWhereClauseGenerator", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html", null ],
       [ "annis.sqlgen.FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", null ],
       [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ],
       [ "annis.sqlgen.MetaDataAndCorpusWhereClauseGenerator", "classannis_1_1sqlgen_1_1MetaDataAndCorpusWhereClauseGenerator.html", null ],
