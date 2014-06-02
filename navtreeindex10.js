@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a6d80108b7cd08bf3c3205bf6affdcaa4":[5,0,0,5,13,0,17],
+"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7a24744769ad3c4e7218c9e0faed0c02":[5,0,0,5,13,0,36],
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7d12fcc8beb26825d1c7ffbb02d54ea3":[5,0,0,5,13,0,9],
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7e62279f429e1258397d92eefc95df39":[5,0,0,5,13,0,33],
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a82835e842bcf9d853cffa8b719faf9ff":[5,0,0,5,13,0,12],
@@ -17,7 +19,6 @@ var NAVTREEINDEX10 =
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#acb78791c89deb1635e1fc5a2e5661643":[5,0,0,5,13,0,16],
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#acb9be7cd732823f19d7e6836b96ed31e":[5,0,0,5,13,0,25],
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#addb005ffe4b21696e5c19c4611e6b603":[5,0,0,5,13,0,30],
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae516670fe777a0c9147f5f8da3f79984":[5,0,0,5,13,0,2],
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae8d4b1fee6f7c8cd5ae4e6ceae31f328":[5,0,0,5,13,0,32],
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af157d9c63d2c62a825baed59b84c8d55":[5,0,0,5,13,0,38],
 "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#af434bce97155fe4984248b62c0369f15":[5,0,0,5,13,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#aa13156d6083132a2dbece8d781117a2c":[5,0,0,5,16,0,1,36],
 "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ab2a256a969a8f719e51898590701b531":[5,0,0,5,16,0,1,39],
 "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#abbe365053b3e1c5bb6419ec5f1801ed4":[5,0,0,5,16,0,1,22],
-"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#abbe9e932694ce83c6c16c1327ed38dce":[5,0,0,5,16,0,1,25],
-"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ac849796f0dfc3a044931896011d6d3a0":[5,0,0,5,16,0,1,30]
+"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#abbe9e932694ce83c6c16c1327ed38dce":[5,0,0,5,16,0,1,25]
 };

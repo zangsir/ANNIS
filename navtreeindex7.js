@@ -89,12 +89,13 @@ var NAVTREEINDEX7 =
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#a3774eca6d49ccc35dd95c0a1b661caeb":[5,0,0,5,4,0,0,3],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#a467cbd579fd1ad4514102627a108d098":[5,0,0,5,4,0,0,4],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#a5fa765992d08f9892a130376d3cde97d":[5,0,0,5,4,0,0,6],
+"classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#a64a9f588c17595dc116fd61f99e0d563":[5,0,0,5,4,0,0,7],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#a86bd84c9d2d8516ec1044183e0ffa09f":[5,0,0,5,4,0,0,1],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#a900354b4c6e908a164a7c1022ad55425":[5,0,0,5,4,0,0,0],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#a9998db5f0f9a9d5821db640b99051025":[5,0,0,5,4,0,0,5],
-"classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#ab5e3f833d73fe3698eb647d644b0f94d":[5,0,0,5,4,0,0,7],
+"classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#ab5e3f833d73fe3698eb647d644b0f94d":[5,0,0,5,4,0,0,8],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#ad9ef08911033cda9dcd1dee6a4cc0564":[5,0,0,5,4,0,0,2],
-"classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#af0b784962e1e42d8e6b0212373381419":[5,0,0,5,4,0,0,8],
+"classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html#af0b784962e1e42d8e6b0212373381419":[5,0,0,5,4,0,0,9],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel.html":[5,0,0,5,4,1],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel.html#a047f03983f2493e053a908fc7c232bd5":[5,0,0,5,4,1,13],
 "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel.html#a04aebe3be1534ae043dcd239524e485d":[5,0,0,5,4,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a8e2c075cc0f5f2fe480132778998e90c":[5,0,0,5,6,2,22],
 "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a938ce36742196b3cc8110a1ee0d96b05":[5,0,0,5,6,2,28],
 "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a962e03a8e49f63484112c36a83d85222":[5,0,0,5,6,2,15],
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a9b68e89c1a2df7587ce25dd7a2a51634":[5,0,0,5,6,2,66],
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa2af8127fe3e9132d1e9d3abe18139c1":[5,0,0,5,6,2,27]
+"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a9b68e89c1a2df7587ce25dd7a2a51634":[5,0,0,5,6,2,66]
 };

@@ -10,5 +10,5 @@ var classannis_1_1provider_1_1SaltProjectProvider =
     [ "APPLICATION_XMI_BINARY", "classannis_1_1provider_1_1SaltProjectProvider.html#acd5119e6efe1df17ddee4f1beb12414a", null ],
     [ "APPLICATION_XMI_XML", "classannis_1_1provider_1_1SaltProjectProvider.html#a2cecac4bf460d103856bd7cf5557b932", null ],
     [ "log", "classannis_1_1provider_1_1SaltProjectProvider.html#a39d0aad4e905a3dfe1a27b5a28cd0016", null ],
-    [ "xmlParserPool", "classannis_1_1provider_1_1SaltProjectProvider.html#ac5562845ddc94eb0b154be4ad58786f3", null ]
+    [ "xmlParserPool", "classannis_1_1provider_1_1SaltProjectProvider.html#ab767f5b8701ddb11bc2d537c981efbd4", null ]
 ];

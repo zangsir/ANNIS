@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a285f19db63bff18c226a564656162a00":[5,0,0,13,2,2,4],
 "classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a2e17b80ce6e8f1fdbc5b5015f7bd077f":[5,0,0,13,2,2,20],
 "classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a2f707274c8c442c53ae0b2cc2b9ac17d":[5,0,0,13,2,2,3],
 "classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a2fbfe4fae34aef7929f81f87d6cb6893":[5,0,0,13,2,2,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classannis_1_1sqlgen_1_1AbstractSolutionKey_3_01BaseType_01_4.html#afc1d9f164fc1cc226478372f87fe65d0":[5,0,0,14,4,14],
 "classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html":[5,0,0,14,5],
 "classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html#a0728c19e740dbe6d407810bae70474ad":[5,0,0,14,5,2],
-"classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html#a7082693f0c5025f762cdbdcbb96c1fcb":[5,0,0,14,5,3],
-"classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html#aa8a6870d7f937e0ea1a5673c3db0bbce":[5,0,0,14,5,0]
+"classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html#a7082693f0c5025f762cdbdcbb96c1fcb":[5,0,0,14,5,3]
 };

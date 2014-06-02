@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classannis_1_1libgui_1_1InstanceConfig.html#af5c2fecf1ecc727fb68b5850730e6300":[5,0,0,6,13,11],
 "classannis_1_1libgui_1_1PDFPageHelper.html":[5,0,0,6,7],
 "classannis_1_1libgui_1_1PDFPageHelper.html#a0daf7384f779420b0fe7b3c771995130":[5,0,0,6,7,0],
 "classannis_1_1libgui_1_1PDFPageHelper.html#a3316dccd7dccfc338acbbdcfb5b08d25":[5,0,0,6,7,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classannis_1_1model_1_1Annotation.html#a92841620e6a0780c8bf4ecef81d754ab":[5,0,0,7,2,5],
 "classannis_1_1model_1_1Annotation.html#a96c604650ae618588022fc0af8a9ad48":[5,0,0,7,2,17],
 "classannis_1_1model_1_1Annotation.html#a9f472ccecbf6d5e7d2c0ae0f93d69e04":[5,0,0,7,2,10],
-"classannis_1_1model_1_1Annotation.html#aa98a6c00c4e21a6d8af6725f432abf45":[5,0,0,7,2,24],
-"classannis_1_1model_1_1Annotation.html#aac12bdf248bfd85015c88f822ae22d5c":[5,0,0,7,2,2]
+"classannis_1_1model_1_1Annotation.html#aa98a6c00c4e21a6d8af6725f432abf45":[5,0,0,7,2,24]
 };

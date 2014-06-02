@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ac849796f0dfc3a044931896011d6d3a0":[5,0,0,5,16,0,1,30],
 "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#acd6fe82a47d334f89641e7b9bc829bfa":[5,0,0,5,16,0,1,19],
 "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ad488ae151e5827f39796e01033e4abfa":[5,0,0,5,16,0,1,1],
 "classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ae5530ac4c48451bd420884c001ed4788":[5,0,0,5,16,0,1,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classannis_1_1libgui_1_1InstanceConfig.html#ad53353b0f5ed70214638137fac318fdb":[5,0,0,6,13,0],
 "classannis_1_1libgui_1_1InstanceConfig.html#adaebe21c246ab91d1ddd237ecec2d683":[5,0,0,6,13,5],
 "classannis_1_1libgui_1_1InstanceConfig.html#ae28d4897076f79011efc8f5f2daec719":[5,0,0,6,13,18],
-"classannis_1_1libgui_1_1InstanceConfig.html#aee82c5ea4ca195ffb6709ac262dcfb97":[5,0,0,6,13,17],
-"classannis_1_1libgui_1_1InstanceConfig.html#af5c2fecf1ecc727fb68b5850730e6300":[5,0,0,6,13,11]
+"classannis_1_1libgui_1_1InstanceConfig.html#aee82c5ea4ca195ffb6709ac262dcfb97":[5,0,0,6,13,17]
 };

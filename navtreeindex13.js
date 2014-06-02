@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classannis_1_1model_1_1Annotation.html#aac12bdf248bfd85015c88f822ae22d5c":[5,0,0,7,2,2],
 "classannis_1_1model_1_1Annotation.html#aaeda97d4b62ec5fa04f8daa156cdfc5c":[5,0,0,7,2,4],
 "classannis_1_1model_1_1Annotation.html#ab298d40db0c36d375230d6e8ffcd8a99":[5,0,0,7,2,30],
 "classannis_1_1model_1_1Annotation.html#ab3cf8e88d37a690644154bf29786717e":[5,0,0,7,2,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classannis_1_1model_1_1RelannisNodeFeature.html#a76b49126686139b711ac354547eb1f1e":[5,0,0,7,10,19],
 "classannis_1_1model_1_1RelannisNodeFeature.html#a7802727060055343b3d493f3a8f9cc36":[5,0,0,7,10,8],
 "classannis_1_1model_1_1RelannisNodeFeature.html#a84bf919615f04810c1b8653f62673784":[5,0,0,7,10,24],
-"classannis_1_1model_1_1RelannisNodeFeature.html#a873c46e07525a440e89ffdeaac403921":[5,0,0,7,10,34],
-"classannis_1_1model_1_1RelannisNodeFeature.html#a8af493fe22fda6e7c96d944a5c387b02":[5,0,0,7,10,35]
+"classannis_1_1model_1_1RelannisNodeFeature.html#a873c46e07525a440e89ffdeaac403921":[5,0,0,7,10,34]
 };

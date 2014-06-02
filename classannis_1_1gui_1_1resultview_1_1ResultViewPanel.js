@@ -2,7 +2,7 @@ var classannis_1_1gui_1_1resultview_1_1ResultViewPanel =
 [
     [ "MenuBaseTextCommand", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand.html", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand" ],
     [ "ResultViewPanel", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a405519861cf1512831d4f09a8d2578e9", null ],
-    [ "addQueryResult", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ae516670fe777a0c9147f5f8da3f79984", null ],
+    [ "addQueryResult", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4bdd90af5170d669fc5b951788faa575", null ],
     [ "createPanels", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a8ae0550f5cd8e5913e8ca3a977501480", null ],
     [ "getPaging", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#ac134a1b1d36f29861045f1729983d973", null ],
     [ "getSegmentationNames", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a0eb318a6f8e0e13bdb01b90a58186525", null ],
