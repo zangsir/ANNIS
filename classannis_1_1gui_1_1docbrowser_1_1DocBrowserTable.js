@@ -14,7 +14,7 @@ var classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable =
     [ "sortByMetaData", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a05f78099fc65d438deba8368a825f8a9", null ],
     [ "container", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#aa574255126f1f27b48da68034d3f772e", null ],
     [ "docBrowserPanel", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#ac4937e642b573a39a7625eef496b8678", null ],
-    [ "docMetaDataCache", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a19afed027994eab51e55a5d89bc2670d", null ],
+    [ "docMetaDataCache", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a112432bc6a63f03c822acf9f7f111878", null ],
     [ "docVisualizerConfig", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#aefced39be9208889adf763ff10652201", null ],
     [ "INFO_ICON", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#aca414948a1934e5c34770079de9c9ac2", null ],
     [ "log", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a748069c6a16a6ab0ab9a3a199dc1b786", null ]

@@ -85,7 +85,7 @@ var searchData=
   ['docleanupdata',['doCleanupData',['../classannis_1_1administration_1_1AnnisAdminRunner.html#a50e58e18b8e7d04af5e41da59b0f31da',1,'annis::administration::AnnisAdminRunner']]],
   ['doclearexamplequeries',['doClearExampleQueries',['../classannis_1_1AnnisRunner.html#a8af2e4ddf72f94b4ce722a42f2bf3a1e',1,'annis::AnnisRunner']]],
   ['doclinkgenerator',['DocLinkGenerator',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1DocLinkGenerator.html',1,'annis::gui::controlpanel::CorpusListPanel']]],
-  ['docmetadatacache',['docMetaDataCache',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a19afed027994eab51e55a5d89bc2670d',1,'annis::gui::docbrowser::DocBrowserTable']]],
+  ['docmetadatacache',['docMetaDataCache',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a112432bc6a63f03c822acf9f7f111878',1,'annis::gui::docbrowser::DocBrowserTable']]],
   ['docname',['docName',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1OpenVisualizerWindow.html#a843a9ca180776b5a00da39e1848dcfaf',1,'annis::gui::docbrowser::DocBrowserTable::OpenVisualizerWindow']]],
   ['docorpus',['doCorpus',['../classannis_1_1AnnisRunner.html#a9af816f180b0a7061e76305c36889391',1,'annis::AnnisRunner']]],
   ['docount',['doCount',['../classannis_1_1AnnisRunner.html#a8bc264de22b2bb9b16f9e647acd462cf',1,'annis::AnnisRunner']]],

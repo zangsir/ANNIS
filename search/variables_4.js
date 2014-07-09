@@ -36,7 +36,7 @@ var searchData=
   ['doc_5ficon',['DOC_ICON',['../classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel.html#ac57eb5904670e7226f6aee91912579ba',1,'annis.gui.controlpanel.CorpusListPanel.DOC_ICON()'],['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserController.html#a73a366a6e204cf28480ee138d8ffca35',1,'annis.gui.docbrowser.DocBrowserController.DOC_ICON()']]],
   ['docbrowsercontroller',['docBrowserController',['../classannis_1_1gui_1_1SearchUI.html#a002b61064726e9f676a027a841dd739d',1,'annis::gui::SearchUI']]],
   ['docbrowserpanel',['docBrowserPanel',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#ac4937e642b573a39a7625eef496b8678',1,'annis::gui::docbrowser::DocBrowserTable']]],
-  ['docmetadatacache',['docMetaDataCache',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a19afed027994eab51e55a5d89bc2670d',1,'annis::gui::docbrowser::DocBrowserTable']]],
+  ['docmetadatacache',['docMetaDataCache',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a112432bc6a63f03c822acf9f7f111878',1,'annis::gui::docbrowser::DocBrowserTable']]],
   ['docname',['docName',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1OpenVisualizerWindow.html#a843a9ca180776b5a00da39e1848dcfaf',1,'annis::gui::docbrowser::DocBrowserTable::OpenVisualizerWindow']]],
   ['docs',['docs',['../classannis_1_1gui_1_1MetaDataPanel.html#afa54f8a8070cb2b2da66a2c0724a7697',1,'annis::gui::MetaDataPanel']]],
   ['document',['document',['../classannis_1_1libgui_1_1visualizers_1_1VisualizerInput.html#aa613f7beecab61b22cdddc271c530f09',1,'annis::libgui::visualizers::VisualizerInput']]],
