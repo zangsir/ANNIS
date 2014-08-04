@@ -1,6 +1,5 @@
 var classannis_1_1service_1_1internal_1_1QueryServiceImpl =
 [
-    [ "annotate", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#adbc499fcd9144a4afe2e55482af9fb60", null ],
     [ "annotations", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#ad8aa5835058f6bb8906dd11d3ab77da8", null ],
     [ "binary", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a3919332fb99f7c684e215b4d083c300e", null ],
     [ "binary1", "classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#aa678e7c174638df8aaf57da873116c36", null ],

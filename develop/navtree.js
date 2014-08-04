@@ -31,34 +31,36 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ANNISRolePermissionResolver_8java.html",
-"NonBindingJoin_8java.html",
-"classannis_1_1AnnisRunner.html#a616378d61c4172ec649ff30d78b75023",
-"classannis_1_1administration_1_1DefaultAdministrationDao.html#a49e6402e78bb74db8f184c9b5418f6c9",
-"classannis_1_1dao_1_1SpringAnnisDao.html#ab38d8a1033ce5bcabe72d165f9c4074b",
-"classannis_1_1gui_1_1ExportPanel.html#aa3df1d0f3fb89e369c074c5c982a448f",
-"classannis_1_1gui_1_1beans_1_1CorpusBrowserEntry.html#a11ceafc72cd28d8db650343059081cbd",
-"classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html",
-"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#aa6b321e5602aa85f7c2c6eeb7df9e5ed",
-"classannis_1_1gui_1_1model_1_1PagedResultQuery.html#a84d6184d01dbc2e0553d438e93debdeb",
-"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a7e62279f429e1258397d92eefc95df39",
-"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#ad488ae151e5827f39796e01033e4abfa",
-"classannis_1_1libgui_1_1PDFPageHelper.html#a0daf7384f779420b0fe7b3c771995130",
-"classannis_1_1model_1_1Annotation.html#ab298d40db0c36d375230d6e8ffcd8a99",
-"classannis_1_1model_1_1RelannisNodeFeature.html#a9cbe8d547bcc0a0d6d713329994698a4",
-"classannis_1_1resolver_1_1ResolverEntry.html#a587fc885ada877dff4b2a0f7b8f97981",
-"classannis_1_1service_1_1objects_1_1AnnisCorpus.html#a2f707274c8c442c53ae0b2cc2b9ac17d",
-"classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html",
-"classannis_1_1sqlgen_1_1FrequencySqlGenerator.html#a5f9a73bc404c55e7ab1b78d59e1f675f",
-"classannis_1_1sqlgen_1_1annopool_1_1ApAnnotateSqlGenerator_3_01T_01_4.html#ad75ae4670f0750656bfdbcf329d04eb9",
-"classannis_1_1visualizers_1_1component_1_1grid_1_1EventExtractor.html",
-"classannis_1_1visualizers_1_1component_1_1tree_1_1LayoutOptions.html#ac698472f4ece1de419813d34427ab68e",
-"classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer.html#a085f8360cd180a639832aac9702b64a1",
-"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog_1_1InitDialogWorker.html#a5b721f76a9c2490b47125bb7496fe101",
-"enumannis_1_1visualizers_1_1component_1_1tree_1_1RectangleSide.html#a3020f71a2edca4e38dbf847d292a4edd",
-"interfaceannis_1_1libgui_1_1visualizers_1_1ResourcePlugin.html",
-"namespaceannis_1_1visualizers_1_1component_1_1grid.html"
+"OrderByClauseSqlGenerator_8java.html",
+"classannis_1_1AnnisRunner.html#a608b1128b7a027dde2313649e485147d",
+"classannis_1_1administration_1_1DefaultAdministrationDao.html#a324681ee2dcd43e8a34a8ff5ceb75228",
+"classannis_1_1dao_1_1SpringAnnisDao.html#a9982ba7bdfdaa9caa6f5a8c020bea4d3",
+"classannis_1_1gui_1_1ExportPanel.html#a2cae6515d96a87efbc020009e5643200",
+"classannis_1_1gui_1_1admin_1_1ImportPanel.html#a11bf48e333f3313b173ead3eff705abe",
+"classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a7b14b90b3e48f622dbecff55eb79bed3",
+"classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder.html#a5f97ffc9ba606dd6ce0e03840af1552a",
+"classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel_1_1CSVResource.html",
+"classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a1be72cb3c2aeb2e1ed7e077dc2b9ea64",
+"classannis_1_1gui_1_1widgets_1_1grid_1_1GridEvent.html#a71336d054900ebfc020903d353cfb210",
+"classannis_1_1libgui_1_1InstanceConfig.html#aa675a221c92b0a3b02bee75839e15d03",
+"classannis_1_1model_1_1Annotation.html#a5d71db5a1e9ae8f0ddc1bd2423c8fdec",
+"classannis_1_1model_1_1RelannisNodeFeature.html#a2ab80de2c19bec8b2763ad2f228655e2",
+"classannis_1_1ql_1_1parser_1_1TransitivePrecedenceOptimizer.html#a71613c4fc211f8e8f5861a8b1d63dd4d",
+"classannis_1_1service_1_1objects_1_1AnnisAttribute.html#ac5ffe6b3934c793b4e30c6d42075023c",
+"classannis_1_1service_1_1objects_1_1Visualizer.html#a4d5830c5faceb70a797332792d80b45f",
+"classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html#a96fc83838ee5eaac6e4847918c1c84c2",
+"classannis_1_1sqlgen_1_1SqlConstraints.html#a43ae054e54d24964b4e6f95f0debf7c4",
+"classannis_1_1utils_1_1Utils.html#abcde574a84ef6d10f29aed987bdc8eb1",
+"classannis_1_1visualizers_1_1component_1_1rst_1_1RSTImpl.html#ad6556209a10fa82518fbcdcb04393c04",
+"classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameAndValueMatcher.html#ad94d64d2f4e652241a831d27055de0c7",
+"classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ExceptionDialog.html#a543d0efa275503a7f962137a461ba598",
+"enumannis_1_1libgui_1_1MatchedNodeColors.html#a738f92d50f96e1d412cbd3a23aa724bd",
+"interfaceannis_1_1dao_1_1AnnisDao.html#a470000416e4b5dd6fd6646fae9c74f60",
+"namespaceannis_1_1gui.html"
 ];
 
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
@@ -141,12 +143,12 @@ function createIndent(o,domNode,node,level)
   var level=-1;
   var n = node;
   while (n.parentNode) { level++; n=n.parentNode; }
-  var imgNode = document.createElement("img");
-  imgNode.style.paddingLeft=(16*level).toString()+'px';
-  imgNode.width  = 16;
-  imgNode.height = 22;
-  imgNode.border = 0;
   if (node.childrenData) {
+    var imgNode = document.createElement("img");
+    imgNode.style.paddingLeft=(16*level).toString()+'px';
+    imgNode.width  = 16;
+    imgNode.height = 22;
+    imgNode.border = 0;
     node.plus_img = imgNode;
     node.expandToggle = document.createElement("a");
     node.expandToggle.href = "javascript:void(0)";
@@ -163,8 +165,12 @@ function createIndent(o,domNode,node,level)
     domNode.appendChild(node.expandToggle);
     imgNode.src = node.relpath+"ftv2pnode.png";
   } else {
-    imgNode.src = node.relpath+"ftv2node.png";
-    domNode.appendChild(imgNode);
+    var span = document.createElement("span");
+    span.style.display = 'inline-block';
+    span.style.width   = 16*(level+1)+'px';
+    span.style.height  = '22px';
+    span.innerHTML = '&#160;';
+    domNode.appendChild(span);
   } 
 }
 
@@ -383,7 +389,7 @@ function showNode(o, node, index, hash)
       if (!node.childrenVisited) {
         getNode(o, node);
       }
-      $(node.getChildrenUL()).show();
+      $(node.getChildrenUL()).css({'display':'block'});
       if (node.isLast) {
         node.plus_img.src = node.relpath+"ftv2mlastnode.png";
       } else {
@@ -415,8 +421,22 @@ function showNode(o, node, index, hash)
   }
 }
 
+function removeToInsertLater(element) {
+  var parentNode = element.parentNode;
+  var nextSibling = element.nextSibling;
+  parentNode.removeChild(element);
+  return function() {
+    if (nextSibling) {
+      parentNode.insertBefore(element, nextSibling);
+    } else {
+      parentNode.appendChild(element);
+    }
+  };
+}
+
 function getNode(o, po)
 {
+  var insertFunction = removeToInsertLater(po.li);
   po.childrenVisited = true;
   var l = po.childrenData.length-1;
   for (var i in po.childrenData) {
@@ -424,6 +444,7 @@ function getNode(o, po)
     po.children[i] = newNode(o, po, nodeData[0], nodeData[1], nodeData[2],
       i==l);
   }
+  insertFunction();
 }
 
 function gotoNode(o,subIndex,root,hash,relpath)
@@ -527,7 +548,10 @@ function initNavTree(toroot,relpath)
     navSync.click(function(){ toggleSyncButton(relpath); });
   }
 
-  navTo(o,toroot,window.location.hash,relpath);
+  $(window).load(function(){
+    navTo(o,toroot,window.location.hash,relpath);
+    showRoot();
+  });
 
   $(window).bind('hashchange', function(){
      if (window.location.hash && window.location.hash.length>1){
@@ -550,7 +574,5 @@ function initNavTree(toroot,relpath)
        navTo(o,toroot,window.location.hash,relpath);
      }
   })
-
-  $(window).load(showRoot);
 }
 

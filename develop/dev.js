@@ -27,6 +27,8 @@ var dev =
         [ "overlap: \"_o_\"", "dev-aql.html#dev-aql-overlap", null ],
         [ "left aligned: \"_l_\"", "dev-aql.html#dev-aql-leftalign", null ],
         [ "right aligned: \"_r_\"", "dev-aql.html#dev-aql-rightalign", null ],
+        [ "directly near: \"^\"", "dev-aql.html#dev-aql-directnear", null ],
+        [ "indirectly near: \"^*\"", "dev-aql.html#dev-aql-indirectnear", null ],
         [ "labeled direct pointing relation: \"->LABEL\"", "dev-aql.html#dev-aql-directpoint", null ],
         [ "labeled indirect pointing relation: \"->LABEL *\"", "dev-aql.html#dev-aql-indirectpoint", null ],
         [ "left-most child: \">@l\"", "dev-aql.html#dev-aql-leftchild", null ],

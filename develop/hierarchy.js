@@ -7,25 +7,9 @@ var hierarchy =
     [ "annis.sqlgen.AbstractSolutionKey< BaseType >", "classannis_1_1sqlgen_1_1AbstractSolutionKey_3_01BaseType_01_4.html", [
       [ "annis.sqlgen.PostgreSqlArraySolutionKey< BaseType >", "classannis_1_1sqlgen_1_1PostgreSqlArraySolutionKey_3_01BaseType_01_4.html", null ]
     ] ],
-    [ "AbstractSolutionMatchInFromClauseSqlGenerator", null, [
-      [ "annis.sqlgen.CountMatchesAndDocumentsSqlGenerator", "classannis_1_1sqlgen_1_1CountMatchesAndDocumentsSqlGenerator.html", null ],
-      [ "annis.sqlgen.CountSqlGenerator", "classannis_1_1sqlgen_1_1CountSqlGenerator.html", null ]
-    ] ],
-    [ "AbstractSqlGenerator", null, [
-      [ "annis.sqlgen.FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", null ],
-      [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", [
-        [ "annis.sqlgen.annopool.ApMatrixSqlGenerator", "classannis_1_1sqlgen_1_1annopool_1_1ApMatrixSqlGenerator.html", null ]
-      ] ]
-    ] ],
-    [ "AbstractUnionSqlGenerator", null, [
-      [ "annis.sqlgen.AnnotateInnerQuerySqlGenerator", "classannis_1_1sqlgen_1_1AnnotateInnerQuerySqlGenerator.html", null ],
-      [ "annis.sqlgen.FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", null ]
-    ] ],
     [ "annis.gui.controlpanel.CorpusListPanel.ActionType", "enumannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1ActionType.html", null ],
     [ "annis.administration.AdministrationDao", "interfaceannis_1_1administration_1_1AdministrationDao.html", [
-      [ "annis.administration.DefaultAdministrationDao", "classannis_1_1administration_1_1DefaultAdministrationDao.html", [
-        [ "annis.administration.ApAdministrationDao", "classannis_1_1administration_1_1ApAdministrationDao.html", null ]
-      ] ]
+      [ "annis.administration.DefaultAdministrationDao", "classannis_1_1administration_1_1DefaultAdministrationDao.html", null ]
     ] ],
     [ "annis.service.AdminService", "interfaceannis_1_1service_1_1AdminService.html", [
       [ "annis.service.internal.AdminServiceImpl", "classannis_1_1service_1_1internal_1_1AdminServiceImpl.html", null ]
@@ -48,14 +32,13 @@ var hierarchy =
       [ "annis.sqlgen.SaltAnnotateExtractor", "classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html", null ]
     ] ],
     [ "annis.sqlgen.extensions.AnnotateQueryData", "classannis_1_1sqlgen_1_1extensions_1_1AnnotateQueryData.html", null ],
-    [ "annis.sqlgen.AnnotationConditionProvider", "interfaceannis_1_1sqlgen_1_1AnnotationConditionProvider.html", [
-      [ "annis.sqlgen.annopool.ApAnnotationConditionProvider", "classannis_1_1sqlgen_1_1annopool_1_1ApAnnotationConditionProvider.html", null ]
-    ] ],
+    [ "annis.sqlgen.AnnotationConditionProvider", "classannis_1_1sqlgen_1_1AnnotationConditionProvider.html", null ],
     [ "annis.gui.querybuilder.AQLOperator", "enumannis_1_1gui_1_1querybuilder_1_1AQLOperator.html", null ],
     [ "annis.AnnisRunner.Benchmark", "classannis_1_1AnnisRunner_1_1Benchmark.html", null ],
     [ "annis.gui.ReportBugWindow.BugReport", "classannis_1_1gui_1_1ReportBugWindow_1_1BugReport.html", null ],
     [ "annis.gui.components.CssRenderInfo.Callback", "interfaceannis_1_1gui_1_1components_1_1CssRenderInfo_1_1Callback.html", null ],
     [ "annis.gui.components.OnLoadCallbackExtension.Callback", "interfaceannis_1_1gui_1_1components_1_1OnLoadCallbackExtension_1_1Callback.html", [
+      [ "annis.gui.components.FrequencyWhiteboard", "classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html", null ],
       [ "annis.gui.resultview.ResultViewPanel", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html", null ]
     ] ],
     [ "annis.gui.beans.CitationProvider", "interfaceannis_1_1gui_1_1beans_1_1CitationProvider.html", [
@@ -110,9 +93,10 @@ var hierarchy =
       [ "annis.model.Annotation", "classannis_1_1model_1_1Annotation.html", null ],
       [ "annis.model.QueryAnnotation", "classannis_1_1model_1_1QueryAnnotation.html", null ],
       [ "annis.service.objects.AnnisCorpus", "classannis_1_1service_1_1objects_1_1AnnisCorpus.html", null ],
-      [ "annis.visualizers.htmlvis.OutputItem", "classannis_1_1visualizers_1_1htmlvis_1_1OutputItem.html", null ],
-      [ "com.google.mimeparse.MIMEParse.FitnessAndQuality", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1FitnessAndQuality.html", null ]
+      [ "annis.visualizers.htmlvis.OutputItem", "classannis_1_1visualizers_1_1htmlvis_1_1OutputItem.html", null ]
     ] ],
+    [ "annis.sqlgen.SaltAnnotateExtractor.ComponentEntry", "classannis_1_1sqlgen_1_1SaltAnnotateExtractor_1_1ComponentEntry.html", null ],
+    [ "annis.sqlgen.AomAnnotateExtractor.ComponentEntry", "classannis_1_1sqlgen_1_1AomAnnotateExtractor_1_1ComponentEntry.html", null ],
     [ "annis.visualizers.component.tree.ConstituentLayouter< T extends GraphicsItem >", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4.html", null ],
     [ "annis.gui.flatquerybuilder.FlatQueryBuilder.Constraint", "classannis_1_1gui_1_1flatquerybuilder_1_1FlatQueryBuilder_1_1Constraint.html", null ],
     [ "annis.gui.requesthandler.ContentRange", "classannis_1_1gui_1_1requesthandler_1_1ContentRange.html", null ],
@@ -154,7 +138,6 @@ var hierarchy =
       [ "annis.model.DataObject.FieldCallBackEqualsImpl", "classannis_1_1model_1_1DataObject_1_1FieldCallBackEqualsImpl.html", null ],
       [ "annis.model.DataObject.FieldCallBackHashImpl", "classannis_1_1model_1_1DataObject_1_1FieldCallBackHashImpl.html", null ]
     ] ],
-    [ "annis.FindHelper", "classannis_1_1FindHelper.html", null ],
     [ "FinishedListener", null, [
       [ "annis.gui.admin.ImportPanel", "classannis_1_1gui_1_1admin_1_1ImportPanel.html", null ]
     ] ],
@@ -165,17 +148,21 @@ var hierarchy =
     [ "annis.service.objects.FrequencyTableEntryType", "enumannis_1_1service_1_1objects_1_1FrequencyTableEntryType.html", null ],
     [ "FromClauseSqlGenerator", null, [
       [ "annis.sqlgen.AbstractFromClauseGenerator", "classannis_1_1sqlgen_1_1AbstractFromClauseGenerator.html", [
-        [ "annis.sqlgen.CorpusPathWhereClauseGenerator", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html", null ],
         [ "annis.sqlgen.TableJoinsInWhereClauseGenerator", "classannis_1_1sqlgen_1_1TableJoinsInWhereClauseGenerator.html", null ]
       ] ],
-      [ "annis.sqlgen.AbstractSolutionMatchInFromClauseSqlGenerator< T >", "classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html", null ],
+      [ "annis.sqlgen.AbstractSolutionMatchInFromClauseSqlGenerator", "classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator.html", [
+        [ "annis.sqlgen.CountMatchesAndDocumentsSqlGenerator", "classannis_1_1sqlgen_1_1CountMatchesAndDocumentsSqlGenerator.html", null ],
+        [ "annis.sqlgen.CountSqlGenerator", "classannis_1_1sqlgen_1_1CountSqlGenerator.html", null ]
+      ] ],
       [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ],
       [ "annis.sqlgen.CountMatchesAndDocumentsSqlGenerator", "classannis_1_1sqlgen_1_1CountMatchesAndDocumentsSqlGenerator.html", null ],
       [ "annis.sqlgen.CountSqlGenerator", "classannis_1_1sqlgen_1_1CountSqlGenerator.html", null ],
+      [ "annis.sqlgen.FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", null ],
       [ "annis.sqlgen.FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", null ],
       [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ]
     ] ],
     [ "annis.sqlgen.FromClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1FromClauseSqlGenerator_3_01T_01_4.html", null ],
+    [ "annis.GraphHelper", "classannis_1_1GraphHelper.html", null ],
     [ "annis.visualizers.component.tree.GraphicsBackend< T extends GraphicsItem >", "interfaceannis_1_1visualizers_1_1component_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4.html", null ],
     [ "annis.visualizers.component.tree.GraphicsItem", "interfaceannis_1_1visualizers_1_1component_1_1tree_1_1GraphicsItem.html", [
       [ "annis.visualizers.component.tree.backends.staticimg.AbstractImageGraphicsItem", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1AbstractImageGraphicsItem.html", [
@@ -185,7 +172,8 @@ var hierarchy =
     ] ],
     [ "GroupByClauseSqlGenerator", null, [
       [ "annis.sqlgen.FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", null ],
-      [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ]
+      [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ],
+      [ "annis.sqlgen.SolutionSqlGenerator", "classannis_1_1sqlgen_1_1SolutionSqlGenerator.html", null ]
     ] ],
     [ "annis.sqlgen.GroupByClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1GroupByClauseSqlGenerator_3_01T_01_4.html", null ],
     [ "Handler", null, [
@@ -198,7 +186,7 @@ var hierarchy =
       [ "annis.visualizers.htmlvis.VisParser", "classannis_1_1visualizers_1_1htmlvis_1_1VisParser.html", null ]
     ] ],
     [ "annis.service.objects.ImportJob", "classannis_1_1service_1_1objects_1_1ImportJob.html", null ],
-    [ "annis.administration.AdministrationDao.ImportStats", "interfaceannis_1_1administration_1_1AdministrationDao_1_1ImportStats.html", [
+    [ "annis.administration.AdministrationDao.ImportStatus", "interfaceannis_1_1administration_1_1AdministrationDao_1_1ImportStatus.html", [
       [ "annis.administration.CorpusAdministration.ImportStatsImpl", "classannis_1_1administration_1_1CorpusAdministration_1_1ImportStatsImpl.html", null ]
     ] ],
     [ "annis.sqlgen.IslandsPolicy.IslandPolicies", "enumannis_1_1sqlgen_1_1IslandsPolicy_1_1IslandPolicies.html", null ],
@@ -241,7 +229,6 @@ var hierarchy =
     [ "annis.service.MetadataService", "interfaceannis_1_1service_1_1MetadataService.html", [
       [ "annis.service.internal.MetadataServiceImpl", "classannis_1_1service_1_1internal_1_1MetadataServiceImpl.html", null ]
     ] ],
-    [ "com.google.mimeparse.MIMEParse", "classcom_1_1google_1_1mimeparse_1_1MIMEParse.html", null ],
     [ "annis.libgui.media.MimeTypeErrorListener", "interfaceannis_1_1libgui_1_1media_1_1MimeTypeErrorListener.html", [
       [ "annis.gui.SearchUI", "classannis_1_1gui_1_1SearchUI.html", null ]
     ] ],
@@ -258,13 +245,12 @@ var hierarchy =
     [ "OrderByClauseSqlGenerator", null, [
       [ "annis.sqlgen.AnnotateInnerQuerySqlGenerator", "classannis_1_1sqlgen_1_1AnnotateInnerQuerySqlGenerator.html", null ],
       [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ],
-      [ "annis.sqlgen.FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", null ],
-      [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ]
+      [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ],
+      [ "annis.sqlgen.SolutionSqlGenerator", "classannis_1_1sqlgen_1_1SolutionSqlGenerator.html", null ]
     ] ],
     [ "annis.sqlgen.OrderByClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1OrderByClauseSqlGenerator_3_01T_01_4.html", null ],
     [ "annis.visualizers.component.tree.OrderedNodeList", "classannis_1_1visualizers_1_1component_1_1tree_1_1OrderedNodeList.html", null ],
     [ "annis.AnnisRunner.OS", "enumannis_1_1AnnisRunner_1_1OS.html", null ],
-    [ "com.google.mimeparse.MIMEParse.ParseResults", "classcom_1_1google_1_1mimeparse_1_1MIMEParse_1_1ParseResults.html", null ],
     [ "annis.libgui.PDFPageHelper", "classannis_1_1libgui_1_1PDFPageHelper.html", null ],
     [ "annis.libgui.media.PDFViewer", "interfaceannis_1_1libgui_1_1media_1_1PDFViewer.html", [
       [ "annis.visualizers.component.pdf.PDFVisualizer.PDFViewerImpl", "classannis_1_1visualizers_1_1component_1_1pdf_1_1PDFVisualizer_1_1PDFViewerImpl.html", null ]
@@ -274,6 +260,7 @@ var hierarchy =
     [ "ProgressListener", null, [
       [ "annis.gui.admin.ImportPanel", "classannis_1_1gui_1_1admin_1_1ImportPanel.html", null ]
     ] ],
+    [ "annis.visualizers.htmlvis.PseudoRegionMatcher.PseudoRegion", "enumannis_1_1visualizers_1_1htmlvis_1_1PseudoRegionMatcher_1_1PseudoRegion.html", null ],
     [ "annis.sqlgen.MatrixQueryData.QName", "classannis_1_1sqlgen_1_1MatrixQueryData_1_1QName.html", null ],
     [ "annis.dao.autogenqueries.QueriesGenerator", "classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html", null ],
     [ "annis.dao.autogenqueries.QueriesGenerator.QueryBuilder", "interfaceannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator_1_1QueryBuilder.html", [
@@ -337,7 +324,8 @@ var hierarchy =
       [ "annis.sqlgen.CountSqlGenerator", "classannis_1_1sqlgen_1_1CountSqlGenerator.html", null ],
       [ "annis.sqlgen.FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", null ],
       [ "annis.sqlgen.FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", null ],
-      [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ]
+      [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ],
+      [ "annis.sqlgen.SolutionSqlGenerator", "classannis_1_1sqlgen_1_1SolutionSqlGenerator.html", null ]
     ] ],
     [ "annis.sqlgen.SelectClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1SelectClauseSqlGenerator_3_01T_01_4.html", null ],
     [ "SelectedTabChangeListener", null, [
@@ -361,9 +349,13 @@ var hierarchy =
       [ "annis.visualizers.htmlvis.AnnotationNameAndValueMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameAndValueMatcher.html", null ],
       [ "annis.visualizers.htmlvis.AnnotationNameMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1AnnotationNameMatcher.html", null ],
       [ "annis.visualizers.htmlvis.AnnotationValueMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1AnnotationValueMatcher.html", null ],
+      [ "annis.visualizers.htmlvis.PseudoRegionMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1PseudoRegionMatcher.html", null ],
       [ "annis.visualizers.htmlvis.TokenMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1TokenMatcher.html", null ]
     ] ],
     [ "annis.sqlgen.SqlConstraints", "classannis_1_1sqlgen_1_1SqlConstraints.html", null ],
+    [ "annis.sqlgen.SqlGenerator< QueryType >", "interfaceannis_1_1sqlgen_1_1SqlGenerator_3_01QueryType_01_4.html", [
+      [ "annis.sqlgen.SqlGeneratorAndExtractor< QueryType, T >", "interfaceannis_1_1sqlgen_1_1SqlGeneratorAndExtractor_3_01QueryType_00_01T_01_4.html", null ]
+    ] ],
     [ "annis.dao.SqlSessionModifier", "interfaceannis_1_1dao_1_1SqlSessionModifier.html", [
       [ "annis.dao.ScriptFileSqlSessionModifier", "classannis_1_1dao_1_1ScriptFileSqlSessionModifier.html", null ],
       [ "annis.dao.SpringAnnisDao", "classannis_1_1dao_1_1SpringAnnisDao.html", null ]
@@ -374,7 +366,6 @@ var hierarchy =
     [ "annis.administration.AdministrationDao.StatementController", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html", [
       [ "de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.StatementControllerImpl", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl.html", null ]
     ] ],
-    [ "de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.Status", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status.html", null ],
     [ "annis.service.objects.ImportJob.Status", "enumannis_1_1service_1_1objects_1_1ImportJob_1_1Status.html", null ],
     [ "StreamSource", null, [
       [ "annis.gui.frequency.FrequencyResultPanel.CSVResource", "classannis_1_1gui_1_1frequency_1_1FrequencyResultPanel_1_1CSVResource.html", null ],
@@ -387,10 +378,16 @@ var hierarchy =
     [ "annis.sqlgen.TableAccessStrategy", "classannis_1_1sqlgen_1_1TableAccessStrategy.html", null ],
     [ "annis.sqlgen.TableAccessStrategyFactory", "classannis_1_1sqlgen_1_1TableAccessStrategyFactory.html", [
       [ "annis.sqlgen.AbstractFromClauseGenerator", "classannis_1_1sqlgen_1_1AbstractFromClauseGenerator.html", null ],
-      [ "annis.sqlgen.AbstractSqlGenerator< T >", "classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html", [
-        [ "annis.sqlgen.AbstractSolutionMatchInFromClauseSqlGenerator< T >", "classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator_3_01T_01_4.html", null ],
-        [ "annis.sqlgen.AbstractUnionSqlGenerator< T >", "classannis_1_1sqlgen_1_1AbstractUnionSqlGenerator_3_01T_01_4.html", null ],
-        [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ]
+      [ "annis.sqlgen.AbstractSqlGenerator", "classannis_1_1sqlgen_1_1AbstractSqlGenerator.html", [
+        [ "annis.sqlgen.AbstractSolutionMatchInFromClauseSqlGenerator", "classannis_1_1sqlgen_1_1AbstractSolutionMatchInFromClauseSqlGenerator.html", null ],
+        [ "annis.sqlgen.AbstractUnionSqlGenerator", "classannis_1_1sqlgen_1_1AbstractUnionSqlGenerator.html", [
+          [ "annis.sqlgen.AnnotateInnerQuerySqlGenerator", "classannis_1_1sqlgen_1_1AnnotateInnerQuerySqlGenerator.html", null ],
+          [ "annis.sqlgen.FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", null ],
+          [ "annis.sqlgen.SolutionSqlGenerator", "classannis_1_1sqlgen_1_1SolutionSqlGenerator.html", null ]
+        ] ],
+        [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ],
+        [ "annis.sqlgen.FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", null ],
+        [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ]
       ] ],
       [ "annis.sqlgen.AbstractWhereClauseGenerator", "classannis_1_1sqlgen_1_1AbstractWhereClauseGenerator.html", [
         [ "annis.sqlgen.DefaultWhereClauseGenerator", "classannis_1_1sqlgen_1_1DefaultWhereClauseGenerator.html", null ]
@@ -421,9 +418,9 @@ var hierarchy =
       [ "annis.visualizers.component.tree.TigerTreeVisualizer.DefaultStyler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultStyler.html", null ]
     ] ],
     [ "annis.visualizers.component.tree.ConstituentLayouter< T extends GraphicsItem >.TreeLayoutData", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html", null ],
-    [ "annis.visualizers.htmlvis.SpanHTMLOutputter.Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", null ],
-    [ "annis.model.QueryNode.Type", "enumannis_1_1model_1_1QueryNode_1_1Type.html", null ],
     [ "annis.service.objects.AnnisAttribute.Type", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html", null ],
+    [ "annis.model.QueryNode.Type", "enumannis_1_1model_1_1QueryNode_1_1Type.html", null ],
+    [ "annis.visualizers.htmlvis.SpanHTMLOutputter.Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", null ],
     [ "UriFragmentChangedListener", null, [
       [ "annis.gui.SearchUI", "classannis_1_1gui_1_1SearchUI.html", null ]
     ] ],
@@ -436,13 +433,15 @@ var hierarchy =
     ] ],
     [ "annis.gui.flatquerybuilder.ValueField.ValueMode", "enumannis_1_1gui_1_1flatquerybuilder_1_1ValueField_1_1ValueMode.html", null ],
     [ "annis.visualizers.iframe.dependency.Vector2", "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1Vector2.html", null ],
+    [ "annis.VersionInfo", "classannis_1_1VersionInfo.html", null ],
+    [ "annis.service.internal.VersionServiceImpl", "classannis_1_1service_1_1internal_1_1VersionServiceImpl.html", null ],
     [ "annis.visualizers.component.tree.VerticalOrientation", "enumannis_1_1visualizers_1_1component_1_1tree_1_1VerticalOrientation.html", null ],
     [ "annis.visualizers.htmlvis.VisualizationDefinition", "classannis_1_1visualizers_1_1htmlvis_1_1VisualizationDefinition.html", null ],
     [ "annis.WekaHelper", "classannis_1_1WekaHelper.html", null ],
     [ "WhereClauseSqlGenerator", null, [
       [ "annis.sqlgen.AbstractWhereClauseGenerator", "classannis_1_1sqlgen_1_1AbstractWhereClauseGenerator.html", null ],
       [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ],
-      [ "annis.sqlgen.CorpusPathWhereClauseGenerator", "classannis_1_1sqlgen_1_1CorpusPathWhereClauseGenerator.html", null ],
+      [ "annis.sqlgen.FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", null ],
       [ "annis.sqlgen.FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", null ],
       [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ],
       [ "annis.sqlgen.MetaDataAndCorpusWhereClauseGenerator", "classannis_1_1sqlgen_1_1MetaDataAndCorpusWhereClauseGenerator.html", null ],
@@ -523,9 +522,6 @@ var hierarchy =
     [ "Action", null, [
       [ "annis.gui.controlpanel.CorpusListPanel.AddRemoveAction", "classannis_1_1gui_1_1controlpanel_1_1CorpusListPanel_1_1AddRemoveAction.html", null ]
     ] ],
-    [ "AnnotateSqlGenerator", null, [
-      [ "annis.sqlgen.annopool.ApAnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1annopool_1_1ApAnnotateSqlGenerator_3_01T_01_4.html", null ]
-    ] ],
     [ "AqlParserBaseListener", null, [
       [ "annis.ql.parser.JoinListener", "classannis_1_1ql_1_1parser_1_1JoinListener.html", null ],
       [ "annis.ql.parser.QueryNodeListener", "classannis_1_1ql_1_1parser_1_1QueryNodeListener.html", null ]
@@ -603,9 +599,6 @@ var hierarchy =
     ] ],
     [ "DragSource", null, [
       [ "annis.gui.widgets.GripDragComponent", "classannis_1_1gui_1_1widgets_1_1GripDragComponent.html", null ]
-    ] ],
-    [ "DriverManagerDataSource", null, [
-      [ "annis.utils.SSLEnabledDataSource", "classannis_1_1utils_1_1SSLEnabledDataSource.html", null ]
     ] ],
     [ "DropHandler", null, [
       [ "annis.gui.querybuilder.TigerQueryBuilderCanvas.AbsoluteDropHandler", "classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderCanvas_1_1AbsoluteDropHandler.html", null ]
@@ -809,15 +802,17 @@ var hierarchy =
     ] ],
     [ "ResultSetExtractor", null, [
       [ "annis.dao.ResolverDaoHelper", "classannis_1_1dao_1_1ResolverDaoHelper.html", null ],
+      [ "annis.dao.SpringAnnisDao.ExplainSqlGenerator", "classannis_1_1dao_1_1SpringAnnisDao_1_1ExplainSqlGenerator.html", null ],
       [ "annis.sqlgen.AnnotateExtractor< T >", "interfaceannis_1_1sqlgen_1_1AnnotateExtractor_3_01T_01_4.html", [
         [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ]
       ] ],
       [ "annis.sqlgen.AomAnnotateExtractor", "classannis_1_1sqlgen_1_1AomAnnotateExtractor.html", null ],
       [ "annis.sqlgen.ByteHelper", "classannis_1_1sqlgen_1_1ByteHelper.html", null ],
+      [ "annis.sqlgen.CountSqlGenerator", "classannis_1_1sqlgen_1_1CountSqlGenerator.html", null ],
       [ "annis.sqlgen.ListAnnotationsSqlHelper", "classannis_1_1sqlgen_1_1ListAnnotationsSqlHelper.html", null ],
       [ "annis.sqlgen.MetaByteHelper", "classannis_1_1sqlgen_1_1MetaByteHelper.html", null ],
       [ "annis.sqlgen.RawTextSqlHelper", "classannis_1_1sqlgen_1_1RawTextSqlHelper.html", null ],
-      [ "annis.sqlgen.SqlGenerator< QueryType, ResultType >", "interfaceannis_1_1sqlgen_1_1SqlGenerator_3_01QueryType_00_01ResultType_01_4.html", null ]
+      [ "annis.sqlgen.SqlGeneratorAndExtractor< QueryType, T >", "interfaceannis_1_1sqlgen_1_1SqlGeneratorAndExtractor_3_01QueryType_00_01T_01_4.html", null ]
     ] ],
     [ "RolePermissionResolver", null, [
       [ "annis.security.ANNISRolePermissionResolver", "classannis_1_1security_1_1ANNISRolePermissionResolver.html", null ]
@@ -901,6 +896,7 @@ var hierarchy =
           ] ],
           [ "annis.sqlgen.model.Overlap", "classannis_1_1sqlgen_1_1model_1_1Overlap.html", null ],
           [ "annis.sqlgen.model.RangedJoin", "classannis_1_1sqlgen_1_1model_1_1RangedJoin.html", [
+            [ "annis.sqlgen.model.Near", "classannis_1_1sqlgen_1_1model_1_1Near.html", null ],
             [ "annis.sqlgen.model.Precedence", "classannis_1_1sqlgen_1_1model_1_1Precedence.html", null ],
             [ "annis.sqlgen.model.RankTableJoin", "classannis_1_1sqlgen_1_1model_1_1RankTableJoin.html", [
               [ "annis.sqlgen.model.Dominance", "classannis_1_1sqlgen_1_1model_1_1Dominance.html", [
@@ -986,7 +982,14 @@ var hierarchy =
     ] ],
     [ "SqlGenerator", null, [
       [ "annis.dao.SpringAnnisDao.ExplainSqlGenerator", "classannis_1_1dao_1_1SpringAnnisDao_1_1ExplainSqlGenerator.html", null ],
-      [ "annis.sqlgen.AbstractSqlGenerator< T >", "classannis_1_1sqlgen_1_1AbstractSqlGenerator_3_01T_01_4.html", null ]
+      [ "annis.sqlgen.AbstractSqlGenerator", "classannis_1_1sqlgen_1_1AbstractSqlGenerator.html", null ]
+    ] ],
+    [ "SqlGeneratorAndExtractor", null, [
+      [ "annis.sqlgen.AnnotateSqlGenerator< T >", "classannis_1_1sqlgen_1_1AnnotateSqlGenerator_3_01T_01_4.html", null ],
+      [ "annis.sqlgen.CountMatchesAndDocumentsSqlGenerator", "classannis_1_1sqlgen_1_1CountMatchesAndDocumentsSqlGenerator.html", null ],
+      [ "annis.sqlgen.FindSqlGenerator", "classannis_1_1sqlgen_1_1FindSqlGenerator.html", null ],
+      [ "annis.sqlgen.FrequencySqlGenerator", "classannis_1_1sqlgen_1_1FrequencySqlGenerator.html", null ],
+      [ "annis.sqlgen.MatrixSqlGenerator", "classannis_1_1sqlgen_1_1MatrixSqlGenerator.html", null ]
     ] ],
     [ "SwingWorker", null, [
       [ "de.hu_berlin.german.korpling.annis.kickstarter.ImportDialog.ImportDialogWorker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker.html", null ],

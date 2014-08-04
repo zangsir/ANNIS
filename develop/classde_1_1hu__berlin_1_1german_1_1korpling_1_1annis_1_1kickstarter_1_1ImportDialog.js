@@ -2,7 +2,6 @@ var classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1Impor
 [
     [ "ImportDialogWorker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1ImportDialogWorker" ],
     [ "StatementControllerImpl", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1StatementControllerImpl" ],
-    [ "Status", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog_1_1Status" ],
     [ "ImportDialog", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a9c71b7a453a86d13e5064bb0afb91216", null ],
     [ "ImportDialog", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a9d5f1fcf16511eba045ecd4df91c8db7", null ],
     [ "addAppender", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#aa20c8fa4c7f30e4cc8141e41e74639bf", null ],
@@ -24,6 +23,7 @@ var classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1Impor
     [ "corpora", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a32d11c9f27ab7067654c2f943897bb56", null ],
     [ "corpusAdministration", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a74460bc589a1b104800c88f29c12b11d", null ],
     [ "fileChooser", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#afadfb551d2f19b07c606bac454023081", null ],
+    [ "importStatus", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#aaad02ceccad0280e348126d96f1e4aa4", null ],
     [ "isImporting", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#ac398595b103b8d6f6dcd4260b7f8f117", null ],
     [ "jCheckBox1", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a4142048e24f6d33a2ee0a61a9c6cb4ac", null ],
     [ "jLabel1", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#aadaa51056bf38f48709bb24c43dc5c59", null ],
@@ -35,5 +35,5 @@ var classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1Impor
     [ "pbImport", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a86f36f1c877bc4539331367505ae2652", null ],
     [ "statementController", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#ae887698f1f0772e69b6453767626de10", null ],
     [ "txtInputDir", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#ac58edad38fd37c8caf9a66e23791a302", null ],
-    [ "worker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#a4140062f935f48ae23d46f13aea146b7", null ]
+    [ "worker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#abbba92891587418ed07ed9c460042258", null ]
 ];

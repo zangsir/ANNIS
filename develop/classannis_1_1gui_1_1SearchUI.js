@@ -9,6 +9,7 @@ var classannis_1_1gui_1_1SearchUI =
     [ "addLoginButton", "classannis_1_1gui_1_1SearchUI.html#a148abe7ce3e0a13d87322258586cbf1f", null ],
     [ "canReportBugs", "classannis_1_1gui_1_1SearchUI.html#a5368fbd1308526af760b8ad3827a0bd8", null ],
     [ "checkCitation", "classannis_1_1gui_1_1SearchUI.html#a97e567338f9b935db8619aef3c22ee21", null ],
+    [ "checkServiceVersion", "classannis_1_1gui_1_1SearchUI.html#afa37081b820975c9202a5bf36793b10c", null ],
     [ "clearCorpusConfigCache", "classannis_1_1gui_1_1SearchUI.html#a878ad15f6866bb51e3450214e323075f", null ],
     [ "error", "classannis_1_1gui_1_1SearchUI.html#a357201dc19df90f9ecf3d14333d20373", null ],
     [ "evaluateCitation", "classannis_1_1gui_1_1SearchUI.html#ab67f8a6b102fd56887644f19663821ac", null ],

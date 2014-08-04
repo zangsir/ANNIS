@@ -7,12 +7,8 @@ var classannis_1_1libgui_1_1AnnisBaseUI =
     [ "checkIfRemoteLoggedIn", "classannis_1_1libgui_1_1AnnisBaseUI.html#a25291f4d07553454435f0840a8c322c7", null ],
     [ "close", "classannis_1_1libgui_1_1AnnisBaseUI.html#a4db21fea3beac1eda312b1980e72c355", null ],
     [ "getAllConfigLocations", "classannis_1_1libgui_1_1AnnisBaseUI.html#a77ab166f7b26bd230b95f84396762908", null ],
-    [ "getBuildDate", "classannis_1_1libgui_1_1AnnisBaseUI.html#ab894a9ffbc6781704f8702cc0038887e", null ],
-    [ "getBuildRevision", "classannis_1_1libgui_1_1AnnisBaseUI.html#a7634688b043cf55859dc8d76ce770d67", null ],
     [ "getJsonMapper", "classannis_1_1libgui_1_1AnnisBaseUI.html#a6bd34eb147b2421b97c8b7eb40ac71b8", null ],
     [ "getPluginManager", "classannis_1_1libgui_1_1AnnisBaseUI.html#a8ea9708e16ebbbe97bae42efafc879b8", null ],
-    [ "getVersion", "classannis_1_1libgui_1_1AnnisBaseUI.html#a6a04370b3d3d9692c7d2bde756a4b94a", null ],
-    [ "getVersionNumber", "classannis_1_1libgui_1_1AnnisBaseUI.html#a50514de12ab5071cd71cfac26563514f", null ],
     [ "getVisualizer", "classannis_1_1libgui_1_1AnnisBaseUI.html#a40b42ab458fa9172e39fb52caa795860", null ],
     [ "init", "classannis_1_1libgui_1_1AnnisBaseUI.html#a14e77d4f4985129054c41c8f84aa0912", null ],
     [ "initLogging", "classannis_1_1libgui_1_1AnnisBaseUI.html#ac51775a5a675e55ad5905813f2f4ab88", null ],
@@ -33,7 +29,6 @@ var classannis_1_1libgui_1_1AnnisBaseUI =
     [ "resourceAddedDate", "classannis_1_1libgui_1_1AnnisBaseUI.html#a8223ccd9f13ee4b0ecdddcaa0b7ee4be", null ],
     [ "USER_KEY", "classannis_1_1libgui_1_1AnnisBaseUI.html#a017ef2a9307566f3f2e89c2db5546643", null ],
     [ "USER_LOGIN_ERROR", "classannis_1_1libgui_1_1AnnisBaseUI.html#af206478b2afb49ffd4922db21de1f458", null ],
-    [ "versionProperties", "classannis_1_1libgui_1_1AnnisBaseUI.html#a9a0856e62ab6413b0c7f0ecec19de78f", null ],
     [ "visualizerRegistry", "classannis_1_1libgui_1_1AnnisBaseUI.html#a834760d646ae74c6244d9d29d8e80047", null ],
     [ "WEBSERVICEURL_KEY", "classannis_1_1libgui_1_1AnnisBaseUI.html#a5767613f5418b4bd7e0703cfb8b18685", null ]
 ];

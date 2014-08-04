@@ -42,7 +42,7 @@ var searchData=
   ['nonbindingjoin',['NonBindingJoin',['../classannis_1_1sqlgen_1_1model_1_1NonBindingJoin.html',1,'annis::sqlgen::model']]],
   ['nonbindingjoin',['NonBindingJoin',['../classannis_1_1sqlgen_1_1model_1_1NonBindingJoin.html#a7ad26832c85671e4b94810deab823e5b',1,'annis::sqlgen::model::NonBindingJoin']]],
   ['nonbindingjoin_2ejava',['NonBindingJoin.java',['../NonBindingJoin_8java.html',1,'']]],
-  ['none',['none',['../enumannis_1_1sqlgen_1_1IslandsPolicy_1_1IslandPolicies.html#ae959ab26f9ebc9adb73a91e4a822eb60',1,'annis.sqlgen.IslandsPolicy.IslandPolicies.none()'],['../classannis_1_1visualizers_1_1component_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4_1_1Alignment.html#ab2d9379556933e2c70adf9004e006da8',1,'annis.visualizers.component.tree.GraphicsBackend&lt; T extends GraphicsItem &gt;.Alignment.NONE()']]],
+  ['none',['NONE',['../classannis_1_1visualizers_1_1component_1_1tree_1_1GraphicsBackend_3_01T_01extends_01GraphicsItem_01_4_1_1Alignment.html#ab2d9379556933e2c70adf9004e006da8',1,'annis.visualizers.component.tree.GraphicsBackend&lt; T extends GraphicsItem &gt;.Alignment.NONE()'],['../enumannis_1_1sqlgen_1_1IslandsPolicy_1_1IslandPolicies.html#ae959ab26f9ebc9adb73a91e4a822eb60',1,'annis.sqlgen.IslandsPolicy.IslandPolicies.none()']]],
   ['normal',['NORMAL',['../enumannis_1_1gui_1_1flatquerybuilder_1_1ValueField_1_1ValueMode.html#af3454bbd5a040cf993076d4db22f4fe6',1,'annis::gui::flatquerybuilder::ValueField::ValueMode']]],
   ['notequalvalue',['NotEqualValue',['../classannis_1_1sqlgen_1_1model_1_1NotEqualValue.html',1,'annis::sqlgen::model']]],
   ['notequalvalue',['NotEqualValue',['../classannis_1_1sqlgen_1_1model_1_1NotEqualValue.html#a3ec8931f6c3ccb563bb0225e5b9669f4',1,'annis::sqlgen::model::NotEqualValue']]],

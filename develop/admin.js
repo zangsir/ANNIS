@@ -4,6 +4,10 @@ var admin =
       [ "Installing an ANNIS public server ", "admin-install.html#admin-install-server", null ],
       [ "Installing a local version (ANNIS Kickstarter)     ", "admin-install.html#admin-install-kickstarter", null ]
     ] ],
+    [ "Upgrading an ANNIS installation", "admin-upgrade.html", [
+      [ "Upgrade for minor version updates ", "admin-upgrade.html#admin-upgrade-minor", null ],
+      [ "Full upgrade ", "admin-upgrade.html#admin-upgrade-full", null ]
+    ] ],
     [ "Configure back-end service", "admin-configure-service.html", [
       [ "User Configuration ", "admin-configure-service.html#admin-configure-user", [
         [ "Configuration file location ", "admin-configure-service.html#admin-configure-userfileloc", null ],

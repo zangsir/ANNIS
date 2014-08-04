@@ -9,6 +9,7 @@ var namespaceannis_1_1sqlgen_1_1model =
     [ "LeftAlignment", "classannis_1_1sqlgen_1_1model_1_1LeftAlignment.html", "classannis_1_1sqlgen_1_1model_1_1LeftAlignment" ],
     [ "LeftDominance", "classannis_1_1sqlgen_1_1model_1_1LeftDominance.html", "classannis_1_1sqlgen_1_1model_1_1LeftDominance" ],
     [ "LeftOverlap", "classannis_1_1sqlgen_1_1model_1_1LeftOverlap.html", "classannis_1_1sqlgen_1_1model_1_1LeftOverlap" ],
+    [ "Near", "classannis_1_1sqlgen_1_1model_1_1Near.html", "classannis_1_1sqlgen_1_1model_1_1Near" ],
     [ "NonBindingJoin", "classannis_1_1sqlgen_1_1model_1_1NonBindingJoin.html", "classannis_1_1sqlgen_1_1model_1_1NonBindingJoin" ],
     [ "NotEqualValue", "classannis_1_1sqlgen_1_1model_1_1NotEqualValue.html", "classannis_1_1sqlgen_1_1model_1_1NotEqualValue" ],
     [ "Overlap", "classannis_1_1sqlgen_1_1model_1_1Overlap.html", "classannis_1_1sqlgen_1_1model_1_1Overlap" ],
