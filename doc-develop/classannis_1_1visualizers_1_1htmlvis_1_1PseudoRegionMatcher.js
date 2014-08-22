@@ -1,0 +1,7 @@
+var classannis_1_1visualizers_1_1htmlvis_1_1PseudoRegionMatcher =
+[
+    [ "PseudoRegionMatcher", "classannis_1_1visualizers_1_1htmlvis_1_1PseudoRegionMatcher.html#a0cd88d247d8ec3ce48fac05afeefed14", null ],
+    [ "getPsdRegion", "classannis_1_1visualizers_1_1htmlvis_1_1PseudoRegionMatcher.html#acd25c15770945fb04cc0aca6919deb7b", null ],
+    [ "matchedAnnotation", "classannis_1_1visualizers_1_1htmlvis_1_1PseudoRegionMatcher.html#aa32f7aecbfb56cc80493338771ed3b93", null ],
+    [ "psdRegion", "classannis_1_1visualizers_1_1htmlvis_1_1PseudoRegionMatcher.html#a75ae8e4d69d91d3fb646c4483b4f0c07", null ]
+];

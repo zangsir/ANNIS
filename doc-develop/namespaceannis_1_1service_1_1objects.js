@@ -1,0 +1,26 @@
+var namespaceannis_1_1service_1_1objects =
+[
+    [ "AnnisAttribute", "classannis_1_1service_1_1objects_1_1AnnisAttribute.html", null ],
+    [ "AnnisBinaryMetaData", "classannis_1_1service_1_1objects_1_1AnnisBinaryMetaData.html", null ],
+    [ "AnnisCorpus", "classannis_1_1service_1_1objects_1_1AnnisCorpus.html", null ],
+    [ "AnnisCorpusSet", "classannis_1_1service_1_1objects_1_1AnnisCorpusSet.html", null ],
+    [ "AnnisResultImpl", "classannis_1_1service_1_1objects_1_1AnnisResultImpl.html", null ],
+    [ "AnnisResultSetImpl", "classannis_1_1service_1_1objects_1_1AnnisResultSetImpl.html", null ],
+    [ "AnnisTokenImpl", "classannis_1_1service_1_1objects_1_1AnnisTokenImpl.html", null ],
+    [ "CorpusConfig", "classannis_1_1service_1_1objects_1_1CorpusConfig.html", null ],
+    [ "CorpusConfigMap", "classannis_1_1service_1_1objects_1_1CorpusConfigMap.html", null ],
+    [ "DocumentBrowserConfig", "classannis_1_1service_1_1objects_1_1DocumentBrowserConfig.html", null ],
+    [ "FrequencyTable", "classannis_1_1service_1_1objects_1_1FrequencyTable.html", null ],
+    [ "FrequencyTableEntry", "classannis_1_1service_1_1objects_1_1FrequencyTableEntry.html", null ],
+    [ "FrequencyTableEntryType", "enumannis_1_1service_1_1objects_1_1FrequencyTableEntryType.html", null ],
+    [ "ImportJob", "classannis_1_1service_1_1objects_1_1ImportJob.html", null ],
+    [ "Match", "classannis_1_1service_1_1objects_1_1Match.html", null ],
+    [ "MatchAndDocumentCount", "classannis_1_1service_1_1objects_1_1MatchAndDocumentCount.html", null ],
+    [ "MatchGroup", "classannis_1_1service_1_1objects_1_1MatchGroup.html", null ],
+    [ "MetaDataColumn", "classannis_1_1service_1_1objects_1_1MetaDataColumn.html", null ],
+    [ "OrderBy", "classannis_1_1service_1_1objects_1_1OrderBy.html", null ],
+    [ "RawTextWrapper", "classannis_1_1service_1_1objects_1_1RawTextWrapper.html", null ],
+    [ "SegmentationList", "classannis_1_1service_1_1objects_1_1SegmentationList.html", null ],
+    [ "SubgraphFilter", "enumannis_1_1service_1_1objects_1_1SubgraphFilter.html", null ],
+    [ "Visualizer", "classannis_1_1service_1_1objects_1_1Visualizer.html", null ]
+];

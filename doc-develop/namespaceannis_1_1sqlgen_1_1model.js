@@ -1,0 +1,25 @@
+var namespaceannis_1_1sqlgen_1_1model =
+[
+    [ "CommonAncestor", "classannis_1_1sqlgen_1_1model_1_1CommonAncestor.html", null ],
+    [ "Dominance", "classannis_1_1sqlgen_1_1model_1_1Dominance.html", null ],
+    [ "EqualValue", "classannis_1_1sqlgen_1_1model_1_1EqualValue.html", null ],
+    [ "Identical", "classannis_1_1sqlgen_1_1model_1_1Identical.html", null ],
+    [ "Inclusion", "classannis_1_1sqlgen_1_1model_1_1Inclusion.html", null ],
+    [ "Join", "classannis_1_1sqlgen_1_1model_1_1Join.html", null ],
+    [ "LeftAlignment", "classannis_1_1sqlgen_1_1model_1_1LeftAlignment.html", null ],
+    [ "LeftDominance", "classannis_1_1sqlgen_1_1model_1_1LeftDominance.html", null ],
+    [ "LeftOverlap", "classannis_1_1sqlgen_1_1model_1_1LeftOverlap.html", null ],
+    [ "Near", "classannis_1_1sqlgen_1_1model_1_1Near.html", null ],
+    [ "NonBindingJoin", "classannis_1_1sqlgen_1_1model_1_1NonBindingJoin.html", null ],
+    [ "NotEqualValue", "classannis_1_1sqlgen_1_1model_1_1NotEqualValue.html", null ],
+    [ "Overlap", "classannis_1_1sqlgen_1_1model_1_1Overlap.html", null ],
+    [ "PointingRelation", "classannis_1_1sqlgen_1_1model_1_1PointingRelation.html", null ],
+    [ "Precedence", "classannis_1_1sqlgen_1_1model_1_1Precedence.html", null ],
+    [ "RangedJoin", "classannis_1_1sqlgen_1_1model_1_1RangedJoin.html", null ],
+    [ "RankTableJoin", "classannis_1_1sqlgen_1_1model_1_1RankTableJoin.html", null ],
+    [ "RightAlignment", "classannis_1_1sqlgen_1_1model_1_1RightAlignment.html", null ],
+    [ "RightDominance", "classannis_1_1sqlgen_1_1model_1_1RightDominance.html", null ],
+    [ "RightOverlap", "classannis_1_1sqlgen_1_1model_1_1RightOverlap.html", null ],
+    [ "SameSpan", "classannis_1_1sqlgen_1_1model_1_1SameSpan.html", null ],
+    [ "Sibling", "classannis_1_1sqlgen_1_1model_1_1Sibling.html", null ]
+];
