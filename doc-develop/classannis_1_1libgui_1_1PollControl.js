@@ -1,5 +1,6 @@
 var classannis_1_1libgui_1_1PollControl =
 [
+    [ "TimeMap", "classannis_1_1libgui_1_1PollControl_1_1TimeMap.html", null ],
     [ "calculateAndSetPollingTime", "classannis_1_1libgui_1_1PollControl.html#ac02baaa8fd9a21f69471c2b02e80c4d2", null ],
     [ "callInBackground", "classannis_1_1libgui_1_1PollControl.html#ae5314d38d6ebad6eb4acc0ef378ea8e8", null ],
     [ "callInBackground", "classannis_1_1libgui_1_1PollControl.html#a1a0f64017388fb9efbfc39cc28b3349b", null ],

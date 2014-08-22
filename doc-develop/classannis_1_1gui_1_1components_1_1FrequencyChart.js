@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1components_1_1FrequencyChart =
 [
+    [ "InnerPanel", "classannis_1_1gui_1_1components_1_1FrequencyChart_1_1InnerPanel.html", "classannis_1_1gui_1_1components_1_1FrequencyChart_1_1InnerPanel" ],
     [ "FrequencyChart", "classannis_1_1gui_1_1components_1_1FrequencyChart.html#a88c41a4dbabfd88c05983a0e4d41e44f", null ],
     [ "setFrequencyData", "classannis_1_1gui_1_1components_1_1FrequencyChart.html#a100f026cf1d57f74fa928d5b0686789d", null ],
     [ "lastTable", "classannis_1_1gui_1_1components_1_1FrequencyChart.html#a0aef41ff357d0c09821022a0a4f3d07b", null ],

@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1resultview_1_1ResultViewPanel =
 [
+    [ "MenuBaseTextCommand", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand.html", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel_1_1MenuBaseTextCommand" ],
     [ "ResultViewPanel", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a405519861cf1512831d4f09a8d2578e9", null ],
     [ "addQueryResult", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a4bdd90af5170d669fc5b951788faa575", null ],
     [ "createPanels", "classannis_1_1gui_1_1resultview_1_1ResultViewPanel.html#a8ae0550f5cd8e5913e8ca3a977501480", null ],

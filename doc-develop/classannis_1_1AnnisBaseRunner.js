@@ -1,5 +1,7 @@
 var classannis_1_1AnnisBaseRunner =
 [
+    [ "ConsoleFilter", "classannis_1_1AnnisBaseRunner_1_1ConsoleFilter.html", "classannis_1_1AnnisBaseRunner_1_1ConsoleFilter" ],
+    [ "ConsoleLayout", "classannis_1_1AnnisBaseRunner_1_1ConsoleLayout.html", "classannis_1_1AnnisBaseRunner_1_1ConsoleLayout" ],
     [ "checkForAnnisHome", "classannis_1_1AnnisBaseRunner.html#aa70e4f2697e09970a6916f7c2dba6989", null ],
     [ "detectAvailableCommands", "classannis_1_1AnnisBaseRunner.html#aa54010de39818efd3d9fc9129b805ad8", null ],
     [ "error", "classannis_1_1AnnisBaseRunner.html#a596cf8ab563b46057f1ac600451045ff", null ],

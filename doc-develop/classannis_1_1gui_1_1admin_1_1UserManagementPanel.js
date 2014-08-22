@@ -1,5 +1,8 @@
 var classannis_1_1gui_1_1admin_1_1UserManagementPanel =
 [
+    [ "AddUserHandler", "classannis_1_1gui_1_1admin_1_1UserManagementPanel_1_1AddUserHandler.html", "classannis_1_1gui_1_1admin_1_1UserManagementPanel_1_1AddUserHandler" ],
+    [ "FieldFactory", "classannis_1_1gui_1_1admin_1_1UserManagementPanel_1_1FieldFactory.html", "classannis_1_1gui_1_1admin_1_1UserManagementPanel_1_1FieldFactory" ],
+    [ "PasswordChangeColumnGenerator", "classannis_1_1gui_1_1admin_1_1UserManagementPanel_1_1PasswordChangeColumnGenerator.html", "classannis_1_1gui_1_1admin_1_1UserManagementPanel_1_1PasswordChangeColumnGenerator" ],
     [ "UserManagementPanel", "classannis_1_1gui_1_1admin_1_1UserManagementPanel.html#a5f80d351ce30af7a1887c0c2415e74c4", null ],
     [ "addAvailableGroupNames", "classannis_1_1gui_1_1admin_1_1UserManagementPanel.html#a01345242f6a3b5e06951a72407ca63db", null ],
     [ "addListener", "classannis_1_1gui_1_1admin_1_1UserManagementPanel.html#af3faf58bdc3b36256b22b962eb4e3b93", null ],

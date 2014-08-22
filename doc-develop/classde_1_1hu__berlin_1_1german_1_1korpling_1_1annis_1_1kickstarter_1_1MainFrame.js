@@ -1,5 +1,6 @@
 var classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame =
 [
+    [ "MainFrameWorker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame_1_1MainFrameWorker.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame_1_1MainFrameWorker" ],
     [ "MainFrame", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame.html#a08fa6a1f5952434bb98e734e7e3b9fc5", null ],
     [ "btExitActionPerformed", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame.html#a9878b6781c93dda9bd47e089342a15bb", null ],
     [ "btImportActionPerformed", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1MainFrame.html#a8babcb1209e9d109e871fdb1c13ec982", null ],

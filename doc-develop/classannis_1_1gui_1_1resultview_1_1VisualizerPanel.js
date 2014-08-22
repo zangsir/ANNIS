@@ -1,5 +1,8 @@
 var classannis_1_1gui_1_1resultview_1_1VisualizerPanel =
 [
+    [ "BackgroundJob", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1BackgroundJob" ],
+    [ "ByteArrayOutputStreamSource", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1ByteArrayOutputStreamSource" ],
+    [ "LoadComponentTask", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask.html", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel_1_1LoadComponentTask" ],
     [ "VisualizerPanel", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#aa607d7b2a7d36fddee8d05db6483aa86", null ],
     [ "buttonClick", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#afe47d8908fde03f49426847572675f97", null ],
     [ "copyAnnisFeature", "classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ae474f1c8ee9124524b7a38aef82413fc", null ],

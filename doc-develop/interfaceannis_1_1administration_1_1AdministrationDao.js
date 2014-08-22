@@ -1,5 +1,7 @@
 var interfaceannis_1_1administration_1_1AdministrationDao =
 [
+    [ "ImportStatus", "interfaceannis_1_1administration_1_1AdministrationDao_1_1ImportStatus.html", "interfaceannis_1_1administration_1_1AdministrationDao_1_1ImportStatus" ],
+    [ "StatementController", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController.html", "interfaceannis_1_1administration_1_1AdministrationDao_1_1StatementController" ],
     [ "addCorpusAlias", "interfaceannis_1_1administration_1_1AdministrationDao.html#aab51c06df8cc70691c648c50671d4194", null ],
     [ "checkDatabaseSchemaVersion", "interfaceannis_1_1administration_1_1AdministrationDao.html#a1cb085242d26fc8aa50da6246334478d", null ],
     [ "cleanupData", "interfaceannis_1_1administration_1_1AdministrationDao.html#a0c53c9c78d0c1ad9d82733cd3752695d", null ],

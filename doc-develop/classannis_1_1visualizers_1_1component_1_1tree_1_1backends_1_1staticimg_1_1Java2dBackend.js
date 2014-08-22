@@ -1,5 +1,6 @@
 var classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend =
 [
+    [ "Java2dFont", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend_1_1Java2dFont.html", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend_1_1Java2dFont" ],
     [ "arrow", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend.html#a9697251eca272eec2672303d89d4eba7", null ],
     [ "cubicCurve", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend.html#aec35fcc5dbc384119946dde38e1dfa37", null ],
     [ "getFont", "classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1Java2dBackend.html#a6815354c89553811ceb5fd3b722d4b14", null ],

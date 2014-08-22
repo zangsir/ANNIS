@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1querybuilder_1_1NodeWindow =
 [
+    [ "ConstraintLayout", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1ConstraintLayout.html", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1ConstraintLayout" ],
+    [ "SimpleNewItemHandler", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1SimpleNewItemHandler.html", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow_1_1SimpleNewItemHandler" ],
     [ "NodeWindow", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html#a16151de01029cc5bacc67edb8c6f6ffa", null ],
     [ "buttonClick", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html#aa45e92e501fca47d484713fd25ff83b9", null ],
     [ "equals", "classannis_1_1gui_1_1querybuilder_1_1NodeWindow.html#a380ef5a863aad7f87730199cf0254176", null ],

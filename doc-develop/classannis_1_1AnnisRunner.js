@@ -1,5 +1,7 @@
 var classannis_1_1AnnisRunner =
 [
+    [ "Benchmark", "classannis_1_1AnnisRunner_1_1Benchmark.html", "classannis_1_1AnnisRunner_1_1Benchmark" ],
+    [ "OS", "enumannis_1_1AnnisRunner_1_1OS.html", "enumannis_1_1AnnisRunner_1_1OS" ],
     [ "AnnisRunner", "classannis_1_1AnnisRunner.html#a46afdc56a3caeae7486057cd3c851e89", null ],
     [ "analyzeQuery", "classannis_1_1AnnisRunner.html#ad6306bf1bdfc95487cec2a6395632e1c", null ],
     [ "benchmarkOptions", "classannis_1_1AnnisRunner.html#a53bd90fc6fca57f69da626ecd0635f59", null ],

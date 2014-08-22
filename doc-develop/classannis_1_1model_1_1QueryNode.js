@@ -1,5 +1,8 @@
 var classannis_1_1model_1_1QueryNode =
 [
+    [ "Range", "classannis_1_1model_1_1QueryNode_1_1Range.html", "classannis_1_1model_1_1QueryNode_1_1Range" ],
+    [ "TextMatching", "enumannis_1_1model_1_1QueryNode_1_1TextMatching.html", "enumannis_1_1model_1_1QueryNode_1_1TextMatching" ],
+    [ "Type", "enumannis_1_1model_1_1QueryNode_1_1Type.html", "enumannis_1_1model_1_1QueryNode_1_1Type" ],
     [ "QueryNode", "classannis_1_1model_1_1QueryNode.html#abeb778c90b38fad83547d1d5229a661a", null ],
     [ "QueryNode", "classannis_1_1model_1_1QueryNode.html#a017f789517c4f32252aac4e8cc41e911", null ],
     [ "QueryNode", "classannis_1_1model_1_1QueryNode.html#a83ca7495842aaf10ecfe8b2680d826d0", null ],

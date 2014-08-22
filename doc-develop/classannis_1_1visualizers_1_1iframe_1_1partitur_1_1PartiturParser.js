@@ -1,5 +1,8 @@
 var classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser =
 [
+    [ "Event", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1Event.html", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1Event" ],
+    [ "ResultElement", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1ResultElement.html", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1ResultElement" ],
+    [ "Token", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1Token.html", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser_1_1Token" ],
     [ "PartiturParser", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser.html#a5173aab6d9b7220b7ff9183617547ab9", null ],
     [ "getKnownTiers", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser.html#a9e364951c0eeb3c839d7206cc7d322a2", null ],
     [ "getNameslist", "classannis_1_1visualizers_1_1iframe_1_1partitur_1_1PartiturParser.html#a5aebac05c2ac94a4d5ece51bac91bd99", null ],

@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler =
 [
+    [ "AnnisBinaryMetaDataListType", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler_1_1AnnisBinaryMetaDataListType.html", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler_1_1AnnisBinaryMetaDataListType" ],
     [ "copy", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler.html#acb1bba2a70ecdee11abd81896657a8ef", null ],
     [ "getMatchingMetadataFromService", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler.html#aaa49d47c2880b9e1e00bc24da8a9f0f7", null ],
     [ "handleRequest", "classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler.html#a3e03ae7131154057cd8a5f53c45ebb12", null ],

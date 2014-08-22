@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1admin_1_1ImportPanel =
 [
+    [ "WaitForFinishRunner", "classannis_1_1gui_1_1admin_1_1ImportPanel_1_1WaitForFinishRunner.html", "classannis_1_1gui_1_1admin_1_1ImportPanel_1_1WaitForFinishRunner" ],
     [ "ImportPanel", "classannis_1_1gui_1_1admin_1_1ImportPanel.html#aa87d046c1aa184394ae4d7191790e109", null ],
     [ "appendMessage", "classannis_1_1gui_1_1admin_1_1ImportPanel.html#a0959dad3bb413a3973f61f4004147e2c", null ],
     [ "isLogVisible", "classannis_1_1gui_1_1admin_1_1ImportPanel.html#aea6299df6d22313cbc142a94c49e6e5a", null ],

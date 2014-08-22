@@ -1,5 +1,6 @@
 var classannis_1_1resolver_1_1ResolverEntry =
 [
+    [ "ElementType", "enumannis_1_1resolver_1_1ResolverEntry_1_1ElementType.html", "enumannis_1_1resolver_1_1ResolverEntry_1_1ElementType" ],
     [ "ResolverEntry", "classannis_1_1resolver_1_1ResolverEntry.html#a19a7d3f98b631eae52bdc3d25d51445c", null ],
     [ "ResolverEntry", "classannis_1_1resolver_1_1ResolverEntry.html#a6e23b0cc7802c0844e597f1a6c816db4", null ],
     [ "equals", "classannis_1_1resolver_1_1ResolverEntry.html#a587fc885ada877dff4b2a0f7b8f97981", null ],

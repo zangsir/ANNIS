@@ -11,6 +11,7 @@ var searchData=
   ['relannisedgefeature_2ejava',['RelannisEdgeFeature.java',['../RelannisEdgeFeature_8java.html',1,'']]],
   ['relannishelper_2ejava',['RelANNISHelper.java',['../RelANNISHelper_8java.html',1,'']]],
   ['relannisnodefeature_2ejava',['RelannisNodeFeature.java',['../RelannisNodeFeature_8java.html',1,'']]],
+  ['release_2emd',['release.md',['../release_8md.html',1,'']]],
   ['reportbugwindow_2ejava',['ReportBugWindow.java',['../ReportBugWindow_8java.html',1,'']]],
   ['resolverdaohelper_2ejava',['ResolverDaoHelper.java',['../ResolverDaoHelper_8java.html',1,'']]],
   ['resolverentry_2ejava',['ResolverEntry.java',['../ResolverEntry_8java.html',1,'']]],

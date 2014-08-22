@@ -1,5 +1,6 @@
 var classannis_1_1ql_1_1parser_1_1LogicClause =
 [
+    [ "Operator", "enumannis_1_1ql_1_1parser_1_1LogicClause_1_1Operator.html", "enumannis_1_1ql_1_1parser_1_1LogicClause_1_1Operator" ],
     [ "LogicClause", "classannis_1_1ql_1_1parser_1_1LogicClause.html#a7d92a751332c82febd73824f07ab4332", null ],
     [ "LogicClause", "classannis_1_1ql_1_1parser_1_1LogicClause.html#a4d94e32ccb89c76809bb0e3fb5e04102", null ],
     [ "LogicClause", "classannis_1_1ql_1_1parser_1_1LogicClause.html#a3454d3fb5a420c5856527c11eb8f2b08", null ],

@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1MainToolbar =
 [
+    [ "AboutClickListener", "classannis_1_1gui_1_1MainToolbar_1_1AboutClickListener.html", "classannis_1_1gui_1_1MainToolbar_1_1AboutClickListener" ],
+    [ "LoginCloseCallback", "classannis_1_1gui_1_1MainToolbar_1_1LoginCloseCallback.html", "classannis_1_1gui_1_1MainToolbar_1_1LoginCloseCallback" ],
     [ "MainToolbar", "classannis_1_1gui_1_1MainToolbar.html#a545fe137182158ff61c6d29828bc8724", null ],
     [ "addLoginButton", "classannis_1_1gui_1_1MainToolbar.html#abd23b616007d632439da0fb57e4e414a", null ],
     [ "addLoginListener", "classannis_1_1gui_1_1MainToolbar.html#a795677e887bdcade3f6a73f459eb2c6b", null ],

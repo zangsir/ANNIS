@@ -1,5 +1,6 @@
 var classannis_1_1administration_1_1AnnisAdminRunner =
 [
+    [ "OptionBuilder", "classannis_1_1administration_1_1AnnisAdminRunner_1_1OptionBuilder.html", "classannis_1_1administration_1_1AnnisAdminRunner_1_1OptionBuilder" ],
     [ "doCleanupData", "classannis_1_1administration_1_1AnnisAdminRunner.html#a50e58e18b8e7d04af5e41da59b0f31da", null ],
     [ "doCopy", "classannis_1_1administration_1_1AnnisAdminRunner.html#a6af96d815c9b1f0563c2a41593ac077b", null ],
     [ "doDelete", "classannis_1_1administration_1_1AnnisAdminRunner.html#a9a62c74694897586d4bfbb8662c3fede", null ],

@@ -1,5 +1,7 @@
 var classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer =
 [
+    [ "DefaultLabeler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultLabeler.html", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultLabeler" ],
+    [ "DefaultStyler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultStyler.html", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultStyler" ],
     [ "TigerTreeVisualizer", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a49fb32aaf30d6d76a2fadcb2fb0511d7", null ],
     [ "createCanvas", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a7a64f9fd06fd2dd2e18d129481074a9e", null ],
     [ "getBackend", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#afc3b4002b77ff7b681d0e0b39f023c25", null ],

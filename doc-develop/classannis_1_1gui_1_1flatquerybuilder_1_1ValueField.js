@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1flatquerybuilder_1_1ValueField =
 [
+    [ "ValueMode", "enumannis_1_1gui_1_1flatquerybuilder_1_1ValueField_1_1ValueMode.html", "enumannis_1_1gui_1_1flatquerybuilder_1_1ValueField_1_1ValueMode" ],
     [ "ValueField", "classannis_1_1gui_1_1flatquerybuilder_1_1ValueField.html#a12fe2c423fa6d864f6658657b8dc52ed", null ],
     [ "ValueField", "classannis_1_1gui_1_1flatquerybuilder_1_1ValueField.html#aa9f97f1f2e6d685d15e1cedada64702f", null ],
     [ "buildValues", "classannis_1_1gui_1_1flatquerybuilder_1_1ValueField.html#aff1d0109a6acf9721344e856c415ac9f", null ],

@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1admin_1_1GroupManagementPanel =
 [
+    [ "AddGroupHandler", "classannis_1_1gui_1_1admin_1_1GroupManagementPanel_1_1AddGroupHandler.html", "classannis_1_1gui_1_1admin_1_1GroupManagementPanel_1_1AddGroupHandler" ],
+    [ "FieldFactory", "classannis_1_1gui_1_1admin_1_1GroupManagementPanel_1_1FieldFactory.html", "classannis_1_1gui_1_1admin_1_1GroupManagementPanel_1_1FieldFactory" ],
     [ "GroupManagementPanel", "classannis_1_1gui_1_1admin_1_1GroupManagementPanel.html#a8eb72a52b831d34c60ced38f899c0139", null ],
     [ "addAvailableCorpusNames", "classannis_1_1gui_1_1admin_1_1GroupManagementPanel.html#adb0d34028526b2807f7364a4e6e9009c", null ],
     [ "addListener", "classannis_1_1gui_1_1admin_1_1GroupManagementPanel.html#a9e2d57086ccf918661c3b3042b82aa58", null ],

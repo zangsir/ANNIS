@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect =
 [
+    [ "StringItemSorter", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect_1_1StringItemSorter.html", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect_1_1StringItemSorter" ],
+    [ "UpdateContainerListener", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect_1_1UpdateContainerListener.html", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect_1_1UpdateContainerListener" ],
     [ "PopupTwinColumnSelect", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect.html#a7900b0775e860cf6e0ac0e4c46b09daf", null ],
     [ "addPredefinedSelectableItems", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect.html#a6dacf6f79775863b087448079dba9020", null ],
     [ "getType", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect.html#a130658e9230d2077e4a82040fdce8f1a", null ],

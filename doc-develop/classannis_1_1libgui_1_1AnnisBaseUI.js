@@ -1,5 +1,6 @@
 var classannis_1_1libgui_1_1AnnisBaseUI =
 [
+    [ "RemoteUserRequestHandler", "classannis_1_1libgui_1_1AnnisBaseUI_1_1RemoteUserRequestHandler.html", "classannis_1_1libgui_1_1AnnisBaseUI_1_1RemoteUserRequestHandler" ],
     [ "[static initializer]", "classannis_1_1libgui_1_1AnnisBaseUI.html#ac224bd93c9bfeb8da9a2d8a342ab2d13", null ],
     [ "addCustomUIPlugins", "classannis_1_1libgui_1_1AnnisBaseUI.html#a2f8e9b91176327c2522a01e384a563c2", null ],
     [ "attach", "classannis_1_1libgui_1_1AnnisBaseUI.html#aeb742c9bc96c7d3370ab22ed0b3c355d", null ],

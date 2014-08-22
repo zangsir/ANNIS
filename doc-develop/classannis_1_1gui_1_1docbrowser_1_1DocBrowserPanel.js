@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel =
 [
+    [ "LoadingDocs", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel_1_1LoadingDocs.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel_1_1LoadingDocs" ],
     [ "DocBrowserPanel", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel.html#a07180c1fbc596c17f772a07e8a73d3a3", null ],
     [ "attach", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel.html#a04aebe3be1534ae043dcd239524e485d", null ],
     [ "getCorpus", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserPanel.html#aef310924e248b40c2d86bff36847cac9", null ],

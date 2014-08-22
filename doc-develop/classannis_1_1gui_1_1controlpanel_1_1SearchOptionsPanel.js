@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel =
 [
+    [ "CustomContext", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomContext.html", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomContext" ],
+    [ "CustomResultSize", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomResultSize.html", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel_1_1CustomResultSize" ],
     [ "SearchOptionsPanel", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a91961cf940f1a26daa8aafbd95e29e90", null ],
     [ "buildKey", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a5eebcc41c669dd61cdd8b82b525c302d", null ],
     [ "checkSegments", "classannis_1_1gui_1_1controlpanel_1_1SearchOptionsPanel.html#a36817eeab6b8b6a213eb248c560aac63", null ],

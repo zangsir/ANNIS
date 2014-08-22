@@ -1,5 +1,6 @@
 var classannis_1_1dao_1_1SpringAnnisDao =
 [
+    [ "ExplainSqlGenerator", "classannis_1_1dao_1_1SpringAnnisDao_1_1ExplainSqlGenerator.html", "classannis_1_1dao_1_1SpringAnnisDao_1_1ExplainSqlGenerator" ],
     [ "SpringAnnisDao", "classannis_1_1dao_1_1SpringAnnisDao.html#a480144c8a6c6abe98a32a4c9cc3fb1dc", null ],
     [ "checkDatabaseVersion", "classannis_1_1dao_1_1SpringAnnisDao.html#a101c2830b3bca3fe14d6dde561c97fff", null ],
     [ "count", "classannis_1_1dao_1_1SpringAnnisDao.html#af2dcbd8cb6abf11b9c4d6da56f5231e6", null ],

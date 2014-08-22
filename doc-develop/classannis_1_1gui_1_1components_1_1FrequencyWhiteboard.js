@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1components_1_1FrequencyWhiteboard =
 [
+    [ "Scale", "enumannis_1_1gui_1_1components_1_1FrequencyWhiteboard_1_1Scale.html", "enumannis_1_1gui_1_1components_1_1FrequencyWhiteboard_1_1Scale" ],
     [ "FrequencyWhiteboard", "classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html#ae22c49ea8f0e4ae6e14575e834492ac8", null ],
     [ "beforeClientResponse", "classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html#ac5d4d756a8aeb14fdff6726a40d56ee3", null ],
     [ "onCompononentLoaded", "classannis_1_1gui_1_1components_1_1FrequencyWhiteboard.html#a71980256df1eaa7a28a4663dae087c10", null ],

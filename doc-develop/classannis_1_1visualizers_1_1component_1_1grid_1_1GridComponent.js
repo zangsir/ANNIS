@@ -1,5 +1,6 @@
 var classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent =
 [
+    [ "ElementType", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent_1_1ElementType.html", "enumannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent_1_1ElementType" ],
     [ "GridComponent", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a8436c00b659cc8749f2a786b40c1463c", null ],
     [ "computeAnnotationRows", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a78ed7bbd09b56b10705443fba43c0ffa", null ],
     [ "computeTokenRow", "classannis_1_1visualizers_1_1component_1_1grid_1_1GridComponent.html#a471aa6f1c898ae0c9d7761857003a2bc", null ],

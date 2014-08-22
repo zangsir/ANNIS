@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1QueryController =
 [
+    [ "CountCallback", "classannis_1_1gui_1_1QueryController_1_1CountCallback.html", "classannis_1_1gui_1_1QueryController_1_1CountCallback" ],
+    [ "SpecificPagingCallback", "classannis_1_1gui_1_1QueryController_1_1SpecificPagingCallback.html", "classannis_1_1gui_1_1QueryController_1_1SpecificPagingCallback" ],
     [ "QueryController", "classannis_1_1gui_1_1QueryController.html#a9050c05d0cdae96552461eedb5fe85e3", null ],
     [ "addCorpusSelectionChangeListener", "classannis_1_1gui_1_1QueryController.html#a9201936cf73d2a6730d0c0a09083738b", null ],
     [ "addHistoryEntry", "classannis_1_1gui_1_1QueryController.html#a8c420db27d60cbd91e692fdc0a14fba8", null ],

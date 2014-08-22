@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1paging_1_1PagingComponent =
 [
+    [ "EnterHandler", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterHandler.html", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1EnterHandler" ],
+    [ "PageValidator", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1PageValidator.html", "classannis_1_1gui_1_1paging_1_1PagingComponent_1_1PageValidator" ],
     [ "PagingComponent", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#a62d4f7bbfd65a578ee9330471b611974", null ],
     [ "PagingComponent", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#ad8d341012a10f7b25e300e396d6638f7", null ],
     [ "addCallback", "classannis_1_1gui_1_1paging_1_1PagingComponent.html#af969b1bc0b020cadced2d061673cfbdb", null ],

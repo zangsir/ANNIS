@@ -1,5 +1,7 @@
 var classannis_1_1service_1_1objects_1_1AnnisAttribute =
 [
+    [ "SubType", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1SubType.html", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1SubType" ],
+    [ "Type", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type" ],
     [ "addValue", "classannis_1_1service_1_1objects_1_1AnnisAttribute.html#a3bb0d6da255e0fc0c0b66316aa897745", null ],
     [ "equals", "classannis_1_1service_1_1objects_1_1AnnisAttribute.html#a7f1f08292f6a742efde498e044cf73a5", null ],
     [ "getEdgeName", "classannis_1_1service_1_1objects_1_1AnnisAttribute.html#abe179a89a380a93458c1378ee308804f", null ],

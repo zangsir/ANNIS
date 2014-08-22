@@ -1,5 +1,8 @@
 var classannis_1_1administration_1_1DefaultAdministrationDao =
 [
+    [ "CancelableStatements", "classannis_1_1administration_1_1DefaultAdministrationDao_1_1CancelableStatements.html", "classannis_1_1administration_1_1DefaultAdministrationDao_1_1CancelableStatements" ],
+    [ "ConflictingCorpusException", "classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException.html", "classannis_1_1administration_1_1DefaultAdministrationDao_1_1ConflictingCorpusException" ],
+    [ "EXAMPLE_QUERIES_CONFIG", "enumannis_1_1administration_1_1DefaultAdministrationDao_1_1EXAMPLE__QUERIES__CONFIG.html", "enumannis_1_1administration_1_1DefaultAdministrationDao_1_1EXAMPLE__QUERIES__CONFIG" ],
     [ "addCorpusAlias", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a7d4c80918de622763a3afd21b095d0e7", null ],
     [ "addUniqueNodeNameAppendix", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a8ab3c51cef896d930020a2893143f7c8", null ],
     [ "adjustRankPrePost", "classannis_1_1administration_1_1DefaultAdministrationDao.html#a73dfbb204c15ed85f7e9caa3a8c38bd3", null ],

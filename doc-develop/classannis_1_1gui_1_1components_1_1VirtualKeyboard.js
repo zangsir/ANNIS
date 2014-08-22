@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1components_1_1VirtualKeyboard =
 [
+    [ "UpdateLangJSFunction", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction.html", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1UpdateLangJSFunction" ],
+    [ "VKState", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1VKState.html", "classannis_1_1gui_1_1components_1_1VirtualKeyboard_1_1VKState" ],
     [ "VirtualKeyboard", "classannis_1_1gui_1_1components_1_1VirtualKeyboard.html#a91afea1fe2a796b6e182ab66194e4b7a", null ],
     [ "extend", "classannis_1_1gui_1_1components_1_1VirtualKeyboard.html#ac41eec7ab9312a10c19839224e457ce4", null ],
     [ "getState", "classannis_1_1gui_1_1components_1_1VirtualKeyboard.html#a4ce9ee027bdf69d886470c1ad4fff4f3", null ],

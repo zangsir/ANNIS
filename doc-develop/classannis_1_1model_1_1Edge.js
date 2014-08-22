@@ -1,5 +1,6 @@
 var classannis_1_1model_1_1Edge =
 [
+    [ "EdgeType", "enumannis_1_1model_1_1Edge_1_1EdgeType.html", "enumannis_1_1model_1_1Edge_1_1EdgeType" ],
     [ "Edge", "classannis_1_1model_1_1Edge.html#a6eba47f2efab71702f98fed0655d71b0", null ],
     [ "addAnnotation", "classannis_1_1model_1_1Edge.html#af3710d58c81a2b4744db4569b43d0933", null ],
     [ "equals", "classannis_1_1model_1_1Edge.html#a77261e56b5e5f41f1bb344b27ed2d4b8", null ],

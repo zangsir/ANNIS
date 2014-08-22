@@ -1,5 +1,6 @@
 var classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator =
 [
+    [ "QueryBuilder", "interfaceannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator_1_1QueryBuilder.html", "interfaceannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator_1_1QueryBuilder" ],
     [ "delExampleQueries", "classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html#a920ed5c6e11c500baa7c544b45357038", null ],
     [ "delExampleQueries", "classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html#a1ceffda4e6f4f93db532d12006de46ed", null ],
     [ "generateQueries", "classannis_1_1dao_1_1autogenqueries_1_1QueriesGenerator.html#a314da1d80029d54ba3f12987adc94852", null ],

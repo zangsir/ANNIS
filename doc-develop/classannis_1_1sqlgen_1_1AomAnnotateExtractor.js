@@ -1,5 +1,6 @@
 var classannis_1_1sqlgen_1_1AomAnnotateExtractor =
 [
+    [ "ComponentEntry", "classannis_1_1sqlgen_1_1AomAnnotateExtractor_1_1ComponentEntry.html", "classannis_1_1sqlgen_1_1AomAnnotateExtractor_1_1ComponentEntry" ],
     [ "booleanValue", "classannis_1_1sqlgen_1_1AomAnnotateExtractor.html#a236ef3d8ceb98f998515995fd91f3d65", null ],
     [ "createMissingSpanningRelations", "classannis_1_1sqlgen_1_1AomAnnotateExtractor.html#a7045aa4881bb784fb5a606e81c1fde12", null ],
     [ "extractData", "classannis_1_1sqlgen_1_1AomAnnotateExtractor.html#a2d4cf006f8e4e40892b23027c0a6c281", null ],

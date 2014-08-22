@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1MetaDataPanel =
 [
+    [ "MetaTableNameGenerator", "classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableNameGenerator.html", "classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableNameGenerator" ],
+    [ "MetaTableValueGenerator", "classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableValueGenerator.html", "classannis_1_1gui_1_1MetaDataPanel_1_1MetaTableValueGenerator" ],
     [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html#ac7af1d71e350c1428c4c3eef1508c9e9", null ],
     [ "MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html#a3f632dc82f635d5e355bbc5172095448", null ],
     [ "addEmptyLabel", "classannis_1_1gui_1_1MetaDataPanel.html#a503c9a2594a8a0d69a0e60d0718d2c23", null ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['helpbutton_3c_20t_20_3e',['HelpButton< T >',['../classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html',1,'annis::gui::components']]],
+  ['helpbutton_3c_20t_20_3e',['HelpButton&lt; T &gt;',['../classannis_1_1gui_1_1components_1_1HelpButton_3_01T_01_4.html',1,'annis::gui::components']]],
   ['helpclicklistener',['HelpClickListener',['../classannis_1_1gui_1_1querybuilder_1_1TigerQueryBuilderPlugin_1_1TigerQueryBuilder_1_1HelpClickListener.html',1,'annis::gui::querybuilder::TigerQueryBuilderPlugin::TigerQueryBuilder']]],
   ['helper',['Helper',['../classannis_1_1libgui_1_1Helper.html',1,'annis::libgui']]],
   ['helppanel',['HelpPanel',['../classannis_1_1gui_1_1HelpPanel.html',1,'annis::gui']]],

@@ -1,5 +1,6 @@
 var classannis_1_1model_1_1AnnisNode =
 [
+    [ "Range", "classannis_1_1model_1_1AnnisNode_1_1Range.html", "classannis_1_1model_1_1AnnisNode_1_1Range" ],
     [ "AnnisNode", "classannis_1_1model_1_1AnnisNode.html#ad60066d05e090f877bb811e136f0979e", null ],
     [ "AnnisNode", "classannis_1_1model_1_1AnnisNode.html#ab5184b2474c804741d0e7e16fe416144", null ],
     [ "AnnisNode", "classannis_1_1model_1_1AnnisNode.html#ab80fc4680be498d6fbc1f65d6cac584d", null ],

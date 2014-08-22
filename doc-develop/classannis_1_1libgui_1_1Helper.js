@@ -1,5 +1,6 @@
 var classannis_1_1libgui_1_1Helper =
 [
+    [ "AnnotationListType", "classannis_1_1libgui_1_1Helper_1_1AnnotationListType.html", "classannis_1_1libgui_1_1Helper_1_1AnnotationListType" ],
     [ "citationFragment", "classannis_1_1libgui_1_1Helper.html#ab184045422749a0aaac3979ebc3dfa7d", null ],
     [ "convertExceptionToMessage", "classannis_1_1libgui_1_1Helper.html#a2a9c289e168fb5099cf2af1d4eed86b1", null ],
     [ "createRESTClient", "classannis_1_1libgui_1_1Helper.html#a55f5355af94e29fdd06189f9554dfadf", null ],

@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1SearchUI =
 [
+    [ "AnnisCorpusListType", "classannis_1_1gui_1_1SearchUI_1_1AnnisCorpusListType.html", "classannis_1_1gui_1_1SearchUI_1_1AnnisCorpusListType" ],
+    [ "CitationRequestHandler", "classannis_1_1gui_1_1SearchUI_1_1CitationRequestHandler.html", "classannis_1_1gui_1_1SearchUI_1_1CitationRequestHandler" ],
     [ "SearchUI", "classannis_1_1gui_1_1SearchUI.html#a49472d534494be9b72a24998264ea7cc", null ],
     [ "addCustomUIPlugins", "classannis_1_1gui_1_1SearchUI.html#a1c9460515a5ec5248fb47207ad86ce7e", null ],
     [ "canReportBugs", "classannis_1_1gui_1_1SearchUI.html#a5368fbd1308526af760b8ad3827a0bd8", null ],

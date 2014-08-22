@@ -1,5 +1,7 @@
 var classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid =
 [
+    [ "AnnotationGridTable", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid_1_1AnnotationGridTable.html", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid_1_1AnnotationGridTable" ],
+    [ "Position", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid_1_1Position.html", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid_1_1Position" ],
     [ "VAnnotationGrid", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a2ba09e499d54b537f4ddfbd80977b0c3", null ],
     [ "addRow", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#afadc852eb0e38e0beb6304dad9745ab9", null ],
     [ "addStyleForEvent", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1VAnnotationGrid.html#a67ae06fdf1014c7be06195d4180c6b98", null ],

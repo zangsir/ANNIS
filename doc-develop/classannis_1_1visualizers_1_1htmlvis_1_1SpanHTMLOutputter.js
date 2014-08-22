@@ -1,5 +1,6 @@
 var classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter =
 [
+    [ "Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type" ],
     [ "getAttribute", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#a9fa5b7c638f03bd69aad48a51d97e51f", null ],
     [ "getConstant", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#a813c709ec7183e75b1897e46b42e05c3", null ],
     [ "getElement", "classannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter.html#a13cbb18ab2d2c27d38a8232a5eec5489", null ],

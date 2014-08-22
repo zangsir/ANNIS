@@ -1,5 +1,9 @@
 var classannis_1_1gui_1_1resultview_1_1SingleResultPanel =
 [
+    [ "AddNewItemHandler", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1AddNewItemHandler.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1AddNewItemHandler" ],
+    [ "ContextChangeListener", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1ContextChangeListener.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1ContextChangeListener" ],
+    [ "CoveredMatchesCalculator", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1CoveredMatchesCalculator" ],
+    [ "MinMax", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax.html", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel_1_1MinMax" ],
     [ "SingleResultPanel", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a2bab5473c0d4043f3fff51e6d2ea3019", null ],
     [ "buttonClick", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#aeb8ed76864680a34e7e97629266c7dce", null ],
     [ "calculateHelperVariables", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html#a5882ca87c6d4d797b56c5962ad7dca79", null ],

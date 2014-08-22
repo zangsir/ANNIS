@@ -1,5 +1,7 @@
 var classannis_1_1service_1_1objects_1_1FrequencyTable =
 [
+    [ "Entry", "classannis_1_1service_1_1objects_1_1FrequencyTable_1_1Entry.html", "classannis_1_1service_1_1objects_1_1FrequencyTable_1_1Entry" ],
+    [ "HighestCountComparator", "classannis_1_1service_1_1objects_1_1FrequencyTable_1_1HighestCountComparator.html", "classannis_1_1service_1_1objects_1_1FrequencyTable_1_1HighestCountComparator" ],
     [ "FrequencyTable", "classannis_1_1service_1_1objects_1_1FrequencyTable.html#afb30bf74eeedbedb9e241318788adc37", null ],
     [ "addEntry", "classannis_1_1service_1_1objects_1_1FrequencyTable.html#afa4e468b322daa10b01d1982a10c0f70", null ],
     [ "getEntries", "classannis_1_1service_1_1objects_1_1FrequencyTable.html#a5a905ae56f5664ee503b3bdfa8915205", null ],

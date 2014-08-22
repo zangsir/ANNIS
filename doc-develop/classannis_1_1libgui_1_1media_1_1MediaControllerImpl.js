@@ -1,5 +1,6 @@
 var classannis_1_1libgui_1_1media_1_1MediaControllerImpl =
 [
+    [ "CallbackImpl", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl_1_1CallbackImpl.html", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl_1_1CallbackImpl" ],
     [ "MediaControllerImpl", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#ac78e7cb9bba503f63c502ad7b5a09281", null ],
     [ "addMediaPlayer", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#a32d09aeb8a625a4773bed5378018e21c", null ],
     [ "clearMediaPlayers", "classannis_1_1libgui_1_1media_1_1MediaControllerImpl.html#af90307881e9caf41e25e1c35419e6eef", null ],

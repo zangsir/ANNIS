@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1requesthandler_1_1ContentRange =
 [
+    [ "InvalidRangeException", "classannis_1_1gui_1_1requesthandler_1_1ContentRange_1_1InvalidRangeException.html", "classannis_1_1gui_1_1requesthandler_1_1ContentRange_1_1InvalidRangeException" ],
     [ "ContentRange", "classannis_1_1gui_1_1requesthandler_1_1ContentRange.html#a2582af304861a9ad435f818c5ae0e476", null ],
     [ "equals", "classannis_1_1gui_1_1requesthandler_1_1ContentRange.html#afc284d8f0c3f72a397d0038296096f9c", null ],
     [ "getEnd", "classannis_1_1gui_1_1requesthandler_1_1ContentRange.html#a8f34c41564a85e32a0dca7f33225fcf7", null ],

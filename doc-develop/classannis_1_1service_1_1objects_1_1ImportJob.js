@@ -1,5 +1,6 @@
 var classannis_1_1service_1_1objects_1_1ImportJob =
 [
+    [ "Status", "enumannis_1_1service_1_1objects_1_1ImportJob_1_1Status.html", "enumannis_1_1service_1_1objects_1_1ImportJob_1_1Status" ],
     [ "getAlias", "classannis_1_1service_1_1objects_1_1ImportJob.html#a369b07f11864f3cc9d09e9fa0a3b8ac8", null ],
     [ "getCaption", "classannis_1_1service_1_1objects_1_1ImportJob.html#ac6dd178f3441894a1faf6eae44f210e8", null ],
     [ "getImportRootDirectory", "classannis_1_1service_1_1objects_1_1ImportJob.html#ac7a26503657c42eb6b8bb4192dd99f61", null ],

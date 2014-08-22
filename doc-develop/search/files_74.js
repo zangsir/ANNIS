@@ -12,6 +12,5 @@ var searchData=
   ['transitiveprecedenceoptimizer_2ejava',['TransitivePrecedenceOptimizer.java',['../TransitivePrecedenceOptimizer_8java.html',1,'']]],
   ['treeelementlabeler_2ejava',['TreeElementLabeler.java',['../TreeElementLabeler_8java.html',1,'']]],
   ['treeelementstyler_2ejava',['TreeElementStyler.java',['../TreeElementStyler_8java.html',1,'']]],
-  ['treesetconverter_2ejava',['TreeSetConverter.java',['../TreeSetConverter_8java.html',1,'']]],
   ['tutorialpanel_2ejava',['TutorialPanel.java',['../TutorialPanel_8java.html',1,'']]]
 ];

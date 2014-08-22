@@ -1,5 +1,6 @@
 var classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog =
 [
+    [ "InitDialogWorker", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog_1_1InitDialogWorker.html", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog_1_1InitDialogWorker" ],
     [ "InitDialog", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog.html#a7852f57dc43b905abc5b47c9eace73c4", null ],
     [ "btCancelActionPerformed", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog.html#af82c1daf1c06a523476a06a67d3e4d9b", null ],
     [ "btOkActionPerformed", "classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1InitDialog.html#a66ca65eb8512667b343374c460961d2a", null ],

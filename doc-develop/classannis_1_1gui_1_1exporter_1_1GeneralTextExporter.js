@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1exporter_1_1GeneralTextExporter =
 [
+    [ "AnnisAttributeListType", "classannis_1_1gui_1_1exporter_1_1GeneralTextExporter_1_1AnnisAttributeListType.html", "classannis_1_1gui_1_1exporter_1_1GeneralTextExporter_1_1AnnisAttributeListType" ],
     [ "convertText", "classannis_1_1gui_1_1exporter_1_1GeneralTextExporter.html#af4b9e60b4af135506bb4127def034741", null ],
     [ "convertText", "classannis_1_1gui_1_1exporter_1_1GeneralTextExporter.html#a5e09c763ade63ee7cc23d5a7fe5887c8", null ],
     [ "getSubgraphFilter", "classannis_1_1gui_1_1exporter_1_1GeneralTextExporter.html#a9c6785ecd99033907eef8b49924318a4", null ],

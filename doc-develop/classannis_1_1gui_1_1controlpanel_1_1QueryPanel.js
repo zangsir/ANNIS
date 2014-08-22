@@ -1,5 +1,10 @@
 var classannis_1_1gui_1_1controlpanel_1_1QueryPanel =
 [
+    [ "ShowExportClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowExportClickListener" ],
+    [ "ShowFrequencyClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowFrequencyClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowFrequencyClickListener" ],
+    [ "ShowKeyboardClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowKeyboardClickListener" ],
+    [ "ShowQueryBuilderClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowQueryBuilderClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowQueryBuilderClickListener" ],
+    [ "ShowResultClickListener", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener.html", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel_1_1ShowResultClickListener" ],
     [ "QueryPanel", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a6c5f46a32b6276b84d1f4f71968e7ba0", null ],
     [ "getLastPublicStatus", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#af6f7b5a6c4da11fb05ad9bf451238d8a", null ],
     [ "getPiCount", "classannis_1_1gui_1_1controlpanel_1_1QueryPanel.html#a1c5039440832fcacb01e637f53084c93", null ],

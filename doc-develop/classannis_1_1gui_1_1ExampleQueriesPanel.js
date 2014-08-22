@@ -1,5 +1,8 @@
 var classannis_1_1gui_1_1ExampleQueriesPanel =
 [
+    [ "ExampleQueryExecuter", "classannis_1_1gui_1_1ExampleQueriesPanel_1_1ExampleQueryExecuter.html", "classannis_1_1gui_1_1ExampleQueriesPanel_1_1ExampleQueryExecuter" ],
+    [ "ShowCorpusBrowser", "classannis_1_1gui_1_1ExampleQueriesPanel_1_1ShowCorpusBrowser.html", "classannis_1_1gui_1_1ExampleQueriesPanel_1_1ShowCorpusBrowser" ],
+    [ "ShowResultColumn", "classannis_1_1gui_1_1ExampleQueriesPanel_1_1ShowResultColumn.html", "classannis_1_1gui_1_1ExampleQueriesPanel_1_1ShowResultColumn" ],
     [ "ExampleQueriesPanel", "classannis_1_1gui_1_1ExampleQueriesPanel.html#a6da66b47bace8336231a75bce3b8cb77", null ],
     [ "addItems", "classannis_1_1gui_1_1ExampleQueriesPanel.html#ac18b5a2b68747f758c3fb9f173666733", null ],
     [ "attach", "classannis_1_1gui_1_1ExampleQueriesPanel.html#a7a6a6effbd83d84608a457f29b6af6d8", null ],

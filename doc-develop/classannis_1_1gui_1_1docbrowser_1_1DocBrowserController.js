@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1docbrowser_1_1DocBrowserController =
 [
+    [ "DocVisualizerFetcher", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController_1_1DocVisualizerFetcher" ],
     [ "DocBrowserController", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController.html#aff2be3c32f1b09f9c65bad4ab7f6b05d", null ],
     [ "createInput", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController.html#aa7774a2a9a23956f8d1e952abbb2c8c7", null ],
     [ "docsAvailable", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserController.html#a9644c91633aa7058aa70ad2803a3bda3", null ],

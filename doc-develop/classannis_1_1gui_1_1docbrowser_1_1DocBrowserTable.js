@@ -1,5 +1,8 @@
 var classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable =
 [
+    [ "MetaColumns", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaColumns.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaColumns" ],
+    [ "MetaDataCol", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaDataCol.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1MetaDataCol" ],
+    [ "OpenVisualizerWindow", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1OpenVisualizerWindow.html", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1OpenVisualizerWindow" ],
     [ "DocBrowserTable", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a2bd11165eb2669d89e5b27b45f96f4b7", null ],
     [ "generateCell", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#aa02ed96ae8a35536c20ba67158e06f1c", null ],
     [ "generateInfoButtonCell", "classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable.html#a5c67e871f66d3954027c50f91ea0985b", null ],

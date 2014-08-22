@@ -2,11 +2,10 @@ var searchData=
 [
   ['join_2ejava',['Join.java',['../model_2Join_8java.html',1,'']]],
   ['mainframe_2ejava',['MainFrame.java',['../MainFrame_8java.html',1,'']]],
-  ['maintoolbar_2ejava',['MainToolbar.java',['../MainToolbar_8java.html',1,'']]],
+  ['mainpage_2emd',['mainpage.md',['../mainpage_8md.html',1,'']]],
   ['match_2ejava',['Match.java',['../Match_8java.html',1,'']]],
   ['matchanddocumentcount_2ejava',['MatchAndDocumentCount.java',['../MatchAndDocumentCount_8java.html',1,'']]],
   ['matchcorefvisualizer_2ejava',['MatchCorefVisualizer.java',['../MatchCorefVisualizer_8java.html',1,'']]],
-  ['matchednodecolors_2ejava',['MatchedNodeColors.java',['../MatchedNodeColors_8java.html',1,'']]],
   ['matchgroup_2ejava',['MatchGroup.java',['../MatchGroup_8java.html',1,'']]],
   ['matrixquerydata_2ejava',['MatrixQueryData.java',['../MatrixQueryData_8java.html',1,'']]],
   ['matrixsqlgenerator_2ejava',['MatrixSqlGenerator.java',['../MatrixSqlGenerator_8java.html',1,'']]],
@@ -25,5 +24,6 @@ var searchData=
   ['metadataservice_2ejava',['MetadataService.java',['../MetadataService_8java.html',1,'']]],
   ['metadataserviceimpl_2ejava',['MetadataServiceImpl.java',['../MetadataServiceImpl_8java.html',1,'']]],
   ['mimeparse_2ejava',['MIMEParse.java',['../MIMEParse_8java.html',1,'']]],
-  ['mimetypeerrorlistener_2ejava',['MimeTypeErrorListener.java',['../MimeTypeErrorListener_8java.html',1,'']]]
+  ['mimetypeerrorlistener_2ejava',['MimeTypeErrorListener.java',['../MimeTypeErrorListener_8java.html',1,'']]],
+  ['multiple_2dservers_2emd',['multiple-servers.md',['../multiple-servers_8md.html',1,'']]]
 ];
