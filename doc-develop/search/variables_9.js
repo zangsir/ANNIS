@@ -48,7 +48,9 @@ var searchData=
   ['iscontinuous',['isContinuous',['../classannis_1_1visualizers_1_1component_1_1tree_1_1NodeStructureData.html#a3d480fd2dcd6ad11c945738972d84c2f',1,'annis::visualizers::component::tree::NodeStructureData']]],
   ['isimporting',['isImporting',['../classde_1_1hu__berlin_1_1german_1_1korpling_1_1annis_1_1kickstarter_1_1ImportDialog.html#ac398595b103b8d6f6dcd4260b7f8f117',1,'de::hu_berlin::german::korpling::annis::kickstarter::ImportDialog']]],
   ['islandspolicy',['islandsPolicy',['../classannis_1_1sqlgen_1_1CommonAnnotateWithClauseGenerator.html#ae859a3990f9d0feafd53d1c728459530',1,'annis::sqlgen::CommonAnnotateWithClauseGenerator']]],
+  ['isloggedin',['isLoggedIn',['../classannis_1_1gui_1_1admin_1_1controller_1_1CorpusController.html#a331f7c7c69c4fdfa1245fc81ddbe0036',1,'annis.gui.admin.controller.CorpusController.isLoggedIn()'],['../classannis_1_1gui_1_1admin_1_1controller_1_1GroupController.html#a6bee01cfee12dd733755c5be2e6be93c',1,'annis.gui.admin.controller.GroupController.isLoggedIn()'],['../classannis_1_1gui_1_1admin_1_1controller_1_1UserController.html#a088ae382f855feaaf5df4ebb29166982',1,'annis.gui.admin.controller.UserController.isLoggedIn()']]],
   ['isshutdownrequested',['isShutdownRequested',['../classannis_1_1service_1_1internal_1_1AnnisServiceRunner.html#a4f34179b355b90fcfd9bdef4bc1f2404',1,'annis::service::internal::AnnisServiceRunner']]],
   ['isvisible',['ISVISIBLE',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#a5c661f9c4b24b16ea4df15da81c8ad74',1,'annis::gui::resultview::VisualizerPanel']]],
+  ['itemid',['itemId',['../classannis_1_1gui_1_1admin_1_1UserManagementPanel_1_1UserChangeListener.html#aca672d4e669c75ec18261fd5cc4c1930',1,'annis::gui::admin::UserManagementPanel::UserChangeListener']]],
   ['itspan',['itSpan',['../classannis_1_1sqlgen_1_1AnnotatedMatchIterator.html#a221efe26d7d128e3c001f83b042359e9',1,'annis::sqlgen::AnnotatedMatchIterator']]]
 ];

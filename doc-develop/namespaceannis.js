@@ -1,5 +1,6 @@
 var namespaceannis =
 [
+    [ "adapter", "namespaceannis_1_1adapter.html", "namespaceannis_1_1adapter" ],
     [ "administration", "namespaceannis_1_1administration.html", "namespaceannis_1_1administration" ],
     [ "corpuspathsearch", "namespaceannis_1_1corpuspathsearch.html", "namespaceannis_1_1corpuspathsearch" ],
     [ "dao", "namespaceannis_1_1dao.html", "namespaceannis_1_1dao" ],

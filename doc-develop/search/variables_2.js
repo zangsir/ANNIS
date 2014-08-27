@@ -59,6 +59,7 @@ var searchData=
   ['btsidebar',['btSidebar',['../classannis_1_1gui_1_1MainToolbar.html#a74df2c8d15fc6225093a62b52bfb74a3',1,'annis::gui::MainToolbar']]],
   ['btsubmit',['btSubmit',['../classannis_1_1gui_1_1ReportBugWindow.html#a696b06cececa06d8a03dcbe247125265',1,'annis::gui::ReportBugWindow']]],
   ['buffer_5fsize',['BUFFER_SIZE',['../classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler.html#a5426df3f3812a9f6dc8f7fb4f2a5a888',1,'annis::gui::requesthandler::BinaryRequestHandler']]],
+  ['bug_5fmail_5fkey',['BUG_MAIL_KEY',['../classannis_1_1gui_1_1MainToolbar.html#ac7d87f36acb637795f7e21466c392a27',1,'annis::gui::MainToolbar']]],
   ['bugemailaddress',['bugEMailAddress',['../classannis_1_1gui_1_1MainToolbar.html#a6f115901fa76a0b1345f0d423d973874',1,'annis::gui::MainToolbar']]],
   ['button',['button',['../classannis_1_1gui_1_1docbrowser_1_1DocBrowserTable_1_1OpenVisualizerWindow.html#a72235ddd41eeb6513627ab5958f6cded',1,'annis::gui::docbrowser::DocBrowserTable::OpenVisualizerWindow']]],
   ['button_5faddlevel_5flabel',['BUTTON_ADDLEVEL_LABEL',['../classannis_1_1gui_1_1flatquerybuilder_1_1AddMenu.html#a94d0f1eeefa184603dea231540f9183e',1,'annis::gui::flatquerybuilder::AddMenu']]],

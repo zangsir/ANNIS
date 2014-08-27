@@ -48,6 +48,7 @@ var searchData=
   ['examples',['examples',['../classannis_1_1gui_1_1ExampleQueriesPanel.html#a4986a8ec3f3ac441f8e274e3fe17df40',1,'annis.gui.ExampleQueriesPanel.examples()'],['../classannis_1_1gui_1_1HelpPanel.html#ad12cb64b9b9a667da2cf5db70f6301d5',1,'annis.gui.HelpPanel.examples()']]],
   ['exceptions',['exceptions',['../classannis_1_1administration_1_1CorpusAdministration_1_1ImportStatsImpl.html#a842f64cb4c0b2b3b7bb3248ebfc6cae8',1,'annis::administration::CorpusAdministration::ImportStatsImpl']]],
   ['exec',['exec',['../classannis_1_1libgui_1_1PollControl.html#a8602f2e48980f3f0cfb02525d7290bb9',1,'annis::libgui::PollControl']]],
+  ['expires',['expires',['../classannis_1_1security_1_1User.html#a1d2f5f305f319dbe1287e0ffffb8a92c',1,'annis::security::User']]],
   ['exporter',['EXPORTER',['../classannis_1_1gui_1_1ExportPanel.html#a0abb45775ce8ed20507a04f305239f4b',1,'annis.gui.ExportPanel.EXPORTER()'],['../classannis_1_1gui_1_1ExportPanel_1_1BackgroundJob.html#a4139c1173ddea4a51c6695161bb3e1a6',1,'annis.gui.ExportPanel.BackgroundJob.exporter()']]],
   ['exportermap',['exporterMap',['../classannis_1_1gui_1_1ExportPanel.html#aba7561b7469898c4ebaff77b206962f4',1,'annis::gui::ExportPanel']]],
   ['exportfuture',['exportFuture',['../classannis_1_1gui_1_1ExportPanel.html#abd3419dda2a722a9a29049d6ff3c445a',1,'annis::gui::ExportPanel']]],

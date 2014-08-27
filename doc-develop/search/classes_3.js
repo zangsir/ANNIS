@@ -2,6 +2,8 @@ var searchData=
 [
   ['databaseaccessexception',['DatabaseAccessException',['../classannis_1_1administration_1_1DatabaseAccessException.html',1,'annis::administration']]],
   ['dataobject',['DataObject',['../classannis_1_1model_1_1DataObject.html',1,'annis::model']]],
+  ['datetimeadapter',['DateTimeAdapter',['../classannis_1_1adapter_1_1DateTimeAdapter.html',1,'annis::adapter']]],
+  ['datetimeconverter',['DateTimeConverter',['../classannis_1_1gui_1_1admin_1_1converter_1_1DateTimeConverter.html',1,'annis::gui::admin::converter']]],
   ['debugvisualizer',['DebugVisualizer',['../classannis_1_1visualizers_1_1component_1_1graph_1_1DebugVisualizer.html',1,'annis::visualizers::component::graph']]],
   ['defaultadministrationdao',['DefaultAdministrationDao',['../classannis_1_1administration_1_1DefaultAdministrationDao.html',1,'annis::administration']]],
   ['defaultlabeler',['DefaultLabeler',['../classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultLabeler.html',1,'annis::visualizers::component::tree::TigerTreeVisualizer']]],

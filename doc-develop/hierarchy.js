@@ -230,19 +230,19 @@ var hierarchy =
     ] ],
     [ "annis.sqlgen.LimitOffsetClauseSqlGenerator< T >", "interfaceannis_1_1sqlgen_1_1LimitOffsetClauseSqlGenerator_3_01T_01_4.html", null ],
     [ "annis.sqlgen.extensions.LimitOffsetQueryData", "classannis_1_1sqlgen_1_1extensions_1_1LimitOffsetQueryData.html", null ],
-    [ "annis.gui.admin.view.UserListView.Listener", "interfaceannis_1_1gui_1_1admin_1_1view_1_1UserListView_1_1Listener.html", [
-      [ "annis.gui.admin.controller.UserController", "classannis_1_1gui_1_1admin_1_1controller_1_1UserController.html", null ]
-    ] ],
-    [ "annis.gui.admin.view.GroupListView.Listener", "interfaceannis_1_1gui_1_1admin_1_1view_1_1GroupListView_1_1Listener.html", [
-      [ "annis.gui.admin.controller.GroupController", "classannis_1_1gui_1_1admin_1_1controller_1_1GroupController.html", null ]
-    ] ],
     [ "annis.gui.admin.view.UIView.Listener", "interfaceannis_1_1gui_1_1admin_1_1view_1_1UIView_1_1Listener.html", [
       [ "annis.gui.admin.controller.CorpusController", "classannis_1_1gui_1_1admin_1_1controller_1_1CorpusController.html", null ],
       [ "annis.gui.admin.controller.GroupController", "classannis_1_1gui_1_1admin_1_1controller_1_1GroupController.html", null ],
       [ "annis.gui.admin.controller.UserController", "classannis_1_1gui_1_1admin_1_1controller_1_1UserController.html", null ]
     ] ],
+    [ "annis.gui.admin.view.UserListView.Listener", "interfaceannis_1_1gui_1_1admin_1_1view_1_1UserListView_1_1Listener.html", [
+      [ "annis.gui.admin.controller.UserController", "classannis_1_1gui_1_1admin_1_1controller_1_1UserController.html", null ]
+    ] ],
     [ "annis.gui.admin.view.CorpusListView.Listener", "interfaceannis_1_1gui_1_1admin_1_1view_1_1CorpusListView_1_1Listener.html", [
       [ "annis.gui.admin.controller.CorpusController", "classannis_1_1gui_1_1admin_1_1controller_1_1CorpusController.html", null ]
+    ] ],
+    [ "annis.gui.admin.view.GroupListView.Listener", "interfaceannis_1_1gui_1_1admin_1_1view_1_1GroupListView_1_1Listener.html", [
+      [ "annis.gui.admin.controller.GroupController", "classannis_1_1gui_1_1admin_1_1controller_1_1GroupController.html", null ]
     ] ],
     [ "annis.visualizers.LoadableVisualizer", "interfaceannis_1_1visualizers_1_1LoadableVisualizer.html", [
       [ "annis.gui.components.medialement.MediaElementPlayer", "classannis_1_1gui_1_1components_1_1medialement_1_1MediaElementPlayer.html", null ]
@@ -250,6 +250,7 @@ var hierarchy =
     [ "annis.gui.widgets.gwt.client.ui.autoheightiframe.AutoHeightIFrameConnector.LoadCallback", "interfaceannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1autoheightiframe_1_1AutoHeightIFrameConnector_1_1LoadCallback.html", null ],
     [ "annis.ql.parser.LogicClause", "classannis_1_1ql_1_1parser_1_1LogicClause.html", null ],
     [ "annis.gui.LoginListener", "interfaceannis_1_1gui_1_1LoginListener.html", [
+      [ "annis.gui.admin.ImportPanel", "classannis_1_1gui_1_1admin_1_1ImportPanel.html", null ],
       [ "annis.gui.AdminUI", "classannis_1_1gui_1_1AdminUI.html", null ],
       [ "annis.gui.MainToolbar", "classannis_1_1gui_1_1MainToolbar.html", null ],
       [ "annis.gui.SearchUI", "classannis_1_1gui_1_1SearchUI.html", null ]
@@ -456,9 +457,9 @@ var hierarchy =
       [ "annis.visualizers.component.tree.TigerTreeVisualizer.DefaultStyler", "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer_1_1DefaultStyler.html", null ]
     ] ],
     [ "annis.visualizers.component.tree.ConstituentLayouter< T extends GraphicsItem >.TreeLayoutData", "classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html", null ],
+    [ "annis.visualizers.htmlvis.SpanHTMLOutputter.Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", null ],
     [ "annis.service.objects.AnnisAttribute.Type", "enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html", null ],
     [ "annis.model.QueryNode.Type", "enumannis_1_1model_1_1QueryNode_1_1Type.html", null ],
-    [ "annis.visualizers.htmlvis.SpanHTMLOutputter.Type", "enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html", null ],
     [ "annis.gui.admin.view.UIView", "interfaceannis_1_1gui_1_1admin_1_1view_1_1UIView.html", [
       [ "annis.gui.AdminUI", "classannis_1_1gui_1_1AdminUI.html", null ]
     ] ],
@@ -474,6 +475,7 @@ var hierarchy =
     [ "annis.utils.Utils", "classannis_1_1utils_1_1Utils.html", null ],
     [ "ValueChangeListener", null, [
       [ "annis.gui.admin.PopupTwinColumnSelect.UpdateContainerListener", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect_1_1UpdateContainerListener.html", null ],
+      [ "annis.gui.admin.UserManagementPanel.UserChangeListener", "classannis_1_1gui_1_1admin_1_1UserManagementPanel_1_1UserChangeListener.html", null ],
       [ "annis.gui.ExportPanel.ExporterSelectionHelpListener", "classannis_1_1gui_1_1ExportPanel_1_1ExporterSelectionHelpListener.html", null ],
       [ "annis.gui.MetaDataPanel", "classannis_1_1gui_1_1MetaDataPanel.html", null ],
       [ "annis.gui.querybuilder.QueryBuilderChooser", "classannis_1_1gui_1_1querybuilder_1_1QueryBuilderChooser.html", null ],
@@ -629,8 +631,9 @@ var hierarchy =
       [ "OptimizedConnectorBundleLoaderFactory", "classOptimizedConnectorBundleLoaderFactory.html", null ]
     ] ],
     [ "Converter", null, [
-      [ "annis.gui.admin.CommaSeperatedStringConverter", "classannis_1_1gui_1_1admin_1_1CommaSeperatedStringConverter.html", null ],
-      [ "annis.gui.admin.TreeSetConverter", "classannis_1_1gui_1_1admin_1_1TreeSetConverter.html", null ]
+      [ "annis.gui.admin.converter.CommaSeperatedStringConverter", "classannis_1_1gui_1_1admin_1_1converter_1_1CommaSeperatedStringConverter.html", null ],
+      [ "annis.gui.admin.converter.DateTimeConverter", "classannis_1_1gui_1_1admin_1_1converter_1_1DateTimeConverter.html", null ],
+      [ "annis.gui.admin.converter.TreeSetConverter", "classannis_1_1gui_1_1admin_1_1converter_1_1TreeSetConverter.html", null ]
     ] ],
     [ "CssLayout", null, [
       [ "annis.gui.resultview.SingleResultPanel", "classannis_1_1gui_1_1resultview_1_1SingleResultPanel.html", null ],
@@ -645,6 +648,7 @@ var hierarchy =
       [ "annis.gui.widgets.gwt.client.ui.GripDragComponentConnector", "classannis_1_1gui_1_1widgets_1_1gwt_1_1client_1_1ui_1_1GripDragComponentConnector.html", null ]
     ] ],
     [ "CustomField", null, [
+      [ "annis.gui.admin.OptionalDateTimeField", "classannis_1_1gui_1_1admin_1_1OptionalDateTimeField.html", null ],
       [ "annis.gui.admin.PopupTwinColumnSelect", "classannis_1_1gui_1_1admin_1_1PopupTwinColumnSelect.html", null ]
     ] ],
     [ "DefaultFieldFactory", null, [
@@ -1122,5 +1126,8 @@ var hierarchy =
       [ "annis.gui.components.ExceptionDialog", "classannis_1_1gui_1_1components_1_1ExceptionDialog.html", null ],
       [ "annis.gui.HelpUsWindow", "classannis_1_1gui_1_1HelpUsWindow.html", null ],
       [ "annis.gui.ReportBugWindow", "classannis_1_1gui_1_1ReportBugWindow.html", null ]
+    ] ],
+    [ "XmlAdapter", null, [
+      [ "annis.adapter.DateTimeAdapter", "classannis_1_1adapter_1_1DateTimeAdapter.html", null ]
     ] ]
 ];

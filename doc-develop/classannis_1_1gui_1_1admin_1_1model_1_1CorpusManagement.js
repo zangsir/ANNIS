@@ -1,5 +1,6 @@
 var classannis_1_1gui_1_1admin_1_1model_1_1CorpusManagement =
 [
+    [ "clear", "classannis_1_1gui_1_1admin_1_1model_1_1CorpusManagement.html#a0353e4c3664edc5bbf58be6885bbd906", null ],
     [ "delete", "classannis_1_1gui_1_1admin_1_1model_1_1CorpusManagement.html#a58f0885ecb3f0aa2fb41202b4bfd7b8f", null ],
     [ "fetchFromService", "classannis_1_1gui_1_1admin_1_1model_1_1CorpusManagement.html#ab337cdfeebc0a9f795b479e8da17b9b4", null ],
     [ "getCorpora", "classannis_1_1gui_1_1admin_1_1model_1_1CorpusManagement.html#a8f6d359d263af7ade6655bd9aad401d6", null ],

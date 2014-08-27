@@ -24,10 +24,10 @@ var searchData=
   ['treeelementlabeler',['TreeElementLabeler',['../interfaceannis_1_1visualizers_1_1component_1_1tree_1_1TreeElementLabeler.html',1,'annis::visualizers::component::tree']]],
   ['treeelementstyler',['TreeElementStyler',['../interfaceannis_1_1visualizers_1_1component_1_1tree_1_1TreeElementStyler.html',1,'annis::visualizers::component::tree']]],
   ['treelayoutdata',['TreeLayoutData',['../classannis_1_1visualizers_1_1component_1_1tree_1_1ConstituentLayouter_3_01T_01extends_01GraphicsItem_01_4_1_1TreeLayoutData.html',1,'annis::visualizers::component::tree::ConstituentLayouter&lt; T extends GraphicsItem &gt;']]],
-  ['treesetconverter',['TreeSetConverter',['../classannis_1_1gui_1_1admin_1_1TreeSetConverter.html',1,'annis::gui::admin']]],
+  ['treesetconverter',['TreeSetConverter',['../classannis_1_1gui_1_1admin_1_1converter_1_1TreeSetConverter.html',1,'annis::gui::admin::converter']]],
   ['treferent',['TReferent',['../classannis_1_1visualizers_1_1iframe_1_1CorefVisualizer_1_1TReferent.html',1,'annis::visualizers::iframe::CorefVisualizer']]],
   ['tutorialpanel',['TutorialPanel',['../classannis_1_1gui_1_1tutorial_1_1TutorialPanel.html',1,'annis::gui::tutorial']]],
-  ['type',['Type',['../enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html',1,'annis::visualizers::htmlvis::SpanHTMLOutputter']]],
   ['type',['Type',['../enumannis_1_1model_1_1QueryNode_1_1Type.html',1,'annis::model::QueryNode']]],
-  ['type',['Type',['../enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html',1,'annis::service::objects::AnnisAttribute']]]
+  ['type',['Type',['../enumannis_1_1service_1_1objects_1_1AnnisAttribute_1_1Type.html',1,'annis::service::objects::AnnisAttribute']]],
+  ['type',['Type',['../enumannis_1_1visualizers_1_1htmlvis_1_1SpanHTMLOutputter_1_1Type.html',1,'annis::visualizers::htmlvis::SpanHTMLOutputter']]]
 ];

@@ -1,6 +1,7 @@
 var classannis_1_1gui_1_1admin_1_1model_1_1UserManagement =
 [
-    [ "createOrUpdateUser", "classannis_1_1gui_1_1admin_1_1model_1_1UserManagement.html#a88af94471b3f068147343a95d0ccbc56", null ],
+    [ "clear", "classannis_1_1gui_1_1admin_1_1model_1_1UserManagement.html#a98996a1454346a4e8fabdcc7c5b66dcd", null ],
+    [ "createOrUpdateUser", "classannis_1_1gui_1_1admin_1_1model_1_1UserManagement.html#a03a46ebb0db51d54d6d11c713a448865", null ],
     [ "deleteUser", "classannis_1_1gui_1_1admin_1_1model_1_1UserManagement.html#aee00e061c5024d919b6c8481bb4918ae", null ],
     [ "fetchFromService", "classannis_1_1gui_1_1admin_1_1model_1_1UserManagement.html#a9a87ce7c002ac13b5e6c616c8656496a", null ],
     [ "getRootResource", "classannis_1_1gui_1_1admin_1_1model_1_1UserManagement.html#ab1df2b5b068340257bbf578158aecdbc", null ],

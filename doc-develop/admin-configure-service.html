@@ -105,7 +105,8 @@ $(document).ready(function(){initNavTree('admin-configure-service.html','');});
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#admin-configure-user">User Configuration </a><ul><li class="level2"><a href="#admin-configure-userfileloc">Configuration file location </a></li>
-<li class="level2"><a href="#admin-configure-userformat">User and group files </a><ul><li class="level3"><a href="#admin-configure-anonymous">anonymous group</a></li>
+<li class="level2"><a href="#admin-configure-userformat">User and group files </a><ul><li class="level3"><a href="#admin-configure-anonymous">"anonymous" and "user" group</a></li>
+<li class="level3"><a href="#admin-configure-permissions">Advanced permissions</a></li>
 </ul>
 </li>
 </ul>
@@ -118,13 +119,11 @@ User Configuration </h1>
 <p>ANNIS has an authentication system which allows to handle multiple users which will see different corpora depending on which groups the user is part of. Behind the scenes ANNIS uses the <a href="http://shiro.apache.org/">Apache Shiro</a> security framework. Per default ANNIS uses a file based authentication and authorization approach where some configuration files with an ANNIS specific layout are evaluated. This section will discuss how to manage this configuration. Additionally, the administrator can also directly adjust the contents of the conf/ shiro.ini configuration file. This allows a much more individual configuration and the usage of external authorization services like LDAP.</p>
 <h2><a class="anchor" id="admin-configure-userfileloc"></a>
 Configuration file location </h2>
-<p>There is a central location where the user configuration files are stored. Configure the path to this location in the <code>conf/shiro.info</code> configuration file of the ANNIS service. The default path is <code>/etc/annis/user_config/</code> and must be changed at two locations in the configuration file.</p>
+<p>There is a central location where the user configuration files are stored. Configure the path to this location in the <code>conf/shiro.info</code> configuration file of the ANNIS service. The default path is <code>/etc/annis/user_config/</code> and can be changed in the configuration file.</p>
 <pre class="fragment">[main]
-annisRealm = annis.security.ANNISUserRealm
-annisRealm.resourcePath=/etc/annis/user_config/
-annisRealm.authenticationCachingEnabled = true
-globalPermResolver = annis.security.ANNISRolePermissionResolver
-globalPermResolver.resourcePath = /etc/annis/user_config/
+confManager = annis.security.ANNISUserConfigurationManager
+confManager.resourcePath=/etc/annis/user_config/
+[...]
 </pre><h2><a class="anchor" id="admin-configure-userformat"></a>
 User and group files </h2>
 <ol type="1">
@@ -137,13 +136,15 @@ anonymous=pcc2,falko
 <li><p class="startli">You have to create a file for each user inside the users subdirectory where the user's name is <em>exactly</em> the file name (no file endings). </p>
 <pre class="fragment">groups=group1,group3
 password=$shiro1$SHA-256$1$tQNwUIxEQhrDn6FKcY1yNg==$Xq8ZCb3RFBwn3GfQ7pav3G3vHg4TKRGD1ItpfdW+JvI=
-given_name=userGivenName
-surname=userSurname
+# these are optional entries
+permissions=adm:*,query:*
+expires=2015-04-25
 </pre><ul>
 <li>A superuser who has access to every corpus can be created with <code>groups=*</code></li>
-<li><code>given_name</code> and <code>surname</code> can contain any string</li>
 <li>The password must be hashed with SHA256 (one iteration and using a Salt) and formatted in the <a href="http://shiro.apache.org/static/current/
 apidocs/org/apache/shiro/crypto/hash/format/Shiro1CryptFormat.html">Shiro1CryptFormat</a>.</li>
+<li>Additional permissions for the user are given as comma seperated list in the <code>permissions</code> field.</li>
+<li>With <code>expires</code> you can define when an account will expire. The format must be in encoded according to the <a href="http://en.wikipedia.org/wiki/ISO_8601">ISO-8601 standard</a>.</li>
 </ul>
 <p class="startli">The easiest way to generate the passwort hash is to use the Apache Shiro command line hasher (<a href="http://shiro.apache.org/command-line-hasher.html">http://shiro.apache.org/command-line-hasher.html</a>) which can be downloaded from <a href="http://shiro.apache.org/download.html#Download-1.2.1.BinaryDistribution">http://shiro.apache.org/download.html#Download-1.2.1.BinaryDistribution</a> .</p>
 <ol type="a">
@@ -159,8 +160,47 @@ apidocs/org/apache/shiro/crypto/hash/format/Shiro1CryptFormat.html">Shiro1CryptF
 </li>
 </ol>
 <h3><a class="anchor" id="admin-configure-anonymous"></a>
-anonymous group</h3>
-<p>The special group <code>anonymous</code> is used for non logged-in users. Thus every corpus listed here is available for everyone without (and with) login.</p>
+"anonymous" and "user" group</h3>
+<p>The special group <code>anonymous</code> is used for non logged-in users. Thus every corpus listed here is available for everyone without (and with) login. In addition the group "user" is added to every user that is logged in.</p>
+<h3><a class="anchor" id="admin-configure-permissions"></a>
+Advanced permissions</h3>
+<p>The following permissions can be granted to individual users. Wildcards ("*") can be used as described in the <a href="https://shiro.apache.org/permissions.html">Apache Shiro documentation</a>.</p>
+<h4>Administration</h4>
+<p>If you want to have an adminstrator user just add </p>
+<pre class="fragment">admin:*
+</pre><p> to it's permissions. For more fine-grained control (e.g. for the web service users) you can specifiy the actual action. You can always use "*" wildcard instead of the corpus name to allow the specific action for any corpus.</p>
+<table class="doxtable">
+<tr>
+<th>permission </th><th>description  </th></tr>
+<tr>
+<td>admin:import:<b>{corpusname}</b> </td><td>Allow to <a class="el" href="interfaceannis_1_1service_1_1AdminService.html#a217ec6b01ab3035b903dd7769706179a">import and overwrite</a> a corpus with a specific name. </td></tr>
+<tr>
+<td>admin:query-import:finished </td><td>Allow to <a class="el" href="interfaceannis_1_1service_1_1AdminService.html#a1987841fb8007a1ba62bc03f691f9f8c">check if an import has finished</a>. </td></tr>
+<tr>
+<td>admin:query-import:running </td><td>Allow to list the <a class="el" href="interfaceannis_1_1service_1_1AdminService.html#a40c9b2d35cc3cacca0ea0934570f8310">currently running imports</a>. </td></tr>
+<tr>
+<td>admin:write:user </td><td>Allow to the <a class="el" href="interfaceannis_1_1service_1_1AdminService.html#a812b72d08a348cbf528a65b557384cee">update or create</a> users. </td></tr>
+</table>
+<h4>Querying</h4>
+<p>Every user that is part of a group that contains a corpus always get these permissions for a corpus automatically. If you want to allow a user to access only a certain functionality you can add more fine grained permissions. E.g. </p>
+<pre class="fragment">query:count:*
+</pre><p> allows a user to count on all corpora but won't allow him to fetch the annotation graphs. For users that use the graphical user interface and not the service directly you should always grant a user all query permissions for a corpus. Otherwise he the user interface might not function as expected.</p>
+<table class="doxtable">
+<tr>
+<th>permission </th><th>description  </th></tr>
+<tr>
+<td>query:count:<b>{corpusname}</b> </td><td>Allow to <a class="el" href="interfaceannis_1_1service_1_1QueryService.html#af3a82ae09a56dc476fe04b1025f700ec">count</a> on a specific corpus. </td></tr>
+<tr>
+<td>query:find:<b>{corpusname}</b> </td><td>Allow to <a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a92308b95fc2b3f74371a4c2da5b4809b">find matches</a> on a specific corpus. </td></tr>
+<tr>
+<td>query:subgraph:<b>{corpusname}</b> </td><td>Allow to query <a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a7aecc4f056f9b7df21c85851027ae831">subgraphs</a> on a specific corpus. </td></tr>
+<tr>
+<td>query:subgraph:<b>{corpusname}</b> </td><td>Allow to query <a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a7aecc4f056f9b7df21c85851027ae831">annptated subgraphs</a> on a specific corpus </td></tr>
+<tr>
+<td>query:subgraph:<b>{corpusname}</b> </td><td>Allow to query <a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a7aecc4f056f9b7df21c85851027ae831">annotated subgraphs</a> and <a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a6060e152e2a6a53e7617838ee7824d86">complete annotated graphs</a> on a specific corpus. </td></tr>
+<tr>
+<td>query:binary:<b>{corpusname}</b> </td><td>Allow to get the <a class="el" href="interfaceannis_1_1service_1_1QueryService.html#a657c994b1be5b568ba072878dd98bc53">binary files</a> of a specific corpus. </td></tr>
+</table>
 <h1><a class="anchor" id="admin-configure-contextsize"></a>
 Changing maximal context size </h1>
 <p>The maximal context size of ±n tokens from each search result (for the KWIC view, but also for other visualization) can be set for the ANNIS service in the file <code>&lt;service-home&gt;/conf/annis-service.properties</code> Using the syntax, e.g. for a maximum context of 10 tokens: </p>
@@ -171,7 +211,7 @@ Changing maximal context size </h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="admin.html">Administration</a></li>
-    <li class="footer">Generated on Fri Aug 22 2014 12:36:04 for ANNIS by
+    <li class="footer">Generated on Wed Aug 27 2014 18:14:27 for ANNIS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
