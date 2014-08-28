@@ -1,11 +1,16 @@
 var NAVTREEINDEX26 =
 {
+"functions_n.html":[5,3,0,15],
+"functions_o.html":[5,3,0,16],
+"functions_p.html":[5,3,0,17],
+"functions_q.html":[5,3,0,18],
+"functions_r.html":[5,3,0,19],
 "functions_s.html":[5,3,0,20],
 "functions_t.html":[5,3,0,21],
 "functions_u.html":[5,3,0,22],
 "functions_v.html":[5,3,0,23],
-"functions_vars.html":[5,3,2,0],
 "functions_vars.html":[5,3,2],
+"functions_vars.html":[5,3,2,0],
 "functions_vars_a.html":[5,3,2,1],
 "functions_vars_b.html":[5,3,2,2],
 "functions_vars_c.html":[5,3,2,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX26 =
 "interfaceannis_1_1service_1_1AdminService.html#a217ec6b01ab3035b903dd7769706179a":[5,0,0,14,3,2],
 "interfaceannis_1_1service_1_1AdminService.html#a40c9b2d35cc3cacca0ea0934570f8310":[5,0,0,14,3,0],
 "interfaceannis_1_1service_1_1AdminService.html#a812b72d08a348cbf528a65b557384cee":[5,0,0,14,3,3],
-"interfaceannis_1_1service_1_1MetadataService.html":[5,0,0,14,4],
-"interfaceannis_1_1service_1_1MetadataService.html#a143ed1a9c16887fc9ac3d81d64bbc11c":[5,0,0,14,4,0],
-"interfaceannis_1_1service_1_1MetadataService.html#a366e31230259b2c2a25a3eed885bb0f4":[5,0,0,14,4,1],
-"interfaceannis_1_1service_1_1MetadataService.html#a4f54b79012abe88f36e879e4e1ed0826":[5,0,0,14,4,2],
-"interfaceannis_1_1service_1_1MetadataService.html#abac19e9e2c9a06697c5de90998c6d5f3":[5,0,0,14,4,3],
-"interfaceannis_1_1service_1_1QueryService.html":[5,0,0,14,5]
+"interfaceannis_1_1service_1_1MetadataService.html":[5,0,0,14,4]
 };

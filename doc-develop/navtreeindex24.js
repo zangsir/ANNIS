@@ -1,5 +1,10 @@
 var NAVTREEINDEX24 =
 {
+"classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#a8366e2d8e4dbbc62215d0cf0c4a9c0e0":[5,0,0,17,2,0,0,1],
+"classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#a875da037f1ae918148619595560dadcf":[5,0,0,17,2,0,0,9],
+"classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#a95766d8f0c8b04f936fb84c84bb5bd07":[5,0,0,17,2,0,0,2],
+"classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#a9743312364a3c6bb0e923accac2671bd":[5,0,0,17,2,0,0,0],
+"classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#adb7ce2ba3a58e3260df4947ff91ed9a3":[5,0,0,17,2,0,0,7],
 "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#aea98a4d95292758fa4784637396a93a7":[5,0,0,17,2,0,0,10],
 "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1Vector2.html":[5,0,0,17,2,0,1],
 "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1Vector2.html#a1aecc9dbc2446be4de9042fe7ba27dad":[5,0,0,17,2,0,1,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX24 =
 "dev-aql.html#dev-aql-inclusion":[2,6,0,4],
 "dev-aql.html#dev-aql-indirectnear":[2,6,0,9],
 "dev-aql.html#dev-aql-indirectpoint":[2,6,0,11],
-"dev-aql.html#dev-aql-indirectprec":[2,6,0,1],
-"dev-aql.html#dev-aql-leftalign":[2,6,0,6],
-"dev-aql.html#dev-aql-leftchild":[2,6,0,12],
-"dev-aql.html#dev-aql-length":[2,6,0,17],
-"dev-aql.html#dev-aql-oplist":[2,6,0],
-"dev-aql.html#dev-aql-overlap":[2,6,0,5]
+"dev-aql.html#dev-aql-indirectprec":[2,6,0,1]
 };

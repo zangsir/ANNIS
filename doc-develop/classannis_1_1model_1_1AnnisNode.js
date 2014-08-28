@@ -33,6 +33,7 @@ var classannis_1_1model_1_1AnnisNode =
     [ "isRoot", "classannis_1_1model_1_1AnnisNode.html#af569b4e9ba7d9449b4cb7a66750d1d0d", null ],
     [ "isToken", "classannis_1_1model_1_1AnnisNode.html#a2236dd6a2174155d0547481f303ed373", null ],
     [ "qName", "classannis_1_1model_1_1AnnisNode.html#a411fca8bd0d89991cc7df18bd45b4f8f", null ],
+    [ "qName", "classannis_1_1model_1_1AnnisNode.html#a77f8efa61a8072ab65f164484c59b3bc", null ],
     [ "setCorpus", "classannis_1_1model_1_1AnnisNode.html#a44fb2265fee6d1c671e6991d4b666a17", null ],
     [ "setEdgeAnnotations", "classannis_1_1model_1_1AnnisNode.html#a538496c4a5268ed2bbb28d709a2ff672", null ],
     [ "setGraph", "classannis_1_1model_1_1AnnisNode.html#af6ab06bdb1d69afb76d4ccbe8d0cf93d", null ],

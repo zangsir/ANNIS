@@ -1,5 +1,10 @@
 var NAVTREEINDEX25 =
 {
+"dev-aql.html#dev-aql-leftalign":[2,6,0,6],
+"dev-aql.html#dev-aql-leftchild":[2,6,0,12],
+"dev-aql.html#dev-aql-length":[2,6,0,17],
+"dev-aql.html#dev-aql-oplist":[2,6,0],
+"dev-aql.html#dev-aql-overlap":[2,6,0,5],
 "dev-aql.html#dev-aql-rightalign":[2,6,0,7],
 "dev-aql.html#dev-aql-rightchild":[2,6,0,13],
 "dev-aql.html#dev-aql-root":[2,6,0,18],
@@ -244,10 +249,5 @@ var NAVTREEINDEX25 =
 "functions_j.html":[5,3,0,11],
 "functions_k.html":[5,3,0,12],
 "functions_l.html":[5,3,0,13],
-"functions_m.html":[5,3,0,14],
-"functions_n.html":[5,3,0,15],
-"functions_o.html":[5,3,0,16],
-"functions_p.html":[5,3,0,17],
-"functions_q.html":[5,3,0,18],
-"functions_r.html":[5,3,0,19]
+"functions_m.html":[5,3,0,14]
 };

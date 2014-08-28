@@ -111,7 +111,7 @@ var searchData=
   ['converttoresultset',['convertToResultSet',['../classannis_1_1utils_1_1LegacyGraphConverter.html#a1c1111e307646d374f0fda92e89e8973',1,'annis::utils::LegacyGraphConverter']]],
   ['copy',['copy',['../classannis_1_1gui_1_1requesthandler_1_1BinaryRequestHandler.html#acb1bba2a70ecdee11abd81896657a8ef',1,'annis::gui::requesthandler::BinaryRequestHandler']]],
   ['copyannisfeature',['copyAnnisFeature',['../classannis_1_1gui_1_1resultview_1_1VisualizerPanel.html#ae474f1c8ee9124524b7a38aef82413fc',1,'annis::gui::resultview::VisualizerPanel']]],
-  ['copynode',['copyNode',['../classannis_1_1visualizers_1_1component_1_1tree_1_1AnnisGraphTools.html#a18daee76d13d01b910fde75ba08bb44d',1,'annis::visualizers::component::tree::AnnisGraphTools']]],
+  ['copynode',['copyNode',['../classannis_1_1visualizers_1_1component_1_1tree_1_1AnnisGraphTools.html#a4f34994b7d00dc5f342ed3a7baadb093',1,'annis::visualizers::component::tree::AnnisGraphTools']]],
   ['corpora',['corpora',['../classannis_1_1service_1_1internal_1_1QueryServiceImpl.html#a4d66e2bf98b02b4a7b8799778204a8be',1,'annis::service::internal::QueryServiceImpl']]],
   ['corporaindirectory',['corporaInDirectory',['../classannis_1_1utils_1_1RelANNISHelper.html#a057885eb97c6e06acc19177f3460ae45',1,'annis::utils::RelANNISHelper']]],
   ['corporainzipfile',['corporaInZipfile',['../classannis_1_1utils_1_1RelANNISHelper.html#a308dcdfde648ac3cb6f3a64f01948552',1,'annis.utils.RelANNISHelper.corporaInZipfile(ZipFile zip)'],['../classannis_1_1utils_1_1RelANNISHelper.html#a1343c7561b4f86f06d298c72488f5208',1,'annis.utils.RelANNISHelper.corporaInZipfile(File f)']]],

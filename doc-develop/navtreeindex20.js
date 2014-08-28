@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a15fed1326f1c0761842de151ef59f8d1":[5,0,0,15,44,8],
 "classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a1d4c61c94b050166d8997369870a877a":[5,0,0,15,44,19],
 "classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a21aa9426476d6691fea86be34a0ab40c":[5,0,0,15,44,11],
 "classannis_1_1sqlgen_1_1SaltAnnotateExtractor.html#a24101dec0d8d3989dba994aa3dbea0a9":[5,0,0,15,44,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classannis_1_1sqlgen_1_1model_1_1Near.html#ab28274c81bf89d7a919ad84dce1943db":[5,0,0,15,1,9,3],
 "classannis_1_1sqlgen_1_1model_1_1Near.html#ae1bae045dfbebb0563b3bd4df1a0b5c5":[5,0,0,15,1,9,0],
 "classannis_1_1sqlgen_1_1model_1_1NonBindingJoin.html":[5,0,0,15,1,10],
-"classannis_1_1sqlgen_1_1model_1_1NonBindingJoin.html#a7ad26832c85671e4b94810deab823e5b":[5,0,0,15,1,10,0],
-"classannis_1_1sqlgen_1_1model_1_1NotEqualValue.html":[5,0,0,15,1,11]
+"classannis_1_1sqlgen_1_1model_1_1NonBindingJoin.html#a7ad26832c85671e4b94810deab823e5b":[5,0,0,15,1,10,0]
 };
