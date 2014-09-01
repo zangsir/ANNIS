@@ -56,9 +56,9 @@ var NAVTREEINDEX =
 "classannis_1_1visualizers_1_1component_1_1tree_1_1TigerTreeVisualizer.html#a0105c1c847bd1abe2c4792eec3daf238",
 "classannis_1_1visualizers_1_1iframe_1_1dependency_1_1VakyarthaDependencyTree.html#a8366e2d8e4dbbc62215d0cf0c4a9c0e0",
 "dev-aql.html#dev-aql-leftalign",
-"functions_n.html",
-"interfaceannis_1_1service_1_1MetadataService.html#a143ed1a9c16887fc9ac3d81d64bbc11c",
-"namespaceannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg.html"
+"functions_m.html",
+"interfaceannis_1_1service_1_1MetadataService.html",
+"namespaceannis_1_1visualizers_1_1component_1_1tree_1_1backends.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

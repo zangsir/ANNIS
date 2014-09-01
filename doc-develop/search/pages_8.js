@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['upgrading_20an_20annis_20installation',['Upgrading an ANNIS installation',['../admin-upgrade.html',1,'admin']]],
-  ['using_20an_20ide',['Using an IDE',['../dev-ide.html',1,'dev']]]
+  ['provide_20you_20own_20login_2dsystem',['Provide you own login-system',['../admin-configure-customlogin.html',1,'admin']]],
+  ['postgresql_20server_20configuration',['PostgreSQL Server Configuration',['../admin-configure-postgresql.html',1,'admin']]],
+  ['public_20rest_20api',['Public REST API',['../api.html',1,'']]]
 ];

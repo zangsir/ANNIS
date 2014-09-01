@@ -13,6 +13,7 @@ var NAVTREEINDEX25 =
 "dev-frontend.html":[2,4],
 "dev-ide.html":[2,2],
 "dev-querybuilder.html":[2,5],
+"dev-querybyurl.html":[2,7],
 "dev-release.html":[2,3],
 "dev-release.html#dev-release-changelog":[2,3,1,1],
 "dev-release.html#dev-release-cycle":[2,3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "functions_i.html":[5,3,0,10],
 "functions_j.html":[5,3,0,11],
 "functions_k.html":[5,3,0,12],
-"functions_l.html":[5,3,0,13],
-"functions_m.html":[5,3,0,14]
+"functions_l.html":[5,3,0,13]
 };

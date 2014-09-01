@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"functions_m.html":[5,3,0,14],
 "functions_n.html":[5,3,0,15],
 "functions_o.html":[5,3,0,16],
 "functions_p.html":[5,3,0,17],
@@ -9,8 +10,8 @@ var NAVTREEINDEX26 =
 "functions_t.html":[5,3,0,21],
 "functions_u.html":[5,3,0,22],
 "functions_v.html":[5,3,0,23],
-"functions_vars.html":[5,3,2],
 "functions_vars.html":[5,3,2,0],
+"functions_vars.html":[5,3,2],
 "functions_vars_a.html":[5,3,2,1],
 "functions_vars_b.html":[5,3,2,2],
 "functions_vars_c.html":[5,3,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "interfaceannis_1_1service_1_1AdminService.html#a1987841fb8007a1ba62bc03f691f9f8c":[5,0,0,14,3,1],
 "interfaceannis_1_1service_1_1AdminService.html#a217ec6b01ab3035b903dd7769706179a":[5,0,0,14,3,2],
 "interfaceannis_1_1service_1_1AdminService.html#a40c9b2d35cc3cacca0ea0934570f8310":[5,0,0,14,3,0],
-"interfaceannis_1_1service_1_1AdminService.html#a812b72d08a348cbf528a65b557384cee":[5,0,0,14,3,3],
-"interfaceannis_1_1service_1_1MetadataService.html":[5,0,0,14,4]
+"interfaceannis_1_1service_1_1AdminService.html#a812b72d08a348cbf528a65b557384cee":[5,0,0,14,3,3]
 };

@@ -39,5 +39,6 @@ var dev =
         [ "length: \"#x:length=n\"", "dev-aql.html#dev-aql-length", null ],
         [ "root: \"#x:root\"", "dev-aql.html#dev-aql-root", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "Links to queries", "dev-querybyurl.html", null ]
 ];

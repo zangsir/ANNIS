@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['links_20to_20queries',['Links to queries',['../dev-querybyurl.html',1,'dev']]],
   ['label',['label',['../classannis_1_1visualizers_1_1component_1_1tree_1_1backends_1_1staticimg_1_1LabelItem.html#a767b63342048230ea573e458d31c620e',1,'annis::visualizers::component::tree::backends::staticimg::LabelItem']]],
   ['label_5fbutton_5fadd',['LABEL_BUTTON_ADD',['../classannis_1_1gui_1_1flatquerybuilder_1_1SearchBox.html#a290ee5a83f1f9cf4f292794c1872ea5d',1,'annis::gui::flatquerybuilder::SearchBox']]],
   ['label_5fclass',['LABEL_CLASS',['../classannis_1_1visualizers_1_1component_1_1RawTextVisualizer.html#a6eba91d7bc5cc6531ceeba91a9a66e1c',1,'annis::visualizers::component::RawTextVisualizer']]],
