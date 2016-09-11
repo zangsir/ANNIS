@@ -68,6 +68,7 @@ public class GridComponent extends Panel
   public static final String MAPPING_TOK_ANNOS_KEY = "tok_anno";
   public static final String MAPPING_ESCAPE_HTML = "escape_html";
   public static final String MAPPING_SHOW_NAMESPACE = "show_ns";
+  public static final String MAPPING_GRID_TEMPLATES = "templates";
   
   private AnnotationGrid grid;
   private final transient VisualizerInput input;
@@ -149,6 +150,9 @@ public class GridComponent extends Panel
     layout.addComponent(grid);
     SDocumentGraph graph = input.getDocument().getDocumentGraph();
     
+    
+    
+    
     List<SNode> tokens = CommonHelper.getSortedSegmentationNodes(segmentationName,
       graph);
     Preconditions.checkArgument(!tokens.isEmpty(), "Token list must be non-empty");
@@ -165,6 +169,77 @@ public class GridComponent extends Panel
     
     LinkedHashMap<String, ArrayList<Row>> rowsByAnnotation = 
       computeAnnotationRows(startIndex, endIndex);
+    
+    
+    
+    
+    //Get Mappings
+    String gridTemplates = input.getMappings().getProperty(MAPPING_GRID_TEMPLATES, "");
+    
+    
+    //Parse Mappings
+    String[] split = gridTemplates.split("\\|\\|");
+    for (String s : split) {
+      //example of s: entity="person"==>:), or infstat==><b>%%value%%</b>
+      String[] unit_split = s.split("==>");
+      Set set = rowsByAnnotation.entrySet();
+      // Displaying elements of LinkedHashMap
+      Iterator iterator = set.iterator();
+      while(iterator.hasNext()) {
+        //iterate over rows
+         Map.Entry me = (Map.Entry)iterator.next();
+         String rowKey=(String) me.getKey();
+         ArrayList<Row> rowValue = (ArrayList<Row>) me.getValue();
+         
+         ArrayList<GridEvent> rowEvents = rowValue.get(0).getEvents();
+         String sir="hello";   
+        
+         if (unit_split[0].indexOf('=')<0){
+           //unit_split[0] is a single instruction, e.g., infstat
+           //check if the key of a row in rowsByAnnotation is unit_split[0]
+           //if it is, we need to change every value of this row, else we dont do anything
+           String rowName = rowKey.split("::")[1];
+           if (rowName.equals(unit_split[0])){
+             //iterate over all values and replace the value with the unit_split[1]
+             for (GridEvent ev:rowEvents){
+               String origValue = ev.getValue();
+               String newValue = unit_split[1].replaceAll("%%value%%",origValue);
+               ev.setValue(newValue);
+             }
+           }
+         }
+         else{
+           //its a instruction like entity='person'
+           //first break this split into entity and person
+           // check if rowKey is entity, then when iterating over events, check if value is person
+           String rowName = rowKey.split("::")[1];
+           String targetRow = unit_split[0].split("=")[0];
+           String targetValue = unit_split[0].split("=")[1].replaceAll("\"","");
+           if (rowName.equals(targetRow)){
+             //iterate over all values and replace the value with the unit_split[1]
+             for (GridEvent ev:rowEvents){
+               String origValue = ev.getValue();
+               if (origValue.equals(targetValue)){
+                 ev.setValue(unit_split[1]);
+               }
+               //String newValue = unit_split[1].replaceAll("%%value%%",origValue);
+               
+             }
+        
+         }
+      
+         
+           
+        }
+      
+      }
+    }
+      
+    
+    
+    
+    
+    
     
     // add tokens as row
     AtomicInteger tokenOffsetForText = new AtomicInteger(-1);
