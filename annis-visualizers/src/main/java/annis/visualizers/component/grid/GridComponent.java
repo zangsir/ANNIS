@@ -178,6 +178,7 @@ public class GridComponent extends Panel
     
     
     //Parse Mappings
+    if (!gridTemplates.equals("")){
     String[] split = gridTemplates.split("\\|\\|");
     for (String s : split) {
       //example of s: entity="person"==>:), or infstat==><b>%%value%%</b>
@@ -233,6 +234,7 @@ public class GridComponent extends Panel
         }
       
       }
+     }
     }
       
     
