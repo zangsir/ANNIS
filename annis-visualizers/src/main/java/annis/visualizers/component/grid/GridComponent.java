@@ -191,9 +191,10 @@ public class GridComponent extends Panel
          Map.Entry me = (Map.Entry)iterator.next();
          String rowKey=(String) me.getKey();
          ArrayList<Row> rowValue = (ArrayList<Row>) me.getValue();
-         
-         ArrayList<GridEvent> rowEvents = rowValue.get(0).getEvents();
-         String sir="hello";   
+        for (Row rowValue1 : rowValue)
+        {
+          ArrayList<GridEvent> rowEvents = rowValue1.getEvents();
+        
         
          if (unit_split[0].indexOf('=')<0){
            //unit_split[0] is a single instruction, e.g., infstat
@@ -233,6 +234,7 @@ public class GridComponent extends Panel
            
         }
       
+       }
       }
      }
     }
